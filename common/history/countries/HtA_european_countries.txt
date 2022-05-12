@@ -1,0 +1,394 @@
+﻿COUNTRIES = {
+	c:AEN = {
+		
+		effect_starting_technology_tier_1_tech = yes
+
+		set_tax_level = medium
+		
+		# Laws
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_wealth_voting
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_colonial_resettlement
+		activate_law = law_type:law_dedicated_police
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_censorship # The July Monarchy was already backtracking on promises made in 1830
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+		
+		ig:ig_devout = { 
+			set_interest_group_name = ig_catholic_church 
+		}
+	}
+	c:AQT = {
+		#set_last_election = 1834.6.21
+		
+		effect_starting_technology_tier_1_tech = yes
+
+		set_tax_level = medium
+		
+		
+		# Laws
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_wealth_voting
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_colonial_resettlement
+		activate_law = law_type:law_dedicated_police
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_censorship # The July Monarchy was already backtracking on promises made in 1830
+
+			
+		set_institution_investment_level = {
+			institution = institution_schools
+			level = 2
+		}
+
+		set_institution_investment_level = {
+			institution = institution_police
+			level = 1
+		}
+
+#		set_institution_investment_level = {
+#			institution = institution_colonial_affairs
+#			level = 1
+#		}
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+		
+		ig:ig_devout = { 
+			set_interest_group_name = ig_catholic_church 
+		}
+
+		ig:ig_intelligentsia = {
+			set_ig_suppression = yes
+		}
+	}
+	c:BOH = {
+		effect_starting_technology_tier_1_tech = yes
+		
+		effect_starting_politics_conservative = yes
+	}
+	c:BRI = {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_conservative = yes
+	}
+	c:BBG = {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_conservative = yes
+	}
+	c:CLN = {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_conservative = yes
+	}
+	c:CRO = {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_conservative = yes
+	}
+	c:DAU = {
+		#set_last_election = 1834.6.21
+		
+		effect_starting_technology_tier_1_tech = yes
+
+		set_tax_level = medium
+		
+		
+		# Laws
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_wealth_voting
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_colonial_resettlement
+		activate_law = law_type:law_dedicated_police
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_censorship # The July Monarchy was already backtracking on promises made in 1830
+
+			
+		set_institution_investment_level = {
+			institution = institution_schools
+			level = 2
+		}
+
+		set_institution_investment_level = {
+			institution = institution_police
+			level = 1
+		}
+
+#		set_institution_investment_level = {
+#			institution = institution_colonial_affairs
+#			level = 1
+#		}
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+		
+		ig:ig_devout = { 
+			set_interest_group_name = ig_catholic_church 
+		}
+
+#		ig:ig_intelligentsia = {
+#			set_ig_suppression = yes
+#		}
+	}
+	c:HHB = {
+		effect_starting_technology_tier_2_tech = yes
+	}
+	c:HIS = {
+		set_next_election_date = 1836.7.13
+		
+		effect_starting_technology_tier_1_tech = yes
+
+		set_tax_level = medium
+
+		# Estatuto Real de 1834 was in effect; the Constitution of 1812 was not restored until August of 1836
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_landed_voting
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_legacy_slavery
+		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_colonial_exploitation
+		activate_law = law_type:law_land_based_taxation		
+
+		set_institution_investment_level = {
+			institution = institution_colonial_affairs
+			level = 2
+		}
+
+		ig:ig_intelligentsia = {
+			add_ruling_interest_group = yes # Juan Mendizabal was Prime Minister
+		}
+
+		ig:ig_devout = {
+			add_ruling_interest_group = yes
+		}
+		
+		ig:ig_devout = { 
+			set_interest_group_name = ig_catholic_church 
+		}
+		
+		ig:ig_landowners = {
+			add_ideology = ideology_pious
+		}
+	}
+	c:IRE = {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_conservative = yes
+	}
+	c:JEB = {
+		effect_starting_technology_tier_2_tech = yes
+	}
+	c:LDN = {
+		effect_starting_technology_tier_2_tech = yes
+	}
+	c:LIT = {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_conservative = yes
+	}
+	c:MNZ = {
+		effect_starting_technology_tier_2_tech = yes
+		
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_wealth_voting
+		activate_law = law_type:law_free_trade
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_per_capita_based_taxation
+	}
+	c:MCD = {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_conservative = yes
+	}
+	c:NMR = {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_conservative = yes
+	}
+	c:NAP = {
+		#set_last_election = 1834.6.21
+		
+		effect_starting_technology_tier_1_tech = yes
+
+		set_tax_level = medium
+		
+		
+		# Laws
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_wealth_voting
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_colonial_resettlement
+		activate_law = law_type:law_dedicated_police
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_censorship # The July Monarchy was already backtracking on promises made in 1830
+
+			
+		set_institution_investment_level = {
+			institution = institution_schools
+			level = 2
+		}
+
+		set_institution_investment_level = {
+			institution = institution_police
+			level = 1
+		}
+
+#		set_institution_investment_level = {
+#			institution = institution_colonial_affairs
+#			level = 1
+#		}
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+		
+		ig:ig_devout = { 
+			set_interest_group_name = ig_catholic_church 
+		}
+
+		ig:ig_intelligentsia = {
+			set_ig_suppression = yes
+		}
+	}
+	c:PDN = {
+		#set_last_election = 1834.6.21
+		
+		effect_starting_technology_tier_1_tech = yes
+
+		set_tax_level = medium
+		
+		
+		# Laws
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_wealth_voting
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_colonial_resettlement
+		activate_law = law_type:law_dedicated_police
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_censorship 
+
+			
+		set_institution_investment_level = {
+			institution = institution_schools
+			level = 1
+		}
+
+		set_institution_investment_level = {
+			institution = institution_police
+			level = 1
+		}
+
+#		set_institution_investment_level = {
+#			institution = institution_colonial_affairs
+#			level = 1
+#		}
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+		
+		ig:ig_devout = { 
+			set_interest_group_name = ig_catholic_church 
+		}
+
+#		ig:ig_intelligentsia = {
+#			set_ig_suppression = yes
+#		}
+	}
+	c:POL = {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_conservative = yes
+	}
+	c:ROM = {
+		effect_starting_technology_tier_1_tech = yes
+		
+		effect_starting_politics_conservative = yes
+	}
+	c:RUT = {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_conservative = yes
+	}
+	c:SCO = {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_conservative = yes
+	}
+	c:SEM = {
+		effect_starting_technology_tier_1_tech = yes
+		
+		effect_starting_politics_conservative = yes
+	}
+	c:SLS = {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_conservative = yes
+	}
+	c:SRM = {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_conservative = yes
+	}
+	c:TRR = {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_conservative = yes
+	}
+	c:WES = {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_conservative = yes
+	}
+}
+

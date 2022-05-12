@@ -1,0 +1,1012 @@
+﻿STATE_LOMBARDY = {
+    id = 76
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x70B8A9" "x50C060" "x4713EE" "xD04060" "x3F1E38" "x867A90" "xA40CE9" "x9AC196" }
+    traits = { "state_trait_po_river" "state_trait_alps_mountains" }
+    city = "xD04060"
+    farm = "x867A90"
+    mine = "x3F1E38"
+    wood = "x4713EE"
+    arable_land = 80
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations }
+    capped_resources = {
+        bg_iron_mining = 18
+        bg_lead_mining = 46
+        bg_logging = 6
+    }
+}
+STATE_PIEDMONT = {
+    id = 77
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x54728A" "x904061" "xD080E0" "x5F6BAA" "x11C061" "xACB500" "xA9397D" "xAA6958" "x1140E0" "xDA86EA" "x90C060" "xF00544" }
+    traits = { "state_trait_po_river" "state_trait_alps_mountains" }
+    city = "xA9397D"
+    port = "x904061"
+    farm = "x11C061"
+    mine = "x1140E0"
+    wood = "xD080E0"
+    arable_land = 70
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations }
+    capped_resources = {
+        bg_coal_mining = 14
+        bg_iron_mining = 30
+        bg_lead_mining = 30
+        bg_logging = 7
+        bg_fishing = 6
+    }
+    naval_exit_id = 3032
+}
+STATE_SARDINIA = {
+    id = 78
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x80D020" "xFD923D" "x0D6170" "xA61F49" "xDC4AE3" "x30A040" "xFA1A93" "xD8550D" }
+    city = "xDC4AE3"
+    port = "x0D6170"
+    farm = "xFD923D"
+    mine = "xFA1A93"
+    wood = "xA61F49"
+    arable_land = 20
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations }
+    capped_resources = {
+        bg_coal_mining = 10
+        bg_iron_mining = 14
+        bg_lead_mining = 14
+        bg_sulfur_mining = 10
+        bg_logging = 10
+        bg_fishing = 10
+    }
+    naval_exit_id = 3032
+}
+STATE_MALTA = {
+    id = 79
+    subsistence_building = "building_subsistence_orchards"
+    provinces = { "x015121" "x3A8B51" }
+    traits = { state_trait_natural_harbors }
+    city = "x015121"
+    port = "x015121"
+    arable_land = 4
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_sugar_plantations }
+    capped_resources = {
+        bg_fishing = 3
+    }
+    naval_exit_id = 3033
+}
+STATE_UMBRIA = {
+    id = 80
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "xD8F07B" "xE782CC" "x30C021" "x6E8D07" "x72531E" "xD3A384" }
+    city = "x30C021"
+    port = "xD3A384"
+    farm = "xD8F07B"
+    mine = "x6E8D07"
+    wood = "x30C021"
+    arable_land = 21
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations }
+    capped_resources = {
+        bg_iron_mining = 6
+        bg_logging = 6
+        bg_fishing = 5
+    }
+    naval_exit_id = 3033
+}
+STATE_CORSICA = {
+    id = 81
+    subsistence_building = "building_subsistence_pastures"
+    provinces = { "xEF4020" "x706E78" "x396B5C" }
+    city = "xEF4020"
+    port = "x40D9DB"
+    farm = "x396B5C"
+    arable_land = 8
+    arable_resources = { bg_livestock_ranches }
+    capped_resources = {
+        bg_logging = 5
+        bg_fishing = 7
+    }
+    naval_exit_id = 3032
+}
+STATE_CAMPANIA = {
+    id = 82
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x4090A0" "xDF1CE3" "x890469" "x73CE17" "x214415" "x0E8BCC" }
+    city = "x214415"
+    port = "xDF1CE3"
+    farm = "x73CE17"
+    mine = "xDF1CE3"
+    wood = "x890469"
+    arable_land = 58
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_silk_plantations bg_sugar_plantations }
+    capped_resources = {
+        bg_logging = 10
+        bg_fishing = 10
+    }
+    naval_exit_id = 3032
+}
+STATE_CALABRIA = {
+    id = 83
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "xC01020" "xC050E0" "x785460" "xE78C7B" }
+    city = "xC050E0"
+    port = "xC01020"
+    farm = "xC050E0"
+    wood = "xE78C7B"
+    arable_land = 26
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_sugar_plantations }
+    capped_resources = {
+        bg_coal_mining = 8
+        bg_iron_mining = 16
+        bg_logging = 6
+        bg_fishing = 12
+    }
+    naval_exit_id = 3033
+}
+STATE_APULIA = {
+    id = 84
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x4050DF" "xEFC992" "x74BD9B" "x30209F" "x704020" "x836841" "x2C8F44" }
+    traits = { state_trait_terra_rossa }
+    city = "x30209F"
+    port = "x74BD9B"
+    farm = "x2C8F44"
+    mine = "x704020"
+    wood = "x4050DF"
+    arable_land = 42
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_sugar_plantations }
+    capped_resources = {
+        bg_logging = 3
+        bg_fishing = 14
+    }
+    naval_exit_id = 3033
+}
+STATE_ABRUZZO = {
+    id = 85
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "xF34DC0" "x31C0A0" "x0D3025" "xA6F611" "x0AE57A" }
+    city = "x31C0A0"
+    port = "x0AE57A"
+    farm = "xA6F611"
+    mine = "x0D3025"
+    wood = "x31C0A0"
+    arable_land = 24
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_sugar_plantations }
+    capped_resources = {
+        bg_logging = 8
+        bg_fishing = 7
+    }
+    naval_exit_id = 3033
+}
+STATE_SAVOY = {
+    id = 86
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x6B4BA4" "xD000E0" "x56B04B" "xDDDD3B" "xD08060" "x7ACC0B" "x9041E0" "xA042B5" }
+    traits = { "state_trait_alps_mountains" }
+    city = "xDDDD3B"
+    farm = "xD000E0"
+    mine = "x56B04B"
+    wood = "x6B4BA4"
+    arable_land = 19
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations }
+    capped_resources = {
+        bg_iron_mining = 16
+        bg_lead_mining = 16
+        bg_logging = 10
+    }
+}
+STATE_EMILIA = {
+    id = 87
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "xF080A0" "xF08021" "xEF0021" "x700120" "x0B3B43" }
+    city = "x0B3B43"
+    port = "xF080A0"
+    farm = "x0B3B43"
+    mine = "xEF0021"
+    wood = "x700120"
+    arable_land = 37
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_silk_plantations }
+    capped_resources = {
+        bg_iron_mining = 16
+        bg_logging = 11
+        bg_fishing = 3
+    }
+    naval_exit_id = 3032
+}
+STATE_TUSCANY = {
+    id = 88
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "xF12431" "x32BA1A" "x6A7662" "xB04020" "x7080A0" "xFAFCD4" }
+    city = "xFAFCD4"
+    port = "x6A7662"
+    farm = "xF12431"
+    mine = "xB04020"
+    wood = "x32BA1A"
+    arable_land = 36
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_silk_plantations }
+    capped_resources = {
+        bg_iron_mining = 40
+        bg_sulfur_mining = 20
+        bg_logging = 10
+        bg_fishing = 5
+    }
+    naval_exit_id = 3032
+}
+STATE_ROMAGNA = {
+    id = 89
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "xF000A0" "xFE3729" "x7000A0" "x708020" }
+    city = "x7000A0"
+    port = "x708020"
+    farm = "xFE3729"
+    wood = "x708020"
+    arable_land = 25
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations }
+    capped_resources = {
+        bg_sulfur_mining = 24
+        bg_logging = 7
+        bg_fishing = 6
+    }
+    naval_exit_id = 3033
+}
+STATE_LAZIO = {
+    id = 90
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "xB0C0A0" "xB5726E" "x3040A0" "xB040A0" }
+    city = "xB5726E"
+    port = "xB5726E"
+    farm = "xB0C0A0"
+    wood = "xB040A0"
+    arable_land = 33
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_silk_plantations }
+    capped_resources = {
+        bg_monuments = 1
+        bg_logging = 10
+        bg_fishing = 7
+    }
+    naval_exit_id = 3032
+}
+STATE_VENETIA = {
+    id = 91
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "xB080A0" "x3080A0" "x8EEB7A" "xB001A0" "x3083C8" "x5141E0" "x554866" "x6984B4" "x605424" "xC02A3F" }
+    traits = { "state_trait_po_river" }
+    city = "x3083C8"
+    port = "xB001A0"
+    farm = "x5141E0"
+    mine = "x8EEB7A"
+    wood = "x6984B4"
+    arable_land = 57
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_silk_plantations }
+    capped_resources = {
+        bg_coal_mining = 22
+        bg_sulfur_mining = 18
+        bg_logging = 6
+        bg_fishing = 12
+    }
+    naval_exit_id = 3033
+}
+STATE_SICILY = {
+    id = 92
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x00D020" "xB7B8F1" "xC090A0" "xF0AF66" "x8A0548" "x702CA8" "x805120" }
+    traits = { "state_trait_sicilian_sulfur_mines" }
+    city = "xF0AF66"
+    port = "x805120"
+    farm = "x00D020"
+    mine = "xB7B8F1"
+    wood = "x8A0548"
+    arable_land = 43
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_silk_plantations bg_sugar_plantations }
+    capped_resources = {
+        bg_sulfur_mining = 50
+        bg_logging = 5
+        bg_fishing = 10
+    }
+    naval_exit_id = 3033
+}
+STATE_TOLEDO = {
+    id = 93
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x8010A0" "x88CEE5" "xA1BEC2" "xF44640" "xB02080" "xB0A000" "x92DDDA" "xF693FD" "xDCD24C" "x093A56" "xCAA3E1" "x41C3FC" "x89CA9E" "x73D6A9" "xB0A080" "x302080" "x2B550F" "xF841E6" "xB5194A" }
+    city = "x2B550F"
+    farm = "xDCD24C"
+    mine = "x88CEE5"
+    wood = "xB0A080"
+    arable_land = 34
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_sugar_plantations }
+    capped_resources = {
+        bg_logging = 5
+    }
+}
+STATE_ASTURIAS = {
+    id = 94
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x50E040" "x0EA604" "x583E92" "x167F12" "xD03554" "xD0E040" "x33F984" "xF0A000" "xB85939" "x3E77F9" "x5060C0" "xBF2564" "x0F84B8" "x525202" "xA1037C" }
+    city = "xD0E040"
+    port = "xB85939"
+    farm = "x50E040"
+    mine = "x0EA604"
+    wood = "x5060C0"
+    arable_land = 37
+    arable_resources = { bg_wheat_farms bg_livestock_ranches }
+    capped_resources = {
+        bg_iron_mining = 18
+        bg_logging = 8
+        bg_fishing = 11
+    }
+    naval_exit_id = 3029
+}
+STATE_CASTILE = {
+    id = 95
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "xB02000" "x702000" "xB3BC6E" "x590C75" "xC3ED38" "x0D5242" "x2C00C8" "x22193A" "x3A3528" "xF02000" "xCA2220" "xD060C0" "xD7A4DE" "xDC8B19" "x50E0C0" "xF44AAA" "x10C4E5" "x906201" "x24A9D6" "x38C557" "x4D18FC" "x70A000" "xB1C098" "x5DB702" "x70F50D" "x0543B8" "xD30171" }
+    city = "x70A000"
+    farm = "x38C557"
+    mine = "x0D5242"
+    wood = "x0543B8"
+    arable_land = 55
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_tobacco_plantations }
+    capped_resources = {
+        bg_coal_mining = 18
+        bg_iron_mining = 18
+        bg_logging = 5
+    }
+}
+STATE_NAVARRA = {
+    id = 96
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "xAC1425" "x9EC9B8" "x10E0C0" "xCB3245" "xABE0B3" "x702080" "x48868C" }
+    traits = { "state_trait_pyrenees_mountains" }
+    city = "xAC1425"
+    port = "x48868C"
+    farm = "x10E0C0"
+    mine = "xCB3245"
+    wood = "x702080"
+    arable_land = 36
+    arable_resources = { bg_wheat_farms bg_livestock_ranches }
+    capped_resources = {
+        bg_coal_mining = 30
+        bg_iron_mining = 40
+        bg_logging = 10
+        bg_fishing = 6
+    }
+    naval_exit_id = 3029
+}
+STATE_ARAGON = {
+    id = 97
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x30A080" "x5FB607" "x506040" "x3CBF9E" "x45B331" "xA603C7" "x9060C0" "x339B06" "x076DE0" "x2555A4" "x202982" }
+    traits = { "state_trait_pyrenees_mountains" }
+    city = "x45B331"
+    farm = "x506040"
+    mine = "x45B331"
+    wood = "x339B06"
+    arable_land = 22
+    arable_resources = { bg_wheat_farms bg_livestock_ranches }
+    capped_resources = {
+        bg_coal_mining = 18
+        bg_lead_mining = 24
+        bg_logging = 7
+    }
+}
+STATE_CATALONIA = {
+    id = 98
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "xC2FFD9" "x890622" "x906040" "xE0C020" "x11E041" "x936FF3" "x945748" "xD616D2" "x08B4D6" "x2914C3" "x0C64AC" }
+    traits = { "state_trait_pyrenees_mountains" }
+    city = "xE0C020"
+    port = "x890622"
+    farm = "x11E041"
+    mine = "x08B4D6"
+    wood = "x906040"
+    arable_land = 36
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_tobacco_plantations }
+    capped_resources = {
+        bg_lead_mining = 16
+        bg_logging = 5
+        bg_fishing = 12
+    }
+    naval_exit_id = 3032
+}
+STATE_BALEARES = {
+    id = 99
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x60F080" "x7D3FD7" }
+    city = "x60F080"
+    port = "x7D3FD7"
+    arable_land = 7
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_tobacco_plantations }
+    capped_resources = {
+        bg_logging = 2
+        bg_fishing = 5
+    }
+    naval_exit_id = 3032
+}
+STATE_ANDALUSIA = {
+    id = 100
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x4E5464" "xB1108A" "xD06000" "x4A1438" "x801020" "x53634F" "x3C4E5B" "x809020" "x59202C" "x911497" "x2B6ABC" "x58E3EB" }
+    city = "x4A1438"
+    port = "xD06000"
+    farm = "x3C4E5B"
+    mine = "x801020"
+    wood = "x2B6ABC"
+    arable_land = 29
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_tobacco_plantations bg_sugar_plantations }
+    capped_resources = {
+        bg_iron_mining = 20
+        bg_sulfur_mining = 30
+        bg_logging = 3
+        bg_fishing = 9
+    }
+    naval_exit_id = 3031
+}
+STATE_GRANADA = {
+    id = 101
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "xBC6ED3" "x2030C0" "x20B040" "x27E575" "xA0B040" "xEE7F54" "x099199" "x0010A0" "x0362A1" "xEB9217" "xF50658" "x07E82B" "x203DB5" }
+    city = "xA0B040"
+    port = "x2CFAFA"
+    farm = "x27E575"
+    mine = "x20B040"
+    wood = "x099199"
+    arable_land = 35
+    arable_resources = { bg_rice_farms bg_livestock_ranches bg_cotton_plantations bg_silk_plantations bg_tobacco_plantations bg_sugar_plantations }
+    capped_resources = {
+        bg_logging = 3
+        bg_fishing = 8
+    }
+    naval_exit_id = 3031
+}
+STATE_BADAJOZ = {
+    id = 102
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x009020" "xB4471A" "x679A01" "x506000" "xF19B02" "x97FBA4" "x30A000" "x342BE6" "xE47DCF" "xC694C3" "x7500D4" "x4A8E78" }
+    city = "x679A01"
+    farm = "xF19B02"
+    mine = "x7500D4"
+    wood = "x30A000"
+    arable_land = 21
+    arable_resources = { bg_wheat_farms bg_livestock_ranches }
+    capped_resources = {
+        bg_logging = 11
+    }
+}
+STATE_VALENCIA = {
+    id = 103
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x71158B" "xB03776" "xDFEF80" "x626878" "xA03040" "x6549AD" "x25DD5C" "xE0BED4" "x134657" "x8FDF80" "x99E5CE" "xCAC27C" "x721583" "xD06040" }
+    city = "x8FDF80"
+    port = "x40D9DB"
+    farm = "x626878"
+    mine = "xE0BED4"
+    wood = "xD06040"
+    arable_land = 54
+    arable_resources = { bg_rice_farms bg_livestock_ranches bg_cotton_plantations bg_silk_plantations bg_tobacco_plantations }
+    capped_resources = {
+        bg_coal_mining = 30
+        bg_iron_mining = 20
+        bg_lead_mining = 20
+        bg_logging = 4
+        bg_fishing = 10
+    }
+    naval_exit_id = 3032
+}
+STATE_BEIRA = {
+    id = 104
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x3020A3" "xE24C15" "x9238AD" "xF92B7F" "xE415AF" "xD0A000" "xD0E0C0" "x0EF845" "x641376" "xA64B2E" "x37ADD8" }
+    city = "xD0A000"
+    port = "xD0A000"
+    farm = "xF92B7F"
+    mine = "x9238AD"
+    wood = "xE24C15"
+    arable_land = 47
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_tobacco_plantations bg_banana_plantations }
+    capped_resources = {
+        bg_logging = 4
+        bg_fishing = 5
+    }
+    naval_exit_id = 3029
+}
+STATE_ESTREMADURA = {
+    id = 105
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x545164" "xD0A080" "xD02000" "x50A000" "xA0F6EC" }
+    city = "x545164"
+    port = "x50A000"
+    farm = "xA0F6EC"
+    mine = "x50A000"
+    wood = "xD02000"
+    arable_land = 25
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_tobacco_plantations bg_banana_plantations }
+    capped_resources = {
+        bg_logging = 3
+        bg_fishing = 8
+    }
+    naval_exit_id = 3029
+}
+STATE_ALENTEJO = {
+    id = 106
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x207080" "x88DCE1" "xA07080" "x8B17E3" "xEFC9BC" "xEBA935" "xB0177A" "xC3BFC4" "x84A822" }
+    city = "xEFC9BC"
+    port = "x88DCE1"
+    farm = "x207080"
+    mine = "xA07080"
+    wood = "xC3BFC4"
+    arable_land = 22
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_banana_plantations }
+    capped_resources = {
+        bg_coal_mining = 14
+        bg_iron_mining = 16
+        bg_sulfur_mining = 10
+        bg_logging = 2
+        bg_fishing = 4
+    }
+    naval_exit_id = 3029
+}
+STATE_CAPE_VERDE = {
+    id = 107
+    subsistence_building = "building_subsistence_pastures"
+    provinces = { "x4B7FA5" "xE8E7A2" "xA2E8C5" "xA2C3E8" }
+    impassable = { "x4B7FA5" }
+    city = "xA2E8C5"
+    port = "x4B7FA5"
+    farm = "xE8E7A2"
+    wood = "xE8E7A2"
+    arable_land = 4
+    arable_resources = { bg_wheat_farms bg_coffee_plantations bg_cotton_plantations bg_sugar_plantations }
+    capped_resources = {
+        bg_logging = 1
+        bg_fishing = 3
+    }
+    naval_exit_id = 3088
+}
+STATE_CANARY_ISLANDS = {
+    id = 1010
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "xF0EF86" "x20EF01" "x655491" "x64C2B3" "xC2C164" }
+    impassable = { "xF0EF86" }
+    city = "x655491"
+    port = "x5FDDFB"
+    farm = "x20EF01"
+    mine = "x64C2B3"
+    wood = "xC2C164"
+    arable_land = 6
+    arable_resources = { bg_wheat_farms bg_coffee_plantations bg_cotton_plantations bg_sugar_plantations }
+    capped_resources = {
+        bg_logging = 1
+        bg_fishing = 4
+    }
+    naval_exit_id = 3089
+}
+STATE_AZORES = {
+    id = 1011
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x90A080" "x9B6D87" "x769456" }
+    impassable = { "x90A080" }
+    city = "x3DCACA"
+    port = "x769456"
+    farm = "x9B6D87"
+    arable_land = 6
+    arable_resources = { bg_wheat_farms bg_coffee_plantations bg_cotton_plantations bg_sugar_plantations bg_banana_plantations }
+    capped_resources = {
+        bg_logging = 2
+        bg_fishing = 5
+    }
+    naval_exit_id = 3069
+}
+STATE_MADEIRA = {
+    id = 1012
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x385719" "x4D5156" }
+    impassable = { "x4D5156" }
+    city = "x4D5156"
+    port = "x385719"
+    arable_land = 4
+    arable_resources = { bg_wheat_farms bg_coffee_plantations bg_cotton_plantations bg_sugar_plantations }
+    capped_resources = {
+        bg_logging = 1
+        bg_fishing = 3
+    }
+    naval_exit_id = 3089
+}
+STATE_THRACE = {
+    id = 108
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x2073F0" "x115006" "x194E90" "x30A060" "xF0A020" "xF02082" "x608BB0" "xFCF160" }
+    city = "xF0A020"
+    port = "x2073F0"
+    farm = "x115006"
+    mine = "xFCF160"
+    wood = "x608BB0"
+    arable_land = 34
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_silk_plantations bg_tobacco_plantations }
+    capped_resources = {
+        bg_monuments = 1
+        bg_iron_mining = 12
+        bg_logging = 3
+        bg_fishing = 10
+    }
+    naval_exit_id = 3035
+}
+STATE_DOBRUDJA = {
+    id = 109
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x316021" "xA3D7CE" "x940C8D" "xB06121" "x7F25CD" "x7763F3" "xD9E021" "x50F5CB" }
+    traits = { "state_trait_danube_river" }
+    city = "x7763F3"
+    port = "x7F25CD"
+    farm = "xB06121"
+    mine = "xA3D7CE"
+    wood = "x940C8D"
+    arable_land = 13
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_tobacco_plantations }
+    capped_resources = {
+        bg_logging = 10
+        bg_fishing = 7
+    }
+    naval_exit_id = 3036
+}
+STATE_ALBANIA = {
+    id = 110
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x7BE071" "x71C0E0" "xC42EC6" "xD0A061" "xC771E0" "x5A148F" "x51A061" "x68131C" "xB77F92" }
+    traits = { state_trait_terra_rossa }
+    city = "xD0A061"
+    port = "xC771E0"
+    farm = "x71C0E0"
+    mine = "x68131C"
+    wood = "xC42EC6"
+    arable_land = 38
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_tobacco_plantations }
+    capped_resources = {
+        bg_iron_mining = 16
+        bg_logging = 5
+        bg_fishing = 8
+    }
+    naval_exit_id = 3033
+}
+STATE_BOSNIA = {
+    id = 111
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x9021E0" "x5F13FD" "xAC2DD3" "x1121E0" "x51A0A0" "xD021A0" "x3F67BA" "x23D67C" "xF06101" "x19AF6A" "x50209F" "xD0A0A0" "x7C904A" "x3B7D2B" "xDA817B" "x1E7362" "xA40356" }
+    city = "x51A0A0"
+    farm = "x7C904A"
+    mine = "x5F13FD"
+    wood = "xDA817B"
+    arable_land = 26
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_tobacco_plantations }
+    capped_resources = {
+        bg_iron_mining = 32
+        bg_lead_mining = 26
+        bg_logging = 12
+    }
+}
+STATE_RUMELIA = {
+    id = 112
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "xF021A0" "xF0A0E0" "xC7D441" "x6E7192" "xD06121" "x52BF3E" "x0DE556" "x7121A0" "x9D0D6C" "x95BCE8" "x15CDCD" "xAF56D0" "xEFEAA0" "x455522" "xC59A98" }
+    city = "xC59A98"
+    port = "xAF56D0"
+    farm = "x15CDCD"
+    mine = "x95BCE8"
+    wood = "x6E7192"
+    arable_land = 23
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_tobacco_plantations }
+    capped_resources = {
+        bg_iron_mining = 22
+        bg_logging = 15
+        bg_fishing = 6
+    }
+    naval_exit_id = 3036
+}
+STATE_BULGARIA = {
+    id = 113
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x71A0A0" "xC2E2B9" "xE8D59C" "xF0A0A0" "xEC96F3" "x64275F" "xCDD237" "xC866AF" "x6768DB" "xB4F1D6" "xB55757" "x2038F6" }
+    traits = { "state_trait_danube_river" }
+    city = "x71A0A0"
+    port = "xF0A0A0"
+    farm = "x64275F"
+    mine = "xCDD237"
+    wood = "x6768DB"
+    arable_land = 31
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations }
+    capped_resources = {
+        bg_logging = 12
+        bg_fishing = 2
+    }
+    naval_exit_id = 3036
+}
+STATE_SLOVENIA = {
+    id = 114
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "xB0E040" "x792B8A" "x44F127" "x31E041" "xA709B7" }
+    traits = { "state_trait_drava_river" }
+    city = "x44F127"
+    farm = "x31E041"
+    mine = "xA709B7"
+    wood = "x792B8A"
+    arable_land = 21
+    arable_resources = { bg_wheat_farms bg_livestock_ranches }
+    capped_resources = {
+        bg_coal_mining = 30
+        bg_logging = 10
+    }
+}
+STATE_DALMATIA = {
+    id = 115
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x90A0E0" "x11A0E0" "xF9421B" "xEFA0C0" }
+    traits = { state_trait_krka_falls state_trait_terra_rossa }
+    city = "xF9421B"
+    port = "xF9421B"
+    farm = "xEFA0C0"
+    wood = "xEFA0C0"
+    arable_land = 21
+    arable_resources = { bg_wheat_farms bg_livestock_ranches }
+    capped_resources = {
+        bg_logging = 3
+        bg_fishing = 13
+    }
+    naval_exit_id = 3033
+}
+STATE_CROATIA = {
+    id = 116
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "xB339EC" "x71A0C0" "xB39050" "xF021C0" "x70DF00" "x6D8BC6" "x71A041" "x458E4C" "x124D73" }
+    traits = { state_trait_drava_river state_trait_terra_rossa }
+    city = "x71A041"
+    port = "xF0A040"
+    farm = "x6D8BC6"
+    mine = "xF021C0"
+    wood = "x70DF00"
+    arable_land = 30
+    arable_resources = { bg_wheat_farms bg_livestock_ranches }
+    capped_resources = {
+        bg_coal_mining = 30
+        bg_logging = 10
+        bg_fishing = 5
+    }
+    naval_exit_id = 3033
+}
+STATE_SLAVONIA = {
+    id = 117
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x80CF00" "x106020" "x13318D" "x906121" "x51A021" }
+    traits = { "state_trait_danube_river" }
+    city = "x80CF00"
+    farm = "x906121"
+    mine = "x51A021"
+    wood = "x106020"
+    arable_land = 17
+    arable_resources = { bg_wheat_farms bg_livestock_ranches }
+    capped_resources = {
+        bg_logging = 12
+    }
+}
+STATE_ISTRIA = {
+    id = 118
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "xB061C0" "x36B2E3" "xF0A040" "x3060BF" "x108021" "x56C78A" }
+    traits = { state_trait_terra_rossa }
+    city = "x3060BF"
+    port = "x36B2E3"
+    farm = "xF0A040"
+    mine = "x56C78A"
+    wood = "x108021"
+    arable_land = 23
+    arable_resources = { bg_wheat_farms bg_livestock_ranches }
+    capped_resources = {
+        bg_coal_mining = 22
+        bg_logging = 4
+        bg_fishing = 14
+    }
+    naval_exit_id = 3033
+}
+STATE_MONTENEGRO = {
+    id = 119
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x446E84" "x8C6292" "xA12F82" "xF5F6C2" }
+    traits = { state_trait_terra_rossa }
+    city = "x446E84"
+    port = "x3BDCFA"
+    farm = "xA12F82"
+    wood = "xA12F82"
+    arable_land = 10
+    arable_resources = { bg_wheat_farms bg_livestock_ranches }
+    capped_resources = {
+        bg_lead_mining = 16
+        bg_logging = 3
+    }
+    naval_exit_id = 3033
+}
+STATE_NORTHERN_SERBIA = {
+    id = 120
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x90A061" "xEDBA20" "x9061A0" "x4B1F45" "x74F1F4" "x3B6092" "x40AF95" "x4D115A" "x10A060" "xF9E78E" }
+    traits = { "state_trait_danube_river" }
+    city = "xF9E78E"
+    farm = "x3B6092"
+    mine = "x9061A0"
+    wood = "xEDBA20"
+    arable_land = 25
+    arable_resources = { bg_wheat_farms bg_livestock_ranches }
+    capped_resources = {
+        bg_iron_mining = 16
+        bg_logging = 11
+    }
+}
+STATE_SOUTHERN_SERBIA = {
+    id = 121
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "xA5D3A9" "xD02161" "x62A730" "xAC083C" "x45E06A" "xB852BB" "x9DFFAF" "xD021E0" "x4773E6" "x334B53" "x18B761" }
+    city = "x45E06A"
+    farm = "xD02161"
+    mine = "x334B53"
+    wood = "xD021E0"
+    arable_land = 31
+    arable_resources = { bg_wheat_farms bg_livestock_ranches }
+    capped_resources = {
+        bg_coal_mining = 20
+        bg_lead_mining = 24
+        bg_logging = 12
+    }
+}
+STATE_CRETE = {
+    id = 122
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x0B9BBE" "x6010A0" }
+    city = "x0B9BBE"
+    port = "x6010A0"
+    arable_land = 8
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_tobacco_plantations }
+    capped_resources = {
+        bg_logging = 2
+        bg_fishing = 5
+    }
+    naval_exit_id = 3034
+}
+STATE_WEST_AEGEAN_ISLANDS = {
+    id = 123
+    subsistence_building = "building_subsistence_orchards"
+    provinces = { "x6960A0" "x6090A0" }
+    city = "x6090A0"
+    port = "x46C8FA"
+    arable_land = 4
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_tobacco_plantations }
+    capped_resources = {
+        bg_fishing = 4
+    }
+    naval_exit_id = 3034
+}
+STATE_EAST_AEGEAN_ISLANDS = {
+    id = 1001
+    subsistence_building = "building_subsistence_orchards"
+    provinces = { "xE011A0" "xC56452" "x2190A0" }
+    city = "xC56452"
+    port = "x46C8FA"
+    farm = "x2190A0"
+    arable_land = 6
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_tobacco_plantations }
+    capped_resources = {
+        bg_fishing = 6
+    }
+    naval_exit_id = 3034
+}
+STATE_ATTICA = {
+    id = 124
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x8D7F62" "xC72C61" "xA010A0" "x465F8D" "xCA246A" "x518791" "xBF5160" "x0A645C" }
+    city = "xC72C61"
+    port = "x518791"
+    farm = "x0A645C"
+    mine = "x465F8D"
+    wood = "x518791"
+    arable_land = 24
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_tobacco_plantations }
+    capped_resources = {
+        bg_lead_mining = 14
+        bg_sulfur_mining = 16
+        bg_logging = 6
+        bg_fishing = 8
+    }
+    naval_exit_id = 3033
+}
+STATE_THESSALIA = {
+    id = 125
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x8050E0" "x01D0E0" "x80D060" "xACFFA7" "xE6E868" "x18C9AD" }
+    city = "x80D060"
+    port = "xACFFA7"
+    farm = "x80D060"
+    mine = "x8050E0"
+    wood = "x01D0E0"
+    arable_land = 41
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_tobacco_plantations }
+    capped_resources = {
+        bg_logging = 10
+        bg_fishing = 5
+    }
+    naval_exit_id = 3033
+}
+STATE_NORTH_MACEDONIA = {
+    id = 126
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x800FE7" "xE0118B" "x494421" "x11E0A0" "x419E6F" "x596DE2" "x7CF777" }
+    city = "x7CF777"
+    farm = "x11E0A0"
+    mine = "x596DE2"
+    wood = "x494421"
+    arable_land = 29
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_tobacco_plantations }
+    capped_resources = {
+        bg_iron_mining = 24
+        bg_logging = 14
+    }
+}
+STATE_WEST_MACEDONIA = {
+    id = 127
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x01D060" "x75CAD1" "x506020" "x90E0A0" "xBA7B5B" }
+    city = "x506020"
+    port = "x506020"
+    farm = "x506020"
+    mine = "x90E0A0"
+    wood = "x90E0A0"
+    arable_land = 18
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_tobacco_plantations }
+    capped_resources = {
+        bg_logging = 8
+        bg_fishing = 3
+    }
+    naval_exit_id = 3034
+}
+STATE_EAST_MACEDONIA = {
+    id = 128
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "xD2619E" "x021374" "xE48F39" "x702020" "x70A0E0" "xEDECFB" "xF02020" "x6181D2" "xBE51B7" "xB2249C" "x0261AB" }
+    city = "x70A0E0"
+    port = "xF02020"
+    farm = "x6181D2"
+    mine = "x021374"
+    wood = "xBE51B7"
+    arable_land = 22
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_silk_plantations bg_tobacco_plantations }
+    capped_resources = {
+        bg_iron_mining = 18
+        bg_logging = 4
+        bg_fishing = 10
+    }
+    naval_exit_id = 3035
+}
+STATE_IONIAN_ISLANDS = {
+    id = 129
+    subsistence_building = "building_subsistence_orchards"
+    provinces = { "x405060" "x4B79CA" }
+    city = "x4B79CA"
+    port = "x405060"
+    arable_land = 8
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_tobacco_plantations }
+    capped_resources = {
+        bg_fishing = 5
+    }
+    naval_exit_id = 3033
+}
+STATE_PELOPONNESE = {
+    id = 130
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x0055D7" "xC0D060" "x43409D" "x61E57E" "xBA3449" }
+    city = "x0055D7"
+    port = "x0055D7"
+    farm = "xC0D060"
+    mine = "x43409D"
+    wood = "x61E57E"
+    arable_land = 12
+    arable_resources = { bg_wheat_farms bg_livestock_ranches bg_cotton_plantations bg_tobacco_plantations }
+    capped_resources = {
+        bg_iron_mining = 14
+        bg_logging = 4
+        bg_fishing = 10
+    }
+    naval_exit_id = 3033
+}

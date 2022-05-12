@@ -1,0 +1,28 @@
+﻿CHARACTERS = {
+	c:BOH = {
+		create_character = {
+			first_name = "Ladislaus_IV"
+			last_name = "von_Escherloch"
+			ruler = yes
+			age = 57
+			interest_group = ig_landowners
+			traits = {
+				reserved
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Jaroslav"
+			last_name = "von_Escherloch"
+			heir = yes
+			age = 30
+			interest_group = ig_petty_bourgeoisie
+			traits = {
+				direct
+			}
+		}
+	}
+}

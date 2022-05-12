@@ -1,0 +1,246 @@
+﻿AEN = { #Aengland
+	color = { 124 72 21 } #ochre-brown, yes
+	# brown { 100 60 20 }
+	# very deep red, nice{ 80 0 0 } #yes
+	# greyerish red{ 140 75 75 } # yes
+	# rich cyan { 0 180 190 }
+	# pale cyan{ 85 200 175 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { british }
+	capital = STATE_HOME_COUNTIES
+}
+AQT = { #Aquitania
+	color = { 192 40 247 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { aquitanian }
+	capital = STATE_LANGUEDOC
+}
+ARM = {
+	color = { 133  244  244 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { armenian }
+	capital = STATE_ARMENIA
+	is_named_from_capital = yes
+}
+BBG = { #Brandenburg
+	color = { 252 160 109 }
+	
+	country_type = recognized
+	
+	tier = grand_principality
+	
+	cultures = { north_german	}
+	capital = STATE_BRANDENBURG
+}
+CLN = { #Cologne
+	color = { 160 99 69 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { north_german }
+	capital = STATE_NORTH_RHINE
+}
+CRO = {
+	color = { 174  227  95 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { croat }
+	capital = STATE_DALMATIA
+	is_named_from_capital = yes
+}
+DAU = { #Daufinat
+	color = { 74 247 134 }
+	
+	country_type = recognized
+	
+	tier = grand_principality
+	
+	cultures = { aquitanian }
+	capital = STATE_RHONE
+}
+HAN = {
+	color = { 164  217  127 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_HANNOVER
+	is_named_from_capital = yes
+}
+HHB = { #Hochburg
+	color = { 239 199 0 } #old color{ 120 40 20 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { south_german }
+	capital = STATE_BADEN
+}
+HIS = {
+	color = hsv360{ 0 71 74 } #yellow is overrated
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { spanish }
+	capital = STATE_TOLEDO
+}
+JEB = { #Jebenhausen
+	color = { 182 84 153 }
+	
+	country_type = recognized
+	
+	tier = principality
+	cultures = { south_german }
+	capital = STATE_WURTTEMBERG
+}
+LDN = { #Ladenburg
+	color = { 97 146 40 }
+	
+	country_type = recognized
+	
+	tier = principality
+	cultures = { south_german }
+	capital = STATE_BADEN
+}
+LOG = { #Logria, Aenglish colony in OTL southern US
+	color = { 5 100 130 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { dixie yankee }
+	capital = STATE_GEORGIA
+}
+MCD = { #Macedonia/Makedon
+	color = { 253 134 65 }
+	
+	country_type = recognized
+	
+	tier = principality
+	cultures = { roman greek }
+	capital = STATE_EAST_MACEDONIA
+}
+MNZ = { #Mainz
+	color = { 168 143 44 }
+	
+	country_type = recognized
+
+	tier = city_state
+	
+	cultures = { north_german }
+	capital = STATE_HESSE
+}
+NAP = { #Naples
+	color = { 14 83 105 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { south_italian }
+	capital = STATE_CAMPANIA
+}
+NMR = { #Namur
+	color = { 173 55 86 }
+	
+	country_type = recognized
+
+	tier = grand_principality
+	
+	cultures = { wallonian }
+	capital = STATE_WALLONIA
+}
+PDN = { #Padan Union
+	color = { 207 241 85 }
+	
+	country_type = recognized
+	
+	tier = grand_principality
+	
+	cultures = { north_italian }
+	capital = STATE_LOMBARDY
+}
+ROM = { #Roman Empire
+	color = { 102 2 60 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { roman greek anatolian }
+	capital = STATE_THRACE
+}
+RUT = { #Ruthenia (working name)
+	color = { 105 170 120 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { ukrainian }
+	capital = STATE_KIEV
+}
+SEM = { #Semia
+	color = { 60 60 60 }
+	
+	country_type = recognized
+	
+	tier = empire
+	
+	cultures = { latvian russian }
+	capital = STATE_SMOLENSK
+}
+SLS = { #Silesia
+	color = { 104 190 222 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { polish }
+	capital = STATE_SILESIA
+}
+SRM = { #Syrmia
+	color = { 141 157 236 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { serb }
+	capital = STATE_VOJVODINA
+}
+TRR = { #Trier
+	color = { 245 211 118 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { north_german }
+	capital = STATE_RHINELAND
+}
+#VOL = { #Volasea aka HtA Romania

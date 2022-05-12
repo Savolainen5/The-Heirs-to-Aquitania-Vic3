@@ -1,0 +1,12 @@
+﻿SIC = {
+	states = {
+		STATE_SICILY
+	}
+	ai_will_do = { always = no }
+}
+#Romagna = {									#To be added still - RMG
+#	states = {
+#		STATE_ROMAGNA
+#	}
+#	ai_will_do = { always = no }
+#}

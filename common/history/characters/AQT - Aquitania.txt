@@ -1,0 +1,32 @@
+﻿CHARACTERS = {
+	c:AQT = {
+		create_character = {
+			first_name = "Raimond_VIII"
+			last_name = "de_Mauguio"
+			culture = cu:aquitanian
+			ethnicity = caucasian_base
+			ruler = yes
+			age = 66 #Born 10.03.1773
+			interest_group = ig_petty_bourgeoisie
+			traits = {
+				imperious
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Raimond" #future Raimond IX
+			last_name = "de_Mauguio"
+			culture = cu:aquitanian
+			ethnicity = caucasian_base
+			heir = yes
+			age = 26
+			interest_group = ig_armed_forces
+			traits = {
+				arrogant
+			}
+		}
+	}
+}

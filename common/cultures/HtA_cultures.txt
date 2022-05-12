@@ -1,0 +1,673 @@
+﻿aenglisc={
+	color={ 247  56  42 }
+	religion = catholic
+	traits = { anglophone european_heritage }
+
+	male_common_first_names={
+		Aelfgar Aelric Aelwold Aethelber Aethelwine Arnolf Azur
+		Bordelm Borthric Bortsige Borwin Boren Bricmer Burghard Byrnod 
+		Cenwulf Cerdic Cnut Cola Copsige Cuthbert Cypping Doda
+		Edmer Edric Edulf Edweard Edwig Edwin Eldred Ealdwulf Enfrid Estan
+		Fulcred Fulcwin Gamal Godwin Grim Gudmund Gyrd 
+		Hacon Haimo Harold Herlewin Inwer Ivo Ledmer Lofget Lofric Lofweld Lofwin 
+		Maccus Manno Merlwen Morcar Odo Ordgar Orm Osborn Osmund Osric Oswin
+		Petre Radwulf Rafwin Renweld Roberth
+		Sarwin Sigeric Siward Stigand Swegn Swithelm Swithring
+		Thedric Thored Thurfrid Tosti Turstin Ulf 
+		Waldof Wiglaf Wigot Woro Wulf Wulfhelm
+	}
+	
+	female_common_first_names = { #Converted "eo" to "e", Ash to "ae", "-yth" to "-yd" mostly, most "ht" to just "t", "Ecg" to "Ec", "-gifu" to "-gif" and did some other simplification. These names otherwise drawn from CK2
+		Aebba Aelfflaed Aelfgif	Aelfgyd	Aelflaeda Aelfrida Aelfthryd Aelfwynn Aethelburg Aethelburh Aethelflaed Aethelgif Aethelhild Aethelreda Aethelswith
+		Aethelthryd Agatha Balthild Berhtgyd Berhtwaru Berhtwynn Bernflaed Berngyd Bertflaed Bertgif Blaeja Burgflaed Celflaed Cristina Cuthburg Cwenburg Cyneburg
+		Cynegyd Cynehild Cyneswith Cynethryd Eadburg Eadflaed Eadgif Eadgyd Eadhburh Eadhild Ealdgyd Ecfrida Ecwyn Godgif Gunhild Gyda Helga Heregyd Hereswith
+		Hexilda Hungif Judith Lefflaed Lefgif Lefrun Lefwar Lefwynn Margaret Maud Mildrith Octreda Saethryd Seaxburh Sifflaed Sigrid Waerburg Witburhyd
+		Wulfflaed Wulfgif Wulfgyd Wulfhild Wulfrun Wulfthryd Wulfwaru Wulfwynn Wynnflaed
+	}
+	
+	common_last_names = {
+		Aelfstan Aethelwerd Alby Algot Alston Altone Autibern Bennag Birkenfod Blec Bodwin Brictric Bruning Carlel
+		Cetham Colling Conded Corelmann Daging Danmann Denholm Dirling Edwys Elton Erle Estone Etwell Felcener Fingast
+		Gren Grencin Grimbald Halwel Hegden Heghurst Hering Holcastre Kemp Ketilbern Kollung Langfer Latton_Parhome
+		Lester Lincleg Lyter Marculf Mertuna Mundred Nawen Normann Nortuna Oforbert Ogercin Othenkar of_Alwold of_Cottesbec
+		of_Crawa of_Grensted of_Hesdin of_Hopa of_Marck of_Niwetun of_Torcy of_Tosny of_Tregole of_Waddsdone Paddan Peasmor
+		Prest Ramseg Reeve Rid Roscow Rowleg Saswalo Scottow Serlo Shelswell Somes Smid Still Swening Thein Tomsete Totibarn
+		Urso Vilgrip Vitalis Waler Weld Wulfno
+	}
+	
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+aquitanian={
+	color={ 192 40 247 }
+	religion = catholic
+	traits = { aquophone european_heritage }
+	
+	male_common_first_names={
+		Achillo Alban Alber Alfons Amance Amede_ Amiel Andieu Ane_ir Anicet Anto_ni Alo_i Arnaud Arroman Aymar
+		Baptisto_u Basil Bastian Beno_ni Benvingut Bero_t Bernat Berenguer Brasc
+		Camil Carle Cesar Ciriac Colau Constantin Cristau Cristo_l Cristo_fol
+		Dama_s Danis Da_vi Deme_tri Domician Donat
+		Ecto_r Emanue_l Enric Ernest Estaqui Este_ve
+		Fabian Faustin Felip Fermin Fide_l Filemon Florentin Frederic Franc
+		Gabrie_u Gaston Gassan German Gilda_s Guilhe_m Guiraud Gustavi
+		Huc Iacin Ignac_ Ilari Ipolit
+		Jacin Jacomin Jan Jaufre Javie_r Jere_mi Jordan Jo_rdi Joset Just Justin
+		Landri Laurenc_ Leandri Leon Leopo_ld Lissandre Lop Luc Luis
+		Maissim Manue_l Marce_l Marin Martin Maurin Miche_u Morgan
+		Nari Nice_fo_r Nicolau Olimp Onorat Orens
+		Pantali Pascau Pau Pe_ire Peyro_t Pier Po_li Pons Privat
+		Rambaut Raol Re_gis Renat Robe_rt Roc Roman Rogier Rome_u Rosan Rufin
+		Salvaire Savaric Sebastian Sergi Severin Sicard Silvan
+		Teobald Teodor Terenci Ton Totsants Tristan
+		Uc Ulisses Umbert Urban
+		Valent Vale_ri Vesiat Vicens Victo_r Virge_li Xavier
+		Zavie_r Zeno
+	}
+	female_common_first_names = {
+		Abe_la Ade_la Adriana Agata Agusta Amada Alda Alessia Ambra Anaissa Angelina Antonieta Audeta Auro_ra
+		Batistina Barbara_ Beatriz Bruna
+		Camila Carlo_ta Carolina Carmen Cassania Catalina Cendroleta Chantal Clara Clarissa Claudeta Coleta Colombina Cristiana
+		Dafne_ Dalfina Danie_la Desirada Diana Dorote_a
+		Edita Eliana Elisa Elisabe_t Emmanuela Erminia Esmerauda Eufra_sia Euge_nia Euse_bia E_va Evelina
+		Fabiana Faneta Faustina Felicia Felipina Ferranda Fina Fla_via Florentina Franc_a Frederica
+		Gabriela Gaetana Gaudencia Gema Gilbe_rta Girauda Gise_la Gracia Guislana Gustina
+		Ida Ine_s Ire_na Isabe_l Isaura Ise_u Iveta
+		Jacinta Jacomina Joana Joe_la Judit Julia Julieta Justina
+		Laura Lea Leti_cia Linon Liseta Loba Lu_cia Lucre_cia Lutz
+		Mae_lis Magali Madalena Maili_s Manon Manuela Margarida Maria Martina Matilda Melina Merce_ Miramond Monica Morgana
+		Nadalia Nadina Naneta Ne_us Nico_la Norina
+		Octa_via Ofe_lia Orsula
+		Pascala Patricia Patz Paula Pe_ira Plasenc_a Prima
+		Rafe_la Raimonda Rejana Rita Robina Ro_sa Rosana Roxana Rut
+		Sabina Sareta Serena Sibilha Silvia Simona Solanja Susanna
+		Tatiana Tere_sa Ugueta Valenta Verana Victorina Viva Zita Zoe_
+	}
+	common_last_names={
+		Abat Amiel Andrieu Anfo_s Aramits Auriol Aushe_s  Avelan Aversenc Aze_ma
+		Balssa Bartas Bec Becca Benet Beneset Bernat Boie_r Bo_rda Bo_sc
+		Cabro_l Carrel Casalet Casassus Casau Castanhe_r Castre_s Cavaille_s Ceppi Cuc
+		Dardier Delpuech Dorta 
+		Escude_r Este_ve Estiu
+		Faure Forastier Forneiron Fraissinet
+		Gamba Gle_isa Gilbert Goujaud Guasco
+		Itard Haget	Joan Jotteu
+		Laffont Laffita Lafarga Lanussa Laumet Laurenc_ Loustaunau
+		Majastre Marselhe_s Martin Maure_l Molinie_r Moncani Montagut Minviel
+		Nant Nogue_s Orte_l
+		Pascau Pastre Pech Pe_ira Pestor Poujade Pradas Pradet Pujet Pujol
+		Ramond Roda Rodie_r Ros Rosse_l Rove
+		Sala Sarrieu Sauvan Se_rras Silvan Singlar Suc
+		Teissie_r Valada Valadier Valat Valle_s
+	}
+	
+	male_noble_first_names = {
+		# populate with names here
+	}
+	female_noble_first_names = {
+		# populate with names here
+	}	
+	noble_last_names = {
+		Alesenc Astruc Auvernhan
+		Baus Bremon Bermond Be_zots
+		Cammas Cardenal Castel Challant Claramunt Comi_ Colo_
+		Domat d_Aurinhac d_Use_s
+		d_Abbadi d_Ale_s d_Alhat d_Aurenja de_Barjols de_Besie_rs de_Borda de_Bordeu de_Cavalhon de_Chate_lyon de_Chaulhac d_Esparron de_Fenis de_la_Palic_a de_las_Tors
+		de_Lonzac de_Monna de_Montlar de_Porcairagues de_Puylaurenc_ de_Sant_Africa de_Sant_Pa_ulhan de_Saut de_Sonnac
+		Emperi Espir Galhard Gasc Guilhe_ms
+		Ladive_ze Lartet Lome_ni lo_Rocoforto lo_Cuc Loti
+		Marbot Maury Mesplet Mistral Miquel
+		Naquet Nicot Pilet Rivalz Rudel Valabregue Vidal Villaret
+	}
+	
+	male_regal_first_names = {
+		Aymar Berenguer Bernat Huc Loi_s Pe_ire Pe_ire_Raimond Raimond Rogier Raimond_Rogier
+	}
+	female_regal_first_names = {
+		# populate with names here
+	}
+	regal_last_names = {
+		de_Mauguio
+	}	
+	
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+irish={
+	color={ 35 140 50 }
+	religion = catholic
+	traits = { celtic_people european_heritage }
+	male_common_first_names={
+		Abba_n A_dhamh Alastar Anrai_ Aodh Aodha_n Aonghus Artu_r Bairre Bran Breasal Breanda_n Brian Caola_n Cathal Cathaoir Ciara_n Cillian
+		Colm Conall Cona_n Conchobhar Constainti_n Cri_osto_ir Cuan Daine_al Da_ithi_ Da_ire De_agla_n Diarmaid Do_nal Dubhghall E_amonn Earna_n E_ibhear E_nna Eoghan
+		Fachtna Faola_n Feardorcha Fearghal Fechi_n Feidhlim Fiachra Fiona_n Fionn Fionnlagh Flann Gearo_id Goba_n Gofraidh Gre_ago_ir I_omhar Ionata_n
+		Lachtna Lorca_n Lu_ca_s Ma_irti_n Maitiu_ Mealla_n Michea_l Muiris Naoise Niall Ninian Niocla_s Odhra_n Oisi_n Oscar Pa_draig Peadar Piaras Pilib
+		Proinsias Re_amann Ristea_rd Roibea_rd Ro_rda_n Riaga_n Ri_an Ro_na_n Ruairi_ Se_afra Se_amus Se_an Seo_irse Seosamh Stiofa_n Tadhg Tiarna_n Toma_s Torin Ulta_n Uilliam		
+	}
+	female_common_first_names = {
+		A_ine Ailbhe Aisling Aoibheann Aoibhinn Aoife Blathnaid Bronagh Caoilainn Caoimhe Cara Caragh Ciara Clo_dagh Dearbhla E_imhear
+		Eabha Fiadh Fiona Gra_inne I_omha_ín Laoise Mairead Me_abh Niamh O_rla Orlaith Ri_ona Ro_isi_n Sadhbh Saoirse Sea_na Sionna
+	}
+	common_last_names={
+		Breathnach Caomha_nach Dalcais Mac_A_rdghail Mac_Bradaigh Mac_Gafraidh Mac_Cearnaigh Mac_Craith Mac_Carthaigh Mac_Congail
+		Mac_Conmara Mac_Donnchadha Mac_Diarmada Mac_Gabhann Mac_Lochlainn Mac_Liam Mac_Maghnais Mac_Scannla_in Mac_Suibhne Mac_Toma_is
+		Mac_Uidhir O__Baoill O__Birn O__Briain O__Broin O__Braona_in O__Cathail O__Ceallaigh O__Cearbhaill O__Ceallacha_in O_Cle_irigh O__Cinne_ide
+		O__Conaill O__Coilea_in O__Conghaile  O__Conchobhair O__Cuana O__Cuinn O__Dochartaigh O__Donnaga_in O__Da_laigh O__Diubha_in O__Dubhghaill
+		O__Domhnaill O__Duinn O__Dufaigh O__Fallamha_in O__Fearghail O__Fionn O__Floinn O__Flannaga_in O__Gallchobhair O__Glaimhin O__Gri_ofa
+		O__hAghmaill O__hAodha O__hEachtighearna O__hE_alaighthe O__hO_ga_in O__hUiginn O__Laoghaire O__Loinsigh O__Maoilriain O__Meachair O__Mathu_na
+		O__Mordha O__Murchadha O__Muireadhaigh O__Nualla_in O__Ne_ill O__Raghallaigh O__Riaga_in O__Scolla_in O__Se_aghdha O__Speala_in O__Su_illeabha_in
+		O__Tarpaigh O__Tuama
+	}
+	
+	male_regal_first_names = {
+		#Populate?
+	}
+	
+	regal_last_names = {
+		Dalcais #(unsure if it makes sense to put this here)
+	}
+	
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+scottish = {
+	color= { 192 207 31 }
+	religion= protestant
+	traits = { celtic_people european_heritage }
+	
+	male_common_first_names = {
+		A_dhamh Aindrea Alasdair Baltair Beistean Brian Cailean Caomhainn Ciaran Coinneach Comhnall Cormag Cuithbeart
+		Da_ibhidh Daidh Daniel Deo_rsa Domhnall Donnchadh Dubh Dubhghall Du_ghlas Ealar Eo_ghann Eumann Eo_in Eo_saph Faolan Fearghas Filib
+		Fionnlagh Gilleasbuig Gille-Bri_dhde Gillebeart Goraidh Guaidre Harailt Iain Iomhair Io_na Lachlann Maol-Iosa Maoldo_naich Mata
+		Murchadh Niall Padruig Peadrus Pa_l Raghnall Seoras Simidh Somhairle Tadhg Tomaidh U_isdean
+	}
+	
+	female_common_first_names = {		#Shamelessly stolen from the Irish. Must fix at some point
+		A_ine Ailbhe Aisling Aoibheann Aoibhinn Aoife Blathnaid Bronagh Caoilainn Caoimhe Cara Caragh Ciara Clo_dagh Dearbhla E_imhear
+		Eabha Fiadh Fiona Gra_inne I_omha_ín Laoise Mairead Me_abh Niamh O_rla Orlaith Ri_ona Ro_isi_n Sadhbh Saoirse Sea_na Sionna
+	}
+	
+	common_last_names = {
+		Aileanach Ambarsan Ba_nach Bla_r Bra_igheach Buiseid Caimbeulach Cananach Crannach Ca_idh Deo_ir Do_mhnullach
+		Fearghasdan Griogalach Lobhdain Mac_a__Charraige Mac_a__Ghobhainn Mac_a__Leo_ra Mac_a__Phearsain
+		Mac_an_Duibh Mac_an_Fhuibhir Mac_an_Luaimh Mac_an_Rothaich Mac_Iain_Duibh MacAsgaill MacCormaig
+		MacDheo_rsa MacDhungail MacEalar MacFigeinn MacGiobain MacLagain MacLianain MacMhatha MacNi_ll MacPha_ic
+		MacTiridh Robasan Seadh Ta_illear Urchadainn
+	}
+	
+	male_regal_first_names = {
+		#Populate?
+	}
+	
+	regal_last_names = {
+		Dalcais #(unsure if it makes sense to put this here)
+	}
+	
+	ethnicities = {
+		1 = caucasian
+	}
+}
+roman={
+	color={ 102 2 60 }
+	religion = orthodox
+	traits = { roman_culture european_heritage }
+	
+	obsessions = {
+		wine
+	}	
+	
+	male_common_first_names={
+		Adamantios
+		Alexandros
+		Anastasios
+		Andreas
+		Antonios
+		Aristidis
+		Athanasios
+		Augustinos
+		Benizelos
+		Charalambos
+		Charilaos
+		Dimitrios
+		Diomidis
+		Eleftherios
+		Emmanouil
+		Epameinontas
+		Evripidis
+		Gennaios
+		Georgios
+		Ilias
+		Ionnis
+		Kitsos
+		Konstantinos
+		Kyriakos
+		Kyriakoulis
+		Leonidas
+		Makarios
+		Markos
+		Mikhael
+		Militiadis
+		Nikolaos
+		Odysseas
+		Othon
+		Panagiotis
+		Pavlos
+		Petros
+		Sofoklis
+		Sotiris
+		Spyridion
+		Spyros
+		Staikos
+		Stefanos
+		Stylianos
+		Tharyvoulos
+		Themistoklis
+		Theodoros
+		Tzannis
+		Vasos
+		Viktor
+		Zinovios
+	}
+	female_common_first_names = {
+		Alexandra
+		Anastasia
+		Angeliki
+		Anna
+		Aspasia
+		Diamantina
+		Ekaterini
+		Euphrosyne
+		Evanthia
+		Konstantina
+		Maria
+		Pipina
+		Rallou
+		Sevasti
+		Sophia
+		Soteria
+		Theodora
+	}	
+	noble_last_names = {
+		Christakis-Zografos
+		Diligiannis
+		Kalogera
+		Kapodistrias
+		Langouras
+		Levidis
+		Mavrocordatos
+		Mavromichalis
+		Metaxas
+		Mitsotakis
+		Mousouros
+		Rallis
+		Roufos
+		Skouzes
+		Theotokis
+		Trikoupis
+		Typaldos-Alfonsatos
+		Tzavaras
+		Venizelos
+		Zosimas
+	}
+	common_last_names={
+		Charalambis
+		Danglis
+		Dousmanis
+		Foumis
+		Gonatas
+		Hatzianestis
+		Kallergis
+		Kanaris
+		Katsimiros
+		Kolokotronis
+		Kondylis
+		Kountouriotis
+		Kriezis
+		Makriyannis
+		Manos
+		Mavrovouniotis
+		Mouskos
+		Nider
+		Othonaios
+		Palaskas
+		Pangalos
+		Papadiamantopoulos
+		Papadopoulos
+		Papagos
+		Papoulas
+		Parakevopouolos
+		Plapoutas
+		Plastiras
+		Sapountzakis
+		Sarafis
+		Smolenskis
+		Sofoulis
+		Soutsos
+		Spyromilios
+		Staikopoulos
+		Stanotas
+		Tsakalotos
+		Tsolakoglou
+		Tzavelas
+		Vassos
+		Voulgaris
+		Zaimis
+		Zymvrakakis
+		tes_Elladas
+	}
+	ethnicities = {
+		1 = eth_placeholder
+	}
+}
+
+anatolian={
+	color={ 170 20 120 }
+	religion = orthodox
+	traits = { roman_culture european_heritage }
+	
+	obsessions = {
+		wine
+	}	
+	
+	male_common_first_names={
+		Adamantios
+		Alexandros
+		Anastasios
+		Andreas
+		Antonios
+		Aristidis
+		Athanasios
+		Augustinos
+		Benizelos
+		Charalambos
+		Charilaos
+		Dimitrios
+		Diomidis
+		Eleftherios
+		Emmanouil
+		Epameinontas
+		Evripidis
+		Gennaios
+		Georgios
+		Ilias
+		Ionnis
+		Kitsos
+		Konstantinos
+		Kyriakos
+		Kyriakoulis
+		Leonidas
+		Makarios
+		Markos
+		Mikhael
+		Militiadis
+		Nikolaos
+		Odysseas
+		Othon
+		Panagiotis
+		Pavlos
+		Petros
+		Sofoklis
+		Sotiris
+		Spyridion
+		Spyros
+		Staikos
+		Stefanos
+		Stylianos
+		Tharyvoulos
+		Themistoklis
+		Theodoros
+		Tzannis
+		Vasos
+		Viktor
+		Zinovios
+	}
+	female_common_first_names = {
+		Alexandra
+		Anastasia
+		Angeliki
+		Anna
+		Aspasia
+		Diamantina
+		Ekaterini
+		Euphrosyne
+		Evanthia
+		Konstantina
+		Maria
+		Pipina
+		Rallou
+		Sevasti
+		Sophia
+		Soteria
+		Theodora
+	}	
+	noble_last_names = {
+		Christakis-Zografos
+		Diligiannis
+		Kalogera
+		Kapodistrias
+		Langouras
+		Levidis
+		Mavrocordatos
+		Mavromichalis
+		Metaxas
+		Mitsotakis
+		Mousouros
+		Rallis
+		Roufos
+		Skouzes
+		Theotokis
+		Trikoupis
+		Typaldos-Alfonsatos
+		Tzavaras
+		Venizelos
+		Zosimas
+	}
+	common_last_names={
+		Charalambis
+		Danglis
+		Dousmanis
+		Foumis
+		Gonatas
+		Hatzianestis
+		Kallergis
+		Kanaris
+		Katsimiros
+		Kolokotronis
+		Kondylis
+		Kountouriotis
+		Kriezis
+		Makriyannis
+		Manos
+		Mavrovouniotis
+		Mouskos
+		Nider
+		Othonaios
+		Palaskas
+		Pangalos
+		Papadiamantopoulos
+		Papadopoulos
+		Papagos
+		Papoulas
+		Parakevopouolos
+		Plapoutas
+		Plastiras
+		Sapountzakis
+		Sarafis
+		Smolenskis
+		Sofoulis
+		Soutsos
+		Spyromilios
+		Staikopoulos
+		Stanotas
+		Tsakalotos
+		Tsolakoglou
+		Tzavelas
+		Vassos
+		Voulgaris
+		Zaimis
+		Zymvrakakis
+		tes_Elladas
+	}
+	ethnicities = {
+		1 = eth_placeholder
+	}
+}
+
+greek={
+	color={ 200 50 100 }
+	religion = orthodox
+	traits = { roman_culture european_heritage }
+	
+	obsessions = {
+		wine
+	}	
+	
+	male_common_first_names={
+		Adamantios
+		Alexandros
+		Anastasios
+		Andreas
+		Antonios
+		Aristidis
+		Athanasios
+		Augustinos
+		Benizelos
+		Charalambos
+		Charilaos
+		Dimitrios
+		Diomidis
+		Eleftherios
+		Emmanouil
+		Epameinontas
+		Evripidis
+		Gennaios
+		Georgios
+		Ilias
+		Ionnis
+		Kitsos
+		Konstantinos
+		Kyriakos
+		Kyriakoulis
+		Leonidas
+		Makarios
+		Markos
+		Mikhael
+		Militiadis
+		Nikolaos
+		Odysseas
+		Othon
+		Panagiotis
+		Pavlos
+		Petros
+		Sofoklis
+		Sotiris
+		Spyridion
+		Spyros
+		Staikos
+		Stefanos
+		Stylianos
+		Tharyvoulos
+		Themistoklis
+		Theodoros
+		Tzannis
+		Vasos
+		Viktor
+		Zinovios
+	}
+	female_common_first_names = {
+		Alexandra
+		Anastasia
+		Angeliki
+		Anna
+		Aspasia
+		Diamantina
+		Ekaterini
+		Euphrosyne
+		Evanthia
+		Konstantina
+		Maria
+		Pipina
+		Rallou
+		Sevasti
+		Sophia
+		Soteria
+		Theodora
+	}	
+	noble_last_names = {
+		Christakis-Zografos
+		Diligiannis
+		Kalogera
+		Kapodistrias
+		Langouras
+		Levidis
+		Mavrocordatos
+		Mavromichalis
+		Metaxas
+		Mitsotakis
+		Mousouros
+		Rallis
+		Roufos
+		Skouzes
+		Theotokis
+		Trikoupis
+		Typaldos-Alfonsatos
+		Tzavaras
+		Venizelos
+		Zosimas
+	}
+	common_last_names={
+		Charalambis
+		Danglis
+		Dousmanis
+		Foumis
+		Gonatas
+		Hatzianestis
+		Kallergis
+		Kanaris
+		Katsimiros
+		Kolokotronis
+		Kondylis
+		Kountouriotis
+		Kriezis
+		Makriyannis
+		Manos
+		Mavrovouniotis
+		Mouskos
+		Nider
+		Othonaios
+		Palaskas
+		Pangalos
+		Papadiamantopoulos
+		Papadopoulos
+		Papagos
+		Papoulas
+		Parakevopouolos
+		Plapoutas
+		Plastiras
+		Sapountzakis
+		Sarafis
+		Smolenskis
+		Sofoulis
+		Soutsos
+		Spyromilios
+		Staikopoulos
+		Stanotas
+		Tsakalotos
+		Tsolakoglou
+		Tzavelas
+		Vassos
+		Voulgaris
+		Zaimis
+		Zymvrakakis
+		tes_Elladas
+	}
+	ethnicities = {
+		1 = eth_placeholder
+	}
+}

@@ -1,0 +1,32 @@
+﻿CHARACTERS = {
+	c:DAU = {
+		create_character = {
+			first_name = "Guigo_XI"
+			last_name = "de_Buonavi"
+			culture = cu:aquitanian
+			ethnicity = caucasian_base
+			ruler = yes
+			age = 33 #born 1802
+			interest_group = ig_industrialists
+			traits = {
+				pious
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+#		create_character = { 								#No heir yet designated
+#			first_name = "name" 
+#			last_name = "name"
+#			culture = cu:aquitanian
+#			ethnicity = caucasian_base
+#			heir = yes
+#			age = 26
+#			interest_group = ig_armed_forces
+#			traits = {
+#				arrogant
+#			}
+#		}
+#	}
+}

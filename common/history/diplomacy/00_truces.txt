@@ -1,0 +1,8 @@
+﻿DIPLOMACY = {
+#	c:NET = {
+#		create_truce = {
+#			country = c:BEL
+#			months = 7
+#		}
+#	}	#Each entry in here was separated by a DIPLOMACY for some reason
+}

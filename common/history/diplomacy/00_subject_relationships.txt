@@ -1,0 +1,305 @@
+﻿DIPLOMACY = {
+	#European masters first
+	
+	c:AEN = {
+		create_diplomatic_pact = {
+			country = c:BIC
+			type = dominion
+		}
+		create_diplomatic_pact = {
+			country = c:SIL
+			type = puppet
+		}		
+
+		create_diplomatic_pact = {
+			country = c:SAF
+			type = puppet
+		}
+
+		### AUSTRALIA ###
+		# Colony of New South Wales
+		create_diplomatic_pact = {
+			country = c:NSW
+			type = puppet
+		}
+		# Colony of Western Australia
+		create_diplomatic_pact = {
+			country = c:WAS
+			type = puppet
+		}
+		# Colony of South Australia, established in February 1836
+		create_diplomatic_pact = {
+			country = c:SAS
+			type = puppet
+		}
+		# Colony of Tasmania, historically called Van Dieman's Land until 1856
+		create_diplomatic_pact = {
+			country = c:TAS
+			type = puppet
+		}
+		# United Tribes of New Zealand
+		#create_diplomatic_pact = {
+		#	country = c:UNT
+		#	type = dominion
+		#}
+		# Mosquito Kingdom
+		create_diplomatic_pact = {
+			country = c:MKT
+			type = protectorate
+		}
+	}
+	c:AQT = {
+		create_diplomatic_pact = {
+			country = c:CUB
+			type = puppet
+		}
+	}
+	c:AUS = {
+		create_diplomatic_pact = {
+			country = c:CRO
+			type = puppet
+		}
+	}
+	c:BOH = {
+		create_diplomatic_pact = {
+			country = c:SRM
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:WAL
+			type = puppet
+		}
+	}
+	c:DEN = {
+		create_diplomatic_pact = {
+			country = c:HOL
+			type = personal_union
+		}
+		create_diplomatic_pact = {
+			country = c:NOR
+			type = personal_union
+		}
+
+		### OH CANADA ###
+		# Province of Upper Canada
+		create_diplomatic_pact = {
+			country = c:ONT
+			type = puppet
+		}
+		# Province of Lower Canada
+		create_diplomatic_pact = {
+			country = c:QUE
+			type = puppet
+		}
+		# smooshing New Brunswick and Nova Scotia together into a de facto Maritime Union
+		create_diplomatic_pact = {
+			country = c:NBS
+			type = puppet
+		}
+		# Hudson Bay Company has a weird autonomous charter
+		create_diplomatic_pact = {
+			country = c:HBC
+			type = dominion
+		}
+	}
+	c:FRA = {
+		create_diplomatic_pact = {
+			country = c:BRI
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:NMR
+			type = puppet
+		}
+	}
+	c:HIS = {
+		create_diplomatic_pact = {
+			country = c:POR
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:PHI
+			type = puppet
+		}	
+	}
+	c:IRE = {
+		create_diplomatic_pact = {
+			country = c:SCO
+			type = puppet
+		}
+	}
+	c:ROM = {
+		create_diplomatic_pact = {
+			country = c:BUL
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:GRE
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:MCD
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:MON
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:SER
+			type = puppet
+		}
+	}
+	c:RUT = {
+		create_diplomatic_pact = {
+			country = c:MOL
+			type = puppet
+		}
+	}
+	c:SEM = {
+		create_diplomatic_pact = {
+			country = c:LIT
+			type = puppet
+		}
+	}
+	#####################################################################################
+	#Now other masters
+	c:CHI = {
+		create_diplomatic_pact = {
+			country = c:TIB
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:KOR
+			type = tributary
+		}				
+	}
+	c:MEX = {
+		create_diplomatic_pact = {
+			country = c:YUC
+			type = puppet
+		}
+	}	
+
+	c:USA = {
+		create_diplomatic_pact = {
+			country = c:LIB
+			type = protectorate
+		}
+		create_diplomatic_pact = {
+			country = c:SEQ
+			type = puppet
+		}
+	}
+	c:DAI = {
+		create_diplomatic_pact = {
+			country = c:CAM
+			type = tributary
+		}
+	}
+	c:SIA = {
+		create_diplomatic_pact = {
+			country = c:CHP
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:CMI
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:LUA
+			type = tributary
+		}		
+	}
+	c:EGY = {
+		create_diplomatic_pact = {
+			country = c:HDJ
+			type = tributary
+		}
+	}
+	c:BIC = {
+		create_diplomatic_pact = {
+			country = c:KUT
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:BHO
+			type = puppet
+		}			
+		create_diplomatic_pact = {
+			country = c:AWA
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:BUN
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:ORI
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:NAG
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:BAS
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:HYD
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:MYS
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:TRA
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:IND
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:BER
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:GWA
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:MEW
+			type = puppet
+		}	
+		create_diplomatic_pact = {
+			country = c:JAI
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:BER
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:JOD
+			type = puppet
+		}	
+		create_diplomatic_pact = {
+			country = c:BIK
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:JAS
+			type = puppet
+		}		
+	}	
+	c:KAL = {
+		create_diplomatic_pact = {
+			country = c:MAK
+			type = vassal
+		}
+	}
+
+}

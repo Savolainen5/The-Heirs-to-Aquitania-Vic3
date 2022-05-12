@@ -1,0 +1,34 @@
+﻿CHARACTERS = {
+	c:NAP = {
+		create_character = {
+			first_name = "Giuseppe_I"
+			last_name = "Salenino"
+			culture = cu:south_italian
+			ethnicity = caucasian_base
+			ruler = yes
+			age = 52 #Born (date undecided)
+			interest_group = ig_armed_forces
+			traits = {
+				ambitious
+			}
+			ideology = ideology_moderate
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Aurelio"
+			last_name = "Salenino"
+			culture = cu:south_italian
+			ethnicity = caucasian_base
+			heir = yes
+			age = 29
+			interest_group = ig_petty_bourgeoisie
+			traits = {
+				romantic
+			}
+			ideology = ideology_moderate
+		}
+	}
+}

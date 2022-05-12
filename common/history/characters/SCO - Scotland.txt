@@ -1,0 +1,34 @@
+﻿CHARACTERS = {
+	c:SCO = {
+		create_character = {
+			first_name = "Iain_IV"
+			last_name = "MacDhungail"
+			culture = cu:scottish
+			ethnicity = caucasian_base
+			ruler = yes
+			age = 50 #Born 6.12.1782
+			interest_group = ig_landowners
+			traits = {
+				reserved
+			}
+			ideology = ideology_moderate
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Seumas"
+			last_name = "MacDhungail"
+			culture = cu:scottish
+			ethnicity = caucasian_base
+			heir = yes
+			age = 32
+			interest_group = ig_armed_forces
+			traits = {
+				ambitious
+			}
+			ideology = ideology_moderate
+		}
+	}
+}
