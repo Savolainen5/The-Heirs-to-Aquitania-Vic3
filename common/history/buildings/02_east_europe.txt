@@ -540,7 +540,7 @@
 		}
 	}
 	s:STATE_ROSTOV={
-		region_state:SEM={
+		region_state:TAT={
 			create_building={
 				building="building_livestock_ranch"
 				level=1

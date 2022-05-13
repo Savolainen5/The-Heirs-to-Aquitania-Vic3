@@ -161,6 +161,11 @@
 #			set_ig_suppression = yes
 #		}
 	}
+	c:GEO = {
+		effect_starting_technology_tier_4_tech = yes
+		
+		effect_starting_politics_conservative = yes
+	}
 	c:HHB = {
 		effect_starting_technology_tier_2_tech = yes
 	}
@@ -377,6 +382,11 @@
 	}
 	c:SRM = {
 		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_conservative = yes
+	}
+	c:TAT = {
+		effect_starting_technology_tier_4_tech = yes
 		
 		effect_starting_politics_conservative = yes
 	}

@@ -188,7 +188,7 @@
 	s:STATE_URALSK={
 		region_state:SEM={
 		}
-		region_state:KAZ={
+		region_state:JUZ={
 		}
 	}
 	s:STATE_KHIVA={

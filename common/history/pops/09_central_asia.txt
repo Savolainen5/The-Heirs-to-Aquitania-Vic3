@@ -26,7 +26,7 @@
 		}
 	}
 	s:STATE_KUBAN = {
-		region_state:SEM = {
+		region_state:TAT = {
 			create_pop = {
 				culture = north_caucasian
 				size = 328804
@@ -184,7 +184,7 @@
 			}
 		}
 	}
-	s:STATE_TARTARIA = {
+	s:STATE_TARTARIA = { #Saratov?
 		region_state:SEM = {
 			create_pop = {
 				culture = russian
@@ -206,7 +206,7 @@
 		}
 	}
 	s:STATE_ASTRAKHAN = {
-		region_state:SEM = {
+		region_state:TAT = {
 			create_pop = {
 				culture = russian
 				size = 995208
@@ -226,7 +226,7 @@
 		}
 	}
 	s:STATE_URALSK = {
-		region_state:SEM = {
+		region_state:TAT = {
 			create_pop = {
 				culture = kazak
 				size = 62000
@@ -237,7 +237,7 @@
 			}
 		}
 
-		region_state:KAZ = {
+		region_state:JUZ = {
 			create_pop = {
 				culture = kazak
 				size = 30000

@@ -115,6 +115,15 @@ JEB = { #Jebenhausen
 	cultures = { south_german }
 	capital = STATE_WURTTEMBERG
 }
+JUZ = { #Junior Zhuz of Kazakhs
+	color = { 28 142 15 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	cultures = { kazak }
+	capital = STATE_URALSK
+}	
 LDN = { #Ladenburg
 	color = { 97 146 40 }
 	
@@ -232,6 +241,15 @@ SRM = { #Syrmia
 	
 	cultures = { serb }
 	capital = STATE_VOJVODINA
+}
+TAT = { #Tataria, working name
+	color = { 168 0 5 }
+	
+	country_type = recognized
+	
+	tier = principality
+	cultures = { tatar }
+	capital = STATE_ASTRAKHAN
 }
 TRR = { #Trier
 	color = { 245 211 118 }
