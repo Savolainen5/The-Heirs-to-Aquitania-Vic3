@@ -1,10 +1,6 @@
 ﻿POPS = {
-	s:STATE_DISTRICT_OF_COLUMBIA = {
-		# total population of DC in 1830 was 30261, and 33745 in 1840. 32003 serves as a workable average.
-		# + Fairfax County, VA. Total pop in 1830 was 9204, 5203 free/4001 slaves
-		# + Montgomery Co, Prince George's Co, Charles co, St. Mary's Co and Calvert Co in MD- 80418 total, 42176 free/38242 slaves
-		# Number of actual pops adjusted from historical research to better fit the buildings
-		region_state:USA = { 
+	s:STATE_DISTRICT_OF_COLUMBIA = { #Now in western TN/KY
+		region_state:MAR = { 
 			create_pop = {
 				culture = yankee
 				size = 27544
@@ -21,7 +17,7 @@
 		}
 	}
 	s:STATE_LOUISIANA = {
-		region_state:USA = {
+		region_state:MAR = {
 			create_pop = {
 				culture = franco_canadian
 				religion = catholic
@@ -54,7 +50,7 @@
 		}
 	}
 	s:STATE_NEW_YORK = {
-		region_state:USA = {
+		region_state:GDL = {
 			create_pop = {
 				culture = yankee
 				size = 2135000
@@ -80,7 +76,7 @@
 		}
 	}
 	s:STATE_VIRGINIA = { # population of VA proper minus Fairfax County, which had its population figures added to DC to inflate the pop count there
-		region_state:USA = {
+		region_state:LOG = {
 			create_pop = {
 				culture = dixie
 				size = 423597
@@ -276,7 +272,7 @@
 		# DKT has 12000
 	}
 	s:STATE_NEBRASKA = {
-		region_state:USA = {
+		region_state:MAR = {
 			create_pop = {
 				culture = siouan
 				size = 4000
@@ -300,7 +296,7 @@
 		}
 	}
 	s:STATE_KANSAS = {
-		region_state:USA = {
+		region_state:MAR = {
 			create_pop = {
 				culture = siouan
 				size = 12000
@@ -320,7 +316,7 @@
 		}
 	}
 	s:STATE_OKLAHOMA = {
-		region_state:SEQ = {
+		region_state:MAR = {
 			create_pop = {
 				culture = siouan
 				size = 2000
@@ -347,7 +343,7 @@
 		}
 	}
 	s:STATE_ARKANSAS = {
-		region_state:USA = {
+		region_state:MAR = {
 			create_pop = {
 				culture = dixie
 				size = 46492
@@ -368,7 +364,7 @@
 		}
 	}
 	s:STATE_MISSOURI = {
-		region_state:USA = {
+		region_state:MAR = {
 			create_pop = {
 				culture = dixie
 				size = 148308
@@ -402,7 +398,7 @@
 		}
 	}
 	s:STATE_IOWA = {
-		region_state:USA = {
+		region_state:MAR = {
 			create_pop = {
 				culture = algonquian
 				size = 12000
@@ -418,7 +414,7 @@
 		}
 	}
 	s:STATE_MINNESOTA = {
-		region_state:USA = {
+		region_state:ONT = {
 			create_pop = {
 				culture = algonquian
 				size = 16000
@@ -432,7 +428,7 @@
 		}
 	}
 	s:STATE_WISCONSIN = {
-		region_state:USA = {
+		region_state:ONT = {
 			create_pop = {
 				culture = algonquian
 				size = 8000
@@ -444,7 +440,7 @@
 		}
 	}
 	s:STATE_INDIANA = {
-		region_state:USA = {
+		region_state:GDL = {
 			create_pop = {
 				culture = yankee
 				size = 631504
@@ -464,7 +460,7 @@
 		}
 	}
 	s:STATE_MICHIGAN = {
-		region_state:USA = {
+		region_state:GDL = {
 			create_pop = {
 				culture = yankee
 				size = 123996
@@ -489,7 +485,7 @@
 		}
 	}
 	s:STATE_OHIO = {
-		region_state:USA = {
+		region_state:GDL = {
 			create_pop = {
 				culture = yankee
 				size = 1092200
@@ -509,7 +505,7 @@
 		}
 	}
 	s:STATE_KENTUCKY = {
-		region_state:USA = {
+		region_state:GDL = {
 			create_pop = {
 				culture = dixie
 				size = 239988
@@ -534,7 +530,7 @@
 		}
 	}
 	s:STATE_TENNESSEE = {
-		region_state:USA = {
+		region_state:LOG = {
 			create_pop = {
 				culture = dixie
 				size = 369604
@@ -567,7 +563,7 @@
 		}
 	}
 	s:STATE_MISSISSIPPI = {
-		region_state:USA = {
+		region_state:MAR = {
 			create_pop = {
 				culture = dixie
 				size = 172804
@@ -584,7 +580,7 @@
 		}
 	}
 	s:STATE_ALABAMA = {
-		region_state:USA = {
+		region_state:LOG = {
 			create_pop = {
 				culture = dixie
 				size = 329008
@@ -661,7 +657,7 @@
 		}
 	}
 	s:STATE_WEST_VIRGINIA = {
-		region_state:LOG = {
+		region_state:GDL = {
 			create_pop = {
 				culture = dixie
 				size = 160916
@@ -683,7 +679,7 @@
 		}
 	}
 	s:STATE_MARYLAND = { # Actually Maryland + Delaware
-		region_state:USA = {
+		region_state:GDL = {
 			# Maryland: (1830, 447040) (1840, 470019), so 1835 est. 458530
 			# Delaware: (1830, 76748)  (1840, 78085),  so 1835 est. 77417
 			# minus 42176 free/38242 slaves that have been ceded to DC to inflate its pop figure
@@ -709,7 +705,7 @@
 	}
 
 	s:STATE_DELAWARE = {
-		region_state:USA = {
+		region_state:GDL = {
 			create_pop = {
 				culture = dixie
 				size = 77000
@@ -729,7 +725,7 @@
 	}
 
 	s:STATE_PENNSYLVANIA = {
-		region_state:USA = {
+		region_state:GDL = {
 			create_pop = {
 				culture = yankee
 				size = 1250496
@@ -755,7 +751,7 @@
 		}
 	}
 	s:STATE_NEW_JERSEY = {
-		region_state:USA = {
+		region_state:GDL = {
 			create_pop = {
 				culture = yankee
 				size = 303200
@@ -772,7 +768,7 @@
 		}
 	}
 	s:STATE_ILLINOIS = {
-		region_state:USA = {
+		region_state:GDL = {
 			create_pop = {
 				culture = yankee
 				size = 452400
@@ -783,16 +779,16 @@
 			}
 		}
 	}
-	s:STATE_RHODE_ISLAND = {
-		region_state:USA = {
-			create_pop = {
-				culture = yankee
-				size = 104820
-			}
-		}
-	}
+#	s:STATE_RHODE_ISLAND = {
+#		region_state:USA = {
+#			create_pop = {
+#				culture = yankee
+#				size = 104820
+#			}
+#		}
+#	}
 	s:STATE_CONNECTICUT = {
-		region_state:USA = {
+		region_state:GDL = {
 			create_pop = {
 				culture = yankee
 				size = 199228
@@ -800,10 +796,10 @@
 		}
 	}
 	s:STATE_MASSACHUSETTS = {
-		region_state:USA = {
+		region_state:GDL = {
 			create_pop = {
 				culture = yankee
-				size = 754484
+				size = 859304
 			}
 			create_pop = {
 				culture = afro_american
@@ -821,7 +817,7 @@
 		}
 	}
 	s:STATE_NEW_HAMPSHIRE = {
-		region_state:USA = {
+		region_state:LOG = {
 			create_pop = {
 				culture = yankee
 				size = 223300
@@ -838,7 +834,7 @@
 		}
 	}
 	s:STATE_VERMONT = {
-		region_state:USA = {
+		region_state:GDL = {
 			create_pop = {
 				culture = yankee
 				size = 282848
@@ -846,7 +842,7 @@
 		}
 	}
 	s:STATE_MAINE = {
-		region_state:USA = {
+		region_state:NBS = {
 			create_pop = {
 				culture = anglo_canadian
 				size = 16000
@@ -1062,7 +1058,7 @@
 		}
 	}
 	s:STATE_NEWFOUNDLAND = {
-		region_state:DAN = {
+		region_state:DEN = {
 			create_pop = {
 				culture = inuit
 				size = 7980

@@ -75,6 +75,16 @@ DAU = { #Daufinat
 	cultures = { aquitanian }
 	capital = STATE_RHONE
 }
+GDL = { #Guldenland / Guilderland
+	color = { 255 206 84 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { dutch }
+	capital = STATE_NEW_YORK
+}
 HAN = {
 	color = { 164  217  127 }
 	
@@ -142,6 +152,16 @@ LOG = { #Logria, Aenglish colony in OTL southern US
 	
 	cultures = { dixie yankee }
 	capital = STATE_GEORGIA
+}
+MAR = { #Mariana
+	color = { 29 142 48 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { french }
+	capital = STATE_LOUISIANA
 }
 MCD = { #Macedonia/Makedon
 	color = { 253 134 65 }

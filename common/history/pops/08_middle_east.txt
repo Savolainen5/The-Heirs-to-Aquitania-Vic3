@@ -201,7 +201,7 @@
 		}
 	}
 	s:STATE_SYRIA = {
-		region_state:EGY = {
+		region_state:TUR = {
 			create_pop = {
 				culture = mashriqi
 				religion = sunni
@@ -227,7 +227,7 @@
 		}
 	}
 	s:STATE_ALEPPO = {
-		region_state:EGY = {
+		region_state:TUR = {
 			create_pop = {
 				culture = mashriqi
 				religion = sunni

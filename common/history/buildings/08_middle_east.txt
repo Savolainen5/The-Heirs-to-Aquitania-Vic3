@@ -187,7 +187,7 @@
 		}
 	}
 	s:STATE_SYRIA={
-		region_state:EGY={
+		region_state:TUR={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -221,7 +221,7 @@
 		}
 	}
 	s:STATE_ALEPPO={
-		region_state:EGY={
+		region_state:TUR={
 			create_building={
 				building="building_glassworks"
 				level=2
