@@ -1068,8 +1068,8 @@
  Giuseppe_I: "Giuseppe I"
  Aurelio: "Aurelio"
  Salenino: "Salenino"
- #German ruler names
- Georg_Friedrich: "Georg Friedrch"
+ #German/Austrian ruler names
+ Georg_Friedrich: "Georg Friedrich"
  Johann_Teodor: "Johann Teodor"
  von_Satzenhofen: "von Satzenhofen"
  Karl_Ludwig: "Karl Ludwig"
@@ -1080,6 +1080,9 @@
  von_Kallinchen: "von Kallinchen"
  Adelheid: "Adelheid"
  von_Welver: "von Welver"
+ Friedrich_III: "Friedrich III"
+ von_Rasso: "von Rasso"
+ Karl_Leopold: "Karl Leopold"
  #Nordic ruler names
  Christian_VII: "Christian VII"
  Margaret: "Margaret"
@@ -1090,3 +1093,18 @@
  Ladislaus_IV: "Ladislaus IV"
  Jaroslav: "Jaroslav"
  von_Escherloch: "von Escherloch"
+ #Polish ruler names
+ Kazimir_Francizek: "Kazimir Francizek"
+ Jan_Tomaz: "Jan Tomaz"
+ Widzowski: "Widzowski"
+ #Roman ruler names
+ Isaakius_IV: "Isaakius IV"
+ Ioannes: "Ioannes"
+ Melisurgos: "Melisurgos"
+ #Armenian ruler names
+ Musegh_V: "Musegh V"
+ Nourhan: "Nourhan"
+ Sourmagian: "Sourmagian"
+ #Tatar ruler names
+ Pavlo: "Pavlo"
+ Vyhovsky: "Vyhovsky"

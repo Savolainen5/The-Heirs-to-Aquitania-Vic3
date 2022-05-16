@@ -1,0 +1,34 @@
+﻿CHARACTERS = {
+	c:ROM = {
+		create_character = {
+			first_name = "Isaakius_IV"
+			last_name = "Melisurgos"
+			culture = cu:roman
+			ethnicity = caucasian_base
+			ruler = yes
+			age = 45 #Born 1790
+			interest_group = ig_armed_forces
+			traits = {
+				ambitious
+			}
+			ideology = ideology_moderate
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+		create_character = {
+			first_name = "Ioannes" #XI
+			last_name = "Melisurgos"
+			culture = cu:roman
+			ethnicity = caucasian_base
+			heir = yes
+			age = 17
+			interest_group = ig_petty_bourgeoisie
+			traits = {
+				romantic
+			}
+			ideology = ideology_moderate
+		}
+	}
+}

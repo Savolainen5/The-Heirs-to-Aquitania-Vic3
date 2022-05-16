@@ -1,0 +1,34 @@
+﻿CHARACTERS = {
+	c:TAT = {
+		create_character = {
+			first_name = "Pavlo"
+			last_name = "Vyhovsky"
+			culture = cu:tatar
+			ethnicity = caucasian_base
+			ruler = yes
+			age = 36
+			interest_group = ig_armed_forces
+			traits = {
+				ambitious
+			}
+			ideology = ideology_moderate
+			on_created = {
+				set_variable = is_married
+			}
+		}
+
+#		create_character = {
+#			first_name = "Umar"
+#			last_name = "Vyhovsky"
+#			culture = cu:tatar
+#			ethnicity = caucasian_base
+#			heir = yes
+#			age = 32 #Born 1803
+#			interest_group = ig_petty_bourgeoisie
+#			traits = {
+#				romantic
+#			}
+#			ideology = ideology_moderate
+#		}
+	}
+}

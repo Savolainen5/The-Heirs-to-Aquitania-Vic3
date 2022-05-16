@@ -47,6 +47,12 @@
 			country = c:MKT
 			type = protectorate
 		}
+		
+		# Colony of Logria
+		create_diplomatic_pact = {
+			country = c:LOG
+			type = puppet
+		}
 	}
 	c:AQT = {
 		create_diplomatic_pact = {
@@ -111,6 +117,11 @@
 			country = c:NMR
 			type = puppet
 		}
+		# Colony of Mariana
+		create_diplomatic_pact = {
+			country = c:MAR
+			type = puppet
+		}
 	}
 	c:HIS = {
 		create_diplomatic_pact = {
@@ -125,6 +136,12 @@
 	c:IRE = {
 		create_diplomatic_pact = {
 			country = c:SCO
+			type = puppet
+		}
+	}
+	c:NET = {
+		create_diplomatic_pact = {
+			country = c:GDL
 			type = puppet
 		}
 	}
