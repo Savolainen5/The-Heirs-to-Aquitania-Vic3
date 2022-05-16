@@ -5,18 +5,10 @@
 	"supported_game_version" : "1.0.*",
 	"short_description" : "Megacampaign alternate history",
 	"tags" : [
-		"gfx",
 		"overhaul"
 	],
-    "relationships" : [
-    {
-        "rel_type" : "dependency",
-        "id" : "org.othermod.great",
-        "display_name" : "Requires Other mod's great Stuff",
-        "resource_type" : "mod",
-        "version" : "1.0.0"
-    }
-    ],
+	"relationships" : [
+	],
     "game_custom_data" : {
             "multiplayer_synchronized": false,
             "test": 42

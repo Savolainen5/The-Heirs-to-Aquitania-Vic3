@@ -35,7 +35,7 @@ ARM = {
 	is_named_from_capital = yes
 }
 AUS = {
-	color = { 60 135 47 }
+	color = { 60 135 47 } #{ 255 56 75 } #A nice red-pink
 
 	country_type = recognized
 
