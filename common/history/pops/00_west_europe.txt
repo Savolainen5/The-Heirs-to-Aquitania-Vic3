@@ -145,6 +145,14 @@
 			}
 		}
 	}
+	s:STATE_WEST_KARELIA = { # TODO FIX, t. devs
+		region_state:SWE = {
+			create_pop = {
+				culture = finnish
+				size = 180000
+			}
+		}
+	}
 
 	s:STATE_ALAND = {
 		region_state:SWE = {
@@ -155,7 +163,7 @@
 		}
 	}
 
-	s:STATE_NORTHERN_FINLAND = {
+	s:STATE_OSTROBOTHNIA = {
 		region_state:SWE = {
 			create_pop = {
 				culture = finnish

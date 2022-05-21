@@ -1406,15 +1406,6 @@
 				size = 15000
 			}
 		}
-
-		region_state:YEM = {
-			create_pop = {
-				culture = somali
-				size = 16000 #TODO make this number more historical and probably subtract it from the amount of people in Yemen?
-			}
-		}
-
-
 	}
 	s:STATE_SOUTH_MADAGASCAR = {
 		region_state:MAD = {

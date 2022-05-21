@@ -580,7 +580,7 @@
 		}
 	}
 	s:STATE_ALABAMA = {
-		region_state:LOG = {
+		region_state:MAR = {
 			create_pop = {
 				culture = dixie
 				size = 329008
@@ -779,14 +779,14 @@
 			}
 		}
 	}
-#	s:STATE_RHODE_ISLAND = {
-#		region_state:USA = {
-#			create_pop = {
-#				culture = yankee
-#				size = 104820
-#			}
-#		}
-#	}
+	s:STATE_RHODE_ISLAND = {
+		region_state:LOG = {
+			create_pop = {
+				culture = yankee
+				size = 104820
+			}
+		}
+	}
 	s:STATE_CONNECTICUT = {
 		region_state:GDL = {
 			create_pop = {
@@ -817,7 +817,7 @@
 		}
 	}
 	s:STATE_NEW_HAMPSHIRE = {
-		region_state:LOG = {
+		region_state:NBS = {
 			create_pop = {
 				culture = yankee
 				size = 223300
@@ -875,7 +875,7 @@
 		}
 	}
 	s:STATE_UTAH = {
-		region_state:MEX = {
+		region_state:AME = {
 			create_pop = {
 				culture = paiute
 				size = 3000
@@ -1011,11 +1011,11 @@
 		region_state:NBS = {
 			create_pop = {
 				culture = anglo_canadian
-				size = 272004
+				size = 262653
 			}
 			create_pop = {
 				culture = afro_american
-				size = 3000
+				size = 4000
 			}
 			create_pop = {
 				culture = franco_canadian
@@ -1234,7 +1234,7 @@
 				size = 2004
 			}
 		}
-		region_state:MEX = {
+		region_state:AME = {
 			create_pop = {
 				culture = oodham
 				size = 12000
@@ -1256,7 +1256,7 @@
 		}
 	}
 	s:STATE_NEVADA = {
-		region_state:MEX = {
+		region_state:AME = {
 			create_pop = {
 				culture = paiute
 				size = 28000
@@ -1264,7 +1264,7 @@
 		}
 	}
 	s:STATE_ARIZONA = {
-		region_state:MEX = {
+		region_state:AME = {
 			create_pop = {
 				culture = oodham
 				size = 4000
@@ -1300,7 +1300,7 @@
 		}
 	}
 	s:STATE_NEW_MEXICO = {
-		region_state:MEX = {
+		region_state:AME = {
 			create_pop = {
 				culture = mexican
 				size = 27796
@@ -1334,7 +1334,7 @@
 		}
 	}
 	s:STATE_CALIFORNIA = {
-		region_state:MEX = {
+		region_state:AME = {
 			create_pop = {
 				culture = hokan
 				size = 52000
@@ -1346,22 +1346,22 @@
 		}
 	}
 	s:STATE_SONORA = {
-		region_state:MEX = {
+		region_state:AME = {
 			create_pop = {
 				culture = mexican
-				size = 75996
+				size = 69087
 			}
 			create_pop = {
 				culture = oodham
-				size = 48000
+				size = 43637
 			}
 		}
 	}
 	s:STATE_CHIHUAHUA = {
-		region_state:MEX = {
+		region_state:AME = {
 			create_pop = {
 				culture = mexican
-				size = 172004
+				size = 139895
 			}
 			create_pop = {
 				culture = oodham
@@ -1373,11 +1373,11 @@
 			}
 		}
 	}
-	s:STATE_NUEVO_LEON = {
-		region_state:MEX = {
+	s:STATE_RIO_GRANDE = {
+		region_state:AME = {
 			create_pop = {
 				culture = mexican
-				size = 151996
+				size = 121499
 			}
 			create_pop = {
 				culture = oodham
@@ -1394,27 +1394,79 @@
 			}
 		}
 	}
-	s:STATE_DURANGO = {
-		region_state:MEX = {
+	s:STATE_VERACRUZ = {
+		region_state:AME = {
 			create_pop = {
 				culture = mexican
-				size = 310496
+				size = 251061
+			}		
+		}
+	}
+	s:STATE_DURANGO = { # est. total of 156999. 153810 in 1830, 160187 in 1840
+		region_state:AME = {
+			create_pop = {
+				culture = mexican
+				size = 136199
 			}
 			create_pop = {
 				culture = oodham
-				size = 40000
+				size = 20000
 			}
 			create_pop = {
 				culture = afro_caribeno
-				size = 1900
+				size = 800
 			}
 		}
 	}
-	s:STATE_YUCATAN = {
-		region_state:YUC = {
+	s:STATE_SINALOA = {
+		region_state:AME = {
 			create_pop = {
 				culture = mexican
-				size = 126032
+				size = 113841
+			}
+			create_pop = {
+				culture = oodham
+				size = 20000
+			}
+			create_pop = {
+				culture = afro_caribeno
+				size = 1100
+			}
+		}
+	}
+	# San Luis Potosi:	302390 in 1830, 326559 in 1840, so averaging out to 314475
+	# Guanajuato:		442916 in 1830, 591401 in 1840, so averaging out to 517159
+	# Queretaro:		114437 in 1830, 122962 in 1840, so averaging out to 118699
+	# working total number of 950333
+	s:STATE_BAJIO = {
+		region_state:AME = {
+			create_pop = {
+				culture = mexican
+				size = 594909
+			}
+			create_pop = {
+				culture = nahua
+				size = 266461
+			}
+			create_pop = {
+				culture = tarascan
+				size = 85162
+			}
+			create_pop = {
+				culture = afro_caribeno
+				size = 3801
+			}
+		}
+	}
+	# Yucatan proper: 	417947 in 1830, 420726 in 1840, so averaging out to 419337
+	# Campeche:			64053 in 1830, 72707 in 1840, so averaging out to 68380
+	# Tabasco:			58518 in 1830, 63919 in 1840, so averaging out to 61219
+	# working total number of 548936
+	s:STATE_YUCATAN = { 
+		region_state:AME = {
+			create_pop = {
+				culture = mexican
+				size = 226764
 			}
 			create_pop = {
 				culture = mayan
@@ -1427,10 +1479,10 @@
 		}
 	}
 	s:STATE_MEXICO = {
-		region_state:MEX = {
+		region_state:AME = {
 			create_pop = {
 				culture = mexican
-				size = 614200
+				size = 763486
 			}
 			create_pop = {
 				culture = mixtec
@@ -1451,61 +1503,85 @@
 			}
 		}
 	}
-	s:STATE_MORELIA = {
-		region_state:MEX = {
+	s:STATE_GUERRERO = {
+		region_state:AME = {
 			create_pop = {
 				culture = mexican
-				size = 500620
+				size = 114874
 			}
 			create_pop = {
 				culture = zapotec
-				size = 70400
+				size = 13183
 			}
 			create_pop = {
 				culture = tarascan
-				size = 304000
+				size = 60846
 			}
 			create_pop = {
 				culture = nahua
-				size = 131000
+				size = 27381
 			}
 			create_pop = {
 				culture = afro_caribeno
-				size = 35000
+				size = 15036
+			}
+		}
+	}
+	s:STATE_OAXACA = { # approx 479674. 457504 in 1830, 501844 in 1840.
+		region_state:AME = {
+			create_pop = {
+				culture = mexican
+				size = 143903
+			}
+			create_pop = {
+				culture = zapotec
+				size = 40532
+			}
+			create_pop = {
+				culture = tarascan
+				size = 187073
+			}
+			create_pop = {
+				culture = nahua
+				size = 84182
+			}
+			create_pop = {
+				culture = afro_caribeno
+				size = 23984
 			}
 		}
 	}
 	s:STATE_JALISCO = {
-		region_state:MEX = {
+		region_state:AME = {
 			create_pop = {
 				culture = mexican
-				size = 638596
+				size = 1011710
 			}
 			create_pop = {
 				culture = oodham
 				religion = catholic
-				size = 95900
+				size = 152078
 			}
 			create_pop = {
 				culture = oodham
-				size = 16000
+				size = 26373
 			}
 		}
 	}
 	s:STATE_ZACATECAS = {
-		region_state:MEX = {
+		region_state:AME = {
 			create_pop = {
 				culture = mexican
-				size = 758700
+				size = 137347
 			}
 			create_pop = {
 				culture = nahua
-				size = 972000
+				size = 175961
 			}
 		}
 	}
 	s:STATE_CHIAPAS = {
-		region_state:MEX = {
+		region_state:AME = {
 			create_pop = {
 				culture = mexican
 				size = 75032
@@ -1517,10 +1593,10 @@
 		}
 	}
 	s:STATE_BAJA_CALIFORNIA = {
-		region_state:MEX = {
+		region_state:AME = {
 			create_pop = {
 				culture = mexican
-				size = 22196
+				size = 8264
 			}
 			create_pop = {
 				culture = oodham

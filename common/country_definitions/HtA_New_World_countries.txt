@@ -1,0 +1,103 @@
+#North Ameriga
+AME = { #Federation of Ameriga
+	color = { 209 228 255 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { mexican }
+	capital = STATE_MEXICO
+}
+GDL = { #Guldenland / Guilderland
+	color = { 255 206 84 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+	
+	cultures = { dutch }
+	capital = STATE_CONNECTICUT
+}
+LOG = { #Logria, Aenglish colony in OTL southern US
+	color = { 5 100 130 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+	
+	cultures = { dixie yankee }
+	capital = STATE_GEORGIA
+}
+MAR = { #Mariana
+	color = { 29 142 48 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+	
+	cultures = { french }
+	capital = STATE_LOUISIANA
+}
+#Central Ameriga
+#South Ameriga
+LON = { #Viceroyalty of Lonca, Hispanian colony
+	color = { 255 157 0 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+	
+	cultures = { spanish }
+	capital = STATE_SANTIAGO
+}
+NCN = { #New Cantric, Aenglish colony
+	color = { 188 153 71 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+	
+	cultures = { aenglisc }
+	capital = STATE_BAHIA
+}
+NCS = { #Nueva Castilla, in revolt from Hispania
+	color = { 211 204 6 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { spanish }
+	capital = STATE_SANTIAGO
+}
+NHL = { #New Holland, Dutch colony
+	color = { 255 112 30 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+	
+	cultures = { dutch }
+	capital = STATE_CEARA
+}
+NLE = { #Viceroyalty of Nueva Leon, Hispanian colony
+	color = { 255 119 91 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+	
+	cultures = { spanish portuguese }
+	capital = STATE_ZULIA
+}
+NPT = { #Viceroyalty of Nova Portugal, Hispanian colony
+	color = { 71 158 75 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+	
+	cultures = { spanish portuguese }
+	capital = STATE_BUENOS_AIRES
+}

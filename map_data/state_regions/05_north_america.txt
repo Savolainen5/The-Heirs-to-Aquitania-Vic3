@@ -15,7 +15,7 @@
 STATE_LOUISIANA = {
     id = 266
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x0CF7A4" "x131940" "x13B0C7" "x18D465" "x1BF244" "x216122" "x2BEBAE" "x371B1B" "x39D7A2" "x403095" "x4FA3C4" "x68C793" "x71BEC1" "x7EF4B8" "x86BC13" "x9A7554" "x9E96B6" "xA4EE3C" "xAC4818" "xBF79F5" "xC07080" "xC0F080" "xC1273E" "xC51912" "xC62139" "xD658E7" "xEE0FAA" "xEFB99C" }
+    provinces = { "x0CF7A4" "x131940" "x13B0C7" "x18D465" "x1BF244" "x216122" "x2BEBAE" "x371B1B" "x39D7A2" "x403095" "x68C793" "x71BEC1" "x7EF4B8" "x9A7554" "x9E96B6" "xA4EE3C" "xAC4818" "xBF79F5" "xC07080" "xC0F080" "xC1273E" "xC51912" "xC62139" "xD658E7" "xEE0FAA" "xEFB99C" }
     traits = { "state_trait_mississippi_river" }
     city = "xC1273E"
     port = "x9A7554"
@@ -467,7 +467,7 @@ STATE_TENNESSEE = {
 STATE_MISSISSIPPI = {
     id = 291
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x00F080" "x0B6E85" "x123257" "x2016F5" "x2958AE" "x407000" "x4BD19A" "x520559" "x80F080" "x861CB7" "x9E0C8B" "xAD9E8B" "xBFD47F" "xDD0524" "xE1C52F" "xE41653" "xECBE35" "xF0A4C8" "xFB99F3" }
+    provinces = { "x00F080" "x0B6E85" "x123257" "x2016F5" "x2958AE" "x407000" "x4BD19A" "x520559" "x80F080" "x861CB7" "x9E0C8B" "xAD9E8B" "xBFD47F" "xDD0524" "xE1C52F" "xE41653" "xECBE35" "xF0A4C8" "xFB99F3" "x4FA3C4" "x86BC13" }
     traits = { "state_trait_mississippi_river" "state_trait_american_chestnuts" }
     city = "x4BD19A"
     port = "xE41653"
@@ -1177,7 +1177,7 @@ STATE_CALIFORNIA = {
 STATE_SONORA = {
     id = 327
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x01D099" "x03709A" "x0A3CB6" "x0E6844" "x0F641B" "x12D3FB" "x14EE17" "x1A4988" "x27B5D7" "x2DAABF" "x421F6A" "x4271A2" "x5238CD" "x54B1CE" "x575437" "x60D0C0" "x6DA277" "x7036C3" "x7D0279" "x81A80B" "x8646F0" "x8BD05C" "x8FB2D5" "x9A8A72" "x9FBBA9" "xA2A7AB" "xAF76BB" "xBB07D6" "xC699E3" "xCC0672" "xDF50C0" "xDFD0C0" "xE51C65" "xE8078D" "xE9BBD3" "xF03A69" }
+    provinces = { "x01D099" "x03709A" "x0A3CB6" "x0E6844" "x0F641B" "x12D3FB" "x14EE17" "x1A4988" "x27B5D7" "x2DAABF" "x421F6A" "x4271A2" "x5238CD" "x54B1CE" "x575437" "x60D0C0" "x6DA277" "x7036C3" "x7D0279" "x81A80B" "x8646F0" "x8BD05C" "x9A8A72" "x9FBBA9" "xA2A7AB" "xAF76BB" "xBB07D6" "xC699E3" "xCC0672" "xDF50C0" "xE51C65" "xE8078D" "xE9BBD3" "xF03A69" }
     traits = { "state_trait_sierra_madre_occidental" }
     city = "x81A80B"
     port = "xC699E3"
@@ -1201,7 +1201,7 @@ STATE_SONORA = {
 STATE_CHIHUAHUA = {
     id = 328
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x0011AA" "x003080" "x00879A" "x00B001" "x03FA03" "x04C43F" "x059C97" "x08C98F" "x0BFD7B" "x0D5DDD" "x0F59F0" "x10C6B4" "x120FFD" "x14A53B" "x1BD480" "x1C9D7D" "x20360A" "x248F66" "x262FDB" "x27A132" "x2B7E93" "x2F16DF" "x304ACD" "x30BBDA" "x3188F7" "x37B11F" "x3A74AB" "x41A909" "x432FE4" "x475D1E" "x4EE20D" "x51153D" "x535D1C" "x55FB35" "x58817E" "x592CDF" "x59E37B" "x5AF2D5" "x5CED99" "x60385F" "x6050C0" "x662FF9" "x6D572C" "x77C161" "x7B177A" "x7CFB5F" "x803080" "x80773D" "x80B001" "x80B080" "x8910AF" "x8E9D4F" "x9486AD" "x9A551F" "x9BDC42" "x9F69AD" "xA20ABD" "xADD8B8" "xB009D9" "xB65993" "xB9D7C8" "xBA8759" "xBE33DB" "xBF6399" "xC3C402" "xC6B997" "xC6D1E5" "xC7E9EA" "xC9BA1B" "xCA959E" "xCD9190" "xD51E89" "xD7DEC8" "xDA4A32" "xDCEE0B" "xE06B52" "xE4E032" "xE7BA3B" "xE941BF" "xEA81D3" "xECD11D" "xF82CDC" "xF97F04" "xF9A35E" "xFE578D" }
+    provinces = { "x0011AA" "x003080" "x03FA03" "x04C43F" "x0BFD7B" "x0D5DDD" "x10C6B4" "x120FFD" "x14A53B" "x1C9D7D" "x248F66" "x262FDB" "x27A132" "x2B7E93" "x30BBDA" "x3188F7" "x37B11F" "x3A74AB" "x432FE4" "x475D1E" "x51153D" "x535D1C" "x556403" "x55FB35" "x58817E" "x5AF2D5" "x5CED99" "x6050C0" "x662FF9" "x6D572C" "x77C161" "x7CFB5F" "x803080" "x80773D" "x80B001" "x8910AF" "x8E9D4F" "x8FB2D5" "x986D98" "x9A551F" "x9BDC42" "xADD8B8" "xB009D9" "xB9D7C8" "xBE33DB" "xBF6399" "xC3C402" "xC6B997" "xC6D1E5" "xC7E9EA" "xC9BA1B" "xCA959E" "xCD9190" "xD7DEC8" "xDA4A32" "xE06B52" "xE7BA3B" "xE941BF" "xECD11D" "xF82CDC" "xF97F04" "xFE578D" }
     traits = { "state_trait_sierra_madre_oriental" }
     city = "x2B7E93"
     farm = "x304ACD"
@@ -1214,10 +1214,10 @@ STATE_CHIHUAHUA = {
         bg_logging = 5
     }
 }
-STATE_NUEVO_LEON = {
+STATE_RIO_GRANDE = {
     id = 329
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x1C58D1" "x1CB3F9" "x3A264E" "x4C9B4D" "x4FF638" "x50EF80" "x654D48" "x6EDB2C" "x749EC2" "x766F08" "x8030C0" "x883E5B" "x9C099B" "xA164AB" "xA98620" "xA995BC" "xB13782" "xC1EF57" "xC202B5" "xC68684" "xCAEB7A" "xD0EF80" "xDDC3A9" "xDDE205" "xE96480" "xECF9FC" "xF01B64" "xF33EC5" "xF468A1" "xF53F63" }
+    provinces = { "x00879A" "x00B001" "x059C97" "x08C98F" "x0DA7FA" "x0F59F0" "x1B9AEE" "x1BD480" "x1C58D1" "x1CC654" "x20360A" "x2F16DF" "x304ACD" "x3A264E" "x41A909" "x4C9B4D" "x4EE20D" "x4FF638" "x50EF80" "x54B95F" "x592CDF" "x59E37B" "x60385F" "x654D48" "x6EDB2C" "x766F08" "x7B177A" "x7F00A8" "x8030C0" "x80B080" "x883E5B" "x9486AD" "x9C099B" "x9F69AD" "xA164AB" "xA20ABD" "xA98620" "xA995BC" "xB13782" "xB65993" "xBA8759" "xBCFFF7" "xC03001" "xC1EF57" "xC202B5" "xC68684" "xCAEB7A" "xD51E89" "xD69138" "xDCEE0B" "xDDC3A9" "xDDE205" "xDEEEB0" "xE1E8AB" "xE4E032" "xE86EA3" "xE96480" "xEA81D3" "xF01B64" "xF32D13" "xF33EC5" "xF468A1" "xF53F63" "xF9A35E" "xFC72E1" "xFEC6A5" }
     city = "x766F08"
     port = "xE96480"
     farm = "x8030C0"
@@ -1239,26 +1239,63 @@ STATE_NUEVO_LEON = {
 STATE_DURANGO = {
     id = 330
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x007001" "x00B080" "x06468D" "x0DA7FA" "x10BBF0" "x1B9AEE" "x1C03D7" "x1CC654" "x1DD207" "x27C1A1" "x2F69FF" "x403080" "x476D93" "x4F60EB" "x54B95F" "x556403" "x5B96E6" "x6AAD8E" "x6D5F07" "x6F6565" "x74AF76" "x7F00A8" "x832AE4" "x83F6C7" "x929ECC" "x95CA42" "x963998" "x986D98" "xA00496" "xA4C4A6" "xB57A54" "xB7EC5C" "xBCFFF7" "xC03001" "xC0B001" "xC0B080" "xC46F80" "xC6D687" "xD374E4" "xD5299A" "xD69138" "xD87641" "xDDC184" "xE0E5E9" "xE1E8AB" "xE40A9D" "xE755F0" "xE86EA3" "xEA20F2" "xEC0A4D" "xF88218" "xFC72E1" "xFEC6A5" }
+    provinces = { "x00B080" "x10BBF0" "x1C03D7" "x1DD207" "x27C1A1" "x2F69FF" "x403080" "x476D93" "x4F60EB" "x5B96E6" "x6AAD8E" "x6F6565" "x74AF76" "x83F6C7" "x929ECC" "x95CA42" "xB57A54" "xB7EC5C" "xC46F80" "xD374E4" "xD87641" "xE40A9D" "xE755F0" "xEA20F2" "xEC0A4D" "xF88218" }
     traits = { "state_trait_sierra_madre_occidental" }
     city = "xE755F0"
-    port = "x963998"
-    farm = "xD5299A"
-    mine = "xE1E8AB"
-    wood = "x832AE4"
+    farm = "x95CA42"
+    mine = "xEC0A4D"
+    wood = "x5B96E6"
     arable_land = 12
     arable_resources = { bg_maize_farms bg_livestock_ranches }
     capped_resources = {
-        bg_iron_mining = 22
-        bg_logging = 9
+        bg_iron_mining = 11
+        bg_logging = 3
         bg_fishing = 5
     }
     naval_exit_id = 3153
 }
+STATE_SINALOA = {
+    id = 671
+    subsistence_building = "building_subsistence_farms"
+    provinces = { x007001 "x832AE4" "x963998" "xA4C4A6" "xC0B080" "xC6D687" "xD5299A" "xDFD0C0" "xE0E5E9" }
+    traits = { "state_trait_sierra_madre_occidental" }
+    city = "x10BBF0"
+    port = "x10BBF0"
+    farm = "x10BBF0"
+    mine = "x10BBF0"
+    wood = "x10BBF0"
+    arable_land = 12
+    arable_resources = { bg_maize_farms bg_livestock_ranches }
+    capped_resources = {
+        bg_iron_mining = 11
+        bg_logging = 6
+        bg_fishing = 5
+    }
+    naval_exit_id = 3153
+}
+STATE_BAJIO = {
+    id = 672
+    subsistence_building = "building_subsistence_farms"
+    provinces = { x2214C5 "x34ABA3" "x44B0D0" "x4606C7" "x4BFB55" "x503080" "x5F1A07" "x6B4C3A" "x6FBC1A" "x70C1FF" "x71F349" "x725961" "x732A81" "x749EC2" "x75E1C3" "x9BAC78" "xC0B001" "xD03080" "xD0B080" "xD6EED0" "xE3628B" "xEC946F" }
+    city = "x44B0D0"
+    farm = "xD03080"
+    mine = "x6FBC1A"
+    wood = "x749EC2"
+    arable_land = 30
+    arable_resources = { bg_maize_farms bg_livestock_ranches bg_coffee_plantations bg_dye_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations }
+    capped_resources = {
+        bg_iron_mining = 15
+    }
+    resource = {
+        type = "bg_gold_fields"
+        depleted_type = "bg_gold_mining"
+        undiscovered_amount = 4
+    }
+}
 STATE_YUCATAN = {
     id = 331
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x067F2A" "x1B2176" "x1DB7A7" "x23EF68" "x253627" "x2C4E34" "x35FEEB" "x40B001" "x47D122" "x4F7405" "x5030C0" "x51E4B6" "x54250B" "x5CE75E" "x68F271" "x69E5AF" "x8BE638" "x90AC14" "x91484C" "xA59F7B" "xA8DEBE" "xB598B9" "xCE98DE" "xCE9FD1" "xD08EE2" "xD1EC91" "xDB85B0" "xDD8B61" "xE280B2" "xE31B45" "xE3AD92" "xE68FD8" "xFEE4D4" }
+    provinces = { "x1DB7A7" "x23EF68" "x2C4E34" "x35FEEB" "x40B001" "x47D122" "x4F7405" "x5030C0" "x51E4B6" "x54250B" "x68F271" "x69E5AF" "x8BE638" "x90AC14" "x91484C" "xA59F7B" "xA8DEBE" "xB598B9" "xCE98DE" "xCE9FD1" "xD1EC91" "xDB85B0" "xDD8B61" "xE280B2" "xE31B45" "xE3AD92" "xE68FD8" "xFEE4D4" }
     city = "xD08EE2"
     port = "xDB85B0"
     farm = "x54250B"
@@ -1279,7 +1316,7 @@ STATE_YUCATAN = {
 STATE_MEXICO = {
     id = 332
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x08E7F6" "x0EBDEC" "x10B040" "x10B080" "x1616D8" "x1B599E" "x1C69F0" "x204077" "x2113D8" "x3A857C" "x447790" "x44D03C" "x460749" "x4BF28B" "x51EB34" "x5A4C5B" "x5A9469" "x5ED62A" "x8293A6" "x87A6C4" "x8A6294" "x9030C0" "x90B0C0" "x98D949" "x9BDCE5" "xA095E4" "xA547C9" "xAF030C" "xCC93D9" "xD30430" "xD5F2F8" "xEE1E8B" }
+    provinces = { "x0A1D52" "x0EBDEC" "x10B040" "x10B080" "x204077" "x3A857C" "x44E6F0" "x51EB34" "x5A4C5B" "x5A9469" "x5B5167" "x6BEB21" "x6EFE9A" "x903040" "xCC93D9" "xD5F2F8" }
     traits = { "state_trait_sierra_madre_oriental" }
     city = "x0EBDEC"
     port = "x447790"
@@ -1289,21 +1326,43 @@ STATE_MEXICO = {
     arable_land = 60
     arable_resources = { bg_maize_farms bg_livestock_ranches bg_coffee_plantations bg_dye_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations }
     capped_resources = {
-        bg_iron_mining = 12
-        bg_lead_mining = 16
-        bg_logging = 11
+        bg_iron_mining = 6
+        bg_lead_mining = 8
+        bg_logging = 6
+    }
+    resource = {
+        type = "bg_rubber"
+        undiscovered_amount = 4
+    }
+}
+STATE_VERACRUZ = {
+    id = 670
+    subsistence_building = "building_subsistence_farms"
+    provinces = { x067F2A "x1B2176" "x1B599E" "x1C69F0" "x1CB3F9" "x253627" "x447790" "x4BF28B" "x5CE75E" "x5ED62A" "x87A6C4" "x8A6294" "x9030C0" "x9BDCE5" "xD08EE2" "xD0EF80" "xECF9FC" "xEE1E8B" }
+    traits = { "state_trait_sierra_madre_oriental" }
+    city = "x447790"
+    port = "x8A6294"
+    farm = "x5ED62A"
+    mine = "xD0EF80"
+    wood = "x445572"
+    arable_land = 60
+    arable_resources = { bg_maize_farms bg_livestock_ranches bg_coffee_plantations bg_dye_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations }
+    capped_resources = {
+        bg_iron_mining = 6
+        bg_lead_mining = 8
+        bg_logging = 5
         bg_fishing = 7
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 8
+        undiscovered_amount = 4
     }
     naval_exit_id = 3060
 }
-STATE_MORELIA = {
+STATE_GUERRERO = {
     id = 333
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x01EFB4" "x0B94E3" "x10EF01" "x1BC4D0" "x2E172F" "x41E3BB" "x469921" "x4712FC" "x51A981" "x52E09C" "x5AC30A" "x600DE6" "x6BEB21" "x725961" "x8CC01A" "x8FD9A9" "x903040" "x90B040" "x97CE08" "xA80151" "xAA660B" "xB846DD" "xC0C070" "xC1F60B" "xC83AE5" "xCE2837" "xDF5040" "xE26CDE" "xF28CF4" }
+    provinces = { "x01EFB4" "x0B94E3" "x10EF01" "x469921" "x4712FC" "x5AC30A" "x600DE6" "x8CC01A" "xA80151" "xAA660B" "xB846DD" "xDF5040" "xF28CF4" }
     traits = { "state_trait_sierra_madre_oriental" }
     city = "x4712FC"
     port = "x4712FC"
@@ -1313,26 +1372,55 @@ STATE_MORELIA = {
     arable_land = 50
     arable_resources = { bg_maize_farms bg_livestock_ranches bg_coffee_plantations bg_dye_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations }
     capped_resources = {
-        bg_coal_mining = 24
-        bg_lead_mining = 20
-        bg_logging = 13
-        bg_fishing = 8
+        bg_coal_mining = 12
+        bg_lead_mining = 10
+        bg_logging = 7
+        bg_fishing = 4
     }
     resource = {
         type = "bg_gold_fields"
         depleted_type = "bg_gold_mining"
-        undiscovered_amount = 5
+        undiscovered_amount = 3
     }
     resource = {
         type = "bg_rubber"
-        undiscovered_amount = 7
+        undiscovered_amount = 4
+    }
+    naval_exit_id = 3155
+}
+STATE_OAXACA = {
+    id = 673
+    subsistence_building = "building_subsistence_farms"
+    provinces = { x08E7F6 "x1616D8" "x1BC4D0" "x2113D8" "x3A8CF5" "x44D03C" "x460749" "x502C96" "x51A981" "x651EB1" "x8293A6" "x90B040" "x90B0C0" "x98D949" "xA095E4" "xA547C9" "xAF030C" "xC0C070" "xC83AE5" "xD30430" }
+    traits = { "state_trait_sierra_madre_oriental" }
+    city = "x007001"
+    port = "xC0B080"
+    farm = "xDFD0C0"
+    mine = "x963998"
+    wood = "xA4C4A6"
+    arable_land = 50
+    arable_resources = { bg_maize_farms bg_livestock_ranches bg_coffee_plantations bg_dye_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations }
+    capped_resources = {
+        bg_coal_mining = 12
+        bg_lead_mining = 10
+        bg_logging = 6
+        bg_fishing = 4
+    }
+    resource = {
+        type = "bg_gold_fields"
+        depleted_type = "bg_gold_mining"
+        undiscovered_amount = 2
+    }
+    resource = {
+        type = "bg_rubber"
+        undiscovered_amount = 3
     }
     naval_exit_id = 3155
 }
 STATE_JALISCO = {
     id = 334
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x02AE5B" "x079132" "x0C6D43" "x0EE3B3" "x107001" "x13F963" "x1559EB" "x374D6F" "x3B18A7" "x3F0A44" "x4CF985" "x4E396E" "x50B000" "x50B080" "x65B33C" "x6725CB" "x6CE1F2" "x6EEA68" "x80B8A5" "x829A25" "x8ABF59" "x8EA0AB" "x907001" "x90B080" "x9AA3B4" "x9B87CC" "xA18CF4" "xBFDB49" "xC3A1B7" "xE34EE3" "xE5730F" "xE9BCBE" "xFEBF1A" }
+    provinces = { "x02AE5B" "x0EE3B3" "x107001" "x13F963" "x1559EB" "x2E172F" "x374D6F" "x3B18A7" "x3F0A44" "x41E3BB" "x4CF985" "x4E396E" "x50B000" "x50B080" "x52E09C" "x65B33C" "x6CE1F2" "x6EEA68" "x80B8A5" "x829A25" "x8ABF59" "x8EA0AB" "x8FD9A9" "x907001" "x90B080" "x97CE08" "xA18CF4" "xBFDB49" "xC1F60B" "xC3A1B7" "xCE2837" "xE26CDE" "xE34EE3" "xE5730F" "xE9BCBE" }
     traits = { "state_trait_sierra_madre_occidental" }
     city = "xE34EE3"
     port = "x3F0A44"
@@ -1355,27 +1443,27 @@ STATE_JALISCO = {
 STATE_ZACATECAS = {
     id = 335
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x0A1D52" "x1043A1" "x10545A" "x2214C5" "x236BF3" "x34ABA3" "x44B0D0" "x44E6F0" "x4606C7" "x4BFB55" "x503080" "x5B5167" "x5F1A07" "x6B4C3A" "x6EFE9A" "x6FBC1A" "x70C1FF" "x71F349" "x732A81" "x75E1C3" "x99570C" "x9B8923" "x9BAC78" "xB6FB08" "xBFB49D" "xD03080" "xD0B080" "xD6EED0" "xDEEEB0" "xE3628B" "xE6A7AE" "xEC946F" "xF32D13" "xFC9EFC" }
+    provinces = { "x06468D" "x079132" "x0C6D43" "x1043A1" "x10545A" "x236BF3" "x6725CB" "x6D5F07" "x99570C" "x9AA3B4" "x9B87CC" "x9B8923" "xA00496" "xB6FB08" "xBFB49D" "xDDC184" "xE6A7AE" "xFC9EFC" "xFEBF1A" }
     traits = { "state_trait_sierra_madre_oriental" }
     city = "x6FBC1A"
     farm = "x503080"
     mine = "xB6FB08"
     wood = "x44B0D0"
-    arable_land = 61
+    arable_land = 30
     arable_resources = { bg_maize_farms bg_livestock_ranches bg_coffee_plantations bg_dye_plantations bg_tobacco_plantations bg_sugar_plantations bg_banana_plantations }
     capped_resources = {
-        bg_iron_mining = 30
+        bg_iron_mining = 15
     }
     resource = {
         type = "bg_gold_fields"
         depleted_type = "bg_gold_mining"
-        undiscovered_amount = 7
+        undiscovered_amount = 4
     }
 }
 STATE_CHIAPAS = {
     id = 336
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x1030C0" "x10B0C0" "x1521F4" "x31E49A" "x3A8CF5" "x4DBDE9" "x502C96" "x651EB1" "x8E26C5" "xA087F6" "xA46BA0" "xA6550F" "xB70B3B" "xD03040" "xE0AADA" "xE8CFA0" "xF19260" }
+    provinces = { "x1030C0" "x10B0C0" "x1521F4" "x31E49A" "x4DBDE9" "x8E26C5" "xA087F6" "xA46BA0" "xA6550F" "xB70B3B" "xD03040" "xE0AADA" "xE8CFA0" "xF19260" }
     traits = { "state_trait_central_american_cordilleras" }
     city = "x1521F4"
     port = "x651EB1"

@@ -677,7 +677,7 @@
 				building="building_textile_mills"
 				level=8
 				reserves=1
-				activate_production_methods={ "pm_dye_workshops" "pm_no_luxury_clothes" "pm_traditional_looms" "pm_privately_owned_building_textile_mills" }
+				activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" "pm_privately_owned_building_textile_mills" }
 			}
 			create_building={
 				building="building_arms_industry"
@@ -1011,7 +1011,7 @@
 			}
 		}
 	}
-	s:STATE_VOJVODINA={
+	s:STATE_DELVIDEK={
 		region_state:SRM={
 			create_building={
 				building="building_wheat_farm"
@@ -1111,7 +1111,7 @@
 			}
 		}
 	}
-	s:STATE_EASTERN_TRANSYLVANIA={
+	s:STATE_SOUTHERN_TRANSYLVANIA={
 		region_state:BOH={
 			create_building={
 				building="building_barracks"
@@ -1133,7 +1133,7 @@
 			}
 		}
 	}
-	s:STATE_WESTERN_TRANSYLVANIA={
+	s:STATE_NORTHERN_TRANSYLVANIA={
 		region_state:BOH={
 			create_building={
 				building="building_government_administration"

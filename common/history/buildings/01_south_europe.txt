@@ -191,7 +191,7 @@
 			}
 			create_building={
 				building="building_naval_base"
-				level=2
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_man_o_wars" "pm_frigates" "pm_commerce_raider" "pm_no_naval_theory" }
 			}
@@ -1168,7 +1168,7 @@
 			}
 			create_building={
 				building="building_naval_base"
-				level=2
+				level=5
 				reserves=1
 				activate_production_methods={ "pm_man_o_wars" "pm_frigates" "pm_commerce_raider" "pm_no_naval_theory" }
 			}
@@ -1444,7 +1444,7 @@
 			}
 		}
 	}
-	s:STATE_THRACE={
+	s:STATE_EASTERN_THRACE={
 		region_state:ROM={
 			create_building={
 				building="building_government_administration"
@@ -1634,7 +1634,7 @@
 			}
 		}
 	}
-	s:STATE_RUMELIA={
+	s:STATE_NORTHERN_THRACE={
 		region_state:BUL={
 			create_building={
 				building="building_furniture_manufacturies"
@@ -2106,7 +2106,7 @@
 			}
 		}
 	}
-	s:STATE_NORTH_MACEDONIA={
+	s:STATE_SKOPIA={
 		region_state:MCD={
 			create_building={
 				building="building_iron_mine"
@@ -2134,7 +2134,7 @@
 			}
 		}
 	}
-	s:STATE_WEST_MACEDONIA={
+	s:STATE_MACEDONIA={
 		region_state:MCD={
 			create_building={
 				building="building_food_industry"
@@ -2168,7 +2168,7 @@
 			}
 		}
 	}
-	s:STATE_EAST_MACEDONIA={
+	s:STATE_WESTERN_THRACE={
 		region_state:MCD={
 			create_building={
 				building="building_textile_mills"
@@ -2271,103 +2271,3 @@
 		}
 	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

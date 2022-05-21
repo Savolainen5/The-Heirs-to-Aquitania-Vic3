@@ -179,7 +179,7 @@
 			}
 		}
 	}
-	s:STATE_KARELIA = {
+	s:STATE_EAST_KARELIA = {
 		region_state:SEM = {
 			create_pop = {
 				culture = russian
@@ -854,7 +854,7 @@
 			}
 		}
 	}
-	s:STATE_VOJVODINA = {
+	s:STATE_DELVIDEK = {
 		region_state:SRM = {
 			create_pop = {
 				culture = south_german
@@ -990,7 +990,7 @@
 			}
 		}
 	}
-	s:STATE_EASTERN_TRANSYLVANIA = {
+	s:STATE_SOUTHERN_TRANSYLVANIA = {
 		region_state:BOH = {
 			create_pop = {
 				culture = hungarian
@@ -1019,7 +1019,7 @@
 			}
 		}
 	}
-	s:STATE_WESTERN_TRANSYLVANIA = {
+	s:STATE_NORTHERN_TRANSYLVANIA = {
 		region_state:BOH = {
 			create_pop = {
 				culture = hungarian

@@ -3,7 +3,7 @@
 		region_state:AZB = {
 			create_pop = {
 				culture = north_caucasian
-				size = 381300
+				size = 271100
 			}
 			create_pop = {
 				culture = sephardic
@@ -24,12 +24,18 @@
 				size = 45500
 			}
 		}
+		region_state:CHC = {
+			create_pop = {
+				culture = north_caucasian
+				size = 92200
+			}
+		}
 	}
 	s:STATE_KUBAN = {
 		region_state:TAT = {
 			create_pop = {
 				culture = north_caucasian
-				size = 328804
+				size = 528804
 			}
 			create_pop = {
 				culture = greek
@@ -46,6 +52,12 @@
 			create_pop = {
 				culture = mongol
 				size = 4000
+			}
+		}
+		region_state:CIR = {
+			create_pop = {
+				culture = north_caucasian
+				size = 321000
 			}
 		}
 	}
@@ -331,11 +343,11 @@
 		region_state:KOK = {
 			create_pop = {
 				culture = kirgiz
-				size = 332300
+				size = 232150
 			}
 			create_pop = {
 				culture = uzbek
-				size = 240196
+				size = 160196
 			}
 			create_pop = {
 				pop_type = slaves
@@ -344,20 +356,43 @@
 			}
 			create_pop = {
 				culture = kazak
-				size = 48004
+				size = 16002
 			}
 			create_pop = {
 				culture = uighur
-				size = 32000
-			}
-			create_pop = {
-				culture = kirgiz
-				religion = animist
-				size = 20100
+				size = 12000
 			}
 			create_pop = {
 				culture = tajik
 				size = 11600
+			}
+			create_pop = {
+				culture = kirgiz
+				religion = animist
+				size = 8000
+			}
+		}
+		region_state:CHI = {
+			create_pop = {
+				culture = kirgiz
+				size = 100150
+			}
+			create_pop = {
+				culture = uzbek
+				size = 80000
+			}
+			create_pop = {
+				culture = kazak
+				size = 32002
+			}
+			create_pop = {
+				culture = uighur
+				size = 22000
+			}
+			create_pop = {
+				culture = kirgiz
+				religion = animist
+				size = 12100
 			}
 		}
 	}
@@ -399,15 +434,32 @@
 		region_state:KAZ = {
 			create_pop = {
 				culture = kazak
-				size = 364804
+				size = 164162
 			}
 			create_pop = {
 				culture = uighur
-				size = 44000
+				size = 11000
 			}
 			create_pop = {
 				culture = kirgiz
-				size = 24000
+				size = 4000
+			}
+		}
+	}
+	# Please do not ask where these numbers come from.
+	s:STATE_JETISY = {
+		region_state:CHI = {
+			create_pop = {
+				culture = kazak
+				size = 200642
+			}
+			create_pop = {
+				culture = uighur
+				size = 33000
+			}
+			create_pop = {
+				culture = kirgiz
+				size = 20000
 			}
 		}
 	}
