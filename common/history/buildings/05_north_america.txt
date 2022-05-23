@@ -566,7 +566,7 @@
 		}
 	}
 	s:STATE_ALABAMA={
-		region_state:LOG={
+		region_state:MAR={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -962,7 +962,7 @@
 		}
 	}
 	s:STATE_NEW_HAMPSHIRE={
-		region_state:LOG={
+		region_state:MAR={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -1369,7 +1369,7 @@
 		}
 	}
 	s:STATE_BERMUDA={
-		region_state:GBR={
+		region_state:AEN={
 			create_building={
 				building="building_naval_base"
 				level=5
@@ -1562,7 +1562,7 @@
 		}
 	}
 	s:STATE_VERACRUZ = {
-		region_state:MEX={				
+		region_state:AME={				
 			create_building={
 				building="building_textile_mills"
 				level=2
@@ -1654,7 +1654,7 @@
 		}
 	}
 	s:STATE_OAXACA={
-		region_state:MEX={
+		region_state:AME={
 			create_building={
 				building="building_maize_farm"
 				level=1
@@ -1762,7 +1762,7 @@
 		}
 	}
 	s:STATE_BAJIO={
-		region_state:MEX={
+		region_state:AME={
 			create_building={
 				building="building_maize_farm"
 				level=1

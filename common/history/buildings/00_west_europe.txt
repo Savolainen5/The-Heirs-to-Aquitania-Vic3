@@ -146,7 +146,7 @@
 		}
 	}
 	s:STATE_SCANIA={
-		region_state:SWE={
+		region_state:DEN={
 			create_building={
 				building="building_university"
 				level=1
@@ -468,7 +468,7 @@
 		}
 	}
 	s:STATE_SOUTHERN_FINLAND={
-		region_state:FIN={
+		region_state:SWE={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -520,7 +520,7 @@
 		}
 	}
 	s:STATE_ALAND={
-		region_state:FIN={
+		region_state:SWE={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -530,7 +530,7 @@
 		}
 	}
 	s:STATE_OSTROBOTHNIA={
-		region_state:FIN={
+		region_state:SWE={
 			create_building={
 				building="building_logging_camp"
 				level=2

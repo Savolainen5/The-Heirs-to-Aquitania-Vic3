@@ -336,7 +336,7 @@
 		}
 	}
 	s:STATE_GHANA={
-		region_state:GBR={
+		region_state:AEN={
 			create_building={
 				building="building_port"
 				level=1

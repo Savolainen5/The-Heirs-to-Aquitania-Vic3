@@ -281,7 +281,7 @@
 			}
 		}
 	}
-	s:STATE_KARELIA={
+	s:STATE_EAST_KARELIA={
 		region_state:SEM={
 			create_building={
 				building="building_logging_camp"
