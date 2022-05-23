@@ -1,4 +1,4 @@
-#North Ameriga
+﻿#North Ameriga
 AME = { #Federation of Ameriga
 	color = { 209 228 255 }
 	

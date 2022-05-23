@@ -18,7 +18,7 @@
 		}
 
 		create_character = {
-			first_name = "Karl Leopold" #II
+			first_name = "Karl_Leopold" #II
 			last_name = "von_Rasso"
 			culture = cu:south_german
 			ethnicity = caucasian_base

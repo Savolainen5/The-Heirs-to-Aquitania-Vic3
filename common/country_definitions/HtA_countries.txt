@@ -151,7 +151,7 @@ MCD = { #Macedonia/Makedon
 	
 	tier = principality
 	cultures = { roman greek }
-	capital = STATE_EAST_MACEDONIA
+	capital = STATE_MACEDONIA
 }
 MNZ = { #Mainz
 	color = { 168 143 44 }
@@ -201,7 +201,7 @@ ROM = { #Roman Empire
 	tier = empire
 	
 	cultures = { roman greek anatolian }
-	capital = STATE_THRACE
+	capital = STATE_EASTERN_THRACE
 }
 RUT = { #Ruthenia (working name)
 	color = { 105 170 120 }
@@ -241,7 +241,7 @@ SRM = { #Syrmia
 	tier = principality
 	
 	cultures = { serb }
-	capital = STATE_VOJVODINA
+	capital = STATE_DELVIDEK
 }
 TAT = { #Tataria, working name
 	color = { 168 0 5 }

@@ -32,7 +32,7 @@
 			create_pop = {
 				culture = north_italian
 				size = 925112
-			
+			}
 			create_pop = {
 				culture = north_italian
 				religion = jewish
