@@ -1,5 +1,10 @@
 ﻿l_english:
- HUB_NAME_STATE_LANGUEDOC_farm: "Perpignan"
+ HUB_NAME_STATE_LANGUEDOC_farm: "Narbona"
  HUB_NAME_STATE_LANGUEDOC_city: "Mauguio"
- HUB_NAME_STATE_LANGUEDOC_mine: "Ales"
- HUB_NAME_STATE_LANGUEDOC_port: "Narbonne"
+ HUB_NAME_STATE_LANGUEDOC_mine: "Alés"
+ HUB_NAME_STATE_LANGUEDOC_port: "Narbona"
+ HUB_NAME_STATE_LANGUEDOC_wood: "Rodés"
+ HUB_NAME_STATE_ARMAGNAC_city: "Tolosa"
+ HUB_NAME_STATE_ARMAGNAC_farm: "Montalban"
+ HUB_NAME_STATE_ARMAGNAC_wood: "Albi"
+ HUB_NAME_STATE_ARMAGNAC_mine: "Fois"

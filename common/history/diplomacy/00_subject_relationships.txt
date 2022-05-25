@@ -191,23 +191,6 @@
 			type = tributary
 		}				
 	}
-	c:MEX = {
-		create_diplomatic_pact = {
-			country = c:YUC
-			type = puppet
-		}
-	}	
-
-	c:USA = {
-		create_diplomatic_pact = {
-			country = c:LIB
-			type = protectorate
-		}
-		create_diplomatic_pact = {
-			country = c:SEQ
-			type = puppet
-		}
-	}
 	c:DAI = {
 		create_diplomatic_pact = {
 			country = c:CAM
