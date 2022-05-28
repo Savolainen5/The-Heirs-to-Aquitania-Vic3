@@ -817,7 +817,7 @@
 		}
 	}
 	s:STATE_NEW_HAMPSHIRE = {
-		region_state:NBS = {
+		region_state:QUE = {
 			create_pop = {
 				culture = yankee
 				size = 223300

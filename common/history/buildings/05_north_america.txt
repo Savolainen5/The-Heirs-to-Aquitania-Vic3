@@ -962,7 +962,7 @@
 		}
 	}
 	s:STATE_NEW_HAMPSHIRE={
-		region_state:MAR={
+		region_state:QUE={
 			create_building={
 				building="building_government_administration"
 				level=1

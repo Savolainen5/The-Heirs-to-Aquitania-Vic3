@@ -89,7 +89,7 @@ DAU = { #Daufinat
 GLG = { #Galgai, i.e. Ingushetia
 	color = { 96 60 110 } #some kind of red would be better, tbh
 	
-	country_type = recognized
+	country_type = unrecognized
 	
 	tier = principality
 	cultures = { north_caucasian }
@@ -107,7 +107,7 @@ HAN = {
 	is_named_from_capital = yes
 }
 HHB = { #Hochburg
-	color = { 239 199 0 } #old color{ 120 40 20 }
+	color = { 91 46 23 } #old color { 239 199 0 } #older color{ 120 40 20 }
 	
 	country_type = recognized
 
@@ -145,9 +145,9 @@ JUZ = { #Junior Zhuz of Kazakhs
 	capital = STATE_URALSK
 }
 KAB = { #Kabardia
-	color = { 165 165 165 }
+	color = { 165 205 165 }
 	
-	country_type = recognized
+	country_type = unrecognized
 	
 	tier = principality
 	cultures = { north_caucasian }
@@ -264,7 +264,7 @@ SRM = { #Syrmia
 TAR = { #Tarki Shamkhalate
 	color = { 32 76 35 }
 	
-	country_type = recognized
+	country_type = unrecognized
 	
 	tier = principality
 	cultures = { north_caucasian }
