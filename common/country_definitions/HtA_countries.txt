@@ -86,6 +86,15 @@ DAU = { #Daufinat
 	cultures = { aquitanian }
 	capital = STATE_RHONE
 }
+GLG = { #Galgai, i.e. Ingushetia
+	color = { 96 60 110 } #some kind of red would be better, tbh
+	
+	country_type = recognized
+	
+	tier = principality
+	cultures = { north_caucasian }
+	capital = { STATE_DAGESTAN }
+}
 HAN = {
 	color = { 164  217  127 }
 	
@@ -134,7 +143,16 @@ JUZ = { #Junior Zhuz of Kazakhs
 	tier = principality
 	cultures = { kazak }
 	capital = STATE_URALSK
-}	
+}
+KAB = { #Kabardia
+	color = { 165 165 165 }
+	
+	country_type = recognized
+	
+	tier = principality
+	cultures = { north_caucasian }
+	capital = { STATE_KUBAN }
+}
 LDN = { #Ladenburg
 	color = { 97 146 40 }
 	
@@ -242,6 +260,15 @@ SRM = { #Syrmia
 	
 	cultures = { serb }
 	capital = STATE_DELVIDEK
+}
+TAR = { #Tarki Shamkhalate
+	color = { 32 76 35 }
+	
+	country_type = recognized
+	
+	tier = principality
+	cultures = { north_caucasian }
+	capital = { STATE_DAGESTAN }
 }
 TAT = { #Tataria, working name
 	color = { 168 0 5 }

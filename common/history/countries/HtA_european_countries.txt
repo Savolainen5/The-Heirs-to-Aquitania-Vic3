@@ -166,6 +166,11 @@
 		
 		effect_starting_politics_conservative = yes
 	}
+	c:GLG = {
+		effect_starting_technology_tier_6_tech = yes
+		
+		effect_starting_politics_conservative = yes
+	}
 	c:HHB = {
 		effect_starting_technology_tier_2_tech = yes
 	}
@@ -215,6 +220,11 @@
 	}
 	c:JEB = {
 		effect_starting_technology_tier_2_tech = yes
+	}
+	c:KAB = {
+		effect_starting_technology_tier_6_tech = yes
+		
+		effect_starting_politics_conservative = yes
 	}
 	c:LDN = {
 		effect_starting_technology_tier_2_tech = yes
