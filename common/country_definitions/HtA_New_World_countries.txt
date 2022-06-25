@@ -81,7 +81,7 @@ NHL = { #New Holland, Dutch colony
 	cultures = { dutch }
 	capital = STATE_CEARA
 }
-NLE = { #Viceroyalty of Nueva Leon, Hispanian colony
+NGR = { #Viceroyalty of Nueva Leon, Hispanian colony
 	color = { 255 119 91 }
 	
 	country_type = colonial
