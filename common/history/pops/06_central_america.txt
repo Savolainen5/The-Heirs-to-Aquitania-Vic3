@@ -1,6 +1,6 @@
 ﻿POPS = {
 	s:STATE_SAN_SALVADOR = {
-		region_state:UCA = {
+		region_state:GUA = {
 			create_pop = {
 				culture = central_american
 				size = 428204
@@ -8,7 +8,7 @@
 		}
 	}
 	s:STATE_GUATEMALA = {
-		region_state:UCA = {
+		region_state:GUA = {
 			create_pop = {
 				culture = central_american
 				size = 164404
@@ -17,8 +17,6 @@
 				culture = mayan
 				size = 312000
 			}
-		}
-		region_state:AEN = {
 			create_pop = {
 				culture = afro_caribbean
 				size = 7104
@@ -30,7 +28,7 @@
 		}
 	}
 	s:STATE_HONDURAS = {
-		region_state:UCA = {
+		region_state:GUA = {
 			create_pop = {
 				culture = central_american
 				size = 385204
@@ -42,7 +40,7 @@
 		}
 	}
 	s:STATE_NICARAGUA = {
-		region_state:UCA = {
+		region_state:GUA = {
 			create_pop = {
 				culture = central_american
 				size = 284000
@@ -51,8 +49,6 @@
 				culture = miskito # Miskito pop. across the 'borders'
 				size = 4000
 			}
-		}
-		region_state:MKT = {
 			create_pop = {
 				culture = miskito # Tawira Miskito
 				size = 30000
@@ -82,7 +78,7 @@
 		}
 	}
 	s:STATE_COSTA_RICA = {
-		region_state:UCA = {
+		region_state:GUA = {
 			create_pop = {
 				culture = central_american
 				size = 83992
@@ -90,7 +86,7 @@
 		}
 	}
 	s:STATE_PANAMA = {
-		region_state:CLM = {
+		region_state:GUA = {
 			create_pop = {
 				culture = central_american
 				size = 87792

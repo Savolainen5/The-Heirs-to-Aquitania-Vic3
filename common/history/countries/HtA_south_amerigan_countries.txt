@@ -1,5 +1,5 @@
 ﻿COUNTRIES = {
-	c:LON = {
+	c:NEX = {
 		set_tax_level = medium
 		
 		effect_starting_technology_tier_2_tech = yes
@@ -32,7 +32,7 @@
 
 
 	}
-	c:NPT = {
+	c:NLT = {
 		set_tax_level = medium
 		
 		effect_starting_technology_tier_3_tech = yes
@@ -164,7 +164,7 @@
 
 
 	}
-	c:NCN = {
+	c:GLE = {
 		set_tax_level = medium
 		
 		effect_starting_technology_tier_3_tech = yes

@@ -1385,7 +1385,7 @@
 		}
 	}
 	s:STATE_TEXAS={
-		region_state:TEX={
+		region_state:MAR={
 			create_building={
 				building="building_cotton_plantation"
 				level=1
@@ -1394,7 +1394,7 @@
 			}
 			create_building={
 				building="building_barracks"
-				level=10
+				level=5
 				reserves=1
 				activate_production_methods={ "pm_wound_dressing" "pm_line_infantry" "pm_cavalry_scouts" "pm_no_specialists" "pm_cannon_artillery" }
 			}

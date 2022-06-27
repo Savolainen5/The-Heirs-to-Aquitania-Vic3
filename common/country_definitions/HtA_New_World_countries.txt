@@ -41,7 +41,27 @@ MAR = { #Mariana
 }
 #Central Ameriga
 #South Ameriga
-LON = { #Viceroyalty of Lonca, Hispanian colony
+CNL = { #Canelia, generalized name for indigenous peoples on the right bank of the Amazon
+	color = { 200 175 20 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { amazonian }
+	capital = STATE_MATO_GROSSO
+}
+LON = { #Lonco, independent country name for Nueva Extremadura
+	color = { 255 157 0 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	
+	cultures = { spanish }
+	capital = STATE_SANTIAGO
+}
+NEX = { #Nueva Extremadura
 	color = { 255 157 0 }
 	
 	country_type = colonial
@@ -51,7 +71,7 @@ LON = { #Viceroyalty of Lonca, Hispanian colony
 	cultures = { spanish }
 	capital = STATE_SANTIAGO
 }
-NCN = { #New Cantric, Aenglish colony
+GLE = { #Gledy or Gledia, Aenglish colony
 	color = { 188 153 71 }
 	
 	country_type = colonial
@@ -60,6 +80,24 @@ NCN = { #New Cantric, Aenglish colony
 	
 	cultures = { aenglisc }
 	capital = STATE_BAHIA
+}
+KAW = { #Kawesqar indigenous peoples
+	color = { 90 230 100 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	cultures = { patagonian }
+	capital = STATE_ARAUCANIA
+}
+MAO = { #Manaó, generalized name for Amazonian left bank indigenous peoples
+	color = { 25 65 115 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	cultures = { amazonian }
+	capital = STATE_AMAZONAS
 }
 NCS = { #Nueva Castilla, in revolt from Hispania
 	color = { 211 204 6 }
@@ -71,8 +109,8 @@ NCS = { #Nueva Castilla, in revolt from Hispania
 	cultures = { spanish }
 	capital = STATE_SANTIAGO
 }
-NHL = { #New Holland, Dutch colony
-	color = { 255 112 30 }
+NHL = { #New Holland, Dutch colony. Independent as Sintelland?
+	color = { 210 130 60 }
 	
 	country_type = colonial
 	
@@ -81,7 +119,7 @@ NHL = { #New Holland, Dutch colony
 	cultures = { dutch }
 	capital = STATE_CEARA
 }
-NGR = { #Viceroyalty of Nueva Leon, Hispanian colony
+NGR = { #Viceroyalty of Nueva Granada, Hispanian colony
 	color = { 255 119 91 }
 	
 	country_type = colonial
@@ -91,7 +129,7 @@ NGR = { #Viceroyalty of Nueva Leon, Hispanian colony
 	cultures = { spanish portuguese }
 	capital = STATE_ZULIA
 }
-NPT = { #Viceroyalty of Nova Portugal, Hispanian colony
+NLT = { #Viceroyalty of Nova Lusitania, Hispanian colony
 	color = { 71 158 75 }
 	
 	country_type = colonial

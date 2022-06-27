@@ -1211,27 +1211,19 @@
 		}
 	}
 	s:STATE_TEXAS = {
-		region_state:TEX = {
+		region_state:MAR = {
 			create_pop = {
 				culture = dixie
-				size = 42224
+				size = 22224
 			}
 			create_pop = {
 				culture = siouan
 				size = 1996
 			}
 			create_pop = {
-				culture = caddoan
-				size = 4000
-			}
-			create_pop = {
 				pop_type = slaves
 				culture = afro_american
 				size = 6040
-			}
-			create_pop = {
-				culture = mexican
-				size = 2004
 			}
 		}
 		region_state:AME = {
@@ -1241,7 +1233,11 @@
 			}
 			create_pop = {
 				culture = mexican
-				size = 3000
+				size = 8000
+			}
+			create_pop = {
+				culture = caddoan
+				size = 4000
 			}
 		}
 		region_state:COM = {
@@ -1463,7 +1459,7 @@
 	# Tabasco:			58518 in 1830, 63919 in 1840, so averaging out to 61219
 	# working total number of 548936
 	s:STATE_YUCATAN = { 
-		region_state:AME = {
+		region_state:YUC = {
 			create_pop = {
 				culture = mexican
 				size = 226764
@@ -1581,7 +1577,7 @@
 		}
 	}
 	s:STATE_CHIAPAS = {
-		region_state:AME = {
+		region_state:GUA = {
 			create_pop = {
 				culture = mexican
 				size = 75032

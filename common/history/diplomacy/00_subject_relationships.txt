@@ -42,12 +42,12 @@
 		#	country = c:UNT
 		#	type = dominion
 		#}
-		# Mosquito Kingdom
-		create_diplomatic_pact = {
-			country = c:MKT
-			type = protectorate
-		}
 		
+		# Gledy
+		create_diplomatic_pact = {
+			country = c:GLE
+			type = puppet
+		}
 		# Colony of Logria
 		create_diplomatic_pact = {
 			country = c:LOG
@@ -57,6 +57,10 @@
 	c:AQT = {
 		create_diplomatic_pact = {
 			country = c:CUB
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:HAI
 			type = puppet
 		}
 	}
@@ -131,7 +135,23 @@
 		create_diplomatic_pact = {
 			country = c:PHI
 			type = puppet
-		}	
+		}
+		create_diplomatic_pact = {
+			country = c:NGR
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:NEX
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:NLT
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:GUA
+			type = puppet
+		}
 	}
 	c:IRE = {
 		create_diplomatic_pact = {
@@ -142,6 +162,10 @@
 	c:NET = {
 		create_diplomatic_pact = {
 			country = c:GDL
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:NHL
 			type = puppet
 		}
 	}
