@@ -3659,7 +3659,7 @@
 			}
 		}
 	}
-	s:STATE_MECKLENBERG={
+	s:STATE_MECKLENBURG={
 		region_state:MEC={
 			create_building={
 				building="building_rye_farm"

@@ -680,3 +680,119 @@ greek={
 		1 = eth_placeholder
 	}
 }
+shoshone={ #Split from vanilla Paiute
+	color= hsv{ 0.12 0.49 0.60 }
+	religion = animist
+	traits = { indigenous_american_heritage north_american_group }
+	male_common_first_names={
+		Antonga
+		Arapeen
+		Canalla
+		Cameahwait
+		Colorow
+		Guero
+		Ignacio
+		Kanosh
+		Ouray
+		Owitze
+		Paseego
+		Pinquanah
+		Pocatello
+		Posey
+		Sanpitch
+		Sapiah
+		Sapinero
+		Severo
+		Tabby-To-Hwanah
+		Tse-Ne-Gat
+		Walkara
+		Washakie
+		Wirasuap
+	}
+	female_common_first_names = {
+		Chipeta
+		Nanawu
+		Pearl
+		Shawsheen
+		Wenega
+	}	
+	noble_last_names = {
+		House
+		Timbimboo
+		Timpanog
+		Tussawehee
+		Umatilla
+	}
+	common_last_names={
+		Box
+		Daggett
+		Estep
+		Manning
+		Rael
+		Teton
+		Trahant
+		Trudell
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+ute={ #Split from vanilla Paiute
+	color= hsv{ 0.18 0.19 0.30 }
+	religion = animist
+	traits = { indigenous_american_heritage north_american_group }
+	male_common_first_names={
+		Antonga
+		Arapeen
+		Canalla
+		Cameahwait
+		Colorow
+		Guero
+		Ignacio
+		Kanosh
+		Ouray
+		Owitze
+		Paseego
+		Pinquanah
+		Pocatello
+		Posey
+		Sanpitch
+		Sapiah
+		Sapinero
+		Severo
+		Tabby-To-Hwanah
+		Tse-Ne-Gat
+		Walkara
+		Washakie
+		Wirasuap
+	}
+	female_common_first_names = {
+		Chipeta
+		Nanawu
+		Pearl
+		Shawsheen
+		Wenega
+	}	
+	noble_last_names = {
+		House
+		Timbimboo
+		Timpanog
+		Tussawehee
+		Umatilla
+	}
+	common_last_names={
+		Box
+		Daggett
+		Estep
+		Manning
+		Rael
+		Teton
+		Trahant
+		Trudell
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}

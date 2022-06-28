@@ -139,3 +139,23 @@ NLT = { #Viceroyalty of Nova Lusitania, Hispanian colony
 	cultures = { spanish portuguese }
 	capital = STATE_BUENOS_AIRES
 }
+NUT = { #Territory of Nutca, Hispanian possession
+	color = { 50 80 90 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { spanish }
+	capital = STATE_BRITISH_COLUMBIA
+}
+SHO = { #Shoshone
+	color = { 115 90 55 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { spanish }
+	capital = STATE_IDAHO
+}

@@ -152,6 +152,10 @@
 			country = c:GUA
 			type = puppet
 		}
+		create_diplomatic_pact = {
+			country = c:NUT
+			type = puppet
+		}
 	}
 	c:IRE = {
 		create_diplomatic_pact = {

@@ -93,7 +93,7 @@ GLG = { #Galgai, i.e. Ingushetia
 	
 	tier = principality
 	cultures = { north_caucasian }
-	capital = { STATE_DAGESTAN }
+	capital = STATE_DAGESTAN
 }
 HAN = {
 	color = { 164  217  127 }
@@ -117,11 +117,11 @@ HHB = { #Hochburg
 	capital = STATE_BADEN
 }
 HIS = {
-	color = hsv360{ 0 71 74 } #yellow is overrated
+	color = { 175 152 0 }#hsv360{ 0 71 74 }#a dark red because yellow is overrated
 	
 	country_type = recognized
 
-	tier = kingdom
+	tier = empire
 	
 	cultures = { spanish }
 	capital = STATE_TOLEDO
@@ -151,7 +151,7 @@ KAB = { #Kabardia
 	
 	tier = principality
 	cultures = { north_caucasian }
-	capital = { STATE_KUBAN }
+	capital = STATE_KUBAN
 }
 LDN = { #Ladenburg
 	color = { 97 146 40 }
@@ -268,7 +268,7 @@ TAR = { #Tarki Shamkhalate
 	
 	tier = principality
 	cultures = { north_caucasian }
-	capital = { STATE_DAGESTAN }
+	capital = STATE_DAGESTAN
 }
 TAT = { #Tataria, working name
 	color = { 168 0 5 }

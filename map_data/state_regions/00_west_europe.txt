@@ -1367,7 +1367,7 @@ STATE_HESSE = {
         bg_logging = 7
     }
 }
-STATE_MECKLENBERG = {
+STATE_MECKLENBURG = {
     id = 75
     subsistence_building = "building_subsistence_farms"
     provinces = { "xE041A0" "xE080A0" "x12E54F" "xD9A469" "x24CA48" "x4545BE" "xD8F441" }
