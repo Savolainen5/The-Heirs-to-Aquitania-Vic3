@@ -1,4 +1,13 @@
 ﻿#North Ameriga
+ALE = { #Aleutia
+    color = { 34 138 84 }
+    country_type = decentralized 
+
+    tier = principality
+
+    cultures = { inuit }
+    capital = STATE_ALASKA
+}
 AME = { #Federation of Ameriga
 	color = { 209 228 255 }
 	
@@ -9,6 +18,25 @@ AME = { #Federation of Ameriga
 	cultures = { mexican }
 	capital = STATE_MEXICO
 }
+ATB = { #Athabasca
+    color = { 88 105 137 }
+    country_type = decentralized 
+
+    tier = principality
+
+    cultures = { athabaskan }
+    capital = STATE_NORTHWEST_TERRITORIES
+}
+CHN = { #Chinook
+	color = { 155 190 25 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { chinook }
+	capital = STATE_OREGON
+}
 GDL = { #Guldenland / Guilderland
 	color = { 255 206 84 }
 	
@@ -18,6 +46,24 @@ GDL = { #Guldenland / Guilderland
 	
 	cultures = { dutch }
 	capital = STATE_CONNECTICUT
+}
+HAD = { #Haida
+    color = { 20 191 20 }
+    country_type = decentralized 
+
+    tier = principality
+
+    cultures = { salish }
+    capital = STATE_BRITISH_COLUMBIA
+}
+INU = { #Inuit
+    color = { 205 214 216 }
+    country_type = decentralized
+
+    tier = principality
+
+    cultures = { inuit }
+    capital = STATE_ALASKA
 }
 LOG = { #Logria, Aenglish colony in OTL southern US
 	color = { 5 100 130 }
@@ -39,6 +85,54 @@ MAR = { #Mariana
 	cultures = { french }
 	capital = STATE_LOUISIANA
 }
+NUT = { #Territory of Nutca, Hispanian possession
+	color = { 50 80 90 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { spanish }
+	capital = STATE_BRITISH_COLUMBIA
+}
+SAL = { #Salish
+    color = { 8 89 97 }
+    country_type = decentralized 
+
+    tier = principality
+
+    cultures = { salish }
+    capital = STATE_WASHINGTON
+}
+SHO = { #Shoshone
+	color = { 115 90 55 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { shoshone }
+	capital = STATE_IDAHO
+}
+TLN = { #Tlingit
+    color = { 194 94 84 }
+    country_type = decentralized
+
+    tier = principality
+
+    cultures = { salish }
+    capital = STATE_ALASKA
+}
+YUP = { #Yupik
+    color = { 75 175 230 }
+    country_type = decentralized 
+
+    tier = principality
+
+    cultures = { inuit }
+    capital = STATE_ALASKA
+}
+
 #Central Ameriga
 #South Ameriga
 CNL = { #Canelia, generalized name for indigenous peoples on the right bank of the Amazon
@@ -138,24 +232,4 @@ NLT = { #Viceroyalty of Nova Lusitania, Hispanian colony
 	
 	cultures = { spanish portuguese }
 	capital = STATE_BUENOS_AIRES
-}
-NUT = { #Territory of Nutca, Hispanian possession
-	color = { 50 80 90 }
-	
-	country_type = colonial
-	
-	tier = principality
-	
-	cultures = { spanish }
-	capital = STATE_BRITISH_COLUMBIA
-}
-SHO = { #Shoshone
-	color = { 115 90 55 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { spanish }
-	capital = STATE_IDAHO
 }

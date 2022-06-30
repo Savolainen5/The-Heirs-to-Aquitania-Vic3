@@ -715,6 +715,7 @@ PDN = {
 		instance = { position = { 0.23 0.2 } scale = { 0.25 0.3 } rotation = 90 }
 	}
 }
+##################################
 POR = {
 	pattern = "pattern_solid.tga"
 	color1 = white
@@ -726,10 +727,11 @@ POR = {
 		#mask = {1}
 	}
 }
-	
+###################################	
 ROM = {
 	textured_emblem = { texture = "V2/BYZ_monarchy.tga" } #Temporary
 }
+###################################
 SEM = { #Semia
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "red"
@@ -750,7 +752,7 @@ SEM = { #Semia
 		color2 = "black"
 		color3 = "white"
 		instance = {
-			position = { 0.75 0.45 }
+			position = { 0.75 0.5 }
 		}
 	}
 }

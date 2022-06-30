@@ -796,3 +796,49 @@ ute={ #Split from vanilla Paiute
 	}
 	graphics = generic
 }
+chinook={ # copied from salish, sorry
+	color= hsv{ 0.85 0.37 0.52 }
+	religion = animist
+	traits = { indigenous_american_heritage north_american_group }
+	male_common_first_names={
+		Cumshewa
+		Cuneah
+		Dah-egin
+		Gush_X-een
+		Guujaaw
+		Hluugitgaa
+		Masset
+		Ninstints
+		Skaay
+		Skidegate
+		Tahaygen
+		Wiisheyksh
+		Xhuuyaa
+	}
+	female_common_first_names = {
+		Ansnaq
+		Jadal_q-eganga
+		Kung_Jaadee
+		Kwiigeliones
+		K-woiyang
+		Qawkuna
+		Skil_Kew_Wat
+	}	
+	noble_last_names = {
+		Gispwudwada
+		Idinsaw
+		Taantakwaan
+		Y-akwa-lanas
+	}
+	common_last_names={
+		Daaxan
+		Hak
+		Ni-isyuus
+		Psday
+		Yahgulanaas
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
