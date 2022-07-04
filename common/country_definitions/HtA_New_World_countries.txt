@@ -85,6 +85,16 @@ MAR = { #Mariana
 	cultures = { french }
 	capital = STATE_LOUISIANA
 }
+NPT = { #Northern Paiute
+	color = { 20 0 150 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { paiute }
+	capital = STATE_NEVADA
+}
 NUT = { #Territory of Nutca, Hispanian possession
 	color = { 50 80 90 }
 	
@@ -113,6 +123,16 @@ SHO = { #Shoshone
 	
 	cultures = { shoshone }
 	capital = STATE_IDAHO
+}
+SPT = { #Southern Paiute
+	color = { 120 40 150 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { paiute }
+	capital = STATE_ARIZONA
 }
 TLN = { #Tlingit
     color = { 194 94 84 }
