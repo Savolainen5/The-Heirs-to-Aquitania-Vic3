@@ -1,3 +1,56 @@
 ﻿l_english:
- #State names
+ #State names (different ones)
+ 
+ #Guilderland
+ STATE_MOURITSLAND: "Mouritsland"
+ STATE_KARELSLAND: "Karelsland"
+ STATE_TUSSBERG: "Tussberg"
+ STATE_HILLENSLAND: "Hillensland"
+ STATE_IROKEZIE: "Irokezie"
+ STATE_NIEUW_ZEELAND: "Nieuw Zeeland"
+ STATE_PATAUNKE: "Pataunke"
+ STATE_ZWAANENDAEL: "Zwaanendael"
+ STATE_HOOGLANDEN: "Hooglanden"
+ STATE_AMIKIE: "Amikie"
+ STATE_PEQUIE: "Pequie"
+ STATE_KRAANLAND: "Kraanland"
+ STATE_NISGINGOUN: "Nisgingoun"
+ STATE_INOKIE: "Inokie"
+ STATE_OETAGAMIE: "Oetagamie"
+
+ #Dano-Norwegian Canada
+ STATE_SKOVOY: "Skovøy"
+ STATE_CHRISTIANSLAND: "Christiansland"
+ STATE_NY_SCHLESWIG: "Ny Schleswig"
+ STATE_THISLAND: "Thisland"
+ STATE_MESESAG: "Mesesag"
+ STATE_KIVEDIN: "Kivedin"
+ STATE_SAGAIGAN: "Sagaigan"
+ STATE_RODLAND: "Rødland"
+ STATE_KISKATEVEN: "Kiskateven"
+ STATE_PIKANIEN: "Pikanien"
+  #Still need to finish the northern states
+ 
+ #Logria
+ STATE_NORTH_ADWERDIA: "North Adwerdia"
+ STATE_SOUTH_ADWERDIA: "South Adwerdia"
+ STATE_OFERBERG: "Oferberg"
+ STATE_CRUGOLAND: "Crugoland"
+ STATE_WELLBURN: "Wellburn"
+ STATE_BERDON: "Berdon"
+
+ #Mariana
+ STATE_TOHOME: "Tohomé"
+ STATE_TANABIE: "Tanabie"
+ STATE_COCHAPO: "Cochapo"
+ STATE_NOUVEAU_BLOIS: "Nouveau Blois"
+ STATE_HACHICOBA: "Hachicoba"
+ STATE_QUOIPAS: "Quoipas"
+ STATE_MONONGONIE: "Monongonie"
+ STATE_HAINAI: "Hainai"
+
+ #Caribbean
+ STATE_SOLELHA: "Solelha"
+
+
  STATE_GYREFENA: "Gyrefena"

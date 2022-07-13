@@ -1,5 +1,5 @@
 ﻿POPS = {
-	s:STATE_DISTRICT_OF_COLUMBIA = { #Now in western TN/KY
+	s:STATE_TANABIE = { #Now in western TN/KY
 		region_state:MAR = { 
 			create_pop = {
 				culture = yankee
@@ -16,7 +16,7 @@
 			}
 		}
 	}
-	s:STATE_LOUISIANA = {
+	s:STATE_NOUVEAU_BLOIS = {
 		region_state:MAR = {
 			create_pop = {
 				culture = franco_canadian
@@ -49,7 +49,7 @@
 			}
 		}
 	}
-	s:STATE_NEW_YORK = {
+	s:STATE_IROKEZIE = {
 		region_state:GDL = {
 			create_pop = {
 				culture = yankee
@@ -75,7 +75,7 @@
 			}
 		}
 	}
-	s:STATE_VIRGINIA = { # population of VA proper minus Fairfax County, which had its population figures added to DC to inflate the pop count there
+	s:STATE_NORTH_ADWERDIA = { # population of VA proper minus Fairfax County, which had its population figures added to DC to inflate the pop count there
 		region_state:LOG = {
 			create_pop = {
 				culture = dixie
@@ -256,7 +256,7 @@
 			}
 		}
 	}
-	s:STATE_SOUTH_DAKOTA = {
+	s:STATE_OETAGAMIE = {
 		region_state:LKT = {
 			create_pop = {
 				culture = dakota
@@ -342,7 +342,7 @@
 			}
 		}
 	}
-	s:STATE_ARKANSAS = {
+	s:STATE_HACHICOBA = {
 		region_state:MAR = {
 			create_pop = {
 				culture = dixie
@@ -363,7 +363,7 @@
 			}
 		}
 	}
-	s:STATE_MISSOURI = {
+	s:STATE_QUOIPAS = {
 		region_state:MAR = {
 			create_pop = {
 				culture = dixie
@@ -397,7 +397,7 @@
 			}
 		}
 	}
-	s:STATE_IOWA = {
+	s:STATE_MONGONIE = {
 		region_state:MAR = {
 			create_pop = {
 				culture = algonquian
@@ -413,7 +413,7 @@
 			}
 		}
 	}
-	s:STATE_MINNESOTA = {
+	s:STATE_KIVEDIN = {
 		region_state:ONT = {
 			create_pop = {
 				culture = algonquian
@@ -427,7 +427,7 @@
 			}
 		}
 	}
-	s:STATE_WISCONSIN = {
+	s:STATE_SAGAIGAN = {
 		region_state:ONT = {
 			create_pop = {
 				culture = algonquian
@@ -439,7 +439,7 @@
 			}
 		}
 	}
-	s:STATE_INDIANA = {
+	s:STATE_KRAANLAND = {
 		region_state:GDL = {
 			create_pop = {
 				culture = yankee
@@ -459,7 +459,7 @@
 			}
 		}
 	}
-	s:STATE_MICHIGAN = {
+	s:STATE_NISGINGOUN = {
 		region_state:GDL = {
 			create_pop = {
 				culture = yankee
@@ -484,7 +484,7 @@
 			}
 		}
 	}
-	s:STATE_OHIO = {
+	s:STATE_AMIKIE = {
 		region_state:GDL = {
 			create_pop = {
 				culture = yankee
@@ -504,7 +504,7 @@
 			}
 		}
 	}
-	s:STATE_KENTUCKY = {
+	s:STATE_PEQUIE = {
 		region_state:GDL = {
 			create_pop = {
 				culture = dixie
@@ -529,7 +529,7 @@
 			}
 		}
 	}
-	s:STATE_TENNESSEE = {
+	s:STATE_WELLBURN = {
 		region_state:LOG = {
 			create_pop = {
 				culture = dixie
@@ -562,7 +562,7 @@
 			}
 		}
 	}
-	s:STATE_MISSISSIPPI = {
+	s:STATE_COCHAPO = {
 		region_state:MAR = {
 			create_pop = {
 				culture = dixie
@@ -579,7 +579,7 @@
 			}
 		}
 	}
-	s:STATE_ALABAMA = {
+	s:STATE_TOHOME = {
 		region_state:MAR = {
 			create_pop = {
 				culture = dixie
@@ -609,7 +609,7 @@
 			}
 		}
 	}
-	s:STATE_FLORIDA = {
+	s:STATE_SOLELHA = {
 		region_state:AQT = {
 			create_pop = {
 				culture = dixie
@@ -630,7 +630,7 @@
 			}
 		}
 	}
-	s:STATE_GEORGIA = {
+	s:STATE_BERDON = {
 		region_state:LOG = {
 			create_pop = {
 				culture = dixie
@@ -656,7 +656,7 @@
 			}
 		}
 	}
-	s:STATE_WEST_VIRGINIA = {
+	s:STATE_HOOGLANDEN = {
 		region_state:GDL = {
 			create_pop = {
 				culture = dixie
@@ -678,7 +678,7 @@
 			}
 		}
 	}
-	s:STATE_MARYLAND = { # Actually Maryland + Delaware
+	s:STATE_PATAUNKE = { # Actually Maryland + Delaware
 		region_state:GDL = {
 			# Maryland: (1830, 447040) (1840, 470019), so 1835 est. 458530
 			# Delaware: (1830, 76748)  (1840, 78085),  so 1835 est. 77417
@@ -704,7 +704,7 @@
 		}
 	}
 
-	s:STATE_DELAWARE = {
+	s:STATE_ZWAANENDAEL = {
 		region_state:GDL = {
 			create_pop = {
 				culture = dixie
@@ -724,7 +724,7 @@
 		}
 	}
 
-	s:STATE_PENNSYLVANIA = {
+	s:STATE_NIEUW_ZEELAND = {
 		region_state:GDL = {
 			create_pop = {
 				culture = yankee
@@ -750,7 +750,7 @@
 			}
 		}
 	}
-	s:STATE_NEW_JERSEY = {
+	s:STATE_HILLENSLAND = {
 		region_state:GDL = {
 			create_pop = {
 				culture = yankee
@@ -767,7 +767,7 @@
 			}
 		}
 	}
-	s:STATE_ILLINOIS = {
+	s:STATE_INOKIE = {
 		region_state:GDL = {
 			create_pop = {
 				culture = yankee
@@ -779,7 +779,7 @@
 			}
 		}
 	}
-	s:STATE_RHODE_ISLAND = {
+	s:STATE_OFERBERG = {
 		region_state:LOG = {
 			create_pop = {
 				culture = yankee
@@ -787,7 +787,7 @@
 			}
 		}
 	}
-	s:STATE_CONNECTICUT = {
+	s:STATE_MOURITSLAND = {
 		region_state:GDL = {
 			create_pop = {
 				culture = yankee
@@ -795,7 +795,7 @@
 			}
 		}
 	}
-	s:STATE_MASSACHUSETTS = {
+	s:STATE_KARELSLAND = {
 		region_state:GDL = {
 			create_pop = {
 				culture = yankee
@@ -833,7 +833,7 @@
 			}
 		}
 	}
-	s:STATE_VERMONT = {
+	s:STATE_TUSSBERG = {
 		region_state:GDL = {
 			create_pop = {
 				culture = yankee
@@ -841,7 +841,7 @@
 			}
 		}
 	}
-	s:STATE_MAINE = {
+	s:STATE_THISLAND = {
 		region_state:NBS = {
 			create_pop = {
 				culture = anglo_canadian
@@ -853,7 +853,7 @@
 			}
 		}
 	}
-	s:STATE_NORTH_CAROLINA = {
+	s:STATE_SOUTH_ADWERDIA = {
 		region_state:LOG = {
 			create_pop = {
 				culture = dixie
@@ -898,7 +898,7 @@
 			}
 		}
 	}
-	s:STATE_SOUTH_CAROLINA = {
+	s:STATE_CRUGOLAND = {
 		region_state:LOG = {
 			create_pop = {
 				culture = dixie
@@ -964,7 +964,7 @@
 			}
 		}
 	}
-	s:STATE_ONTARIO = {
+	s:STATE_MESESAG = {
 		region_state:ONT = {
 			create_pop = {
 				culture = anglo_canadian
@@ -1007,7 +1007,7 @@
 			}
 		}
 	}
-	s:STATE_NEW_BRUNSWICK = {
+	s:STATE_NY_SCHLESWIG = {
 		region_state:NBS = {
 			create_pop = {
 				culture = anglo_canadian
@@ -1023,7 +1023,7 @@
 			}
 		}
 	}
-	s:STATE_QUEBEC = {
+	s:STATE_CHRISTIANSLAND = {
 		region_state:QUE = {
 			create_pop = {
 				culture = franco_canadian
@@ -1057,7 +1057,7 @@
 			}
 		}
 	}
-	s:STATE_NEWFOUNDLAND = {
+	s:STATE_SKOVOY = {
 		region_state:DEN = {
 			create_pop = {
 				culture = inuit
@@ -1073,7 +1073,7 @@
 			}
 		}
 	}
-	s:STATE_ALBERTA = {
+	s:STATE_PIKANIEN = {
 		region_state:HBC = {
 			create_pop = {
 				culture = anglo_canadian
@@ -1121,7 +1121,7 @@
 			}
 		}
 	}
-	s:STATE_SASKATCHEWAN = {
+	s:STATE_KISKATEVEN = {
 		region_state:HBC = {
 			create_pop = {
 				culture = siouan
@@ -1143,7 +1143,7 @@
 			}
 		}
 	}
-	s:STATE_MANITOBA = {
+	s:STATE_RODLAND = {
 		region_state:HBC = {
 			create_pop = {
 				culture = anglo_canadian
@@ -1210,7 +1210,7 @@
 			}
 		}
 	}
-	s:STATE_TEXAS = {
+	s:STATE_HAINAI = {
 		region_state:MAR = {
 			create_pop = {
 				culture = dixie

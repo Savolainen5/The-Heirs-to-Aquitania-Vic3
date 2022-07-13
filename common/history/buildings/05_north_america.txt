@@ -1,5 +1,5 @@
 ﻿BUILDINGS={
-	s:STATE_DISTRICT_OF_COLUMBIA={ #Now in western TN/KY
+	s:STATE_TANABIE={ #Now in western TN/KY
 		region_state:MAR={
 			create_building={
 				building="building_government_administration"
@@ -25,7 +25,7 @@
 			}
 		}
 	}
-	s:STATE_LOUISIANA={
+	s:STATE_NOUVEAU_BLOIS={
 		region_state:MAR={
 			create_building={
 				building="building_port"
@@ -47,7 +47,7 @@
 			}
 		}
 	}
-	s:STATE_NEW_YORK={
+	s:STATE_IROKEZIE={
 		region_state:GDL={
 			create_building={
 				building="building_government_administration"
@@ -141,7 +141,7 @@
 			}
 		}
 	}
-	s:STATE_VIRGINIA={
+	s:STATE_NORTH_ADWERDIA={
 		region_state:LOG={
 			create_building={
 				building="building_government_administration"
@@ -257,7 +257,7 @@
 		region_state:LKT={
 		}
 	}
-	s:STATE_SOUTH_DAKOTA={
+	s:STATE_OETAGAMIE={
 		region_state:LKT={
 		}
 		region_state:USA={
@@ -285,7 +285,7 @@
 		region_state:COM={
 		}
 	}
-	s:STATE_ARKANSAS={
+	s:STATE_HACHICOBA={
 		region_state:MAR={
 			create_building={
 				building="building_cotton_plantation"
@@ -301,7 +301,7 @@
 			}
 		}
 	}
-	s:STATE_MISSOURI={
+	s:STATE_QUOIPAS={
 		region_state:MAR={
 			create_building={
 				building="building_government_administration"
@@ -329,21 +329,21 @@
 			}
 		}
 	}
-	s:STATE_IOWA={
+	s:STATE_MONGONIE={
 		region_state:MAR={
 		}
 	}
-	s:STATE_MINNESOTA={
+	s:STATE_KIVEDIN={
 		region_state:ONT={
 		}
 		region_state:LKT={
 		}
 	}
-	s:STATE_WISCONSIN={
+	s:STATE_SAGAIGAN={
 		region_state:ONT={
 		}
 	}
-	s:STATE_INDIANA={
+	s:STATE_KRAANLAND={
 		region_state:GDL={
 			create_building={
 				building="building_government_administration"
@@ -371,7 +371,7 @@
 			}
 		}
 	}
-	s:STATE_MICHIGAN={
+	s:STATE_NISGINGOUN={
 		region_state:GDL={
 			create_building={
 				building="building_logging_camp"
@@ -393,7 +393,7 @@
 			}
 		}
 	}
-	s:STATE_OHIO={
+	s:STATE_AMIKIE={
 		region_state:GDL={
 			create_building={
 				building="building_government_administration"
@@ -457,7 +457,7 @@
 			}
 		}
 	}
-	s:STATE_KENTUCKY={
+	s:STATE_PEQUIE={
 		region_state:GDL={
 			create_building={
 				building="building_government_administration"
@@ -503,7 +503,7 @@
 			}
 		}
 	}
-	s:STATE_TENNESSEE={
+	s:STATE_WELLBURN={
 		region_state:LOG={
 			create_building={
 				building="building_government_administration"
@@ -543,7 +543,7 @@
 			}
 		}
 	}
-	s:STATE_MISSISSIPPI={
+	s:STATE_COCHAPO={
 		region_state:MAR={
 			create_building={
 				building="building_government_administration"
@@ -565,7 +565,7 @@
 			}
 		}
 	}
-	s:STATE_ALABAMA={
+	s:STATE_TOHOME={
 		region_state:MAR={
 			create_building={
 				building="building_government_administration"
@@ -599,11 +599,11 @@
 			}
 		}
 	}
-	s:STATE_FLORIDA={
+	s:STATE_SOLELHA={
 		region_state:AQT={
 		}
 	}
-	s:STATE_GEORGIA={
+	s:STATE_BERDON={
 		region_state:LOG={
 			create_building={
 				building="building_government_administration"
@@ -649,7 +649,7 @@
 			}			
 		}
 	}
-	s:STATE_WEST_VIRGINIA={
+	s:STATE_HOOGLANDEN={
 		region_state:GDL={
 			create_building={
 				building="building_coal_mine"
@@ -671,7 +671,7 @@
 			}
 		}
 	}
-	s:STATE_MARYLAND={
+	s:STATE_PATAUNKE={
 		region_state:GDL={
 			create_building={
 				building="building_government_administration"
@@ -711,7 +711,7 @@
 			}
 		}
 	}
-	s:STATE_DELAWARE={
+	s:STATE_ZWAANENDAEL={
 		region_state:GDL={
 			create_building={
 				building="building_fishing_wharf"
@@ -727,7 +727,7 @@
 			}
 		}
 	}
-	s:STATE_PENNSYLVANIA={
+	s:STATE_NIEUW_ZEELAND={
 		region_state:GDL={
 			create_building={
 				building="building_government_administration"
@@ -791,7 +791,7 @@
 			}
 		}
 	}
-	s:STATE_NEW_JERSEY={
+	s:STATE_HILLENSLAND={
 		region_state:GDL={
 			create_building={
 				building="building_paper_mills"
@@ -825,7 +825,7 @@
 			}
 		}
 	}
-	s:STATE_ILLINOIS={
+	s:STATE_INOKIE={
 		region_state:GDL={
 			create_building={
 				building="building_lead_mine"
@@ -847,11 +847,11 @@
 			}
 		}
 	}
-#	s:STATE_RHODE_ISLAND={
+#	s:STATE_OFERBERG={
 #		region_state:USA={
 #		}
 #	}
-	s:STATE_CONNECTICUT={
+	s:STATE_MOURITSLAND={
 		region_state:GDL={
 			create_building={
 				building="building_arms_industry"
@@ -879,7 +879,7 @@
 			}
 		}
 	}
-	s:STATE_MASSACHUSETTS={
+	s:STATE_KARELSLAND={
 		region_state:GDL={
 			create_building={
 				building="building_government_administration"
@@ -983,7 +983,7 @@
 			}
 		}
 	}
-	s:STATE_VERMONT={
+	s:STATE_TUSSBERG={
 		region_state:GDL={
 			create_building={
 				building="building_food_industry"
@@ -1005,7 +1005,7 @@
 			}
 		}
 	}
-	s:STATE_MAINE={
+	s:STATE_THISLAND={
 		region_state:NBS={
 			create_building={
 				building="building_furniture_manufacturies"
@@ -1039,7 +1039,7 @@
 			}
 		}
 	}
-	s:STATE_NORTH_CAROLINA={
+	s:STATE_SOUTH_ADWERDIA={
 		region_state:LOG={
 			create_building={
 				building="building_government_administration"
@@ -1093,7 +1093,7 @@
 		region_state:UTE={
 		}
 	}
-	s:STATE_SOUTH_CAROLINA={
+	s:STATE_CRUGOLAND={
 		region_state:LOG={
 			create_building={
 				building="building_government_administration"
@@ -1176,7 +1176,7 @@
 			}
 		}
 	}
-	s:STATE_ONTARIO={
+	s:STATE_MESESAG={
 		region_state:HBC={
 			create_building={
 				building="building_logging_camp"
@@ -1218,7 +1218,7 @@
 			}
 		}
 	}
-	s:STATE_NEW_BRUNSWICK={
+	s:STATE_NY_SCHLESWIG={
 		region_state:NBS={
 			create_building={
 				building="building_lead_mine"
@@ -1252,7 +1252,7 @@
 			}
 		}
 	}
-	s:STATE_QUEBEC={
+	s:STATE_CHRISTIANSLAND={
 		region_state:QUE={
 			create_building={
 				building="building_university"
@@ -1306,7 +1306,7 @@
 			}
 		}
 	}
-	s:STATE_NEWFOUNDLAND={
+	s:STATE_SKOVOY={
 		region_state:DEN={
 			create_building={
 				building="building_fishing_wharf"
@@ -1316,7 +1316,7 @@
 			}
 		}
 	}
-	s:STATE_ALBERTA={
+	s:STATE_PIKANIEN={
 		region_state:HBC={
 			create_building={
 				building="building_logging_camp"
@@ -1332,13 +1332,13 @@
 		region_state:ORG={
 		}
 	}
-	s:STATE_SASKATCHEWAN={
+	s:STATE_KISKATEVEN={
 		region_state:HBC={
 		}
 		region_state:IRC={
 		}
 	}
-	s:STATE_MANITOBA={
+	s:STATE_RODLAND={
 		region_state:HBC={
 			create_building={
 				building="building_barracks"
@@ -1384,7 +1384,7 @@
 			}
 		}
 	}
-	s:STATE_TEXAS={
+	s:STATE_HAINAI={
 		region_state:MAR={
 			create_building={
 				building="building_cotton_plantation"

@@ -45,7 +45,7 @@ GDL = { #Guldenland / Guilderland
 	tier = kingdom
 	
 	cultures = { dutch }
-	capital = STATE_CONNECTICUT
+	capital = STATE_MOURITSLAND
 }
 HAD = { #Haida
     color = { 20 191 20 }
@@ -73,7 +73,7 @@ LOG = { #Logria, Aenglish colony in OTL southern US
 	tier = kingdom
 	
 	cultures = { dixie yankee }
-	capital = STATE_GEORGIA
+	capital = STATE_BERDON
 }
 MAR = { #Mariana
 	color = { 29 142 48 }
@@ -83,7 +83,7 @@ MAR = { #Mariana
 	tier = kingdom
 	
 	cultures = { french }
-	capital = STATE_LOUISIANA
+	capital = STATE_NOUVEAU_BLOIS
 }
 NPT = { #Northern Paiute
 	color = { 20 0 150 }
