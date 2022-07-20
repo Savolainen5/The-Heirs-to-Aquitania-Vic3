@@ -65,6 +65,15 @@ INU = { #Inuit
     cultures = { inuit }
     capital = STATE_ALASKA
 }
+KLA = { #Klamath
+    color = { 134 68 2 }
+    country_type = decentralized
+
+    tier = principality
+
+    cultures = { klamath }
+    capital = STATE_OREGON
+}
 LOG = { #Logria, Aenglish colony in OTL southern US
 	color = { 5 100 130 }
 	

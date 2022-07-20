@@ -3,7 +3,7 @@
 		create_character = {
 			first_name = "Lofwin_II"
 			last_name = "Iserning"
-			culture = cu:aenglisc
+			culture = cu:aenglish
 			ethnicity = caucasian_base
 			ruler = yes
 			noble = yes
@@ -20,7 +20,7 @@
 		create_character = {
 			first_name = "Aelfstan" #II
 			last_name = "Iserning"
-			culture = cu:aenglisc
+			culture = cu:aenglish
 			ethnicity = caucasian_base
 			heir = yes
 			noble = yes
