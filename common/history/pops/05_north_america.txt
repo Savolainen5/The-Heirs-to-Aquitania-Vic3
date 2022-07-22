@@ -257,19 +257,16 @@
 		}
 	}
 	s:STATE_OETAGAMIE = {
-		region_state:LKT = {
+		region_state:UAN = {
 			create_pop = {
 				culture = dakota
 				size = 34000
 			}
-		}
-		region_state:USA = {
 			create_pop = {
 				culture = siouan
 				size = 4000
 			}
 		}
-		# DKT has 12000
 	}
 	s:STATE_NEBRASKA = {
 		region_state:MAR = {
@@ -398,7 +395,7 @@
 		}
 	}
 	s:STATE_MONGONIE = {
-		region_state:MAR = {
+		region_state:UAN = {
 			create_pop = {
 				culture = algonquian
 				size = 12000
@@ -428,7 +425,7 @@
 		}
 	}
 	s:STATE_SAGAIGAN = {
-		region_state:ONT = {
+		region_state:UAN = {
 			create_pop = {
 				culture = algonquian
 				size = 8000
@@ -768,7 +765,7 @@
 		}
 	}
 	s:STATE_INOKIE = {
-		region_state:GDL = {
+		region_state:UAN = {
 			create_pop = {
 				culture = yankee
 				size = 452400

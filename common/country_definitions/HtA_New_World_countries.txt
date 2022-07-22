@@ -152,6 +152,15 @@ TLN = { #Tlingit
     cultures = { salish }
     capital = STATE_ALASKA
 }
+UAN = { #United (Amerigan) Nations
+	color = { 50 150 30 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { algonquian }
+	capital = STATE_OETAGAMIE
+}
 YUP = { #Yupik
     color = { 75 175 230 }
     country_type = decentralized 
