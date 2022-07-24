@@ -6,7 +6,7 @@ ALE = { #Aleutia
     tier = principality
 
     cultures = { inuit }
-    capital = STATE_ALASKA
+    capital = STATE_ALAJAS
 }
 AME = { #Federation of Ameriga
 	color = { 209 228 255 }
@@ -25,7 +25,7 @@ ATB = { #Athabasca
     tier = principality
 
     cultures = { athabaskan }
-    capital = STATE_NORTHWEST_TERRITORIES
+    capital = STATE_DENEDE
 }
 CHN = { #Chinook
 	color = { 155 190 25 }
@@ -35,7 +35,7 @@ CHN = { #Chinook
 	tier = principality
 	
 	cultures = { chinook }
-	capital = STATE_OREGON
+	capital = STATE_JANIZ
 }
 GDL = { #Guldenland / Guilderland
 	color = { 255 206 84 }
@@ -54,7 +54,7 @@ HAD = { #Haida
     tier = principality
 
     cultures = { salish }
-    capital = STATE_BRITISH_COLUMBIA
+    capital = STATE_BUCARELI
 }
 INU = { #Inuit
     color = { 205 214 216 }
@@ -63,7 +63,7 @@ INU = { #Inuit
     tier = principality
 
     cultures = { inuit }
-    capital = STATE_ALASKA
+    capital = STATE_ALAJAS
 }
 KLA = { #Klamath
     color = { 134 68 2 }
@@ -72,7 +72,7 @@ KLA = { #Klamath
     tier = principality
 
     cultures = { klamath }
-    capital = STATE_OREGON
+    capital = STATE_JANIZ
 }
 LOG = { #Logria, Aenglish colony in OTL southern US
 	color = { 5 100 130 }
@@ -94,6 +94,14 @@ MAR = { #Mariana
 	cultures = { french }
 	capital = STATE_NOUVEAU_BLOIS
 }
+NDN = { #Na-Dene
+	color = { 20 200 40 }
+	
+	country_type =  decentralized
+	tier = principality
+	cultures = { athabaskan }
+	capital = STATE_DENEDE
+}
 NPT = { #Northern Paiute
 	color = { 20 0 150 }
 	
@@ -102,7 +110,7 @@ NPT = { #Northern Paiute
 	tier = principality
 	
 	cultures = { paiute }
-	capital = STATE_NEVADA
+	capital = STATE_MONTANHOSA
 }
 NUT = { #Territory of Nutca, Hispanian possession
 	color = { 50 80 90 }
@@ -112,7 +120,7 @@ NUT = { #Territory of Nutca, Hispanian possession
 	tier = principality
 	
 	cultures = { spanish }
-	capital = STATE_BRITISH_COLUMBIA
+	capital = STATE_BUCARELI
 }
 SAL = { #Salish
     color = { 8 89 97 }
@@ -121,7 +129,16 @@ SAL = { #Salish
     tier = principality
 
     cultures = { salish }
-    capital = STATE_WASHINGTON
+    capital = STATE_YUQUA
+}
+SHC = { #Shawnee Confederacy
+	color = { 212 105 118 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { algonquian }
+	capital = STATE_OETAGAMIE
 }
 SHO = { #Shoshone
 	color = { 115 90 55 }
@@ -131,7 +148,7 @@ SHO = { #Shoshone
 	tier = principality
 	
 	cultures = { shoshone }
-	capital = STATE_IDAHO
+	capital = STATE_TAMAJAHUIS
 }
 SPT = { #Southern Paiute
 	color = { 120 40 150 }
@@ -141,7 +158,7 @@ SPT = { #Southern Paiute
 	tier = principality
 	
 	cultures = { paiute }
-	capital = STATE_ARIZONA
+	capital = STATE_SOBAIA
 }
 TLN = { #Tlingit
     color = { 194 94 84 }
@@ -150,16 +167,7 @@ TLN = { #Tlingit
     tier = principality
 
     cultures = { salish }
-    capital = STATE_ALASKA
-}
-UAN = { #United (Amerigan) Nations
-	color = { 50 150 30 }
-	country_type = unrecognized
-	
-	tier = principality
-	
-	cultures = { algonquian }
-	capital = STATE_OETAGAMIE
+    capital = STATE_ALAJAS
 }
 YUP = { #Yupik
     color = { 75 175 230 }
@@ -168,7 +176,7 @@ YUP = { #Yupik
     tier = principality
 
     cultures = { inuit }
-    capital = STATE_ALASKA
+    capital = STATE_ALAJAS
 }
 
 #Central Ameriga

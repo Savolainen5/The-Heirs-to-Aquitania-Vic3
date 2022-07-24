@@ -496,7 +496,7 @@
 			}
 		}
 	}
-	s:STATE_LITHUANIA = {
+	s:STATE_LITHSHCIA = {
 		region_state:LIT = {
 			create_pop = {
 				culture = polish

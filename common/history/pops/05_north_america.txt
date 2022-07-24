@@ -97,7 +97,7 @@
 			}
 		}
 	}
-	s:STATE_ALASKA = {
+	s:STATE_ALAJAS = {
 		region_state:RUS = {
 			create_pop = {
 				culture = athabaskan
@@ -113,7 +113,7 @@
 			}
 		}
 	}
-	s:STATE_WASHINGTON = {
+	s:STATE_YUQUA = {
 		region_state:ORG = {
 			create_pop = {
 				culture = nez_perce
@@ -125,7 +125,7 @@
 			}
 		}
 	}
-	s:STATE_OREGON = {
+	s:STATE_JANIZ = {
 		region_state:ORG = {
 			create_pop = {
 				culture = british
@@ -145,7 +145,7 @@
 			}
 		}
 	}
-	s:STATE_IDAHO = {
+	s:STATE_TAMAJAHUIS = {
 		region_state:ORG = {
 			create_pop = {
 				culture = paiute
@@ -159,7 +159,7 @@
 			}
 		}
 	}
-	s:STATE_COLORADO = {
+	s:STATE_ROGINOSA = {
 		region_state:USA = {
 			create_pop = {
 				culture = siouan
@@ -183,7 +183,7 @@
 			}
 		}
 	}
-	s:STATE_WYOMING = {
+	s:STATE_AMADIYO = {
 		region_state:USA = {
 			create_pop = {
 				culture = paiute
@@ -207,7 +207,7 @@
 			}
 		}
 	}
-	s:STATE_MONTANA = {
+	s:STATE_AWAMAKO = {
 		region_state:USA = {
 			create_pop = {
 				culture = siouan
@@ -237,7 +237,7 @@
 			}
 		}
 	}
-	s:STATE_NORTH_DAKOTA = {
+	s:STATE_LAKOTIE = {
 		region_state:USA = {
 			create_pop = {
 				culture = siouan
@@ -257,7 +257,7 @@
 		}
 	}
 	s:STATE_OETAGAMIE = {
-		region_state:UAN = {
+		region_state:SHC = {
 			create_pop = {
 				culture = dakota
 				size = 34000
@@ -268,7 +268,7 @@
 			}
 		}
 	}
-	s:STATE_NEBRASKA = {
+	s:STATE_JAMPAPA = {
 		region_state:MAR = {
 			create_pop = {
 				culture = siouan
@@ -292,7 +292,7 @@
 			}
 		}
 	}
-	s:STATE_KANSAS = {
+	s:STATE_TERRE_PLATE = {
 		region_state:MAR = {
 			create_pop = {
 				culture = siouan
@@ -312,7 +312,7 @@
 			}
 		}
 	}
-	s:STATE_OKLAHOMA = {
+	s:STATE_TABASSE = {
 		region_state:MAR = {
 			create_pop = {
 				culture = siouan
@@ -395,7 +395,7 @@
 		}
 	}
 	s:STATE_MONGONIE = {
-		region_state:UAN = {
+		region_state:SHC = {
 			create_pop = {
 				culture = algonquian
 				size = 12000
@@ -425,7 +425,7 @@
 		}
 	}
 	s:STATE_SAGAIGAN = {
-		region_state:UAN = {
+		region_state:SHC = {
 			create_pop = {
 				culture = algonquian
 				size = 8000
@@ -765,7 +765,7 @@
 		}
 	}
 	s:STATE_INOKIE = {
-		region_state:UAN = {
+		region_state:SHC = {
 			create_pop = {
 				culture = yankee
 				size = 452400
@@ -871,7 +871,7 @@
 			}
 		}
 	}
-	s:STATE_UTAH = {
+	s:STATE_NUTCHI = {
 		region_state:AME = {
 			create_pop = {
 				culture = paiute
@@ -1106,7 +1106,7 @@
 			}
 		}
 	}
-	s:STATE_BRITISH_COLUMBIA = {
+	s:STATE_BUCARELI = {
 		region_state:ORG = {	
 			create_pop = {
 				culture = salish
@@ -1171,7 +1171,7 @@
 			}
 		}
 	}
-	s:STATE_YUKON_TERRITORY = {
+	s:STATE_NIQUAN = {
 		region_state:HBC = {
 			create_pop = {
 				culture = athabaskan
@@ -1179,7 +1179,7 @@
 			}
 		}
 	}
-	s:STATE_NORTHWEST_TERRITORIES = {
+	s:STATE_DENEDE = {
 		region_state:HBC = {
 			create_pop = {
 				culture = athabaskan
@@ -1187,7 +1187,7 @@
 			}
 		}
 	}
-	s:STATE_NUNAVUT = {
+	s:STATE_NORDLYSLAND = {
 		region_state:HBC = {
 			create_pop = {
 				culture = inuit
@@ -1248,7 +1248,7 @@
 			}
 		}
 	}
-	s:STATE_NEVADA = {
+	s:STATE_MONTANHOSA = {
 		region_state:AME = {
 			create_pop = {
 				culture = paiute
@@ -1256,7 +1256,7 @@
 			}
 		}
 	}
-	s:STATE_ARIZONA = {
+	s:STATE_SOBAIA = {
 		region_state:AME = {
 			create_pop = {
 				culture = oodham
@@ -1292,7 +1292,7 @@
 			}
 		}
 	}
-	s:STATE_NEW_MEXICO = {
+	s:STATE_BRIVENT = {
 		region_state:AME = {
 			create_pop = {
 				culture = mexican
@@ -1326,7 +1326,7 @@
 			}
 		}
 	}
-	s:STATE_CALIFORNIA = {
+	s:STATE_GAULA = {
 		region_state:AME = {
 			create_pop = {
 				culture = hokan
@@ -1585,7 +1585,7 @@
 			}
 		}
 	}
-	s:STATE_BAJA_CALIFORNIA = {
+	s:STATE_ROILLO = {
 		region_state:AME = {
 			create_pop = {
 				culture = mexican

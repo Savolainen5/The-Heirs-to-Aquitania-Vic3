@@ -29,7 +29,7 @@
  STATE_RODLAND: "Rødland"
  STATE_KISKATEVEN: "Kiskateven"
  STATE_PIKANIEN: "Pikanien"
-  #Still need to finish the northern states
+ STATE_NORDLYSLAND: "Nordlysland" #Northern Lights Land
  
  #Logria
  STATE_NORTH_ADWERDIA: "North Adwerdia"
@@ -49,8 +49,37 @@
  STATE_MONGONIE: "Mongonie"
  STATE_HAINAI: "Hainai"
 
+ STATE_TABASSE: "Tabasse" #Name for a region near which the Wichita lived (Tabas), according to Spanish expeditions OTL
+ STATE_TERRE_PLATE: "Terre Plate" #Lazy name. Flat land
+
  #Caribbean
  STATE_SOLELHA: "Solelha"
 
+ #Nutca
+ STATE_ALAJAS: "Alajas" #Hispanified the original root, plus some extra confusion with the last two letters (Should be Alajsa, but Spanish-speakers would find that hard to pronounce, so it was misread as it is now)
+ STATE_JANIZ: "Janiz" #Hanis, the autonym of one of the Coos peoples
+ STATE_YUQUA: "Yuqua" #From Yuquot, the place where Spanish explorers OTL first made landfall
+ STATE_BUCARELI: "Bucareli" #OTL viceroy of New Spain at the time of the exploration of the west coast of NA. Could be changed since that's a bit same-y
+
+ #Ameriga
+ STATE_GAULA: "Gaulá" #Imaginary land in the same series of tales that is the source of the etymology of California
+ STATE_ROILLO: "Roillo" #Legendary smaller island than Antillia
+ STATE_MONTANHOSA: "Montanhosa" #Mountainous in Occitan
+ STATE_SOBAIA: "Sobaia" #Land of the Soba, a tribe of the Pima people
+ STATE_BRIVENT: "Brivent" #Occitanization of the meaning of the River Aude, which means *swift, spirited*
+ STATE_NUTCHI: "Nutchi" #Autonym of the Ute
+ 
+ #Decentralized North Ameriga - That is, they start decentralized
+ STATE_LAKOTIE: "Lakotie"
+ STATE_ROGINOSA: "Roginosa" #Reddish in Occitan
+ STATE_AMADIYO: "Amadiyo" #Savs' corruption of Crow word for *meeting place*: Ammatdiío
+ STATE_AWAMAKO: "Awamako" #Savs' corruption of Crow word for *mountainous*: Awammáako
+ STATE_JAMPAPA: "Jampapa" #Savs' corruption of the supposed Shoshoni word for the Snake River: jamph-pah-pa
+ STATE_TAMAJAHUIS: "Tamajahuis" #Savs' Spanish corruption of Tanmahawis, the Bridge of the Gods. Let's RP it that confusion about where that place actually was led to its generalization for the state in question
+ STATE_NIQUAN: "Niquan" #Savs' Spanish corruption of the Southern Tutchone name for the Yukon River: Chu Nìikwän
+ STATE_DENEDE: "Denede" #Central Denedeh, the land of the Dene
+
+
+ #South Ameriga
 
  STATE_GYREFENA: "Gyrefena"

@@ -621,7 +621,7 @@
 			}
 		}
 	}
-	s:STATE_LITHUANIA={
+	s:STATE_LITHSHCIA={
 		region_state:LIT={
 			create_building={
 				building="building_rye_farm"
