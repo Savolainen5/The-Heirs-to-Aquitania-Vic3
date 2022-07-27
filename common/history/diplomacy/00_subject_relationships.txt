@@ -93,23 +93,13 @@
 		### OH CANADA ###
 		# Province of Upper Canada
 		create_diplomatic_pact = {
-			country = c:ONT
-			type = puppet
-		}
-		# Province of Lower Canada
-		create_diplomatic_pact = {
-			country = c:QUE
+			country = c:ASL
 			type = puppet
 		}
 		# smooshing New Brunswick and Nova Scotia together into a de facto Maritime Union
 		create_diplomatic_pact = {
 			country = c:NBS
 			type = puppet
-		}
-		# Hudson Bay Company has a weird autonomous charter
-		create_diplomatic_pact = {
-			country = c:HBC
-			type = dominion
 		}
 	}
 	c:FRA = {

@@ -334,13 +334,13 @@
 		}
 	}
 	s:STATE_KIVEDIN={
-		region_state:ONT={
+		region_state:ASL={
 		}
 		region_state:LKT={
 		}
 	}
 	s:STATE_SAGAIGAN={
-		region_state:ONT={
+		region_state:ASL={
 		}
 	}
 	s:STATE_KRAANLAND={
@@ -962,7 +962,7 @@
 		}
 	}
 	s:STATE_NEW_HAMPSHIRE={
-		region_state:QUE={
+		region_state:ASL={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -1177,7 +1177,7 @@
 		}
 	}
 	s:STATE_MESESAG={
-		region_state:HBC={
+		region_state:ASL={
 			create_building={
 				building="building_logging_camp"
 				level=1
@@ -1185,7 +1185,7 @@
 				activate_production_methods={ "pm_saw_mills" "pm_privately_owned_building_logging_camp" "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
 			}
 		}
-		region_state:ONT={
+		region_state:ASL={
 			create_building={
 				building="building_sulfur_mine"
 				level=2
@@ -1253,7 +1253,7 @@
 		}
 	}
 	s:STATE_CHRISTIANSLAND={
-		region_state:QUE={
+		region_state:ASL={
 			create_building={
 				building="building_university"
 				level=1
@@ -1297,7 +1297,7 @@
 				activate_production_methods={ "pm_basic_port" }
 			}
 		}
-		region_state:HBC={
+		region_state:ASL={
 			create_building={
 				building="building_logging_camp"
 				level=1
@@ -1317,7 +1317,7 @@
 		}
 	}
 	s:STATE_PIKANIEN={
-		region_state:HBC={
+		region_state:ASL={
 			create_building={
 				building="building_logging_camp"
 				level=1
@@ -1333,13 +1333,13 @@
 		}
 	}
 	s:STATE_KISKATEVEN={
-		region_state:HBC={
+		region_state:ASL={
 		}
 		region_state:IRC={
 		}
 	}
 	s:STATE_RODLAND={
-		region_state:HBC={
+		region_state:ASL={
 			create_building={
 				building="building_barracks"
 				level=5
@@ -1357,15 +1357,15 @@
 		}
 	}
 	s:STATE_NIQUAN={
-		region_state:HBC={
+		region_state:ASL={
 		}
 	}
 	s:STATE_DENEDE={
-		region_state:HBC={
+		region_state:ASL={
 		}
 	}
 	s:STATE_NORDLYSLAND={
-		region_state:HBC={
+		region_state:ASL={
 		}
 	}
 	s:STATE_BERMUDA={

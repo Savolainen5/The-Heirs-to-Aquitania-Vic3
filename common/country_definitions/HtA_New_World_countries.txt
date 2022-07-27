@@ -18,6 +18,15 @@ AME = { #Federation of Ameriga
 	cultures = { mexican }
 	capital = STATE_MEXICO
 }
+ASL = { #Ashelasia, colony of Denmark
+	color = { 240 45 45 }
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { ashelasianer }
+	capital = STATE_CHRISTIANSLAND
+}
 ATB = { #Athabasca
     color = { 88 105 137 }
     country_type = decentralized 

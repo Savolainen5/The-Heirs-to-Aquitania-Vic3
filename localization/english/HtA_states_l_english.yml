@@ -2,42 +2,42 @@
  #State names (different ones)
  
  #Guilderland
- STATE_MOURITSLAND: "Mouritsland"
- STATE_KARELSLAND: "Karelsland"
- STATE_TUSSBERG: "Tussberg"
- STATE_HILLENSLAND: "Hillensland"
- STATE_IROKEZIE: "Irokezie"
+ STATE_MOURITSLAND: "Mouritsland" #Mourit's land
+ STATE_KARELSLAND: "Karelsland" #Karel's land
+ STATE_TUSSBERG: "Tussberg" #Between mountains
+ STATE_HILLENSLAND: "Hillensland" #Hillen's land
+ STATE_IROKEZIE: "Irokezie" #Land of the Iroquois
  STATE_NIEUW_ZEELAND: "Nieuw Zeeland"
  STATE_PATAUNKE: "Pataunke"
- STATE_ZWAANENDAEL: "Zwaanendael"
- STATE_HOOGLANDEN: "Hooglanden"
+ STATE_ZWAANENDAEL: "Zwaanendael" #Swan valley, original Dutch name
+ STATE_HOOGLANDEN: "Hooglanden" #Highlands
  STATE_AMIKIE: "Amikie"
  STATE_PEQUIE: "Pequie"
- STATE_KRAANLAND: "Kraanland"
- STATE_NISGINGOUN: "Nisgingoun"
- STATE_INOKIE: "Inokie"
- STATE_OETAGAMIE: "Oetagamie"
+ STATE_KRAANLAND: "Kraanland" #Craneland
+ STATE_NISGINGOUN: "Nisgingoun" #
+ STATE_INOKIE: "Inokie" #Illinweks
+ STATE_OETAGAMIE: "Oetagamie" #Utagami, another name for the Fox or something
 
  #Dano-Norwegian Canada
- STATE_SKOVOY: "Skovøy"
- STATE_CHRISTIANSLAND: "Christiansland"
- STATE_NY_SCHLESWIG: "Ny Schleswig"
- STATE_THISLAND: "Thisland"
+ STATE_SKOVOY: "Skovøy" #Forest island
+ STATE_CHRISTIANSLAND: "Christiansland" #Christian's land
+ STATE_NY_SCHLESWIG: "Ny Schleswig" #New Schleswig
+ STATE_THISLAND: "Thisland" #Land of Tyr
  STATE_MESESAG: "Mesesag"
  STATE_KIVEDIN: "Kivedin"
  STATE_SAGAIGAN: "Sagaigan"
- STATE_RODLAND: "Rødland"
- STATE_KISKATEVEN: "Kiskateven"
- STATE_PIKANIEN: "Pikanien"
+ STATE_RODLAND: "Rødland" #Redland
+ STATE_KISKATEVEN: "Kiskateven" #Different interpretation of the root of Saskatchewan
+ STATE_PIKANIEN: "Pikanien" #Pikanie
  STATE_NORDLYSLAND: "Nordlysland" #Northern Lights Land
  
  #Logria
- STATE_NORTH_ADWERDIA: "North Adwerdia"
+ STATE_NORTH_ADWERDIA: "North Adwerdia" #Named after King Adwerd
  STATE_SOUTH_ADWERDIA: "South Adwerdia"
- STATE_OFERBERG: "Oferberg"
- STATE_CRUGOLAND: "Crugoland"
- STATE_WELLBURN: "Wellburn"
- STATE_BERDON: "Berdon"
+ STATE_OFERBERG: "Oferberg" #Overmountain
+ STATE_CRUGOLAND: "Crugoland" #Hillock-land
+ STATE_WELLBURN: "Wellburn" #something-brook
+ STATE_BERDON: "Berdon" #Beard-something?
 
  #Mariana
  STATE_TOHOME: "Tohomé"
@@ -45,7 +45,7 @@
  STATE_COCHAPO: "Cochapo"
  STATE_NOUVEAU_BLOIS: "Nouveau Blois"
  STATE_HACHICOBA: "Hachicoba"
- STATE_QUOIPAS: "Quoipas"
+ STATE_QUOIPAS: "Quoipas" #Quapaw
  STATE_MONGONIE: "Mongonie"
  STATE_HAINAI: "Hainai"
 

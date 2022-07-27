@@ -1,5 +1,5 @@
 ﻿l_english:
- #North Ameriga -- Comments indicate the meaning and/or origin of the name
+ #North Ameriga -- Comments indicate the meaning and/or origin of the name, and when a place is references, it's a place that actually exists
 
  HUB_NAME_STATE_SOLELHA_city: "Plasença" #Pleasance, name of a town in Gers
  HUB_NAME_STATE_SOLELHA_farm: "Najas" #Name of a town in Tarn
@@ -25,10 +25,20 @@
  HUB_NAME_STATE_SOUTH_ADWERDIA_farm: "Tattersthorp" #Village of Tatter, taken from the town of Tattershall in Lincolnshire
  HUB_NAME_STATE_SOUTH_ADWERDIA_city: "Holtburh" #Copse-burg
  HUB_NAME_STATE_SOUTH_ADWERDIA_wood: "Andred" #Forest of Andred in SE England between the North and South Downs https://en.wikipedia.org/wiki/Weald#History
- HUB_NAME_STATE_SOUTH_ADWERDIA_mine: "Winebish" #Village of Wimbish in Essex
+ HUB_NAME_STATE_SOUTH_ADWERDIA_mine: "Wynebish" #Village of Wimbish in Essex
 
- HUB_NAME_STATE_NORTH_ADWERDIA_port: "Elisabeth" #Let's say it's named after some queen consort. Norfolk has the Elizabth river anyway
+ HUB_NAME_STATE_NORTH_ADWERDIA_port: "Elysabeth" #Let's say it's named after some queen consort. Norfolk has the Elizabth river anyway
  HUB_NAME_STATE_NORTH_ADWERDIA_city: "Slobrig" #Muddy bridge, inspiration taken from the town of Sleaford
  HUB_NAME_STATE_NORTH_ADWERDIA_farm: "Hetwesel" #High between-two-streams, town here named after the baron thereof, see Haltwhistle in Northumberland
  HUB_NAME_STATE_NORTH_ADWERDIA_mine: "Melgun" #Malham in North Yorkshire
  HUB_NAME_STATE_NORTH_ADWERDIA_wood: "Rednor" #Radnor. Can't find any proper etymology
+
+ HUB_NAME_STATE_OFERBERG_mine: "Wilhelmson" #Williamson, just a random name
+ HUB_NAME_STATE_OFERBERG_city: "Dodburn" #From Dodbrook, part of Kingsbridge in Devon
+ HUB_NAME_STATE_OFERBERG_farm: "Aeshmiln" #Ash (tree) mill
+ HUB_NAME_STATE_OFERBERG_wood: "Syrgled" #Siward's glade/clearing, reduced from Sirdsgled
+
+ HUB_NAME_STATE_WELLBURN_mine: "Aldham" #Village of Aldreth in Cambridgshire
+ HUB_NAME_STATE_WELLBURN_city: "Scarning" #Village of the same name in Norfolk
+ HUB_NAME_STATE_WELLBURN_farm: "Lipley" #Hamlet? in Shropshire
+ HUB_NAME_STATE_WELLBURN_wood: "Ercal" #Ercall hill in Shropshire
