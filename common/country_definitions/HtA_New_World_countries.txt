@@ -53,7 +53,7 @@ GDL = { #Guldenland / Guilderland
 	
 	tier = kingdom
 	
-	cultures = { dutch }
+	cultures = { guilderlander }
 	capital = STATE_MOURITSLAND
 }
 HAD = { #Haida
@@ -90,7 +90,7 @@ LOG = { #Logria, Aenglish colony in OTL southern US
 	
 	tier = kingdom
 	
-	cultures = { dixie yankee }
+	cultures = { logrish }
 	capital = STATE_BERDON
 }
 MAR = { #Mariana
@@ -100,7 +100,7 @@ MAR = { #Mariana
 	
 	tier = kingdom
 	
-	cultures = { french }
+	cultures = { marianais }
 	capital = STATE_NOUVEAU_BLOIS
 }
 NDN = { #Na-Dene
@@ -227,7 +227,7 @@ GLE = { #Gledy or Gledia, Aenglish colony
 	
 	tier = kingdom
 	
-	cultures = { aenglisc }
+	cultures = { aenglish }
 	capital = STATE_BAHIA
 }
 KAW = { #Kawesqar indigenous peoples

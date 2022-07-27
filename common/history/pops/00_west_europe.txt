@@ -192,16 +192,16 @@
 	s:STATE_HOME_COUNTIES = {
 		region_state:AEN = {
 			create_pop = {
-				culture = aenglisc
+				culture = aenglish
 				size = 2657596
 			}
 			create_pop = {
-				culture = aenglisc
+				culture = aenglish
 				religion = jewish
 				size = 20000
 			}
 			create_pop = {
-				culture = aenglisc
+				culture = aenglish
 				religion = catholic
 				size = 100000
 			}
@@ -214,11 +214,11 @@
 	s:STATE_LANCASHIRE = {
 		region_state:AEN = {
 			create_pop = {
-				culture = aenglisc
+				culture = aenglish
 				size = 1986404
 			}
 			create_pop = {
-				culture = aenglisc
+				culture = aenglish
 				religion = catholic
 				size = 85700
 			}
@@ -235,7 +235,7 @@
 				size = 778557
 			}
 			create_pop = {
-				culture = aenglisc
+				culture = aenglish
 				size = 194639
 			}
 		}
@@ -243,7 +243,7 @@
 	s:STATE_YORKSHIRE = {
 		region_state:AEN = {
 			create_pop = {
-				culture = aenglisc
+				culture = aenglish
 				size = 2026592
 			}
 			create_pop = {
@@ -251,7 +251,7 @@
 				size = 16000
 			}
 			create_pop = {
-				culture = aenglisc
+				culture = aenglish
 				religion = catholic
 				size = 48000
 			}
@@ -273,11 +273,11 @@
 	s:STATE_MIDLANDS = {
 		region_state:AEN = {
 			create_pop = {
-				culture = aenglisc
+				culture = aenglish
 				size = 2543604
 			}
 			create_pop = {
-				culture = aenglisc
+				culture = aenglish
 				religion = catholic
 				size = 24400
 			}
@@ -290,11 +290,11 @@
 	s:STATE_EAST_ANGLIA = {
 		region_state:AEN = {
 			create_pop = {
-				culture = aenglisc
+				culture = aenglish
 				size = 1565208
 			}
 			create_pop = {
-				culture = aenglisc
+				culture = aenglish
 				religion = catholic
 				size = 8000
 			}
@@ -303,11 +303,11 @@
 	s:STATE_WEST_COUNTRY = {
 		region_state:AEN = {
 			create_pop = {
-				culture = aenglisc
+				culture = aenglish
 				size = 1969600
 			}
 			create_pop = {
-				culture = aenglisc
+				culture = aenglish
 				religion = catholic
 				size = 12400
 			}

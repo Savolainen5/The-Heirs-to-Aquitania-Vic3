@@ -160,7 +160,7 @@
 				size = 127996
 			}
 		}
-		region_state:GBR = {
+		region_state:AEN = {
 			create_pop = {
 				culture = mande
 				size = 91540
@@ -628,7 +628,7 @@
 		}
 	}
 	s:STATE_GHANA = {
-		region_state:GBR = {
+		region_state:AEN = {
 			create_pop = {
 				culture = akan
 				size = 40204

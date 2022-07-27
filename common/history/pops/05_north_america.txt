@@ -1,13 +1,9 @@
 ﻿POPS = {
 	s:STATE_TANABIE = { #Now in western TN/KY
-		region_state:MAR = { 
+		region_state:MAR = {
 			create_pop = {
-				culture = yankee
-				size = 27544
-			}		
-			create_pop = {
-				culture = dixie
-				size = 86263
+				culture = marianais
+				size = 113807
 			}
 			create_pop = {
 				pop_type = slaves
@@ -19,16 +15,16 @@
 	s:STATE_NOUVEAU_BLOIS = {
 		region_state:MAR = {
 			create_pop = {
-				culture = franco_canadian
+				culture = marianais
 				religion = catholic
 				size = 35992
 			}
 			create_pop = {
-				culture = dixie
+				culture = marianais
 				size = 118392
 			}
 			create_pop = {
-				culture = dixie
+				culture = marianais
 				religion = jewish
 				size = 200
 			}
@@ -52,16 +48,16 @@
 	s:STATE_IROKEZIE = {
 		region_state:GDL = {
 			create_pop = {
-				culture = yankee
+				culture = guilderlander
 				size = 2135000
 			}
 			create_pop = {
-				culture = yankee
+				culture = guilderlander
 				religion = jewish
 				size = 2000
 			}
 			create_pop = {
-				culture = yankee
+				culture = guilderlander
 				religion = catholic
 				size = 39996
 			}
@@ -78,11 +74,11 @@
 	s:STATE_NORTH_ADWERDIA = { # population of VA proper minus Fairfax County, which had its population figures added to DC to inflate the pop count there
 		region_state:LOG = {
 			create_pop = {
-				culture = dixie
+				culture = logrish
 				size = 423597
 			}
 			create_pop = {
-				culture = dixie
+				culture = logrish
 				religion = catholic
 				size = 48000
 			}
@@ -98,13 +94,13 @@
 		}
 	}
 	s:STATE_ALAJAS = {
-		region_state:RUS = {
+		region_state:NUT = {
 			create_pop = {
 				culture = athabaskan
 				size = 19780
 			}
 			create_pop = {
-				culture = russian
+				culture = spanish
 				size = 192
 			}
 			create_pop = {
@@ -114,7 +110,7 @@
 		}
 	}
 	s:STATE_YUQUA = {
-		region_state:ORG = {
+		region_state:NUT = {
 			create_pop = {
 				culture = nez_perce
 				size = 10000
@@ -124,21 +120,49 @@
 				size = 10000
 			}
 		}
-	}
-	s:STATE_JANIZ = {
-		region_state:ORG = {
-			create_pop = {
-				culture = british
-				size = 4848
-			}			
+		region_state:SAL = {
 			create_pop = {
 				culture = salish
+				size = 5000
+			}
+		}
+		region_state:CHN = {
+			create_pop = {
+				culture = chinook
+				size = 500
+			}
+		}
+	}
+	s:STATE_JANIZ = {
+		region_state:NUT = {
+			create_pop = {
+				culture = spanish
+				size = 4848
+			}		
+			create_pop = {
+				culture = chinook
 				size = 8000
 			}
+		}
+		region_state:CHN = {
+			create_pop = {
+				culture = chinook
+				size = 8000
+			}
+		}
+		region_state:KLA = {
+			create_pop = {
+				culture = klamath
+				size = 9000
+			}
+		}
+		region_state:NPT = {
 			create_pop = {
 				culture = paiute
 				size = 8000
 			}
+		}
+		region_state:NZP = {
 			create_pop = {
 				culture = nez_perce
 				size = 4000
@@ -146,21 +170,27 @@
 		}
 	}
 	s:STATE_TAMAJAHUIS = {
-		region_state:ORG = {
+		region_state:SAL = {
 			create_pop = {
-				culture = paiute
+				culture = salish
 				size = 20000
 			}
 		}
 		region_state:NZP = {
 			create_pop = {
 				culture = nez_perce
-				size = 40000
+				size = 10000
+			}
+		}
+		region_state:CHN = {
+			create_pop = {
+				culture = chinook
+				size = 5000
 			}
 		}
 	}
 	s:STATE_ROGINOSA = {
-		region_state:USA = {
+		region_state:COM = {
 			create_pop = {
 				culture = siouan
 				size = 2000
@@ -175,18 +205,18 @@
 		region_state:UTE = {
 			create_pop = {
 				culture = paiute
-				size = 4000
+				size = 5000
 			}
 			create_pop = {
-				culture = apache
-				size = 4000
+				culture = siouan
+				size = 3000
 			}
 		}
 	}
 	s:STATE_AMADIYO = {
-		region_state:USA = {
+		region_state:SHO = {
 			create_pop = {
-				culture = paiute
+				culture = shoshone
 				size = 12000
 			}
 			create_pop = {
@@ -194,65 +224,64 @@
 				size = 8000
 			}
 		}
+		region_state:ABS = {
+			create_pop = {
+				culture = siouan
+				size = 5000
+			}
+		}
 		region_state:LKT = {
 			create_pop = {
 				culture = siouan
-				size = 6000
+				size = 3000
+			}
+			create_pop = {
+				culture = dakota
+				size = 3000
 			}
 		}
 		region_state:ARP = {
 			create_pop = {
 				culture = siouan
-				size = 4000
+				size = 2000
 			}
 		}
 	}
 	s:STATE_AWAMAKO = {
-		region_state:USA = {
-			create_pop = {
-				culture = siouan
-				size = 10000
-			}
-			create_pop = {
-				culture = dakota
-				size = 2000
-			}
-		}
 		region_state:ABS = {
 			create_pop = {
 				culture = siouan
-				size = 28000
+				size = 32000
 			}
 		}
 		region_state:LKT = {
 			create_pop = {
 				culture = dakota
-				size = 6000
+				size = 12000
 			}
 		}
 		region_state:BLF = {
 			create_pop = {
 				culture = siouan
-				size = 14000
+				size = 18000
+			}
+		}
+		region_state:SAL = {
+			create_pop = {
+				culture = salish
+				size = 1000
 			}
 		}
 	}
 	s:STATE_LAKOTIE = {
-		region_state:USA = {
-			create_pop = {
-				culture = siouan
-				size = 6000
-			}
-		}
-		# DKT had 22000
 		region_state:LKT = {
 			create_pop = {
 				culture = dakota
-				size = 30000
+				size = 42000
 			}
 			create_pop = {
 				culture = siouan
-				size = 4000
+				size = 10000
 			}
 		}
 	}
@@ -260,35 +289,35 @@
 		region_state:SHC = {
 			create_pop = {
 				culture = dakota
-				size = 34000
+				size = 24000
 			}
 			create_pop = {
 				culture = siouan
 				size = 4000
+			}
+			create_pop = {
+				culture = algonquian
+				size = 5000
 			}
 		}
 	}
 	s:STATE_JAMPAPA = {
-		region_state:MAR = {
+		region_state:SHO = {
+			create_pop = {
+				culture = shoshone
+				size = 21000
+			}
+		}
+		region_state:ABS = {
 			create_pop = {
 				culture = siouan
 				size = 4000
 			}
 		}
-		region_state:LKT = {
+		region_state:NZP = {
 			create_pop = {
-				culture = dakota
-				size = 4000
-			}
-		}
-		region_state:PWN = {
-			create_pop = {
-				culture = caddoan
-				size = 10000
-			}
-			create_pop = {
-				culture = siouan
-				size = 2000
+				culture = nez_perce
+				size = 14000
 			}
 		}
 	}
@@ -298,14 +327,34 @@
 				culture = siouan
 				size = 12000
 			}
+			create_pop = {
+				culture = marianais
+				size = 1200
+			}
 		}
 		region_state:PWN = {
 			create_pop = {
 				culture = caddoan
-				size = 8000
+				size = 13000
 			}
 		}
 		region_state:COM = {
+			create_pop = {
+				culture = siouan
+				size = 2000
+			}
+		}
+		region_state:LKT = {
+			create_pop = {
+				culture = siouan
+				size = 2000
+			}
+			create_pop = {
+				culture = dakota
+				size = 3500
+			}
+		}
+		region_state:ARP = {
 			create_pop = {
 				culture = siouan
 				size = 4000
@@ -327,9 +376,13 @@
 				culture = caddoan
 				size = 8000
 			}
+			#create_pop = { #No Trail of Tears?
+			#	culture = cherokee
+			#	size = 50800
+			#}
 			create_pop = {
-				culture = cherokee
-				size = 50800
+				culture = marianais
+				size = 1500
 			}
 		}
 		region_state:COM = {
@@ -337,12 +390,16 @@
 				culture = siouan
 				size = 18000
 			}
+			create_pop = {
+				culture = comanche
+				size = 7500
+			}
 		}
 	}
 	s:STATE_HACHICOBA = {
 		region_state:MAR = {
 			create_pop = {
-				culture = dixie
+				culture = marianais
 				size = 46492
 			}
 			create_pop = {
@@ -354,16 +411,16 @@
 				culture = afro_american
 				size = 15689
 			}
-			create_pop = {
-				culture = cherokee
-				size = 30136
-			}
+#			create_pop = { #Gotta figure out what happened to the Cherokee
+#				culture = cherokee
+#				size = 30136
+#			}
 		}
 	}
 	s:STATE_QUOIPAS = {
 		region_state:MAR = {
 			create_pop = {
-				culture = dixie
+				culture = marianais
 				size = 148308
 			}
 			create_pop = {
@@ -371,12 +428,12 @@
 				size = 2000
 			}
 			create_pop = {
-				culture = yankee
+				culture = marianais
 				size = 165204
 			}
 			create_pop = {
-				culture = dixie
-				religion = catholic
+				culture = marianais
+				religion = protestant
 				size = 3996
 			}
 			create_pop = {
@@ -397,30 +454,30 @@
 	s:STATE_MONGONIE = {
 		region_state:SHC = {
 			create_pop = {
-				culture = algonquian
-				size = 12000
-			}
-			create_pop = {
 				culture = dakota
 				size = 8000
 			}
 			create_pop = {
-				culture = yankee
-				size = 23992
+				culture = algonquian
+				size = 35992
+			}
+		}
+		region_state:LKT = {
+			create_pop = {
+				culture = dakota
+				size = 5000
 			}
 		}
 	}
 	s:STATE_KIVEDIN = {
 		region_state:ASL = {
 			create_pop = {
-				culture = algonquian
+				culture = metis
 				size = 16000
 			}
-		}
-		region_state:LKT = {
 			create_pop = {
-				culture = dakota
-				size = 22000
+				culture = ashelasianer
+				size = 2500
 			}
 		}
 	}
@@ -428,18 +485,14 @@
 		region_state:SHC = {
 			create_pop = {
 				culture = algonquian
-				size = 8000
-			}
-			create_pop = {
-				culture = yankee
-				size = 28004
+				size = 12000
 			}
 		}
 	}
 	s:STATE_KRAANLAND = {
 		region_state:GDL = {
 			create_pop = {
-				culture = yankee
+				culture = guilderlander
 				size = 631504
 			}
 			create_pop = {
@@ -447,8 +500,8 @@
 				size = 4004
 			}
 			create_pop = {
-				culture = north_german
-				size = 20000
+				culture = algonquian
+				size = 5000
 			}
 			create_pop = {
 				culture = afro_american
@@ -459,7 +512,7 @@
 	s:STATE_NISGINGOUN = {
 		region_state:GDL = {
 			create_pop = {
-				culture = yankee
+				culture = guilderlander
 				size = 123996
 			}
 			create_pop = {
@@ -475,7 +528,7 @@
 				size = 8000
 			}
 			create_pop = {
-				culture = yankee
+				culture = guilderlander
 				religion = catholic
 				size = 4004
 			}
@@ -484,7 +537,7 @@
 	s:STATE_AMIKIE = {
 		region_state:GDL = {
 			create_pop = {
-				culture = yankee
+				culture = guilderlander
 				size = 1092200
 			}
 			create_pop = {
@@ -504,11 +557,11 @@
 	s:STATE_PEQUIE = {
 		region_state:GDL = {
 			create_pop = {
-				culture = dixie
+				culture = guilderlander
 				size = 239988
 			}
 			create_pop = {
-				culture = yankee
+				culture = guilderlander
 				size = 316392
 			}
 			create_pop = {
@@ -529,7 +582,7 @@
 	s:STATE_WELLBURN = {
 		region_state:LOG = {
 			create_pop = {
-				culture = dixie
+				culture = logrish
 				size = 369604
 			}
 			create_pop = {
@@ -537,7 +590,7 @@
 				size = 7200
 			}
 			create_pop = {
-				culture = yankee
+				culture = logrish
 				size = 204800
 			}
 			create_pop = {
@@ -555,14 +608,14 @@
 			}
 			create_pop = {
 				culture = cherokee
-				size = 2528 # 1835 Cherokee Census "Henderson Roll"
+				size = 12528 
 			}
 		}
 	}
 	s:STATE_COCHAPO = {
 		region_state:MAR = {
 			create_pop = {
-				culture = dixie
+				culture = marianais
 				size = 172804
 			}
 			create_pop = {
@@ -579,7 +632,7 @@
 	s:STATE_TOHOME = {
 		region_state:MAR = {
 			create_pop = {
-				culture = dixie
+				culture = marianais
 				size = 329008
 			}
 			create_pop = {
@@ -592,8 +645,8 @@
 				size = 229998
 			}
 			create_pop = {
-				culture = dixie
-				religion = catholic
+				culture = marianais
+				religion = protestant
 				size = 16004
 			}
 			create_pop = {
@@ -609,7 +662,7 @@
 	s:STATE_SOLELHA = {
 		region_state:AQT = {
 			create_pop = {
-				culture = dixie
+				culture = aquitanian
 				size = 47996
 			}
 			create_pop = {
@@ -630,11 +683,11 @@
 	s:STATE_BERDON = {
 		region_state:LOG = {
 			create_pop = {
-				culture = dixie
+				culture = logrish
 				size = 329836
 			}
 			create_pop = {
-				culture = dixie
+				culture = logrish
 				religion = jewish
 				size = 1000
 			}
@@ -656,7 +709,7 @@
 	s:STATE_HOOGLANDEN = {
 		region_state:GDL = {
 			create_pop = {
-				culture = dixie
+				culture = guilderlander
 				size = 160916
 			}
 			create_pop = {
@@ -669,30 +722,22 @@
 				size = 1808 # don't have easy numbers for WV's free non-white population, but ~10% of the enslaved population seems to roughly track
 			}
 			create_pop = {
-				culture = dixie
+				culture = guilderlander
 				religion = catholic
 				size = 28000
 			}
 		}
 	}
-	s:STATE_PATAUNKE = { # Actually Maryland + Delaware
+	s:STATE_PATAUNKE = { # Actually Maryland
 		region_state:GDL = {
-			# Maryland: (1830, 447040) (1840, 470019), so 1835 est. 458530
-			# Delaware: (1830, 76748)  (1840, 78085),  so 1835 est. 77417
-			# minus 42176 free/38242 slaves that have been ceded to DC to inflate its pop figure
-			# aim for 535947 pops for Mega-Maryland (Megaland?) in total
 			create_pop = {
-				culture = dixie
+				culture = guilderlander
 				size = 251997
 			}
-			# Maryland: 52938 free in 1830, 62078 free in 1840
-			# Delaware: 15855 free in 1830, 16919 free in 1840
 			create_pop = {
 				culture = afro_american
 				size = 48541
 			}
-			# Maryland: 102994 in 1830, 89737 in 1840
-			# Delaware: 3292 in 1830, 2605 in 1840
 			create_pop = {
 				pop_type = slaves
 				culture = afro_american
@@ -704,15 +749,13 @@
 	s:STATE_ZWAANENDAEL = {
 		region_state:GDL = {
 			create_pop = {
-				culture = dixie
+				culture = guilderlander
 				size = 77000
 			}
-	
 			create_pop = {
 					culture = afro_american
 					size = 16919
 			}
-	
 			create_pop = {
 					pop_type = slaves
 					culture = afro_american
@@ -724,16 +767,16 @@
 	s:STATE_NIEUW_ZEELAND = {
 		region_state:GDL = {
 			create_pop = {
-				culture = yankee
+				culture = guilderlander
 				size = 1250496
 			}
 			create_pop = {
-				culture = yankee
+				culture = guilderlander
 				religion = jewish
 				size = 2000
 			}
 			create_pop = {
-				culture = yankee
+				culture = guilderlander
 				religion = catholic
 				size = 144008
 			}
@@ -750,11 +793,11 @@
 	s:STATE_HILLENSLAND = {
 		region_state:GDL = {
 			create_pop = {
-				culture = yankee
+				culture = guilderlander
 				size = 303200
 			}
 			create_pop = {
-				culture = yankee
+				culture = guilderlander
 				religion = catholic
 				size = 27996
 			}
@@ -767,8 +810,8 @@
 	s:STATE_INOKIE = {
 		region_state:SHC = {
 			create_pop = {
-				culture = yankee
-				size = 452400
+				culture = algonquian
+				size = 45000
 			}
 			create_pop = {
 				culture = afro_american
@@ -779,15 +822,19 @@
 	s:STATE_OFERBERG = {
 		region_state:LOG = {
 			create_pop = {
-				culture = yankee
-				size = 104820
+				culture = logrish
+				size = 41820
+			}
+			create_pop = {
+				culture = cherokee
+				size = 1800
 			}
 		}
 	}
 	s:STATE_MOURITSLAND = {
 		region_state:GDL = {
 			create_pop = {
-				culture = yankee
+				culture = guilderlander
 				size = 199228
 			}
 		}
@@ -795,7 +842,7 @@
 	s:STATE_KARELSLAND = {
 		region_state:GDL = {
 			create_pop = {
-				culture = yankee
+				culture = guilderlander
 				size = 859304
 			}
 			create_pop = {
@@ -807,7 +854,7 @@
 				size = 52400
 			}
 			create_pop = {
-				culture = yankee
+				culture = guilderlander
 				religion = catholic
 				size = 28400
 			}
@@ -816,24 +863,15 @@
 	s:STATE_NEW_HAMPSHIRE = {
 		region_state:ASL = {
 			create_pop = {
-				culture = yankee
+				culture = ashelasianer
 				size = 223300
-			}
-			create_pop = {
-				culture = franco_canadian
-				size = 24000
-			}
-			create_pop = {
-				culture = yankee
-				religion = catholic
-				size = 32000
 			}
 		}
 	}
 	s:STATE_TUSSBERG = {
 		region_state:GDL = {
 			create_pop = {
-				culture = yankee
+				culture = guilderlander
 				size = 282848
 			}
 		}
@@ -841,11 +879,11 @@
 	s:STATE_THISLAND = {
 		region_state:NBS = {
 			create_pop = {
-				culture = anglo_canadian
+				culture = ashelasianer
 				size = 16000
 			}
 			create_pop = {
-				culture = yankee
+				culture = irish
 				size = 381228
 			}
 		}
@@ -853,7 +891,7 @@
 	s:STATE_SOUTH_ADWERDIA = {
 		region_state:LOG = {
 			create_pop = {
-				culture = dixie
+				culture = logrish
 				size = 492500
 			}
 			create_pop = {
@@ -872,19 +910,19 @@
 		}
 	}
 	s:STATE_NUTCHI = {
-		region_state:AME = {
+		region_state:SPT = {
 			create_pop = {
 				culture = paiute
 				size = 3000
 			}
 		}
-		region_state:NVJ = {
+		region_state:SHO = {
 			create_pop = {
 				culture = paiute
 				size = 2000
 			}
 			create_pop = {
-				culture = navajo
+				culture = shoshone
 				size = 4000
 			}
 		}
@@ -894,15 +932,21 @@
 				size = 11000
 			}
 		}
+		region_state:ARP = {
+			create_pop = {
+				culture = siouan
+				size = 1800
+			}
+		}
 	}
 	s:STATE_CRUGOLAND = {
 		region_state:LOG = {
 			create_pop = {
-				culture = dixie
+				culture = logrish
 				size = 253836
 			}
 			create_pop = {
-				culture = dixie
+				culture = logrish
 				religion = jewish
 				size = 1000
 			}
@@ -925,19 +969,19 @@
 		region_state:HAW = {
 			create_pop = {
 				pop_type = clergy
-				culture = yankee
+				culture = guilderlander
 				religion = protestant
 				size = 100
 			}
 			create_pop = {
 				pop_type = capitalists
-				culture = yankee
+				culture = guilderlander
 				religion = protestant
 				size = 450
 			}
 			create_pop = {
 				pop_type = capitalists
-				culture = british
+				culture = aenglish
 				size = 500
 			}
 			create_pop = {
@@ -964,50 +1008,32 @@
 	s:STATE_MESESAG = {
 		region_state:ASL = {
 			create_pop = {
-				culture = anglo_canadian
-				size = 366792
+				culture = ashelasianer
+				size = 391392
 			}
 			create_pop = {
 				culture = cree
-				size = 12200
-			}
-			create_pop = {
-				culture = franco_canadian
-				size = 23400
+				size = 34000
 			}
 			create_pop = {
 				culture = algonquian
 				size = 7804
 			}
 			create_pop = {
-				culture = franco_canadian
+				culture = ashelasianer
 				religion = protestant
 				size = 600
 			}
-		}
-		region_state:ASL = {
 			create_pop = {
 				culture = metis
 				size = 3996
-			}
-			create_pop = {
-				culture = siouan
-				size = 4000
-			}
-			create_pop = {
-				culture = anglo_canadian
-				size = 12000
-			}
-			create_pop = {
-				culture = cree
-				size = 28200
 			}
 		}
 	}
 	s:STATE_NY_SCHLESWIG = {
 		region_state:NBS = {
 			create_pop = {
-				culture = anglo_canadian
+				culture = ashelasianer
 				size = 262653
 			}
 			create_pop = {
@@ -1015,7 +1041,7 @@
 				size = 4000
 			}
 			create_pop = {
-				culture = franco_canadian
+				culture = irish
 				size = 52800
 			}
 		}
@@ -1023,39 +1049,25 @@
 	s:STATE_CHRISTIANSLAND = {
 		region_state:ASL = {
 			create_pop = {
-				culture = franco_canadian
-				size = 547200
+				culture = ashelasianer
+				size = 555200
 			}
 			create_pop = {
-				culture = anglo_canadian
-				size = 5000
+				culture = irish
+				size = 25000
 			}
-			create_pop = {
-				culture = cree
-				size = 3000
-			}
-		}
-		region_state:ASL = {
 			create_pop = {
 				culture = inuit
 				size = 4000
 			}
 			create_pop = {
 				culture = cree
-				size = 18204
-			}
-			create_pop = {
-				culture = franco_canadian
-				size = 19200
-			}
-			create_pop = {
-				culture = anglo_canadian
-				size = 8000
+				size = 21204
 			}
 		}
 	}
 	s:STATE_SKOVOY = {
-		region_state:DEN = {
+		region_state:ASL = {
 			create_pop = {
 				culture = inuit
 				size = 7980
@@ -1065,24 +1077,20 @@
 				size = 40000
 			}
 			create_pop = {
-				culture = anglo_canadian
+				culture = ashelasianer
 				size = 39996
 			}
 		}
 	}
 	s:STATE_PIKANIEN = {
-		region_state:ASL = {
+		region_state:NDN = {
 			create_pop = {
-				culture = anglo_canadian
-				size = 3999
-			}		
-			create_pop = {
-				culture = siouan
-				size = 8200
+				culture = athabaskan
+				size = 18200
 			}
 			create_pop = {
 				culture = metis
-				size = 11000
+				size = 4000
 			}
 		}
 		region_state:IRC = {
@@ -1107,14 +1115,32 @@
 		}
 	}
 	s:STATE_BUCARELI = {
-		region_state:ORG = {	
+		region_state:NUT = {	
 			create_pop = {
 				culture = salish
-				size = 27396
+				size = 7396
 			}
 			create_pop = {
 				culture = athabaskan
-				size = 55200
+				size = 12000
+			}
+		}
+		region_state:HAD = {
+			create_pop = {
+				culture = salish
+				size = 5000
+			}
+		}
+		region_state:ATB = {
+			create_pop = {
+				culture = athabaskan
+				size = 35200
+			}
+		}
+		region_state:SAL = {
+			create_pop = {
+				culture = salish
+				size = 16750
 			}
 		}
 	}
@@ -1139,11 +1165,33 @@
 				size = 24000
 			}
 		}
+		region_state:LKT = {
+			create_pop = {
+				culture = dakota
+				size = 1000
+			}
+		}
+		region_state:BLF = {
+			create_pop = {
+				culture = siouan
+				size = 1200
+			}
+		}
+		region_state:NDN = {
+			create_pop = {
+				culture = cree
+				size = 3000
+			}
+			create_pop = {
+				culture = athabaskan
+				size = 11000
+			}
+		}
 	}
 	s:STATE_RODLAND = {
 		region_state:ASL = {
 			create_pop = {
-				culture = anglo_canadian
+				culture = ashelasianer
 				size = 14848
 			}		
 			create_pop = {
@@ -1163,16 +1211,26 @@
 				culture = metis
 				size = 20004
 			}
+			create_pop = {
+				culture = cree
+				size = 16000
+			}
 		}
 		region_state:IRC = {
 			create_pop = {
 				culture = cree
-				size = 12000
+				size = 16000
+			}
+		}
+		region_state:LKT = {
+			create_pop = {
+				culture = dakota
+				size = 4000
 			}
 		}
 	}
 	s:STATE_NIQUAN = {
-		region_state:ASL = {
+		region_state:ATB = {
 			create_pop = {
 				culture = athabaskan
 				size = 12000
@@ -1180,10 +1238,14 @@
 		}
 	}
 	s:STATE_DENEDE = {
-		region_state:ASL = {
+		region_state:NDN = {
 			create_pop = {
 				culture = athabaskan
 				size = 16000
+			}
+			create_pop = {
+				culture = inuit
+				size = 2000
 			}
 		}
 	}
@@ -1196,9 +1258,9 @@
 		}
 	}
 	s:STATE_BERMUDA = {
-		region_state:GBR = {
+		region_state:AEN = {
 			create_pop = {
-				culture = british
+				culture = aenglish
 				size = 14848
 			}
 			create_pop = {
@@ -1210,7 +1272,7 @@
 	s:STATE_HAINAI = {
 		region_state:MAR = {
 			create_pop = {
-				culture = dixie
+				culture = marianais
 				size = 22224
 			}
 			create_pop = {
@@ -1249,10 +1311,26 @@
 		}
 	}
 	s:STATE_MONTANHOSA = {
-		region_state:AME = {
+		region_state:NPT = {
 			create_pop = {
 				culture = paiute
-				size = 28000
+				size = 17000
+			}
+		}
+		region_state:SPT = {
+			create_pop = {
+				culture = paiute
+				size = 8000
+			}
+		}
+		region_state:SHO = {
+			create_pop = {
+				culture = shoshone
+				size = 11000
+			}
+			create_pop = {
+				culture = paiute
+				size = 4000
 			}
 		}
 	}
@@ -1291,12 +1369,28 @@
 				size = 2000
 			}
 		}
+		region_state:SPT = {
+			create_pop = {
+				culture = paiute
+				size = 5000
+			}
+			create_pop = {
+				culture = pueblo
+				size = 1000
+			}
+		}
+		region_state:UTE = {
+			create_pop = {
+				culture = paiute
+				size = 400
+			}
+		}
 	}
 	s:STATE_BRIVENT = {
 		region_state:AME = {
 			create_pop = {
 				culture = mexican
-				size = 27796
+				size = 7796
 			}
 			create_pop = {
 				culture = pueblo
@@ -1306,11 +1400,11 @@
 		region_state:NVJ = {
 			create_pop = {
 				culture = navajo
-				size = 6000
+				size = 8000
 			}
 			create_pop = {
-				culture = paiute
-				size = 2000
+				culture = pueblo
+				size = 1000
 			}
 		}
 		region_state:COM = {
@@ -1318,11 +1412,21 @@
 				culture = siouan
 				size = 3000
 			}
+			create_pop = {
+				culture = comanche
+				size = 15000
+			}
 		}
 		region_state:APC = {
 			create_pop = {
 				culture = apache
-				size = 11000
+				size = 16000
+			}
+		}
+		region_state:UTE = {
+			create_pop = {
+				culture = paiute
+				size = 1600
 			}
 		}
 	}
@@ -1347,6 +1451,12 @@
 			create_pop = {
 				culture = oodham
 				size = 43637
+			}
+		}
+		region_state:APC = {
+			create_pop = {
+				culture = apache
+				size = 17000
 			}
 		}
 	}

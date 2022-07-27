@@ -72,7 +72,7 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-		region_state:GBR={
+		region_state:AEN={
 		}
 		region_state:SRR={
 		}
