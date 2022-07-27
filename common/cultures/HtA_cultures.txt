@@ -139,6 +139,194 @@ aquitanian={
 	}
 }
 
+blandet={ #Danish Metis
+	color= { 150 105 150 }
+	religion = protestant
+	traits = { nordic_speaking indigenous_american_heritage north_american_group }
+	male_common_first_names={
+		Adam
+		Anders
+		Axel
+		Bjorn
+		Christian
+		Edvin
+		Einar
+		Erik
+		Fredrik
+		Gustav
+		Haakon
+		Hans
+		Harald
+		Henrik
+		Julius
+		Knud
+		Ludvig
+		Magnus
+		Nils
+		Olaf
+		Olav
+		Ole
+		Sven
+		Thorvald
+		Vilhelm
+	}
+	female_common_first_names = {
+		Alvide
+		Amalie
+		Anna
+		Birgitte
+		Camilla
+		Charlotte
+		Dagmar
+		Eleonore
+		Elisabeth
+		Frederikke
+		Hendrikke
+		Irene
+		Jensine
+		Josephine
+		Louise
+		Maren
+		Margrethe
+		Ragnhild
+		Sanna
+		Susanne
+		Ulrikke
+	}
+	common_last_names={
+		Adeler
+		Balchen
+		Berg
+		Bloch
+		Bonde
+		Borresen
+		Brentzon
+		Carlsen
+		Christiansen
+		Dannemand
+		Dhal
+		Egge
+		Falsen
+		Folsach
+		Gundersen
+		Hakonarson
+		Hambro
+		Hansen
+		Jensen
+		Johansen
+		Kaldager
+		Klauman
+		Konow
+		Laessoe
+		Larsen
+		Leuenbach
+		Lovenbalk
+		Michaelsen
+		Munthe
+		Neergaard
+		Nilsen
+		Obelitz
+		Pettersen
+		Skjalgsson
+		Suenson
+		Urne
+		Wiborg
+		With
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+coluan={
+	color={ 92 106 237 }
+	religion = catholic
+	traits = { aquophone european_heritage new_world_settler }
+	
+	male_common_first_names={
+		Achillo Alban Alber Alfons Amance Amede_ Amiel Andieu Ane_ir Anicet Anto_ni Alo_i Arnaud Arroman Aymar
+		Baptisto_u Basil Bastian Beno_ni Benvingut Bero_t Bernat Berenguer Brasc
+		Camil Carle Cesar Ciriac Colau Constantin Cristau Cristo_l Cristo_fol
+		Dama_s Danis Da_vi Deme_tri Domician Donat
+		Ecto_r Emanue_l Enric Ernest Estaqui Este_ve
+		Fabian Faustin Felip Fermin Fide_l Filemon Florentin Frederic Franc
+		Gabrie_u Gaston Gassan German Gilda_s Guilhe_m Guiraud Gustavi
+		Huc Iacin Ignac_ Ilari Ipolit
+		Jacin Jacomin Jan Jaufre Javie_r Jere_mi Jordan Jo_rdi Joset Just Justin
+		Landri Laurenc_ Leandri Leon Leopo_ld Lissandre Lop Luc Luis
+		Maissim Manue_l Marce_l Marin Martin Maurin Miche_u Morgan
+		Nari Nice_fo_r Nicolau Olimp Onorat Orens
+		Pantali Pascau Pau Pe_ire Peyro_t Pier Po_li Pons Privat
+		Rambaut Raol Re_gis Renat Robe_rt Roc Roman Rogier Rome_u Rosan Rufin
+		Salvaire Savaric Sebastian Sergi Severin Sicard Silvan
+		Teobald Teodor Terenci Ton Totsants Tristan
+		Uc Ulisses Umbert Urban
+		Valent Vale_ri Vesiat Vicens Victo_r Virge_li Xavier
+		Zavie_r Zeno
+	}
+	female_common_first_names = {
+		Abe_la Ade_la Adriana Agata Agusta Amada Alda Alessia Ambra Anaissa Angelina Antonieta Audeta Auro_ra
+		Batistina Barbara_ Beatriz Bruna
+		Camila Carlo_ta Carolina Carmen Cassania Catalina Cendroleta Chantal Clara Clarissa Claudeta Coleta Colombina Cristiana
+		Dafne_ Dalfina Danie_la Desirada Diana Dorote_a
+		Edita Eliana Elisa Elisabe_t Emmanuela Erminia Esmerauda Eufra_sia Euge_nia Euse_bia E_va Evelina
+		Fabiana Faneta Faustina Felicia Felipina Ferranda Fina Fla_via Florentina Franc_a Frederica
+		Gabriela Gaetana Gaudencia Gema Gilbe_rta Girauda Gise_la Gracia Guislana Gustina
+		Ida Ine_s Ire_na Isabe_l Isaura Ise_u Iveta
+		Jacinta Jacomina Joana Joe_la Judit Julia Julieta Justina
+		Laura Lea Leti_cia Linon Liseta Loba Lu_cia Lucre_cia Lutz
+		Mae_lis Magali Madalena Maili_s Manon Manuela Margarida Maria Martina Matilda Melina Merce_ Miramond Monica Morgana
+		Nadalia Nadina Naneta Ne_us Nico_la Norina
+		Octa_via Ofe_lia Orsula
+		Pascala Patricia Patz Paula Pe_ira Plasenc_a Prima
+		Rafe_la Raimonda Rejana Rita Robina Ro_sa Rosana Roxana Rut
+		Sabina Sareta Serena Sibilha Silvia Simona Solanja Susanna
+		Tatiana Tere_sa Ugueta Valenta Verana Victorina Viva Zita Zoe_
+	}
+	common_last_names={
+		Abat Amiel Andrieu Anfo_s Aramits Auriol Aushe_s  Avelan Aversenc Aze_ma
+		Balssa Bartas Bec Becca Benet Beneset Bernat Boie_r Bo_rda Bo_sc
+		Cabro_l Carrel Casalet Casassus Casau Castanhe_r Castre_s Cavaille_s Ceppi Cuc
+		Dardier Delpuech Dorta 
+		Escude_r Este_ve Estiu
+		Faure Forastier Forneiron Fraissinet
+		Gamba Gle_isa Gilbert Goujaud Guasco
+		Itard Haget	Joan Jotteu
+		Laffont Laffita Lafarga Lanussa Laumet Laurenc_ Loustaunau
+		Majastre Marselhe_s Martin Maure_l Molinie_r Moncani Montagut Minviel
+		Nant Nogue_s Orte_l
+		Pascau Pastre Pech Pe_ira Pestor Poujade Pradas Pradet Pujet Pujol
+		Ramond Roda Rodie_r Ros Rosse_l Rove
+		Sala Sarrieu Sauvan Se_rras Silvan Singlar Suc
+		Teissie_r Valada Valadier Valat Valle_s
+	}
+	
+	male_noble_first_names = {
+		# populate with names here
+	}
+	female_noble_first_names = {
+		# populate with names here
+	}	
+	noble_last_names = {
+		Alesenc Astruc Auvernhan
+		Baus Bremon Bermond Be_zots
+		Cammas Cardenal Castel Challant Claramunt Comi_ Colo_
+		Domat d_Aurinhac d_Use_s
+		d_Abbadi d_Ale_s d_Alhat d_Aurenja de_Barjols de_Besie_rs de_Borda de_Bordeu de_Cavalhon de_Chate_lyon de_Chaulhac d_Esparron de_Fenis de_la_Palic_a de_las_Tors
+		de_Lonzac de_Monna de_Montlar de_Porcairagues de_Puylaurenc_ de_Sant_Africa de_Sant_Pa_ulhan de_Saut de_Sonnac
+		Emperi Espir Galhard Gasc Guilhe_ms
+		Ladive_ze Lartet Lome_ni lo_Rocoforto lo_Cuc Loti
+		Marbot Maury Mesplet Mistral Miquel
+		Naquet Nicot Pilet Rivalz Rudel Valabregue Vidal Villaret
+	}
+	
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
 guilderlander={
 	color= { 255 206 84 }
 	religion = protestant

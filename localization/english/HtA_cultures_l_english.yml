@@ -4,7 +4,9 @@
  anatolian: "Anatolian"
  aquitanian: "Aquitànian"
  ashelasianer: "Ashelasianer"
+ blandet: "Blandet"
  chinook: "Chinook"
+ coluan: "Coluan"
  guilderlander: "Guilderlander"
  irish: "Eirean"
  klamath: "Klamath"
@@ -17,4 +19,5 @@
  roman: "Roman"
  #Descriptive traits
  aquophone: "Aquophone"
+ nordic_speaking: "Nordic Speaking"
  roman_culture: "Roman Culture"

@@ -288,7 +288,7 @@
 	s:STATE_OETAGAMIE = {
 		region_state:SHC = {
 			create_pop = {
-				culture = dakota
+				culture = algonquian
 				size = 24000
 			}
 			create_pop = {
@@ -296,7 +296,7 @@
 				size = 4000
 			}
 			create_pop = {
-				culture = algonquian
+				culture = dakota
 				size = 5000
 			}
 		}
@@ -331,6 +331,10 @@
 				culture = marianais
 				size = 1200
 			}
+			create_pop = {
+				culture = caddoan
+				size = 4500
+			}
 		}
 		region_state:PWN = {
 			create_pop = {
@@ -341,7 +345,11 @@
 		region_state:COM = {
 			create_pop = {
 				culture = siouan
-				size = 2000
+				size = 800
+			}
+			create_pop = {
+				culture = caddoan
+				size = 1000
 			}
 		}
 		region_state:LKT = {
@@ -393,6 +401,10 @@
 			create_pop = {
 				culture = comanche
 				size = 7500
+			}
+			create_pop = {
+				culture = caddoan
+				size = 9000
 			}
 		}
 	}
@@ -472,7 +484,7 @@
 	s:STATE_KIVEDIN = {
 		region_state:ASL = {
 			create_pop = {
-				culture = metis
+				culture = blandet
 				size = 16000
 			}
 			create_pop = {
@@ -1025,7 +1037,7 @@
 				size = 600
 			}
 			create_pop = {
-				culture = metis
+				culture = blandet
 				size = 3996
 			}
 		}
@@ -1089,7 +1101,7 @@
 				size = 18200
 			}
 			create_pop = {
-				culture = metis
+				culture = blandet
 				size = 4000
 			}
 		}
@@ -1109,7 +1121,7 @@
 				size = 15400
 			}
 			create_pop = {
-				culture = metis
+				culture = blandet
 				size = 5000
 			}
 		}
@@ -1151,7 +1163,7 @@
 				size = 4200
 			}
 			create_pop = {
-				culture = metis
+				culture = blandet
 				size = 16000
 			}
 		}
@@ -1199,7 +1211,7 @@
 				size = 12000
 			}
 			create_pop = {
-				culture = metis
+				culture = blandet
 				religion = protestant
 				size = 3996
 			}
@@ -1208,7 +1220,7 @@
 				size = 16000
 			}
 			create_pop = {
-				culture = metis
+				culture = blandet
 				size = 20004
 			}
 			create_pop = {
@@ -1291,7 +1303,7 @@
 				size = 12000
 			}
 			create_pop = {
-				culture = mexican
+				culture = coluan
 				size = 8000
 			}
 			create_pop = {
@@ -1341,7 +1353,7 @@
 				size = 4000
 			}
 			create_pop = {
-				culture = mexican
+				culture = coluan
 				size = 1004
 			}
 			create_pop = {
@@ -1389,7 +1401,7 @@
 	s:STATE_BRIVENT = {
 		region_state:AME = {
 			create_pop = {
-				culture = mexican
+				culture = coluan
 				size = 7796
 			}
 			create_pop = {
@@ -1437,7 +1449,7 @@
 				size = 52000
 			}
 			create_pop = {
-				culture = mexican
+				culture = coluan
 				size = 11996
 			}
 		}
@@ -1445,7 +1457,7 @@
 	s:STATE_SONORA = {
 		region_state:AME = {
 			create_pop = {
-				culture = mexican
+				culture = coluan
 				size = 69087
 			}
 			create_pop = {
@@ -1463,7 +1475,7 @@
 	s:STATE_CHIHUAHUA = {
 		region_state:AME = {
 			create_pop = {
-				culture = mexican
+				culture = coluan
 				size = 139895
 			}
 			create_pop = {
@@ -1479,7 +1491,7 @@
 	s:STATE_RIO_GRANDE = {
 		region_state:AME = {
 			create_pop = {
-				culture = mexican
+				culture = coluan
 				size = 121499
 			}
 			create_pop = {
@@ -1500,7 +1512,7 @@
 	s:STATE_VERACRUZ = {
 		region_state:AME = {
 			create_pop = {
-				culture = mexican
+				culture = coluan
 				size = 251061
 			}		
 		}
@@ -1508,7 +1520,7 @@
 	s:STATE_DURANGO = { # est. total of 156999. 153810 in 1830, 160187 in 1840
 		region_state:AME = {
 			create_pop = {
-				culture = mexican
+				culture = coluan
 				size = 136199
 			}
 			create_pop = {
@@ -1524,7 +1536,7 @@
 	s:STATE_SINALOA = {
 		region_state:AME = {
 			create_pop = {
-				culture = mexican
+				culture = coluan
 				size = 113841
 			}
 			create_pop = {
@@ -1544,7 +1556,7 @@
 	s:STATE_BAJIO = {
 		region_state:AME = {
 			create_pop = {
-				culture = mexican
+				culture = coluan
 				size = 594909
 			}
 			create_pop = {
@@ -1568,7 +1580,7 @@
 	s:STATE_YUCATAN = { 
 		region_state:YUC = {
 			create_pop = {
-				culture = mexican
+				culture = coluan
 				size = 226764
 			}
 			create_pop = {
@@ -1584,7 +1596,7 @@
 	s:STATE_MEXICO = {
 		region_state:AME = {
 			create_pop = {
-				culture = mexican
+				culture = coluan
 				size = 763486
 			}
 			create_pop = {
@@ -1609,7 +1621,7 @@
 	s:STATE_GUERRERO = {
 		region_state:AME = {
 			create_pop = {
-				culture = mexican
+				culture = coluan
 				size = 114874
 			}
 			create_pop = {
@@ -1633,7 +1645,7 @@
 	s:STATE_OAXACA = { # approx 479674. 457504 in 1830, 501844 in 1840.
 		region_state:AME = {
 			create_pop = {
-				culture = mexican
+				culture = coluan
 				size = 143903
 			}
 			create_pop = {
@@ -1657,7 +1669,7 @@
 	s:STATE_JALISCO = {
 		region_state:AME = {
 			create_pop = {
-				culture = mexican
+				culture = coluan
 				size = 1011710
 			}
 			create_pop = {
@@ -1674,7 +1686,7 @@
 	s:STATE_ZACATECAS = {
 		region_state:AME = {
 			create_pop = {
-				culture = mexican
+				culture = coluan
 				size = 137347
 			}
 			create_pop = {
@@ -1686,7 +1698,7 @@
 	s:STATE_CHIAPAS = {
 		region_state:GUA = {
 			create_pop = {
-				culture = mexican
+				culture = coluan
 				size = 75032
 			}
 			create_pop = {
@@ -1698,7 +1710,7 @@
 	s:STATE_ROILLO = {
 		region_state:AME = {
 			create_pop = {
-				culture = mexican
+				culture = coluan
 				size = 8264
 			}
 			create_pop = {

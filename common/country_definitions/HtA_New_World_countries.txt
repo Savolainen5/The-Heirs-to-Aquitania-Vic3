@@ -15,7 +15,7 @@ AME = { #Federation of Ameriga
 
 	tier = kingdom
 	
-	cultures = { mexican }
+	cultures = { coluan }
 	capital = STATE_MEXICO
 }
 ASL = { #Ashelasia, colony of Denmark
