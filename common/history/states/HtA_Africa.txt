@@ -239,14 +239,14 @@
 	}
 	s:STATE_ALGIERS = {
 		create_state = {
-			country = c:FRA
+			country = c:ALD
 			owned_provinces = { x713C2F x20EF40 x8090DF xA39A15 xCB898B x265E07 xB5486B xB735DB xDFB0C0 xA75E78 x0050A0 x7C6240 }
 			state_type = unincorporated
 		}
 		
 		add_homeland = maghrebi
 		add_homeland = berber
-		add_claim = c:ALD
+		#add_claim = c:ALD
 	}
 	s:STATE_CONSTANTINE = {
 		create_state = {

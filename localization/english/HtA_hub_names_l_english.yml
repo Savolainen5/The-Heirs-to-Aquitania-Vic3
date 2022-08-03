@@ -42,3 +42,56 @@
  HUB_NAME_STATE_WELLBURN_city: "Scarning" #Village of the same name in Norfolk
  HUB_NAME_STATE_WELLBURN_farm: "Liple" #Hamlet of Lipley in Shropshire
  HUB_NAME_STATE_WELLBURN_wood: "Ercal" #Ercall hill in Shropshire
+
+ #Guilderland
+ #Some names taken from https://upload.wikimedia.org/wikipedia/commons/2/23/Map-Novi_Belgii_Nov%C3%A6que_Angli%C3%A6_%28Amsterdam%2C_1685%29.jpg
+ #Others randomly generated from here https://www.fantasynamegenerators.com/west-european-town-names.php
+
+ HUB_NAME_STATE_ZWAANENDAEL_port: "Zwanendael" #Original name of the colonial settlement OTL
+ HUB_NAME_STATE_ZWAANENDAEL_city: "Casimir" #Fort Casimir, OTL name. An alternative could be New/Nieuw Amstel (Or even Anstel)
+ HUB_NAME_STATE_ZWAANENDAEL_farm: "Nantaquack" #Some sort of settlement in that location on a map 
+ HUB_NAME_STATE_ZWAANENDAEL_wood: "Ozinies"
+
+ HUB_NAME_STATE_HILLENSLAND_wood: "Emmelkamp" #Town on the modern German border with the Netherlands, because I couldn't well use (Fort) Nassau
+ HUB_NAME_STATE_HILLENSLAND_farm: "Kesfoort" #Randomly generated
+ HUB_NAME_STATE_HILLENSLAND_city: "Beversreede" #OTL name - (Fort) Beaver's road, at the terminus of the Minqua Trail trade route
+ HUB_NAME_STATE_HILLENSLAND_port: "Omboihoek" #Lenape name Ompoge Dutchified + hoek (corner, angle), so together it's the flat land corner at the confluence of the Raritan River and the Achter (Arthur) Kill
+ HUB_NAME_STATE_HILLENSLAND_mine: "Toureik" #Randomly generated
+
+ HUB_NAME_STATE_MOURITSLAND_port: "Nieu Amsterdam"
+ HUB_NAME_STATE_MOURITSLAND_city: "Bilthoven" #A town in OTL Netherlands like Brooklyn
+ HUB_NAME_STATE_MOURITSLAND_farm: "Roodenbergh" #Seen on a map, apparently the name of an explorer. We will say a settlement was founded in his honour
+ HUB_NAME_STATE_MOURITSLAND_wood: "Donkerwoude" #Combination of two town names in OTL Netherlands
+ HUB_NAME_STATE_MOURITSLAND_mine: "Ruytersburg" #Name derived from something seen on a map
+
+ HUB_NAME_STATE_KARELSLAND_city: "Voshaven" #This seen on a map (Fox harbour). Or maybe Drie Bergen Three Mountains. Could be better, eh?
+ HUB_NAME_STATE_KARELSLAND_port: "Kraanhaven" #Crane Harbour. Not related to the state of Kraanland
+ HUB_NAME_STATE_KARELSLAND_wood: "Hoopvoorde" #Hope-crossing, based on the original Fort Hope + (Hart)ford
+ HUB_NAME_STATE_KARELSLAND_mine: "Bocholt" #Town in Flanders
+ HUB_NAME_STATE_KARELSLAND_farm: "Culemborg" #Named after the countess of Hoogstraten in Flanders back in the day
+
+ HUB_NAME_STATE_TUSSBERG_farm: "Vachtwijk" #Fur District, I guess, based on the original name for Albany - Beverwijk
+ HUB_NAME_STATE_TUSSBERG_mine: "Lonck" #Some guy from Roosendaal who was involved in Dutch Brazil. Should really use the name there
+ HUB_NAME_STATE_TUSSBERG_city: "Uylenburgh" #Rembrandt's wife's name
+ HUB_NAME_STATE_TUSSBERG_wood: "Tildaal" #Randomly generated
+
+ HUB_NAME_STATE_PATAUNKE_port: "Voorzienigheid" #Providence, the first name Annapolis had OTL
+ HUB_NAME_STATE_PATAUNKE_city: "Gerbiersdorp" #Named after Balthazar Gebier, someone who existed OTL, born in Middelburg
+ HUB_NAME_STATE_PATAUNKE_wood: "Kleinfontein" #Little Spring, no real reason to call it that TBH
+ HUB_NAME_STATE_PATAUNKE_farm: "Aalburg" #Eeltown, actual first name for Brunswick, Maryland
+ HUB_NAME_STATE_PATAUNKE_mine: "Delden" #A village in Gelderland
+
+ HUB_NAME_STATE_NIEUW_ZEELAND_city: "Cannegieter" #A random last name, Hendrik Cannegieter was a historian from Arnhem
+ HUB_NAME_STATE_NIEUW_ZEELAND_farm: "Nazareth"
+ HUB_NAME_STATE_NIEUW_ZEELAND_mine: "Steenbergen" #Stone mountain. Uninspired, I know. A town in North Brabant
+ HUB_NAME_STATE_NIEUW_ZEELAND_wood: "Schiereiland" #Erie was originally called Presque Isle, and this is a Dutch translation thereof
+
+ HUB_NAME_STATE_IROKEZIE_mine: "Zwartstrom" #Blackstream, name of the river there (Black River)
+ HUB_NAME_STATE_IROKEZIE_wood: "Otsego" #Indigenous name of the lake at Cooperstown, now called Council Rock
+ HUB_NAME_STATE_IROKEZIE_farm: "Platstad" #Flat city. One of the original names of Ithaca, NY was The Flats
+ HUB_NAME_STATE_IROKEZIE_city: "Roskill" #Horse creek, original French name for the Buffalo river. Ros is quite archaic, but I think that is OK here. Creative license.
+
+ HUB_NAME_STATE_HOOGLANDEN_wood: "Sweelinck" #Jan Peterzoon Sweelinck, a composer from Deventer
+ HUB_NAME_STATE_HOOGLANDEN_farm: "Jordensburg" #Random name, Willem Herman Cost Jordens, from Deventer also
+ HUB_NAME_STATE_HOOGLANDEN_mine: "Meerssen" #Town near Maastricht
+ HUB_NAME_STATE_HOOGLANDEN_city: "Sint-Laurens" #Town in Flanders
