@@ -4,18 +4,18 @@
  #Guilderland
  STATE_MOURITSLAND: "Mouritsland" #Mourit's land
  STATE_KARELSLAND: "Karelsland" #Karel's land
- STATE_TUSSBERG: "Tussberg" #Between mountains
+ STATE_TUSSENBERG: "Tussenberg" #Between mountains
  STATE_HILLENSLAND: "Hillensland" #Hillen's land
- STATE_IROKEZIE: "Irokezie" #Land of the Iroquois
+ STATE_IROKEZIE: "Irokezië" #Land of the Iroquois
  STATE_NIEUW_ZEELAND: "Nieuw Zeeland"
- STATE_PATAUNKE: "Pataunke"
- STATE_ZWAANENDAEL: "Zwaanendael" #Swan valley, original Dutch name
+ STATE_PATONKE: "Patonke" #Dutchification of the source of the name of the Potomac
+ STATE_ZWANENDAEL: "Zwanendael" #Swan valley, original Dutch name
  STATE_HOOGLANDEN: "Hooglanden" #Highlands
- STATE_AMIKIE: "Amikie"
- STATE_PEQUIE: "Pequie"
+ STATE_AMIKIE: "Amikië" #Land of the Amiks
+ STATE_PEQUIE: "Pequië" #Land of the Pequi
  STATE_KRAANLAND: "Kraanland" #Craneland
- STATE_NISGINGOUN: "Nisgingoun" #
- STATE_INOKIE: "Inokie" #Illinweks
+ STATE_NISSINGOEN: "Nissingoen" #Dutchification of the name for Michigan
+ STATE_INOKIE: "Inokië" #Illinweks
  STATE_OETAGAMIE: "Oetagamie" #Utagami, another name for the Fox or something
 
  #Dano-Norwegian Canada

@@ -47,51 +47,76 @@
  #Some names taken from https://upload.wikimedia.org/wikipedia/commons/2/23/Map-Novi_Belgii_Nov%C3%A6que_Angli%C3%A6_%28Amsterdam%2C_1685%29.jpg
  #Others randomly generated from here https://www.fantasynamegenerators.com/west-european-town-names.php
 
- HUB_NAME_STATE_ZWAANENDAEL_port: "Zwanendael" #Original name of the colonial settlement OTL
- HUB_NAME_STATE_ZWAANENDAEL_city: "Casimir" #Fort Casimir, OTL name. An alternative could be New/Nieuw Amstel (Or even Anstel)
- HUB_NAME_STATE_ZWAANENDAEL_farm: "Nantaquack" #Some sort of settlement in that location on a map 
- HUB_NAME_STATE_ZWAANENDAEL_wood: "Ozinies"
+ HUB_NAME_STATE_ZWANENDAEL_port: "Zwanendael" #Original name of the colonial settlement OTL
+ HUB_NAME_STATE_ZWANENDAEL_city: "Casimir" #Fort Casimir, OTL name. An alternative could be New/Nieuw Amstel (Or even Anstel)
+ HUB_NAME_STATE_ZWANENDAEL_farm: "Nantaquack" #Some sort of settlement in that location on a map 
+ HUB_NAME_STATE_ZWANENDAEL_wood: "Willemsmaal" #William's (saw)mill
 
  HUB_NAME_STATE_HILLENSLAND_wood: "Emmelkamp" #Town on the modern German border with the Netherlands, because I couldn't well use (Fort) Nassau
  HUB_NAME_STATE_HILLENSLAND_farm: "Kesfoort" #Randomly generated
  HUB_NAME_STATE_HILLENSLAND_city: "Beversreede" #OTL name - (Fort) Beaver's road, at the terminus of the Minqua Trail trade route
- HUB_NAME_STATE_HILLENSLAND_port: "Omboihoek" #Lenape name Ompoge Dutchified + hoek (corner, angle), so together it's the flat land corner at the confluence of the Raritan River and the Achter (Arthur) Kill
- HUB_NAME_STATE_HILLENSLAND_mine: "Toureik" #Randomly generated
+ HUB_NAME_STATE_HILLENSLAND_port: "Ombooijhoek" #Lenape name Ompoge Dutchified + hoek (corner, angle), so together it's the flat land corner at the confluence of the Raritan River and the Achter (Arthur) Kill
+ HUB_NAME_STATE_HILLENSLAND_mine: "Tourijk" #Randomly generated
 
- HUB_NAME_STATE_MOURITSLAND_port: "Nieu Amsterdam"
+ HUB_NAME_STATE_MOURITSLAND_port: "Nieuw Amsterdam"
  HUB_NAME_STATE_MOURITSLAND_city: "Bilthoven" #A town in OTL Netherlands like Brooklyn
  HUB_NAME_STATE_MOURITSLAND_farm: "Roodenbergh" #Seen on a map, apparently the name of an explorer. We will say a settlement was founded in his honour
  HUB_NAME_STATE_MOURITSLAND_wood: "Donkerwoude" #Combination of two town names in OTL Netherlands
- HUB_NAME_STATE_MOURITSLAND_mine: "Ruytersburg" #Name derived from something seen on a map
+ HUB_NAME_STATE_MOURITSLAND_mine: "Ruytersburgh" #Name derived from something seen on a map
 
  HUB_NAME_STATE_KARELSLAND_city: "Voshaven" #This seen on a map (Fox harbour). Or maybe Drie Bergen Three Mountains. Could be better, eh?
- HUB_NAME_STATE_KARELSLAND_port: "Kraanhaven" #Crane Harbour. Not related to the state of Kraanland
+ HUB_NAME_STATE_KARELSLAND_port: "Kraanstad" #Crane city. Not related to the state of Kraanland
  HUB_NAME_STATE_KARELSLAND_wood: "Hoopvoorde" #Hope-crossing, based on the original Fort Hope + (Hart)ford
  HUB_NAME_STATE_KARELSLAND_mine: "Bocholt" #Town in Flanders
- HUB_NAME_STATE_KARELSLAND_farm: "Culemborg" #Named after the countess of Hoogstraten in Flanders back in the day
+ HUB_NAME_STATE_KARELSLAND_farm: "Groeneveldt" #Greenfield
 
- HUB_NAME_STATE_TUSSBERG_farm: "Vachtwijk" #Fur District, I guess, based on the original name for Albany - Beverwijk
- HUB_NAME_STATE_TUSSBERG_mine: "Lonck" #Some guy from Roosendaal who was involved in Dutch Brazil. Should really use the name there
- HUB_NAME_STATE_TUSSBERG_city: "Uylenburgh" #Rembrandt's wife's name
- HUB_NAME_STATE_TUSSBERG_wood: "Tildaal" #Randomly generated
+ HUB_NAME_STATE_TUSSENBERG_farm: "Vachtwijk" #Fur District, I guess, based on the original name for Albany - Beverwijk
+ HUB_NAME_STATE_TUSSENBERG_mine: "Lonck" #Some guy from Roosendaal who was involved in Dutch Brazil. Should really use the name there
+ HUB_NAME_STATE_TUSSENBERG_city: "Uylenburgh" #Rembrandt's wife's name
+ HUB_NAME_STATE_TUSSENBERG_wood: "Tildaal" #Randomly generated
 
- HUB_NAME_STATE_PATAUNKE_port: "Voorzienigheid" #Providence, the first name Annapolis had OTL
- HUB_NAME_STATE_PATAUNKE_city: "Gerbiersdorp" #Named after Balthazar Gebier, someone who existed OTL, born in Middelburg
- HUB_NAME_STATE_PATAUNKE_wood: "Kleinfontein" #Little Spring, no real reason to call it that TBH
- HUB_NAME_STATE_PATAUNKE_farm: "Aalburg" #Eeltown, actual first name for Brunswick, Maryland
- HUB_NAME_STATE_PATAUNKE_mine: "Delden" #A village in Gelderland
+ HUB_NAME_STATE_PATONKE_port: "Bataafshaven" #Harbour of the Batavi
+ HUB_NAME_STATE_PATONKE_city: "Gerbiersdorp" #Named after Balthazar Gebier, someone who existed OTL, born in Middelburg
+ HUB_NAME_STATE_PATONKE_wood: "Kleinfontein" #Little Spring, no real reason to call it that TBH
+ HUB_NAME_STATE_PATONKE_farm: "Aalburg" #Eeltown, actual first name for Brunswick, Maryland
+ HUB_NAME_STATE_PATONKE_mine: "Delden" #A village in Gelderland
 
  HUB_NAME_STATE_NIEUW_ZEELAND_city: "Cannegieter" #A random last name, Hendrik Cannegieter was a historian from Arnhem
  HUB_NAME_STATE_NIEUW_ZEELAND_farm: "Nazareth"
  HUB_NAME_STATE_NIEUW_ZEELAND_mine: "Steenbergen" #Stone mountain. Uninspired, I know. A town in North Brabant
  HUB_NAME_STATE_NIEUW_ZEELAND_wood: "Schiereiland" #Erie was originally called Presque Isle, and this is a Dutch translation thereof
 
- HUB_NAME_STATE_IROKEZIE_mine: "Zwartstrom" #Blackstream, name of the river there (Black River)
+ HUB_NAME_STATE_IROKEZIE_mine: "Zwartstroom" #Blackstream, name of the river there (Black River)
  HUB_NAME_STATE_IROKEZIE_wood: "Otsego" #Indigenous name of the lake at Cooperstown, now called Council Rock
- HUB_NAME_STATE_IROKEZIE_farm: "Platstad" #Flat city. One of the original names of Ithaca, NY was The Flats
- HUB_NAME_STATE_IROKEZIE_city: "Roskill" #Horse creek, original French name for the Buffalo river. Ros is quite archaic, but I think that is OK here. Creative license.
+ HUB_NAME_STATE_IROKEZIE_farm: "Platveld" #Flat field. One of the original names of Ithaca, NY was The Flats
+ HUB_NAME_STATE_IROKEZIE_city: "Roskil" #Horse creek, original French name for the Buffalo river. Ros is quite archaic, but I think that is OK here. Creative license.
 
  HUB_NAME_STATE_HOOGLANDEN_wood: "Sweelinck" #Jan Peterzoon Sweelinck, a composer from Deventer
  HUB_NAME_STATE_HOOGLANDEN_farm: "Jordensburg" #Random name, Willem Herman Cost Jordens, from Deventer also
  HUB_NAME_STATE_HOOGLANDEN_mine: "Meerssen" #Town near Maastricht
  HUB_NAME_STATE_HOOGLANDEN_city: "Sint-Laurens" #Town in Flanders
+
+ HUB_NAME_STATE_AMIKIE_mine: "Holten" #Suggested name by a true Dutchman
+ HUB_NAME_STATE_AMIKIE_wood: "Nieuw Merne" #New Marne, a town in Frisian Schleswig-Holstein. I changed the a to an e
+ HUB_NAME_STATE_AMIKIE_farm: "Maamie" #Maumee / Miami, tribe who lived in the area
+ HUB_NAME_STATE_AMIKIE_city: "Tsjalekatto" #Chillicothe, Shawnee for Principal Town
+
+ HUB_NAME_STATE_PEQUIE_city: "Zoutfontein" #Salt spring. There are several saline water springs in the area
+ HUB_NAME_STATE_PEQUIE_wood: "Sint-Eustasius" #Saint Eustatius, since the island doesn't exist under that name
+ HUB_NAME_STATE_PEQUIE_farm: "Hoorn" #Village on the island of Terschelling
+ HUB_NAME_STATE_PEQUIE_mine: "Telting" #Name of a jurist from Franeker in Friesland
+
+ HUB_NAME_STATE_KRAANLAND_city: "Wittezanden" #White Sands, Miami name for the river. I have dropped the e from witte, maybe it should stay?
+ HUB_NAME_STATE_KRAANLAND_farm: "Christiaanslaan" #Christian Dirk Laan, mayor of Baarn in the mid-1800s
+ HUB_NAME_STATE_KRAANLAND_wood: "Frederiksburg" #Named after some guy named Frederik
+ HUB_NAME_STATE_KRAANLAND_mine: "Bastiaansbrug" #Bastian's bridge
+
+ HUB_NAME_STATE_INOKIE_city: "Kampersdam" #Champaign comes from French Champagne, but the Spanish would have called it Campaña, and then the Dutch changed it to sound more Dutch. Kampen might also work
+ HUB_NAME_STATE_INOKIE_wood: "Draaghplaats" #Portage. The location is close to OTL Ottawa IL, which was famous for being a good place for portages
+ HUB_NAME_STATE_INOKIE_mine: "Nieuwkerk" #New church, nothing fancy
+ HUB_NAME_STATE_INOKIE_farm: "Boersdorp" #Farmer's town
+
+ HUB_NAME_STATE_NISSINGOEN_city: "Den Strade" #The strait, Dutchified Danish name. Do not ask me why they would not just change Strade to Straat
+ HUB_NAME_STATE_NISSINGOEN_mine: "Sakong" #Sag-ong, Chipewa placename which is a possible source of OTL Saginaw
+ HUB_NAME_STATE_NISSINGOEN_farm: "Julianaveld" #(Queen) Juliana-field
+ HUB_NAME_STATE_NISSINGOEN_wood: "Coenders" #Admiral Rudolf Coenders, born in Harlingen
