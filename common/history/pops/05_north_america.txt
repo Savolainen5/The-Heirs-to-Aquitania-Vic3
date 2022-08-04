@@ -521,7 +521,7 @@
 			}
 		}
 	}
-	s:STATE_NISGINGOUN = {
+	s:STATE_NISSINGOEN = {
 		region_state:GDL = {
 			create_pop = {
 				culture = guilderlander
@@ -740,7 +740,7 @@
 			}
 		}
 	}
-	s:STATE_PATAUNKE = { # Actually Maryland
+	s:STATE_PATONKE = { # Actually Maryland
 		region_state:GDL = {
 			create_pop = {
 				culture = guilderlander
@@ -758,7 +758,7 @@
 		}
 	}
 
-	s:STATE_ZWAANENDAEL = {
+	s:STATE_ZWANENDAEL = {
 		region_state:GDL = {
 			create_pop = {
 				culture = guilderlander
@@ -880,7 +880,7 @@
 			}
 		}
 	}
-	s:STATE_TUSSBERG = {
+	s:STATE_TUSSENBERG = {
 		region_state:GDL = {
 			create_pop = {
 				culture = guilderlander
@@ -889,7 +889,7 @@
 		}
 	}
 	s:STATE_THISLAND = {
-		region_state:NBS = {
+		region_state:ASL = {
 			create_pop = {
 				culture = ashelasianer
 				size = 16000
@@ -1043,7 +1043,7 @@
 		}
 	}
 	s:STATE_NY_SCHLESWIG = {
-		region_state:NBS = {
+		region_state:ASL = {
 			create_pop = {
 				culture = ashelasianer
 				size = 262653
