@@ -577,7 +577,7 @@
 			state_type = unincorporated
 		}
 		
-		add_homeland = british
+		add_homeland = aenglish
 	}
 	s:STATE_TARAPACA = {
 		create_state = {

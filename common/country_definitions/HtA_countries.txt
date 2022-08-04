@@ -10,7 +10,7 @@
 
 	tier = kingdom
 	
-	cultures = { british }
+	cultures = { aenglish }
 	capital = STATE_HOME_COUNTIES
 }
 	

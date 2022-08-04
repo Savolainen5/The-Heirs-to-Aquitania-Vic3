@@ -480,7 +480,7 @@
 			state_type = unincorporated
 		}
 		
-		add_homeland = british
+		add_homeland = aenglish
 		add_homeland = xhosa
 		add_homeland = khoisan
 	}
@@ -492,7 +492,7 @@
 		}
 		
 		add_homeland = boer
-		add_homeland = british
+		add_homeland = aenglish
 		add_homeland = sotho
 		add_homeland = khoisan		
 	}
@@ -512,7 +512,7 @@
 		}
 		
 		add_homeland = boer
-		add_homeland = british
+		add_homeland = aenglish
 		add_homeland = sotho
 		add_homeland = khoisan	
 		add_homeland = tswana

@@ -14,7 +14,7 @@
 			owned_provinces = { xE0E0C0 x7543C8 x60E0C0 x58D3AE x625993 x39F45B x19CECD x800020 xE060C0 }
 		}
 		
-		add_homeland = british
+		add_homeland = aenglish
 	}
 	s:STATE_LANCASHIRE = {
 		create_state = {
@@ -22,7 +22,7 @@
 			owned_provinces = { x410CE6 x60E000 xE0E000 xA242B2 xE06000 xE74158 x65617C x137263 }
 		}
 		
-		add_homeland = british
+		add_homeland = aenglish
 	}
 	s:STATE_PROVENCE = {
 		create_state = {
@@ -346,7 +346,7 @@
 			owned_provinces = { x2020C0 xA2308A x775D55 xA0A040 xB7FC74 x20A040 x70D92B xA02040 x633EF5 }
 		}
 		
-		add_homeland = british
+		add_homeland = aenglish
 		add_homeland = welsh
 	}
 	s:STATE_YORKSHIRE = {
@@ -355,7 +355,7 @@
 			owned_provinces = { x527116 x606000 x824DB7 xB5BF4E xE06080 x606080 xEDC0BA x5544D0 x86B021 }
 		}
 		
-		add_homeland = british
+		add_homeland = aenglish
 	}
 	s:STATE_HIGHLANDS = {
 		create_state = {
@@ -371,7 +371,7 @@
 			owned_provinces = { x20A0C0 xA021B0 xA220D6 x11C2BB x6020C0 x99305F xE0E080 xA0A0C0 x2482B4 x60E080 x528DEE }
 		}
 		
-		add_homeland = british
+		add_homeland = aenglish
 	}
 	s:STATE_EAST_ANGLIA = {
 		create_state = {
@@ -379,7 +379,7 @@
 			owned_provinces = { x8C667B x516676 x73EF57 x6D87D7 xE02040 x5024FD x60A040 x618949 xE0A040 }
 		}
 		
-		add_homeland = british
+		add_homeland = aenglish
 	}
 	s:STATE_WEST_COUNTRY = {
 		create_state = {
@@ -387,7 +387,7 @@
 			owned_provinces = { xE020C0 x1E38F8 xC900EF xA2DD9E x63EF7E x65B395 x6060C0 x225544 xEB9862 xE0E040 xB78E54 }
 		}
 		
-		add_homeland = british
+		add_homeland = aenglish
 	}
 	s:STATE_LOWLANDS = {
 		create_state = {

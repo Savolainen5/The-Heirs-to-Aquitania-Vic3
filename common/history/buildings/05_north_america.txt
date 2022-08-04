@@ -393,7 +393,7 @@
 			}
 		}
 	}
-	s:STATE_NISGINGOUN={
+	s:STATE_NISSINGOEN={
 		region_state:GDL={
 			create_building={
 				building="building_logging_camp"
@@ -623,6 +623,24 @@
 	}
 	s:STATE_SOLELHA={
 		region_state:AQT={
+			create_building={
+				building="building_sugar_plantation"
+				level=2
+				reserves=1
+				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_barracks"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_skirmish_infantry" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
 		}
 	}
 	s:STATE_BERDON={
@@ -668,7 +686,7 @@
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
-			}			
+			}
 		}
 	}
 	s:STATE_HOOGLANDEN={
@@ -693,7 +711,7 @@
 			}
 		}
 	}
-	s:STATE_PATAUNKE={
+	s:STATE_PATONKE={
 		region_state:GDL={
 			create_building={
 				building="building_government_administration"
@@ -733,7 +751,7 @@
 			}
 		}
 	}
-	s:STATE_ZWAANENDAEL={
+	s:STATE_ZWANENDAEL={
 		region_state:GDL={
 			create_building={
 				building="building_fishing_wharf"
@@ -1005,7 +1023,7 @@
 			}
 		}
 	}
-	s:STATE_TUSSBERG={
+	s:STATE_TUSSENBERG={
 		region_state:GDL={
 			create_building={
 				building="building_food_industry"
@@ -1028,7 +1046,7 @@
 		}
 	}
 	s:STATE_THISLAND={
-		region_state:NBS={
+		region_state:ASL={
 			create_building={
 				building="building_furniture_manufacturies"
 				level=1
@@ -1241,7 +1259,7 @@
 		}
 	}
 	s:STATE_NY_SCHLESWIG={
-		region_state:NBS={
+		region_state:ASL={
 			create_building={
 				building="building_lead_mine"
 				level=2
