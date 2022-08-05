@@ -4,7 +4,6 @@
 			first_name = "Constainti_n_II"
 			last_name = "Dalcais"
 			culture = cu:irish
-			ethnicity = caucasian_base
 			ruler = yes
 			noble = yes
 			age = 51 #Born 3.9.1781
@@ -21,7 +20,6 @@
 			first_name = "Cathaoir"
 			last_name = "Dalcais"
 			culture = cu:irish
-			ethnicity = caucasian_base
 			heir = yes
 			noble = yes
 			age = 32

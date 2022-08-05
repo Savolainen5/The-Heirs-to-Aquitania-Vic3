@@ -4,7 +4,6 @@
 			first_name = "Iain_IV"
 			last_name = "MacDhungail"
 			culture = cu:scottish
-			ethnicity = caucasian_base
 			ruler = yes
 			age = 50 #Born 6.12.1782
 			interest_group = ig_landowners
@@ -21,7 +20,6 @@
 			first_name = "Seumas"
 			last_name = "MacDhungail"
 			culture = cu:scottish
-			ethnicity = caucasian_base
 			heir = yes
 			age = 32
 			interest_group = ig_armed_forces

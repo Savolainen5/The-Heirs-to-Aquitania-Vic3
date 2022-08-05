@@ -4,7 +4,6 @@
 			first_name = "Isaakius_IV"
 			last_name = "Melisurgos"
 			culture = cu:roman
-			ethnicity = caucasian_base
 			ruler = yes
 			age = 45 #Born 1790
 			interest_group = ig_armed_forces
@@ -21,7 +20,6 @@
 			first_name = "Ioannes" #XI
 			last_name = "Melisurgos"
 			culture = cu:roman
-			ethnicity = caucasian_base
 			heir = yes
 			age = 17
 			interest_group = ig_petty_bourgeoisie

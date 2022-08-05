@@ -4,7 +4,6 @@
 			first_name = "Giancarlo_II"
 			last_name = "Miravelli"
 			culture = cu:north_italian
-			ethnicity = caucasian_base
 			ruler = yes
 			age = 49 #Born (date undecided)
 			interest_group = ig_landowners
@@ -21,7 +20,6 @@
 			first_name = "Ettore"
 			last_name = "Miravelli"
 			culture = cu:north_italian
-			ethnicity = caucasian_base
 			heir = yes
 			age = 25
 			interest_group = ig_armed_forces

@@ -4,7 +4,6 @@
 			first_name = "Pavlo"
 			last_name = "Vyhovsky"
 			culture = cu:tatar
-			ethnicity = caucasian_base
 			ruler = yes
 			age = 36
 			interest_group = ig_armed_forces

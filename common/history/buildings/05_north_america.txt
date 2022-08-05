@@ -19,10 +19,6 @@
 				reserves=1
 				activate_production_methods={ "pm_wound_dressing" "pm_skirmish_infantry" "pm_cavalry_scouts" "pm_no_specialists" "pm_mobile_artillery" }
 			}
-			create_building={
-				building="building_white_house"
-				level=1
-			}
 		}
 	}
 	s:STATE_NOUVEAU_BLOIS={

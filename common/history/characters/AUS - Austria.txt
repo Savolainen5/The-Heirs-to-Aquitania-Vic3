@@ -4,7 +4,6 @@
 			first_name = "Friedrich_III"
 			last_name = "von_Rasso"
 			culture = cu:south_german
-			ethnicity = caucasian_base
 			ruler = yes
 			noble = yes
 			age = 63 #Born 1772
@@ -21,7 +20,6 @@
 			first_name = "Karl_Leopold" #II
 			last_name = "von_Rasso"
 			culture = cu:south_german
-			ethnicity = caucasian_base
 			heir = yes
 			noble = yes
 			age = 43

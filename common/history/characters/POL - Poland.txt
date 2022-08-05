@@ -4,7 +4,6 @@
 			first_name = "Kazimir_Francizek"
 			last_name = "Widzowski"
 			culture = cu:polish
-			ethnicity = caucasian_base
 			ruler = yes
 			age = 43 #Born 1792
 			interest_group = ig_armed_forces
@@ -21,7 +20,6 @@
 			first_name = "Jan_Tomaz"
 			last_name = "Widzowski"
 			culture = cu:polish
-			ethnicity = caucasian_base
 			heir = yes
 			age = 21
 			interest_group = ig_petty_bourgeoisie

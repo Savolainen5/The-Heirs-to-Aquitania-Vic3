@@ -4,7 +4,6 @@
 			first_name = "Guigo_XI"
 			last_name = "de_Buonavi"
 			culture = cu:aquitanian
-			ethnicity = caucasian_base
 			ruler = yes
 			age = 33 #born 1802
 			interest_group = ig_industrialists

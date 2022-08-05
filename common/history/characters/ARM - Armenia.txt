@@ -4,7 +4,6 @@
 			first_name = "Musegh_V"
 			last_name = "Sourmagian"
 			culture = cu:armenian
-			ethnicity = caucasian_base
 			ruler = yes
 			age = 57 #Born 1778
 			interest_group = ig_armed_forces
@@ -21,7 +20,6 @@
 			first_name = "Nourhan" #XI
 			last_name = "Sourmagian"
 			culture = cu:roman
-			ethnicity = caucasian_base
 			heir = yes
 			age = 32 #Born 1803
 			interest_group = ig_petty_bourgeoisie

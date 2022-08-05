@@ -4,7 +4,6 @@
 			first_name = "Lofwin_II"
 			last_name = "Iserning"
 			culture = cu:aenglish
-			ethnicity = caucasian_base
 			ruler = yes
 			noble = yes
 			age = 57 #Born 10.07.1779
@@ -21,7 +20,6 @@
 			first_name = "Aelfstan" #II
 			last_name = "Iserning"
 			culture = cu:aenglish
-			ethnicity = caucasian_base
 			heir = yes
 			noble = yes
 			age = 26
