@@ -131,6 +131,15 @@ NUT = { #Territory of Nutca, Hispanian possession
 	cultures = { spanish }
 	capital = STATE_BUCARELI
 }
+PET = { #(Isla) Petri
+	color = { 160 130 190 }
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { aquitanian }
+	capital = STATE_CUBA
+}
 SAL = { #Salish
     color = { 8 89 97 }
     country_type = decentralized 
@@ -168,6 +177,15 @@ SPT = { #Southern Paiute
 	
 	cultures = { paiute }
 	capital = STATE_SOBAIA
+}
+STM = { #Sent Micolau
+	color = { 130 100 210 }
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { aquitanian }
+	capital = STATE_HAITI
 }
 TLN = { #Tlingit
     color = { 194 94 84 }

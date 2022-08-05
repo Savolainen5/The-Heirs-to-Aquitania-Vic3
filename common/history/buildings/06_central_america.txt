@@ -140,7 +140,7 @@
 		}
 	}
 	s:STATE_HAITI={
-		region_state:HAI={
+		region_state:STM={
 			create_building={
 				building="building_tobacco_plantation"
 				level=1
@@ -174,7 +174,7 @@
 		}
 	}
 	s:STATE_SANTO_DOMINGO={
-		region_state:HAI={
+		region_state:STM={
 			create_building={
 				building="building_banana_plantation"
 				level=1
@@ -336,7 +336,7 @@
 		}
 	}
 	s:STATE_CUBA={
-		region_state:CUB={
+		region_state:PET={
 			create_building={
 				building="building_rice_farm"
 				level=2

@@ -55,12 +55,14 @@
 		}
 	}
 	c:AQT = {
+		#Colony of Isla Petri (Cuba)
 		create_diplomatic_pact = {
-			country = c:CUB
+			country = c:PET
 			type = puppet
 		}
+		#Colony of Sent Micolau (Hispaniola)
 		create_diplomatic_pact = {
-			country = c:HAI
+			country = c:STM
 			type = puppet
 		}
 	}

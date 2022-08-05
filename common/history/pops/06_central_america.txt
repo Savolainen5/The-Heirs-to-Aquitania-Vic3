@@ -111,7 +111,7 @@
 		}
 	}
 	s:STATE_HAITI = {
-		region_state:HAI = {
+		region_state:STM = {
 			create_pop = {
 				culture = afro_antillean
 				size = 316808
@@ -127,7 +127,7 @@
 		}
 	}
 	s:STATE_SANTO_DOMINGO = {
-		region_state:HAI = {
+		region_state:STM = {
 			create_pop = {
 				culture = afro_antillean
 				size = 226020
@@ -218,13 +218,13 @@
 				size = 358596
 			}
 			create_pop = {
-				culture = british
+				culture = aenglish
 				size = 23040
 			}
 		}
 	}
 	s:STATE_CUBA = {
-		region_state:CUB = {
+		region_state:PET = {
 			# 896400
 			create_pop = {
 				culture = caribeno
@@ -240,7 +240,7 @@
 				size = 288786
 			}			
 			create_pop = {
-				culture = spanish
+				culture = aquitanian
 				size = 22004
 			}
 		}
