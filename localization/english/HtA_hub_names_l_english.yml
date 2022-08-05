@@ -120,3 +120,27 @@
  HUB_NAME_STATE_NISSINGOEN_mine: "Sakong" #Sag-ong, Chipewa placename which is a possible source of OTL Saginaw
  HUB_NAME_STATE_NISSINGOEN_farm: "Julianaveld" #(Queen) Juliana-field
  HUB_NAME_STATE_NISSINGOEN_wood: "Coenders" #Admiral Rudolf Coenders, born in Harlingen
+
+ #Mariana
+ HUB_NAME_STATE_TOHOME_city: "Fortierville" #Town in Quebec OTL
+ HUB_NAME_STATE_TOHOME_farm: "Millesources" #Thousand springs, because there are a lot around there
+ HUB_NAME_STATE_TOHOME_mine: "Castaing" #Jean Castaing was a printer and playwright from Alencon
+ HUB_NAME_STATE_TOHOME_wood: "Sainte-Anne-de-la-Sable" #Saint Anne of the Sand (creek), invented name for the creek passing through the town
+ HUB_NAME_STATE_TOHOME_port: "Fort Maubile" #Fort Louis de la Mobile was the original name of the French settlement
+
+ HUB_NAME_STATE_COCHAPO_port: "Maurepas" #Fort Maurepas was the original name of the French settlement
+ HUB_NAME_STATE_COCHAPO_mine: "Chevennes" #Town in Aines
+ HUB_NAME_STATE_COCHAPO_wood: "Suaschi" #Local Choctaw name for the Mad River
+ HUB_NAME_STATE_COCHAPO_city: "La Focque" #Frenchified mutation of Choctaw name for the area - Chisha Foka. The similarity to the word for *seal* is intentional on my part, yes
+ HUB_NAME_STATE_COCHAPO_farm: "L'Anse Antoine" #Antoine's field. Just a random name
+
+ HUB_NAME_STATE_NOUVEAU_BLOIS_port: "Le Nouveau-Chambord" #Blois is already taken from the country name, so let's take another important city in the former county
+ HUB_NAME_STATE_NOUVEAU_BLOIS_city: "Vendôme" #Another name from the area
+ HUB_NAME_STATE_NOUVEAU_BLOIS_wood: "Bienville" #OTL governor who founded New Orleans
+ HUB_NAME_STATE_NOUVEAU_BLOIS_farm: "Bendier" #Scholar and bibliophile Quentin-Claude Bendier
+ HUB_NAME_STATE_NOUVEAU_BLOIS_mine: "Fort Rapide" #Actual fort on the Red River, kind of near this location, seen on a 1757 map
+
+ HUB_NAME_STATE_TANABIE_city: "Villeroy" #Village in Quebec
+ HUB_NAME_STATE_TANABIE_farm: "Courtemaux" # Village in Loiret
+ HUB_NAME_STATE_TANABIE_mine: "Saint-Valère" #Village in Quebec
+ HUB_NAME_STATE_TANABIE_wood: "Bois-Arnault" #Village in Eure
