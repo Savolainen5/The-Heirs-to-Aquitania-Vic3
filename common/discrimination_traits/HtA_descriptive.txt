@@ -2,3 +2,5 @@
 }
 roman_culture = {
 }
+nordic_speaking = {
+}
