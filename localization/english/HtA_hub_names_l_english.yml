@@ -160,3 +160,27 @@
  HUB_NAME_STATE_HAINAI_wood: "La Nouvelle Bourges" #New Bourges
  HUB_NAME_STATE_HAINAI_mine: "Sarrant" #Village in Gers
  HUB_NAME_STATE_HAINAI_port: "Ville Galvès" #Galveston lol
+
+ HUB_NAME_STATE_TABASSE_city: "Flèche-Rompu" #Broken Arrow, I guess?
+ HUB_NAME_STATE_TABASSE_wood: "Hotchaville" #Hochatown is a real place
+ HUB_NAME_STATE_TABASSE_mine: "Prévost" #A town in Quebec
+ HUB_NAME_STATE_TABASSE_farm: "Tonkaweya" #Indigenous people in the area
+
+ HUB_NAME_STATE_TERRE_PLATE_city: "Dampierre" #William II of Dampierre was mentioned in the history of Saint-Didier
+ HUB_NAME_STATE_TERRE_PLATE_wood: "St-Joseph-sur-Uthatha" #Horrible Francophone transliteration of the Omaha name for the Niobara River, please feel free to suggest a better transliteration
+ HUB_NAME_STATE_TERRE_PLATE_mine: "Espirit-Saint" #Town in Quebec
+ HUB_NAME_STATE_TERRE_PLATE_farm: "Moulin" #Nearby OTL town of Molina, plus the fact that it means mill
+
+ #Shawnee Confederacy
+
+ HUB_NAME_STATE_OETAGAMIE_city: "Tijkopera" #Dutchification of the indigenous name for the area of Madison, WI
+ HUB_NAME_STATE_OETAGAMIE_wood: "Stiervalt" #Bull Falls, though this is a false etymology of the French name for Wausau, WI
+ HUB_NAME_STATE_OETAGAMIE_mine: "Seipgensklif" #Seipgens' rock. Emile Seipgens was a Dutch writer in the 19th century born in Roermond
+ HUB_NAME_STATE_OETAGAMIE_farm: "Schikakou" #Chicago haha
+
+ HUB_NAME_STATE_MONGONIE_city: "De Terpen" #The Mounds, named for all the ceremonial mounds around the area.
+ HUB_NAME_STATE_MONGONIE_wood: "Makato" #Similar town nearby - Mankato, WI -, roughly means Blue Earth
+ HUB_NAME_STATE_MONGONIE_mine: "Kinderbos" #Village near Boxtel in NL
+ HUB_NAME_STATE_MONGONIE_farm: "Cederstroomversnelling" #Cedar Rapids. That is so ugly, isn't it
+
+ 
