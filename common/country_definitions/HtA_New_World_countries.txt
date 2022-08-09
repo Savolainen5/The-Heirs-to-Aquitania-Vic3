@@ -138,7 +138,7 @@ PET = { #(Isla) Petri
 	tier = principality
 	
 	cultures = { aquitanian }
-	capital = STATE_CUBA
+	capital = STATE_ISLA_PETRI
 }
 SAL = { #Salish
     color = { 8 89 97 }

@@ -492,12 +492,28 @@
 				size = 2500
 			}
 		}
+		region_state:SHC = {
+			create_pop = {
+				culture = dakota
+				size = 2370
+			}
+		}
 	}
 	s:STATE_SAGAIGAN = {
 		region_state:SHC = {
 			create_pop = {
 				culture = algonquian
-				size = 12000
+				size = 9000
+			}
+		}
+		region_state:ASL = {
+			create_pop = {
+				culture = algonquian
+				size = 2491
+			}
+			create_pop = {
+				culture = ashelasianer
+				size = 7351
 			}
 		}
 	}
@@ -518,6 +534,12 @@
 			create_pop = {
 				culture = afro_american
 				size = 8000
+			}
+		}
+		region_state:SHC = {
+			create_pop = {
+				culture = algonquian
+				size = 3320
 			}
 		}
 	}
@@ -872,7 +894,7 @@
 			}
 		}
 	}
-	s:STATE_NEW_HAMPSHIRE = {
+	s:STATE_FREDERIKSLAND = {
 		region_state:ASL = {
 			create_pop = {
 				culture = ashelasianer
@@ -1041,6 +1063,12 @@
 				size = 3996
 			}
 		}
+		region_state:GDL = {
+			create_pop = {
+				culture = guilderlander
+				size = 2583
+			}
+		}
 	}
 	s:STATE_NY_SCHLESWIG = {
 		region_state:ASL = {
@@ -1075,6 +1103,12 @@
 			create_pop = {
 				culture = cree
 				size = 21204
+			}
+		}
+		region_state:GDL = {
+			create_pop = {
+				culture = guilderlander
+				size = 17890
 			}
 		}
 	}
@@ -1269,7 +1303,7 @@
 			}
 		}
 	}
-	s:STATE_BERMUDA = {
+	s:STATE_DEMONSEG = {
 		region_state:AEN = {
 			create_pop = {
 				culture = aenglish
@@ -1720,6 +1754,20 @@
 			create_pop = {
 				culture = afro_caribeno
 				size = 1300
+			}
+		}
+	}
+	s:STATE_ONJARA = {
+		region_state:GDL = {
+			create_pop = {
+				culture = guilderlander
+				size = 29902
+			}
+		}
+		region_state:ASL = {
+			create_pop = {
+				culture = ashelasianer
+				size = 23500
 			}
 		}
 	}

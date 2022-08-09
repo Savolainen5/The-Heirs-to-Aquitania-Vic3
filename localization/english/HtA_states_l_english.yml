@@ -18,9 +18,12 @@
  STATE_INOKIE: "Inokië" #Illinweks
  STATE_OETAGAMIE: "Oetagamie" #Utagami, another name for the Fox or something
 
+ STATE_ONJARA: "Onjara" #From Mohawk word for the neck of land between Lakes Erie and Ontario. The j is pronounced as in Dutch and Danish, as an English y
+
  #Dano-Norwegian Canada
  STATE_SKOVOY: "Skovøy" #Forest island
  STATE_CHRISTIANSLAND: "Christiansland" #Christian's land
+ STATE_FREDERIKSLAND: "Frederiksland" #Fredrik's land
  STATE_NY_SCHLESWIG: "Ny Schleswig" #New Schleswig
  STATE_THISLAND: "Thisland" #Land of Tyr
  STATE_MESESAG: "Mesesag"
@@ -52,9 +55,6 @@
  STATE_TABASSE: "Tabasse" #Name for a region near which the Wichita lived (Tabas), according to Spanish expeditions OTL
  STATE_TERRE_PLATE: "Terre Plate" #Lazy name. Flat land
 
- #Caribbean
- STATE_SOLELHA: "Solelha"
-
  #Nutca
  STATE_ALAJAS: "Alajas" #Hispanified the original root, plus some extra confusion with the last two letters (Should be Alajsa, but Spanish-speakers would find that hard to pronounce, so it was misread as it is now)
  STATE_JANIZ: "Janiz" #Hanis, the autonym of one of the Coos peoples
@@ -79,6 +79,14 @@
  STATE_NIQUAN: "Niquan" #Savs' Spanish corruption of the Southern Tutchone name for the Yukon River: Chu Nìikwän
  STATE_DENEDE: "Denede" #Central Denedeh, the land of the Dene
 
+
+ #Caribbean
+ STATE_SOLELHA: "Solelha"
+
+ STATE_ISLA_PETRI: "Isla Petri" #Island of Peter in Latin, named for King Pèire of Aquitània when it was discovered
+ STATE_SENT_MICOLAU: "Sent Micolau" #Saint Nicholas
+
+ STATE_DEMONSEG: "Demonseg" #Demon's Island, an older name for Bermuda
 
  #South Ameriga
 

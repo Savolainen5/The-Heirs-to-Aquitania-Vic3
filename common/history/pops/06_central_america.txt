@@ -126,7 +126,7 @@
 			}
 		}
 	}
-	s:STATE_SANTO_DOMINGO = {
+	s:STATE_SENT_MICOLAU = {
 		region_state:STM = {
 			create_pop = {
 				culture = afro_antillean
@@ -223,7 +223,7 @@
 			}
 		}
 	}
-	s:STATE_CUBA = {
+	s:STATE_ISLA_PETRI = {
 		region_state:PET = {
 			# 896400
 			create_pop = {

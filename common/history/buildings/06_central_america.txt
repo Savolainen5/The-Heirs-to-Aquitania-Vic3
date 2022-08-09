@@ -173,7 +173,7 @@
 			}
 		}
 	}
-	s:STATE_SANTO_DOMINGO={
+	s:STATE_SENT_MICOLAU={
 		region_state:STM={
 			create_building={
 				building="building_banana_plantation"
@@ -335,7 +335,7 @@
 			}
 		}
 	}
-	s:STATE_CUBA={
+	s:STATE_ISLA_PETRI={
 		region_state:PET={
 			create_building={
 				building="building_rice_farm"

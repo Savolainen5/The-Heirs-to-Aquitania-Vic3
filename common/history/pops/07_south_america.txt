@@ -974,27 +974,6 @@ POPS = {
 			}
 		}
 	}
-	s:STATE_RIO_GRANDE_DO_NORTE = { # Rio Grande do Norte, 1835 estimate. Total population of 87948.
-		region_state:NHL = {
-			create_pop = {
-				culture = brazilian
-				size = 29902
-			}
-			create_pop = {
-				culture = tupinamba
-				size = 4944
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = afro_brazilian
-				size = 10242
-			}
-			create_pop = {
-				culture = afro_brazilian
-				size = 42860
-			}
-		}
-	}
 	s:STATE_CEARA = { # Ceara, 1835 estimate. Total population of 211451
 		region_state:NHL = {
 			create_pop = {

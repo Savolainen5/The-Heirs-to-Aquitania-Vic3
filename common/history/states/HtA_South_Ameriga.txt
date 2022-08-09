@@ -307,18 +307,6 @@
 		add_homeland = afro_brazilian	
 		add_homeland = tupinamba
 	}
-	s:STATE_RIO_GRANDE_DO_NORTE = {
-		create_state = {
-			country = c:NHL
-			owned_provinces = { 
-				xB1D72A x604190 x563E55 xDC9F66 xED0C0B x37F7DE xAD0128 x5DCFF3 x6E0A83 
-			}
-		}
-		
-		add_homeland = brazilian
-		add_homeland = afro_brazilian	
-		add_homeland = tupinamba
-	}
 	s:STATE_CEARA = {
 		create_state = {
 			country = c:NHL

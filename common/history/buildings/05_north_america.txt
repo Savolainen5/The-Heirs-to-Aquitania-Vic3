@@ -356,8 +356,18 @@
 	s:STATE_KIVEDIN={
 		region_state:ASL={
 		}
+		region_state:SHC={
+		}
 	}
 	s:STATE_SAGAIGAN={
+		region_state:ASL={
+			create_building={
+				building="building_logging_camp"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_privately_owned_building_logging_camp" "pm_no_equipment" "pm_road_carts" "pm_no_hardwood" }
+			}			
+		}
 		region_state:SHC={
 		}
 	}
@@ -387,6 +397,8 @@
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
+		}
+		region_state:SHC = {
 		}
 	}
 	s:STATE_NISSINGOEN={
@@ -997,7 +1009,7 @@
 			}
 		}
 	}
-	s:STATE_NEW_HAMPSHIRE={
+	s:STATE_FREDERIKSLAND={
 		region_state:ASL={
 			create_building={
 				building="building_government_administration"
@@ -1253,6 +1265,8 @@
 				activate_production_methods={ "pm_mobile_artillery" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_line_infantry" }
 			}
 		}
+		region_state:GDL={
+		}
 	}
 	s:STATE_NY_SCHLESWIG={
 		region_state:ASL={
@@ -1333,6 +1347,21 @@
 				activate_production_methods={ "pm_basic_port" }
 			}
 		}
+		
+		region_state:ASL={
+			create_building={
+				building="building_logging_camp"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
+			}
+			create_building={
+				building="building_wheat_farm"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_vineyards" }
+			}
+		}
 	}
 	s:STATE_SKOVOY={
 		region_state:ASL={
@@ -1406,7 +1435,7 @@
 		region_state:ASL={
 		}
 	}
-	s:STATE_BERMUDA={
+	s:STATE_DEMONSEG={
 		region_state:AEN={
 			create_building={
 				building="building_naval_base"
@@ -1861,104 +1890,23 @@
 		region_state:AME={
 		}
 	}
+	s:STATE_ONJARA={
+		region_state:GDL={
+			create_building={
+				building="building_logging_camp"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
+			}
+		}
+		region_state:ASL={
+			create_building={
+				building="building_wheat_farm"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_citrus_orchards" }
+			}
+		}
+	}
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
