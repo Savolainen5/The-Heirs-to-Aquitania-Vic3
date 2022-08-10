@@ -58,17 +58,10 @@
 	s:STATE_SENT_MICOLAU = {
 		create_state = {
 			country = c:STM
-			owned_provinces = { x317080 x41A862 x1785E8 xACBDD9 x7252EC x961483 x877F90 x907A0C }
+			owned_provinces = { x317080 x41A862 x1785E8 xACBDD9 x7252EC x961483 x877F90 x907A0C xC6C663 x2FC1FC x0E35C0 x4FE008 xB0B001 x1A20A4 xEA2C2D }
 		}
 		
 		add_homeland = afro_caribeno
-	}
-	s:STATE_HAITI = {
-		create_state = {
-			country = c:STM
-			owned_provinces = { xC6C663 x2FC1FC x0E35C0 x4FE008 xB0B001 x1A20A4 xEA2C2D }
-		}
-		
 		add_homeland = afro_antillean
 	}
 	s:STATE_PUERTO_RICO = {

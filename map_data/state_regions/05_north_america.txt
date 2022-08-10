@@ -254,7 +254,7 @@ STATE_JAMPAPA = {
     arable_resources = { bg_maize_farms bg_livestock_ranches }
     capped_resources = {
         bg_logging = 4
-		bg_coal_mining = 24
+        bg_coal_mining = 24
     }
 }
 STATE_TERRE_PLATE = {
@@ -460,7 +460,7 @@ STATE_WELLBURN = {
     arable_resources = { bg_maize_farms bg_livestock_ranches bg_cotton_plantations bg_tobacco_plantations }
     capped_resources = {
         bg_iron_mining = 20
-		bg_coal_mining = 22
+        bg_coal_mining = 22
         bg_logging = 11
     }
 }
@@ -718,8 +718,8 @@ STATE_FREDERIKSLAND = {
     arable_resources = { bg_wheat_farms bg_livestock_ranches bg_tobacco_plantations }
     capped_resources = {
         bg_logging = 8
-		bg_fishing = 6
-		bg_whaling = 2
+        bg_fishing = 6
+        bg_whaling = 2
     }
     naval_exit_id = 3045
 }
@@ -1511,7 +1511,6 @@ STATE_ONJARA = {
     provinces = { "x0D2971" "x123762" "x1C432A" "x206622" "x24691A" "x308040" "x3344F6" "x337ECF" "x9A44C7" "xB00040" "xB08040" "xC0110A" "xD5B4A4" }
     traits = { "state_trait_niagara_falls" "state_trait_great_lakes" }
     city = "xDC9F66"
-    port = "xB1D72A"
     farm = "x563E55"
     mine = "x604190"
     wood = "xED0C0B"

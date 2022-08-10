@@ -110,35 +110,19 @@
 			}
 		}
 	}
-	s:STATE_HAITI = {
-		region_state:STM = {
-			create_pop = {
-				culture = afro_antillean
-				size = 316808
-			}
-			create_pop = {
-				culture = afro_caribeno
-				size = 40000
-			}
-			create_pop = {
-				culture = caribeno
-				size = 40000
-			}
-		}
-	}
 	s:STATE_SENT_MICOLAU = {
 		region_state:STM = {
 			create_pop = {
 				culture = afro_antillean
-				size = 226020
+				size = 542828
 			}
 			create_pop = {
 				culture = afro_caribeno
-				size = 24000
+				size = 64000
 			}
 			create_pop = {
 				culture = caribeno
-				size = 20000
+				size = 60000
 			}
 		}
 	}
