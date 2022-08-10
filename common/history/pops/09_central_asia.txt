@@ -3,16 +3,7 @@
 		region_state:AZB = {
 			create_pop = {
 				culture = north_caucasian
-				size = 271100
-			}
-			create_pop = {
-				culture = sephardic
-				size = 5200
-			}
-			create_pop = {
-				culture = north_caucasian
-				religion = orthodox
-				size = 72200
+				size = 58200
 			}
 			create_pop = {
 				culture = azerbaijani
@@ -20,14 +11,35 @@
 				size = 32000
 			}
 			create_pop = {
+				culture = sephardic
+				size = 5200
+			}
+		}
+		region_state:TAR = {
+			create_pop = {
 				culture = russian
 				size = 45500
+			}
+			create_pop = {
+				culture = north_caucasian
+				religion = orthodox
+				size = 72200
+			}
+			create_pop = {
+				culture = north_caucasian
+				size = 211100
 			}
 		}
 		region_state:CHC = {
 			create_pop = {
 				culture = north_caucasian
 				size = 92200
+			}
+		}
+		region_state:GLG = {
+			create_pop = {
+				culture = north_caucasian
+				size = 41300
 			}
 		}
 	}
@@ -58,6 +70,12 @@
 			create_pop = {
 				culture = north_caucasian
 				size = 321000
+			}
+		}
+		region_state:KAB = {
+			create_pop = {
+				culture = north_caucasian
+				size = 76000
 			}
 		}
 	}
