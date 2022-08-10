@@ -356,7 +356,7 @@
 			}
 			create_pop = {
 				culture = spanish
-				size = 1000
+				size = 73200
 			}
 			create_pop = {
 				culture = berber
@@ -404,7 +404,7 @@
 				size = 21992
 			}
 		}
-		region_state:ALD = {
+		region_state:BOU = {
 			create_pop = {
 				culture = maghrebi
 				size = 259800
@@ -420,22 +420,22 @@
 		}
 	}
 	s:STATE_CONSTANTINE = {
-		region_state:ALD = {
+		region_state:BOU = {
 			create_pop = {
 				culture = maghrebi
-				size = 208804
+				size = 101804
 			}
 			create_pop = {
 				culture = sephardic
-				size = 3996
+				size = 1996
 			}
 			create_pop = {
 				culture = berber
-				size = 208596
+				size = 101596
 			}
 			create_pop = {
 				culture = tuareg
-				size = 7996
+				size = 4996
 			}
 			create_pop = {
 				culture = maghrebi
@@ -445,7 +445,49 @@
 			create_pop = {
 				pop_type = slaves
 				culture = berber
-				size = 23000
+				size = 10000
+			}
+		}
+		region_state:SQA = {
+			create_pop = {
+				culture = maghrebi
+				size = 58804
+			}
+			create_pop = {
+				culture = sephardic
+				size = 1096
+			}
+			create_pop = {
+				culture = berber
+				size = 58596
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = berber
+				size = 8000
+			}
+		}
+		region_state:DUZ = {
+			create_pop = {
+				culture = maghrebi
+				size = 58804
+			}
+			create_pop = {
+				culture = sephardic
+				size = 1096
+			}
+			create_pop = {
+				culture = berber
+				size = 58596
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = berber
+				size = 5000
+			}
+			create_pop = {
+				culture = tuareg
+				size = 2996
 			}
 		}
 	}
@@ -493,11 +535,11 @@
 		region_state:TUN = {
 			create_pop = {
 				culture = maghrebi
-				size = 1025804
+				size = 625804
 			}
 			create_pop = {
 				culture = sephardic
-				size = 7204
+				size = 6204
 			}
 			create_pop = {
 				culture = maltese
@@ -509,7 +551,7 @@
 			}
 			create_pop = {
 				culture = berber
-				size = 100000
+				size = 50000
 			}
 			create_pop = {
 				pop_type = slaves
@@ -532,8 +574,40 @@
 				size = 2000
 			}
 			create_pop = {
+				culture = berber
+				size = 10000
+			}
+			create_pop = {
 				culture = aquitanian
 				size = 5600
+			}
+		}
+		region_state:SQA = {
+			create_pop = {
+				culture = maghrebi
+				size = 200000
+			}
+			create_pop = {
+				culture = sephardic
+				size = 1000
+			}
+			create_pop = {
+				culture = berber
+				size = 10000
+			}
+		}
+		region_state:DUZ = {
+			create_pop = {
+				culture = maghrebi
+				size = 200000
+			}
+			create_pop = {
+				culture = sephardic
+				size = 1000
+			}
+			create_pop = {
+				culture = berber
+				size = 30000
 			}
 		}
 	}

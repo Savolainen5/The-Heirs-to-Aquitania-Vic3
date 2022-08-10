@@ -24,7 +24,7 @@ AQT = { #Aquitania
 	cultures = { aquitanian }
 	capital = STATE_LANGUEDOC
 }
-ARM = {
+ARM = { #Armenia
 	color = { 133  244  244 }
 	
 	country_type = recognized

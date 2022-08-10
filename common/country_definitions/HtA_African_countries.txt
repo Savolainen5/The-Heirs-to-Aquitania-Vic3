@@ -1,0 +1,31 @@
+﻿BOU = { #Emirate of Bouira
+	color = { 130 170 140 }
+	
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { maghreb }
+	capital = STATE_ALGIERS
+}
+DUZ = { #Emirate of Douz
+	color = { 220 170 85 }
+	
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { maghreb }
+	capital = STATE_TUNISIA
+}
+	
+SQA = { #Emirate of Souq 'Ahras
+	color = { 215 120 115 }
+	
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { maghreb }
+	capital = STATE_CONSTANTINE
+}
