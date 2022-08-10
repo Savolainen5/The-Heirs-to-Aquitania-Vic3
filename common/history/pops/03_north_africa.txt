@@ -386,7 +386,7 @@
 		}
 	}
 	s:STATE_ALGIERS = {
-		region_state:FRA = {
+		region_state:AQT = {
 			create_pop = {
 				culture = maghrebi
 				size = 830800
@@ -397,11 +397,25 @@
 			}
 			create_pop = {
 				culture = berber
-				size = 211004
+				size = 121004
 			}
 			create_pop = {
-				culture = french
-				size = 31992
+				culture = aquitanian
+				size = 21992
+			}
+		}
+		region_state:ALD = {
+			create_pop = {
+				culture = maghrebi
+				size = 259800
+			}
+			create_pop = {
+				culture = sephardic
+				size = 3004
+			}
+			create_pop = {
+				culture = berber
+				size = 90000
 			}
 		}
 	}
@@ -436,10 +450,10 @@
 		}
 	}
 	s:STATE_TLEMCEN = {
-		region_state:ALD = {
+		region_state:HIS = {
 			create_pop = {
 				culture = maghrebi
-				size = 509200
+				size = 309200
 			}
 			create_pop = {
 				culture = sephardic
@@ -447,7 +461,21 @@
 			}
 			create_pop = {
 				culture = berber
-				size = 242800
+				size = 42800
+			}
+		}
+		region_state:MOR = {
+			create_pop = {
+				culture = maghrebi
+				size = 200200
+			}
+			create_pop = {
+				culture = berber
+				size = 200000
+			}
+			create_pop = {
+				culture = sephardic
+				size = 600
 			}
 			create_pop = {
 				pop_type = slaves
@@ -465,11 +493,11 @@
 		region_state:TUN = {
 			create_pop = {
 				culture = maghrebi
-				size = 1165804
+				size = 1025804
 			}
 			create_pop = {
 				culture = sephardic
-				size = 9204
+				size = 7204
 			}
 			create_pop = {
 				culture = maltese
@@ -484,10 +512,6 @@
 				size = 100000
 			}
 			create_pop = {
-				culture = turkish
-				size = 2000
-			}
-			create_pop = {
 				pop_type = slaves
 				culture = sephardic
 				size = 10000
@@ -496,6 +520,20 @@
 				pop_type = slaves
 				culture = berber
 				size = 24000
+			}
+		}
+		region_state:AQT = {
+			create_pop = {
+				culture = maghrebi
+				size = 140000
+			}
+			create_pop = {
+				culture = sephardic
+				size = 2000
+			}
+			create_pop = {
+				culture = aquitanian
+				size = 5600
 			}
 		}
 	}
