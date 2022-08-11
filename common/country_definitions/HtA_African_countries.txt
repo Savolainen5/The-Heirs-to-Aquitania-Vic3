@@ -5,7 +5,7 @@
 
 	tier = kingdom
 	
-	cultures = { maghreb }
+	cultures = { maghrebi }
 	capital = STATE_ALGIERS
 }
 DUZ = { #Emirate of Douz
@@ -15,8 +15,18 @@ DUZ = { #Emirate of Douz
 
 	tier = kingdom
 	
-	cultures = { maghreb }
+	cultures = { maghrebi }
 	capital = STATE_TUNISIA
+}
+
+MOS = {
+	color = { 27 128 45 }
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { mossi }
+	capital = STATE_VOLTA
 }
 	
 SQA = { #Emirate of Souq 'Ahras
@@ -26,6 +36,6 @@ SQA = { #Emirate of Souq 'Ahras
 
 	tier = kingdom
 	
-	cultures = { maghreb }
+	cultures = { maghrebi }
 	capital = STATE_CONSTANTINE
 }
