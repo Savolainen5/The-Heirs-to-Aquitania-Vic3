@@ -20,7 +20,7 @@
 	female_common_first_names = { #Converted "eo" to "e", Ash to "ae", "-yth" to "-yd" mostly, most "ht" to just "t", "Ecg" to "Ec", "-gifu" to "-gif" and did some other simplification. These names otherwise drawn from CK2
 		Aebba Aelfflaed Aelfgif	Aelfgyd	Aelflaeda Aelfrida Aelfthryd Aelfwynn Aethelburg Aethelburh Aethelflaed Aethelgif Aethelhild Aethelreda Aethelswith
 		Aethelthryd Agatha Balthild Berhtgyd Berhtwaru Berhtwynn Bernflaed Berngyd Bertflaed Bertgif Blaeja Burgflaed Celflaed Cristina Cuthburg Cwenburg Cyneburg
-		Cynegyd Cynehild Cyneswith Cynethryd Eadburg Eadflaed Eadgif Eadgyd Eadhburh Eadhild Ealdgyd Ecfrida Ecwyn Godgif Gunhild Gyda Helga Heregyd Hereswith
+		Cynegyd Cynehild Cyneswith Cynethryd Eadburg Eadfled Eadgif Eadgyd Eadhburh Eadhild Ealdgyd Ecfrida Ecwyn Godgif Gunhild Gyda Helga Heregyd Hereswith
 		Hexilda Hungif Judith Lefflaed Lefgif Lefrun Lefwar Lefwynn Margaret Maud Mildrith Octreda Saethryd Seaxburh Sifflaed Sigrid Waerburg Witburhyd
 		Wulfflaed Wulfgif Wulfgyd Wulfhild Wulfrun Wulfthryd Wulfwaru Wulfwynn Wynnflaed
 	}

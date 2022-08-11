@@ -870,6 +870,7 @@
  Roberth: "Roberth"
  Sarwin: "Sarwin"
  Sigeric: "Sigeric"
+ Sird: "Sird"
  Siward: "Siward"
  Stigand: "Stigand"
  Swegn: "Swegn"
@@ -925,7 +926,7 @@
  Cyneswith: "Cyneswith"
  Cynethryd: "Cynethryd"
  Eadburg: "Eadburg"
- Eadflaed: "Eadflaed"
+ Eadfled: "Eadfled"
  Eadgif: "Eadgif"
  Eadgyd: "Eadgyd"
  Eadhburh: "Eadhburh"
@@ -1108,3 +1109,5 @@
  #Tatar ruler names
  Pavlo: "Pavlo"
  Vyhovsky: "Vyhovsky"
+ #Other names
+ Huysman: "Huysman"
