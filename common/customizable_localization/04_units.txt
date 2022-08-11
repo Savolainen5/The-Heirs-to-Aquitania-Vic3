@@ -1,0 +1,90 @@
+﻿flotilla_prefix = {
+	type = country
+	random_valid = no
+
+	text = {
+		trigger = {
+			has_law = law_type:law_monarchy
+			exists = c:HAW
+			this = c:HAW
+		}
+		localization_key = flotilla_prefix_hhms
+	}
+	text = {
+		trigger = {
+			has_law = law_type:law_monarchy # "Regia Nave" only makes sense for monarchies
+			exists = c:ITA
+			this = c:ITA
+		}
+		localization_key = flotilla_prefix_rn
+	}
+
+	# THE DUTCH
+	text = {
+		trigger = {
+			has_law = law_type:law_monarchy # "Zijner Majesteits" only makes sense for monarchies
+			ruler = {
+				is_female = no # "Zijner Majesteits" is masculine
+			}
+			exists = c:NET
+			this = c:NET
+		}
+		localization_key = flotilla_prefix_net_zrms
+	}
+	text = {
+		trigger = {
+			has_law = law_type:law_monarchy # "Harer Majesteits" only makes sense for monarchies
+			ruler = {
+				is_female = yes # "Harer Majesteits" is feminine
+			}
+			exists = c:NET
+			this = c:NET
+		}
+		localization_key = flotilla_prefix_net_hrms
+	}
+	#
+
+	text = {
+		trigger = {
+			has_law = law_type:law_monarchy # "Kongelige Danske Marine" only makes sense for monarchies
+			exists = c:DEN
+			this = c:DEN
+		}
+		localization_key = flotilla_prefix_kdm
+	}
+	text = {
+		trigger = {
+			has_law = law_type:law_monarchy # "Vassilikón Ploíon" only makes sense for monarchies
+			exists = c:ROM
+			this = c:ROM
+		}
+		localization_key = flotilla_prefix_vp
+	}
+
+	### generic fallback
+
+    text = {
+		trigger = {
+			always = yes
+		}
+		localization_key = flotilla_prefix_blank # Many countries used no prefix at all
+	}
+}
+
+troop_name = {
+	type = building
+	random_valid = no
+	
+	text = {
+		trigger = {
+			is_building_type = building_barracks
+		}
+		localization_key = troop_name_regular
+	}
+	text = {
+		trigger = {
+			is_building_type = building_conscription_center
+		}
+		localization_key = troop_name_conscript
+	}
+}

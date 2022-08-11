@@ -548,7 +548,8 @@
 			owned_provinces = {
 				x700040 x5E05A9 x4D1908 x4017DC x781E75 xB34192 xC44B48 xAE4DDC xD49785 xFDA0D8 x8BD355 x96E11B
 			}
-				
+		}
+		
 		add_homeland = algonquian
 		add_homeland = ashelasianer
 	}

@@ -1,0 +1,113 @@
+﻿##dummy_decision = {
+#	possible = {
+#		error_check = {
+#			severity = invalid
+#			NOT = { has_variable = dummy_decision_taken }
+#		}
+#
+#		error_check = {
+#			severity = invalid
+#			country_rank = rank_value:great_power # only visible to great powers
+#		}
+#
+#		error_check = {
+#			severity = fail
+#			country_has_primary_culture = cu:french # can be taken only by countries where the french culture is primary
+#		}
+#	}
+#
+#	when_taken = {
+#		annex = c:CHI
+#		set_variable = {
+#			name = dummy_decision_taken
+#			value = yes
+#		}
+#	}
+#}
+
+
+
+lowlands_land_reclamation = {
+	is_shown = {
+		owns_entire_state_region = STATE_FRIESLAND
+		owns_entire_state_region = STATE_HOLLAND
+		OR = {
+			NOT = { exists = global_var:land_reclamation_global }
+			AND = {
+				exists = global_var:land_reclamation_global
+				global_var:land_reclamation_global >= 10
+			}
+		}
+		NOT = { has_variable = dutch_land_reclaimer }
+	}
+
+	possible = {
+		has_technology_researched = watertube_boiler
+		bureaucracy > 200
+	}
+	
+	when_taken = {
+		if = {
+			limit = {
+				NOT = { has_global_variable = land_reclamation_global }
+			}
+			set_global_variable = {
+				name = land_reclamation_global
+				value = 0
+			}
+		}
+		add_modifier = {
+			name = modifier_reclaiming_land
+			days = -1 # permanent until removed
+		}
+		add_journal_entry = { type = je_land_reclamation }
+		set_variable = dutch_land_reclaimer
+		if = {
+			limit = {
+				NOT = { has_technology_researched = concrete_dockyards }
+			}
+			custom_tooltip = land_reclamation_no_tech
+		}
+		else = {
+			custom_tooltip = land_reclamation_tech
+		}
+	}
+
+	ai_chance = {
+		base = 0
+		modifier = {
+			trigger = { bureaucracy > 200 }
+			add = 10
+		}
+	}
+}
+
+abolish_tangena_ordeal = {
+	is_shown = {
+		exists = c:MAD
+		ROOT = c:MAD
+		has_modifier = modifier_tangena_ordeal
+	}
+
+	possible = {
+		exists = c:MAD
+		ROOT = c:MAD
+		has_modifier = modifier_tangena_ordeal
+		custom_tooltip = {
+			text = ranavalona_tt
+			NOT = {
+				ruler = {
+					has_variable = ranavalona
+				}
+			}
+		}
+	}
+
+	when_taken = {
+		remove_modifier = modifier_tangena_ordeal
+	}
+
+	ai_chance = {
+		base = 10
+	}
+}

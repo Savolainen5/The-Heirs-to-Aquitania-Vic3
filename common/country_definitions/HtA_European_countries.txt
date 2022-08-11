@@ -241,6 +241,16 @@ SEM = { #Semia
 	cultures = { latvian russian }
 	capital = STATE_SMOLENSK
 }
+SIC = { #Sicily
+	color = { 73  152  76 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { south_italian }
+	capital = STATE_CAMPANIA
+}
 SLS = { #Silesia
 	color = { 104 190 222 }
 	

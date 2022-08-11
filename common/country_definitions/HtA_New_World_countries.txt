@@ -185,7 +185,7 @@ STM = { #Sent Micolau
 	tier = principality
 	
 	cultures = { aquitanian }
-	capital = STATE_HAITI
+	capital = STATE_SENT_MICOLAU
 }
 TLN = { #Tlingit
     color = { 194 94 84 }
