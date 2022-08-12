@@ -1,0 +1,995 @@
+﻿# This is a special strategy that sets the default values for different AI scores
+
+ai_strategy_default = {
+	icon = "gfx/interface/icons/ai_strategy_icons/placate_population.dds" # Never shown
+
+	desired_tax_level = medium
+	max_tax_level = high
+	min_tax_level = low
+	
+	max_progressiveness = 25 # How progressive is the AI willing to be when passing laws
+	max_regressiveness = 25 # How regressive is the AI willing to be when passing laws
+	
+	# Chance each update that the AI is willing to start changing a law (1 = 1%)
+	change_law_chance = { 
+		value = 1
+	}		
+	
+	aggression = {
+		value = 0
+		
+		# Opium wars aggressor should be very, very aggressive against target
+		if = {
+			limit = {
+				has_journal_entry = je_opium_wars
+				scope:target_country = {
+					has_variable = opium_wars_target
+				}
+			}
+			add = 1000
+		}	
+	}
+	
+	wanted_construction_ratio = 1000000 # 1 level of construction sector per 1 million incorporated population
+	wanted_army_ratio = 200000 # 1 barrack per 200k incorporated population
+	wanted_navy_ratio = 400000 # 1 naval base per 400k coastal incorporated population
+	
+	# Overrides normal subsidies if at war
+	war_subsidies = {
+		building_arms_industry = must_have
+		building_munition_plants = must_have
+		building_shipyards = must_have
+	}
+	
+	subsidies = {
+		building_munition_plants = should_have
+		building_arms_industry = should_have
+		building_shipyards = should_have
+		building_railway = should_have
+		building_trade_center = should_have
+		building_paper_mills = wants_to_have
+	}
+	
+	goods_stances = {
+		small_arms = wants_high_supply
+		artillery = wants_high_supply
+		ammunition = wants_high_supply
+		tanks = wants_high_supply
+		aeroplanes = wants_high_supply
+		manowars = wants_high_supply
+		ironclads = wants_high_supply
+	}
+	
+	colonial_interest_ratio = {
+		value = 0.0
+
+		if = {
+			limit = { navy_size >= 25 }
+			add = 0.1
+		}
+		
+		if = {
+			limit = { navy_size >= 50 }
+			add = 0.1
+		}		
+		
+		if = {
+			limit = { navy_size >= 75 }
+			add = 0.1
+		}		
+	}
+
+	strategic_region_scores = {
+		region_japan = {	
+			if = {
+				limit = { # Great Powers should try to open Japan
+					exists = c:JAP
+					c:JAP = { has_law = law_type:law_isolationism }
+					has_technology_researched = civilizing_mission	
+					country_rank = rank_value:great_power
+					navy_size >= 50
+				}
+				add = 1000
+			}
+			if = {
+				limit = {
+					exists = c:JAP
+					c:JAP = { has_law = law_type:law_isolationism }
+					NOT = { country_rank = rank_value:great_power }
+				}
+				add = -50
+			}				
+		}				
+		region_nile_basin = {
+			if = {
+				limit = {
+					has_journal_entry = scramble_for_africa		
+				}
+				add = 100
+			}		
+		}
+		region_north_africa = {
+			if = {
+				limit = {
+					has_journal_entry = scramble_for_africa		
+				}
+				add = 100
+			}		
+		}
+		region_senegal = {
+			if = {
+				limit = {
+					has_journal_entry = scramble_for_africa		
+				}
+				add = 100
+			}		
+		}
+		region_niger = {
+			if = {
+				limit = {
+					has_journal_entry = scramble_for_africa		
+				}
+				add = 100
+			}		
+		}
+		region_congo = {
+			if = {
+				limit = {
+					has_journal_entry = scramble_for_africa		
+				}
+				add = 100
+			}		
+		}
+		region_southern_africa = {
+			if = {
+				limit = {
+					has_journal_entry = scramble_for_africa		
+				}
+				add = 100
+			}		
+		}
+		region_zanj = {
+			if = {
+				limit = {
+					has_journal_entry = scramble_for_africa		
+				}
+				add = 100
+			}		
+		}
+		region_north_germany = {
+			if = {
+				limit = {
+					country_is_in_europe = yes
+					country_rank >= rank_value:great_power
+				}
+				add = 100
+			}
+			if = {
+				limit = {
+					has_journal_entry = je_german_unification
+				}
+				add = 1000
+			}			
+		}
+		region_south_germany = {
+			if = {
+				limit = {
+					country_is_in_europe = yes
+					country_rank >= rank_value:great_power
+				}
+				add = 100
+			}
+			if = {
+				limit = {
+					has_journal_entry = je_german_unification
+				}
+				add = 1000
+			}				
+		}		
+		region_italy = {
+			if = {
+				limit = {
+					country_is_in_europe = yes
+					country_rank >= rank_value:great_power
+				}
+				add = 100
+			}
+		}
+		region_balkans = {
+			if = {
+				limit = {
+					country_is_in_europe = yes
+					country_rank >= rank_value:great_power
+				}
+				add = 50
+			}
+		}
+		region_england = {
+			if = {
+				limit = {
+					country_is_in_europe = yes
+					country_rank >= rank_value:great_power
+				}
+				add = 50
+			}
+		}	
+		region_iberia = {
+			if = {
+				limit = {
+					country_is_in_europe = yes
+					country_rank >= rank_value:great_power
+				}
+				add = 50
+			}
+		}
+		region_rhine = {
+			if = {
+				limit = {
+					country_is_in_europe = yes
+					country_rank >= rank_value:great_power
+				}
+				add = 50
+			}
+		}			
+		region_south_china = {
+			if = {
+				limit = {
+					has_journal_entry = je_opium_wars	
+				}
+				add = 1000
+			}			
+		}	
+	}
+	
+	secret_goal_scores = {
+		none = {
+			value = 0
+			
+			if = {
+				limit = {		
+					scope:target_country = { NOT = { is_subject_of = root } }
+					root = { NOT = { is_subject_of = scope:target_country } }
+				}
+				add = 150	
+			}				
+			
+			# Minor german states shouldn't have far-reaching diplomatic ambitions
+			if = {
+				limit = {
+					country_rank < rank_value:major_power
+					OR = {
+						country_has_primary_culture = cu:north_german
+						country_has_primary_culture = cu:south_german					
+					}
+					scope:target_country = {
+						NOR = {
+							country_has_primary_culture = cu:north_german
+							country_has_primary_culture = cu:south_german						
+						}
+					}
+					scope:target_country = { NOT = { is_subject_of = root } }
+					root = { NOT = { is_subject_of = scope:target_country } }					
+					NOT = { is_adjacent = scope:target_country }
+				}
+				add = 1000
+			}
+			
+			if = {
+				limit = {
+					country_rank = scope:target_country.country_rank
+				}
+				multiply = 0.5
+			}		
+		}	
+		befriend = {
+			value = 200
+			
+			if = {
+				limit = {	
+					country_rank <= scope:target_country.country_rank
+				}
+				add = 100
+			}
+			
+			if = {
+				limit = {
+					lenient_ai_behavior_trigger = yes
+				}
+				multiply = 1.5
+			}
+			
+			if = {
+				limit = {
+					harsh_ai_behavior_trigger = yes
+				}
+				multiply = 0.75
+			}	
+			
+			if = {
+				limit = {
+					OR = {
+						has_diplomatic_pact = {
+							who = scope:target_country
+							type = rivalry
+						}					
+						scope:target_country = { relations:root <= relations_threshold:poor }					
+					}				
+				}
+				multiply = 0.0
+			}
+		}
+		reconcile = {
+			value = 0
+			
+			if = {
+				limit = {		
+					has_diplomatic_pact = {
+						who = scope:target_country
+						type = rivalry
+					}	
+				}
+				add = 100
+			}
+
+			if = {
+				limit = {
+					scope:target_country = { relations:root <= relations_threshold:poor }						
+				}
+				add = 100
+			}
+			
+			if = {
+				limit = {
+					lenient_ai_behavior_trigger = yes
+				}
+				multiply = 1.5
+			}
+			
+			if = {
+				limit = {
+					harsh_ai_behavior_trigger = yes
+				}
+				multiply = 0.75
+			}			
+		}		
+		protect = {
+			value = 0
+			
+			if = {
+				limit = {
+					OR = {
+						country_rank > scope:target_country.country_rank	
+						scope:target_country = { is_subject_of = root }	
+					}
+				}
+				add = 200
+			}
+			
+			if = {
+				limit = {
+					harsh_ai_behavior_trigger = yes
+				}
+				multiply = 0.75
+			}			
+
+			if = {
+				limit = {
+					OR = {
+						has_diplomatic_pact = {
+							who = scope:target_country
+							type = rivalry
+						}					
+						scope:target_country = { relations:root <= relations_threshold:poor }					
+					}				
+				}
+				multiply = 0.0
+			}			
+
+			if = {
+				limit = {		
+					is_subject_of = scope:target_country	
+				}
+				multiply = 0.0	
+			}				
+		}		
+		antagonize = {
+			value = 0
+			
+			if = {
+				limit = {
+					countries_are_valid_rivals = yes
+				}
+				add = 50
+			}
+			
+			if = {
+				limit = {		
+					has_diplomatic_pact = {
+						who = scope:target_country
+						type = rivalry
+					}	
+				}
+				add = 100
+			}
+			
+			if = {
+				limit = {
+					has_strategic_adjacency = scope:target_country		
+					NOT = { is_subject_of = scope:target_country }
+				}
+				add = 50
+			}			
+			
+			if = {
+				limit = {		
+					is_subject_of = scope:target_country	
+				}
+				add = 100			
+			}
+			
+			if = {
+				limit = {
+					lenient_ai_behavior_trigger = yes
+				}
+				multiply = 0.75
+			}
+			
+			if = {
+				limit = {
+					harsh_ai_behavior_trigger = yes
+				}
+				multiply = 1.5
+			}	
+			
+			if = {
+				limit = {
+					has_game_rule = high_ai_aggression
+				}
+				multiply = 0.75 # Yes, this is actually intended to be a decrease - AI should want to conquer/dominate more instead
+			}			
+
+			if = {
+				limit = {
+					has_game_rule = low_ai_aggression
+				}
+				multiply = 1.5 # Yes, this is actually intended to be an increase - it's to partially compensate for lowered conquer/dominate desires
+			}				
+			
+			if = {
+				limit = {		
+					scope:target_country = { is_subject_of = root }		
+				}
+				multiply = 0.0	
+			}			
+			
+			if = {
+				limit = { is_still_learning = yes }
+				multiply = 0
+			}	
+		}
+		conquer = {
+			value = 0
+	
+			if = {
+				limit = {
+					has_strategic_adjacency = scope:target_country
+					NOT = { is_country_type = unrecognized }
+					scope:target_country = { is_country_type = unrecognized }
+				}
+				add = 50
+			}			
+			
+			if = { 
+				limit = {
+					has_strategic_adjacency = scope:target_country
+					is_country_type = unrecognized
+					scope:target_country = { is_country_type = unrecognized }						
+				}
+				add = 25
+			}
+			
+			if = {
+				limit = {
+					has_strategic_adjacency = scope:target_country
+					scope:target_country = { 
+						any_scope_state = {
+							root = { has_claim = prev }
+						}	
+					}
+				}
+				add = 200
+			}
+			
+			if = {
+				limit = {
+					has_journal_entry = je_opium_wars
+					scope:target_country = {
+						has_variable = opium_wars_target
+					}
+				}
+				add = 200
+			}
+			
+			if = {
+				limit = {
+					has_journal_entry = je_boxer_rebellion
+					scope:target_country = {
+						any_scope_state = {
+							state_region = { is_homeland = cu:han }
+						}
+					}
+				}
+				add = 200
+			}
+			
+			if = {
+				limit = {
+					has_journal_entry = je_consolidate_colonial_rule
+					scope:target_country = {
+						any_scope_state = {
+							OR = {
+								state_region = s:STATE_BURMA
+								state_region = s:STATE_KACHIN
+								state_region = s:STATE_SHAN_STATES
+								state_region = s:STATE_SINDH
+								state_region = s:STATE_PUNJAB
+								state_region = s:STATE_KASHMIR
+								state_region = s:STATE_PASHTUNISTAN
+								state_region = s:STATE_BALUCHISTAN
+								state_region = s:STATE_HIMALAYAS
+							}
+						}
+					}
+				}
+				add = 200
+			}
+			
+			if = {
+				limit = {
+					has_journal_entry = je_age_of_princes
+					scope:target_country = {
+						any_scope_state = {
+							OR = {
+								state_region = s:STATE_AMHARA
+								state_region = s:STATE_GONDER
+							}
+						}
+					}
+				}
+				add = 200
+			}
+			
+			if = {
+				limit = {
+					lenient_ai_behavior_trigger = yes
+				}
+				multiply = 0.25
+			}
+			
+			if = {
+				limit = {
+					harsh_ai_behavior_trigger = yes
+				}
+				multiply = 1.25
+			}
+			
+			if = {
+				limit = {
+					has_game_rule = high_ai_aggression
+				}
+				multiply = 1.5
+			}
+			
+			if = {
+				limit = {
+					has_game_rule = low_ai_aggression
+				}
+				multiply = 0.5
+			}			
+
+			if = {
+				limit = {		
+					is_subject_of = scope:target_country	
+				}
+				multiply = 0.0	
+			}		
+			
+			if = {
+				limit = { is_still_learning = yes }
+				multiply = 0
+			}
+		}		
+		dominate = {
+			value = 0		
+			
+			if = {
+				limit = {
+					scope:target_country = { is_subject_of = root }	
+				}
+				add = 100
+			}			
+			
+			if = {
+				limit = {
+					has_strategic_adjacency = scope:target_country
+					country_rank > scope:target_country.country_rank
+					NOT = { is_country_type = unrecognized }
+					scope:target_country = { is_country_type = unrecognized }
+					scope:target_country = { NOT = { is_subject_of = root }	}
+				}
+				add = 25
+			}			
+			
+			if = {
+				limit = {
+					has_strategic_adjacency = scope:target_country
+					country_rank > scope:target_country.country_rank
+					scope:target_country.country_rank < rank_value:major_power
+					scope:target_country = { NOT = { is_subject_of = root }	}
+				}
+				add = 25
+			}	
+			
+			if = {
+				limit = {
+					lenient_ai_behavior_trigger = yes
+				}
+				multiply = 0.50
+			}
+			
+			if = {
+				limit = {
+					harsh_ai_behavior_trigger = yes
+				}
+				multiply = 1.5
+			}	
+
+			if = {
+				limit = {
+					has_game_rule = high_ai_aggression
+				}
+				multiply = 1.5
+			}
+			
+			if = {
+				limit = {
+					has_game_rule = low_ai_aggression
+				}
+				multiply = 0.5
+			}			
+			
+			if = {
+				limit = {		
+					is_subject_of = scope:target_country	
+				}
+				multiply = 0.0	
+			}
+			
+			if = {
+				limit = { is_still_learning = yes }
+				multiply = 0
+			}
+		}			
+	}
+	
+	wargoal_scores = {
+		conquer_state = {
+			value = 0
+			
+			if = {
+				limit = {
+					has_strategic_adjacency = scope:target_state		
+				}
+				add = 50
+			}
+	
+			if = {
+				limit = {
+					lenient_ai_behavior_trigger = yes
+					scope:target_state = { is_homeland_of_country_cultures = scope:target_country }
+				}
+				multiply = 0.0
+			}
+
+			if = {
+				limit = {
+					has_journal_entry = je_boxer_rebellion
+					scope:target_state.state_region = { is_homeland = cu:han }
+				}
+				add = 500
+			}
+
+			if = {
+				limit = {
+					has_journal_entry = je_consolidate_colonial_rule
+					scope:target_state = {
+						OR = {
+							state_region = s:STATE_BURMA
+							state_region = s:STATE_KACHIN
+							state_region = s:STATE_SHAN_STATES
+							state_region = s:STATE_SINDH
+							state_region = s:STATE_PUNJAB
+							state_region = s:STATE_KASHMIR
+							state_region = s:STATE_PASHTUNISTAN
+							state_region = s:STATE_BALUCHISTAN
+							state_region = s:STATE_HIMALAYAS
+						}
+					}
+				}
+				add = 500
+			}
+
+			if = {
+				limit = {
+					has_journal_entry = je_age_of_princes
+					scope:target_state = {
+						OR = {
+							state_region = s:STATE_AMHARA
+							state_region = s:STATE_GONDER
+						}
+					}
+				}
+				add = 500
+			}
+		}
+		
+		return_state = {
+			value = 0
+		
+			if = {
+				limit = { 
+					has_claim = scope:target_state
+				}
+				add = 50
+			}	
+			
+			if = {
+				limit = {
+					has_strategic_adjacency = scope:target_state		
+				}
+				add = 50
+			}			
+		}	
+		
+		take_treaty_port = {
+			value = 0
+			
+			if = {
+				limit = {
+					has_strategic_adjacency = scope:target_state		
+				}
+				add = 25
+			}
+			if = {
+				limit = {
+					has_journal_entry = je_opium_wars
+					scope:target_country = {
+						has_variable = opium_wars_target
+					}
+				}
+				add = 100
+			}
+			if = {
+				limit = {
+					has_journal_entry = je_opium_wars
+					scope:target_country = {
+						has_variable = opium_wars_target
+					}
+					scope:target_state = {
+						state_region = s:STATE_SHAOZHOU
+					}					
+				}
+				add = 200
+			}			
+		}
+
+		
+		make_puppet = {
+			if = {
+				limit = {
+					has_strategic_adjacency = scope:target_country
+				}
+				add = 100
+			}
+
+			if = {
+				limit = {
+					lenient_ai_behavior_trigger = yes
+				}
+				multiply = 0.5
+			}			
+		}
+		
+		make_dominion = {
+			if = {
+				limit = {
+					has_strategic_adjacency = scope:target_country
+				}
+				add = 100
+			}
+
+			if = {
+				limit = {
+					lenient_ai_behavior_trigger = yes
+				}
+				multiply = 0.5
+			}				
+		}
+		
+		make_vassal = {
+			if = {
+				limit = {
+					has_strategic_adjacency = scope:target_country
+				}
+				add = 100
+			}
+
+			if = {
+				limit = {
+					lenient_ai_behavior_trigger = yes
+				}
+				multiply = 0.5
+			}			
+		}	
+
+		war_reparations = {
+			value = 0
+			
+			if = {
+				limit = {
+					has_journal_entry = je_opium_wars
+					scope:target_country = {
+						has_variable = opium_wars_target
+					}
+				}
+				add = 100
+			}	
+
+			if = {
+				limit = {
+					has_journal_entry = je_opium_obsession
+					scope:target_country = {
+						has_variable = opium_wars_aggressor
+					}
+				}
+				add = 100
+			}				
+		}	
+
+		humiliation = {
+			value = 20
+		}	
+
+		regime_change = {
+			value = 20
+		}		
+		
+		open_market = {
+			value = 5
+			
+			if = {
+				limit = {
+					has_journal_entry = je_opium_wars
+					scope:target_country = {
+						has_variable = opium_wars_target
+					}
+				}
+				add = 100
+			}
+		}	
+
+		ban_slavery = {
+			value = 0
+		}		
+
+		revoke_claim = {
+			value = 10
+		}	
+
+		contain_threat = {
+			value = 1000
+		}	
+
+		annex_country = {
+			value = 100
+			
+			if = {
+				limit = {
+					lenient_ai_behavior_trigger = yes
+				}
+				multiply = 0.0
+			}			
+		}			
+		
+		annex_native = {
+			value = 100
+		}	
+
+		unification = {
+			value = 100
+			
+			if = {
+				limit = {
+					lenient_ai_behavior_trigger = yes
+				}
+				multiply = 0.0
+			}			
+		}			
+
+		liberate_subject = {
+			value = 0	
+			
+			if = {
+				limit = {
+					has_diplomatic_pact = {
+						who = scope:target_country.top_overlord
+						type = rivalry
+					}				
+				}
+				add = 30
+			}
+			
+			if = {
+				limit = {
+					scope:target_country.top_overlord.infamy >= infamy_threshold:notorious
+				}
+				add = 20
+			}
+			
+			if = {
+				limit = {
+					scope:target_country.top_overlord.infamy >= infamy_threshold:pariah
+				}
+				add = 100
+			}			
+		}	
+
+		liberate_country = {
+			value = 0
+			
+			if = {
+				limit = {
+					has_diplomatic_pact = {
+						who = scope:target_country
+						type = rivalry
+					}			
+				}
+				add = 30
+			}
+
+			if = {
+				limit = {
+					scope:target_country.infamy >= infamy_threshold:notorious
+				}
+				add = 20
+			}
+			
+			if = {
+				limit = {
+					scope:target_country.infamy >= infamy_threshold:pariah
+				}
+				add = 100
+			}			
+		}
+
+		force_recognition = {
+			value = 100
+		}	
+
+		independence = {
+			value = 100
+		}	
+
+		secession = {
+			value = 100
+		}		
+	}
+
+	possible = {
+		always = no
+	}
+	
+	weight = {
+		value = 0		
+	}
+}

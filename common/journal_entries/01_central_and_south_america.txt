@@ -59,33 +59,3 @@
 		}
 	}
 }
-
-
-
-ragamuffin_war = {
-	icon = "gfx/interface/icons/event_icons/event_protest.dds"
-
-	complete = {
-		OR = {
-			NOT = { exists = c:PNI }
-			NOT = {
-				any_scope_war = {
-					is_war_participant = c:PNI
-				}
-			}
-		}
-	}
-
-	on_complete = {
-		if = {
-			limit = { exists = c:PNI }
-			trigger_event = { id = south_america.5 }
-		}
-		else = {
-			trigger_event = { id = south_america.6 }
-		}
-	}
-
-	should_be_pinned_by_default = yes
-
-}

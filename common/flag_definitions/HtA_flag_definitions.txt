@@ -58,3 +58,147 @@ DAU = { #Daufinat
 		priority = 1
 	}
 }
+
+GDL = { # Guilderland
+	flag_definition = {
+		coa = GDL
+		subject_canton = GDL
+		allow_overlord_canton = yes		
+		coa_with_overlord_canton = GDL_subject			
+		priority = 1
+	}
+}
+
+HIS = { # Spain
+	flag_definition = {
+		coa = HIS
+		subject_canton = HIS
+		coa_with_overlord_canton = HIS_subject
+		allow_overlord_canton = yes
+	}
+#	flag_definition = {
+#		coa = HIS_republic
+#		subject_canton = HIS_republic
+#		priority = 10
+#		trigger = { 
+#			coa_def_republic_flag_trigger = yes
+#		}
+#	}
+#	flag_definition = {
+#		coa = HIS_absolute_monarchy
+#		subject_canton = HIS_absolute_monarchy	
+#		priority = 10
+#		trigger = { 
+#			coa_def_absolute_monarchy_flag_trigger = yes
+#		}
+#	}
+#	flag_definition = {
+#		coa = HIS_dictatorship
+#		subject_canton = HIS_dictatorship
+#		priority = 20
+#		trigger = {
+#			coa_def_dictatorship_flag_trigger = yes
+#		}
+#	}
+#	flag_definition = {
+#		coa = HIS_communist
+#		subject_canton = HIS_communist
+#		priority = 1500
+#		trigger = { 
+#			coa_def_communist_flag_trigger = yes
+#		}
+#	}		
+#	flag_definition = {
+#		coa = HIS_theocracy
+#		subject_canton = HIS_theocracy
+#		priority = 20
+#		trigger = { 
+#			coa_def_theocracy_flag_trigger = yes
+#		}
+#	}	
+	#flag_definition = {
+	#	coa = SPA_subject_GBR
+	#	allow_overlord_canton = yes		
+	#	priority = 50
+	#	trigger = { 
+	#		coa_def_british_ensign_trigger = yes
+	#	}
+	#}		
+}
+
+LOG = { # Logria
+	flag_definition = {
+		coa = LOG
+		subject_canton = LOG
+		allow_overlord_canton = yes		
+		coa_with_overlord_canton = LOG_subject			
+		priority = 1
+	}
+}
+
+MAR = { # Louisiana
+	flag_definition = {
+		coa = LOU
+		subject_canton = LOU
+		allow_overlord_canton = yes		
+		coa_with_overlord_canton = LOU_subject			
+		priority = 1
+	}
+	flag_definition = {
+		coa = LOU_monarchy
+		subject_canton = LOU_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_theocracy_flag_trigger = yes
+		}
+	}
+	flag_definition = {
+		coa = LOU_monarchy
+		subject_canton = LOU_monarchy
+		priority = 10
+		trigger = { 
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
+}
+NAP = { # Naples
+	flag_definition = {
+		coa = NAP
+		coa_with_overlord_canton = SIC_subject #NAP_subject?		
+		allow_overlord_canton = yes				
+		subject_canton = NAP
+		priority = 1
+	}
+#	flag_definition = {
+#		coa = SIC_republic
+#		subject_canton = SIC_republic
+#		priority = 10
+#		trigger = { 
+#			coa_def_republic_flag_trigger = yes
+#		}
+#	}	
+#	flag_definition = {
+#		coa = SIC_dictatorship
+#		subject_canton = SIC_dictatorship
+#		priority = 20
+#		trigger = {
+#			coa_def_dictatorship_flag_trigger = yes
+#		}
+#	}	
+#	flag_definition = {
+#		coa = SIC_communist
+#		priority = 1500
+#		trigger = { 
+#			coa_def_communist_flag_trigger = yes
+#		}
+#	}		
+}	
+
+ROM = { # Roman Empire
+	flag_definition = {
+		coa = ROM
+		allow_overlord_canton = yes
+		subject_canton = ROM
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}

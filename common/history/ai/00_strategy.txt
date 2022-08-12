@@ -1,0 +1,35 @@
+﻿AI = {
+	#The intention of the devs seems to be to give the top 10ish most important countries these strategies, and this will probably be expanded upon in later versions. I deleted a bunch of useless ones.
+	c:SWE = {
+		set_strategy = ai_strategy_resource_expansion
+		set_strategy = ai_strategy_maintain_power_balance
+		set_strategy = ai_strategy_conservative_agenda
+	}
+	c:AUS = {
+		random_list = {	
+			50 = { set_strategy = ai_strategy_agricultural_expansion }
+			25 = { set_strategy = ai_strategy_resource_expansion }
+			25 = { set_strategy = ai_strategy_industrial_expansion }
+		}	
+		set_strategy = ai_strategy_maintain_power_balance
+		set_strategy = ai_strategy_conservative_agenda
+	}
+	c:FRA = {
+		random_list = {	
+			65 = { set_strategy = ai_strategy_industrial_expansion }
+			35 = { set_strategy = ai_strategy_agricultural_expansion }
+		}	
+		set_strategy = ai_strategy_maintain_power_balance
+		set_strategy = ai_strategy_progressive_agenda
+	}	
+		
+	c:CHI = {
+		set_strategy = ai_strategy_placate_population
+		set_strategy = ai_strategy_armed_isolationism
+		set_strategy = ai_strategy_maintain_mandate_of_heaven
+	}		
+}	
+
+
+
+
