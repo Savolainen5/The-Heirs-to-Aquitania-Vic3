@@ -845,7 +845,7 @@
 		}
 	}
 	s:STATE_WESTERN_MALI = {
-		region_state:SGU = {
+		region_state:MAL = {
 			create_pop = {
 				culture = fulbe
 				size = 40004
@@ -860,7 +860,7 @@
 				size = 112000
 			}
 		}
-		region_state:KRT = {
+		region_state:MAL = {
 			create_pop = {
 				culture = fulbe
 				size = 140000

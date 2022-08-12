@@ -1,0 +1,15 @@
+#So you're looking at the error logs trying to understand what the errors mean because you want that silly deer with glasses to go away? Here are some that I've found:
+
+1
+
+[12:51:28][jomini_script_system.cpp:262]: Script system error!
+  Error: create_building effect [ Scoped object is not valid. Type: State NULL_STATE (x000000) ]
+  Script location: file: common/history/buildings/10_india.txt line: 766
+  
+The building belongs to a state region which isn't actually owned by the tag in question (e.g. in the buildings file it's owned by BIC, but in the states file it's owned by HYD)
+
+Same for pops, too.
+
+2
+
+IDK, so many errors pop up from removing tags, but not all references everywhere.

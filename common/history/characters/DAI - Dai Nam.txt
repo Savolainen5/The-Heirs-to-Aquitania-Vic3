@@ -1,0 +1,31 @@
+﻿CHARACTERS = {
+	c:DAI = {
+		create_character = {
+			# Minh Mang
+			#role = politician # Remove this line
+			first_name = "Minh_Mang"
+			last_name = "Nguyen_Phuoc"
+			ruler = yes
+			age = 45
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				imperious
+			}
+		}	
+
+		create_character = {
+			# Thieu Tri 
+			#role = politician # Remove this line
+			first_name = "Thieu_Tri"
+			last_name = "Nguyen_Phuoc"
+			heir = yes
+			age = 29
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				arrogant
+			}
+		}
+	}
+}

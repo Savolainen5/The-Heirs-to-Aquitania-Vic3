@@ -6,10 +6,6 @@
 			country = c:BIC
 			type = dominion
 		}
-		create_diplomatic_pact = {
-			country = c:SIL
-			type = puppet
-		}		
 
 		create_diplomatic_pact = {
 			country = c:SAF
@@ -92,15 +88,10 @@
 			type = personal_union
 		}
 
-		### OH CANADA ###
-		# Province of Upper Canada
+		
+		# Colony of Ashelasia
 		create_diplomatic_pact = {
 			country = c:ASL
-			type = puppet
-		}
-		# smooshing New Brunswick and Nova Scotia together into a de facto Maritime Union
-		create_diplomatic_pact = {
-			country = c:NBS
 			type = puppet
 		}
 	}

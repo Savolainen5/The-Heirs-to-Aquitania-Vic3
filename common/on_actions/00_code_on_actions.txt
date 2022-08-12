@@ -382,12 +382,12 @@ on_battle_started = {
 # scope:attacker = attacking commander
 # scope:defender = defending commander
 # scope:state = location state
-	#on_battle_ended = {
+	on_battle_ended = {
 	#	random_events = {
 	#		50 = 0
 	#		50 = texan_war_of_independence.3
 	#	}
-	#}
+	}
 
 # Root = Building
 on_building_built = {
@@ -1147,18 +1147,6 @@ on_diplo_play_start_third_party = {
 
 # Root = Country
 on_diplo_play_back_down = {
-	effect = {
-		post_notification = diplo_play_back_down_notification
-		if = {
-			limit = {
-				is_player = yes
-				scope:actor = {
-					is_player = no
-				}
-			}
-			set_global_variable = achievement_mightier_than_the_sword
-		}
-	}
 }
 
 # Root = Country
@@ -1559,13 +1547,6 @@ on_revolution_start = {
 			}
 			set_variable = china_warlord_explosion_revolution
 		}
-		else_if = {
-			limit = {
-				is_player = yes
-				is_revolutionary = yes
-			}
-			set_global_variable = achievement_revo_needed
-		}
 	}
 }
 
@@ -1580,14 +1561,7 @@ on_revolution_end = {
 # Root = Country
 # This action is triggered after `on_revolution_end`
 on_civil_war_won = {
-	effect = {
-		if = {
-			limit = {
-				has_global_variable = achievement_revo_needed
-			}
-			set_global_variable = achievement_revolutionary
-		}
-	}
+
 }
 
 # Root = Country
@@ -1737,33 +1711,7 @@ on_sub_objective_completed = {
 
 # Root = Objective
 on_objective_completed = {
-	effect = {
-		debug_log = "Objective completed"
-		if = {
-			limit = {
-				owner = { has_objective = objective_tutorial }
-			}
-			set_global_variable = achievement_educated
-		}
-		else_if = {
-			limit = {
-				owner = { has_objective = objective_economic_dominance }
-			}
-			set_global_variable = achievement_tycoon
-		}
-		else_if = {
-			limit = {
-				owner = { has_objective = objective_hegemon }
-			}		
-			set_global_variable = achievement_hegemon
-		}
-		else_if = {
-			limit = {
-				owner = { has_objective = objective_egalitarian_society }
-			}		
-			set_global_variable = achievement_caretaker
-		}
-	}
+
 }
 
 # Root = Country

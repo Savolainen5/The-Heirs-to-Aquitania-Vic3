@@ -1428,13 +1428,13 @@ meiji.12 = {
 				value = -20
 			}
 		}
-		if = {
-			limit = { exists = c:USA }
-			change_relations = {
-				country = c:USA
-				value = 30
-			}
-		}
+		#if = {
+		#	limit = { exists = c:USA }
+		#	change_relations = {
+		#		country = c:USA
+		#		value = 30
+		#	}
+		#}
 		every_country = {
 			limit = {
 				country_rank = rank_value:great_power

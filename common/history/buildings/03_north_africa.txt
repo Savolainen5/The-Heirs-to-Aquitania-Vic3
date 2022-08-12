@@ -824,7 +824,7 @@
 		}
 	}
 	s:STATE_EASTERN_MALI={
-		region_state:MSN={
+		region_state:MAL={
 			create_building={
 				building="building_millet_farm"
 				level=2
@@ -846,7 +846,7 @@
 		}
 	}
 	s:STATE_WESTERN_MALI={
-		region_state:SGU={
+		region_state:MAL={
 			create_building={
 				building="building_millet_farm"
 				level=1
@@ -860,7 +860,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
-		region_state:KRT={
+		region_state:MAL={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -878,7 +878,7 @@
 	s:STATE_TIMBUKTU={
 		region_state:ADG={
 		}
-		region_state:MSN={
+		region_state:MAL={
 		}
 	}
 	s:STATE_NIGER={

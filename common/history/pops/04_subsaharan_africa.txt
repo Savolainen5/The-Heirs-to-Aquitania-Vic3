@@ -44,7 +44,7 @@
 		}
 	}
 	s:STATE_WINDWARD_COAST = {
-		region_state:KBD = {
+		region_state:MAL = {
 			create_pop = {
 				culture = mande
 				size = 70000
@@ -92,7 +92,7 @@
 		}
 	}
 	s:STATE_SENEGAL = {
-		region_state:FRA = {
+		region_state:NAP = {
 			create_pop = {
 				culture = fulbe
 				size = 95992
@@ -117,7 +117,7 @@
 				size = 6000
 			}
 		}
-		region_state:CAY = {
+		region_state:AQT = {
 			create_pop = {
 				culture = wolof
 				size = 82000
@@ -174,7 +174,7 @@
 				size = 22860
 			}
 		}
-		region_state:SRR = {
+		region_state:MAL = {
 			create_pop = {
 				culture = mande
 				religion = animist
@@ -186,7 +186,7 @@
 				size = 4000
 			}
 		}
-		region_state:BND = {
+		region_state:MAL = {
 			create_pop = {
 				culture = mande
 				size = 96000
@@ -220,7 +220,7 @@
 		}
 	}
 	s:STATE_SIERRA_LEONE = {
-		region_state:SIL = {
+		region_state:IRE = {
 			create_pop = {
 				culture = afro_caribbean
 				size = 38000
@@ -567,7 +567,7 @@
 		}
 	}
 	s:STATE_GUINEA = {
-		region_state:MDK = {
+		region_state:MAL = {
 			create_pop = {
 				culture = mande
 				size = 158836
@@ -606,7 +606,7 @@
 				size = 8000
 			}
 		}
-		region_state:FTJ = {
+		region_state:MAL = {
 			create_pop = {
 				culture = fulbe
 				size = 296360

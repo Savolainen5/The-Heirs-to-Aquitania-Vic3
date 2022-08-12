@@ -16,7 +16,7 @@
 		}
 	}
 	s:STATE_WINDWARD_COAST={
-		region_state:KBD={
+		region_state:MAL={
 		}
 		region_state:BLE={
 		}
@@ -40,7 +40,7 @@
 		}
 		region_state:JLF={
 		}
-		region_state:CAY={
+		region_state:AQT={
 		}
 		region_state:FTR={
 			create_building={
@@ -74,15 +74,15 @@
 		}
 		region_state:AEN={
 		}
-		region_state:SRR={
+		region_state:MAL={
 		}
-		region_state:BND={
+		region_state:MAL={
 		}
 		region_state:KBU={
 		}
 	}
 	s:STATE_SIERRA_LEONE={
-		region_state:SIL={
+		region_state:IRE={
 			create_building={
 				building="building_millet_farm"
 				level=2
@@ -104,7 +104,7 @@
 		}
 	}
 	s:STATE_LIBERIA={
-		region_state:LIB={
+		region_state:KRU={
 			create_building={
 				building="building_millet_farm"
 				level=1
@@ -316,11 +316,11 @@
 		}
 	}
 	s:STATE_GUINEA={
-		region_state:MDK={
+		region_state:MAL={
 		}
 		region_state:SSU={
 		}
-		region_state:FTJ={
+		region_state:MAL={
 			create_building={
 				building="building_millet_farm"
 				level=1

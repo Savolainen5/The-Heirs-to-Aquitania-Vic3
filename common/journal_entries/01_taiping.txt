@@ -1,0 +1,104 @@
+﻿je_heavenly_kingdom_main = {
+	icon = "gfx/interface/icons/event_icons/event_protest.dds"
+
+	is_shown_when_inactive = {
+		THIS = c:CHI
+	}
+
+	possible = {
+		is_subject = no
+		any_scope_state = {
+			is_incorporated = yes
+			any_scope_pop = {
+				has_pop_religion = protestant
+			}
+			is_capital = no
+			radical_fraction = { value >= 0.2 }
+		}
+	}
+
+	immediate = {
+		trigger_event = {
+			id = heavenly.2
+		}
+	}
+
+	on_monthly_pulse = {
+		random_events = {
+			100 = 0
+			10 = heavenly.3
+		}
+	}
+
+	complete = {
+		NOT = {
+			any_scope_state = {
+				has_modifier = god_worshippers
+			}
+		}
+	}
+
+	fail = {
+		any_scope_state = {
+			has_modifier = god_worshippers
+			count >= 4
+		}
+		any_scope_state = {
+			has_modifier = god_worshippers
+			any_scope_pop = {
+				has_pop_religion = protestant
+				religion_accepted = no
+			}
+			radical_fraction = { value >= 0.30 }
+		}
+	}
+
+	on_fail = {
+		trigger_event = {
+			id = heavenly.4
+		}
+	}
+
+	weight = 10000
+	should_be_pinned_by_default = yes
+}
+
+je_taiping = {
+	icon = "gfx/interface/icons/event_icons/event_military.dds"
+
+	complete = {
+		custom_tooltip = {
+			text = taiping_destroyed
+			hidden_trigger = {
+				NOT = {
+					exists = c:TPG
+				}
+			}
+		}
+	}
+
+	on_complete = {
+		trigger_event = { id = heavenly.5 days = 0 }
+	}
+
+	fail = {
+		exists = c:TPG
+		has_truce_with = c:TPG
+	}
+
+	on_fail = {
+		if = {
+			limit = { has_journal_entry = je_warlord_china }
+			post_notification = warlord_china_explosion_point_add
+			change_variable = {
+				name = china_warlord_explosion
+				add = 1
+			}
+		}
+	}
+
+	weight = 1000
+	should_be_pinned_by_default = yes
+
+	inheritable = no
+}

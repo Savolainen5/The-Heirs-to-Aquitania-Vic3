@@ -1,0 +1,31 @@
+﻿CHARACTERS = {
+	c:BUR = {
+		create_character = {
+			# Bagyidaw of Burma
+			#role = politician # Remove this line
+			first_name = "Bagyidaw"
+			last_name = "Konbaung"
+			ruler = yes
+			age = 52
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				reckless
+			}
+		}	
+
+		create_character = {
+			# Tharrawaddy 
+			#role = politician # Remove this line
+			first_name = "Tharrawaddy"
+			last_name = "Konbaung"
+			heir = yes
+			age = 49
+			interest_group = ig_landowners
+			ideology = ideology_traditionalist
+			traits = {
+				ambitious
+			}
+		}
+	}
+}

@@ -1,0 +1,3 @@
+﻿has_v2_soundtrack_dlc_trigger = {
+	has_dlc = "Victoria 2 Remastered Soundtrack" 
+}

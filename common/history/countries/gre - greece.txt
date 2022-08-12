@@ -1,0 +1,20 @@
+﻿COUNTRIES = {
+	c:GRE = {
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+
+		add_technology_researched = law_enforcement
+		
+		add_taxed_goods = g:tobacco
+
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_conservative = yes
+
+		ig:ig_devout = {
+			set_interest_group_name = ig_orthodox_church
+			remove_ideology = ideology_patriarchal
+			add_ideology = ideology_orthodox_patriarch
+		}
+	}
+}
