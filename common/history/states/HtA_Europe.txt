@@ -1091,7 +1091,7 @@
 		}
 		create_state = {
 			country = c:DAG
-			owned_provinces = { x84A24F x9F1D8F xC01040 x8FD393 xC09041 x0F3A99 x3B6A9E }
+			owned_provinces = { x84A24F xC01040 x8FD393 xC09041 x0F3A99 x3B6A9E xD77566 }
 		}
 		create_state = {
 			country = c:CHC

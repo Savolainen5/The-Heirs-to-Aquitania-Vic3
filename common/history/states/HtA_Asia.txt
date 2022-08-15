@@ -870,8 +870,8 @@
 	}
 	s:STATE_ARMENIA = {
 		create_state = {
-			country = c:TUR
-			owned_provinces = { x805000 xAB3AF1 xDC0812 x005000 x16A02D x30DF60 x3161E0 }
+			country = c:PER
+			owned_provinces = { x805000 xAB3AF1 xDC0812 x005000 x16A02D x30DF60 x3161E0 xC09080 x327755 }
 			#state_type = unincorporated
 		}
 		
@@ -882,7 +882,7 @@
 	s:STATE_AZERBAIJAN = {
 		create_state = {
 			country = c:PER
-			owned_provinces = { x008FBF x493F0B x6EB08E x0E8C3E x80D041 xDFB2B0 x9195D4 x2F7A57 x809040 x747318 x0E70E4 xB7DDE5 x0B74ED xEE1A87 x404F5B x8090BF xE7B07C x0467D5 x007060 xBFD159 x69FE0D xD77566 }
+			owned_provinces = { x008FBF x493F0B x6EB08E x0E8C3E x80D041 xDFB2B0 x9195D4 x9F1D8F x2F7A57 x809040 x747318 x0E70E4 xB7DDE5 x0B74ED xEE1A87 x404F5B x8090BF xE7B07C x0467D5 x007060 xBFD159 x69FE0D }
 			state_type = unincorporated
 		}
 		
@@ -955,13 +955,13 @@
 	}
 	s:STATE_KARS = {
 		create_state = {
-			country = c:TUR
-			owned_provinces = { x467F92 xB8481F x009000 x8A9689 x809001 x327755 xC09080 }
+			country = c:GEO
+			owned_provinces = { x467F92 xB8481F x009000 x8A9689 x809001 }
 		}
 
 		add_homeland = turkish
 		add_homeland = armenian
-		add_homeland = kurdish
+		#add_homeland = kurdish
 		add_homeland = georgian
 	}
 	s:STATE_ANKARA = {
