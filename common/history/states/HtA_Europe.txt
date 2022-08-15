@@ -35,7 +35,7 @@
 	s:STATE_NORMANDY = {
 		create_state = {
 			country = c:FRA
-			owned_provinces = { x0B7098 x90A040 x79C0E6 x065CAE xA786BB x9020C0 xD642B5 xB06080 x65728E x1020C0 xB8903B }
+			owned_provinces = { x0B7098 x90A040 x79C0E6 x065CAE xA786BB x9020C0 xD642B5 xB06080 x65728E x1020C0 xB8903B xB78E54 }
 		}
 		
 		add_homeland = french
@@ -161,7 +161,7 @@
 	}
 	s:STATE_IONIAN_ISLANDS = {
 		create_state = {
-			country = c:GRE
+			country = c:ROM
 			owned_provinces = { x4B79CA x405060 }
 		}	
 		
@@ -169,7 +169,7 @@
 	}
 	s:STATE_PELOPONNESE = {
 		create_state = {
-			country = c:GRE
+			country = c:ROM
 			owned_provinces = { x0055D7 x43409D xC0D060 xBA3449 x61E57E }
 		}
 		
@@ -177,7 +177,7 @@
 	}
 	s:STATE_ALBANIA = {
 		create_state = {
-			country = c:MCD
+			country = c:ROM
 			owned_provinces = { x7BE071 xC42EC6 x71C0E0 xD0A061 x5A148F xC771E0 x51A061 x68131C xB77F92 }
 		}
 		
@@ -391,7 +391,7 @@
 	s:STATE_WEST_COUNTRY = {
 		create_state = {
 			country = c:AEN
-			owned_provinces = { xE020C0 x1E38F8 xC900EF xA2DD9E x63EF7E x65B395 x6060C0 x225544 xEB9862 xE0E040 xB78E54 }
+			owned_provinces = { xE020C0 x1E38F8 xC900EF xA2DD9E x63EF7E x65B395 x6060C0 x225544 xEB9862 xE0E040 }
 		}
 		
 		add_homeland = aenglish
@@ -778,7 +778,7 @@
 	}
 	s:STATE_ATTICA = {
 		create_state = {
-			country = c:GRE
+			country = c:ROM
 			owned_provinces = { xC72C61 x8D7F62 x518791 x0A645C xBF5160 x465F8D xCA246A xA010A0 }
 		}
 		
@@ -786,7 +786,7 @@
 	}
 	s:STATE_SKOPIA = {
 		create_state = {
-			country = c:MCD
+			country = c:ROM
 			owned_provinces = { x11E0A0 x7CF777 x419E6F x800FE7 x596DE2 x494421 xE0118B }
 		}
 		
@@ -796,7 +796,7 @@
 	}
 	s:STATE_MACEDONIA = {
 		create_state = {
-			country = c:MCD
+			country = c:ROM
 			owned_provinces = { x90E0A0 x01D060 x75CAD1 xBA7B5B x506020 x70A0E0 xE48F39 xD2619E x021374 }
 		}
 		
@@ -804,7 +804,7 @@
 	}
 	s:STATE_THESSALIA = {
 		create_state = {
-			country = c:GRE
+			country = c:ROM
 			owned_provinces = { xACFFA7 x80D060 xE6E868 x01D0E0 x8050E0 x18C9AD }
 		}
 		
@@ -812,7 +812,7 @@
 	}
 	s:STATE_WESTERN_THRACE = {
 		create_state = {
-			country = c:MCD
+			country = c:ROM
 			owned_provinces = { xBE51B7 x6181D2 xF02020 x0261AB xEDECFB x702020 xB2249C }
 		}
 		
@@ -884,7 +884,7 @@
 	}
 	s:STATE_WEST_AEGEAN_ISLANDS = {
 		create_state = {
-			country = c:GRE
+			country = c:ROM
 			owned_provinces = { x6090A0 x6960a0 }
 		}
 		
@@ -960,7 +960,7 @@
 	}
 	s:STATE_LITHUANIA = {
 		create_state = {
-			country = c:LIT
+			country = c:SEM
 			owned_provinces = { xF2CB3D x41E061 x0161A0 xCD7291 x4177AF x00E0A0 x577C69 xA916E3 x4678E5 x629C46 x95171C x232B98 xE0B943 x6175AD x0B6577 x0980C8 xA8FF51 x406DC9 xC0A0A0 xCC4C28 x7A5D64 xAF73F2 x21F318 x8060A0 x80D858 xBFE867 }
 		}
 		
@@ -1090,16 +1090,16 @@
 			owned_provinces = { xDA5ABE x72A1AB x537501 x9A6A44 xBD38C5 x4C6398 x01D041 }
 		}
 		create_state = {
-			country = c:AZB
-			owned_provinces = { x84A24F x9F1D8F xC01040 }
+			country = c:DAG
+			owned_provinces = { x84A24F x9F1D8F xC01040 x8FD393 xC09041 x0F3A99 x3B6A9E }
 		}
 		create_state = {
 			country = c:CHC
-			owned_provinces = { x8FD393 xC09041 x019041 xDA8EF4 x0F3A99 x3B6A9E }
+			owned_provinces = {  x019041 xDA8EF4  x27E9C3 x676C0E }
 		}
 		create_state = {
-			country = c:GLG
-			owned_provinces = { x41D080 x0BDBDA x205781 x2C776A x676C0E x27E9C3 x5C32EA x9CDC20 }
+			country = c:KAB #Formerly GLG, could be a releasable
+			owned_provinces = { x41D080 x0BDBDA x205781 x2C776A   x5C32EA x9CDC20 }
 		}
 		add_homeland = north_caucasian
 	}
@@ -1474,7 +1474,7 @@
 			owned_provinces = { x975566 x4121A0 x1E73B9 xBF9F20 x9FD037 x47C900 xC04521 x7D6DC3 xEEF586 x5428E6 xABC4AE }
 		}
 		create_state = {
-			country = c:LIT
+			country = c:SEM
 			owned_provinces = { x72FDF3 x40A0A0 x2399A2 x981EBE xC020A0 xAEA6D6 }
 		}
 		
