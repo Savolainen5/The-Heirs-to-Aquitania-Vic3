@@ -244,7 +244,7 @@
 		}
 	}
 	s:STATE_LEBANON = {
-		region_state:TUR = {
+		region_state:EGY = {
 			create_pop = {
 				culture = mashriqi
 				religion = sunni
@@ -280,7 +280,7 @@
 		}
 	}
 	s:STATE_SYRIA = {
-		region_state:TUR = {
+		region_state:EGY = {
 			create_pop = {
 				culture = mashriqi
 				religion = sunni
@@ -306,7 +306,7 @@
 		}
 	}
 	s:STATE_ALEPPO = {
-		region_state:TUR = {
+		region_state:EGY = {
 			create_pop = {
 				culture = mashriqi
 				religion = sunni
@@ -340,7 +340,7 @@
 		}
 	}
 	s:STATE_BAGHDAD = {
-		region_state:TUR = {
+		region_state:PER = {
 			create_pop = {
 				culture = mashriqi
 				religion = sunni
@@ -380,7 +380,7 @@
 		}
 	}
 	s:STATE_MOSUL = {
-		region_state:TUR = {
+		region_state:PER = {
 			create_pop = {
 				culture = kurdish
 				size = 203004
@@ -406,7 +406,7 @@
 		}
 	}
 	s:STATE_DEIR_EZ_ZOR = {
-		region_state:TUR = {
+		region_state:PER = {
 			create_pop = {
 				culture = mashriqi
 				religion = sunni
@@ -428,7 +428,7 @@
 		}
 	}
 	s:STATE_BASRA = {
-		region_state:TUR = {
+		region_state:PER = {
 			create_pop = {
 				culture = mashriqi
 				size = 272000
@@ -725,7 +725,7 @@
 		}
 	}
 	s:STATE_KONYA = {
-		region_state:ARM = {
+		region_state:ROM = {
 			create_pop = {
 				culture = turkish
 				size = 852000
@@ -753,7 +753,7 @@
 		}
 	}
 	s:STATE_DIYARBAKIR = {
-		region_state:ARM = {
+		region_state:TUR = {
 			create_pop = {
 				culture = kurdish
 				size = 556000
@@ -779,7 +779,7 @@
 		}
 	}
 	s:STATE_ADANA = {
-		region_state:ARM = {
+		region_state:ROM = {
 			create_pop = {
 				culture = turkish
 				size = 482008
@@ -797,7 +797,7 @@
 				size = 11000
 			}
 		}
-		region_state:TUR = {
+		region_state:PER = {
 			create_pop = {
 				culture = turkish
 				size = 30000
@@ -813,7 +813,7 @@
 		}
 	}
 	s:STATE_TRABZON = {
-		region_state:ARM = {
+		region_state:ROM = {
 			create_pop = {
 				culture = turkish
 				size = 569196
@@ -833,7 +833,7 @@
 		}
 	}
 	s:STATE_ERZURUM = {
-		region_state:ARM = {
+		region_state:TUR = {
 			create_pop = {
 				culture = turkish
 				size = 384000
@@ -858,7 +858,7 @@
 		}
 	}
 	s:STATE_KARS = {
-		region_state:ARM = {
+		region_state:TUR = {
 			create_pop = {
 				culture = turkish
 				size = 61000
@@ -902,7 +902,7 @@
 		}
 	}
 	s:STATE_ANKARA = {
-		region_state:ARM = {
+		region_state:ROM = {
 			create_pop = {
 				culture = turkish
 				size = 769988

@@ -86,7 +86,7 @@ DAU = { #Daufinat
 	cultures = { aquitanian }
 	capital = STATE_RHONE
 }
-GLG = { #Galgai, i.e. Ingushetia
+GLG = { #Galgai, i.e. Ingushetia #As of mid-August, not currently existing
 	color = { 96 60 110 } #some kind of red would be better, tbh
 	
 	country_type = unrecognized
@@ -145,7 +145,7 @@ JUZ = { #Junior Zhuz of Kazakhs
 	capital = STATE_URALSK
 }
 KAB = { #Kabardia
-	color = { 165 205 165 }
+	color = { 230 205 90 }
 	
 	country_type = unrecognized
 	
