@@ -497,7 +497,7 @@
 		}
 	}
 	s:STATE_LITHUANIA = {
-		region_state:LIT = {
+		region_state:SEM = {
 			create_pop = {
 				culture = polish
 				size = 111796
@@ -669,7 +669,7 @@
 				size = 24000
 			}
 		}
-		region_state:LIT = {
+		region_state:SEM = {
 			create_pop = {
 				culture = north_german
 				size = 129796

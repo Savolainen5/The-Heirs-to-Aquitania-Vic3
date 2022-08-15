@@ -622,7 +622,7 @@
 		}
 	}
 	s:STATE_LITHUANIA={
-		region_state:LIT={
+		region_state:SEM={
 			create_building={
 				building="building_rye_farm"
 				level=4
@@ -810,7 +810,7 @@
 				activate_production_methods={ "pm_skirmish_infantry" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
-		region_state:LIT={
+		region_state:SEM={
 			create_building={
 				building="building_logging_camp"
 				level=2

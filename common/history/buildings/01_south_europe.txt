@@ -1553,7 +1553,7 @@
 		}
 	}
 	s:STATE_ALBANIA={
-		region_state:MCD={
+		region_state:ROM={
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -1989,7 +1989,7 @@
 		}
 	}
 	s:STATE_WEST_AEGEAN_ISLANDS={
-		region_state:GRE={
+		region_state:ROM={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -2009,7 +2009,7 @@
 		}
 	}
 	s:STATE_ATTICA={
-		region_state:GRE={
+		region_state:ROM={
 			create_building={
 				building="building_shipyards"
 				level=1
@@ -2067,7 +2067,7 @@
 		}
 	}
 	s:STATE_THESSALIA={
-		region_state:GRE={
+		region_state:ROM={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -2107,7 +2107,7 @@
 		}
 	}
 	s:STATE_SKOPIA={
-		region_state:MCD={
+		region_state:ROM={
 			create_building={
 				building="building_iron_mine"
 				level=3
@@ -2135,7 +2135,7 @@
 		}
 	}
 	s:STATE_MACEDONIA={
-		region_state:MCD={
+		region_state:ROM={
 			create_building={
 				building="building_food_industry"
 				level=1
@@ -2169,7 +2169,7 @@
 		}
 	}
 	s:STATE_WESTERN_THRACE={
-		region_state:MCD={
+		region_state:ROM={
 			create_building={
 				building="building_textile_mills"
 				level=3
@@ -2221,7 +2221,7 @@
 		}
 	}
 	s:STATE_IONIAN_ISLANDS={
-		region_state:GRE={
+		region_state:ROM={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -2243,7 +2243,7 @@
 		}
 	}
 	s:STATE_PELOPONNESE={
-		region_state:GRE={
+		region_state:ROM={
 			create_building={
 				building="building_wheat_farm"
 				level=1

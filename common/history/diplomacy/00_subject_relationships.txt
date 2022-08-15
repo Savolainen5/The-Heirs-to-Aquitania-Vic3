@@ -161,14 +161,14 @@
 			country = c:BUL
 			type = puppet
 		}
-		create_diplomatic_pact = {
-			country = c:GRE
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:MCD
-			type = puppet
-		}
+#		create_diplomatic_pact = {
+#			country = c:GRE
+#			type = puppet
+#		}
+#		create_diplomatic_pact = {
+#			country = c:MCD
+#			type = puppet
+#		}
 		create_diplomatic_pact = {
 			country = c:MON
 			type = puppet
@@ -190,6 +190,10 @@
 			type = puppet
 		}
 	}
+	c:KAB = {
+		create_diplomatic_pact = {
+			country = c:CHC
+			type = puppet
 	#####################################################################################
 	#Now other masters
 	c:CHI = {

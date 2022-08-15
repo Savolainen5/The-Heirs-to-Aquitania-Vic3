@@ -462,7 +462,7 @@
 		}
 	}
 	s:STATE_ALBANIA = {
-		region_state:MCD = {
+		region_state:ROM = {
 			create_pop = {
 				culture = albanian
 				size = 1004808
@@ -752,7 +752,7 @@
 		}
 	}
 	s:STATE_WEST_AEGEAN_ISLANDS = {
-		region_state:GRE = {
+		region_state:ROM = {
 			create_pop = {
 				culture = greek
 				size = 80404
@@ -778,7 +778,7 @@
 
 	}
 	s:STATE_ATTICA = {
-		region_state:GRE = {
+		region_state:ROM = {
 			create_pop = {
 				culture = greek
 				size = 637592
@@ -786,7 +786,7 @@
 		}
 	}
 	s:STATE_THESSALIA = {
-		region_state:GRE = {
+		region_state:ROM = {
 			create_pop = {
 				culture = turkish
 				size = 76208
@@ -811,7 +811,7 @@
 		}
 	}
 	s:STATE_SKOPIA = {
-		region_state:MCD = {
+		region_state:ROM = {
 			create_pop = {
 				culture = turkish
 				size = 157296
@@ -835,7 +835,7 @@
 		}
 	}
 	s:STATE_MACEDONIA = {
-		region_state:MCD = {
+		region_state:ROM = {
 			create_pop = {
 				culture = turkish
 				size = 84000
@@ -851,7 +851,7 @@
 		}
 	}
 	s:STATE_WESTERN_THRACE = {
-		region_state:MCD = {
+		region_state:ROM = {
 			create_pop = {
 				culture = turkish
 				size = 274808
@@ -871,7 +871,7 @@
 		}
 	}
 	s:STATE_IONIAN_ISLANDS = {
-		region_state:GRE = {
+		region_state:ROM = {
 			create_pop = {
 				culture = greek
 				size = 186404
@@ -883,7 +883,7 @@
 		}
 	}
 	s:STATE_PELOPONNESE = {
-		region_state:GRE = {
+		region_state:ROM = {
 			create_pop = {
 				culture = greek
 				size = 221996
