@@ -194,6 +194,8 @@
 		create_diplomatic_pact = {
 			country = c:CHC
 			type = puppet
+		}
+	}
 	#####################################################################################
 	#Now other masters
 	c:CHI = {

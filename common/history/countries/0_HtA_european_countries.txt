@@ -166,11 +166,11 @@
 		
 		effect_starting_politics_conservative = yes
 	}
-	c:GLG = {
-		effect_starting_technology_tier_6_tech = yes
-		
-		effect_starting_politics_conservative = yes
-	}
+#	c:GLG = {
+#		effect_starting_technology_tier_6_tech = yes
+#		
+#		effect_starting_politics_conservative = yes
+#	}
 	c:HHB = {
 		effect_starting_technology_tier_2_tech = yes
 	}
@@ -238,11 +238,11 @@
 	c:LDN = {
 		effect_starting_technology_tier_2_tech = yes
 	}
-	c:LIT = {
-		effect_starting_technology_tier_2_tech = yes
-		
-		effect_starting_politics_conservative = yes
-	}
+#	c:LIT = {
+#		effect_starting_technology_tier_2_tech = yes
+#		
+#		effect_starting_politics_conservative = yes
+#	}
 	c:MNZ = {
 		effect_starting_technology_tier_2_tech = yes
 		
@@ -253,11 +253,11 @@
 		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_per_capita_based_taxation
 	}
-	c:MCD = {
-		effect_starting_technology_tier_2_tech = yes
-		
-		effect_starting_politics_conservative = yes
-	}
+#	c:MCD = {
+#		effect_starting_technology_tier_2_tech = yes
+#		
+#		effect_starting_politics_conservative = yes
+#	}
 	c:NMR = {
 		effect_starting_technology_tier_2_tech = yes
 		

@@ -1127,18 +1127,18 @@ STG = { # Sintang
 	}
 }
 
-TRN = { # Transvaal
-	dynamic_country_name = {
-		name = dyn_c_transvaal_colony
-		
-		is_main_tag_only = yes
-		priority = 0
-		
-		trigger = {
-			coa_def_british_ensign_trigger = yes
-		}
-	}
-}
+#TRN = { # Transvaal
+#	dynamic_country_name = {
+#		name = dyn_c_transvaal_colony
+#		
+#		is_main_tag_only = yes
+#		priority = 0
+#		
+#		trigger = {
+#			coa_def_british_ensign_trigger = yes
+#		}
+#	}
+#}
 
 TSW = { # Tswana
 	dynamic_country_name = {
@@ -1153,20 +1153,20 @@ TSW = { # Tswana
 			scope:actor = {
 				NOT = { is_country_type = decentralized } # if Tswana is recognized, then they get a more formal name
 			}
-			coa_def_british_ensign_trigger = no
+			#coa_def_british_ensign_trigger = no
 		}
 	}
-	dynamic_country_name = {
-		name = dyn_c_bechuanaland
-		adjective = dyn_c_bechuanaland_adj
-		
-		is_main_tag_only = yes
-		priority = 0
-		
-		trigger = {
-			coa_def_british_ensign_trigger = yes
-		}
-	}
+#	dynamic_country_name = {
+#		name = dyn_c_bechuanaland
+#		adjective = dyn_c_bechuanaland_adj
+#		
+#		is_main_tag_only = yes
+#		priority = 0
+#		
+#		trigger = {
+#			coa_def_british_ensign_trigger = yes
+#		}
+#	}
 }
 
 TUN = { # Tunis
