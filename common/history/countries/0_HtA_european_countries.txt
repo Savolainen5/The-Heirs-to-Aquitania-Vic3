@@ -83,6 +83,16 @@
 			set_ig_suppression = yes
 		}
 	}
+	c:AUS = {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_conservative = yes
+	}
+	c:BBG = {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_conservative = yes
+	}
 	c:BOH = {
 		effect_starting_technology_tier_1_tech = yes
 		
@@ -93,10 +103,18 @@
 		
 		effect_starting_politics_conservative = yes
 	}
-	c:BBG = {
-		effect_starting_technology_tier_2_tech = yes
+	c:BUL = {
+		effect_starting_technology_tier_3_tech = yes
 		
-		effect_starting_politics_conservative = yes
+        set_ruling_interest_groups = {
+        	ig_landowners
+        }
+		activate_law = law_type:law_theocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_land_based_taxation	
 	}
 	c:CLN = {
 		effect_starting_technology_tier_2_tech = yes
@@ -243,6 +261,19 @@
 #		
 #		effect_starting_politics_conservative = yes
 #	}
+	c:MLT = {
+		effect_starting_technology_tier_3_tech = yes
+		
+        set_ruling_interest_groups = {
+        	ig_landowners
+        }
+		activate_law = law_type:law_theocracy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_land_based_taxation	
+	}
 	c:MNZ = {
 		effect_starting_technology_tier_2_tech = yes
 		

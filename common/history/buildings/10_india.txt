@@ -762,7 +762,7 @@
 		}
 	}
 	s:STATE_CEYLON={
-		region_state:BIC={
+		region_state:HIS={
 			create_building={
 				building="building_fishing_wharf"
 				level=2

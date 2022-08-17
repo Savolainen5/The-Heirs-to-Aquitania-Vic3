@@ -404,24 +404,24 @@ gov_constitutional_monarchy = {
 	}
 }
 
-gov_princely_state_hindu = {
-	transfer_of_power = hereditary
-
-	male_ruler = "RULER_TITLE_RAJA"
-	female_ruler = "RULER_TITLE_RANI"
-	
-	male_heir = "RULER_TITLE_PRINCE"
-	female_heir = "RULER_TITLE_PRINCESS"
-	
-	possible = {
-		has_law = law_type:law_monarchy
-		OR = {
-			AND = { exists = c:GBR is_subject_of = c:GBR }
-			AND = { exists = c:BIC is_subject_of = c:BIC }
-		}
-		country_has_state_religion = rel:hindu
-	}
-}
+#gov_princely_state_hindu = {
+#	transfer_of_power = hereditary
+#
+#	male_ruler = "RULER_TITLE_RAJA"
+#	female_ruler = "RULER_TITLE_RANI"
+#	
+#	male_heir = "RULER_TITLE_PRINCE"
+#	female_heir = "RULER_TITLE_PRINCESS"
+#	
+#	possible = {
+#		has_law = law_type:law_monarchy
+#		OR = {
+#			AND = { exists = c:GBR is_subject_of = c:GBR }
+#			AND = { exists = c:BIC is_subject_of = c:BIC }
+#		}
+#		country_has_state_religion = rel:hindu
+#	}
+#}
 
 #gov_princely_state_muslim = {
 #	transfer_of_power = hereditary

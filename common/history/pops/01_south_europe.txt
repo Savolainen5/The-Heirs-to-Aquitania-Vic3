@@ -522,7 +522,7 @@
 		}
 	}
 	s:STATE_NORTHERN_THRACE = {
-		region_state:BUL = {
+		region_state:ROM = {
 			create_pop = {
 				culture = turkish
 				size = 273408

@@ -111,30 +111,30 @@
 				reserves=1
 				activate_production_methods={ "pm_privately_owned" "pm_soil_enriching_farming" "pm_tools_disabled" "pm_vineyards" }
 			}
-			create_building={
-				building="building_fishing_wharf"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_merchant_guilds_building_fishing_wharf" "pm_unrefrigerated" "pm_fishing_trawlers" }
-			}
-			create_building={
-				building="building_naval_base"
-				level=15
-				reserves=1
-				activate_production_methods={ "pm_man_o_wars" "pm_frigates" "pm_commerce_raider" "pm_no_naval_theory" }
-			}
+#			create_building={
+#				building="building_fishing_wharf"
+#				level=2
+#				reserves=1
+#				activate_production_methods={ "pm_merchant_guilds_building_fishing_wharf" "pm_unrefrigerated" "pm_fishing_trawlers" }
+#			}
+#			create_building={
+#				building="building_naval_base"
+#				level=15
+#				reserves=1
+#				activate_production_methods={ "pm_man_o_wars" "pm_frigates" "pm_commerce_raider" "pm_no_naval_theory" }
+#			}
 			create_building={
 				building="building_barracks"
 				level=5
 				reserves=1
 				activate_production_methods={ "pm_skirmish_infantry" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
-			create_building={
-				building="building_port"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
+#			create_building={
+#				building="building_port"
+#				level=3
+#				reserves=1
+#				activate_production_methods={ "pm_basic_port" }
+#			}
 		}
 	}
 	s:STATE_NORTH_ADWERDIA={
@@ -874,7 +874,7 @@
 		}
 	}
 	s:STATE_INOKIE={
-		region_state:GDL={
+		region_state:SHC={
 			create_building={
 				building="building_lead_mine"
 				level=3
@@ -884,7 +884,7 @@
 			create_building={
 				building="building_maize_farm"
 				level=2
-				reserves=1
+			reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_citrus_orchards" }
 			}
 			create_building={
@@ -1871,7 +1871,7 @@
 		}
 	}
 	s:STATE_CHIAPAS={
-		region_state:AME={
+		region_state:GUA={
 			create_building={
 				building="building_dye_plantation"
 				level=1

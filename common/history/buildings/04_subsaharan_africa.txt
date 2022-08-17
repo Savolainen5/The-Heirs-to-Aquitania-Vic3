@@ -24,7 +24,7 @@
 		}
 	}
 	s:STATE_SENEGAL={
-		region_state:FRA={
+		region_state:NAP={
 			create_building={
 				building="building_sugar_plantation"
 				level=2
@@ -105,25 +105,25 @@
 	}
 	s:STATE_LIBERIA={
 		region_state:KRU={
-			create_building={
-				building="building_millet_farm"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_coffee_plantation"
-				level=2
-				reserves=1
-				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_port"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}
-		}
+#			create_building={
+#				building="building_millet_farm"
+#				level=1
+#				reserves=1
+#				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
+#			}
+#			create_building={
+#				building="building_coffee_plantation"
+#				level=2
+#				reserves=1
+#				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" "pm_privately_owned" }
+#			}
+#			create_building={
+#				building="building_port"
+#				level=1
+#				reserves=1
+#				activate_production_methods={ "pm_anchorage" }
+#			}
+#		}
 	}
 	s:STATE_HAUSALAND={
 		region_state:SOK={

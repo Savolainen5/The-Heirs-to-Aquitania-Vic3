@@ -823,14 +823,14 @@ SLO = {
 }
 
 TUR = {
-	color = { 170  206  162 }
+	color = { 190  40 40 }
 	
 	country_type = recognized
 
-	tier = empire
+	tier = kingdom
 	
 	cultures = { turkish }
-	capital = STATE_EASTERN_THRACE
+	capital = STATE_DIYARBAKIR
 }
 
 WAL = {
@@ -2166,7 +2166,7 @@ SMI = { # Sapmi
 }
 
 MLT = { # Malta
-	color = { 28 146 136 }
+	color = { 210 60 30 }
 	
 	country_type = recognized
 	

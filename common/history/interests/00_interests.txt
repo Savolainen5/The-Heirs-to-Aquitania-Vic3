@@ -2,12 +2,12 @@
 	c:SWE = {
 		add_declared_interest = region_north_germany
 	}
-	c:DEN = {
-		add_declared_interest = region_north_germany
-	}
+	#c:DEN = {
+	#	add_declared_interest = region_north_germany #Invalid because DEN owns Lubeck
+	#}
 	c:AEN = {
 		#add_declared_interest = region_baltic
-		add_declared_interest = region_brazil
+		#add_declared_interest = region_brazil #Invalid, because a subject owns land there
 		#add_declared_interest = region_rhine
 		add_declared_interest = region_france
 		add_declared_interest = region_south_china
@@ -133,7 +133,7 @@
 	#}
 	c:NET = {
 		add_declared_interest = region_baltic	
-		add_declared_interest = region_north_germany
+		#add_declared_interest = region_north_germany
 		add_declared_interest = region_france
 		add_declared_interest = region_england
 	}

@@ -112,7 +112,7 @@ on_yearly_pulse_country = {
 		20 = commander_events.2
 		20 = commander_events.4
 		20 = commander_events.5
-		1 = commander_events.6
+		5 = commander_events.6
 
 		# Law Events
 		50 = law_events.5
@@ -382,12 +382,25 @@ on_battle_started = {
 # scope:attacker = attacking commander
 # scope:defender = defending commander
 # scope:state = location state
-	on_battle_ended = {
-	#	random_events = {
-	#		50 = 0
-	#		50 = texan_war_of_independence.3
-	#	}
-	}
+on_battle_ended = {}
+
+# Root = attacker or defender country
+# scope:battle = battle
+# scope:attacker = attacking commander
+# scope:defender = defending commander
+# scope:state = location state
+on_battle_won = {
+#	events = {
+#		texan_war_of_independence.3
+#	}
+}
+
+# Root = attacker or defender country
+# scope:battle = battle
+# scope:attacker = attacking commander
+# scope:defender = defending commander
+# scope:state = location state
+on_battle_lost = {}
 
 # Root = Building
 on_building_built = {
@@ -1147,6 +1160,9 @@ on_diplo_play_start_third_party = {
 
 # Root = Country
 on_diplo_play_back_down = {
+	effect = {
+		post_notification = diplo_play_back_down_notification
+  }
 }
 
 # Root = Country
@@ -1192,7 +1208,7 @@ on_diplo_play_subject_released_overlord = {
 	}
 }
 
-# Root = Country
+# Root = Diplomatic Play
 on_diplo_play_declare_neutrality = {
 	effect = {
 		post_notification = diplo_play_declare_neutrality_notification
@@ -1200,14 +1216,14 @@ on_diplo_play_declare_neutrality = {
 }
 
 
-# Root = Country
+# Root = Diplomatic Play
 on_sway_offer = {
 	effect = {
 		post_proposal = proposal_sway_offer
 	}
 }
 
-# Root = Country
+# Root = Diplomatic Play
 on_sway_offer_owe_obligation = {
 	effect = {
 		post_proposal = proposal_sway_offer_owe_obligation
@@ -1215,21 +1231,21 @@ on_sway_offer_owe_obligation = {
 }
 
 
-# Root = Country
+# Root = Diplomatic Play
 on_sway_offer_accepted = {
 	effect = {
 		post_notification = sway_offer_accepted
 	}
 }
 
-# Root = Country
+# Root = Diplomatic Play
 on_country_swayed = {
 	effect = {
 		post_notification = country_swayed
 	}
 }
 
-# Root = Country
+# Root = Diplomatic Play
 on_sway_offer_rejected = {
 	effect = {
 		post_notification = sway_offer_rejected
@@ -1665,6 +1681,10 @@ on_journal_entry_completed = {
 	}
 }
 
+# Root = journal entry
+on_journal_entry_failed = {
+}
+
 # Root = country
 on_native_uprising = {
 	effect = {
@@ -1704,14 +1724,17 @@ on_diplomatic_incident = {
 
 # Root = Objective
 on_sub_objective_completed = {
-	effect = {
-		debug_log = "Sub objective completed"
-	}
+}
+
+# Root = journal entry
+on_sub_objective_failed = {
 }
 
 # Root = Objective
 on_objective_completed = {
-
+	effect = {
+		debug_log = "Objective completed"
+	}
 }
 
 # Root = Country

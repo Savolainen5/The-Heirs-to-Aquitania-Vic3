@@ -1635,7 +1635,7 @@
 		}
 	}
 	s:STATE_NORTHERN_THRACE={
-		region_state:BUL={
+		region_state:ROM={
 			create_building={
 				building="building_furniture_manufacturies"
 				level=2

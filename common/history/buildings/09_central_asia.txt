@@ -1,6 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_DAGESTAN={
-		region_state:SEM={
+		region_state:TAR={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -20,6 +20,10 @@
 				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
 		}
+		region_state:DAG={
+		}
+		region_state:KAB={
+		}
 		region_state:CHC={
 			create_building={
 				building="building_livestock_ranch"
@@ -36,7 +40,7 @@
 		}
 	}
 	s:STATE_KUBAN={
-		region_state:SEM={
+		region_state:TAT={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -76,9 +80,11 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
+		region_state:KAB={
+		}
 	}
 	s:STATE_ARMENIA={
-		region_state:SEM={
+		region_state:PER={
 			create_building={
 				building="building_wheat_farm"
 				level=2
@@ -88,7 +94,7 @@
 		}
 	}
 	s:STATE_AZERBAIJAN={
-		region_state:SEM={
+		region_state:PER={
 			create_building={
 				building="building_rice_farm"
 				level=1
@@ -104,7 +110,7 @@
 		}
 	}
 	s:STATE_GREATER_CAUCASUS={
-		region_state:SEM={
+		region_state:GEO={
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -187,8 +193,8 @@
 			}
 		}
 	}
-	s:STATE_TARTARIA={
-		region_state:SEM={
+	s:STATE_TARTARIA={ #Rostov I guess
+		region_state:TAT={
 			create_building={
 				building="building_iron_mine"
 				level=10
@@ -210,7 +216,7 @@
 		}
 	}
 	s:STATE_ASTRAKHAN={
-		region_state:SEM={
+		region_state:TAT={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -220,9 +226,9 @@
 		}
 	}
 	s:STATE_URALSK={
-		region_state:SEM={
+		region_state:TAT={
 		}
-		region_state:KAZ={
+		region_state:JUZ={
 		}
 	}
 	s:STATE_KHIVA={
@@ -491,6 +497,12 @@
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_anchorage" }
+			}
 		}
 		region_state:KAL={
 			create_building={
@@ -516,14 +528,6 @@
 				level=12
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
-			}
-		}
-		region_state:OMA={
-			create_building={
-				building="building_port"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
 			}
 		}
 	}

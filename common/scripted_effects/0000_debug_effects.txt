@@ -26,7 +26,7 @@ set_all_colony = {
 			}
 		
 		}
-		set_state_owner = c:GBR
+		set_state_owner = c:NAP
 		set_state_type = unincorporated
 	}
 	

@@ -1,32 +1,32 @@
-﻿CHARACTERS = {
-	c:ARM = {
-		create_character = {
-			first_name = "Musegh_V"
-			last_name = "Sourmagian"
-			culture = cu:armenian
-			ruler = yes
-			age = 57 #Born 1778
-			interest_group = ig_armed_forces
-			traits = {
-				ambitious
-			}
-			ideology = ideology_moderate
-			on_created = {
-				set_variable = is_married
-			}
-		}
-
-		create_character = {
-			first_name = "Nourhan" #XI
-			last_name = "Sourmagian"
-			culture = cu:roman
-			heir = yes
-			age = 32 #Born 1803
-			interest_group = ig_petty_bourgeoisie
-			traits = {
-				romantic
-			}
-			ideology = ideology_moderate
-		}
-	}
-}
+﻿#CHARACTERS = {
+#	c:ARM = {
+#		create_character = {
+#			first_name = "Musegh_V"
+#			last_name = "Sourmagian"
+#			culture = cu:armenian
+#			ruler = yes
+#			age = 57 #Born 1778
+#			interest_group = ig_armed_forces
+#			traits = {
+#				ambitious
+#			}
+#			ideology = ideology_moderate
+#			on_created = {
+#				set_variable = is_married
+#			}
+#		}
+#
+#		create_character = {
+#			first_name = "Nourhan" #XI
+#			last_name = "Sourmagian"
+#			culture = cu:roman
+#			heir = yes
+#			age = 32 #Born 1803
+#			interest_group = ig_petty_bourgeoisie
+#			traits = {
+#				romantic
+#			}
+#			ideology = ideology_moderate
+#		}
+#	}
+#}

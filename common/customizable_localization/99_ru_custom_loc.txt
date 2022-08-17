@@ -1,0 +1,6 @@
+﻿####################################
+#   RUSSIAN CUSTOM LOCALISATION    #
+#      By Nikita Shogin            #
+####################################
+
+#Sorry, I had to remove this in HtA because there's so much to remove to avoid massive errors from this file calling things that don't exist in HtA like USA and PRU

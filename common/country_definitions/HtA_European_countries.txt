@@ -281,7 +281,7 @@ TAR = { #Tarki Shamkhalate
 	capital = STATE_DAGESTAN
 }
 TAT = { #Tataria, working name
-	color = { 168 0 5 }
+	color = { 240 200 250 }
 	
 	country_type = recognized
 	

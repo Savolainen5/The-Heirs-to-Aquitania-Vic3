@@ -65,13 +65,13 @@
 					THIS = c:LUX
 				}
 			}
-			triggered_desc = {
-				desc = party_national_socialist_movement
-				trigger = {
-					exists = c:CHL
-					THIS = c:CHL
-				}
-			}
+#			triggered_desc = {
+#				desc = party_national_socialist_movement
+#				trigger = {
+#					exists = c:CHL
+#					THIS = c:CHL
+#				}
+#			}
 			triggered_desc = {
 				desc = party_ratnik_party
 				trigger = {
@@ -114,12 +114,12 @@
 					country_has_primary_culture = cu:persian
 				}
 			}
-			triggered_desc = {
-				desc = integralist_action_party
-				trigger = {
-					country_has_primary_culture = cu:brazilian
-				}
-			}
+#			triggered_desc = {
+#				desc = integralist_action_party
+#				trigger = {
+#					country_has_primary_culture = cu:brazilian
+#				}
+#			}
 			triggered_desc = {
 				desc = falangist_party
 				trigger = {

@@ -267,14 +267,14 @@ MAO = { #Manaó, generalized name for Amazonian left bank indigenous peoples
 	capital = STATE_AMAZONAS
 }
 NCS = { #Nueva Castilla, in revolt from Hispania
-	color = { 211 204 6 }
+	color = { 170 0 68 } #formerly 211 204 6
 	
 	country_type = recognized
 	
 	tier = kingdom
 	
 	cultures = { spanish }
-	capital = STATE_SANTIAGO
+	capital = STATE_LIMA
 }
 NHL = { #New Holland, Dutch colony. Independent as Sintelland?
 	color = { 210 130 60 }

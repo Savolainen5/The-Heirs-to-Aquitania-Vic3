@@ -10,14 +10,14 @@
 		}
 		localization_key = flotilla_prefix_hhms
 	}
-	text = {
-		trigger = {
-			has_law = law_type:law_monarchy # "Regia Nave" only makes sense for monarchies
-			exists = c:ITA
-			this = c:ITA
-		}
-		localization_key = flotilla_prefix_rn
-	}
+#	text = {	#This isn't working as of 17.8., and it might be because I somehow removed ITA as a valid tag?
+#		trigger = {
+#			has_law = law_type:law_monarchy # "Regia Nave" only makes sense for monarchies
+#			exists = c:ITA
+#			this = c:ITA
+#		}
+#		localization_key = flotilla_prefix_rn
+#	}
 
 	# THE DUTCH
 	text = {

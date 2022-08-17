@@ -719,20 +719,20 @@ BIC = { # British East India Company
 		priority = 10
 		trigger = { 
 			coa_def_republic_flag_trigger = yes
-			OR = {
+#			OR = {
 				coa_def_independent_trigger = yes
 
-				AND = {
-					exists = c:GBR
-					c:GBR = {
-						has_diplomatic_pact = {
-							who = c:BIC
-							type = dominion
-							is_initiator = yes
-						}
-					}
-				}
-			}
+#				AND = {
+#					exists = c:GBR
+#					c:GBR = {
+#						has_diplomatic_pact = {
+#							who = c:BIC
+#							type = dominion
+#							is_initiator = yes
+#						}
+#					}
+#				}
+#			}
 		}
 	}
 	flag_definition = {
@@ -1483,13 +1483,13 @@ COS = { # Costa Rica
 		coa_with_overlord_canton = COS_subject			
 		priority = 1
 	}
-	flag_definition = {
-		coa = COS_subject_MEX
-		priority = 30
-		trigger = { 
-			coa_def_mexican_ensign_trigger = yes
-		}
-	}	
+#	flag_definition = {
+#		coa = COS_subject_MEX
+#		priority = 30
+#		trigger = { 
+#			coa_def_mexican_ensign_trigger = yes
+#		}
+#	}	
 }
 
 CRE = { # Crete
@@ -1921,15 +1921,15 @@ FIN = { # Finland
 		subject_canton = FIN
 		priority = 1
 	}
-	flag_definition = { #I think this should work, since I've changed what coa_def_russian_ensign_trigger refers to
-		coa = FIN_subject_RUS
-		allow_overlord_canton = yes		
-		subject_canton = FIN
-		priority = 2
-		trigger = { 
-			coa_def_russian_ensign_trigger = yes
-		}
-	}	
+#	flag_definition = {
+#		coa = FIN_subject_RUS
+#		allow_overlord_canton = yes		
+#		subject_canton = FIN
+#		priority = 2
+#		trigger = { 
+#			coa_def_russian_ensign_trigger = yes
+#		}
+#	}	
 	flag_definition = {
 		coa = FIN_fascist
 		subject_canton = FIN_fascist
@@ -2229,13 +2229,13 @@ GUA = { # Guatemala
 			coa_def_spanish_ensign_trigger = yes
 		}
 	}	
-	flag_definition = {
-		coa = GUA_subject_MEX
-		priority = 30
-		trigger = { 
-			coa_def_mexican_ensign_trigger = yes
-		}
-	}		
+#	flag_definition = {
+#		coa = GUA_subject_MEX
+#		priority = 30
+#		trigger = { 
+#			coa_def_mexican_ensign_trigger = yes
+#		}
+#	}		
 }
 
 GWA = { # Gwalior
@@ -3682,15 +3682,15 @@ MOL = { # Moldavia
 		coa_with_overlord_canton = MOL_subject			
 		priority = 1
 	}
-	flag_definition = {
-		# Corner cantons with stars when ruled by the Ottoman Empire
-		coa = MOL_subject_TUR
-		subject_canton = MOL
-		priority = 2
-		trigger = { 
-			coa_def_turkish_ensign_trigger = yes
-		}
-	}	
+#	flag_definition = {
+#		# Corner cantons with stars when ruled by the Ottoman Empire
+#		coa = MOL_subject_TUR
+#		subject_canton = MOL
+#		priority = 2
+#		trigger = { 
+#			coa_def_turkish_ensign_trigger = yes
+#		}
+#	}	
 	flag_definition = {
 		coa = MOL_communist
 		priority = 1500
@@ -4027,13 +4027,13 @@ NIC = { # Nicaragua
 		allow_overlord_canton = yes		
 		priority = 1
 	}
-	flag_definition = {
-		coa = NIC_subject_MEX
-		priority = 30
-		trigger = { 
-			coa_def_mexican_ensign_trigger = yes
-		}
-	}	
+#	flag_definition = {
+#		coa = NIC_subject_MEX
+#		priority = 30
+#		trigger = { 
+#			coa_def_mexican_ensign_trigger = yes
+#		}
+#	}	
 }
 
 NNV = { # Nunavut
@@ -4527,13 +4527,13 @@ PNM = { # Panama
 		allow_overlord_canton = yes	
 		priority = 1
 	}
-	flag_definition = {
-		coa = PNM_subject_MEX
-		priority = 30
-		trigger = { 
-			coa_def_mexican_ensign_trigger = yes
-		}
-	}	
+#	flag_definition = {
+#		coa = PNM_subject_MEX
+#		priority = 30
+#		trigger = { 
+#			coa_def_mexican_ensign_trigger = yes
+#		}
+#	}	
 }
 
 POL = { # Poland
@@ -4963,13 +4963,13 @@ SER = { # Serbia
 			coa_def_republic_flag_trigger = yes
 		}
 	}
-	flag_definition = {
-		coa = SER_subject_TUR
-		priority = 50
-		trigger = { 
-			coa_def_turkish_ensign_trigger = yes
-		}
-	}		
+#	flag_definition = {
+#		coa = SER_subject_TUR
+#		priority = 50
+#		trigger = { 
+#			coa_def_turkish_ensign_trigger = yes
+#		}
+#	}		
 }
 
 SGF = { # South German Federation
@@ -5436,14 +5436,14 @@ TRI = { # Tripoli
 		overlord_canton_scale = { 0.428 0.428 }				
 		priority = 1
 	}
-	flag_definition = {
-		coa = TRI_TUR
-		subject_canton = TRI_TUR
-		priority = 50
-		trigger = { 
-			coa_def_turkish_ensign_trigger = yes
-		}
-	}		
+#	flag_definition = {
+#		coa = TRI_TUR
+#		subject_canton = TRI_TUR
+#		priority = 50
+#		trigger = { 
+#			coa_def_turkish_ensign_trigger = yes
+#		}
+#	}		
 }
 
 TRN = { # Transvaal
@@ -5697,15 +5697,15 @@ WAL = { # Wallachia
 		subject_canton = WAL
 		priority = 1
 	}
-	flag_definition = {
-		# Canton with stars when ruled by the Ottoman Empire
-		coa = WAL_subject
-		subject_canton = WAL
-		priority = 2
-		trigger = { 
-			coa_def_turkish_ensign_trigger = yes		
-		}
-	}	
+#	flag_definition = {
+#		# Canton with stars when ruled by the Ottoman Empire
+#		coa = WAL_subject
+#		subject_canton = WAL
+#		priority = 2
+#		trigger = { 
+#			coa_def_turkish_ensign_trigger = yes		
+#		}
+#	}	
 }	
 
 WAS = { # Western Australia

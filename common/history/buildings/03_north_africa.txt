@@ -807,7 +807,7 @@
 		}
 		region_state:TRZ={
 		}
-		region_state:FTR={
+		region_state:MAL={
 			create_building={
 				building="building_barracks"
 				level=5

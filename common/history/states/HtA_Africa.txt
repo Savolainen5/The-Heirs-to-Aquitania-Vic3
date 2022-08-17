@@ -118,7 +118,7 @@
 	}
 	s:STATE_LIBERIA = {
 		create_state = {
-			country = c:LIB
+			country = c:KRU
 			owned_provinces = { x0075FC xDF8050 x4D5020 xA94E67 x80EA03 xFF3CB6 x55657D xC730B8 xA17EB9 x7E0445 x7E9BF6 x56D35D xF4E268 x728792 xFA64C3 x8616D7 }
 		}
 		

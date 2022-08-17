@@ -330,10 +330,10 @@
 		}
 	}
 	s:STATE_AL_RIF = {
-		region_state:MOR = {
+		region_state:HIS = {
 			create_pop = {
 				culture = maghrebi
-				size = 374188
+				size = 420588
 			}
 			create_pop = {
 				culture = sephardic
@@ -341,26 +341,16 @@
 			}
 			create_pop = {
 				culture = berber
-				size = 71800
+				size = 76800
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = sephardic
 				size = 4000
 			}
-		}
-		region_state:HIS = {
-			create_pop = {
-				culture = maghrebi
-				size = 46400
-			}
 			create_pop = {
 				culture = spanish
 				size = 73200
-			}
-			create_pop = {
-				culture = berber
-				size = 5000
 			}
 		}
 	}
@@ -768,7 +758,7 @@
 				size = 4000
 			}
 		}
-		region_state:FTR = {
+		region_state:MAL = {
 			create_pop = {
 				culture = fulbe
 				size = 10000
@@ -820,7 +810,7 @@
 		}
 	}
 	s:STATE_EASTERN_MALI = {
-		region_state:MSN = {
+		region_state:MAL = {
 			create_pop = {
 				culture = bambara
 				size = 435108
