@@ -769,10 +769,13 @@ SHC = {
 		}
 	}
 }
+###################################
 SLS = {
 	textured_emblem = { texture = "V2/SLS_monarchy.tga" } #Temporary
 }
+####################################
 #SRM
+####################################
 TRR = {
 	pattern = "pattern_solid.tga"
 	color1 = "yellow_light"
