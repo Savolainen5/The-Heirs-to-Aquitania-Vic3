@@ -756,6 +756,19 @@ SEM = { #Semia
 		}
 	}
 }
+####################################
+SHC = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	
+	colored_emblem = {
+		texture = "ce_shawnee_panther.dds"
+		color1 = "black"
+		instance = {
+			scale = { 0.75 0.75 }
+		}
+	}
+}
 SLS = {
 	textured_emblem = { texture = "V2/SLS_monarchy.tga" } #Temporary
 }
