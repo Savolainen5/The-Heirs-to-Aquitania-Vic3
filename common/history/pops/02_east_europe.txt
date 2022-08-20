@@ -1,6 +1,6 @@
 ﻿POPS = {
 	s:STATE_INGRIA = {
-		region_state:SEM = {
+		region_state:SWE = {
 			create_pop = {
 				culture = russian
 				size = 858808
@@ -45,7 +45,7 @@
 		}
 	}
 	s:STATE_BREST = {
-		region_state:RUT = {
+		region_state:SEM = {
 			create_pop = {
 				culture = polish
 				size = 143992
@@ -79,7 +79,7 @@
 		}
 	}
 	s:STATE_VOLHYNIA = {
-		region_state:RUT = {
+		region_state:SEM = {
 			create_pop = {
 				culture = polish
 				size = 140004
@@ -99,7 +99,7 @@
 		}
 	}
 	s:STATE_KIEV = {
-		region_state:RUT = {
+		region_state:SEM = {
 			create_pop = {
 				culture = ukrainian
 				size = 3923992
@@ -229,7 +229,7 @@
 		}
 	}
 	s:STATE_CRIMEA = {
-		region_state:RUT = {
+		region_state:SEM = {
 			create_pop = {
 				culture = tatar
 				size = 158400
@@ -257,7 +257,7 @@
 		}
 	}
 	s:STATE_LUHANSK = {
-		region_state:RUT = {
+		region_state:SEM = {
 			create_pop = {
 				culture = ukrainian
 				size = 1914584
@@ -314,7 +314,7 @@
 		}
 	}
 	s:STATE_CHERSON = {
-		region_state:RUT = {
+		region_state:SEM = {
 			create_pop = {
 				culture = ukrainian
 				size = 986108
@@ -371,7 +371,7 @@
 		}
 	}
 	s:STATE_MINSK = {
-		region_state:RUT = {
+		region_state:SEM = {
 			create_pop = {
 				culture = polish
 				size = 139932
@@ -444,7 +444,7 @@
 		}
 	}
 	s:STATE_ESTONIA = {
-		region_state:SEM = {
+		region_state:SWE = {
 			create_pop = {
 				culture = estonian
 				size = 573800
@@ -464,7 +464,7 @@
 		}
 	}
 	s:STATE_LATVIA = {
-		region_state:SEM = {
+		region_state:SWE = {
 			create_pop = {
 				culture = latvian
 				size = 1047496
@@ -497,7 +497,7 @@
 		}
 	}
 	s:STATE_LITHUANIA = {
-		region_state:SEM = {
+		region_state:SWE = {
 			create_pop = {
 				culture = polish
 				size = 111796

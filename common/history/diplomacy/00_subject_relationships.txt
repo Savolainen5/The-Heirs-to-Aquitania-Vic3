@@ -146,6 +146,12 @@
 			type = puppet
 		}
 	}
+	c:KAB = {
+		create_diplomatic_pact = {
+			country = c:CHC
+			type = puppet
+		}
+	}
 	c:NAP = {
 		create_diplomatic_pact = {
 			country = c:MLT
@@ -184,16 +190,16 @@
 			type = puppet
 		}
 	}
-	c:RUT = {
+	c:SEM = {
 		create_diplomatic_pact = {
 			country = c:MOL
 			type = puppet
 		}
 	}
-	c:KAB = {
+	c:SWE = {
 		create_diplomatic_pact = {
-			country = c:CHC
-			type = puppet
+			country = c:POL
+			type = personal_union
 		}
 	}
 	#####################################################################################

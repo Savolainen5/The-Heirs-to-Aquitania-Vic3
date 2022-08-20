@@ -4539,6 +4539,7 @@ PNM = { # Panama
 POL = { # Poland
 	flag_definition = {
 		coa = POL
+#		allow_overlord_canton = yes #This looks awful with the basic POL flag, don't fall for the trap!
 		subject_canton = POL
 		priority = 1
 	}	
@@ -4588,7 +4589,17 @@ POL = { # Poland
 		trigger = { 
 			coa_def_communist_flag_trigger = yes
 		}
-	}		
+	}
+	flag_definition = {
+		coa = POL_sweden
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_sweden_x @canton_scale_sweden_y }
+		subject_canton = POL_canton
+		priority = 5
+		trigger = { 
+			coa_def_swedish_ensign_trigger = yes
+		}
+	}
 }
 
 POM = { # Pommerania
@@ -4619,6 +4630,7 @@ POR = { # Portugal
 	flag_definition = {
 		coa = POR_absolute_monarchy
 		subject_canton = POR_absolute_monarchy
+		allow_overlord_canton = yes
 		priority = 20
 		trigger = { 
 			coa_def_absolute_monarchy_flag_trigger = yes
