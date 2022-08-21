@@ -1,7 +1,7 @@
 ﻿	# Strategic Regions in North America
 
 region_canada = {
-	capital_province = x8C4FC7
+	capital_province = xB9DD91 #x8C4FC7
 	map_color = { 0.21 0.81 0.82 }
 	states = { STATE_DENEDE STATE_NORDLYSLAND STATE_MESESAG STATE_CHRISTIANSLAND STATE_SKOVOY STATE_RODLAND STATE_KIVEDIN  STATE_FREDERIKSLAND }
 }
@@ -31,7 +31,7 @@ region_the_midwest = {
 }
 
 region_dixie = {
-	capital_province = xD4D27E
+	capital_province = xC1273E #xD4D27E
 	map_color = { 0.25 1 1 }
 	states = { STATE_COCHAPO STATE_TOHOME STATE_QUOIPAS  STATE_TANABIE  STATE_NOUVEAU_BLOIS STATE_HACHICOBA STATE_HAINAI STATE_OFERBERG STATE_WELLBURN STATE_PEQUIE }
 }

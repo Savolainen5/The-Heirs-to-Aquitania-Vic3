@@ -108,6 +108,28 @@ AEN_absolute_monarchy = {
 	}
 }
 
+AEN_canton = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	colored_emblem = {
+		texture = "ce_bend_sinister_fimbriated.dds"
+		color1 = "yellow"
+		color2 = color1
+	}
+	colored_emblem = {
+		texture = "ce_bend_dexter_fimbriated.dds"
+		color1 = "yellow"
+		color2 = color1
+	}
+	colored_emblem = {
+		texture = "ce_bend_sinister.dds"
+		color1 = color1
+	}
+	textured_emblem = {
+		texture = "te_wyvern_woven.dds"
+	}
+}
+
 ##############################
 
 #AQT_decent_fascist = {
@@ -653,6 +675,15 @@ LDN_dictatorship = {
 	}
 }
 ##############################
+LOG_colony = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_stripes_06.dds"
+		color1 = "red"
+	}
+}
+##############################
 MNZ = { textured_emblem = { texture = "V2/MNZ.tga" } }
 ##############################
 NAP_monarchy = {
@@ -740,7 +771,7 @@ POL_sweden = {
 		texture = "te_eagle_polish.dds"
 		instance = { position = { 0.65 0.45 } }
 	}
-]
+}
 	
 ##################################
 POR = {
