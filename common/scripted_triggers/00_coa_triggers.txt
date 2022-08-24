@@ -245,19 +245,10 @@ coa_def_ensign_trigger = {
 #	coa_def_ensign_trigger = yes
 #}
 
-coa_def_aenglish_ensign_trigger = {
-#	OR = {
-#		AND = {
-			exists = c:AEN
-			c:AEN = { save_temporary_scope_as = custom_overlord }
-			coa_def_ensign_trigger = yes
-#		}
-#		AND = { #Eventually replace this with something like ALB for Albina, assuming that's still a formable in HtA3
-#			exists = c:ENG
-#			c:ENG = { save_temporary_scope_as = custom_overlord }
-#			coa_def_ensign_trigger = yes
-#		}
-#	}
+coa_def_aenglish_ensign_trigger = { #Adapted for HtA from the English/British one
+	exists = c:AEN
+	c:AEN = { save_temporary_scope_as = custom_overlord }
+	coa_def_ensign_trigger = yes
 }
 
 coa_def_british_india_trigger = {

@@ -1,0 +1,22 @@
+#So as I understand it, this is a way to specify flags as sub-components of other flags. It's like a non-dynamic canton, in that it doesn't make use of the scripted CoA triggers
+sub_AEN = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	colored_emblem = {
+		texture = "ce_bend_sinister_fimbriated.dds"
+		color1 = "yellow"
+		color2 = color1
+	}
+	colored_emblem = {
+		texture = "ce_bend_dexter_fimbriated.dds"
+		color1 = "yellow"
+		color2 = color1
+	}
+	colored_emblem = {
+		texture = "ce_bend_sinister.dds"
+		color1 = color1
+	}
+	textured_emblem = {
+		texture = "te_wyvern_woven.dds"
+	}
+}

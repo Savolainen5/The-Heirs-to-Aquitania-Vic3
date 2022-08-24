@@ -134,6 +134,25 @@ LOG = { # Logria
 		coa_with_overlord_canton = LOG_subject			
 		priority = 1
 	}
+	#flag_definition = {
+	#	coa = LOG_colony
+	#	subject_canton = LOG
+	#	allow_overlord_canton = yes		
+	#	coa_with_overlord_canton = LOG_subject		
+	#	overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }	
+	#	priority = 1
+	#}
+	flag_definition = {
+		coa = LOG_colony
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = LOG_colony #AEN_canton
+		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+		subject_canton = LOG_canton
+		priority = 5
+		trigger = { 
+			coa_def_aenglish_ensign_trigger = yes
+		}
+	}
 }
 
 MAR = { # Louisiana

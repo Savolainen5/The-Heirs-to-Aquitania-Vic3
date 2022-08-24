@@ -1,3 +1,6 @@
+@canton_scale_cross_x = @[ ( 333 / 768 ) + 0.001 ]
+@canton_scale_cross_y = @[ ( 205 / 512 ) + 0.001 ]
+
 AEN = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -675,12 +678,28 @@ LDN_dictatorship = {
 	}
 }
 ##############################
+LOG = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_stripes_06.dds"
+		color1 = "red"
+	}
+	sub = {
+        parent = "sub_AEN" 
+        instance = { scale = { @canton_scale_cross_x @canton_scale_cross_y }  } # top left
+	}
+}
 LOG_colony = {
 	pattern = "pattern_solid.tga"
 	color1 = "white"
 	colored_emblem = {
 		texture = "ce_stripes_06.dds"
 		color1 = "red"
+	}
+	sub = {
+        parent = "sub_AEN" 
+        instance = { scale = { @canton_scale_cross_x @canton_scale_cross_y }  } # top left
 	}
 }
 ##############################
