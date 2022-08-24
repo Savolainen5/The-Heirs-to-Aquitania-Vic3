@@ -46,7 +46,7 @@
 		}
 	}
 	s:STATE_NORTH_BENGAL={
-		region_state:BIC={
+		region_state:BGL={
 			create_building={
 				building="building_government_administration"
 				level=4
@@ -92,7 +92,7 @@
 		}
 	}
 	s:STATE_ASSAM={
-		region_state:BIC={
+		region_state:BGL={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -120,7 +120,7 @@
 		}
 	}
 	s:STATE_DELHI={
-		region_state:BIC={
+		region_state:MUG={
 			create_building={
 				building="building_government_administration"
 				level=8
@@ -514,8 +514,6 @@
 				activate_production_methods={ "pm_line_infantry" "pm_cannon_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
-		region_state:BIC={
-		}
 	}
 	s:STATE_NAGPUR={
 		region_state:BUN={
@@ -844,7 +842,7 @@
 		}
 	}
 	s:STATE_CIRCARS={
-		region_state:BIC={
+		region_state:BAS={
 			create_building={
 				building="building_government_administration"
 				level=5

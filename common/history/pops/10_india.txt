@@ -17,7 +17,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_NORTH_BENGAL = {
-		region_state:BIC = {
+		region_state:BGL = {
 			create_pop = {
 				culture = bengali
 				religion = hindu
@@ -30,7 +30,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_ASSAM = {
-		region_state:BIC = {
+		region_state:BGL = {
 			create_pop = {
 				culture = assamese
 				religion = hindu
@@ -60,7 +60,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_DELHI = {
-		region_state:BIC = {
+		region_state:MUG = {
 			create_pop = {
 				culture = avadhi
 				religion = hindu
@@ -279,9 +279,7 @@ s:STATE_BIHAR = {
 				religion = hindu
 				size = 2656912
 			}
-		}
-		region_state:BIC = {
-			create_pop = {
+			create_pop = { #BIC pops, probably should be consolidated
 				culture = nepali
 				size = 486027
 			}
@@ -597,7 +595,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_CIRCARS = {
-		region_state:BIC = {
+		region_state:BAS = {
 			create_pop = {
 				culture = telegu
 				size = 9762168
