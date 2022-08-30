@@ -77,6 +77,17 @@ JAP = {
 }
 
 
+ITA = { #Probably won't exist, but I need to clear some errors
+	color = { 125  171  84 }
+	
+	country_type = recognized
+
+	tier = empire
+	
+	cultures = { north_italian south_italian }
+	capital = STATE_LAZIO
+}
+
 KUK = {
 	color = { 124 40 30 }
 	

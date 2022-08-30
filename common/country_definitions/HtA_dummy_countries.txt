@@ -1,0 +1,25 @@
+﻿#These countries are common ones that don't exist in HtA but do in the base game
+#They are here only to prevent errors, because there are WAY too many files to add otherwise
+#(although I've already added a bunch)
+
+USA = {
+	color = { 66  94  193 }
+	
+	country_type = colonial
+	
+	tier = empire
+	
+	cultures = { dixie yankee }
+	capital = STATE_HILLENSLAND
+}
+
+CSA = {
+	color = { 190  186  202 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+	
+	cultures = { dixie }
+	capital = STATE_HILLENSLAND
+}

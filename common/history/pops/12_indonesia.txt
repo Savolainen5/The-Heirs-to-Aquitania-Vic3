@@ -60,24 +60,24 @@
 				size = 4000
 			}
 		}
-		region_state:BIC = {
-			create_pop = {
-				culture = malay
-				size = 60000
-			}
-			create_pop = {
-				culture = tamil
-				size = 2400
-			}
-			create_pop = {
-				culture = yue
-				size = 4000
-			}
-			create_pop = {
-				culture = british
-				size = 600
-			}
-		}
+#		region_state:BIC = { #Probably needs incorporation into the below entry
+#			create_pop = {
+#				culture = malay
+#				size = 60000
+#			}
+#			create_pop = {
+#				culture = tamil
+#				size = 2400
+#			}
+#			create_pop = {
+#				culture = yue
+#				size = 4000
+#			}
+#			create_pop = {
+#				culture = british
+#				size = 600
+#			}
+#		}
 		region_state:AEN = {
 			create_pop = {
 				culture = malay

@@ -139,7 +139,7 @@ hindu_clothes_pop_trigger = {
 	}
 }
 
-african_diaspora_clothes_trigger = {
+african_diaspora_clothes_trigger = { #In recent versions the discrimination trait thing has been changed to look at the afro_ cultures
 	exists = scope:character
 	scope:character = {
 		culture = {
@@ -163,13 +163,29 @@ japanese_imperial_clothes_trigger = {
 	exists = scope:character
 	scope:character = {
 		is_ruler = yes
+     	owner = {
+     		has_law = law_type:law_monarchy
+     	}
 		OR = {
-			culture = {
-				has_discrimination_trait = yamato
+			AND = {
+				culture = {
+					has_discrimination_trait = yamato
+				}
+				OR = {
+					NOT = {
+						exists = c:JAP
+					}
+					AND = {
+						exists = c:JAP
+						NOT = { owner = c:JAP }
+					}
+				}
 			}
 			AND = {
 				exists = c:JAP
-				OWNER = c:JAP
+				OWNER = {
+					this = c:JAP
+				}
 			}
 		}
 	}
@@ -273,13 +289,30 @@ chinese_manchu_queue_hairstyle_pops_trigger = { # hairsyle for Manchu pops not l
 chinese_court_clothes_trigger = {
 	exists = scope:character
 	scope:character = {
+		NOT = {
+			AND = {
+				is_ruler = yes
+				culture = {
+					has_discrimination_trait = tai
+					has_discrimination_trait = southeast_asian_heritage
+				}
+		     	owner = {
+		     		OR = {
+			     		has_law = law_type:law_monarchy
+			     		has_law = law_type:law_theocracy
+			     	}
+		     	}			
+			}
+		}
 		culture = {
+			NOT = { this = cu:kalmyk }
 			OR = {
 				has_discrimination_trait = sinosphere
 				has_discrimination_trait = han_chinese
 				has_discrimination_trait = tibetan_language
 				has_discrimination_trait = mongol_language
 				has_discrimination_trait = tai
+				has_discrimination_trait = hmong_mien_language
 			}
 		}
 	}	
@@ -295,6 +328,7 @@ chinese_court_clothes_pop_trigger = {
 				has_discrimination_trait = tibetan_language
 				has_discrimination_trait = mongol_language
 				has_discrimination_trait = tai
+				has_discrimination_trait = hmong_mien_language
 			}
 		}
 	}	
@@ -310,6 +344,7 @@ african_clothes_trigger = {
 				has_discrimination_trait = east_african_culture_group
 				has_discrimination_trait = west_african_culture_group
 				has_discrimination_trait = southern_african_culture_group
+				has_discrimination_trait = malagasy_language
 			}
 		}
 	}     
@@ -377,8 +412,11 @@ european_clothes_trigger = {
 indian_clothes_trigger = {
 	exists = scope:character
 	scope:character = {
-		culture = {
-			has_discrimination_trait = south_asian_heritage
+		OR = {
+			culture = {
+				has_discrimination_trait = south_asian_heritage
+			}
+			religion = rel:sikh
 		}
 	}
 }
@@ -635,6 +673,7 @@ african_clothes_pop_trigger = {
 				has_discrimination_trait = east_african_culture_group
 				has_discrimination_trait = west_african_culture_group
 				has_discrimination_trait = southern_african_culture_group
+				has_discrimination_trait = malagasy_language
 			}
 		}   
 	}
@@ -658,7 +697,7 @@ south_east_asia_clothes_pop_trigger = {
 	}
 }
 
-south_american_clothes_character_trigger = {
+south_american_clothes_character_trigger = { #As of the end of August 2022, this was changed in the basegame to look at cultures directly
 	exists = scope:character
 	scope:character = {
 		culture = {
@@ -681,6 +720,24 @@ south_american_clothes_pop_trigger = {
 				has_discrimination_trait = lusophone
 			}
 		}   
+	}
+}
+
+integrated_south_american_natives_pop_trigger = { # Represents those South American native groups that had long been integrated into wider South and Central American society.
+	exists = scope:pop
+	scope:pop = {
+		culture = {
+			OR = {
+				has_discrimination_trait = native_mesoamerican_culture_group
+				has_discrimination_trait = south_american_group
+			}
+			NOT = {
+				OR = {
+					this = cu:patagonian
+					this = cu:amazonian
+				}
+			}
+		}
 	}
 }
 
@@ -719,9 +776,12 @@ japanese_clothes_trigger = {
 indian_clothes_pop_trigger = {
 	exists = scope:pop
 	scope:pop = {
-		culture = {
-			has_discrimination_trait = south_asian_heritage
-		}   
+		OR = {
+			culture = {
+				has_discrimination_trait = south_asian_heritage
+			} 
+			religion = rel:sikh  
+		}
 	}
 }
 
@@ -894,7 +954,6 @@ buddhist_clothes_pop_trigger = {
 			religion = {
 				has_discrimination_trait = buddhist
 			}
-			religion = rel:sikh
 			religion = rel:shinto
 		}
      }

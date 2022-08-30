@@ -669,27 +669,27 @@
 				size = 24000
 			}
 		}
-		region_state:KRI = {
-			create_pop = {
-				culture = north_german
-				size = 129796
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 2600
-			}
-			create_pop = {
-				culture = semian
-				religion = protestant
-				size = 100000
-			}
-			create_pop = {
-				culture = polish
-				religion = protestant
-				size = 4000
-			}
-		}
-	}
+#		region_state:KRI = {
+#			create_pop = {
+#				culture = north_german
+#				size = 129796
+#			}
+#			create_pop = {
+#				culture = ashkenazi
+#				size = 2600
+#			}
+#			create_pop = {
+#				culture = semian
+#				religion = protestant
+#				size = 100000
+#			}
+#			create_pop = {
+#				culture = polish
+#				religion = protestant
+#				size = 4000
+#			}
+#		}
+#	}
 	s:STATE_POSEN = {
 		region_state:POL = {
 			create_pop = {

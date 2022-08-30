@@ -609,140 +609,140 @@ ai_strategy_unify_germany = {
 	}
 }
 
-ai_strategy_unify_italy = {
-	icon = "gfx/interface/icons/ai_strategy_icons/unification.dds"
-	
-	type = diplomatic
-	
-	wanted_army_ratio = 150000 # 1 barrack per 150k incorporated population
-	wanted_navy_ratio = 400000 # 1 naval base per 400k coastal incorporated population
-		
-	
-	undesirable_infamy_level = 50
-	unacceptable_infamy_level = 100
-	
-	aggression = {
-		value = 0.25
-		
-		if = {
-			limit = { 
-				OR = {
-					country_has_primary_culture = cu:north_italian
-					country_has_primary_culture = cu:south_italian
-				}
-			}
-			add = 2
-		}		
-	}
-
-	building_group_weights = {
-		bg_army = 1.5
-	}
-	
-	wargoal_scores = {
-		conquer_state = {
-			if = {
-				limit = {
-					scope:target_state = {
-						state_region = {
-							OR = {
-								is_homeland = cu:north_italian
-								is_homeland = cu:south_italian
-							}
-						}					
-					}					
-				}
-				add = 100
-			}
-		}
-		return_state = {
-			if = {
-				limit = {
-					scope:target_state = {
-						state_region = {
-							OR = {
-								is_homeland = cu:north_italian
-								is_homeland = cu:south_italian
-							}
-						}					
-					}					
-				}
-				add = 100
-			}
-		}		
-	}	
-	
-	secret_goal_scores = {
-		protect = {		
-			if = {
-				limit = {
-					scope:target_country = {
-						OR = {
-							country_has_primary_culture = cu:north_italian
-							country_has_primary_culture = cu:south_italian
-						}
-						NOT = { is_unification_candidate = ITA }
-						is_supporting_unification_candidate = { who = root country_formation = ITA }
-					}
-				}
-				add = 1000
-			}		
-		}		
-		dominate = {		
-			if = {
-				limit = {
-					scope:target_country = {
-						OR = {
-							country_has_primary_culture = cu:north_italian
-							country_has_primary_culture = cu:south_italian
-						}					
-						NOT = { is_unification_candidate = ITA }
-						NOT = { is_supporting_unification_candidate = { who = root country_formation = ITA } }
-					}
-				}
-				add = 1000
-			}		
-		}		
-		conquer = {				
-			if = {
-				limit = {
-					scope:target_country = {
-						OR = {
-							country_has_primary_culture = cu:north_italian
-							country_has_primary_culture = cu:south_italian
-						}					
-						is_unification_candidate = ITA
-						NOT = { is_supporting_unification_candidate = { who = root country_formation = ITA } }
-					}
-				}
-				add = 1000
-			}			
-		}	
-		antagonize = {				
-			if = {
-				limit = {
-					scope:target_country = {
-						is_unification_candidate = ITA
-					}
-				}
-				add = 1000
-			}			
-		}		
-	}	
-
-	wargoal_weights = {
-		conquer_state = 2.0
-		return_state = 2.0
-	}	
-		
-	possible = {
-		is_unification_candidate = ITA	
-	}
-
-	weight = {
-		value = 1000	
-	}
-}
+#ai_strategy_unify_italy = {
+#	icon = "gfx/interface/icons/ai_strategy_icons/unification.dds"
+#	
+#	type = diplomatic
+#	
+#	wanted_army_ratio = 150000 # 1 barrack per 150k incorporated population
+#	wanted_navy_ratio = 400000 # 1 naval base per 400k coastal incorporated population
+#		
+#	
+#	undesirable_infamy_level = 50
+#	unacceptable_infamy_level = 100
+#	
+#	aggression = {
+#		value = 0.25
+#		
+#		if = {
+#			limit = { 
+#				OR = {
+#					country_has_primary_culture = cu:north_italian
+#					country_has_primary_culture = cu:south_italian
+#				}
+#			}
+#			add = 2
+#		}		
+#	}
+#
+#	building_group_weights = {
+#		bg_army = 1.5
+#	}
+#	
+#	wargoal_scores = {
+#		conquer_state = {
+#			if = {
+#				limit = {
+#					scope:target_state = {
+#						state_region = {
+#							OR = {
+#								is_homeland = cu:north_italian
+#								is_homeland = cu:south_italian
+#							}
+#						}					
+#					}					
+#				}
+#				add = 100
+#			}
+#		}
+#		return_state = {
+#			if = {
+#				limit = {
+#					scope:target_state = {
+#						state_region = {
+#							OR = {
+#								is_homeland = cu:north_italian
+#								is_homeland = cu:south_italian
+#							}
+#						}					
+#					}					
+#				}
+#				add = 100
+#			}
+#		}		
+#	}	
+#	
+#	secret_goal_scores = {
+#		protect = {		
+#			if = {
+#				limit = {
+#					scope:target_country = {
+#						OR = {
+#							country_has_primary_culture = cu:north_italian
+#							country_has_primary_culture = cu:south_italian
+#						}
+#						NOT = { is_unification_candidate = ITA }
+#						is_supporting_unification_candidate = { who = root country_formation = ITA }
+#					}
+#				}
+#				add = 1000
+#			}		
+#		}		
+#		dominate = {		
+#			if = {
+#				limit = {
+#					scope:target_country = {
+#						OR = {
+#							country_has_primary_culture = cu:north_italian
+#							country_has_primary_culture = cu:south_italian
+#						}					
+#						NOT = { is_unification_candidate = ITA }
+#						NOT = { is_supporting_unification_candidate = { who = root country_formation = ITA } }
+#					}
+#				}
+#				add = 1000
+#			}		
+#		}		
+#		conquer = {				
+#			if = {
+#				limit = {
+#					scope:target_country = {
+#						OR = {
+#							country_has_primary_culture = cu:north_italian
+#							country_has_primary_culture = cu:south_italian
+#						}					
+#						is_unification_candidate = ITA
+#						NOT = { is_supporting_unification_candidate = { who = root country_formation = ITA } }
+#					}
+#				}
+#				add = 1000
+#			}			
+#		}	
+#		antagonize = {				
+#			if = {
+#				limit = {
+#					scope:target_country = {
+#						is_unification_candidate = ITA
+#					}
+#				}
+#				add = 1000
+#			}			
+#		}		
+#	}	
+#
+#	wargoal_weights = {
+#		conquer_state = 2.0
+#		return_state = 2.0
+#	}	
+#		
+#	possible = {
+#		is_unification_candidate = ITA	
+#	}
+#
+#	weight = {
+#		value = 1000	
+#	}
+#}
 
 ai_strategy_unify_ethiopia = {
 	icon = "gfx/interface/icons/ai_strategy_icons/unification.dds"

@@ -4,3 +4,5 @@ roman_culture = {
 }
 nordic_speaking = {
 }
+new_world_settler = { #Consider removing as they did in the base game, because the European Heritage part probably covers it well enough
+}
