@@ -190,7 +190,7 @@
 			type = puppet
 		}
 	}
-	c:SEM = {
+	c:KRI = {
 		create_diplomatic_pact = {
 			country = c:MOL
 			type = puppet

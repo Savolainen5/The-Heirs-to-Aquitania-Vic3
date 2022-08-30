@@ -67,13 +67,13 @@
 		#	goods = artillery
 		#	level = 3
 		#	direction = import
-		#	target = c:SEM.market
+		#	target = c:KRI.market
 		#}		
 		#create_trade_route = {
 		#	goods = wine
 		#	level = 3
 		#	direction = export
-		#	target = c:SEM.market
+		#	target = c:KRI.market
 		#}		
 		create_trade_route = {
 			goods = luxury_clothes
@@ -90,7 +90,7 @@
 #			goods = wood
 #			level = 5
 #			direction = import
-#			target = c:SEM.market
+#			target = c:KRI.market
 #		}
 #		create_trade_route = {
 #			goods = small_arms
@@ -233,13 +233,13 @@
 #			goods = wood
 #			level = 10
 #			direction = import
-#			target = c:SEM.market
+#			target = c:KRI.market
 #		}
 #		create_trade_route = {
 #			goods = hardwood
 #			level = 3
 #			direction = import
-#			target = c:SEM.market
+#			target = c:KRI.market
 #		}		
 #		create_trade_route = {
 #			goods = fabric
@@ -290,7 +290,7 @@
 			goods = wood
 			level = 10
 			direction = import
-			target = c:SEM.market
+			target = c:KRI.market
 		}			
 		create_trade_route = {
 			goods = iron
@@ -382,7 +382,7 @@
 	}
 
 	# Russia
-	c:SEM = {	
+	c:KRI = {	
 		create_trade_route = {
 			goods = manowars
 			level = 3
@@ -467,13 +467,13 @@
 			goods = tools
 			level = 3
 			direction = export
-			target = c:SEM.market
+			target = c:KRI.market
 		}
 		create_trade_route = {
 			goods = wood
 			level = 5
 			direction = import
-			target = c:SEM.market
+			target = c:KRI.market
 		}			
 		create_trade_route = {
 			goods = small_arms
@@ -547,7 +547,7 @@
 			goods = tools
 			level = 3
 			direction = export
-			target = c:SEM.market
+			target = c:KRI.market
 		}			
 	}
 	

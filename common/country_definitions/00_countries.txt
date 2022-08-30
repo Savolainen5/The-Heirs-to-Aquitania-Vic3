@@ -588,7 +588,7 @@ LIT = {
 
 	tier = principality
 	
-	cultures = { lithuanian }	
+	cultures = { semian }	
 	capital = STATE_LITHUANIA
 	is_named_from_capital = yes
 }
@@ -600,7 +600,7 @@ LAT = {
 
 	tier = principality
 	
-	cultures = { latvian }	
+	cultures = { semian }	
 	capital = STATE_LATVIA
 	is_named_from_capital = yes
 }
@@ -1846,7 +1846,7 @@ PLC = {
 
 	tier = empire
 	
-	cultures = { polish lithuanian }
+	cultures = { polish semian }
 	capital = STATE_WEST_GALICIA
 }
 

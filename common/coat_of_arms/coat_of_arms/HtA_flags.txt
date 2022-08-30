@@ -809,7 +809,7 @@ ROM = {
 	textured_emblem = { texture = "V2/BYZ_monarchy.tga" } #Temporary
 }
 ###################################
-SEM = { #Semia
+KRI = { #Krivia
 	pattern = "pattern_horizontal_split_01.tga"
 	color1 = "red"
 	color2 = "white"

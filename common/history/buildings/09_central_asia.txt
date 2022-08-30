@@ -126,7 +126,7 @@
 		}
 	}
 	s:STATE_SAMARA={
-		region_state:SEM={
+		region_state:KRI={
 			create_building={
 				building="building_arms_industry"
 				level=10
@@ -154,7 +154,7 @@
 		}
 	}
 	s:STATE_KAZAN={
-		region_state:SEM={
+		region_state:KRI={
 			create_building={
 				building="building_arms_industry"
 				level=7

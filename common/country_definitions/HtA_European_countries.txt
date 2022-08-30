@@ -231,14 +231,14 @@ RUT = { #Ruthenia (working name)
 	cultures = { ukrainian }
 	capital = STATE_KIEV
 }
-SEM = { #Semia
+KRI = { #Krivia
 	color = { 60 60 60 }
 	
 	country_type = recognized
 	
 	tier = empire
 	
-	cultures = { latvian russian }
+	cultures = { krivian russian }
 	capital = STATE_SMOLENSK
 }
 SIC = { #Sicily

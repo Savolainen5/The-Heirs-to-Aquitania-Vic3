@@ -18,7 +18,7 @@
 				size = 88000
 			}
 			create_pop = {
-				culture = latvian
+				culture = semian
 				size = 12000
 			}
 			create_pop = {
@@ -33,7 +33,7 @@
 		}
 	}
 	s:STATE_MOSCOW = {
-		region_state:SEM = {
+		region_state:KRI = {
 			create_pop = {
 				culture = russian
 				size = 3653196
@@ -45,7 +45,7 @@
 		}
 	}
 	s:STATE_BREST = {
-		region_state:SEM = {
+		region_state:KRI = {
 			create_pop = {
 				culture = polish
 				size = 143992
@@ -55,7 +55,7 @@
 				size = 698996
 			}
 			create_pop = {
-				culture = lithuanian
+				culture = semian
 				religion = orthodox
 				size = 20000
 			}
@@ -73,13 +73,13 @@
 				size = 200000
 			}
 			create_pop = {
-				culture = lithuanian
+				culture = semian
 				size = 95996
 			}
 		}
 	}
 	s:STATE_VOLHYNIA = {
-		region_state:SEM = {
+		region_state:KRI = {
 			create_pop = {
 				culture = polish
 				size = 140004
@@ -99,7 +99,7 @@
 		}
 	}
 	s:STATE_KIEV = {
-		region_state:SEM = {
+		region_state:KRI = {
 			create_pop = {
 				culture = ukrainian
 				size = 3923992
@@ -119,7 +119,7 @@
 		}
 	}
 	s:STATE_BRYANSK = {
-		region_state:SEM = {
+		region_state:KRI = {
 			create_pop = {
 				culture = russian
 				size = 2670100
@@ -139,7 +139,7 @@
 		}
 	}
 	s:STATE_SMOLENSK = {
-		region_state:SEM = {
+		region_state:KRI = {
 			create_pop = {
 				culture = russian
 				size = 1281596
@@ -156,7 +156,7 @@
 		}
 	}
 	s:STATE_ORSHA = {
-		region_state:SEM = {
+		region_state:KRI = {
 			create_pop = {
 				culture = russian
 				size = 88400
@@ -170,7 +170,7 @@
 				size = 260004
 			}
 			create_pop = {
-				culture = lithuanian
+				culture = semian
 				size = 256000
 			}
 			create_pop = {
@@ -180,7 +180,7 @@
 		}
 	}
 	s:STATE_EAST_KARELIA = {
-		region_state:SEM = {
+		region_state:KRI = {
 			create_pop = {
 				culture = russian
 				size = 82996
@@ -203,7 +203,7 @@
 		}
 	}
 	s:STATE_ARKHANGELSK = {
-		region_state:SEM = {
+		region_state:KRI = {
 			create_pop = {
 				culture = russian
 				size = 144388
@@ -216,7 +216,7 @@
 		}
 	}
 	s:STATE_TVER = {
-		region_state:SEM = {
+		region_state:KRI = {
 			create_pop = {
 				culture = russian
 				size = 2339596
@@ -229,7 +229,7 @@
 		}
 	}
 	s:STATE_CRIMEA = {
-		region_state:SEM = {
+		region_state:KRI = {
 			create_pop = {
 				culture = tatar
 				size = 158400
@@ -257,7 +257,7 @@
 		}
 	}
 	s:STATE_LUHANSK = {
-		region_state:SEM = {
+		region_state:KRI = {
 			create_pop = {
 				culture = ukrainian
 				size = 1914584
@@ -285,7 +285,7 @@
 		}
 	}
 	s:STATE_KURSK = {
-		region_state:SEM = {
+		region_state:KRI = {
 			create_pop = {
 				culture = russian
 				size = 2295600
@@ -297,7 +297,7 @@
 		}
 	}
 	s:STATE_NOVGOROD = {
-		region_state:SEM = {
+		region_state:KRI = {
 			create_pop = {
 				culture = russian
 				size = 802804
@@ -314,7 +314,7 @@
 		}
 	}
 	s:STATE_CHERSON = {
-		region_state:SEM = {
+		region_state:KRI = {
 			create_pop = {
 				culture = ukrainian
 				size = 986108
@@ -358,7 +358,7 @@
 		}
 	}
 	s:STATE_GALICH = {
-		region_state:SEM = {
+		region_state:KRI = {
 			create_pop = {
 				culture = russian
 				size = 1071996
@@ -371,7 +371,7 @@
 		}
 	}
 	s:STATE_MINSK = {
-		region_state:SEM = {
+		region_state:KRI = {
 			create_pop = {
 				culture = polish
 				size = 139932
@@ -389,7 +389,7 @@
 				size = 104400
 			}
 			create_pop = {
-				culture = lithuanian
+				culture = semian
 				size = 4008
 			}
 			create_pop = {
@@ -423,7 +423,7 @@
 		}
 	}
 	s:STATE_PERM = {
-		region_state:SEM = {
+		region_state:KRI = {
 			create_pop = {
 				culture = russian
 				size = 1903944
@@ -466,7 +466,7 @@
 	s:STATE_LATVIA = {
 		region_state:SWE = {
 			create_pop = {
-				culture = latvian
+				culture = semian
 				size = 1047496
 			}
 			create_pop = {
@@ -503,7 +503,7 @@
 				size = 111796
 			}
 			create_pop = {
-				culture = lithuanian
+				culture = semian
 				size = 729000
 			}
 			create_pop = {
@@ -527,7 +527,7 @@
 				size = 1676000
 			}
 			create_pop = {
-				culture = lithuanian
+				culture = semian
 				size = 20000
 			}
 			create_pop = {
@@ -654,7 +654,7 @@
 				size = 2600
 			}
 			create_pop = {
-				culture = lithuanian
+				culture = semian
 				religion = protestant
 				size = 17196
 			}
@@ -669,7 +669,7 @@
 				size = 24000
 			}
 		}
-		region_state:SEM = {
+		region_state:KRI = {
 			create_pop = {
 				culture = north_german
 				size = 129796
@@ -679,7 +679,7 @@
 				size = 2600
 			}
 			create_pop = {
-				culture = lithuanian
+				culture = semian
 				religion = protestant
 				size = 100000
 			}
