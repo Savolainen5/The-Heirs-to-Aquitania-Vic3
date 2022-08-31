@@ -50,10 +50,21 @@
  HUB_NAME_STATE_PIEDMONT_wood: "Coni"
  HUB_NAME_STATE_PIEDMONT_port: "Zena"
 
+ #Germany
+ HUB_NAME_STATE_RHINELAND_farm: "Oggersheim"
+
+ HUB_NAME_STATE_WEST_SWITZERLAND_wood: "Aarau"
+ HUB_NAME_STATE_WEST_SWITZERLAND_farm: "Interlaken"
+
+ HUB_NAME_STATE_EAST_SWITZERLAND_wood: "Zug"
+
  #Nordic countries
  HUB_NAME_STATE_GOTLAND_farm: "Fårösund"
 
  HUB_NAME_STATE_NORRLAND_farm: "Umeå"
+
+
+ HUB_NAME_STATE_WEST_AEGEAN_ISLANDS_city: "Naxos"
 
  #North African coast
  HUB_NAME_STATE_TLEMCEN_city: "Oran"
