@@ -241,7 +241,7 @@
 		}
 	}
 	c:IRE = {
-		effect_starting_technology_tier_2_tech = yes
+		effect_starting_technology_tier_1_tech = yes
 		
 		effect_starting_politics_conservative = yes
 	}
@@ -250,6 +250,11 @@
 	}
 	c:KAB = {
 		effect_starting_technology_tier_6_tech = yes
+		
+		effect_starting_politics_conservative = yes
+	}
+	c:KRI = {
+		effect_starting_technology_tier_1_tech = yes
 		
 		effect_starting_politics_conservative = yes
 	}
@@ -417,11 +422,6 @@
 #	}
 	c:SCO = {
 		effect_starting_technology_tier_2_tech = yes
-		
-		effect_starting_politics_conservative = yes
-	}
-	c:KRI = {
-		effect_starting_technology_tier_1_tech = yes
 		
 		effect_starting_politics_conservative = yes
 	}
