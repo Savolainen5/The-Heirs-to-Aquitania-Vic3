@@ -64,10 +64,10 @@ je_reform_indies = {
 
 	is_shown_when_inactive = {
 		OR = {
-			AND = {
-				exists = c:BIC
-				c:BIC = THIS
-			}
+#			AND = {
+#				exists = c:BIC
+#				c:BIC = THIS
+#			}
 			AND = {
 				exists = c:DEI
 				c:DEI = THIS

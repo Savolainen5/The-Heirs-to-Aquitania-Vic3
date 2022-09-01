@@ -3,11 +3,6 @@
 	
 	c:AEN = {
 		create_diplomatic_pact = {
-			country = c:BIC
-			type = dominion
-		}
-
-		create_diplomatic_pact = {
 			country = c:SAF
 			type = puppet
 		}

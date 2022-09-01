@@ -1883,17 +1883,6 @@ JAN = {
 	cultures = { norwegian }
 }
 
-BIC = {
-	color = { 188  113  61 }
-	
-	country_type = colonial
-	
-	tier = principality
-	
-	cultures = { british }
-	capital = STATE_SOUTH_BENGAL
-}
-
 BRI = {
 	color = { 110 25 96 }
 	

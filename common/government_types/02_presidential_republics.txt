@@ -66,7 +66,7 @@ gov_chartered_company = {
 		AND = { exists = c:DEN is_subject_of = c:DEN }
 		OR = {
 			AND = { exists = c:ASL c:ASL = ROOT } #Maybe one day there will be some sort of company charter holding land in Ashelasia?
-			AND = { exists = c:BIC c:BIC = ROOT }
+			#AND = { exists = c:BIC c:BIC = ROOT }
 		}
 		is_subject_type = subject_type_dominion
 	}

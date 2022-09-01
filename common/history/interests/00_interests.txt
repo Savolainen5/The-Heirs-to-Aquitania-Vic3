@@ -21,11 +21,6 @@
 		add_declared_interest = region_persia
 		add_declared_interest = region_indonesia
 	}
-	c:BIC = {
-		add_declared_interest = region_persia
-		add_declared_interest = region_himalayas
-		add_declared_interest = region_south_china
-	}
 	#c:BAV = {
 	#	add_declared_interest = region_north_germany	
 	#}

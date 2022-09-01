@@ -1,6 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_BIHAR={
-		region_state:BIC={
+		region_state:BGL={
 			create_building={
 				building="building_arms_industry"
 				level=1
@@ -586,7 +586,7 @@
 		}
 	}
 	s:STATE_SOUTH_BENGAL={
-		region_state:BIC={
+		region_state:BGL={
 			create_building={
 				building="building_government_administration"
 				level=10
@@ -838,8 +838,6 @@
 				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
 		}
-		region_state:BIC={
-		}
 	}
 	s:STATE_CIRCARS={
 		region_state:BAS={
@@ -925,8 +923,6 @@
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
 			}
-		}
-		region_state:BIC={
 			create_building={
 				building="building_coffee_plantation"
 				level=1
@@ -962,7 +958,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
 			}
 		}
-		region_state:BIC={
+		region_state:MYS={
 			create_building={
 				building="building_coffee_plantation"
 				level=2
@@ -1121,8 +1117,6 @@
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
-		}
-		region_state:BIC={
 			create_building={
 				building="building_government_administration"
 				level=8

@@ -1,6 +1,6 @@
 ﻿POPS = {
 s:STATE_BIHAR = {
-		region_state:BIC = {
+		region_state:BGL = {
 			create_pop = {
 				culture = bihari
 				size = 9244392
@@ -364,7 +364,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_SOUTH_BENGAL = {
-		region_state:BIC = {
+		region_state:BGL = {
 			create_pop = {
 				culture = bengali
 				religion = hindu
@@ -578,8 +578,6 @@ s:STATE_BIHAR = {
 				religion = animist
 				size = 176396
 			}
-		}
-		region_state:BIC = {
 			create_pop = {
 				culture = oriya
 				size = 899992

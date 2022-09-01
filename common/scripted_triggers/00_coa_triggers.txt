@@ -251,11 +251,11 @@ coa_def_aenglish_ensign_trigger = { #Adapted for HtA from the English/British on
 	coa_def_ensign_trigger = yes
 }
 
-coa_def_british_india_trigger = {
-	exists = c:BIC
-	c:BIC = { save_temporary_scope_as = custom_overlord }
-	coa_def_ensign_trigger = yes
-}
+#coa_def_british_india_trigger = {
+#	exists = c:BIC
+#	c:BIC = { save_temporary_scope_as = custom_overlord }
+#	coa_def_ensign_trigger = yes
+#}
 
 coa_def_finnish_ensign_trigger = {
 	exists = c:FIN

@@ -1,18 +1,1 @@
-﻿CHARACTERS = {
-	c:BIC = {
-		create_character = {
-			# George Eden, 1st Earl of Auckland
-			#role = politician # Remove this line
-			first_name = "George"
-			last_name = "Eden"
-			ruler = yes
-			age = 52
-			interest_group = ig_landowners
-			ideology = ideology_moderate
-			ig_leader = yes
-			traits = {
-				reckless
-			}
-		}	
-	}
-}
+﻿
