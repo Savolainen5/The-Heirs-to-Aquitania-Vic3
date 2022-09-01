@@ -1,0 +1,30 @@
+﻿BIJ = { #Bijapur Kingdom 				#I guess they could be Hindu?
+	color = { 220 70 20 }
+	
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { marathi }
+	capital = STATE_BOMBAY
+}
+JBL = { #Jabalpur
+	color = { 250 40 90 }
+	
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { marathi }
+	capital = STATE_CENTRAL_INDIA
+}
+MDR = { #Madurai
+	color = { 150 140 230 }
+	
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { tamil }
+	capital = STATE_MADRAS
+}

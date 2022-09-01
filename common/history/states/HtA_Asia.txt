@@ -273,11 +273,10 @@
 	s:STATE_MYSORE = {
 		create_state = {
 			country = c:MYS
-			owned_provinces = { xE5A1AC x2A60B3 xB4ABD5 x903060 x8E3C9D x102D8B x25CBCC xBFDC26 xA26314 x16AA78 x9FE13F x1B7225 xEDFC06 x696049 }
-		}
-		create_state = {
-			country = c:BIC
-			owned_provinces = { x189045 xD0F0A0 }
+			owned_provinces = {
+				xE5A1AC x2A60B3 xB4ABD5 x903060 x8E3C9D x102D8B x25CBCC xBFDC26 xA26314 x16AA78 x9FE13F x1B7225 xEDFC06 x696049
+				x189045 xD0F0A0
+			}
 		}
 		
 		add_homeland = kannada
@@ -288,7 +287,7 @@
 			owned_provinces = { xEC8405 xE4EB67 x2121D0 xFD0A78 xA11A79 x21A0D0 }
 		}
 		create_state = {
-			country = c:BIC
+			country = c:MYS
 			owned_provinces = { xA0A050 xB0934C xCCDC34 }
 		}
 		
@@ -301,7 +300,7 @@
 			state_type = treaty_port
 		}
 		create_state = {
-			country = c:BIC
+			country = c:MDR
 			owned_provinces = { x99B424 x61FE06 x07104C x56456B x9A2EF3 xAEAE4C x0E2990 x10B060 xA3158E x2EAD15 x7CCE50 xA02050 x620762 xA021D0 x1FF7C6 x0559B3 x5AF5BE x20A050 x9E4F00 xEC1945 xB278DD x2D75FD x486310 xA63901 x6A381C }
 		}
 		
@@ -355,7 +354,7 @@
 			owned_provinces = { x51E979 xEFD0DF }
 		}
 		create_state = {
-			country = c:BIC
+			country = c:JBL
 			owned_provinces = { x9E6DB9 x6170A0 x5FEE46 x9D79AD xDB0DEC x58E042 x903020 x987B84 x650D91 x68D277 xEB362A x0D7633 x1A0456 xA14BC3 x6D9182 x10B021 xD93D0D x26C3A2 x6E192A xA06520 xAAE528 xAD6D79 x19F551 }
 		}
 		
@@ -369,7 +368,7 @@
 			state_type = unincorporated
 		}
 		create_state = {
-			country = c:BIC
+			country = c:BIJ
 			owned_provinces = { xB0D0E0 xEBE18C x5B30D1 xF8B0CF xEBD7BE x90B021 x195332 x2D4B90 x6CC5CE xDDFDE6 x53A379 x3E5505 x1B071A xD4CACE x1C8B97 x9031A0 xCC722D xB863FE xE01853 xC9CD8E x11B0A0 xCF3817 x187C37 xD6660F x4F5C91 x40CE40 xE73C3C x1131A0 x7629BF x47EE55 x33E560 x4D118A x052B29 xD04F5D x405FB4 xD070A0 xED0654 x42ACA6 }
 		}
 		
@@ -408,7 +407,7 @@
 			owned_provinces = { x7F01B0 xE070A0 xBBC0A2 x923D4D x0CE121 x7D9692 x4E84EF x669ECB xACD960 x43F651 x41D87C x564B78 x9EA436 xD99008 x1405D1 x337F6C xA03160 xA3C721 xC8BC69 xBEE076 x4AAE9F xFD9E2F }
 		}
 		create_state = {
-			country = c:BIC
+			country = c:MUG
 			owned_provinces = { xD0B0A0 x26284F x4020A0 x61F0A0 xB4FE19 x7D8325 x6738CF x52F672 x277419 x048AD9 x63A78D xBF1DC0 xDC471F x117021 x63AA19 x4333C1 xEC8496 }
 		}		
 

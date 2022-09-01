@@ -216,7 +216,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
 			}
 		}
-		region_state:BIC={
+		region_state:MUG={
 			create_building={
 				building="building_furniture_manufacturies"
 				level=3
@@ -372,7 +372,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
 			}
 		}
-		region_state:BIC={
+		region_state:JBL={
 			create_building={
 				building="building_cotton_plantation"
 				level=1
@@ -992,7 +992,7 @@
 				activate_production_methods={ "pm_basic_port" }
 			}
 		}
-		region_state:BIC={
+		region_state:MDR={
 			create_building={
 				building="building_government_administration"
 				level=8
@@ -1108,7 +1108,7 @@
 		}
 	}
 	s:STATE_BOMBAY={
-		region_state:POR={
+		region_state:BIJ={
 			create_building={
 				building="building_dye_plantation"
 				level=2

@@ -115,7 +115,7 @@ s:STATE_BIHAR = {
 				size = 416000
 			}
 		}
-		region_state:BIC = {
+		region_state:MUG = {
 			create_pop = {
 				culture = avadhi
 				religion = hindu
@@ -217,7 +217,7 @@ s:STATE_BIHAR = {
 				size = 12000
 			}
 		}
-		region_state:BIC = {
+		region_state:JBL = {
 			create_pop = {
 				culture = marathi
 				size = 3339996
@@ -636,8 +636,7 @@ s:STATE_BIHAR = {
 				culture = kannada
 				size = 20000
 			}
-		}
-		region_state:BIC = {
+			#Let's see what happens when they're separate. These used to be owned by BIC
 			create_pop = {
 				culture = kannada
 				religion = hindu
@@ -686,7 +685,7 @@ s:STATE_BIHAR = {
 				size = 90000
 			}
 		}
-		region_state:BIC = {
+		region_state:MYS = {
 			create_pop = {
 				culture = malayalam
 				size = 680004
@@ -729,7 +728,7 @@ s:STATE_BIHAR = {
 				size = 17773
 			}
 		}
-		region_state:BIC = {
+		region_state:MDR = {
 			create_pop = {
 				culture = tamil
 				size = 12479910
@@ -831,7 +830,7 @@ s:STATE_BIHAR = {
 				size = 5681
 			}
 		}
-		region_state:BIC = {
+		region_state:BIJ = {
 			create_pop = {
 				culture = marathi
 				size = 10312854
