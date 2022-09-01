@@ -1,0 +1,3 @@
+﻿PRODUCTION_METHODS = {
+	#See the basegame files if you want. I need a clean slate
+}
