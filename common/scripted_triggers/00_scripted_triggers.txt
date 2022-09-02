@@ -1100,3 +1100,10 @@ can_reach_target_country = {
 		}
 	}
 }
+
+is_peasant_under_serfdom = {
+	is_pop_type = peasants
+	owner = {
+		has_law = law_type:law_serfdom
+	}
+}
