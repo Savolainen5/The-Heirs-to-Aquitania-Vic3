@@ -1,0 +1,22 @@
+﻿### Try to keep tags in alphabetical order if it's not too far gone, please.
+
+IRE = { #Ireland/Eire
+	dynamic_country_name = { #High Kingdom
+		name = dyn_c_high_kingdom
+		adjective = dyn_c_high_kingdom_adj
+		
+		is_main_tag_only = yes
+		priority = 5
+		
+		trigger = {
+			exists = scope:actor
+			scope:actor = {
+				OR = {
+					owns_entire_state_region = STATE_LOWLANDS
+					owns_entire_state_region = STATE_HIGHLANDS
+				}
+			}
+			NOT = { exists = SCO }
+		}
+	}
+}
