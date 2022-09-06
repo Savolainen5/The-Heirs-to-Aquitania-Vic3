@@ -28,3 +28,23 @@ MDR = { #Madurai
 	cultures = { tamil }
 	capital = STATE_MADRAS
 }
+NNY = { #Nanyue / Southern Yue
+	color = { 100 220 230 }
+	
+	country_type = unrecognized
+	
+	tier = empire
+	
+	cultures = { han yue min } 
+	capital = STATE_GUANGDONG
+}
+QIN = {	#Qin China
+	color = { 120 149 163 }
+	
+	country_type = unrecognized
+	
+	tier = empire
+	
+	cultures = { manchu han } 
+	capital = STATE_XIAN
+}

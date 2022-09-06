@@ -5,25 +5,25 @@
 			goods = iron
 			level = 4
 			direction = import
-			target = c:CHI.market
+			target = c:QIN.market
 		}
 		create_trade_route = {
 			goods = luxury_furniture
 			level = 1
 			direction = import
-			target = c:CHI.market
+			target = c:QIN.market
 		}			
 		create_trade_route = {
 			goods = porcelain
 			level = 2
 			direction = import
-			target = c:CHI.market
+			target = c:QIN.market
 		}		
 		create_trade_route = {
 			goods = dye
 			level = 2
 			direction = export
-			target = c:CHI.market
+			target = c:QIN.market
 		}		
 	}
 	
@@ -34,19 +34,19 @@
 #			goods = clippers
 #			level = 1
 #			direction = import
-#			target = c:CHI.market
+#			target = c:QIN.market
 #		}
 #		create_trade_route = {
 #			goods = tobacco
 #			level = 3
 #			direction = export
-#			target = c:CHI.market
+#			target = c:QIN.market
 #		}
 #		create_trade_route = {
 #			goods = grain
 #			level = 3
 #			direction = import
-#			target = c:CHI.market
+#			target = c:QIN.market
 #		}			
 #	}	
 	
@@ -399,13 +399,13 @@
 			goods = tea
 			level = 5
 			direction = import
-			target = c:CHI.market
+			target = c:QIN.market
 		}		
 		create_trade_route = {
 			goods = porcelain
 			level = 6
 			direction = import
-			target = c:CHI.market
+			target = c:QIN.market
 		}		
 #		create_trade_route = {
 #			goods = luxury_clothes
@@ -423,7 +423,7 @@
 			goods = sugar
 			level = 7
 			direction = import
-			target = c:CHI.market
+			target = c:QIN.market
 		}		
 #		create_trade_route = {
 #			goods = sugar
@@ -485,7 +485,7 @@
 			goods = porcelain
 			level = 3
 			direction = import
-			target = c:CHI.market
+			target = c:QIN.market
 		}		
 		create_trade_route = {
 			goods = luxury_furniture

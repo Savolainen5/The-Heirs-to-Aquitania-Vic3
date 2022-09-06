@@ -18,11 +18,11 @@
 	s:STATE_TOMSK={
 		region_state:KRI={
 		}
-		region_state:CHI={
+		region_state:QIN={
 		}
 	}
 	s:STATE_TUVA={
-		region_state:CHI={
+		region_state:QIN={
 		}
 	}
 	s:STATE_TOBOLSK={
