@@ -463,7 +463,7 @@
 	}
 	s:STATE_PICARDY = {
 		create_state = {
-			country = c:NMR
+			country = c:FRA
 			owned_provinces = { xD0854D xA0A080 xE0A0C0 x106000 xE0A624 x10A0C0 xCF1F6D xC4C61A }
 		}
 		
@@ -504,7 +504,7 @@
 	}
 	s:STATE_BRITTANY = {
 		create_state = {
-			country = c:BRI
+			country = c:FRA
 			owned_provinces = { xD584A0 x32C2E2 xD0E080 xC4D7A2 x2368E7 x55607E x2BD902 xABF468 x10A040 xA0B0D1 xF91DD2 x706000 x85E5AC x50F4A7 }
 		}
 		
@@ -524,7 +524,7 @@
 			owned_provinces = { xE280FC x999D4B x8AE8D1 xEF00DF x5FEA2F xEF40A0 xD6A06D }
 		}
 		create_state = {
-			country = c:NMR
+			country = c:FRA
 			owned_provinces = { x7040A0 x075199 x669027 xEFBF20 x70C020 x5362AC }
 		}
 		
@@ -687,7 +687,7 @@
 			owned_provinces = { x5180A0 }
 		}
 		create_state = {
-			country = c:NMR
+			country = c:FRA
 			owned_provinces = { xB0A0C0 x916574 x2D32D7 x8080A0 xEF2040 x486F6A x3A5FB9 xD001A0 }
 		}
 

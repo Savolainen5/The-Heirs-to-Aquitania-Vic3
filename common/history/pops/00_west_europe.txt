@@ -447,7 +447,7 @@
 		}
 	}
 	s:STATE_PICARDY = {
-		region_state:NMR = {
+		region_state:FRA = {
 			create_pop = {
 				culture = wallonian
 				size = 2138408
@@ -516,7 +516,7 @@
 		}
 	}
 	s:STATE_BRITTANY = {
-		region_state:BRI = {
+		region_state:FRA = {
 			create_pop = {
 				culture = french
 				size = 392572
@@ -542,7 +542,7 @@
 				size = 924200
 			}
 		}
-		region_state:NMR = {
+		region_state:FRA = {
 			create_pop = {
 				culture = wallonian
 				size = 810200
@@ -657,7 +657,7 @@
 				size = 71996
 			}
 		}
-		region_state:NMR = {
+		region_state:FRA = {
 			create_pop = {
 				culture = wallonian
 				size = 1462000

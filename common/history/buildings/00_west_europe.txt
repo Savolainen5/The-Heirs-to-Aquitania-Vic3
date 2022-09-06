@@ -1564,7 +1564,7 @@
 		}
 	}
 	s:STATE_PICARDY={
-		region_state:NMR={
+		region_state:FRA={
 			create_building={
 				building="building_textile_mills"
 				level=5
@@ -1740,7 +1740,7 @@
 		}
 	}
 	s:STATE_BRITTANY={
-		region_state:BRI={
+		region_state:FRA={
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -1864,7 +1864,7 @@
 				activate_production_methods={ "pm_privately_owned" "pm_vineyards" "pm_tools_disabled" "pm_soil_enriching_farming" }
 			}
 		}
-		region_state:NMR={
+		region_state:FRA={
 			create_building={
 				building="building_food_industry"
 				level=2
@@ -2204,7 +2204,7 @@
 				activate_production_methods={ "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_line_infantry" }
 			}
 		}
-		region_state:NMR={
+		region_state:FRA={
 			create_building={
 				building="building_steel_mills"
 				level=3
