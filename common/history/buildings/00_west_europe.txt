@@ -820,7 +820,7 @@
 		}
 	}
 	s:STATE_HIGHLANDS={
-		region_state:SCO={
+		region_state:IRE={
 			create_building={
 				building="building_barracks"
 				level=5

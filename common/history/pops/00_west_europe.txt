@@ -258,7 +258,7 @@
 		}
 	}
 	s:STATE_HIGHLANDS = {
-		region_state:SCO = {
+		region_state:IRE = {
 			create_pop = {
 				culture = scottish
 				size = 672396

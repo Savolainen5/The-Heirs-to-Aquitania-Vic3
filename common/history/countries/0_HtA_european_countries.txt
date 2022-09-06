@@ -445,16 +445,6 @@
 		
 		effect_starting_politics_conservative = yes
 	}
-#	c:RUT = {
-#		effect_starting_technology_tier_2_tech = yes
-#		
-#		effect_starting_politics_conservative = yes
-#	}
-	c:SCO = {
-		effect_starting_technology_tier_2_tech = yes
-		
-		effect_starting_politics_conservative = yes
-	}
 	c:SLS = {
 		effect_starting_technology_tier_2_tech = yes
 		
