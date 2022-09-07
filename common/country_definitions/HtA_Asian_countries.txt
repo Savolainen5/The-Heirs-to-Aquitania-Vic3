@@ -18,6 +18,17 @@ JBL = { #Jabalpur
 	cultures = { marathi }
 	capital = STATE_CENTRAL_INDIA
 }
+MCH = { #Manchuria (name to be changed?)
+	color = { 255  254  124 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { manchu }
+	capital = STATE_NORTHERN_MANCHURIA
+	is_named_from_capital = yes
+}
 MDR = { #Madurai
 	color = { 150 140 230 }
 	
