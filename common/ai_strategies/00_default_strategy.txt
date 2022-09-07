@@ -849,12 +849,7 @@ ai_strategy_default = {
 					}
 					multiply = 0.25
 				}				
-			}				
-			
-			if = {
-				limit = { is_still_learning = yes }
-				multiply = 0
-			}		
+			}	
 		}
 		conquer = {
 			value = 0
@@ -1121,12 +1116,7 @@ ai_strategy_default = {
 					is_subject_of = scope:target_country	
 				}
 				multiply = 0.0	
-			}			
-			
-#			if = {
-#				limit = { is_still_learning = yes }
-#				multiply = 0
-#			}
+			}
 		}		
 		dominate = {
 			value = 0		
@@ -1281,11 +1271,6 @@ ai_strategy_default = {
 					is_subject_of = scope:target_country	
 				}
 				multiply = 0.0	
-			}
-			
-			if = {
-				limit = { is_still_learning = yes }
-				multiply = 0
 			}
 		}			
 	}

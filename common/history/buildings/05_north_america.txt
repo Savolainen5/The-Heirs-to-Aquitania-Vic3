@@ -379,12 +379,12 @@
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
-			create_building={
-				building="building_chemical_plants"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_artificial_fertilizers" "pm_privately_owned_industry" "pm_leblanc_process" }
-			}
+#			create_building={
+#				building="building_chemical_plants"
+#				level=1
+#				reserves=1
+#				activate_production_methods={ "pm_artificial_fertilizers" "pm_privately_owned_industry" "pm_leblanc_process" }
+#			}
 			create_building={
 				building="building_logging_camp"
 				level=2
@@ -455,12 +455,12 @@
 				reserves=1
 				activate_production_methods={ "pm_lathe" "pm_privately_owned_building_furniture_manufacturies" "pm_automation_disabled" "pm_no_luxuries" }
 			}
-			create_building={
-				building="building_chemical_plants"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_artificial_fertilizers" "pm_leblanc_process" "pm_privately_owned_industry" }
-			}
+#			create_building={
+#				building="building_chemical_plants"
+#				level=1
+#				reserves=1
+#				activate_production_methods={ "pm_artificial_fertilizers" "pm_leblanc_process" "pm_privately_owned_industry" }
+#			}
 			create_building={
 				building="building_coal_mine"
 				level=2
@@ -875,12 +875,12 @@
 	}
 	s:STATE_INOKIE={
 		region_state:SHC={
-			create_building={
-				building="building_lead_mine"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_atmospheric_engine_pump_building_lead_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_lead_mine" }
-			}
+#			create_building={
+#				building="building_lead_mine"
+#				level=3
+#				reserves=1
+#				activate_production_methods={ "pm_atmospheric_engine_pump_building_lead_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_lead_mine" }
+#			}
 			create_building={
 				building="building_maize_farm"
 				level=2
@@ -907,12 +907,12 @@
 				reserves=1
 				activate_production_methods={ "pm_muskets" "pm_cannons" "pm_merchant_guilds_building_arms_industry" }
 			}
-			create_building={
-				building="building_munition_plants"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_percussion_caps" "pm_privately_owned_industry" }
-			}
+#			create_building={
+#				building="building_munition_plants"
+#				level=1
+#				reserves=1
+#				activate_production_methods={ "pm_percussion_caps" "pm_privately_owned_industry" }
+#			}
 			create_building={
 				building="building_iron_mine"
 				level=1

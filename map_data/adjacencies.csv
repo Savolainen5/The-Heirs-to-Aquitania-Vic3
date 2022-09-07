@@ -2,7 +2,6 @@ From;To;Type;Through;start_x;start_y;stop_x;stop_y;adjacency_rule_name;Comment
 x20E080;x688E79;sea;-1;3980;2908;3964;2903;;Ireland-Scotland
 xD00000;x8CC57E;sea;-1;1371;2317;1381;2323;;None
 xF0B481;x4070C0;sea;-1;2254;2102;2249;2097;;None
-#x20E000;x37518E;sea;-1;4065;3084;4025;3041;;None
 x137263;x20E080;sea;-1;3995;2890;3995;2902;;None
 x4040DF;xA67CC8;sea;-1;-1;-1;4468;2970;;None
 xE041E0;x33CFEC;sea;-1;4583;3088;4591;3092;;None
