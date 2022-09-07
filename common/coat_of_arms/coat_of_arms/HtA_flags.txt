@@ -733,6 +733,16 @@ NAP = {
 	color1 = "brown"
 	color2 = "red_light"
 }
+##############################
+NET = { #Initial idea, before work on the server
+	pattern = "pattern_gironny_8.dds"
+	color1 = "red"
+	color2 = "blue"
+	colored_emblem = {
+		texture = "ce_cross_england.dds"
+		color1 = "white"
+	}
+}
 	
 ##############################
 NMR = {

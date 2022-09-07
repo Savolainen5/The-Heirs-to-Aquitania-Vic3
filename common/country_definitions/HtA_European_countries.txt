@@ -126,6 +126,17 @@ HIS = {
 	cultures = { spanish }
 	capital = STATE_TOLEDO
 }
+IRE = {
+	color = { 112  150  105 }
+	color = hsv360{ 128 83 49 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { irish }
+	capital = STATE_LEINSTER
+}
 JEB = { #Jebenhausen
 	color = { 182 84 153 }
 	

@@ -1,3 +1,4 @@
 colors = {
 	gaelic_green = hsv360 { 128 83 49 }
+	irish_green = rgb { 112 150 105 }
 } 

@@ -31,6 +31,37 @@ high_kingdom_ireland = {
 			owns_entire_state_region = STATE_LOWLANDS
 			owns_entire_state_region = STATE_HIGHLANDS
 		}
-		NOT = { exists = SCO }
+		NOT = { exists = c:SCO }
 	}
 }
+
+basic_ireland = {
+	#color = "irish_green"
+	color = "naples_purple"
+	
+	possible = {
+		exists = c:IRE
+		THIS = c:IRE
+		NOT = {
+			owns_entire_state_region = STATE_HIGHLANDS
+			owns_entire_state_region = STATE_LOWLANDS
+		}
+	}
+}
+
+#basic_ireland = {
+#	color = "irish_green"
+#	
+#	possible = {
+#		exists = c:IRE
+#		THIS = c:IRE
+#		OR = {
+#			exists = c:SCO
+#			AND = {
+#				NOT = { owns_entire_state_region = STATE_LOWLANDS }
+#				NOT = { owns_entire_state_region = STATE_HIGHLANDS }
+#			}
+#		}
+#	}
+#}
+	

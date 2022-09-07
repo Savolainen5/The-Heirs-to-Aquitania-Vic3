@@ -16,7 +16,7 @@ IRE = { #Ireland/Eire
 					owns_entire_state_region = STATE_HIGHLANDS
 				}
 			}
-			NOT = { exists = SCO }
+			NOT = { exists = c:SCO }
 		}
 	}
 }
