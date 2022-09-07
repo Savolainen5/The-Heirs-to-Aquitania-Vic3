@@ -410,7 +410,7 @@
 			create_pop = {
 				culture = mashriqi
 				religion = sunni
-				size = 144000
+				size = 72000
 			}
 			create_pop = {
 				culture = mashriqi
@@ -418,16 +418,20 @@
 				size = 43996
 			}
 			create_pop = {
-				culture = kurdish
-				size = 49600
-			}
-			create_pop = {
 				culture = bedouin
 				size = 16000
 			}
 		}
 		region_state:KUR = {
-		
+			create_pop = {
+				culture = kurdish
+				size = 49600
+			}
+			create_pop = {
+				culture = mashriqi
+				religion = sunni
+				size = 72000
+			}		
 		}
 	}
 	s:STATE_BASRA = {
@@ -622,7 +626,7 @@
 		region_state:PER = {
 			create_pop = {
 				culture = azerbaijani
-				size = 766700
+				size = 696700
 			}
 			create_pop = {
 				culture = sephardic
@@ -638,15 +642,6 @@
 				size = 112000
 			}
 			create_pop = {
-				culture = kurdish
-				religion = shiite
-				size = 79900
-			}
-			create_pop = {
-				culture = kurdish
-				size = 79996
-			}
-			create_pop = {
 				culture = armenian
 				size = 5996
 			}
@@ -657,7 +652,23 @@
 			}
 		}
 		region_state:KUR = {
-		
+			create_pop = {
+				culture = kurdish
+				religion = shiite
+				size = 79900
+			}
+			create_pop = {
+				culture = kurdish
+				size = 79996
+			}
+			create_pop = {
+				culture = azerbaijani
+				size = 72700
+			}
+			create_pop = {
+				culture = armenian
+				size = 2130
+			}
 		}
 	}
 	s:STATE_LURISTAN = {

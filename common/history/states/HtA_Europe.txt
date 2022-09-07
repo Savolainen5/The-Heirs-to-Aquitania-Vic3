@@ -521,11 +521,7 @@
 	s:STATE_CHAMPAGNE = {
 		create_state = {
 			country = c:FRA
-			owned_provinces = { xE280FC x999D4B x8AE8D1 xEF00DF x5FEA2F xEF40A0 xD6A06D }
-		}
-		create_state = {
-			country = c:FRA
-			owned_provinces = { x7040A0 x075199 x669027 xEFBF20 x70C020 x5362AC }
+			owned_provinces = { x7040A0 x075199 x669027 xEFBF20 x70C020 x5362AC xE280FC x999D4B x8AE8D1 xEF00DF x5FEA2F xEF40A0 xD6A06D }
 		}
 		
 		add_homeland = french
