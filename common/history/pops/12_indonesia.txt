@@ -15,10 +15,10 @@
 				size = 27404
 			}
 		}
-		region_state:SEL = {
+		region_state:SLT = {
 			create_pop = {
 				culture = malay
-				size = 209000
+				size = 219000
 			}
 			create_pop = {
 				pop_type = slaves
@@ -27,10 +27,25 @@
 			}
 			create_pop = {
 				culture = yue
-				size = 22000
+				size = 28000
 			}
 		}
 		region_state:PRK = {
+		}
+		region_state:SIA = {
+			create_pop = {
+				culture = malay
+				size = 268000
+			}
+			create_pop = {
+				culture = yue
+				size = 16800
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = yue
+				size = 4000
+			}
 			create_pop = {
 				culture = malay
 				size = 136000
@@ -43,21 +58,6 @@
 			create_pop = {
 				culture = yue
 				size = 9000
-			}
-		}
-		region_state:SIA = {
-			create_pop = {
-				culture = malay
-				size = 248000
-			}
-			create_pop = {
-				culture = yue
-				size = 12800
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = yue
-				size = 4000
 			}
 		}
 #		region_state:BIC = { #Probably needs incorporation into the below entry
@@ -81,7 +81,7 @@
 		region_state:AEN = {
 			create_pop = {
 				culture = malay
-				size = 40000
+				size = 10000
 			}
 			create_pop = {
 				culture = tamil
@@ -89,7 +89,7 @@
 			}
 			create_pop = {
 				culture = yue
-				size = 13996
+				size = 3996
 			}
 			create_pop = {
 				culture = british
