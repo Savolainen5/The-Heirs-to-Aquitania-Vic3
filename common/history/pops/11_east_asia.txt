@@ -249,7 +249,7 @@
 		}
 	}
 	s:STATE_OUTER_MANCHURIA = {
-		region_state:QIN = {
+		region_state:MCH = {
 			create_pop = {
 				culture = manchu
 				size = 1303996
@@ -285,7 +285,7 @@
 		}
 	}
 	s:STATE_NORTHERN_MANCHURIA = {
-		region_state:QIN = {
+		region_state:MCH = {
 			create_pop = {
 				culture = manchu
 				size = 2821200
@@ -740,7 +740,7 @@
 		}
 	}
 	s:STATE_ULIASTAI = {
-		region_state:QIN = {
+		region_state:MGL = {
 			create_pop = {
 				culture = mongol
 				size = 540608
@@ -756,7 +756,7 @@
 		}
 	}
 	s:STATE_URGA = {
-		region_state:QIN = {
+		region_state:MGL = {
 			create_pop = {
 				culture = mongol
 				size = 751104

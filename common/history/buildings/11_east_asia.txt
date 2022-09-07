@@ -312,7 +312,7 @@
 		}
 	}
 	s:STATE_OUTER_MANCHURIA={
-		region_state:QIN={
+		region_state:MCH={
 			create_building={
 				building="building_logging_camp"
 				level=4
@@ -368,7 +368,7 @@
 		}
 	}
 	s:STATE_NORTHERN_MANCHURIA={
-		region_state:QIN={
+		region_state:MCH={
 			create_building={
 				building="building_logging_camp"
 				level=6
@@ -1194,7 +1194,7 @@
 		}
 	}
 	s:STATE_ULIASTAI={
-		region_state:QIN={
+		region_state:MGL={
 			create_building={
 				building="building_livestock_ranch"
 				level=4
@@ -1204,7 +1204,7 @@
 		}
 	}
 	s:STATE_URGA={
-		region_state:QIN={
+		region_state:MGL={
 			create_building={
 				building="building_livestock_ranch"
 				level=6
