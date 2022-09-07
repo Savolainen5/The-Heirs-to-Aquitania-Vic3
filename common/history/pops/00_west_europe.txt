@@ -541,8 +541,6 @@
 				culture = french
 				size = 924200
 			}
-		}
-		region_state:FRA = {
 			create_pop = {
 				culture = wallonian
 				size = 810200

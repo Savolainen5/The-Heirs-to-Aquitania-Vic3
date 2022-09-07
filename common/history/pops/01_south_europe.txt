@@ -191,7 +191,8 @@
 			}
 		}
 	}
-	s:STATE_ASTURIAS = {
+	s:STATE_GALICIA = {
+		# 840792
 		region_state:HIS = {
 			create_pop = {
 				culture = galician
@@ -199,13 +200,22 @@
 			}
 			create_pop = {
 				culture = spanish
-				size = 414264
+				size = 12264
+			}
+		}
+	}
+	s:STATE_ASTURIAS = {
+		# please don't ask for a source
+		region_state:SPA = {
+			create_pop = {
+				culture = spanish
+				size = 614264
 			}
 			create_pop = {
 				culture = basque
 				size = 32000
 			}
-		}
+		}	
 	}
 	s:STATE_CASTILE = {
 		region_state:HIS = {
