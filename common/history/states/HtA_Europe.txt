@@ -1503,7 +1503,7 @@
 	}
 	s:STATE_SILESIA = {
 		create_state = {
-			country = c:SLS
+			country = c:BOH
 			owned_provinces = { xC108EA x732DC0 x6E617F x1B72C9 x272E48 xC00121 xCE74AB x94D624 xAF9F20 x88194B x90B12B x821F52 x5E9091 x7B2F62 }
 		}
 		
