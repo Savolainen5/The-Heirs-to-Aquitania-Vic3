@@ -67,7 +67,6 @@ types objective_types
 								
 							align = top|nobaseline
 							using = fontsize_xxl
-#							alwaystransparent = yes
 							multiline = yes
 							fontsize_min = 24
 							minimumsize = { 1480 580 }
