@@ -69,7 +69,27 @@ QIN = {	#Qin China
 	cultures = { manchu han } 
 	capital = STATE_XIAN
 }
+TER = { #Ternate
+	color = { 10 40 125 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { moluccan }
+	capital = STATE_MOLUCCAS
+}
 
+TID = { # Tidore
+	color = { 176  232  64 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { moluccan }
+	capital = STATE_WESTERN_NEW_GUINEA
+}
 SLT = { #Selat Sultanate
 	color = { 240 220 80 }
 	

@@ -735,14 +735,10 @@
 		}
 	}
 	s:STATE_MOLUCCAS = {
-		region_state:DEI = {
+		region_state:TID = {
 			create_pop = {
 				culture = moluccan
 				size = 96808
-			}
-			create_pop = {
-				culture = dutch
-				size = 388
 			}
 			create_pop = {
 				culture = moluccan
@@ -759,13 +755,8 @@
 				culture = melanesian
 				size = 14778
 			}
-			create_pop = {
-				culture = moluccan
-				religion = protestant
-				size = 7323
-			}
 		}
-		region_state:TID = {
+		region_state:TER = {
 			create_pop = {
 				culture = moluccan
 				size = 96508
@@ -786,6 +777,22 @@
 				size = 12078
 			}
 		}
+		region_state:NET = {
+			create_pop = {
+				culture = dutch
+				size = 388
+			}
+			create_pop = {
+				culture = moluccan
+				religion = protestant
+				size = 7323
+			}
+			create_pop = {
+				culture = melanesian
+				religion = protestant
+				size = 3061
+			}
+		}
 	}
 	s:STATE_CELEBES = {
 		region_state:SLW = {
@@ -802,6 +809,47 @@
 		region_state:IRE = {
 			create_pop = {
 				culture = moluccan
+				size = 1000
+			}
+			create_pop = {
+				culture = moluccan
+				religion = protestant
+				size = 2500
+			}
+			create_pop = {
+				culture = moluccan
+				religion = animist
+				size = 1700
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = moluccan
+				religion = animist
+				size = 600
+			}
+			create_pop = {
+				culture = irish
+				size = 270
+			}
+		}
+		region_state:TER = {
+			create_pop = {
+				culture = moluccan
+				size = 19678
+			}
+			create_pop = {
+				culture = moluccan
+				religion = animist
+				size = 28511
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = moluccan
+				religion = animist
+				size = 8378
+			}
+			create_pop = {
+				culture = moluccan
 				size = 11000
 			}
 			create_pop = {
@@ -810,19 +858,10 @@
 				size = 29263
 			}
 			create_pop = {
-				culture = moluccan
-				religion = protestant
-				size = 2500
-			}
-			create_pop = {
 				pop_type = slaves
 				culture = moluccan
 				religion = animist
 				size = 6830
-			}
-			create_pop = {
-				culture = irish
-				size = 270
 			}
 		}
 		region_state:BTN = {
@@ -840,23 +879,6 @@
 				culture = moluccan
 				religion = animist
 				size = 8378
-			}
-		}
-		region_state:TID = {
-			create_pop = {
-				culture = moluccan
-				size = 1000
-			}
-			create_pop = {
-				culture = moluccan
-				religion = animist
-				size = 1700
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = moluccan
-				religion = animist
-				size = 600
 			}
 		}
 	}

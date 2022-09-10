@@ -148,6 +148,10 @@
 			country = c:NHL
 			type = puppet
 		}
+		create_diplomatic_pact = {
+			country = c:TER
+			type = vassal
+		}
 	}
 	c:ROM = {
 		create_diplomatic_pact = {
