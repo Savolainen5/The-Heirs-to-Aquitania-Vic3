@@ -19,7 +19,6 @@
 		add_declared_interest = region_russia
 		add_declared_interest = region_anatolia
 		add_declared_interest = region_persia
-		add_declared_interest = region_indonesia
 	}
 	#c:BAV = {
 	#	add_declared_interest = region_north_germany	

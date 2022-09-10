@@ -127,7 +127,7 @@ HIS = {
 	capital = STATE_TOLEDO
 }
 IRE = {
-	color = { 112  150  105 }
+	#color = { 112  150  105 }
 	color = hsv360{ 128 83 49 }
 	
 	country_type = recognized
