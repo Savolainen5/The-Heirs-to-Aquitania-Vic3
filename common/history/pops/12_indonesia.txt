@@ -1,36 +1,18 @@
 ﻿POPS = {
 	s:STATE_MALAYA = {
-		region_state:JOH = {
+		region_state:NET = {
 			create_pop = {
 				culture = malay
-				size = 399600
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = malay
-				size = 11000
+				size = 89000
 			}
 			create_pop = {
 				culture = yue
-				size = 27404
-			}
-		}
-		region_state:SLT = {
-			create_pop = {
-				culture = malay
-				size = 219000
+				size = 9000
 			}
 			create_pop = {
-				pop_type = slaves
-				culture = malay
-				size = 7000
+				culture = dutch
+				size = 1396
 			}
-			create_pop = {
-				culture = yue
-				size = 28000
-			}
-		}
-		region_state:PRK = {
 		}
 		region_state:SIA = {
 			create_pop = {
@@ -48,7 +30,7 @@
 			}
 			create_pop = {
 				culture = malay
-				size = 136000
+				size = 149000
 			}
 			create_pop = {
 				pop_type = slaves
@@ -56,8 +38,26 @@
 				size = 2000
 			}
 			create_pop = {
+				culture = malay
+				size = 399600
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = malay
+				size = 11000
+			}
+			create_pop = {
 				culture = yue
-				size = 9000
+				size = 27404
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = malay
+				size = 7000
+			}
+			create_pop = {
+				culture = yue
+				size = 28000
 			}
 		}
 #		region_state:BIC = { #Probably needs incorporation into the below entry
@@ -508,7 +508,7 @@
 		region_state:DEI = {
 			create_pop = {
 				culture = sumatran
-				size = 130123
+				size = 120123
 			}
 			create_pop = {
 				pop_type = slaves
@@ -586,6 +586,16 @@
 				size = 1004
 			}
 		}
+		region_state:AEN = {
+			create_pop = {
+				culture = sumatran
+				size = 101002
+			}
+			create_pop = {
+				culture = yue
+				size = 1004
+			}
+		}	
 	}
 	s:STATE_SOUTH_SUMATRA = {
 		region_state:DEI = {
@@ -623,7 +633,7 @@
 		}
 	}
 	s:STATE_ACEH = {
-		region_state:ACE = {
+		region_state:DEL = {
 			create_pop = {
 				culture = sumatran
 				size = 255996
@@ -646,8 +656,6 @@
 				religion = sunni
 				size = 14002
 			}
-		}
-		region_state:SAK = {
 			create_pop = {
 				culture = sumatran
 				size = 116019
@@ -670,8 +678,6 @@
 				religion = sunni
 				size = 8402
 			}
-		}
-		region_state:DEI = {
 			create_pop = {
 				culture = sumatran
 				size = 12040
@@ -793,7 +799,7 @@
 				size = 347996
 			}
 		}
-		region_state:DEI = {
+		region_state:IRE = {
 			create_pop = {
 				culture = moluccan
 				size = 11000
@@ -815,7 +821,7 @@
 				size = 6830
 			}
 			create_pop = {
-				culture = dutch
+				culture = irish
 				size = 270
 			}
 		}

@@ -8,6 +8,16 @@
 	cultures = { marathi }
 	capital = STATE_BOMBAY
 }
+DEL = { #Kingdom of Deli
+	color = { 245 245 40 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { sumatran }
+	capital = STATE_ACEH 
+}
 JBL = { #Jabalpur
 	color = { 250 40 90 }
 	
