@@ -482,6 +482,25 @@ DAU_dictatorship = {
 	}
 }
 ##############################
+DEL = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow_light"
+	colored_emblem = {
+		texture = "ce_indonesian_flower.dds"
+		color1 = "orange"
+		instance = {
+			position = { 0.225 0.275 } scale = { 0.55 0.55 }
+		}
+	}
+	colored_emblem = {
+		texture = "ce_indonesian_flower.dds"
+		color1 = "orange"
+		instance = {
+			position = { 0.225 0.725 } scale = { 0.55 0.55 }
+		}
+	}
+}
+##############################
 HHB = {
 	pattern = "pattern_solid.tga"
 	color1 = "azure"
