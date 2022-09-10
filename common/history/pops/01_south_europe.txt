@@ -206,7 +206,7 @@
 	}
 	s:STATE_ASTURIAS = {
 		# please don't ask for a source
-		region_state:SPA = {
+		region_state:HIS = {
 			create_pop = {
 				culture = spanish
 				size = 614264
