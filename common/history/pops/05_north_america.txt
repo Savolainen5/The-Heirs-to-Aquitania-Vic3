@@ -1294,6 +1294,12 @@
 				size = 2000
 			}
 		}
+		region_state:ATB = {
+			create_pop = {
+				culture = athabaskan
+				size = 2000
+			}
+		}
 	}
 	s:STATE_NORDLYSLAND = {
 		region_state:ASL = {

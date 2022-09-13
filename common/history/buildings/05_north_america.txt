@@ -1430,6 +1430,8 @@
 	s:STATE_DENEDE={
 		region_state:NDN={
 		}
+		region_state:ATB={
+		}
 	}
 	s:STATE_NORDLYSLAND={
 		region_state:ASL={
