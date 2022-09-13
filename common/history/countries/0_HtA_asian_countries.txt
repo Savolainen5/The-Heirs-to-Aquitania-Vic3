@@ -23,7 +23,29 @@
 			add_ruling_interest_group = yes
 		}
 	}
-	c:DEL = {
+	c:BIM = { #Bima
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+
+		ig:ig_devout = { 
+			set_interest_group_name = ig_sunni_madrasahs
+		}
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+	}
+	c:BTK = { #Batak
+		effect_starting_technology_tier_6_tech = yes
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+
+		ig:ig_devout = { 
+			set_interest_group_name = ig_sunni_madrasahs
+		}
+	}
+	c:IDG = { #Indragiri
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
 		activate_law = law_type:law_debt_slavery
@@ -67,6 +89,32 @@
 			add_ruling_interest_group = yes
 		}
 	}
+	c:MED = { #Medan
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+
+		ig:ig_devout = { 
+			set_interest_group_name = ig_sunni_madrasahs
+		}
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+	}
+	c:MEL = { #Melayu
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+
+		ig:ig_devout = { 
+			set_interest_group_name = ig_sunni_madrasahs
+		}
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+	}
 	c:MGL = {
 		effect_starting_technology_tier_4_tech = yes
 		
@@ -76,6 +124,15 @@
 			set_interest_group_name = ig_mahayana_monks
 			remove_ideology = ideology_moralist
 			add_ideology = ideology_buddhist_moralist
+		}
+	}
+	c:MKB = { #Minangkabau
+		effect_starting_technology_tier_6_tech = yes
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+
+		ig:ig_devout = { 
+			set_interest_group_name = ig_sunni_madrasahs
 		}
 	}
 	c:MUG = {
@@ -90,6 +147,15 @@
 
 		ig:ig_devout = {
 			set_interest_group_name = ig_sunni_madrasahs 
+		}
+	}
+	c:NIA = { #Nias
+		effect_starting_technology_tier_6_tech = yes
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+
+		ig:ig_devout = { 
+			set_interest_group_name = ig_sunni_madrasahs
 		}
 	}
 	c:NNY = {
@@ -185,7 +251,33 @@
 #			add_ruling_interest_group = yes
 #		}
 #	}
+	c:SUR = { #Surabaya
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+
+		ig:ig_devout = { 
+			set_interest_group_name = ig_sunni_madrasahs
+		}
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+	}
 	c:TER = {
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_debt_slavery
+
+		ig:ig_devout = { 
+			set_interest_group_name = ig_sunni_madrasahs
+		}
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+	}
+	c:TRO = { #Trowulan
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
 		activate_law = law_type:law_debt_slavery

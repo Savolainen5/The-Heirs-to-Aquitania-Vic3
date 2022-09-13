@@ -8,7 +8,37 @@
 	cultures = { marathi }
 	capital = STATE_BOMBAY
 }
-DEL = { #Kingdom of Deli
+BIM = { #Bima
+	color = { 210 155 230 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { moluccan }
+	capital = STATE_SUNDA_ISLANDS 
+}
+BTK = { #Batak
+	color = { 20 10 160 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { batak }
+	capital = STATE_ACEH
+}
+IDG = { #Kingdom of Indragiri
+	color = { 130 180 140 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { sumatran }
+	capital = STATE_NORTH_SUMATRA 
+}
+MED = { #Kingdom of Medan
 	color = { 245 245 40 }
 	
 	country_type = unrecognized
@@ -17,6 +47,36 @@ DEL = { #Kingdom of Deli
 	
 	cultures = { sumatran }
 	capital = STATE_ACEH 
+}
+MEL = { #Kingdom of Melayu
+	color = { 80 200 210 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { sumatran }
+	capital = STATE_SOUTH_SUMATRA 
+}
+MKB = { #Minangkabau
+	color = { 50 150 10 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { sumatran }
+	capital = STATE_NORTH_SUMATRA
+}
+NIA = { #Nias
+	color = { 120 80 190 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { sumatran }
+	capital = STATE_NORTH_SUMATRA
 }
 JBL = { #Jabalpur
 	color = { 250 40 90 }
@@ -69,6 +129,26 @@ QIN = {	#Qin China
 	cultures = { manchu han } 
 	capital = STATE_XIAN
 }
+SLT = { #Selat Sultanate
+	color = { 240 220 80 }
+	
+	country_type = unrecognized
+
+	tier = kingdom
+	
+	cultures = { malay }
+	capital = STATE_MALAYA
+}
+SUR = { #Surabaya
+	color = { 130 140 165 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { javan }
+	capital = STATE_EAST_JAVA 
+}
 TER = { #Ternate
 	color = { 10 40 125 }
 	
@@ -90,13 +170,13 @@ TID = { # Tidore
 	cultures = { moluccan }
 	capital = STATE_WESTERN_NEW_GUINEA
 }
-SLT = { #Selat Sultanate
-	color = { 240 220 80 }
+TRO = { #Trowulan
+	color = { 210 180 115 }
 	
 	country_type = unrecognized
-
+	
 	tier = kingdom
 	
-	cultures = { malay }
-	capital = STATE_MALAYA
+	cultures = { javan }
+	capital = STATE_CENTRAL_JAVA 
 }
