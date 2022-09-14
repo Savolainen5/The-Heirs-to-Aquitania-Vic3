@@ -101,7 +101,7 @@
 		region_state:BRU = {
 			create_pop = {
 				culture = dayak
-				size = 75000
+				size = 65000
 			}
 			create_pop = {
 				culture = dayak
@@ -111,7 +111,7 @@
 			create_pop = {
 				pop_type = slaves
 				culture = dayak
-				size = 18000
+				size = 16200
 			}
 			create_pop = {
 				culture = yue
@@ -119,7 +119,7 @@
 			}
 			create_pop = {
 				culture = bornean
-				size = 100196
+				size = 900196
 			}
 		}
 		region_state:SUL = {
@@ -143,14 +143,10 @@
 			}
 			create_pop = {
 				culture = bornean
-				size = 15200
-			}
-			create_pop = {
-				culture = yue
-				size = 400
+				size = 9200
 			}
 		}
-		region_state:BLG = {
+		region_state:BGS = {
 			create_pop = {
 				culture = dayak
 				size = 7000
@@ -167,12 +163,35 @@
 			}
 			create_pop = {
 				culture = bornean
-				size = 1000
+				size = 7000
+			}
+			create_pop = {
+				culture = yue
+				size = 400
+			}
+		}
+		region_state:SRW={
+			create_pop = {
+				culture = dayak
+				size = 10000
+			}
+			create_pop = {
+				culture = bornean
+				size = 10196
+			}
+			create_pop = {
+				culture = yue
+				size = 431
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = dayak
+				size = 1800
 			}
 		}
 	}
 	s:STATE_WEST_BORNEO = {
-		region_state:LAN = {
+		region_state:SRW = {
 			create_pop = {
 				culture = bornean
 				size = 32000
@@ -190,33 +209,6 @@
 				culture = hakka
 				size = 26000
 			}
-		}
-		region_state:DEI = {
-			create_pop = {
-				culture = bornean
-				size = 39660
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = bornean
-				size = 4000
-			}
-			create_pop = {
-				culture = dayak
-				size = 8000
-			}
-			create_pop = {
-				culture = dayak
-				religion = sunni
-				size = 1000
-			}
-			create_pop = {
-				culture = dayak
-				religion = protestant
-				size = 2000
-			}
-		}
-		region_state:SMB = {
 			create_pop = {
 				culture = bornean
 				size = 60000
@@ -239,8 +231,6 @@
 				culture = hakka
 				size = 1000
 			}
-		}
-		region_state:PON = {
 			create_pop = {
 				culture = bornean
 				size = 78000
@@ -264,24 +254,49 @@
 				size = 1200
 			}
 		}
-		region_state:STG = {
+		region_state:BGS = {
 			create_pop = {
 				culture = bornean
-				size = 20000
+				size = 31660
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = bornean
-				size = 1400
+				size = 2000
 			}
 			create_pop = {
 				culture = dayak
-				size = 21000
+				size = 5000
 			}
 			create_pop = {
 				culture = dayak
 				religion = sunni
-				size = 3000
+				size = 500
+			}
+			create_pop = {
+				culture = dayak
+				religion = protestant
+				size = 2000
+			}
+		}
+		region_state:DYK = {
+			create_pop = {
+				culture = bornean
+				size = 28000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = bornean
+				size = 3400
+			}
+			create_pop = {
+				culture = dayak
+				size = 24000
+			}
+			create_pop = {
+				culture = dayak
+				religion = sunni
+				size = 3500
 			}
 			create_pop = {
 				pop_type = slaves
@@ -291,34 +306,14 @@
 		}
 	}
 	s:STATE_EAST_BORNEO = {
-		region_state:BNJ = {
+		region_state:BGS = {
 			create_pop = {
 				culture = bornean
 				size = 107592
 			}
 			create_pop = {
-				pop_type = slaves
-				culture = bornean
-				size = 30000
-			}
-			create_pop = {
-				culture = dayak
-				size = 11200
-			}
-			create_pop = {
-				culture = dayak
-				religion = sunni
-				size = 10000
-			}
-			create_pop = {
 				culture = yue
 				size = 800
-			}
-		}
-		region_state:BLG = {
-			create_pop = {
-				culture = dayak
-				size = 42000
 			}
 			create_pop = {
 				culture = bornean
@@ -334,28 +329,11 @@
 				culture = dayak
 				size = 8000
 			}
-		}
-		region_state:KTI = {
-			create_pop = {
-				culture = dayak
-				size = 80000
-			}
-			create_pop = {
-				culture = dayak
-				religion = sunni
-				size = 6000
-			}
 			create_pop = {
 				pop_type = slaves
 				culture = dayak
 				size = 9000
 			}
-			create_pop = {
-				culture = bornean
-				size = 70000
-			}
-		}
-		region_state:DEI = {
 			create_pop = {
 				culture = bornean
 				size = 10200
@@ -365,6 +343,17 @@
 				culture = bornean
 				size = 2000
 			}
+			create_pop = {
+				culture = dayak
+				religion = sunni
+				size = 6000
+			}
+			create_pop = {
+				culture = dayak
+				size = 11200
+			}
+		}
+		region_state:DYK = {
 			create_pop = {
 				culture = dayak
 				size = 5000
@@ -378,6 +367,28 @@
 				culture = dayak
 				religion = protestant
 				size = 500
+			}
+			create_pop = {
+				culture = dayak
+				size = 80000
+			}
+			create_pop = {
+				culture = dayak
+				religion = sunni
+				size = 10000
+			}
+			create_pop = {
+				culture = dayak
+				size = 42000
+			}
+			create_pop = {
+				culture = bornean
+				size = 70000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = bornean
+				size = 30000
 			}
 		}
 	}
@@ -727,7 +738,7 @@
 			}
 			create_pop = {
 				culture = sumatran
-				size = 116019
+				size = 46019
 			}
 			create_pop = {
 				culture = batak
@@ -775,12 +786,26 @@
 				size = 160
 			}
 			create_pop = {
-				culture = dutch
+				culture = british
 				size = 210
 			}
 			create_pop = {
 				culture = yue
 				size = 3600
+			}
+		}
+		region_state:NET = {
+			create_pop = {
+				culture = sumatran
+				size = 68419
+			}
+			create_pop = {
+				culture = dutch
+				size = 210
+			}
+			create_pop = {
+				culture = yue
+				size = 4200
 			}
 		}
 	}
@@ -850,25 +875,25 @@
 				size = 12078
 			}
 		}
-		region_state:NET = {
+		region_state:POR = {
 			create_pop = {
-				culture = dutch
+				culture = portuguese
 				size = 388
 			}
 			create_pop = {
 				culture = moluccan
-				religion = protestant
+				religion = catholic
 				size = 7323
 			}
 			create_pop = {
 				culture = melanesian
-				religion = protestant
+				religion = catholic
 				size = 3061
 			}
 		}
 	}
 	s:STATE_CELEBES = {
-		region_state:SLW = {
+		region_state:BGS = {
 			create_pop = {
 				culture = moluccan
 				size = 101200

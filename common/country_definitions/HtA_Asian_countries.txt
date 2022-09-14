@@ -1,4 +1,14 @@
-﻿BIJ = { #Bijapur Kingdom 				#I guess they could be Hindu?
+﻿BGS = { #Bugis Confederation
+	color = { 200 15 15 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { moluccan }
+	capital = STATE_CELEBES 
+}
+BIJ = { #Bijapur Kingdom 				#I guess they could be Hindu?
 	color = { 220 70 20 }
 	
 	country_type = unrecognized
@@ -27,6 +37,16 @@ BTK = { #Batak
 	
 	cultures = { batak }
 	capital = STATE_ACEH
+}
+DYK = { #Dayak
+	color = { 205 175 140 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { dayak }
+	capital = STATE_EAST_BORNEO
 }
 IDG = { #Kingdom of Indragiri
 	color = { 130 180 140 }
@@ -138,6 +158,16 @@ SLT = { #Selat Sultanate
 	
 	cultures = { malay }
 	capital = STATE_MALAYA
+}
+SRW = { #Sarawak
+	color = { 200 10 150 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { bornean }
+	capital = STATE_WEST_BORNEO 
 }
 SUR = { #Surabaya
 	color = { 130 140 165 }

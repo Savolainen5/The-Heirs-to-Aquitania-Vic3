@@ -90,25 +90,19 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-	}
-	s:STATE_WEST_BORNEO={
-		region_state:LAN={
+		region_state:BGS={
 			create_building={
-				building="building_barracks"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
-			}
-			create_building={
-				building="building_port"
+				building="building_fishing_wharf"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}			
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
+			}
 		}
-		region_state:DEI={
+		region_state:SRW={
 		}
-		region_state:PON={
+	}
+	s:STATE_WEST_BORNEO={
+		region_state:SRW={
 			create_building={
 				building="building_dye_plantation"
 				level=2
@@ -116,49 +110,43 @@
 				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
 			create_building={
+				building="building_rice_farm"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned_building_rice_farm" "pm_tools_disabled" "pm_fig_orchards" }
+			}
+			create_building={
+				building="building_barracks"
+				level=10
+				reserves=1
+				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
+			create_building={
 				building="building_port"
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_anchorage" }
-			}
-			create_building={
-				building="building_rice_farm"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned_building_rice_farm" "pm_tools_disabled" "pm_fig_orchards" }
-			}
-			create_building={
-				building="building_barracks"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}			
 		}
-		region_state:SMB={
-			create_building={
-				building="building_barracks"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
-			}
-		}
-		region_state:STG={
-			create_building={
-				building="building_barracks"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
-			}
+		region_state:BGS={
 			create_building={
 				building="building_rice_farm"
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned_building_rice_farm" "pm_tools_disabled" "pm_fig_orchards" }
+			}
+		}
+		region_state:DYK={
+			create_building={
+				building="building_barracks"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
 	}
 	s:STATE_EAST_BORNEO={
-		region_state:DEI={
+		region_state:BGS={
 			create_building={
 				building="building_rice_farm"
 				level=1
@@ -166,29 +154,11 @@
 				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned_building_rice_farm" "pm_tools_disabled" "pm_fig_orchards" }
 			}
 			create_building={
-				building="building_port"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
-			}			
-		}
-		region_state:BLG={
-			create_building={
 				building="building_barracks"
-				level=2
+				level=10
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
-		}
-		region_state:KTI={
-			create_building={
-				building="building_barracks"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
-			}
-		}
-		region_state:BNJ={
 			create_building={
 				building="building_tea_plantation"
 				level=1
@@ -208,11 +178,13 @@
 				activate_production_methods={ "default_building_banana_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
 			create_building={
-				building="building_barracks"
-				level=4
+				building="building_port"
+				level=1
 				reserves=1
-				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+				activate_production_methods={ "pm_anchorage" }
 			}
+		}
+		region_state:DYK={
 		}
 	}
 	s:STATE_WEST_JAVA={
@@ -704,6 +676,14 @@
 				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
 		}
+		region_state:NET = {
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_anchorage" }
+			}
+		}
 	}
 	s:STATE_WESTERN_NEW_GUINEA={
 		region_state:TID={
@@ -774,7 +754,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
-		region_state:NET={
+		region_state:POR={
 		}
 	}
 	s:STATE_CELEBES={
@@ -806,6 +786,14 @@
 				level=1
 				reserves=1
 				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned" }
+			}
+		}
+		region_state:BGS={
+			create_building={
+				building="building_barracks"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
 	}

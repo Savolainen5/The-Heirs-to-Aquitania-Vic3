@@ -219,5 +219,11 @@
 			type = vassal
 		}
 	}
+	c:TER = {
+		create_diplomatic_pact = {
+			country = c:BTN
+			type = vassal
+		}
+	}
 
 }
