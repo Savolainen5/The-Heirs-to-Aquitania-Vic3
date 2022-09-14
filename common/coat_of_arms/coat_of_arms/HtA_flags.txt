@@ -19,7 +19,7 @@ AEN = {
 		color1 = color1
 	}
 	textured_emblem = {
-		texture = "te_wyvern_woven.dds"
+		texture = "te_wyvern.dds"
 	}
 }
 AEN_fascist = {							#Very much a work in progress
@@ -107,7 +107,7 @@ AEN_absolute_monarchy = {
 	color1 = "red"
 	
 	textured_emblem = {
-		texture = "te_wyvern_woven.dds"
+		texture = "te_wyvern.dds"
 	}
 }
 
@@ -129,7 +129,7 @@ AEN_canton = {
 		color1 = color1
 	}
 	textured_emblem = {
-		texture = "te_wyvern_woven.dds"
+		texture = "te_wyvern.dds"
 	}
 }
 
