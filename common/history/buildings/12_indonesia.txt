@@ -666,7 +666,7 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-		region_state:BRK = {
+		region_state:BTK = {
 		}
 		region_state:AEN = {
 			create_building = {

@@ -9,6 +9,21 @@
 	undesirable_infamy_level = 25
 	unacceptable_infamy_level = 50
 	
+	ideological_opinion_effect_mult = 1.5
+	
+	wargoal_maneuvers_fraction = {
+		value = -0.1
+	}	
+	
+	diplomatic_play_neutrality = 0 # Added to base neutrality in diplomatic plays
+	diplomatic_play_boldness = -25 # Added to base boldness in diplomatic plays	
+	
+	# Added to value from default strategy
+	bravery = {
+		value = -0.25
+	}
+	
+	# Added to value from default strategy
 	aggression = {
 		value = 0.25	
 
@@ -18,14 +33,20 @@
 				scope:target_country = { is_country_type = unrecognized } 
 			}
 			add = 0.5
-		}		
+		}
+
+		# Less aggressive against countries we're just antagonistic against, rather than belligerent/domineering
+		if = {
+			limit = {
+				has_attitude = {
+					who = scope:target_country
+					attitude = antagonistic
+				}					
+			}
+			multiply = 0.1
+		}			
 	}
 	 
-	goal_weights = {
-		handle_diplo_plays = 2.0
-		create_colonies = 0.75	
-	}
-	
 	building_group_weights = {
 		bg_technology = 1.25
 	}
@@ -37,11 +58,10 @@
 	}
 	
 	wargoal_weights = {
-		make_puppet = 1.5
-		make_dominion = 1.5
-		make_vassal = 1.5
 		regime_change = 2.0
 		humiliation = 2.0
+		liberate_subject = 1.5
+		liberate_country = 1.5
 	}
 
 	possible = {
@@ -64,12 +84,26 @@ ai_strategy_territorial_expansion = {
 	type = diplomatic
 	
 	wanted_army_ratio = 150000 # 1 barrack per 150k incorporated population
-	wanted_navy_ratio = 400000 # 1 naval base per 400k coastal incorporated population
-		
+	wanted_navy_ratio = 400000 # 1 naval base per 400k coastal incorporated population	
 	
 	undesirable_infamy_level = 50
 	unacceptable_infamy_level = 100
 	
+	ideological_opinion_effect_mult = 0.75
+	
+	wargoal_maneuvers_fraction = {
+		value = 0.15
+	}		
+	
+	diplomatic_play_neutrality = 25 # Added to base neutrality in diplomatic plays
+	diplomatic_play_boldness = 25 # Added to base boldness in diplomatic plays		
+	
+	# Added to value from default strategy
+	bravery = {
+		value = 0.25
+	}
+	
+	# Added to value from default strategy
 	aggression = {
 		value = 1
 		
@@ -79,7 +113,18 @@ ai_strategy_territorial_expansion = {
 				scope:target_country = { is_country_type = unrecognized } 
 			}
 			add = 2
-		}		
+		}	
+
+		# Less aggressive against countries we're just antagonistic against, rather than belligerent/domineering
+		if = {
+			limit = {
+				has_attitude = {
+					who = scope:target_country
+					attitude = antagonistic
+				}					
+			}
+			multiply = 0.25
+		}			
 	}
 
 	building_group_weights = {
@@ -123,6 +168,31 @@ ai_strategy_colonial_expansion = {
 	wanted_army_ratio = 200000 # 1 barrack per 200k incorporated population
 	wanted_navy_ratio = 200000 # 1 naval base per 200k coastal incorporated population
 	
+	undesirable_infamy_level = 25
+	unacceptable_infamy_level = 50	
+	
+	ideological_opinion_effect_mult = 1.0
+	
+	wargoal_maneuvers_fraction = {
+		value = 0
+	
+		if = {
+			limit = {
+				scope:enemy_country = { is_country_type = unrecognized }
+			}
+			add = 0.25
+		}
+	}		
+	
+	diplomatic_play_neutrality = 25 # Added to base neutrality in diplomatic plays
+	diplomatic_play_boldness = -15 # Added to base boldness in diplomatic plays		
+	
+	# Added to value from default strategy
+	bravery = {
+		value = 0.1
+	}
+	
+	# Added to value from default strategy
 	aggression = {
 		value = 0.5
 		if = {
@@ -131,18 +201,22 @@ ai_strategy_colonial_expansion = {
 				scope:target_country = { is_country_type = unrecognized } 
 			}
 			add = 2.5
-		}	
+		}
+
+		# Less aggressive against countries we're just antagonistic against, rather than belligerent/domineering
+		if = {
+			limit = {
+				has_attitude = {
+					who = scope:target_country
+					attitude = antagonistic
+				}					
+			}
+			multiply = 0.1
+		}			
 	}
-	
-	undesirable_infamy_level = 25
-	unacceptable_infamy_level = 50
 	
 	building_group_weights = {
 		bg_navy = 1.5
-	}
-	
-	goal_weights = {
-		create_colonies = 2.0
 	}
 	
 	colonial_interest_ratio = {
@@ -250,17 +324,26 @@ ai_strategy_armed_isolationism = {
 	wanted_army_ratio = 150000 # 1 barrack per 150k incorporated population
 	wanted_navy_ratio = 500000 # 1 naval base per 500k coastal incorporated population
 	
-	aggression = {
-		value = 0
+	undesirable_infamy_level = 1
+	unacceptable_infamy_level = 25	
+	
+	ideological_opinion_effect_mult = 0.75
+	
+	wargoal_maneuvers_fraction = {
+		value = -0.1
+	}		
+	
+	diplomatic_play_neutrality = 50 # Added to base neutrality in diplomatic plays
+	diplomatic_play_boldness = 0 # Added to base boldness in diplomatic plays		
+	
+	# Added to value from default strategy
+	bravery = {
+		value = -0.5
 	}
 	
-	undesirable_infamy_level = 1
-	unacceptable_infamy_level = 25
-	
-	goal_weights = {
-		start_diplo_plays = 0.0
-		create_colonies = 0.0
-		handle_diplo_plays = 0.5
+	# Added to value from default strategy
+	aggression = {
+		value = 0
 	}
 	
 	building_group_weights = {
@@ -322,6 +405,31 @@ ai_strategy_economic_imperialism = {
 	wanted_army_ratio = 200000 # 1 barrack per 200k incorporated population
 	wanted_navy_ratio = 200000 # 1 naval base per 200k coastal incorporated population
 	
+	undesirable_infamy_level = 25
+	unacceptable_infamy_level = 50	
+	
+	ideological_opinion_effect_mult = 1.0
+	
+	wargoal_maneuvers_fraction = {
+		value = 0
+	
+		if = {
+			limit = {
+				scope:enemy_country = { is_country_type = unrecognized }
+			}
+			add = 0.25
+		}
+	}			
+	
+	diplomatic_play_neutrality = 10 # Added to base neutrality in diplomatic plays
+	diplomatic_play_boldness = -10 # Added to base boldness in diplomatic plays		
+	
+	# Added to value from default strategy
+	bravery = {
+		value = -0.1
+	}
+	
+	# Added to value from default strategy
 	aggression = {
 		value = 0.5
 		if = {
@@ -330,7 +438,8 @@ ai_strategy_economic_imperialism = {
 				scope:target_country = { is_country_type = unrecognized } 
 			}
 			add = 1.5
-		}	
+		}
+		
 		if = {
 			limit = { 
 				has_technology_researched = civilizing_mission
@@ -340,18 +449,22 @@ ai_strategy_economic_imperialism = {
 				} 
 			}
 			add = 10
-		}			
+		}
+
+		# Less aggressive against countries we're just antagonistic against, rather than belligerent/domineering
+		if = {
+			limit = {
+				has_attitude = {
+					who = scope:target_country
+					attitude = antagonistic
+				}					
+			}
+			multiply = 0.25
+		}		
 	}
-	
-	undesirable_infamy_level = 25
-	unacceptable_infamy_level = 50
 	
 	building_group_weights = {
 		bg_navy = 1.5
-	}
-	
-	goal_weights = {
-		create_colonies = 1.5
 	}
 	
 	colonial_interest_ratio = {
@@ -432,7 +545,7 @@ ai_strategy_economic_imperialism = {
 	}
 
 	wargoal_weights = {
-		take_treaty_port = 5.0
+		take_treaty_port = 1.5
 		make_puppet = 1.5
 		make_dominion = 1.5	
 		make_vassal = 1.5	
@@ -499,22 +612,66 @@ ai_strategy_unify_germany = {
 	
 	wanted_army_ratio = 150000 # 1 barrack per 150k incorporated population
 	wanted_navy_ratio = 400000 # 1 naval base per 400k coastal incorporated population
-		
 	
 	undesirable_infamy_level = 50
 	unacceptable_infamy_level = 100
 	
+	ideological_opinion_effect_mult = 0.5
+	
+	wargoal_maneuvers_fraction = {
+		value = 0.1
+	}		
+	
+	diplomatic_play_neutrality = 0 # Added to base neutrality in diplomatic plays
+	diplomatic_play_boldness = 50 # Added to base boldness in diplomatic plays		
+
+	# Added to value from default strategy
+	obligation_value = {
+		value = 0
+	
+		if = {
+			limit = { 
+				scope:target_country = {			
+					OR = {
+						country_has_primary_culture = cu:north_german
+						country_has_primary_culture = cu:south_german
+					}
+				}
+			}
+			add = 25
+		}
+	}	
+
+	# Added to value from default strategy
+	bravery = {
+		value = 0.5
+	}
+	
+	# Added to value from default strategy
 	aggression = {
 		value = 0.25
 		
 		if = {
 			limit = { 
-				OR = {
-					country_has_primary_culture = cu:north_german
-					country_has_primary_culture = cu:south_german
+				scope:target_country = {			
+					OR = {
+						country_has_primary_culture = cu:north_german
+						country_has_primary_culture = cu:south_german
+					}
 				}
 			}
 			add = 10
+		}
+
+		# Less aggressive against countries we're just antagonistic against, rather than belligerent/domineering
+		if = {
+			limit = {
+				has_attitude = {
+					who = scope:target_country
+					attitude = antagonistic
+				}					
+			}
+			multiply = 0.25
 		}		
 	}
 
@@ -624,8 +781,6 @@ ai_strategy_unify_germany = {
 	}
 }
 
-#ai_strategy_unify_italy = { #Removed temporarily since Italy isn't such a thing
-
 ai_strategy_unify_ethiopia = {
 	icon = "gfx/interface/icons/ai_strategy_icons/unification.dds"
 	
@@ -633,19 +788,57 @@ ai_strategy_unify_ethiopia = {
 	
 	wanted_army_ratio = 150000 # 1 barrack per 150k incorporated population
 	wanted_navy_ratio = 400000 # 1 naval base per 400k coastal incorporated population
-		
+	
 	undesirable_infamy_level = 50
 	unacceptable_infamy_level = 100
 	
+	ideological_opinion_effect_mult = 0.5
+	
+	wargoal_maneuvers_fraction = {
+		value = 0.1
+	}		
+		
+	diplomatic_play_neutrality = 0 # Added to base neutrality in diplomatic plays	
+	diplomatic_play_boldness = 50 # Added to base boldness in diplomatic plays
+		
+	# Added to value from default strategy
+	obligation_value = {
+		value = 0
+	
+		if = {
+			limit = { 
+				scope:target_country = { can_form_nation = ETH }
+			}
+			add = 25
+		}
+	}			
+		
+	# Added to value from default strategy
+	bravery = {
+		value = 0.5
+	}	
+	
+	# Added to value from default strategy
 	aggression = {
 		value = 0.5
 		
 		if = {
 			limit = { 
-				can_form_nation = ETH
+				scope:target_country = { can_form_nation = ETH }
 			}
 			add = 10
-		}		
+		}
+
+		# Less aggressive against countries we're just antagonistic against, rather than belligerent/domineering
+		if = {
+			limit = {
+				has_attitude = {
+					who = scope:target_country
+					attitude = antagonistic
+				}					
+			}
+			multiply = 0.25
+		}			
 	}
 
 	building_group_weights = {
@@ -731,7 +924,7 @@ ai_strategy_unify_ethiopia = {
 	}
 
 	weight = {
-		value = 25
+		value = 50
 		
 		if = {
 			limit = { NOT = { is_country_type = unrecognized } }
@@ -757,19 +950,57 @@ ai_strategy_unify_china = {
 	
 	wanted_army_ratio = 150000 # 1 barrack per 150k incorporated population
 	wanted_navy_ratio = 400000 # 1 naval base per 400k coastal incorporated population
-		
+	
 	undesirable_infamy_level = 50
 	unacceptable_infamy_level = 100
 	
+	ideological_opinion_effect_mult = 0.5
+	
+	wargoal_maneuvers_fraction = {
+		value = 0.1
+	}		
+		
+	diplomatic_play_neutrality = 0 # Added to base neutrality in diplomatic plays	
+	diplomatic_play_boldness = 50 # Added to base boldness in diplomatic plays
+		
+	# Added to value from default strategy
+	obligation_value = {
+		value = 0
+	
+		if = {
+			limit = { 
+				scope:target_country = { can_form_nation = CHI }
+			}
+			add = 25
+		}
+	}			
+		
+	# Added to value from default strategy
+	bravery = {
+		value = 0.5
+	}	
+	
+	# Added to value from default strategy
 	aggression = {
 		value = 0.5
 		
 		if = {
 			limit = { 
-				can_form_nation = CHI
+				scope:target_country = { can_form_nation = CHI }
 			}
 			add = 10
-		}		
+		}
+
+		# Less aggressive against countries we're just antagonistic against, rather than belligerent/domineering
+		if = {
+			limit = {
+				has_attitude = {
+					who = scope:target_country
+					attitude = antagonistic
+				}					
+			}
+			multiply = 0.25
+		}			
 	}
 
 	building_group_weights = {
@@ -853,7 +1084,7 @@ ai_strategy_unify_china = {
 	}
 
 	weight = {
-		value = 25
+		value = 50
 		
 		if = {
 			limit = { NOT = { is_country_type = unrecognized } }
@@ -870,4 +1101,4 @@ ai_strategy_unify_china = {
 			add = 50
 		}		
 	}
-}
+} 
