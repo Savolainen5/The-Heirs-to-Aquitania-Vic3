@@ -101,7 +101,7 @@
 		region_state:BRU = {
 			create_pop = {
 				culture = dayak
-				size = 65000
+				size = 55000
 			}
 			create_pop = {
 				culture = dayak
@@ -119,13 +119,13 @@
 			}
 			create_pop = {
 				culture = bornean
-				size = 900196
+				size = 700196
 			}
 		}
-		region_state:SUL = {
+		region_state:SBJ = {
 			create_pop = {
 				culture = dayak
-				size = 14000
+				size = 24000
 			}
 			create_pop = {
 				culture = moro
@@ -143,10 +143,8 @@
 			}
 			create_pop = {
 				culture = bornean
-				size = 9200
+				size = 209200
 			}
-		}
-		region_state:BGS = {
 			create_pop = {
 				culture = dayak
 				size = 7000
@@ -1070,7 +1068,7 @@
 		}
 	}
 	s:STATE_MINDANAO = {
-		region_state:PHI = {
+		region_state:LAZ = {
 			create_pop = {
 				culture = moro
 				religion = sunni
@@ -1130,7 +1128,7 @@
 				size = 20004
 			}
 		}
-		region_state:SUL = {
+		region_state:SBJ = {
 			create_pop = {
 				culture = moro
 				religion = sunni
@@ -1158,7 +1156,7 @@
 		}
 	}
 	s:STATE_LUZON = {
-		region_state:PHI = {
+		region_state:LAZ = {
 			create_pop = {
 				culture = filipino
 				size = 1862796
@@ -1187,9 +1185,7 @@
 				culture = filipino
 				size = 50000
 			}
-		}
-		region_state:SUL = {
-			create_pop = {
+			create_pop = { #This and below were the Sulu part of Palawan
 				culture = moro
 				religion = sunni
 				size = 31000
@@ -1211,7 +1207,7 @@
 		}
 	}
 	s:STATE_VISAYAS = {
-		region_state:PHI = {
+		region_state:LAZ = {
 			create_pop = {
 				culture = filipino
 				size = 891604

@@ -684,15 +684,11 @@
 	s:STATE_NORTH_BORNEO = {
 		create_state = {
 			country = c:BRU
-			owned_provinces = { x800170 xE9FB27   x278E1E x6D3CF9 xF61121 x905338 x242519 x26DE63 xEF6FBE xFC8025 x9E0616 x1C6623 x8041B0 xC65120 x0F01DC x762FBA xE66512 x002310 x61FE7A xFB18B8 xDD9CFE xF2BC79 x6FEE71 x763646  x965EF0 xC531AE xB689E6 xD0AC5F }
+			owned_provinces = { x800170 xE9FB27 x278E1E x6D3CF9 xF61121 x905338 x242519 x26DE63 xEF6FBE xFC8025 x9E0616 x1C6623 x8041B0 xC65120 x0F01DC x762FBA xE66512 x002310 x61FE7A xFB18B8 xDD9CFE xF2BC79 x6FEE71 }
 		}
 		create_state = {
-			country = c:SUL
-			owned_provinces = { x2EE734 xD78953 x3CCBAA xC0B7FD xCED863 }
-		}
-		create_state = {
-			country = c:BGS
-			owned_provinces = { x75D5D2 x821B67 x808070 x461E0E }
+			country = c:SBJ
+			owned_provinces = { x2EE734 xD78953 x3CCBAA xC0B7FD xCED863 x75D5D2 x821B67 x808070 x461E0E x763646 x965EF0 xB689E6 xD0AC5F xC531AE }
 		}
 		create_state = {
 			country = c:SRW
@@ -704,11 +700,11 @@
 	}
 	s:STATE_MINDANAO = {
 		create_state = {
-			country = c:PHI
+			country = c:LAZ
 			owned_provinces = { x2D5E65 x988CCA xCAFE73 xC3EC2D x7B364D xBC5002 }
 		}
 		create_state = {
-			country = c:SUL
+			country = c:SBJ
 			owned_provinces = { x0180F0 x99D030 }
 		}
 		create_state = {
@@ -721,12 +717,8 @@
 	}
 	s:STATE_LUZON = {
 		create_state = {
-			country = c:PHI
-			owned_provinces = { x51BC8C x33B5F8 x0D8236 xB0F0E0 x5C0D4C xB08546 x1C8BCF x95102A x63FA56 xEB310E xECF5E9 x795BD8 x707061 xF4CD9C x5ED347 xCDE626 xD2AEEB xE173C4 x31F0E0 x2291B3 x6D44B5 xB0F0B0 x97B9E0 x1B9953}
-		}
-		create_state = {
-			country = c:SUL
-			owned_provinces = { x946A22 }
+			country = c:LAZ
+			owned_provinces = { x51BC8C x33B5F8 x0D8236 xB0F0E0 x5C0D4C xB08546 x1C8BCF x95102A x63FA56 xEB310E xECF5E9 x795BD8 x707061 xF4CD9C x5ED347 xCDE626 xD2AEEB xE173C4 x31F0E0 x2291B3 x6D44B5 xB0F0B0 x97B9E0 x1B9953 x946A22 }
 		}
 		
 		add_homeland = filipino
@@ -734,7 +726,7 @@
 	}
 	s:STATE_VISAYAS = {
 		create_state = {
-			country = c:PHI
+			country = c:LAZ
 			owned_provinces = {xE2086C x46EA60 x8ABD23 x8001F0 x48B8C8 x591034 x223245 xB4699E x05FD19 xCFAFEE x90F80A xF001E2 xB971C4 xD2CA4A x02E634 }
 		}
 		
