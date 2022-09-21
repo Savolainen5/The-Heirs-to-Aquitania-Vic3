@@ -203,6 +203,12 @@
 			type = tributary
 		}
 	}
+	c:IPH = {
+		create_diplomatic_pact = {
+			country = c:NAG
+			type = vassal
+		}
+	}
 	c:PER = {
 		create_diplomatic_pact = {
 			country = c:KUR
@@ -228,6 +234,16 @@
 	c:TER = {
 		create_diplomatic_pact = {
 			country = c:BTN
+			type = vassal
+		}
+	}
+	c:NNY = {
+		create_diplomatic_pact = {
+			country = c:YUN
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:SIH
 			type = vassal
 		}
 	}

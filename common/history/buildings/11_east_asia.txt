@@ -20,7 +20,7 @@
 		}
 	}
 	s:STATE_SICHUAN={
-		region_state:NNY={
+		region_state:SIH={
 			create_building={
 				building="building_government_administration"
 				level=10
@@ -54,7 +54,7 @@
 		}
 	}
 	s:STATE_YUNNAN={
-		region_state:NNY={
+		region_state:YUN={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -1633,6 +1633,8 @@
 				reserves=1
 				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
+		}
+		region_state:IRE={
 		}
 	}
 	s:STATE_SAKHALIN={

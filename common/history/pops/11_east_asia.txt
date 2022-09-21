@@ -51,7 +51,7 @@
 		}
 	}
 	s:STATE_SICHUAN = {
-		region_state:NNY = {
+		region_state:SIH = {
 			create_pop = {
 				culture = han # nanfaren
 				size = 9479900
@@ -76,7 +76,7 @@
 		}
 	}
 	s:STATE_YUNNAN = {
-		region_state:NNY = {
+		region_state:YUN = {
 			create_pop = {
 				culture = han # nanfaren
 				size = 3778092
@@ -1142,7 +1142,7 @@
 		}
 	}
 	s:STATE_PEGU = {
-		region_state:BUR = { #There used to be 432 British, but I guess that's when the brits owned this in the base game
+		region_state:BUR = {
 			create_pop = {
 				pop_type = slaves
 				culture = burmese
@@ -1183,6 +1183,17 @@
 			create_pop = {
 				culture = burmese
 				size = 119888
+			}
+		}
+		region_state:IRE = {
+			create_pop = {
+				culture = irish
+				size = 48
+			}
+			create_pop = {
+				culture = burmese
+				size = 4521
+				religion = animist
 			}
 		}
 	}

@@ -1,6 +1,6 @@
 ﻿POPS = {
 s:STATE_BIHAR = {
-		region_state:BGL = {
+		region_state:IPH = {
 			create_pop = {
 				culture = bihari
 				size = 9244392
@@ -60,7 +60,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_DELHI = {
-		region_state:MUG = {
+		region_state:IPH = {
 			create_pop = {
 				culture = avadhi
 				religion = hindu
@@ -99,7 +99,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_AWADH = {
-		region_state:AWA = {
+		region_state:IPH = {
 			create_pop = {
 				culture = avadhi
 				religion = hindu
@@ -114,8 +114,6 @@ s:STATE_BIHAR = {
 				culture = avadhi
 				size = 416000
 			}
-		}
-		region_state:MUG = {
 			create_pop = {
 				culture = avadhi
 				religion = hindu
@@ -172,7 +170,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_CENTRAL_INDIA = {
-		region_state:IND = {
+		region_state:IPH = {
 			create_pop = {
 				culture = marathi
 				size = 1019992
@@ -181,8 +179,6 @@ s:STATE_BIHAR = {
 				culture = avadhi
 				size = 28000
 			}
-		}
-		region_state:BUN = {
 			create_pop = {
 				culture = kanauji
 				size = 885204
@@ -196,8 +192,6 @@ s:STATE_BIHAR = {
 				religion = animist
 				size = 496800
 			}
-		}
-		region_state:GWA = {
 			create_pop = {
 				culture = marathi
 				size = 1123992
@@ -206,8 +200,6 @@ s:STATE_BIHAR = {
 				culture = avadhi
 				size = 60004
 			}
-		}
-		region_state:BHO = {
 			create_pop = {
 				culture = marathi
 				size = 800000
@@ -216,8 +208,6 @@ s:STATE_BIHAR = {
 				culture = avadhi
 				size = 12000
 			}
-		}
-		region_state:JBL = {
 			create_pop = {
 				culture = marathi
 				size = 3339996
@@ -300,7 +290,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_NAGPUR = {
-		region_state:BUN = {
+		region_state:IPH = {
 			create_pop = {
 				culture = kanauji
 				size = 500240
@@ -346,7 +336,7 @@ s:STATE_BIHAR = {
 				size = 1264771
 			}
 		}
-		region_state:BAS = {
+		region_state:AEN = {
 			create_pop = {
 				culture = telegu
 				size = 335070
@@ -414,7 +404,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_RAJPUTANA = {
-		region_state:BIK = {
+		region_state:IPH = {
 			create_pop = {
 				culture = rajput
 				size = 1032004
@@ -423,8 +413,6 @@ s:STATE_BIHAR = {
 				culture = avadhi
 				size = 32000
 			}
-		}
-		region_state:JAS = {
 			create_pop = {
 				culture = rajput
 				size = 407996
@@ -433,8 +421,6 @@ s:STATE_BIHAR = {
 				culture = avadhi
 				size = 32000
 			}
-		}
-		region_state:MEW = {
 			create_pop = {
 				culture = rajput
 				size = 1953350
@@ -443,8 +429,6 @@ s:STATE_BIHAR = {
 				culture = avadhi
 				size = 18142
 			}
-		}
-		region_state:JOD = {
 			create_pop = {
 				culture = rajput
 				size = 1717504
@@ -453,8 +437,6 @@ s:STATE_BIHAR = {
 				culture = avadhi
 				size = 84665
 			}
-		}
-		region_state:JAI = {
 			create_pop = {
 				culture = rajput
 				size = 2322217
@@ -564,7 +546,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_ORISSA = {
-		region_state:ORI = {
+		region_state:AEN = {
 			create_pop = {
 				culture = oriya
 				size = 456412
@@ -593,7 +575,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_CIRCARS = {
-		region_state:BAS = {
+		region_state:AEN = {
 			create_pop = {
 				culture = telegu
 				size = 9762168
@@ -619,7 +601,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_MYSORE = {
-		region_state:MYS = {
+		region_state:POR = {
 			create_pop = {
 				culture = kannada
 				religion = hindu
@@ -652,7 +634,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_TRAVANCORE = {
-		region_state:TRA = {
+		region_state:POR = {
 			create_pop = {
 				culture = malayalam
 				size = 704000
@@ -682,8 +664,6 @@ s:STATE_BIHAR = {
 				culture = malayalam
 				size = 90000
 			}
-		}
-		region_state:MYS = {
 			create_pop = {
 				culture = malayalam
 				size = 680004
@@ -726,7 +706,7 @@ s:STATE_BIHAR = {
 				size = 17773
 			}
 		}
-		region_state:MDR = {
+		region_state:AEN = {
 			create_pop = {
 				culture = tamil
 				size = 12479910
@@ -827,8 +807,6 @@ s:STATE_BIHAR = {
 				culture = portuguese
 				size = 5681
 			}
-		}
-		region_state:BIJ = {
 			create_pop = {
 				culture = marathi
 				size = 10312854
