@@ -7,8 +7,8 @@
 	locator = "eiffel_tower_locator"
 	
 	entity_not_constructed = { }
-	entity_under_construction = { "building_construction_3x3_entity" }
-	entity_constructed = { "eiffel_tower_entity"}
+	entity_under_construction = { "building_construction_skyscraper_entity" }
+	entity_constructed = { "wonder_eiffel_tower_01_entity"}
 	
 	city_gfx_interactions = {
 		clear_size_area = yes
@@ -25,7 +25,7 @@
 	
 	required_construction = construction_cost_monument
 	
-	can_build = {
+	possible = {
 		error_check = {
 			severity = invalid
 			this = {
@@ -33,6 +33,8 @@
 			}
 		}
 	}
+	
+	ai_value = 10000
 }
 
 building_angkor_wat = {
@@ -57,6 +59,15 @@ building_angkor_wat = {
 		pmg_base_building_angkor_wat
 	}
 	
+	possible = {
+		error_check = {
+			severity = invalid
+			this = {
+				state_region = s:STATE_CAMBODIA
+			}
+		}
+	}
+	
 	required_construction = construction_cost_monument	
 }
 
@@ -69,7 +80,7 @@ building_big_ben = {
 	locator = "big_ben_locator"
 	
 	entity_not_constructed = { }
-	entity_under_construction = { "building_construction_3x3_entity" }
+	entity_under_construction = { "building_construction_2x2_entity" }
 	entity_constructed = { "wonder_big_ben_01_entity"}
 	
 	city_gfx_interactions = {
@@ -83,7 +94,7 @@ building_big_ben = {
 	
 	required_construction = construction_cost_monument
 	
-	can_build = {
+	possible = {
 		error_check = {
 			severity = invalid
 			this = {
@@ -91,6 +102,8 @@ building_big_ben = {
 			}
 		}
 	}
+	
+	ai_value = 10000
 }
 
 building_forbidden_city = {
@@ -113,6 +126,15 @@ building_forbidden_city = {
 	
 	production_method_groups = {
 		pmg_base_building_forbidden_city
+	}
+	
+	possible = {
+		error_check = {
+			severity = invalid
+			this = {
+				state_region = s:STATE_BEIJING
+			}
+		}
 	}
 	
 	required_construction = construction_cost_monument
@@ -138,6 +160,15 @@ building_hagia_sophia = {
 	
 	production_method_groups = {
 		pmg_base_building_hagia_sophia
+	}
+	
+	possible = {
+		error_check = {
+			severity = invalid
+			this = {
+				state_region = s:STATE_EASTERN_THRACE
+			}
+		}
 	}
 	
 	required_construction = construction_cost_monument
@@ -166,7 +197,7 @@ building_mosque_of_djenne = {
 	
 	required_construction = construction_cost_monument
 	
-	can_build = {
+	possible = {
 		error_check = {
 			severity = invalid
 			this = {
@@ -174,6 +205,8 @@ building_mosque_of_djenne = {
 			}
 		}
 	}
+	
+	ai_value = 10000
 }
 
 building_saint_basils_cathedral = {
@@ -196,6 +229,15 @@ building_saint_basils_cathedral = {
 	
 	production_method_groups = {
 		pmg_base_building_saint_basils_cathedral
+	}
+	
+	possible = {
+		error_check = {
+			severity = invalid
+			this = {
+				state_region = s:STATE_MOSCOW
+			}
+		}
 	}
 	
 	required_construction = construction_cost_monument
@@ -228,7 +270,7 @@ building_saint_basils_cathedral = {
 #	
 #	required_construction = construction_cost_monument
 #	
-#	can_build = {
+#	possible = {
 #		error_check = {
 #			severity = invalid
 #			this = {
@@ -236,6 +278,8 @@ building_saint_basils_cathedral = {
 #			}
 #		}
 #	}
+#	
+#	ai_value = 10000
 #
 #	downsizeable = no
 #}
@@ -262,6 +306,15 @@ building_taj_mahal = {
 		pmg_base_building_taj_mahal
 	}
 
+	possible = {
+		error_check = {
+			severity = invalid
+			this = {
+				state_region = s:STATE_JAIPUR
+			}
+		}
+	}
+	
 	required_construction = construction_cost_monument
 }
 
@@ -286,6 +339,15 @@ building_vatican_city = {
 	
 	production_method_groups = {
 		pmg_base_building_vatican_city
+	}
+	
+	possible = {
+		error_check = {
+			severity = invalid
+			this = {
+				state_region = s:STATE_LAZIO
+			}
+		}
 	}
 	
 	required_construction = construction_cost_monument
@@ -313,14 +375,25 @@ building_vatican_city = {
 #		pmg_base_building_white_house
 #	}
 #	
+#	possible = {
+#		error_check = {
+#			severity = invalid
+#			this = {
+#				state_region = s:STATE_DISTRICT_OF_COLUMBIA
+#			}
+#		}
+#	}
+#	
 #	required_construction = construction_cost_monument
 #}
+
+# Decorative only
 
 building_machu_picchu = {
 	building_group = bg_monuments_hidden
 	texture = "gfx/interface/icons/building_icons/machu_picchu.dds"
 	expandable = no
-	buildable = no	# should be "built" via an expedition, archaeological dig, or similar
+	buildable = no
 	downsizeable = no
 	unique = yes
 	locator = "machu_picchu_locator"
@@ -335,13 +408,10 @@ building_machu_picchu = {
 	}
 	
 	production_method_groups = {
-		pmg_dummy # todo mikael, fix this later
+		pmg_dummy
 	}
 }
 
-# Re-add monument here
-
-# Decorative only
 building_argebam = {
 	building_group = bg_monuments_hidden
 	expandable = no
@@ -356,7 +426,7 @@ building_argebam = {
 	
 	city_gfx_interactions = {
 		clear_size_area = yes
-		size = 5
+		size = 8
 	}
 	
 	production_method_groups = {
@@ -444,6 +514,28 @@ building_giza_necropolis = {
 	
 	city_gfx_interactions = {
 		clear_size_area = yes
+		size = 10
+	}
+	
+	production_method_groups = {
+		pmg_dummy
+	}
+}
+
+building_khaju_bridge = {
+	building_group = bg_monuments_hidden
+	expandable = no
+	buildable = no
+	downsizeable = no
+	unique = yes
+	locator = "khaju_bridge_locator"
+	
+	entity_not_constructed = { }
+	entity_under_construction = { }
+	entity_constructed = { "wonder_khaju_bridge_01_entity"}
+	
+	city_gfx_interactions = {
+		clear_size_area = yes
 		size = 4
 	}
 	
@@ -467,6 +559,52 @@ building_petra = {
 	city_gfx_interactions = {
 		clear_size_area = yes
 		size = 3
+	}
+	
+	production_method_groups = {
+		pmg_dummy
+	}
+}
+
+### American Buildings DLC - models not present in basegame ###
+
+building_capitol_hill = {
+	building_group = bg_monuments_hidden
+	expandable = no
+	buildable = no
+	downsizeable = no
+	unique = yes
+	locator = "capitol_hill_locator"
+	
+	entity_not_constructed = { }
+	entity_under_construction = { }
+	entity_constructed = { "wonder_capitol_building_entity"}
+	
+	city_gfx_interactions = {
+		clear_size_area = yes
+		size = 5
+	}
+	
+	production_method_groups = {
+		pmg_dummy
+	}
+}
+
+building_central_park = {
+	building_group = bg_monuments_hidden
+	expandable = no
+	buildable = no
+	downsizeable = no
+	unique = yes
+	locator = "central_park_locator"
+	
+	entity_not_constructed = { }
+	entity_under_construction = { }
+	entity_constructed = { "wonders_central_park_entity"}
+	
+	city_gfx_interactions = {
+		clear_size_area = yes
+		size = 4
 	}
 	
 	production_method_groups = {

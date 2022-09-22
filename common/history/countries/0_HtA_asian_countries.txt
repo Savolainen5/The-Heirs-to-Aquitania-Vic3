@@ -79,7 +79,7 @@
 			add_ruling_interest_group = yes
 		}
 	}
-	c:LAZ = {
+	c:LAZ = { #Lazarines
 		
 		effect_starting_technology_tier_3_tech  = yes
 
@@ -103,7 +103,7 @@
 			add_ruling_interest_group = yes
 		}
 	}
-	c:MCH = {
+	c:MCH = { #Manchuria
 		effect_starting_technology_tier_4_tech = yes
 		
 		effect_starting_politics_traditional = yes
@@ -140,7 +140,7 @@
 			add_ruling_interest_group = yes
 		}
 	}
-	c:MGL = {
+	c:MGL = { #Mongolia obvs
 		effect_starting_technology_tier_4_tech = yes
 		
 		effect_starting_politics_traditional = yes
@@ -169,7 +169,7 @@
 			set_interest_group_name = ig_sunni_madrasahs
 		}
 	}
-	c:NNY = {
+	c:NNY = { #Nanyue
 		effect_starting_technology_tier_4_tech = yes
 		add_technology_researched = urban_planning
 		add_technology_researched = sericulture
@@ -205,7 +205,7 @@
 			add_ideology = ideology_confucian
 		}
 	}
-	c:QIN = {
+	c:QIN = { #Qin, obviously
 		effect_starting_technology_tier_4_tech = yes
 		add_technology_researched = urban_planning
 		add_technology_researched = sericulture
@@ -264,6 +264,10 @@
 			add_ruling_interest_group = yes
 		}
 	}
+	c:SIH = { #Sichuan
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+	}
 #	c:SLT = {
 #		effect_starting_technology_tier_4_tech = yes
 #		effect_starting_politics_traditional = yes
@@ -303,7 +307,7 @@
 			add_ruling_interest_group = yes
 		}
 	}
-	c:TER = {
+	c:TER = { #Ternate
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
 		activate_law = law_type:law_debt_slavery
@@ -328,5 +332,9 @@
 		ig:ig_landowners = {
 			add_ruling_interest_group = yes
 		}
+	}
+	c:YUN = { #Yunnan
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
 	}
 }

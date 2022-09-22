@@ -114,6 +114,15 @@ native_american_clothes_trigger = {
 	}
 }
 
+native_north_american_clothes_trigger = {
+	exists = scope:character
+	scope:character = {
+		culture = {
+			has_discrimination_trait = north_american_group
+		}
+	}
+}
+
 muslim_clothes_pop_trigger = {
      exists = scope:pop
   	scope:pop = {
@@ -371,6 +380,60 @@ arabic_fez_trigger = {
 			owner = {
 				exists = c:EGY
 				c:EGY = this
+				c:EGY = { has_law = law_type:law_monarchy }
+			}
+		}
+	}       
+}
+
+arabic_military_fez_pop_trigger = {
+	exists = scope:pop
+	scope:pop = {
+		AND = {
+			OR = {
+				owner = {
+					exists = c:EGY
+					c:EGY = this
+					c:EGY = { has_law = law_type:law_monarchy }
+				}
+				owner = {
+					exists = c:TUR
+					c:TUR = this
+					c:TUR = { has_law = law_type:law_monarchy }
+				}
+				owner = {
+					exists = c:TUN
+					c:TUN = this
+					c:TUN = { has_law = law_type:law_monarchy }
+				}
+				owner = {
+					exists = c:MOR
+					c:MOR = this
+					c:MOR = { has_law = law_type:law_monarchy }
+				}
+			}
+			OR = {
+				culture = {
+					OR = {
+						has_discrimination_trait = middle_eastern_heritage
+						has_discrimination_trait = central_asian_heritage
+					}
+				}
+				AND = { # Albanian characters serving either the Ottomans or Egyptians should wear that country's clothing.
+					culture = cu:albanian
+					OR = {
+						owner = {
+							exists = c:TUR
+							c:TUR = this
+							c:TUR = { has_law = law_type:law_monarchy }
+						}
+						owner = {
+							exists = c:EGY
+							c:EGY = this
+							c:EGY = { has_law = law_type:law_monarchy }
+						}
+					}
+				}
 			}
 		}
 	}       

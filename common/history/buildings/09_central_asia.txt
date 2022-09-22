@@ -194,7 +194,7 @@
 		}
 	}
 	s:STATE_TARTARIA={ #Rostov I guess
-		region_state:TAT={
+		region_state:KRI={
 			create_building={
 				building="building_iron_mine"
 				level=10
