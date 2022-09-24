@@ -49,22 +49,30 @@ LAO = {
 	ai_will_do = { always = yes }
 }
 
-PRU = {
-	states = { 
-		STATE_BRANDENBURG
-		STATE_POMERANIA
-		STATE_WEST_PRUSSIA
-		STATE_EAST_PRUSSIA
-		STATE_SILESIA
-		STATE_POSEN
-	}
+#PRU = {
+#	states = { 
+#		STATE_BRANDENBURG
+#		STATE_POMERANIA
+#		STATE_WEST_PRUSSIA
+#		STATE_EAST_PRUSSIA
+#		STATE_SILESIA
+#		STATE_POSEN
+#	}
+#
+#	required_states_fraction = 0.8
+#	
+#	ai_will_do = { always = yes }
+#}
 
-	required_states_fraction = 0.8
+CHI = {	#Need to decide what to do with this -- will Qin be able to reform into China?
+	use_culture_states = yes
+
+	required_states_fraction = 0.6
 	
 	ai_will_do = { always = yes }
 }
 
-CHI = {
+QIN = {
 	use_culture_states = yes
 
 	required_states_fraction = 0.6
@@ -99,32 +107,32 @@ WIN = {
 	ai_will_do = { always = yes }
 }
 
-IBE = {
-	use_culture_states = yes
+#IBE = {
+#	use_culture_states = yes
+#
+#	required_states_fraction = 0.9
+#	
+#	ai_will_do = { always = yes }
+#
+#	possible = {
+#		has_technology_researched = pan-nationalism
+#	}
+#}
 
-	required_states_fraction = 0.9
-	
-	ai_will_do = { always = yes }
-
-	possible = {
-		has_technology_researched = pan-nationalism
-	}
-}
 
 
-
-KUK = {
-	use_culture_states = yes
-
-	required_states_fraction = 0.9
-	
-	ai_will_do = { always = yes }
-
-	possible = {
-		has_technology_researched = pan-nationalism
-		has_law = law_type:law_multicultural
-	}
-}
+#KUK = {
+#	use_culture_states = yes
+#
+#	required_states_fraction = 0.9
+#	
+#	ai_will_do = { always = yes }
+#
+#	possible = {
+#		has_technology_researched = pan-nationalism
+#		has_law = law_type:law_multicultural
+#	}
+#}
 
 CZH = {
 	use_culture_states = yes

@@ -1327,11 +1327,12 @@
 			owned_provinces = {
 				x20105C x2C11A0 x192036 x380CC0 x201A85 x182F15 x013B73 xB31532 x93373E x6B38F7 x006A4F x21761F xDA3D4C x4371C1 xA76417 xD050BA xFA541A x7F74E1 x8F7B8D xE67199 x96953B x1CB687 xB789C6 xF979F9 x0DD716 xCEA509 xE7A2A1 xB8B1E3 xB6C5A6 x82DE53 xC5D4FD xB2ED64 xCEE3D4 xFDF8D0 xAAC8DF
 			}
+		}
 		
 		add_homeland = han
 		add_homeland = yi
 		add_homeland = zhuang
-	}	
+	}
 	s:STATE_GUIZHOU = {
 		create_state = {
 			country = c:NNY

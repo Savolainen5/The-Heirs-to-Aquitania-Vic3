@@ -218,7 +218,7 @@
 	c:QIN = {
 		create_diplomatic_pact = {
 			country = c:TIB
-			type = vassal
+			type = tributary #Was previously a vassal
 		}
 		create_diplomatic_pact = {
 			country = c:KOR

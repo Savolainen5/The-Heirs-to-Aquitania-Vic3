@@ -3,7 +3,7 @@
 	
 	country_type = unrecognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { burmese }
 	capital = STATE_BURMA
@@ -164,7 +164,7 @@ MRK = { #Mrauk U
 	
 	country_type = unrecognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { burmese }
 	capital = STATE_PEGU
@@ -184,7 +184,7 @@ PRI = { #Prani
 	
 	country_type = unrecognized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { burmese }
 	capital = STATE_BURMA

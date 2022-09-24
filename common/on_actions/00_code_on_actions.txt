@@ -1070,7 +1070,9 @@ on_resource_discovered = {
 # Root = State
 on_resource_depleted = {
 	effect = {
-		post_notification = resource_depleted
+		owner = {
+			post_notification = resource_depleted
+		}
 	}
 	events = {
 		goldrush.2
@@ -1194,6 +1196,13 @@ on_diplo_play_subject_released_overlord = {
 }
 
 # Root = Diplomatic Play
+# country = Country switched to
+# previous = Country switched from
+on_diplo_play_switch_sides = {							#DOES IT NEED TO HAVE AN EFFECT?
+#	effect = {
+#		set_global_variable = achievement_revo_needed
+#	}
+}
 on_diplo_play_declare_neutrality = {
 	effect = {
 		post_notification = diplo_play_declare_neutrality_notification

@@ -1,0 +1,12 @@
+﻿BUR = {
+	states = {
+		STATE_KACHIN
+		STATE_BURMA
+		STATE_PEGU
+		STATE_SHAN_STATES
+	}
+	
+	required_states_fraction = 0.75
+	
+	ai_will_do = { always = yes }
+}

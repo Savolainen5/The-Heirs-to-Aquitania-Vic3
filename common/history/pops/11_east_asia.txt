@@ -1139,7 +1139,7 @@
 				size = 30000
 			}
 		}
-		region_state:TAU
+		region_state:TAU = {
 			create_pop = {
 				culture = burmese
 				size = 23567

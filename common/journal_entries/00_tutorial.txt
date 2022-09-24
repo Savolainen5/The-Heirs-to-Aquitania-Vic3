@@ -49,6 +49,79 @@
 	inheritable = yes
 }
 
+je_tutorial_establish_trade_route = {
+	how_tutorial = lesson_establish_trade_route_how
+	why_tutorial = lesson_establish_trade_route_why	
+	should_be_pinned_by_default = yes
+	
+	status_desc = {
+		first_valid = {
+			triggered_desc = {
+				desc = je_tutorial_establish_trade_route_status_not_progressing
+				trigger = {
+					scope:journal_entry = {
+						is_progressing = no
+					}
+				}
+			}
+			desc = je_tutorial_establish_trade_route_status_progressing
+		}
+	}
+	
+	immediate = {
+		scope:journal_entry = {
+			set_variable = {
+				name = num_weeks_in_progress
+				value = 0
+			}
+			set_variable = {
+				name = original_num_import_routes
+				value = target.num_import_trade_routes
+			}
+		}
+	}
+	
+	complete = {
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+	
+	current_value = {
+		value = scope:journal_entry.var:num_weeks_in_progress
+	}
+	
+	goal_add_value = {
+		value = 4
+	}
+	
+	is_progressing = {
+		scope:target = {
+			market_goods_has_goods_shortage = no
+		}
+	}
+	
+	on_weekly_pulse = {
+		effect = {
+			scope:journal_entry = { 
+				if = {
+					limit = {
+						is_progressing = yes 
+					}
+					change_variable = {
+						name = num_weeks_in_progress
+						add = 1
+					}
+				}
+			}
+		}
+	}
+	
+	invalid = {
+		NOT = { exists = scope:target }
+	}
+		
+	weight = 1010
+	inheritable = yes
+}
 je_tutorial_fix_budget_deficit = {
 	how_tutorial = lesson_budget_balance_how
 	why_tutorial = lesson_budget_balance_why	
@@ -608,7 +681,19 @@ je_tutorial_improve_supply_network = {
 	should_be_pinned_by_default = yes
 
 	complete = {
-		supply_network_strength >= 1
+		scope:journal_entry = { is_goal_complete = yes }
+	}
+
+	current_value = {
+		value = num_convoys_available
+	}
+
+	goal_add_value = {
+		value = {
+			add = num_convoys_required
+			add = 100
+			subtract = num_convoys_available
+		}
 	}
 	
 	weight = 1018
