@@ -1,6 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_BIHAR={
-		region_state:IPH={
+		region_state:MRT={
 			create_building={
 				building="building_arms_industry"
 				level=1
@@ -120,7 +120,7 @@
 		}
 	}
 	s:STATE_DELHI={
-		region_state:IPH={
+		region_state:MRT={
 			create_building={
 				building="building_government_administration"
 				level=8
@@ -184,7 +184,7 @@
 		}
 	}
 	s:STATE_AWADH={
-		region_state:IPH={
+		region_state:MRT={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -245,19 +245,19 @@
 		region_state:BER={
 			create_building={
 				building="building_government_administration"
-				level=2
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_simple_organization" }
 			}			
 			create_building={
 				building="building_furniture_manufacturies"
-				level=2
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_handcrafted_furniture" "pm_merchant_guilds_building_furniture_manufacturies" "pm_automation_disabled" "pm_luxury_furniture" }
 			}
 			create_building={
 				building="building_textile_mills"
-				level=5
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_handsewn_clothes" "pm_merchant_guilds_building_textile_mills" "pm_traditional_looms" "pm_craftsman_sewing" }
 			}
@@ -269,19 +269,19 @@
 			}
 			create_building={
 				building="building_sugar_plantation"
-				level=3
+				level=1
 				reserves=1
 				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_tobacco_plantation"
-				level=2
+				level=1
 				reserves=1
 				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_barracks"
-				level=20
+				level=10
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
 			}
@@ -306,9 +306,47 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
 			}
 		}
+		region_state:MRT={
+			create_building={
+				building="building_government_administration"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}			
+			create_building={
+				building="building_furniture_manufacturies"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_handcrafted_furniture" "pm_merchant_guilds_building_furniture_manufacturies" "pm_automation_disabled" "pm_luxury_furniture" }
+			}
+			create_building={
+				building="building_textile_mills"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_handsewn_clothes" "pm_merchant_guilds_building_textile_mills" "pm_traditional_looms" "pm_craftsman_sewing" }
+			}
+			create_building={
+				building="building_sugar_plantation"
+				level=2
+				reserves=1
+				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_tobacco_plantation"
+				level=1
+				reserves=1
+				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_barracks"
+				level=10
+				reserves=1
+				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
+			}
+		}
 	}
 	s:STATE_CENTRAL_INDIA={
-		region_state:IPH={
+		region_state:MRT={
 			create_building={
 				building="building_opium_plantation"
 				level=5
@@ -506,7 +544,7 @@
 		}
 	}
 	s:STATE_NAGPUR={
-		region_state:IPH={
+		region_state:MRT={
 			create_building={
 				building="building_barracks"
 				level=5
@@ -686,7 +724,7 @@
 		}
 	}
 	s:STATE_RAJPUTANA={
-		region_state:IPH={
+		region_state:MRT={
 			create_building={
 				building="building_barracks"
 				level=10
@@ -1129,13 +1167,13 @@
 			}
 			create_building={
 				building="building_fishing_wharf"
-				level=3
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
 			}
 			create_building={
 				building="building_barracks"
-				level=15
+				level=10
 				reserves=1
 				activate_production_methods={ "pm_line_infantry" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
@@ -1153,6 +1191,20 @@
 			}
 			# Re-add monument here
 
+		}
+		region_state:MRT={			#Need WAY more here, eh?
+			create_building={
+				building="building_fishing_wharf"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
+			}
+			create_building={
+				building="building_barracks"
+				level=15
+				reserves=1
+				activate_production_methods={ "pm_line_infantry" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
 		}
 	}
 }

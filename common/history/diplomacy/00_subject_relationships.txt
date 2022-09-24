@@ -203,7 +203,7 @@
 			type = tributary
 		}
 	}
-	c:IPH = {
+	c:MRT = {
 		create_diplomatic_pact = {
 			country = c:NAG
 			type = vassal

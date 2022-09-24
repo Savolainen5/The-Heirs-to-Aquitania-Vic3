@@ -1,6 +1,6 @@
 ﻿POPS = {
 s:STATE_BIHAR = {
-		region_state:IPH = {
+		region_state:MRT = {
 			create_pop = {
 				culture = bihari
 				size = 9244392
@@ -60,7 +60,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_DELHI = {
-		region_state:IPH = {
+		region_state:MRT = {
 			create_pop = {
 				culture = avadhi
 				religion = hindu
@@ -99,7 +99,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_AWADH = {
-		region_state:IPH = {
+		region_state:MRT = {
 			create_pop = {
 				culture = avadhi
 				religion = hindu
@@ -142,12 +142,12 @@ s:STATE_BIHAR = {
 		region_state:BER = {
 			create_pop = {
 				culture = gujarati
-				size = 6744412
+				size = 3293126
 			}
 			create_pop = {
 				culture = gujarati
 				religion = animist
-				size = 87200
+				size = 55600
 			}
 			create_pop = {
 				culture = british
@@ -155,7 +155,7 @@ s:STATE_BIHAR = {
 			}
 			create_pop = {
 				culture = sindi
-				size = 348388
+				size = 336055
 			}
 		}
 		region_state:KUT = {
@@ -168,9 +168,24 @@ s:STATE_BIHAR = {
 				size = 28400
 			}
 		}
+		region_state:MRT = {
+			create_pop = {
+				culture = gujarati
+				size = 3451286
+			}
+			create_pop = {
+				culture = gujarati
+				religion = animist
+				size = 31600
+			}
+			create_pop = {
+				culture = sindi
+				size = 12333
+			}
+		}
 	}
 	s:STATE_CENTRAL_INDIA = {
-		region_state:IPH = {
+		region_state:MRT = {
 			create_pop = {
 				culture = marathi
 				size = 1019992
@@ -290,7 +305,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_NAGPUR = {
-		region_state:IPH = {
+		region_state:MRT = {
 			create_pop = {
 				culture = kanauji
 				size = 500240
@@ -404,7 +419,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_RAJPUTANA = {
-		region_state:IPH = {
+		region_state:MRT = {
 			create_pop = {
 				culture = rajput
 				size = 1032004
@@ -801,20 +816,11 @@ s:STATE_BIHAR = {
 			}
 			create_pop = {
 				culture = marathi
-				size = 75852
+				size = 1075852
 			}
 			create_pop = {
 				culture = portuguese
 				size = 5681
-			}
-			create_pop = {
-				culture = marathi
-				size = 10312854
-			}
-			create_pop = {
-				culture = sindi
-				religion = jewish
-				size = 8344
 			}
 			create_pop = {
 				culture = kannada
@@ -826,22 +832,28 @@ s:STATE_BIHAR = {
 				size = 37911
 			}
 			create_pop = {
-				culture = sindi
-				size = 872303
-			}
-			create_pop = {
 				culture = kannada
 				size = 409975
 			}
+		}
+		region_state:MRT = {
 			create_pop = {
-				culture = gujarati
-				religion = animist
-				size = 504040
+				culture = marathi
+				size = 9312854
 			}
 			create_pop = {
 				culture = marathi
 				religion = catholic
 				size = 98608
+			}
+			create_pop = {
+				culture = sindi
+				size = 872303
+			}
+			create_pop = {
+				culture = sindi
+				religion = jewish
+				size = 8344
 			}
 			create_pop = {
 				culture = sindi
@@ -852,6 +864,11 @@ s:STATE_BIHAR = {
 				pop_type = slaves
 				culture = marathi
 				size = 41000
+			}
+			create_pop = {
+				culture = gujarati
+				religion = animist
+				size = 504040
 			}
 		}
 	}
