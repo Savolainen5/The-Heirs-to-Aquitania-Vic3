@@ -1,4 +1,14 @@
-﻿BGS = { #Bugis Confederation
+﻿AVA = { #Ava
+	color = { 30 150 115 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { burmese }
+	capital = STATE_BURMA
+}
+BGS = { #Bugis Confederation
 	color = { 200 15 15 }
 	
 	country_type = unrecognized
@@ -149,6 +159,16 @@ MDR = { #Madurai
 	cultures = { tamil }
 	capital = STATE_MADRAS
 }
+MRK = { #Mrauk U
+	color = { 95 35 160 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { burmese }
+	capital = STATE_PEGU
+}
 NNY = { #Nanyue / Southern Yue
 	color = { 100 220 230 }
 	
@@ -158,6 +178,16 @@ NNY = { #Nanyue / Southern Yue
 	
 	cultures = { han yue min } 
 	capital = STATE_GUANGDONG
+}
+PRI = { #Prani
+	color = { 130 150 130 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { burmese }
+	capital = STATE_BURMA
 }
 QIN = {	#Qin China
 	color = { 120 149 163 }
@@ -208,6 +238,26 @@ SUR = { #Surabaya
 	
 	cultures = { javan }
 	capital = STATE_EAST_JAVA 
+}
+TAI = { #Tai / Shan Confederacy
+	color = { 150 150 35 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { shan }
+	capital = STATE_SHAN_STATES
+}
+TAU = { #Taungu
+	color = { 150 35 85 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { burmese }
+	capital = STATE_PEGU
 }
 TER = { #Ternate
 	color = { 10 40 125 }

@@ -112,6 +112,12 @@
 				size = 40000
 			}
 		}
+		region_state:TAI={
+			create_pop = { 								#Needs work and research
+				culture = shan
+				size = 59342
+			}
+		}
 	}
 	s:STATE_GUIZHOU = {
 		region_state:NNY = {
@@ -1081,7 +1087,7 @@
 		}
 	}
 	s:STATE_KACHIN = {
-		region_state:BUR = {
+		region_state:TAI = {
 			create_pop = {
 				culture = kachin
 				size = 408000
@@ -1097,7 +1103,7 @@
 			}
 			create_pop = {
 				culture = burmese
-				size = 128400
+				size = 46300
 			}
 			create_pop = {
 				pop_type = slaves
@@ -1105,12 +1111,23 @@
 				size = 40000
 			}
 		}
+		region_state:AVA = {
+			create_pop = {
+				culture = burmese
+				size = 82100
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = burmese
+				size = 6300
+			}
+		}
 	}
 	s:STATE_SHAN_STATES = {
-		region_state:BUR = {
+		region_state:TAI = {
 			create_pop = {
 				culture = shan
-				size = 553996
+				size = 505442
 			}
 			create_pop = {
 				culture = kachin
@@ -1122,13 +1139,23 @@
 				size = 30000
 			}
 		}
+		region_state:TAU
+			create_pop = {
+				culture = burmese
+				size = 23567
+			}
+			create_pop = {
+				culture = shan
+				size = 48554
+			}
+		}
 	}
 
 	s:STATE_BURMA = {
-		region_state:BUR = {
+		region_state:AVA = {
 			create_pop = {
 				culture = burmese
-				size = 1059596
+				size = 599596
 			}
 			create_pop = {
 				culture = kachin
@@ -1137,12 +1164,34 @@
 			create_pop = {
 				pop_type = slaves
 				culture = burmese
-				size = 50000
+				size = 45000
+			}
+		}
+		region_state:PRI = {
+			create_pop = {
+				culture = burmese
+				size = 231823
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = burmese
+				size = 5000
+			}
+		}
+		region_state:TAU = {
+			create_pop = {
+				culture = burmese
+				size = 131823
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = burmese
+				size = 2400
 			}
 		}
 	}
 	s:STATE_PEGU = {
-		region_state:BUR = {
+		region_state:MRK = {
 			create_pop = {
 				pop_type = slaves
 				culture = burmese
@@ -1150,7 +1199,7 @@
 			}
 			create_pop = {
 				culture = burmese
-				size = 119888
+				size = 99888
 			}
 			create_pop = {
 				culture = burmese
@@ -1162,10 +1211,36 @@
 				size = 7996
 			}
 		}
+		region_state:TAU = {
+			create_pop = {
+				culture = burmese
+				size = 119888
+			}
+			create_pop = {
+				culture = mon
+				size = 3154
+			}
+			create_pop = {
+				culture = karen
+				size = 5120
+			}
+		}
+		region_state:PRI = {
+			create_pop = {
+				culture = burmese
+				size = 102956
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = burmese
+				size = 5600
+			}
+		}
+			
 		region_state:SIA = {
 			create_pop = {
 				culture = burmese
-				size = 787900
+				size = 717900
 			}
 			create_pop = {
 				culture = mon
@@ -1173,16 +1248,12 @@
 			}
 			create_pop = {
 				culture = karen
-				size = 415600
+				size = 410600
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = burmese
 				size = 30000
-			}
-			create_pop = {
-				culture = burmese
-				size = 119888
 			}
 		}
 		region_state:IRE = {

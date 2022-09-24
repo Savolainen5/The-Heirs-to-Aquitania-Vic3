@@ -1,4 +1,8 @@
 ﻿COUNTRIES = {
+	c:AVA = { #Ava
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+	}
 	c:BGL = {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes		
@@ -160,6 +164,10 @@
 			set_interest_group_name = ig_sunni_madrasahs
 		}
 	}
+	c:MRK = { #Mrauk U
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+	}
 	c:NIA = { #Nias
 		effect_starting_technology_tier_6_tech = yes
 		effect_starting_politics_traditional = yes
@@ -204,6 +212,10 @@
 			remove_ideology = ideology_moralist
 			add_ideology = ideology_confucian
 		}
+	}
+	c:PRI = { #Prani
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
 	}
 	c:QIN = { #Qin, obviously
 		effect_starting_technology_tier_4_tech = yes
@@ -306,6 +318,14 @@
 		ig:ig_landowners = {
 			add_ruling_interest_group = yes
 		}
+	}
+	c:TAI = { #Tai / Shan
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+	}
+	c:TAU = { #Taungu
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
 	}
 	c:TER = { #Ternate
 		effect_starting_technology_tier_4_tech = yes
