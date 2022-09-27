@@ -225,12 +225,12 @@
 			type = tributary
 		}				
 	}	
-	c:KAL = {
-		create_diplomatic_pact = {
-			country = c:MAK
-			type = vassal
-		}
-	}
+#	c:KAL = {
+#		create_diplomatic_pact = {
+#			country = c:M#AK ##NOTE THIS IS BROKEN INTENTIONALLY IF YOU GO TO UNCOMMENT IT
+#			type = vassal
+#		}
+#	}
 	c:TER = {
 		create_diplomatic_pact = {
 			country = c:BTN

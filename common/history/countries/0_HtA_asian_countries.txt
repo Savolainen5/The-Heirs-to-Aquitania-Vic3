@@ -1,4 +1,8 @@
 ﻿COUNTRIES = {
+	c:APH = { #Afghan Placeholder
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+	}
 	c:AVA = { #Ava
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
@@ -69,15 +73,6 @@
 		ig:ig_devout = { 
 			set_interest_group_name = ig_sunni_madrasahs
 		}
-
-		ig:ig_landowners = {
-			add_ruling_interest_group = yes
-		}
-	}
-	c:MRT = { #Indian Placeholder
-		effect_starting_technology_tier_4_tech = yes
-		effect_starting_politics_traditional = yes
-		activate_law = law_type:law_debt_slavery
 
 		ig:ig_landowners = {
 			add_ruling_interest_group = yes

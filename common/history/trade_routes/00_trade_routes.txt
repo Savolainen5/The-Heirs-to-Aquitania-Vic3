@@ -1,6 +1,6 @@
 ﻿TRADE_ROUTES = { #Just copy them from the original if you want them, because I deleted a bunch
 	# Sikh Empire
-	c:PAN = {
+	c:APH = {
 		create_trade_route = {
 			goods = iron
 			level = 4
@@ -79,7 +79,7 @@
 			goods = luxury_clothes
 			level = 2
 			direction = export
-			target = c:AFG.market
+			target = c:APH.market
 		}	
 	}
 	

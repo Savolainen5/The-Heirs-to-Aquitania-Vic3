@@ -1,5 +1,5 @@
 ﻿CHARACTERS = {
-	c:KAL = {
+	c:APH = {
 		create_character = {
 			# Mir Mehrab Khan Baloch, Khan of Kalat
 			#role = politician # Remove this line

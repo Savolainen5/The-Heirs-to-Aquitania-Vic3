@@ -238,7 +238,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_KASHMIR = {
-		region_state:PAN = {
+		region_state:APH = {
 			create_pop = { #62%
 				culture = kashmiri
 				size = 1328002
@@ -264,7 +264,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_PUNJAB = {
-		region_state:PAN = {
+		region_state:APH = {
 			create_pop = {
 				culture = panjabi
 				religion = sunni
@@ -315,8 +315,6 @@ s:STATE_BIHAR = {
 				religion = animist
 				size = 155737
 			}
-		}
-		region_state:HYD = {
 			create_pop = {
 				culture = marathi
 				size = 1351630
@@ -391,7 +389,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_SINDH = {
-		region_state:SIN = {
+		region_state:APH = {
 			create_pop = {
 				culture = sindi
 				size = 1644600
@@ -768,6 +766,23 @@ s:STATE_BIHAR = {
 				size = 4724685
 			}
 			create_pop = {
+				culture = kannada
+				religion = hindu
+				size = 1164904
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = telegu
+				size = 40000
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = kannada
+				size = 60000
+			}
+		}
+		region_state:MRT = {
+			create_pop = {
 				culture = avadhi
 				religion = shiite
 				size = 36558
@@ -781,16 +796,6 @@ s:STATE_BIHAR = {
 				size = 3156330
 			}
 			create_pop = {
-				culture = kannada
-				religion = hindu
-				size = 1164904
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = telegu
-				size = 40000
-			}
-			create_pop = {
 				pop_type = slaves
 				culture = avadhi
 				size = 33000
@@ -799,11 +804,6 @@ s:STATE_BIHAR = {
 				pop_type = slaves
 				culture = marathi
 				size = 30000
-			}
-			create_pop = {
-				pop_type = slaves
-				culture = kannada
-				size = 60000
 			}
 		}
 	}
