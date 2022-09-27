@@ -1146,7 +1146,7 @@
 				building="building_rice_farm"
 				level=4
 				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned_building_rice_farm" "pm_tools_disabled" "pm_fig_orchards" }
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned" "pm_tools_disabled" "pm_fig_orchards" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -1208,7 +1208,7 @@
 				building="building_rice_farm"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_fig_orchards" "pm_tools_disabled" "pm_privately_owned_building_rice_farm" }
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_fig_orchards" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_livestock_ranch"

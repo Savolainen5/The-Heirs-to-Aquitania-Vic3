@@ -67,28 +67,13 @@ je_mechanized_farming = {
 					}
 				}
 				OR = {
-					has_active_production_method = pm_tractors_building_rye_farm
-                    has_active_production_method = pm_tractors_building_wheat_farm
-                    has_active_production_method = pm_tractors_building_maize_farm
-                    has_active_production_method = pm_tractors_building_millet_farm
-
-					has_active_production_method = pm_compression_ignition_tractors_building_rye_farm
-					has_active_production_method = pm_compression_ignition_tractors_building_wheat_farm
-					has_active_production_method = pm_compression_ignition_tractors_building_maize_farm
-					has_active_production_method = pm_compression_ignition_tractors_building_millet_farm
+					has_active_production_method = pm_tractors
+					has_active_production_method = pm_compression_ignition_tractors
 				}
 			}
 			trigger_else = {
 				OR = {
-					has_active_production_method = pm_tractors_building_rye_farm
-					has_active_production_method = pm_tractors_building_wheat_farm
-					has_active_production_method = pm_tractors_building_maize_farm
-					has_active_production_method = pm_tractors_building_millet_farm
-
-                    has_active_production_method = pm_tractors_building_rye_farm
-                    has_active_production_method = pm_tractors_building_wheat_farm
-                    has_active_production_method = pm_tractors_building_maize_farm
-                    has_active_production_method = pm_tractors_building_millet_farm
+					has_active_production_method = pm_tractors
                 }
 			}
 			cash_reserves_ratio > 0.25
@@ -277,6 +262,7 @@ je_dynamite = {
 	complete = {
 		OR = {
 			any_scope_building = {
+				custom_tooltip = je_shortform_building_munition_plants_tooltip
 				filter = {
 					is_building_type = building_munition_plants
 				}
@@ -286,6 +272,7 @@ je_dynamite = {
 				occupancy >= 0.75
 			}
 			any_scope_building = {
+				custom_tooltip = je_shortform_building_mine_tooltip
 				filter = {
 					OR = {
 						is_building_type = building_iron_mine
@@ -310,6 +297,7 @@ je_dynamite = {
 			}
 		}
 		any_scope_building = {
+			custom_tooltip = je_shortform_building_chemical_plants_tooltip
 			filter = {
 				is_building_type = building_chemical_plants
 			}
@@ -455,7 +443,6 @@ je_railroads = {
 				    has_active_production_method = pm_rail_transport_mine
 				    has_active_production_method = pm_rail_transport_building_logging_camp
 				    has_active_production_method = pm_rail_transport_building_oil_rig
-				    has_active_production_method = pm_rail_transport_building_lead_mine
                 }
 				occupancy >= 0.75
 			}

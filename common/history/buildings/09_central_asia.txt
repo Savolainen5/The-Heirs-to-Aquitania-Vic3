@@ -99,7 +99,7 @@
 				building="building_rice_farm"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned_building_rice_farm" "pm_tools_disabled" "pm_fig_orchards" }
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned" "pm_tools_disabled" "pm_fig_orchards" }
 			}
 			create_building={
 				building="building_tea_plantation"
@@ -370,7 +370,7 @@
 		}
 	}
 	s:STATE_PASHTUNISTAN={
-		region_state:PAN={
+		region_state:APH={
 			create_building={
 				building="building_wheat_farm"
 				level=4
@@ -398,7 +398,7 @@
 		}
 	}
 	s:STATE_WESTERN_AFGHANISTAN={
-		region_state:AFG={
+		region_state:APH={
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -432,7 +432,7 @@
 		}
 	}
 	s:STATE_EASTERN_AFGHANISTAN={
-		region_state:AFG={
+		region_state:APH={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -478,7 +478,7 @@
 		}
 	}
 	s:STATE_BALUCHISTAN={
-		region_state:MAK={
+		region_state:APH={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -504,7 +504,7 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-		region_state:KAL={
+		region_state:APH={
 			create_building={
 				building="building_livestock_ranch"
 				level=1

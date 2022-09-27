@@ -19,7 +19,7 @@
 				building="building_rice_farm"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned_building_rice_farm" }
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_barracks"
@@ -57,7 +57,7 @@
 				building="building_rice_farm"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned_building_rice_farm" }
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
 		}
 	}
@@ -111,7 +111,7 @@
 				building="building_rice_farm"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned_building_rice_farm" "pm_tools_disabled" "pm_fig_orchards" }
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned" "pm_tools_disabled" "pm_fig_orchards" }
 			}
 			create_building={
 				building="building_barracks"
@@ -131,7 +131,7 @@
 				building="building_rice_farm"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned_building_rice_farm" "pm_tools_disabled" "pm_fig_orchards" }
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned" "pm_tools_disabled" "pm_fig_orchards" }
 			}
 		}
 		region_state:DYK={
@@ -149,7 +149,7 @@
 				building="building_rice_farm"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned_building_rice_farm" "pm_tools_disabled" "pm_fig_orchards" }
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned" "pm_tools_disabled" "pm_fig_orchards" }
 			}
 			create_building={
 				building="building_barracks"
@@ -209,7 +209,7 @@
 				building="building_rice_farm"
 				level=15
 				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned_building_rice_farm" "pm_tools_disabled" "pm_no_secondary" }
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned" "pm_tools_disabled" "pm_no_secondary" }
 			}		
 			create_building={
 				building="building_tobacco_plantation"
@@ -259,7 +259,7 @@
 				building="building_rice_farm"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned_building_rice_farm" "pm_tools_disabled" "pm_no_secondary" }
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned" "pm_tools_disabled" "pm_no_secondary" }
 			}			
 			create_building={
 				building="building_tobacco_plantation"
@@ -297,7 +297,7 @@
 				building="building_rice_farm"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned_building_rice_farm" "pm_tools_disabled" "pm_no_secondary" }
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned" "pm_tools_disabled" "pm_no_secondary" }
 			}
 		}
 	}
@@ -313,7 +313,7 @@
 				building="building_rice_farm"
 				level=6
 				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned_building_rice_farm" "pm_tools_disabled" "pm_no_secondary" }
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned" "pm_tools_disabled" "pm_no_secondary" }
 			}			
 			create_building={
 				building="building_logging_camp"
@@ -363,7 +363,7 @@
 				building="building_rice_farm"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned_building_rice_farm" "pm_tools_disabled" "pm_no_secondary" }
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned" "pm_tools_disabled" "pm_no_secondary" }
 			}			
 			create_building={
 				building="building_logging_camp"
@@ -411,7 +411,7 @@
 				building="building_rice_farm"
 				level=4
 				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned_building_rice_farm" "pm_tools_disabled" "pm_no_secondary" }
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned" "pm_tools_disabled" "pm_no_secondary" }
 			}
 			create_building={
 				building="building_tobacco_plantation"
@@ -461,7 +461,7 @@
 				building="building_rice_farm"
 				level=4
 				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned_building_rice_farm" "pm_tools_disabled" "pm_fig_orchards" }
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned" "pm_tools_disabled" "pm_fig_orchards" }
 			}
 			create_building={
 				building="building_tobacco_plantation"
@@ -515,7 +515,7 @@
 				building="building_rice_farm"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned_building_rice_farm" "pm_tools_disabled" "pm_fig_orchards" }
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned" "pm_tools_disabled" "pm_fig_orchards" }
 			}
 			create_building={
 				building="building_tobacco_plantation"
@@ -541,7 +541,7 @@
 				building="building_rice_farm"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned_building_rice_farm" "pm_tools_disabled" "pm_fig_orchards" }
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned" "pm_tools_disabled" "pm_fig_orchards" }
 			}
 			create_building={
 				building="building_barracks"
@@ -637,7 +637,7 @@
 				building="building_rice_farm"
 				level=3
 				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned_building_rice_farm" "pm_tools_disabled" "pm_no_secondary" }
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned" "pm_tools_disabled" "pm_no_secondary" }
 			}
 			create_building={
 				building="building_tobacco_plantation"
@@ -805,7 +805,7 @@
 				building="building_rice_farm"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned_building_rice_farm" "pm_tools_disabled" "pm_no_secondary" }
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned" "pm_tools_disabled" "pm_no_secondary" }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -851,7 +851,7 @@
 				building="building_rice_farm"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned_building_rice_farm" "pm_tools_disabled" "pm_no_secondary" }
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned" "pm_tools_disabled" "pm_no_secondary" }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -873,7 +873,7 @@
 				building="building_rice_farm"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned_building_rice_farm" }
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
 		}
 		region_state:SBJ={
@@ -907,7 +907,7 @@
 				building="building_rice_farm"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned_building_rice_farm" }
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
 		}
 	}
@@ -923,7 +923,7 @@
 				building="building_rice_farm"
 				level=10
 				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned_building_rice_farm" }
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_sugar_plantation"

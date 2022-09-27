@@ -103,7 +103,6 @@ je_mutual_funds = {
 				    has_active_production_method = pm_publicly_traded_building_arms_industry
 				    has_active_production_method = pm_publicly_traded
 				    has_active_production_method = pm_publicly_traded_building_logging_camp
-				    has_active_production_method = pm_publicly_traded_building_rice_farm
 				    has_active_production_method = pm_publicly_traded_building_fishing_wharf
 				    has_active_production_method = pm_publicly_traded_building_whaling_station
 				    has_active_production_method = pm_publicly_traded_building_oil_rig

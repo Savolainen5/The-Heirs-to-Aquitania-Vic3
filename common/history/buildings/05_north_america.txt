@@ -1187,7 +1187,7 @@
 					"pm_simple_farming_building_rice_farm"
 					"pm_no_secondary"
 					"pm_tools_disabled"
-					"pm_privately_owned_building_rice_farm"
+					"pm_privately_owned"
 				}
 			}
 			create_building={ # Actually pineapple plantation, but pineapples don't exist

@@ -8,6 +8,7 @@
 			cash_reserves_ratio > 0.25
 			weekly_profit > 0
 			occupancy > 0.75
+			is_subsidized = no
 		}
 	}		
 	
@@ -66,6 +67,7 @@ je_refining_goods = {
 			is_building_type = building_steel_mills
 			level >= 4
 			occupancy >= 0.9
+			is_subsidized = no
 		}
 	}
 
@@ -92,6 +94,7 @@ je_specialized_goods = {
 			is_building_type = building_motor_industry
 			level >= 2
 			occupancy >= 0.9
+			is_subsidized = no
 		}
 	}
 
@@ -132,7 +135,6 @@ je_strong_market = {
 	}
 	
 	complete = {
-		has_reached_end_date = yes
 		gdp > {
 			value = global_gdp
 			multiply = 0.25
@@ -174,17 +176,12 @@ je_specialized_inputs = {
 				}
 				percent >= 0.75
 				OR = {
-					has_active_production_method = pm_tractors_building_rye_farm
-					has_active_production_method = pm_tractors_building_wheat_farm
-					has_active_production_method = pm_tractors_building_maize_farm
-					has_active_production_method = pm_tractors_building_millet_farm
-					has_active_production_method = pm_compression_ignition_tractors_building_rye_farm
-					has_active_production_method = pm_compression_ignition_tractors_building_wheat_farm
-					has_active_production_method = pm_compression_ignition_tractors_building_maize_farm
-					has_active_production_method = pm_compression_ignition_tractors_building_millet_farm
+					has_active_production_method = pm_tractors
+					has_active_production_method = pm_compression_ignition_tractors
 				}
 				weekly_profit > 0
 				occupancy >= 0.5
+				is_subsidized = no
 			}
 			any_scope_building = {
 				filter = {
@@ -202,6 +199,7 @@ je_specialized_inputs = {
 				}
 				weekly_profit > 0
 				occupancy >= 0.5
+				is_subsidized = no
 			}
 			any_scope_building = {
 				is_building_type = building_railway
@@ -234,7 +232,7 @@ je_utilizing_our_strength = {
 	complete = {
 		market_capital.market = {
 			mg:engines = {
-				market_goods_pricier < 0.25
+				market_goods_cheaper < 0.25
 			}
 		}
 	}
@@ -253,7 +251,7 @@ je_exporting_profits = {
 	complete = {
 		market_capital.market = {
 			mg:engines = {
-				market_goods_exports > 20
+				market_goods_exports > 50
 			}
 		}
 	}
@@ -265,6 +263,7 @@ je_exporting_profits = {
 	on_complete = {
 		set_variable = player_obj_export_focus
 	}
+
 	weight = 1010
 	inheritable = yes
 }
