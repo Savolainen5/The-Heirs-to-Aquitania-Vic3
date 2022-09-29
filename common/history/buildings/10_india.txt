@@ -416,7 +416,7 @@
 		}
 	}
 	s:STATE_KASHMIR={
-		region_state:APH={
+		region_state:JND={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -456,7 +456,7 @@
 		}
 	}
 	s:STATE_PUNJAB={
-		region_state:APH={
+		region_state:JND={
 			create_building={
 				building="building_government_administration"
 				level=10
@@ -682,7 +682,7 @@
 		}
 	}
 	s:STATE_SINDH={
-		region_state:APH={
+		region_state:JND={
 			create_building={
 				building="building_fishing_wharf"
 				level=1

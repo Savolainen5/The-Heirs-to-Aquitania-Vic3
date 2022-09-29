@@ -238,7 +238,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_KASHMIR = {
-		region_state:APH = {
+		region_state:JND = {
 			create_pop = { #62%
 				culture = kashmiri
 				size = 1328002
@@ -264,7 +264,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_PUNJAB = {
-		region_state:APH = {
+		region_state:JND = {
 			create_pop = {
 				culture = panjabi
 				religion = sunni
@@ -389,7 +389,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_SINDH = {
-		region_state:APH = {
+		region_state:JND = {
 			create_pop = {
 				culture = sindi
 				size = 1644600

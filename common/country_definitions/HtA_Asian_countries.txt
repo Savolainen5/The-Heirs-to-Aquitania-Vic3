@@ -1,14 +1,4 @@
-﻿APH = { #Afghan placeholder empire
-	color = { 200 200 200 }
-	
-	country_type = unrecognized
-	
-	tier = empire
-	
-	cultures = { pashtun panjabi }
-	capital = STATE_EASTERN_AFGHANISTAN 
-}
-AVA = { #Ava
+﻿AVA = { #Ava
 	color = { 30 150 115 }
 	
 	country_type = unrecognized
@@ -77,6 +67,16 @@ IDG = { #Kingdom of Indragiri
 	
 	cultures = { sumatran }
 	capital = STATE_NORTH_SUMATRA 
+}
+JND = { #Janid Empire
+	color = { 16 90 53 }
+	
+	country_type = unrecognized
+	
+	tier = empire
+	
+	cultures = { pashtun panjabi }
+	capital = STATE_EASTERN_AFGHANISTAN 
 }
 MED = { #Kingdom of Medan
 	color = { 245 245 40 }

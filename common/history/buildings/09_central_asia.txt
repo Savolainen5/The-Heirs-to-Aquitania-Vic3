@@ -370,7 +370,7 @@
 		}
 	}
 	s:STATE_PASHTUNISTAN={
-		region_state:APH={
+		region_state:JND={
 			create_building={
 				building="building_wheat_farm"
 				level=4
@@ -398,7 +398,7 @@
 		}
 	}
 	s:STATE_WESTERN_AFGHANISTAN={
-		region_state:APH={
+		region_state:JND={
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -432,7 +432,7 @@
 		}
 	}
 	s:STATE_EASTERN_AFGHANISTAN={
-		region_state:APH={
+		region_state:JND={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -478,7 +478,7 @@
 		}
 	}
 	s:STATE_BALUCHISTAN={
-		region_state:APH={
+		region_state:JND={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -504,7 +504,7 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-		region_state:APH={
+		region_state:JND={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
