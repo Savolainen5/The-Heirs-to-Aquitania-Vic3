@@ -73,16 +73,19 @@
 	}
 
 	invalid = {
-		any_interest_group = {
-			custom_tooltip = {
-				text = fascism_1_tt
-				leader = {
-					has_ideology = ideology_fascist
+		# pelly_says = no
+		NOT = {
+			any_interest_group = {
+				custom_tooltip = {
+					text = fascism_1_tt
+					leader = {
+						has_ideology = ideology_fascist
+					}
 				}
-			}
-			OR = {
-				is_being_bolstered = no
-				is_in_government = no
+				OR = {
+					is_being_bolstered = yes
+					is_in_government = yes
+				}
 			}
 		}
 	}
@@ -111,7 +114,6 @@ je_fascism_2 = {
 	}
 
 	complete = {
-		has_technology_researched = political_agitation
 		OR = {
 			has_law = law_type:law_dedicated_police
 			has_law = law_type:law_militarized_police
@@ -148,8 +150,10 @@ je_fascism_2 = {
 							has_ideology = ideology_radical
 						}
 					}
-					is_marginal = yes
-					is_being_suppressed = yes
+					NOR = {
+						is_marginal = no
+						is_being_suppressed = no
+					}
 				}
 			}
 		}
@@ -169,12 +173,15 @@ je_fascism_2 = {
 	invalid = {
 		NOT = {
 			any_interest_group = {
+				custom_tooltip = {
+					text = fascism_1_tt
+					leader = {
+						has_ideology = ideology_fascist
+					}
+				}
 				OR = {
 					is_being_bolstered = yes
 					is_in_government = yes
-				}
-				leader = {
-					has_ideology = ideology_fascist
 				}
 			}
 		}
@@ -184,7 +191,7 @@ je_fascism_2 = {
 	can_deactivate = no
 }
 
-je_reinhardt_program = {
+je_modernization_program = {
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
 	immediate = {
@@ -202,13 +209,15 @@ je_reinhardt_program = {
 	complete = {
 		NOT = { has_law = law_type:law_free_trade }
 		custom_tooltip = {
-			text = je_reinhardt_program_tt
+			text = je_modernization_program_tt
 			capital = {
 				infrastructure >= 150
 			}
 		}
-		any_scope_state = {
-			is_incorporated = yes
+		any_scope_state = { 
+			filter = {
+				is_incorporated = yes
+			}
 			any_scope_building = {
 				is_building_type = building_railway
 				level >= 2
@@ -230,16 +239,18 @@ je_reinhardt_program = {
 	}
 
 	invalid = {
-		any_interest_group = {
-			custom_tooltip = {
-				text = fascism_1_tt
-				leader = {
-					has_ideology = ideology_fascist
+		NOT = {
+			any_interest_group = {
+				custom_tooltip = {
+					text = fascism_1_tt
+					leader = {
+						has_ideology = ideology_fascist
+					}
 				}
-			}
-			OR = {
-				is_being_bolstered = no
-				is_in_government = no
+				OR = {
+					is_being_bolstered = yes
+					is_in_government = yes
+				}
 			}
 		}
 	}
@@ -276,7 +287,10 @@ je_ethno_nationalist = {
 
 	complete = {
 		has_law = law_type:law_ethnostate
-		has_law = law_type:law_migration_controls
+		OR = {
+			has_law = law_type:law_migration_controls
+			has_law = law_type:law_closed_borders
+		}
 		custom_tooltip = {
 			text = je_ethno_nationalist_tt
 			NOT = {
@@ -301,12 +315,12 @@ je_ethno_nationalist = {
 				custom_tooltip = {
 					text = ethnonationalist_tt
 					leader = {
-						has_ideology = ideology_fascist
+						has_ideology = ideology_ethno_nationalist
 					}
 				}
 				OR = {
-					is_being_bolstered = no
-					is_in_government = no
+					is_being_bolstered = yes
+					is_in_government = yes
 				}
 			}
 		}

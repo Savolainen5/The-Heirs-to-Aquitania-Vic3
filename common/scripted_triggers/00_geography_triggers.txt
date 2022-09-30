@@ -224,7 +224,7 @@ is_subtropic_farmland = {
 	region = sr:region_caribbean
 }
 
-is_arid_plains = {
+is_arid_region = {
 	region = sr:region_oceania
 	region = sr:region_congo
 	region = sr:region_southern_africa

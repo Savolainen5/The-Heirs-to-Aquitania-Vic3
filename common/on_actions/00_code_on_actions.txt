@@ -1706,6 +1706,12 @@ on_political_movement_disbanded = {
 	}
 }
 
+# Root = Colony state
+on_colony_created = {
+	effect = {
+	}
+}
+
 # Root = Strategic Region
 # scope:actor = Aggressor country
 # scope:target = Target country
@@ -1886,15 +1892,10 @@ on_repudiate_obligation = {
 		}		
 	}
 }
-#	# Root = Commander
-#	on_commander_recruitment = {
-#		effect = {
-#			if = {
-#				limit = { 
-#					has_role = general
-#					has_journal_entry = je_tutorial_recruit_promote_commander
-#				}
-#				je:je_tutorial_recruit_promote_commander.target = root
-#			}
-#		}
-#	}
+
+# Root = Character
+on_character_recruitment = {
+	effect = {
+
+	}
+}
