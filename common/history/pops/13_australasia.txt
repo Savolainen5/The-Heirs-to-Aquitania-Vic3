@@ -53,7 +53,7 @@
 		}
 	}
 	s:STATE_SOUTH_AUSTRALIA = {
-		region_state:SAS = {
+		region_state:NSW = {
 			create_pop = {
 				culture = australian
 				size = 10500
@@ -65,7 +65,7 @@
 		}
 	}
 	s:STATE_WESTERN_AUSTRALIA = {
-		region_state:WAS = {
+		region_state:FRD = {
 			create_pop = {
 				culture = aborigine
 				size = 47500
@@ -83,7 +83,7 @@
 		}
 	}
 	s:STATE_NORTHERN_TERRITORY = {
-		region_state:NSW = {
+		region_state:MRG = {
 			create_pop = {
 				culture = aborigine
 				size = 31804

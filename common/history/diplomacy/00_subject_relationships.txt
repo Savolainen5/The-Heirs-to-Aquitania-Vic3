@@ -13,16 +13,6 @@
 			country = c:NSW
 			type = puppet
 		}
-		# Colony of Western Australia
-		create_diplomatic_pact = {
-			country = c:WAS
-			type = puppet
-		}
-		# Colony of South Australia, established in February 1836
-		create_diplomatic_pact = {
-			country = c:SAS
-			type = puppet
-		}
 		# Colony of Tasmania, historically called Van Dieman's Land until 1856
 		create_diplomatic_pact = {
 			country = c:TAS
@@ -94,6 +84,11 @@
 			country = c:ASL
 			type = puppet
 		}
+		# Colony of Frederiksland (formerly Western Australia)
+		create_diplomatic_pact = {
+			country = c:FRD
+			type = puppet
+		}
 	}
 	c:FRA = {
 		# Colony of Mariana
@@ -152,6 +147,12 @@
 		create_diplomatic_pact = {
 			country = c:TER
 			type = vassal
+		}
+		
+		# "Colony" of Maregen
+		create_diplomatic_pact = {
+			country = c:MRG
+			type = puppet
 		}
 	}
 	c:ROM = {

@@ -42,7 +42,7 @@
 }
 
 aquitanian={
-	color={ 192 40 247 }
+	color= { 174 99 202 } #<-- a bit more faded than this -->#{ 192 40 247 }
 	religion = catholic
 	traits = { aquophone european_heritage }
 	

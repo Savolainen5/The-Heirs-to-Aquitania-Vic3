@@ -1,0 +1,21 @@
+﻿FRD = { #Frederiksland
+	color = { 202 83 39 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+	
+	cultures = { danish }
+	capital = STATE_WESTERN_AUSTRALIA
+}
+
+MRG = { #Maregen
+	color = { 230 191 82 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	cultures = { dutch }
+	capital = STATE_NORTHERN_TERRITORY
+}
