@@ -441,6 +441,23 @@
 				size = 148
 			}
 		}
+		region_state:TRO = {
+			create_pop = {
+				culture = javan
+				size = 8201
+			}
+			create_pop = {
+				culture = javan
+				religion = animist
+				size = 5100
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = javan
+				religion = animist
+				size = 1280
+			}
+		}
 	}
 	s:STATE_EAST_JAVA = {
 		region_state:SUR = {
@@ -648,6 +665,22 @@
 			create_pop = {
 				culture = batak
 				size = 9813
+			}
+		}
+		region_state:BTK = {
+			create_pop = {
+				culture = sumatran
+				size = 1356
+			}
+			create_pop = {
+				culture = batak
+				size = 5836
+			}
+		}
+		region_state:MED = {
+			create_pop = {
+				culture = sumatran
+				size = 16934
 			}
 		}
 	}
