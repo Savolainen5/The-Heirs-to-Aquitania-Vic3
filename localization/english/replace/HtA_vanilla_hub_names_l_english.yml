@@ -74,3 +74,7 @@
  HUB_NAME_STATE_ALGIERS_port: "Cherchell"
  HUB_NAME_STATE_ALGIERS_farm: "Constantine"
  HUB_NAME_STATE_ALGIERS_wood: "Annaba"
+
+ #Tenasserim
+ HUB_NAME_STATE_TENASSERIM_wood: "Mawlamyine"
+ HUB_NAME_STATE_TENASSERIM_port: "Myeik"

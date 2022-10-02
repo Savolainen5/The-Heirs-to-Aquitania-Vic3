@@ -122,6 +122,14 @@
 			country = c:NUT
 			type = puppet
 		}
+		create_diplomatic_pact = {
+			country = c:ZBG
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:LRT
+			type = puppet
+		}
 	}
 	c:KAB = {
 		create_diplomatic_pact = {
@@ -144,10 +152,10 @@
 			country = c:NHL
 			type = puppet
 		}
-		create_diplomatic_pact = {
-			country = c:TER
-			type = vassal
-		}
+#		create_diplomatic_pact = {
+#			country = c:TER
+#			type = vassal
+#		}
 		
 		# "Colony" of Maregen
 		create_diplomatic_pact = {
@@ -192,12 +200,12 @@
 	#####################################################################################
 	#Asia
 	
-	c:BGS = {
-		create_diplomatic_pact = {
-			country = c:BIM
-			type = vassal
-		}
-	}
+#	c:AJP = {
+#		create_diplomatic_pact = {
+#			country = c:BIM
+#			type = vassal
+#		}
+#	}
 	c:EGY = {  #Yeah, this is technically Africa, but whatever, man
 		create_diplomatic_pact = {
 			country = c:HDJ
@@ -225,18 +233,6 @@
 			country = c:KOR
 			type = tributary
 		}				
-	}	
-#	c:KAL = {
-#		create_diplomatic_pact = {
-#			country = c:M#AK ##NOTE THIS IS BROKEN INTENTIONALLY IF YOU GO TO UNCOMMENT IT
-#			type = vassal
-#		}
-#	}
-	c:TER = {
-		create_diplomatic_pact = {
-			country = c:BTN
-			type = vassal
-		}
 	}
 	c:NNY = {
 		create_diplomatic_pact = {
