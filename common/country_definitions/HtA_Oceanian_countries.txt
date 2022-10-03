@@ -1,4 +1,6 @@
-﻿FRD = { #Frederiksland
+﻿
+
+FRD = { #Frederiksland
 	color = { 202 83 39 }
 	
 	country_type = colonial

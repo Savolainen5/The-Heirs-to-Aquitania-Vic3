@@ -1,0 +1,1 @@
+- Mokpo in SW Korea doesn't have a port anchor to connect to the sea node because I cannot for the life of me work out how to create a Type 1 anchor. If I could, its ID would be 69000 Type 1. I think there's another port somewhere in the world like that too.

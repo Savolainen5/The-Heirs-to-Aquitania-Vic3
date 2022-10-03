@@ -1,0 +1,6 @@
+﻿FRD = {
+	effect_starting_technology_tier_3_tech = yes
+}
+MRG = {
+	effect_starting_technology_tier_3_tech = yes
+}

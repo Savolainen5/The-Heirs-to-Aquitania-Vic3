@@ -78,3 +78,7 @@
  #Tenasserim
  HUB_NAME_STATE_TENASSERIM_wood: "Mawlamyine"
  HUB_NAME_STATE_TENASSERIM_port: "Myeik"
+
+ HUB_NAME_STATE_OUTER_MANCHURIA_wood: "Skovorodino"
+
+ HUB_NAME_STATE_TRANS_BAIKAL_farm: "Neryungri"
