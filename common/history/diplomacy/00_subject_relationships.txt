@@ -10,7 +10,7 @@
 		### AUSTRALIA ###
 		# Colony of New South Wales
 		create_diplomatic_pact = {
-			country = c:NSW
+			country = c:GWS
 			type = puppet
 		}
 		# Colony of Tasmania, historically called Van Dieman's Land until 1856
@@ -128,6 +128,10 @@
 		}
 		create_diplomatic_pact = {
 			country = c:LRT
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:HEG
 			type = puppet
 		}
 	}

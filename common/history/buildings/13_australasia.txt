@@ -1,6 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_NEW_SOUTH_WALES={
-		region_state:NSW={
+		region_state:GWS={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -28,7 +28,7 @@
 		}
 	}
 	s:STATE_VICTORIA={
-		region_state:NSW={
+		region_state:GWS={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -54,7 +54,7 @@
 		}
 	}
 	s:STATE_QUEENSLAND={
-		region_state:NSW={
+		region_state:GWS={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -64,7 +64,7 @@
 		}
 	}
 	s:STATE_SOUTH_AUSTRALIA={
-		region_state:NSW={
+		region_state:GWS={
 			create_building={
 				building="building_wheat_farm"
 				level=1
@@ -104,7 +104,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
-		region_state:NSW={
+		region_state:HEG={
 			create_building={
 				building="building_port"
 				level=1

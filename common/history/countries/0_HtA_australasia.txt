@@ -1,0 +1,22 @@
+﻿COUNTRIES = {
+	c:FRD = { #Frederiksland
+		effect_starting_technology_tier_2_tech = yes
+
+		activate_law = law_type:law_presidential_republic
+	}
+	c:GWS = { #Gewisse
+		effect_starting_technology_tier_2_tech = yes
+
+		activate_law = law_type:law_presidential_republic
+	}
+	c:HEG = { #Hegoalde
+		effect_starting_technology_tier_2_tech = yes
+
+		activate_law = law_type:law_presidential_republic
+	}
+	c:MRG = { #Maregen
+		effect_starting_technology_tier_2_tech = yes
+
+		activate_law = law_type:law_presidential_republic
+	}
+}

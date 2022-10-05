@@ -1,14 +1,34 @@
-﻿
-
-FRD = { #Frederiksland
+﻿FRD = { #Frederiksland
 	color = { 202 83 39 }
 	
 	country_type = colonial
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { danish }
 	capital = STATE_WESTERN_AUSTRALIA
+}
+
+GWS = { # Gewisse
+	color = { 110 217 233 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	capital = STATE_NEW_SOUTH_WALES
+	cultures = { australian }
+}
+
+HEG = { # Hegolade
+	color = { 49 122 56 }
+	
+	country_type = colonial
+	
+	tier = principality
+	
+	capital = STATE_NORTH_ISLAND
+	cultures = { australian }
 }
 
 MRG = { #Maregen
