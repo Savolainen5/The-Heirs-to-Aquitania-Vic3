@@ -12,6 +12,10 @@
 			add_ruling_interest_group = yes
 		}
 	}
+	c:ASM = { #Assam, a Tai-led country
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+	}
 	c:AVA = { #Ava
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
@@ -128,10 +132,10 @@
 			add_ideology = ideology_buddhist_moralist
 		}
 	}
-	c:MRK = { #Mrauk U
-		effect_starting_technology_tier_4_tech = yes
-		effect_starting_politics_traditional = yes
-	}
+#	c:MRK = { #Mrauk U
+#		effect_starting_technology_tier_4_tech = yes
+#		effect_starting_politics_traditional = yes
+#	}
 	c:MRT = { #Maratha Empire
 		effect_starting_technology_tier_3_tech = yes
 		effect_starting_politics_traditional = yes
@@ -147,7 +151,7 @@
 		activate_law = law_type:law_serfdom
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_appointed_bureaucrats
-		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_traditionalism
 		activate_law = law_type:law_censorship	
 		
@@ -189,7 +193,7 @@
 		activate_law = law_type:law_serfdom
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_appointed_bureaucrats
-		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_traditionalism
 		activate_law = law_type:law_censorship	
 		

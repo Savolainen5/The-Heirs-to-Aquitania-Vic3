@@ -714,13 +714,13 @@
 		}
 	}
 	s:STATE_FORMOSA = {
-		region_state:NNY = {
+		region_state:NET = {
 			create_pop = {
 				culture = min
 				size = 1880000
 			}
 			create_pop = {
-				culture = manchu
+				culture = dutch
 				size = 492
 			}
 			create_pop = {
@@ -1048,12 +1048,8 @@
 				size = 36000
 			}
 			create_pop = {
-				culture = mon
-				size = 3480
-			}
-			create_pop = {
 				culture = karen
-				size = 60800
+				size = 50000
 			}
 			create_pop = {
 				pop_type = slave
@@ -1069,12 +1065,8 @@
 				size = 200800
 			}
 			create_pop = {
-				culture = british
-				size = 96
-			}
-			create_pop = {
 				culture = burmese
-				size = 112000
+				size = 100000
 			}
 			create_pop = {
 				culture = mon
@@ -1082,7 +1074,29 @@
 			}
 			create_pop = {
 				culture = thai
-				size = 36004
+				size = 30000
+			}
+		}
+		region_state:IRE = {
+			create_pop = {
+				culture = mon
+				size = 3480
+			}
+			create_pop = {
+				culture = irish
+				size = 96
+			}
+			create_pop = {
+				culture = karen
+				size = 10800
+			}
+			create_pop = {
+				culture = thai
+				size = 6004
+			}
+			create_pop = {
+				culture = burmese
+				size = 12000
 			}
 		}
 	}
@@ -1191,7 +1205,7 @@
 		}
 	}
 	s:STATE_PEGU = {
-		region_state:MRK = {
+		region_state:BGL = {
 			create_pop = {
 				pop_type = slaves
 				culture = burmese

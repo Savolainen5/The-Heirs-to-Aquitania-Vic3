@@ -248,5 +248,11 @@
 			type = vassal
 		}
 	}
+	c:TAI = {
+		create_diplomatic_pact = {
+			country = c:ASM
+			type = vassal
+		}
+	}
 
 }

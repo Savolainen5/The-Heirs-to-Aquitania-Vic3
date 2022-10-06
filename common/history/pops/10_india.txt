@@ -34,7 +34,7 @@ s:STATE_BIHAR = {
 			create_pop = {
 				culture = assamese
 				religion = hindu
-				size = 982804
+				size = 252804
 			}
 			create_pop = {
 				culture = british
@@ -43,7 +43,7 @@ s:STATE_BIHAR = {
 			create_pop = {
 				culture = thai
 				religion = animist
-				size = 769204
+				size = 519204
 			}
 			create_pop = {
 				culture = manipuri
@@ -51,11 +51,31 @@ s:STATE_BIHAR = {
 			}
 			create_pop = {
 				culture = assamese
-				size = 321992
+				size = 111992
 			}
 			create_pop = {
 				culture = bengali
 				size = 220000
+			}
+		}
+		region_state:ASM = {
+			create_pop = {
+				culture = assamese
+				religion = hindu
+				size = 732804
+			}
+			create_pop = {
+				culture = assamese
+				size = 211992
+			}
+			create_pop = {
+				culture = thai
+				religion = animist
+				size = 120204
+			}
+			create_pop = {
+				culture = shan
+				size = 123456
 			}
 		}
 	}

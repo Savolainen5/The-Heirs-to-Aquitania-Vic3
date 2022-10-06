@@ -8,6 +8,17 @@
 	cultures = { moluccan }
 	capital = STATE_CELEBES 
 }
+ASM = { # Assam
+	color = { 163 5 77 }
+	
+	country_type = unrecognized
+	
+	tier = principality
+	
+	cultures = { shan assamese }
+	
+	capital = STATE_ASSAM
+}
 AVA = { #Ava
 	color = { 30 150 115 }
 	

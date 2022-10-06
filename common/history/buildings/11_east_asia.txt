@@ -1088,7 +1088,7 @@
 		}
 	}
 	s:STATE_FORMOSA={
-		region_state:NNY={
+		region_state:NET={
 			create_building={
 				building="building_fishing_wharf"
 				level=5
@@ -1510,8 +1510,16 @@
 	s:STATE_TENASSERIM={
 		region_state:SIA={
 			create_building={
+				building="building_rice_farm"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
+			}
+		}
+		region_state:IRE={
+			create_building={
 				building="building_dye_plantation"
-				level=2
+				level=1
 				reserves=1
 				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
@@ -1646,7 +1654,7 @@
 		}
 	}
 	s:STATE_PEGU={
-		region_state:MRK={
+		region_state:BGL={
 			create_building={
 				building="building_rice_farm"
 				level=1
