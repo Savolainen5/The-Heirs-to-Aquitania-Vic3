@@ -12,7 +12,7 @@
 		activate_law = law_type:law_women_own_property
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_appointed_bureaucrats
-		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_public_schools
@@ -45,7 +45,7 @@
 		activate_law = law_type:law_women_own_property
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_appointed_bureaucrats
-		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_public_schools
@@ -136,7 +136,7 @@
 		activate_law = law_type:law_women_own_property
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_appointed_bureaucrats
-		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_public_schools
@@ -205,7 +205,7 @@
 		activate_law = law_type:law_landed_voting
 		activate_law = law_type:law_state_religion
 		activate_law = law_type:law_legacy_slavery
-		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_land_based_taxation	
@@ -344,7 +344,7 @@
 		activate_law = law_type:law_women_own_property
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_appointed_bureaucrats
-		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_public_schools
@@ -397,7 +397,7 @@
 		activate_law = law_type:law_women_own_property
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_appointed_bureaucrats
-		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_public_schools
