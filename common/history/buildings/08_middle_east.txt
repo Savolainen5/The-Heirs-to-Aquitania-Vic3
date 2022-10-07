@@ -869,7 +869,7 @@
 		}
 	}
 	s:STATE_DIYARBAKIR={
-		region_state:TUR={
+		region_state:ROM={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -971,7 +971,7 @@
 		}
 	}
 	s:STATE_ERZURUM={
-		region_state:TUR={
+		region_state:ROM={
 			create_building={
 				building="building_logging_camp"
 				level=2
@@ -999,7 +999,7 @@
 		}
 	}
 	s:STATE_KARS={
-		region_state:TUR={
+		region_state:ROM={
 			create_building={
 				building="building_livestock_ranch"
 				level=1

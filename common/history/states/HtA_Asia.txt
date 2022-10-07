@@ -1003,7 +1003,7 @@
 		add_homeland = armenian
 	s:STATE_ERZURUM = {
 		create_state = {
-			country = c:TUR
+			country = c:ROM
 			owned_provinces = { x92A943 x59E513 xFDB72C x27689E x740ED1 x8F5A6A x895074 x801080 x52EB9A xC01080 xC41BC3 x795751 x669A31 x90BA49 x7BC870 x81F589 xD0901D xF51B98 x60677E x31B08C x5C223C x8713CE x465D69 x964F97 x1A75C7 xCB8C83 }
 		}
 		
@@ -1017,7 +1017,7 @@
 			owned_provinces = { x009000 x8A9689 x809001 }
 		}
 		create_state = {
-			country = c:TUR
+			country = c:ROM
 			owned_provinces = { xB8481F x467F92 x327755 }
 		}
 
@@ -1047,7 +1047,7 @@
 	}
 	s:STATE_DIYARBAKIR = {
 		create_state = {
-			country = c:TUR
+			country = c:ROM
 			owned_provinces = { x3CB54F x86D676 x0FD328 x5E4B3A xFB66D7 x95EA60 xC9CF24 x9E2132 xA090E0 x31F004 x9457C4 x55EC85 x47DD99 x1D287B xA57AFA x8A4F16 xD8B670 x60D4AE x665380 x319F6B xF3EE0A x376F7A xF657D8 x7DD48B x4DA0F1 }
 		}
 		
