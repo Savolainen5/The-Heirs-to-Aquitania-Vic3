@@ -1,11 +1,11 @@
 ﻿CHARACTERS = {
 	c:SIA = {
 		create_character = {
-			first_name = "Nangklao"
-			last_name = "Chakri"
+			first_name = "Sathit"
+			last_name = "Ban_Phlu_Luang"
 			ruler = yes
-			age = 48
-			dna = dna_king_rama_03
+			age = 43 #Born 1792
+			#dna = dna_king_rama_03
 			interest_group = ig_landowners
 			ideology = ideology_moderate # "modernizer"?
 			traits = {
@@ -14,12 +14,11 @@
 		}	
 
 		create_character = {
-			# Prince Pinklao 
-			#role = politician # Remove this line
-			first_name = "Pinklao"
-			last_name = "Chakri"
+			# Prince Sunton Thep 
+			first_name = "Sunton_Thep"
+			last_name = "Ban_Phlu_Luang"
 			heir = yes
-			age = 28
+			age = 21 #Born 1814
 			interest_group = ig_landowners
 			ideology = ideology_moderate # "modernizer"?
 			traits = {

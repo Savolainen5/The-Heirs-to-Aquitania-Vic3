@@ -240,6 +240,16 @@ SBJ = { #Sama-Bujau
 	cultures = { moro }
 	capital = STATE_MINDANAO
 }
+SIA = {
+	color = { 88  137  172 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { thai }
+	capital = STATE_NAKHON_RATCHASIMA
+}
 SLT = { #Selat Sultanate
 	color = { 240 220 80 }
 	

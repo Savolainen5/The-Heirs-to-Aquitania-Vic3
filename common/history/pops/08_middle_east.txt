@@ -770,7 +770,7 @@
 		}
 	}
 	s:STATE_DIYARBAKIR = {
-		region_state:TUR = {
+		region_state:ROM = {
 			create_pop = {
 				culture = kurdish
 				size = 556000
@@ -836,7 +836,7 @@
 		}
 	}
 	s:STATE_ERZURUM = {
-		region_state:TUR = {
+		region_state:ROM = {
 			create_pop = {
 				culture = turkish
 				size = 384000
@@ -884,7 +884,7 @@
 				size = 15000
 			}
 		}
-		region_state:TUR = {
+		region_state:ROM = {
 			create_pop = {
 				culture = turkish
 				size = 61000
