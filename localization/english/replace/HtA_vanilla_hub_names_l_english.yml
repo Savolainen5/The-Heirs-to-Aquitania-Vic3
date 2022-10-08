@@ -72,11 +72,6 @@
  HUB_NAME_STATE_ALGIERS_farm: "Constantine"
  HUB_NAME_STATE_ALGIERS_wood: "Annaba"
 
- #Thrace
- HUB_NAME_STATE_THRACE_wood: "Arkadiopolis"
- HUB_NAME_STATE_THRACE_mine: "Bisanthe"
- HUB_NAME_STATE_THRACE_port: "Kallipolis" #Consider making this be Selymbria instead, and moving the port to between Arkadiopolis and Constantinople
-
  #Tenasserim
  HUB_NAME_STATE_TENASSERIM_wood: "Mawlamyine"
  HUB_NAME_STATE_TENASSERIM_port: "Myeik"

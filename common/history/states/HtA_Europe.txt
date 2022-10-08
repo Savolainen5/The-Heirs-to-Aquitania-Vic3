@@ -66,7 +66,7 @@
 		add_homeland = romanian
 		add_homeland = roman
 	}
-	s:STATE_EASTERN_THRACE = {
+	s:STATE_THRACE = {
 		create_state = {
 			country = c:ROM
 			owned_provinces = { xF0A020 x115006 x608BB0 xF02082 xFCF160 x2073F0 x194E90 }
@@ -809,7 +809,7 @@
 		
 		add_homeland = greek
 	}
-	s:STATE_WESTERN_THRACE = {
+	s:STATE_STRYMON = {
 		create_state = {
 			country = c:ROM
 			owned_provinces = { xBE51B7 x6181D2 xF02020 x0261AB xEDECFB xB2249C }

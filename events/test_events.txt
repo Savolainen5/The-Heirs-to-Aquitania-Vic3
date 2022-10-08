@@ -590,7 +590,7 @@
 #				tag = CSA
 #				origin = this
 #
-#				state = s:STATE_EASTERN_THRACE.region_state:TUR
+#				state = s:STATE_THRACE.region_state:TUR
 #				# state = another state..
 #
 #				on_created = {
@@ -602,8 +602,8 @@
 #			create_country = {
 #				origin = this
 #
-#				state = s:STATE_EASTERN_THRACE.region_state:TUR
-#				state = s:STATE_EASTERN_THRACE.region_state:TUR
+#				state = s:STATE_THRACE.region_state:TUR
+#				state = s:STATE_THRACE.region_state:TUR
 #				# state = another state..
 #
 #				on_created = {
@@ -723,7 +723,7 @@
 #		highlighted_option = yes
 #		show_as_unavailable = { always = yes }
 #		trigger = {
-#			s:STATE_EASTERN_THRACE = {
+#			s:STATE_THRACE = {
 #				is_homeland = turkish
 #			}
 #		}
@@ -735,7 +735,7 @@
 #		highlighted_option = yes
 #		show_as_unavailable = { always = yes }
 #		trigger = {
-#			s:STATE_EASTERN_THRACE = {
+#			s:STATE_THRACE = {
 #				is_homeland = north_german
 #			}
 #		}
@@ -747,7 +747,7 @@
 #		highlighted_option = yes
 #		show_as_unavailable = { always = yes }
 #		trigger = {
-#			s:STATE_EASTERN_THRACE = {
+#			s:STATE_THRACE = {
 #				is_homeland = cu:turkish
 #			}
 #		}
@@ -759,7 +759,7 @@
 #		highlighted_option = yes
 #		show_as_unavailable = { always = yes }
 #		trigger = {
-#			s:STATE_EASTERN_THRACE = {
+#			s:STATE_THRACE = {
 #				is_homeland = cu:north_german
 #			}
 #		}
@@ -772,7 +772,7 @@
 #		show_as_unavailable = { always = yes }
 #		trigger = {
 #			cu:turkish = {
-#				has_homeland = s:STATE_EASTERN_THRACE.region_state:TUR
+#				has_homeland = s:STATE_THRACE.region_state:TUR
 #			}
 #		}
 #	}
@@ -784,7 +784,7 @@
 #		show_as_unavailable = { always = yes }
 #		trigger = {
 #			cu:north_german = {
-#				has_homeland = s:STATE_EASTERN_THRACE.region_state:TUR
+#				has_homeland = s:STATE_THRACE.region_state:TUR
 #			}
 #		}
 #	}
@@ -796,7 +796,7 @@
 #		show_as_unavailable = { always = yes }
 #		trigger = {
 #			cu:turkish = {
-#				has_homeland = s:STATE_EASTERN_THRACE
+#				has_homeland = s:STATE_THRACE
 #			}
 #		}
 #	}
@@ -808,7 +808,7 @@
 #		show_as_unavailable = { always = yes }
 #		trigger = {
 #			cu:north_german = {
-#				has_homeland = s:STATE_EASTERN_THRACE
+#				has_homeland = s:STATE_THRACE
 #			}
 #		}
 #	}
@@ -2219,14 +2219,14 @@
 #
 #	option = {
 #		name = "Remove 10 pollution"
-#		s:STATE_EASTERN_THRACE = {
+#		s:STATE_THRACE = {
 #			add_pollution = -10
 #		}
 #	}
 #
 #	option = {
 #		name = "Add 10 pollution"
-#		s:STATE_EASTERN_THRACE = {
+#		s:STATE_THRACE = {
 #			add_pollution = 10
 #		}
 #	}

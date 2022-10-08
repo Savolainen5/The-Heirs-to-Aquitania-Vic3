@@ -96,6 +96,8 @@
  STATE_EPIRUS: "Epirus" #Or maybe Nicopolis would be better?
  STATE_HELLAS: "Hellas"
  STATE_THESSALONICA: "Thessalonica"
+ STATE_STRYMON: "Strymon" #Perhaps could also be called Boleron
+ STATE_THRACE: "Thrace"
  STATE_AEGEAN_ISLANDS: "Aegean Islands"
  STATE_THRAKESION: "Thrakesion"
  STATE_OPSIKION: "Opsikion"

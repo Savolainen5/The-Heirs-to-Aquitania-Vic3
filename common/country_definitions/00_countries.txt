@@ -1813,7 +1813,7 @@ ISR = {
 #	tier = empire
 #	
 #	cultures = { greek }	
-#	capital = STATE_EASTERN_THRACE
+#	capital = STATE_THRACE
 #}
 
 ICL = {

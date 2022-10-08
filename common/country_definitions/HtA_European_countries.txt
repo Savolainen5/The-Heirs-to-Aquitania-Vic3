@@ -230,7 +230,7 @@ ROM = { #Roman Empire
 	tier = empire
 	
 	cultures = { roman greek anatolian }
-	capital = STATE_EASTERN_THRACE
+	capital = STATE_THRACE
 }
 RUT = { #Ruthenia (working name)
 	color = { 105 170 120 }
