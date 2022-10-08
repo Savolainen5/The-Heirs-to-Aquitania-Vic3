@@ -452,10 +452,10 @@ STATE_LURISTAN = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_opium_plantations" }
 }
 
-STATE_HUDAVENDIGAR = {
+STATE_OPSIKION = {
     id = 424
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x13886D" "x2F78D7" "x3020E0" "x30A060" "x31CD7B" "x34C810" "x3F1505" "x809000" "xB0A060" "xB4D60B" "xB8FEBB" }
+    provinces = { "x13886D" "x2F78D7" "x3020E0" "x30A060" "x31CD7B" "x34C810" "x3F1505" "x809000" "xB020E0" "xB0A060" "xB4D60B" "xB8FEBB" "xFD1F86" }
     city = "x13886D"
     port = "xB0A060"
     farm = "x3F1505"
@@ -470,10 +470,10 @@ STATE_HUDAVENDIGAR = {
     naval_exit_id = 3035
 }
 
-STATE_AYDIN = {
+STATE_IONIA = {
     id = 425
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x15CC91" "x205020" "x20AAE2" "x6E8DF4" "x95ABDB" "xA090A0" "xABD1D0" "xB020E0" "xBEA226" "xC0FCA9" "xE8A5DB" "xFD1F86" }
+    provinces = { "x15CC91" "x205020" "x20AAE2" "x6E8DF4" "x76C0DF" "x95ABDB" "xA090A0" "xABD1D0" "xBEA226" "xC0FCA9" "xE090A0" "xE8A5DB" }
     city = "xE8A5DB"
     port = "xB020E0"
     farm = "x15CC91"
@@ -489,25 +489,38 @@ STATE_AYDIN = {
     naval_exit_id = 3035
 }
 
-STATE_KONYA = {
+STATE_THRAKESION = {
+    id = 123
+    subsistence_building = "building_subsistence_orchards"
+    provinces = { "x1D4A61" "x375BA2" "x55148F" "x56087A" "x601020" "x669397" "x8505DE" "x93F78F" "x9E386C" "xA4ED5C" "xB54481" "xCB2093" "xE8D503" "xF7871B" "xFA1AEF" }
+    city = "x6090A0"
+    farm = "x6090A0"
+    arable_land = 38
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
+    capped_resources = {
+        bg_logging = 2
+    }
+}
+
+STATE_ANATOLIKON = {
     id = 426
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x02FE8B" "x04C595" "x0EABBE" "x1D4A61" "x375BA2" "x401060" "x472F2C" "x47B8CA" "x4CEBB4" "x547B95" "x55148F" "x56087A" "x601020" "x602629" "x65DE76" "x661DB3" "x669397" "x6DB349" "x70373E" "x76099B" "x76C0DF" "x802F12" "x8505DE" "x8F7C3D" "x93F78F" "x9E386C" "x9FFCAB" "xA4ED5C" "xB54481" "xBACCB8" "xBB0729" "xBC2D46" "xC0A9EB" "xC1905F" "xCB2093" "xCCE5E0" "xDE59BB" "xE01020" "xE090A0" "xE8D503" "xEB98F3" "xF28CC2" "xF7871B" "xFA1AEF" }
+    provinces = { "x02FE8B" "x04C595" "x0EABBE" "x401060" "x472F2C" "x47B8CA" "x4CEBB4" "x547B95" "x602629" "x65DE76" "x661DB3" "x6DB349" "x70373E" "x76099B" "x802F12" "x8F7C3D" "x9FFCAB" "xBACCB8" "xBB0729" "xBC2D46" "xC0A9EB" "xC1905F" "xCCE5E0" "xDE59BB" "xE01020" "xEB98F3" "xF28CC2" }
     city = "x547B95"
     port = "x04C595"
     farm = "x669397"
     mine = "xFA1AEF"
     wood = "x1D4A61"
-    arable_land = 86
+    arable_land = 56
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tea_plantations" "bg_tobacco_plantations" }
     capped_resources = {
-        bg_logging = 4
+        bg_logging = 2
         bg_fishing = 6
     }
     naval_exit_id = 3034
 }
 
-STATE_KASTAMONU = {
+STATE_PAPHLAGONIA = {
     id = 427
     subsistence_building = "building_subsistence_farms"
     provinces = { "x1D8401" "x312F4B" "x415C04" "x449057" "x6089D1" "x747BB5" "x7A7E06" "xB82B24" "xBEBB3F" "xC01000" "xC1C893" "xE1E090" "xF040E0" }
@@ -542,7 +555,7 @@ STATE_DIYARBAKIR = {
     }
 }
 
-STATE_ADANA = {
+STATE_CILICIA = {
     id = 429
     subsistence_building = "building_subsistence_farms"
     provinces = { "x2111E0" "x39CBF7" "x63E9DB" "x909463" "xA09060" "xA4523A" "xB0E060" "xE8DCC5" "xFA9C84" }
@@ -562,7 +575,7 @@ STATE_ADANA = {
     naval_exit_id = 3034
 }
 
-STATE_TRABZON = {
+STATE_CHALDIA = {
     id = 430
     subsistence_building = "building_subsistence_farms"
     provinces = { "x001080" "x009080" "x1357F8" "x146DD9" "x288BCD" "x809080" "x9655BD" "xA88EEC" "xAE07E3" "xB526B3" }
@@ -581,7 +594,7 @@ STATE_TRABZON = {
     naval_exit_id = 3036
 }
 
-STATE_ERZURUM = {
+STATE_CHALACHIA = {
     id = 431
     subsistence_building = "building_subsistence_farms"
     provinces = { "x1A75C7" "x27689E" "x31B08C" "x465D69" "x52EB9A" "x59E513" "x5C223C" "x60677E" "x669A31" "x740ED1" "x795751" "x7BC870" "x801080" "x81F589" "x8713CE" "x895074" "x8F5A6A" "x90BA49" "x92A943" "x964F97" "xC01080" "xC41BC3" "xCB8C83" "xD0901D" "xF51B98" "xFDB72C" }
@@ -598,7 +611,7 @@ STATE_ERZURUM = {
     }
 }
 
-STATE_ANKARA = {
+STATE_BOUKELLARION = {
     id = 432
     subsistence_building = "building_subsistence_farms"
     provinces = { "x03F8EA" "x04F350" "x098D9C" "x0BD6EC" "x0D1D4E" "x15BC1F" "x17B19B" "x180265" "x25499A" "x29D9AF" "x3041CC" "x30A0E0" "x39B060" "x3E9653" "x401080" "x409000" "x431F60" "x5D2F75" "x5F00C0" "x62FAA8" "x66B13B" "x785849" "x7DD19B" "x895D6B" "x8E9935" "x967F78" "xA8674E" "xB556A0" "xC09000" "xC29DFD" "xCAF12B" "xE17847" "xEB1F97" "xF470A0" }

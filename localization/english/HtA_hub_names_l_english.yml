@@ -183,4 +183,50 @@
  HUB_NAME_STATE_MONGONIE_mine: "Kinderbos" #Village near Boxtel in NL
  HUB_NAME_STATE_MONGONIE_farm: "Cederstroomversnelling" #Cedar Rapids. That is so ugly, isn't it
 
- 
+ #Roman Empire
+ HUB_NAME_STATE_EPIRUS_city: "Ioannina"
+ HUB_NAME_STATE_EPIRUS_farm: "Agroinion"
+ HUB_NAME_STATE_EPIRUS_mine: "Agios Donatos"
+ HUB_NAME_STATE_EPIRUS_port: "Naupactos"
+ HUB_NAME_STATE_EPIRUS_wood: "Arta"
+
+ HUB_NAME_STATE_HELLAS_city: "Athens"
+ HUB_NAME_STATE_HELLAS_farm: "Zetounion"
+ HUB_NAME_STATE_HELLAS_mine: "Thebes"
+ HUB_NAME_STATE_HELLAS_port: "Demetrias"
+ HUB_NAME_STATE_HELLAS_wood: "Larissa"
+
+ HUB_NAME_STATE_THESSALONICA_city: "Berrioa"
+ HUB_NAME_STATE_THESSALONICA_farm: "Katera"
+ HUB_NAME_STATE_THESSALONICA_mine: "Nymfaio" #For lack of a better placename, a modern Greek name in roughly the same place has been chosen
+ HUB_NAME_STATE_THESSALONICA_port: "Thessalonica"
+ HUB_NAME_STATE_THESSALONICA_wood: "Kastoria"
+
+ HUB_NAME_STATE_AEGEAN_ISLANDS_city: "Chios"
+ HUB_NAME_STATE_AEGEAN_ISLANDS_farm: "Mytilene"
+ HUB_NAME_STATE_AEGEAN_ISLANDS_mine: "Naxos"
+ HUB_NAME_STATE_AEGEAN_ISLANDS_port: "Rhodes"
+ HUB_NAME_STATE_AEGEAN_ISLANDS_wood: "Samos"
+
+ HUB_NAME_STATE_IONIA_city: "Smyrna"
+ HUB_NAME_STATE_IONIA_farm: "Pergamos"
+ HUB_NAME_STATE_IONIA_mine: "Makris"
+ HUB_NAME_STATE_IONIA_port: "Didyma"
+ HUB_NAME_STATE_IONIA_wood: "Mylasa"
+
+ HUB_NAME_STATE_OPSIKION_city: "Prousa"
+ HUB_NAME_STATE_OPSIKION_farm: "Pegai"
+ HUB_NAME_STATE_OPSIKION_mine: "Palaeokastron"
+ HUB_NAME_STATE_OPSIKION_port: "Nicomedia"
+ HUB_NAME_STATE_OPSIKION_wood: "Angelokomis"
+
+ HUB_NAME_STATE_THRAKESION_city: "Chonai"
+ HUB_NAME_STATE_THRAKESION_farm: "Sardis"
+ HUB_NAME_STATE_THRAKESION_mine: "Kotyaion"
+ HUB_NAME_STATE_THRAKESION_wood: "Nicopolis"
+
+ HUB_NAME_STATE_PAPHLAGONIA_city: "Kastamone"
+ HUB_NAME_STATE_PAPHLAGONIA_farm: "Hadrianopolis"
+ HUB_NAME_STATE_PAPHLAGONIA_mine: "Doceia"
+ HUB_NAME_STATE_PAPHLAGONIA_port: "Sinope"
+ HUB_NAME_STATE_PAPHLAGONIA_wood: "Heracleia"

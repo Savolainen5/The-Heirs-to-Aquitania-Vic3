@@ -180,7 +180,7 @@ MCD = { #Macedonia/Makedon
 	
 	tier = principality
 	cultures = { roman greek }
-	capital = STATE_MACEDONIA
+	capital = STATE_THESSALONICA
 }
 MNZ = { #Mainz
 	color = { 168 143 44 }

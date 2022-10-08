@@ -761,7 +761,7 @@
 			}
 		}
 	}
-	s:STATE_WEST_AEGEAN_ISLANDS = {
+	s:STATE_THRAKESION = {
 		region_state:ROM = {
 			create_pop = {
 				culture = greek
@@ -770,7 +770,7 @@
 		}
 	}
 
-	s:STATE_EAST_AEGEAN_ISLANDS = {
+	s:STATE_AEGEAN_ISLANDS = {
 		region_state:ROM = {
 			create_pop = {
 				culture = turkish
@@ -787,7 +787,7 @@
 		}
 
 	}
-	s:STATE_ATTICA = {
+	s:STATE_HELLAS = {
 		region_state:ROM = {
 			create_pop = {
 				culture = greek
@@ -795,7 +795,7 @@
 			}
 		}
 	}
-	s:STATE_THESSALIA = {
+	s:STATE_EPIRUS = {
 		region_state:ROM = {
 			create_pop = {
 				culture = turkish
@@ -844,7 +844,7 @@
 			}
 		}
 	}
-	s:STATE_MACEDONIA = {
+	s:STATE_THESSALONICA = {
 		region_state:ROM = {
 			create_pop = {
 				culture = turkish

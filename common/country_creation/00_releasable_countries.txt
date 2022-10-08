@@ -25,7 +25,7 @@ GEO = {
 ARM = {
 	states = {
 		STATE_ARMENIA
-		STATE_ERZURUM
+		STATE_CHALACHIA
 	}
 	
 	ai_will_do = { always = no }

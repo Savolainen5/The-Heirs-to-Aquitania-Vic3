@@ -944,25 +944,10 @@ STATE_CRETE = {
     naval_exit_id = 3034
 }
 
-STATE_WEST_AEGEAN_ISLANDS = {
-    id = 123
-    subsistence_building = "building_subsistence_orchards"
-    provinces = { "x6090A0" "x6960A0" }
-    city = "x6090A0"
-    port = "x6960A0"
-    farm = "x6090A0"
-    arable_land = 8
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_tobacco_plantations" }
-    capped_resources = {
-        bg_fishing = 4
-    }
-    naval_exit_id = 3034
-}
-
-STATE_EAST_AEGEAN_ISLANDS = {
+STATE_AEGEAN_ISLANDS = {
     id = 1001
     subsistence_building = "building_subsistence_orchards"
-    provinces = { "x2190A0" "xC56452" "xE011A0" }
+    provinces = { "x2190A0" "x6090A0" "x6960A0" "x702020" "xC56452" "xE011A0" }
     city = "x2190A0"
     port = "xE011A0"
     farm = "x2190A0"
@@ -975,10 +960,10 @@ STATE_EAST_AEGEAN_ISLANDS = {
     naval_exit_id = 3034
 }
 
-STATE_ATTICA = {
+STATE_HELLAS = {
     id = 124
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x0A645C" "x465F8D" "x518791" "x8D7F62" "xA010A0" "xBF5160" "xC72C61" "xCA246A" }
+    provinces = { "x0A645C" "x465F8D" "x80D060" "x8D7F62" "xA010A0" "xACFFA7" "xC72C61" "xCA246A" }
     city = "xC72C61"
     port = "x518791"
     farm = "x0A645C"
@@ -995,10 +980,10 @@ STATE_ATTICA = {
     naval_exit_id = 3033
 }
 
-STATE_THESSALIA = {
+STATE_EPIRUS = {
     id = 125
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x01D0E0" "x18C9AD" "x8050E0" "x80D060" "xACFFA7" "xE6E868" }
+    provinces = { "x01D0E0" "x18C9AD" "x518791" "x8050E0" "xBF5160" "xE6E868" }
     city = "x80D060"
     port = "xACFFA7"
     farm = "x80D060"
@@ -1029,7 +1014,7 @@ STATE_SKOPIA = {
     }
 }
 
-STATE_MACEDONIA = {
+STATE_THESSALONICA = {
     id = 127
     subsistence_building = "building_subsistence_farms"
     provinces = { "x01D060" "x021374" "x506020" "x70A0E0" "x75CAD1" "x90E0A0" "xBA7B5B" "xD2619E" "xE48F39" }
@@ -1050,7 +1035,7 @@ STATE_MACEDONIA = {
 STATE_WESTERN_THRACE = {
     id = 128
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x0261AB" "x6181D2" "x702020" "xB2249C" "xBE51B7" "xEDECFB" "xF02020" }
+    provinces = { "x0261AB" "x6181D2" "xB2249C" "xBE51B7" "xEDECFB" "xF02020" }
     city = "xEDECFB"
     port = "xF02020"
     farm = "xBE51B7"

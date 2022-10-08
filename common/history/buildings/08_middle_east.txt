@@ -690,7 +690,7 @@
 			}
 		}
 	}
-	s:STATE_HUDAVENDIGAR={
+	s:STATE_OPSIKION={
 		region_state:ROM={
 			create_building={
 				building="building_government_administration"
@@ -748,7 +748,7 @@
 			}
 		}
 	}
-	s:STATE_AYDIN={
+	s:STATE_IONIA={
 		region_state:ROM={
 			create_building={
 				building="building_textile_mills"
@@ -812,7 +812,7 @@
 			}
 		}
 	}
-	s:STATE_KONYA={
+	s:STATE_ANATOLIKON={
 		region_state:ROM={
 			create_building={
 				building="building_cotton_plantation"
@@ -846,7 +846,7 @@
 			}
 		}
 	}
-	s:STATE_KASTAMONU={
+	s:STATE_PAPHLAGONIA={
 		region_state:ROM={
 			create_building={
 				building="building_tea_plantation"
@@ -896,7 +896,7 @@
 			}
 		}
 	}
-	s:STATE_ADANA={
+	s:STATE_CILICIA={
 		region_state:ROM={
 			create_building={
 				building="building_cotton_plantation"
@@ -936,7 +936,7 @@
 			}
 		}
 	}
-	s:STATE_TRABZON={
+	s:STATE_CHALDIA={
 		region_state:ROM={
 			create_building={
 				building="building_fishing_wharf"
@@ -970,7 +970,7 @@
 			}
 		}
 	}
-	s:STATE_ERZURUM={
+	s:STATE_CHALACHIA={
 		region_state:ROM={
 			create_building={
 				building="building_logging_camp"
@@ -1028,7 +1028,7 @@
 			}
 		}
 	}
-	s:STATE_ANKARA={
+	s:STATE_BOUKELLARION={
 		region_state:ROM={
 			create_building={
 				building="building_government_administration"

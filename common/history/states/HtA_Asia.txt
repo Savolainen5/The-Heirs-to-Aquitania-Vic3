@@ -957,34 +957,43 @@
 		
 		add_homeland = georgian
 	}
-	s:STATE_HUDAVENDIGAR = {
+	s:STATE_THRAKESION = {
 		create_state = {
 			country = c:ROM
-			owned_provinces = { x31CD7B x3020E0 xB8FEBB x13886D x2F78D7 xB0A060 x809000 x3F1505 xB4D60B x34C810 x30A060 }
+			owned_provinces = { x1D4A61 x375BA2 x55148F x56087A x601020 x669397 x8505DE x93F78F x9E386C xA4ED5C xB54481 xCB2093 xE8D503 xF7871B xFA1AEF }
+		}
+		
+		add_homeland = greek
+		add_homeland = roman			
+	}
+	s:STATE_OPSIKION = {
+		create_state = {
+			country = c:ROM
+			owned_provinces = { x13886D x2F78D7 x3020E0 x30A060 x31CD7B x34C810 x3F1505 x809000 xB020E0 xB0A060 xB4D60B xB8FEBB xFD1F86 }
 		}
 		
 		add_homeland = roman
 		add_homeland = anatolian
 	}
-	s:STATE_AYDIN = {
+	s:STATE_IONIA = {
 		create_state = {
 			country = c:ROM
-			owned_provinces = { x205020 xE8A5DB x95ABDB x20AAE2 x6E8DF4 xFD1F86 xB020E0 xBEA226 xA090A0 x15CC91 xC0FCA9 xABD1D0 }
+			owned_provinces = { x15CC91 x205020 x20AAE2 x6E8DF4 x76C0DF x95ABDB xA090A0 xABD1D0 xBEA226 xC0FCA9 xE090A0 xE8A5DB }
 		}
 		
 		add_homeland = roman	
 		add_homeland = anatolian
 	}
-	s:STATE_KONYA = {
+	s:STATE_ANATOLIKON = {
 		create_state = {
 			country = c:ROM
-			owned_provinces = { x6DB349 xC1905F xEB98F3 xDE59BB xCCE5E0 xBC2D46 x802F12 x547B95 x4CEBB4 x76099B x70373E x02FE8B x9FFCAB xBACCB8 x0EABBE x602629 xBB0729 x401060 x65DE76 x472F2C x8F7C3D xE01020 x47B8CA x04C595 xF28CC2 xC0A9EB x661DB3 xE090A0 x601020 x76C0DF x669397 xE8D503 xCB2093 x55148F xA4ED5C xFA1AEF xF7871B x93F78F x9E386C x1D4A61 x8505DE x56087A x375BA2 xB54481 }
+			owned_provinces = { x02FE8B x04C595 x0EABBE x401060 x472F2C x47B8CA x4CEBB4 x547B95 x602629 x65DE76 x661DB3 x6DB349 x70373E x76099B x802F12 x8F7C3D x9FFCAB xBACCB8 xBB0729 xBC2D46 xC0A9EB xC1905F xCCE5E0 xDE59BB xE01020 xEB98F3 xF28CC2 }
 		}
 		
 		add_homeland = armenian
 		add_homeland = anatolian
 	}
-	s:STATE_KASTAMONU = {
+	s:STATE_PAPHLAGONIA = {
 		create_state = {
 			country = c:ROM
 			owned_provinces = { xB82B24 xBEBB3F xF040E0 x747BB5 x415C04 xC01000 x312F4B x449057 x1D8401 xE1E090 xC1C893 x7A7E06 x6089D1 }
@@ -992,7 +1001,7 @@
 		
 		add_homeland = anatolian
 	}
-	s:STATE_TRABZON = {
+	s:STATE_CHALDIA = {
 		create_state = {
 			country = c:ROM
 			owned_provinces = { x146DD9 x009080 x9655BD xAE07E3 x288BCD x809080 x001080 xA88EEC x1357F8 xB526B3 }
@@ -1001,7 +1010,7 @@
 		add_homeland = anatolian
 		add_homeland = kurdish
 		add_homeland = armenian
-	s:STATE_ERZURUM = {
+	s:STATE_CHALACHIA = {
 		create_state = {
 			country = c:ROM
 			owned_provinces = { x92A943 x59E513 xFDB72C x27689E x740ED1 x8F5A6A x895074 x801080 x52EB9A xC01080 xC41BC3 x795751 x669A31 x90BA49 x7BC870 x81F589 xD0901D xF51B98 x60677E x31B08C x5C223C x8713CE x465D69 x964F97 x1A75C7 xCB8C83 }
@@ -1026,7 +1035,7 @@
 		#add_homeland = kurdish
 		add_homeland = georgian
 	}
-	s:STATE_ANKARA = {
+	s:STATE_BOUKELLARION = {
 		create_state = {
 			country = c:ROM
 			owned_provinces = { x39B060 x409000 x098D9C x29D9AF x5F00C0 x25499A xE17847 x66B13B xCAF12B x15BC1F x5D2F75 x7DD19B x8E9935 x895D6B x0BD6EC xB556A0 x785849 x967F78 x17B19B xC09000 xF470A0 xA8674E x3041CC x3E9653 x431F60 x30A0E0 xC29DFD x180265 xEB1F97 x04F350 x03F8EA x62FAA8 x401080 x0D1D4E }
@@ -1857,7 +1866,7 @@
 		
 		add_homeland = pashtun
 	}
-	s:STATE_ADANA = {
+	s:STATE_CILICIA = {
 		create_state = {
 			country = c:ROM
 			owned_provinces = { x2111E0 x39CBF7 x909463 x63E9DB xA4523A xB0E060 xFA9C84 xE8DCC5 xA09060 } 

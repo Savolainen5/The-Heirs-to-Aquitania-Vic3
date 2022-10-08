@@ -772,7 +772,7 @@ GRE = {
 	tier = kingdom
 	
 	cultures = { greek }	
-	capital = STATE_ATTICA
+	capital = STATE_HELLAS
 }
 
 MOL = {

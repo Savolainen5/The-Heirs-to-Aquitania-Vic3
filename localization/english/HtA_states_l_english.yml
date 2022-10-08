@@ -91,3 +91,18 @@
  #South Ameriga
 
  STATE_GYREFENA: "Gyrefena"
+
+ #Roman Empire
+ STATE_EPIRUS: "Epirus" #Or maybe Nicopolis would be better?
+ STATE_HELLAS: "Hellas"
+ STATE_THESSALONICA: "Thessalonica"
+ STATE_AEGEAN_ISLANDS: "Aegean Islands"
+ STATE_THRAKESION: "Thrakesion"
+ STATE_OPSIKION: "Opsikion"
+ STATE_IONIA: "Ionia"
+ STATE_ANATOLIKON: "Anatolikon"
+ STATE_PAPHLAGONIA: "Paphlagonia"
+ STATE_CHALDIA: "Chaldia"
+ STATE_CHALACHIA: "Chalachia" #My attempt at coming up for a region named after not-Erzurum, which could be Turkish Kalakı perhaps. It's pretty dang similar to the above state though
+ STATE_BOUKELLARION: "Boukellarion"
+ STATE_CILICIA: "Cilicia"
