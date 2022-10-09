@@ -121,8 +121,19 @@
 		
 		effect_starting_politics_conservative = yes
 	}
+	c:DAG = { #Dagestan
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_debt_slavery
+	}
 	c:DAU = {
-		#set_last_election = 1834.6.21
 		
 		effect_starting_technology_tier_1_tech = yes
 
@@ -178,6 +189,14 @@
 		effect_starting_technology_tier_4_tech = yes
 		
 		effect_starting_politics_conservative = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_debt_slavery
 	}
 #	c:GLG = {
 #		effect_starting_technology_tier_6_tech = yes
@@ -247,6 +266,13 @@
 		effect_starting_technology_tier_6_tech = yes
 		
 		effect_starting_politics_conservative = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
 	}
 	c:KRI = {
 		effect_starting_technology_tier_1_tech = yes
@@ -454,11 +480,25 @@
 		effect_starting_technology_tier_4_tech = yes
 		
 		effect_starting_politics_conservative = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
 	}
 	c:TAT = {
 		effect_starting_technology_tier_4_tech = yes
 		
 		effect_starting_politics_conservative = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
 	}
 	c:TRR = {
 		effect_starting_technology_tier_2_tech = yes

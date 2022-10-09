@@ -2,6 +2,13 @@
 	c:AJP = { #Ajatperrang Confederation
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_debt_slavery
 
 		ig:ig_landowners = {
@@ -11,15 +18,37 @@
 	c:ASM = { #Assam, a Tai-led country
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_debt_slavery
 	}
 	c:AVA = { #Ava
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_debt_slavery
 	}
 	c:BGL = {
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes		
-
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_debt_slavery
 		
 		ig:ig_landowners = {
@@ -33,6 +62,13 @@
 	c:BTK = { #Batak
 		effect_starting_technology_tier_6_tech = yes
 		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_debt_slavery
 
 		ig:ig_devout = { 
@@ -55,6 +91,13 @@
 	c:DYK = { #Dayak
 		effect_starting_technology_tier_6_tech = yes
 		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_debt_slavery
 
 		ig:ig_devout = { 
@@ -64,6 +107,14 @@
 	c:JND = { #Janid Empire
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_debt_slavery
 	}
 	c:LAZ = { #Lazarines
 		
@@ -92,11 +143,27 @@
 	c:LRT = { #Larantuka
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_debt_slavery
 	}
 	c:MCH = { #Manchuria
 		effect_starting_technology_tier_4_tech = yes
 		
 		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_debt_slavery
 
 		ig:ig_devout = {										#They would probably be Buddhist, which they were before conquering China OTL
 			set_interest_group_name = ig_mahayana_monks
@@ -107,6 +174,13 @@
 	c:MEL = { #Melayu
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_debt_slavery
 
 		ig:ig_devout = { 
@@ -121,6 +195,14 @@
 		effect_starting_technology_tier_4_tech = yes
 		
 		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_debt_slavery
 
 		ig:ig_devout = {
 			set_interest_group_name = ig_mahayana_monks
@@ -135,6 +217,14 @@
 	c:MRT = { #Maratha Empire
 		effect_starting_technology_tier_3_tech = yes
 		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_debt_slavery
 	}
 	c:NNY = { #Nanyue
 		effect_starting_technology_tier_4_tech = yes
@@ -175,6 +265,14 @@
 	c:PRI = { #Prani
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_debt_slavery
 	}
 	c:QIN = { #Qin, obviously
 		effect_starting_technology_tier_4_tech = yes
@@ -227,6 +325,13 @@
 	c:SRW = { #Sarawak
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_debt_slavery
 
 		ig:ig_devout = { 
@@ -240,6 +345,13 @@
 	c:SUR = { #Surabaya
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_debt_slavery
 
 		ig:ig_devout = { 
@@ -253,10 +365,26 @@
 	c:TAI = { #Tai / Shan
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_debt_slavery
 	}
 	c:TAU = { #Taungu
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_debt_slavery
 	}
 #	c:TRO = { #Trowulan
 #		effect_starting_technology_tier_4_tech = yes
@@ -274,9 +402,25 @@
 	c:YUN = { #Yunnan
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_debt_slavery
 	}
 	c:ZBG = { #Zamboanga
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_debt_slavery
 	}
 }

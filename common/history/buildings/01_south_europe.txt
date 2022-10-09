@@ -1988,16 +1988,6 @@
 			}
 		}
 	}
-	s:STATE_THRAKESION={
-		region_state:ROM={
-			create_building={
-				building="building_fishing_wharf"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_merchant_guilds_building_fishing_wharf" "pm_unrefrigerated" "pm_fishing_trawlers" }
-			}
-		}
-	}
 	s:STATE_AEGEAN_ISLANDS={
 		region_state:ROM={
 			create_building={

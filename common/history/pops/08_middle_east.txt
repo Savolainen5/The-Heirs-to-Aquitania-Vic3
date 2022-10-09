@@ -741,6 +741,14 @@
 			}
 		}
 	}
+	s:STATE_THRAKESION = {
+		region_state:ROM = {
+			create_pop = {
+				culture = greek
+				size = 80404
+			}
+		}
+	}
 	s:STATE_ANATOLIKON = {
 		region_state:ROM = {
 			create_pop = {
