@@ -242,3 +242,31 @@
  HUB_NAME_STATE_PAPHLAGONIA_mine: "Doceia"
  HUB_NAME_STATE_PAPHLAGONIA_port: "Sinope"
  HUB_NAME_STATE_PAPHLAGONIA_wood: "Heracleia"
+
+  HUB_NAME_STATE_ANATOLIKON_city: "Ikonion"
+  HUB_NAME_STATE_ANATOLIKON_farm: "Leontopolis"
+  HUB_NAME_STATE_ANATOLIKON_mine: "Cybistra"
+  HUB_NAME_STATE_ANATOLIKON_port: "Attaleia"
+  HUB_NAME_STATE_ANATOLIKON_wood: "Amorion"
+
+  HUB_NAME_STATE_BOUKELLARION_city: "Caisarea"
+  HUB_NAME_STATE_BOUKELLARION_farm: "Amaseia"
+  HUB_NAME_STATE_BOUKELLARION_mine: "Taoion" #See wikipedia on Tavium, it's kind of near the city of Yozgat, which is the name used for this hub in the base game
+  HUB_NAME_STATE_BOUKELLARION_wood: "Ancyra"
+
+  HUB_NAME_STATE_CHALDIA_city: "Cotyora"
+  HUB_NAME_STATE_CHALDIA_farm: "Amisos"
+  HUB_NAME_STATE_CHALDIA_mine: "Rizaion"
+  HUB_NAME_STATE_CHALDIA_port: "Kerasous"
+  HUB_NAME_STATE_CHALDIA_wood: "Trapezus"
+
+  HUB_NAME_STATE_CHALACHIA_city: "Chalaki" #Invented alternative to Erzurum considering its etymology. Turkish name Kalakı
+  HUB_NAME_STATE_CHALACHIA_farm: "Carakilisa"
+  HUB_NAME_STATE_CHALACHIA_mine: "Achilisene" #Shaky name for Erzincan
+  HUB_NAME_STATE_CHALACHIA_wood: "Mysia" #Another shaky name for Muş
+
+  HUB_NAME_STATE_CILICIA_city: "Adana" #Apparently this is the most frequent name for it historically even in Greek
+  HUB_NAME_STATE_CILICIA_port: "Zephyrion" #Another option is Mersini/Mersina
+  HUB_NAME_STATE_CILICIA_mine: "Sision"
+  HUB_NAME_STATE_CILICIA_farm: "Seleucia"
+  HUB_NAME_STATE_CILICIA_wood: "Chiniki" #Invented based on the old Turkish town of Kınık in/near Osmaniye
