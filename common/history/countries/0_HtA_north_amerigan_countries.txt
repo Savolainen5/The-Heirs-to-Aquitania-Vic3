@@ -168,37 +168,180 @@
 		effect_starting_technology_tier_3_tech = yes
 		
 		effect_starting_politics_conservative = yes
-		activate_law = law_type:law_public_schools
+
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_appointed_bureaucrats
 		activate_law = law_type:law_legacy_slavery
-		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_colonial_resettlement
-		activate_law = law_type:law_right_of_assembly
-		activate_law = law_type:law_serfdom_banned
-		activate_law = law_type:law_consumption_based_taxation
-		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_censorship
 	}
 	c:SHC = {
 		set_tax_level = medium
 		
-		effect_starting_technology_tier_6_tech = yes
+		effect_starting_technology_tier_4_tech = yes
 	
 		effect_starting_politics_conservative = yes
+		
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_consumption_based_taxation
 	}
 	c:YUC = {
 		effect_starting_technology_tier_3_tech = yes
 		
 		effect_starting_politics_conservative = yes
-		activate_law = law_type:law_public_schools
+		
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_appointed_bureaucrats
 		activate_law = law_type:law_legacy_slavery
-		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_isolationism
 		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_colonial_resettlement
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_censorship
+	}
+	
+	#Decentralized
+	
+	c:ATB = {
+		effect_starting_technology_tier_6_tech = yes
+		
+		effect_native_conscription_10 = yes	
+	
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_isolationism
 		activate_law = law_type:law_right_of_assembly
-		activate_law = law_type:law_serfdom_banned
-		activate_law = law_type:law_consumption_based_taxation
-		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_peasant_levies
+	}
+	c:CHN = {
+		effect_starting_technology_tier_6_tech = yes
+		
+		effect_native_conscription_10 = yes	
+	
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_peasant_levies
+	}
+	c:HAD = {
+		effect_starting_technology_tier_6_tech = yes
+		
+		effect_native_conscription_10 = yes	
+	
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_peasant_levies
+	}
+	c:KLA = {
+		effect_starting_technology_tier_6_tech = yes
+		
+		effect_native_conscription_10 = yes	
+	
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_peasant_levies
+	}
+	c:NDN = {
+		effect_starting_technology_tier_6_tech = yes
+		
+		effect_native_conscription_10 = yes	
+	
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_peasant_levies
+	}
+	c:NPT = {		
+		effect_starting_technology_tier_6_tech = yes
+		
+		effect_native_conscription_10 = yes	
+	
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_peasant_levies
+	}
+	c:SAL = {
+		effect_starting_technology_tier_6_tech = yes
+		
+		effect_native_conscription_10 = yes	
+	
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_peasant_levies
+	}
+	c:SHO = {
+		effect_starting_technology_tier_6_tech = yes
+		
+		effect_native_conscription_10 = yes	
+	
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_peasant_levies
+	}
+	c:SPT = {
+		effect_starting_technology_tier_6_tech = yes
+		
+		effect_native_conscription_10 = yes	
+	
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_peasant_levies
 	}
 }

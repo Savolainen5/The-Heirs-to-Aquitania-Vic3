@@ -34,7 +34,7 @@ ATB = { #Athabasca
     tier = principality
 
     cultures = { athabaskan }
-    capital = STATE_DENEDE
+    capital = STATE_NIQUAN
 }
 CHN = { #Chinook
 	color = { 155 190 25 }
@@ -207,6 +207,19 @@ YUP = { #Yupik
 }
 
 #Central Ameriga
+
+YUC = {
+	color = { 20 142 20 }
+	
+	country_type = recognized
+	
+	tier = principality
+	
+	cultures = { mayan }
+	capital = STATE_YUCATAN
+}
+
+
 #South Ameriga
 CNL = { #Canelia, generalized name for indigenous peoples on the right bank of the Amazon
 	color = { 200 175 20 }

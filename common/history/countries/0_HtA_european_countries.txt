@@ -205,6 +205,10 @@
 #	}
 	c:HHB = {
 		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_national_supremacy
 	}
 	c:HIS = {
 		set_next_election_date = 1836.7.13
@@ -261,6 +265,10 @@
 	}
 	c:JEB = {
 		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_national_supremacy
 	}
 	c:KAB = {
 		effect_starting_technology_tier_6_tech = yes
@@ -273,6 +281,10 @@
 		activate_law = law_type:law_traditionalism
 		activate_law = law_type:law_right_of_assembly
 		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_no_schools
+		activate_law = law_type:law_isolationism
 	}
 	c:KRI = {
 		effect_starting_technology_tier_1_tech = yes
@@ -281,6 +293,10 @@
 	}
 	c:LDN = {
 		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_national_supremacy
 	}
 #	c:LIT = {
 #		effect_starting_technology_tier_2_tech = yes
@@ -308,7 +324,9 @@
 		activate_law = law_type:law_free_trade
 		activate_law = law_type:law_right_of_assembly
 		activate_law = law_type:law_religious_schools
-		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_consumption_based_taxation
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_national_supremacy
 	}
 #	c:MCD = {
 #		effect_starting_technology_tier_2_tech = yes

@@ -1,20 +1,88 @@
 ﻿COUNTRIES = {
+	#Recognized + Unrecognized
+	c:GLE = {
+		set_tax_level = medium
+		
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_liberal = yes
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_legacy_slavery
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_colonial_resettlement
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_serfdom_banned
+		activate_law = law_type:law_consumption_based_taxation
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_state_religion
+		
+		add_taxed_goods = g:liquor
+		add_taxed_goods = g:grain
+		add_taxed_goods = g:tobacco
+
+		set_institution_investment_level = {
+			institution = institution_colonial_affairs
+			level = 2
+		}
+		
+		set_institution_investment_level = {
+			institution = institution_schools
+			level = 2
+		}
+
+	}
+	c:NCS = {
+		set_tax_level = medium
+		
+		effect_starting_technology_tier_3_tech = yes
+		
+		effect_starting_politics_conservative = yes
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_legacy_slavery
+		activate_law = law_type:law_racial_segregation
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_colonial_resettlement
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_serfdom_banned
+		activate_law = law_type:law_consumption_based_taxation
+		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_state_religion
+		
+		add_taxed_goods = g:liquor
+		add_taxed_goods = g:grain
+		add_taxed_goods = g:tobacco
+
+		set_institution_investment_level = {
+			institution = institution_colonial_affairs
+			level = 2
+		}
+		
+		set_institution_investment_level = {
+			institution = institution_schools
+			level = 2
+		}
+
+	}
 	c:NEX = {
 		set_tax_level = medium
 		
 		effect_starting_technology_tier_2_tech = yes
 		
 		effect_starting_politics_liberal = yes
-		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_legacy_slavery
 		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_colonial_resettlement
 		activate_law = law_type:law_right_of_assembly
 		activate_law = law_type:law_serfdom_banned
 		activate_law = law_type:law_consumption_based_taxation
 		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_state_religion
 		
 		add_taxed_goods = g:liquor
 		add_taxed_goods = g:grain
@@ -29,40 +97,6 @@
 			institution = institution_schools
 			level = 2
 		}
-
-
-	}
-	c:NLT = {
-		set_tax_level = medium
-		
-		effect_starting_technology_tier_3_tech = yes
-		
-		effect_starting_politics_liberal = yes
-		activate_law = law_type:law_public_schools
-		activate_law = law_type:law_legacy_slavery
-		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_protectionism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_colonial_resettlement
-		activate_law = law_type:law_right_of_assembly
-		activate_law = law_type:law_serfdom_banned
-		activate_law = law_type:law_consumption_based_taxation
-		activate_law = law_type:law_national_militia
-		
-		add_taxed_goods = g:liquor
-		add_taxed_goods = g:grain
-		add_taxed_goods = g:tobacco
-
-		set_institution_investment_level = {
-			institution = institution_colonial_affairs
-			level = 2
-		}
-		
-		set_institution_investment_level = {
-			institution = institution_schools
-			level = 2
-		}
-
 
 	}
 	c:NGR = {
@@ -71,16 +105,17 @@
 		effect_starting_technology_tier_2_tech = yes
 		
 		effect_starting_politics_liberal = yes
-		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_legacy_slavery
 		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_colonial_resettlement
 		activate_law = law_type:law_right_of_assembly
 		activate_law = law_type:law_serfdom_banned
 		activate_law = law_type:law_consumption_based_taxation
 		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_state_religion
 		
 		add_taxed_goods = g:liquor
 		add_taxed_goods = g:grain
@@ -95,40 +130,6 @@
 			institution = institution_schools
 			level = 2
 		}
-
-
-	}
-	c:NCS = {
-		set_tax_level = medium
-		
-		effect_starting_technology_tier_3_tech = yes
-		
-		effect_starting_politics_liberal = yes
-		activate_law = law_type:law_public_schools
-		activate_law = law_type:law_legacy_slavery
-		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_protectionism
-		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_colonial_resettlement
-		activate_law = law_type:law_right_of_assembly
-		activate_law = law_type:law_serfdom_banned
-		activate_law = law_type:law_consumption_based_taxation
-		activate_law = law_type:law_national_militia
-		
-		add_taxed_goods = g:liquor
-		add_taxed_goods = g:grain
-		add_taxed_goods = g:tobacco
-
-		set_institution_investment_level = {
-			institution = institution_colonial_affairs
-			level = 2
-		}
-		
-		set_institution_investment_level = {
-			institution = institution_schools
-			level = 2
-		}
-
 
 	}
 	c:NHL = {
@@ -137,16 +138,17 @@
 		effect_starting_technology_tier_3_tech = yes
 		
 		effect_starting_politics_liberal = yes
-		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_legacy_slavery
 		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_colonial_resettlement
 		activate_law = law_type:law_right_of_assembly
 		activate_law = law_type:law_serfdom_banned
 		activate_law = law_type:law_consumption_based_taxation
 		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_state_religion
 		
 		add_taxed_goods = g:liquor
 		add_taxed_goods = g:grain
@@ -162,24 +164,24 @@
 			level = 2
 		}
 
-
 	}
-	c:GLE = {
+	c:NLT = {
 		set_tax_level = medium
 		
 		effect_starting_technology_tier_3_tech = yes
 		
 		effect_starting_politics_liberal = yes
-		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_legacy_slavery
 		activate_law = law_type:law_racial_segregation
-		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_colonial_resettlement
 		activate_law = law_type:law_right_of_assembly
 		activate_law = law_type:law_serfdom_banned
 		activate_law = law_type:law_consumption_based_taxation
 		activate_law = law_type:law_national_militia
+		activate_law = law_type:law_state_religion
 		
 		add_taxed_goods = g:liquor
 		add_taxed_goods = g:grain
@@ -195,6 +197,51 @@
 			level = 2
 		}
 
-
 	}
+	
+	#Decentralized
+	
+	c:CNL = {
+		effect_starting_technology_tier_6_tech = yes
+		
+		effect_native_conscription_2 = yes	
+	
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_peasant_levies
+	}
+	c:MAO = {
+		effect_starting_technology_tier_6_tech = yes
+		
+		effect_native_conscription_2 = yes	
+	
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_peasant_levies
+	}
+	c:KAW = {
+		effect_starting_technology_tier_6_tech = yes
+		
+		effect_native_conscription_8 = yes	
+	
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_elder_council
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_peasant_levies
+	}
+	
 }

@@ -2509,18 +2509,6 @@ NVL = { # Navajoland
 	capital = STATE_SOBAIA
 }
 
-ATB = { # Athabaska
-	color = { 88 105 137 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { athabaskan }
-	
-	capital = STATE_NIQUAN
-}
-
 IRO = { # Haudenosaunee, archaically known as the Iroquois Confederacy
 	color = { 87 182 80 }
 	
@@ -2651,17 +2639,6 @@ SRB = { # Sorbia
 	cultures = { sorb }
 	
 	capital = STATE_SAXONY
-}
-
-YUC = {
-	color = { 20 142 20 }
-	
-	country_type = colonial
-	
-	tier = principality
-	
-	cultures = { mexican }
-	capital = STATE_YUCATAN
 }
 
 RIO = {
