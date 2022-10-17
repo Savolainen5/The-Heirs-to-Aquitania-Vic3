@@ -29,6 +29,28 @@
 		effect = {
 			if = {
 				limit = {
+					has_variable = killing_own_ruler
+				}
+				change_variable = {
+					name = je_assassination_var
+					add = 1
+				}
+			}
+			if = {
+				limit = {
+					has_variable = has_scotland_yard_var
+				}
+				70 = { #you stall the plot
+				}
+				30 = {
+					change_variable = {
+						name = je_assassination_var
+						add = 1
+					}
+				}
+			}
+			else_if = {
+				limit = {
 					institution_investment_level = {
 						institution = institution_police
 						value >= 4
@@ -150,8 +172,10 @@
 		}
 		else_if = { #they died of other causes / another small event
 			limit = {
-				scope:assassination_ruler_scope = {
-					is_character_alive = no
+				NOT = {
+					any_scope_character = {
+						has_variable = assassination_ruler_var
+					}
 				}
 			}
 			trigger_event = { id = assassination_events.8 }

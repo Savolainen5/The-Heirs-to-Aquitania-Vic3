@@ -2,6 +2,15 @@
 je_spanish_flu = {
 	icon = "gfx/interface/icons/event_icons/event_skull.dds"
 
+	immediate = {
+		if = {
+			limit = {
+				has_variable = spanish_flu_over
+			}
+			remove_variable = spanish_flu_over
+		}
+	}
+
 	on_monthly_pulse = {
 		effect = {
 			random_list = {
@@ -114,6 +123,7 @@ je_spanish_flu = {
 			}
 			remove_modifier = plague_modifier
 		}
+		set_variable = spanish_flu_over
 	}
 
 	weight = 100

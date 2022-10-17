@@ -40,16 +40,16 @@ ai_strategy_default = {
 		}		
 		
 		# Opium wars aggressor should be very, very aggressive against target if they're banning opium
-		if = {
-			limit = {
-				has_journal_entry = je_opium_wars
-				scope:target_country = {
-					has_variable = opium_wars_target
-					is_banning_goods = g:opium
-				}
-			}
-			add = 100
-		}	
+#		if = {
+#			limit = {
+#				has_journal_entry = je_opium_wars
+#				scope:target_country = {
+#					has_variable = opium_wars_target
+#					is_banning_goods = g:opium
+#				}
+#			}
+#			add = 100
+#		}	
 	}
 	
 	wanted_construction_ratio = 1000000 # 1 level of construction sector per 1 million incorporated population
@@ -912,17 +912,17 @@ ai_strategy_default = {
 				add = 200
 			}
 			
-			if = {
-				limit = {
-					has_journal_entry = je_boxer_rebellion
-					scope:target_country = {
-						any_scope_state = {
-							state_region = { is_homeland = cu:han }
-						}
-					}
-				}
-				add = 200
-			}
+#			if = {
+#				limit = {
+#					has_journal_entry = je_boxer_rebellion
+#					scope:target_country = {
+#						any_scope_state = {
+#							state_region = { is_homeland = cu:han }
+#						}
+#					}
+#				}
+#				add = 200
+#			}
 			
 #			if = {
 #				limit = {
@@ -936,27 +936,27 @@ ai_strategy_default = {
 #				add = 200
 #			}
 			
-			if = {
-				limit = {
-					has_journal_entry = je_consolidate_colonial_rule
-					scope:target_country = {
-						any_scope_state = {
-							OR = {
-								state_region = s:STATE_BURMA
-								state_region = s:STATE_KACHIN
-								state_region = s:STATE_SHAN_STATES
-								state_region = s:STATE_SINDH
-								state_region = s:STATE_PUNJAB
-								state_region = s:STATE_KASHMIR
-								state_region = s:STATE_PASHTUNISTAN
-								state_region = s:STATE_BALUCHISTAN
-								state_region = s:STATE_HIMALAYAS
-							}
-						}
-					}
-				}
-				add = 200
-			}
+#			if = {
+#				limit = {
+#					has_journal_entry = je_consolidate_colonial_rule
+#					scope:target_country = {
+#						any_scope_state = {
+#							OR = {
+#								state_region = s:STATE_BURMA
+#								state_region = s:STATE_KACHIN
+#								state_region = s:STATE_SHAN_STATES
+#								state_region = s:STATE_SINDH
+#								state_region = s:STATE_PUNJAB
+#								state_region = s:STATE_KASHMIR
+#								state_region = s:STATE_PASHTUNISTAN
+#								state_region = s:STATE_BALUCHISTAN
+#								state_region = s:STATE_HIMALAYAS
+#							}
+#						}
+#					}
+#				}
+#				add = 200
+#			}
 			
 			if = {
 				limit = {
@@ -1308,13 +1308,13 @@ ai_strategy_default = {
 				multiply = 0.0
 			}
 
-			if = {
-				limit = {
-					has_journal_entry = je_boxer_rebellion
-					scope:target_state.state_region = { is_homeland = cu:han }
-				}
-				add = 500
-			}
+#			if = {
+#				limit = {
+#					has_journal_entry = je_boxer_rebellion
+#					scope:target_state.state_region = { is_homeland = cu:han }
+#				}
+#				add = 500
+#			}
 
 #			if = {
 #				limit = {
@@ -1324,25 +1324,25 @@ ai_strategy_default = {
 #				add = 500
 #			}
 
-			if = {
-				limit = {
-					has_journal_entry = je_consolidate_colonial_rule
-					scope:target_state = {
-						OR = {
-							state_region = s:STATE_BURMA
-							state_region = s:STATE_KACHIN
-							state_region = s:STATE_SHAN_STATES
-							state_region = s:STATE_SINDH
-							state_region = s:STATE_PUNJAB
-							state_region = s:STATE_KASHMIR
-							state_region = s:STATE_PASHTUNISTAN
-							state_region = s:STATE_BALUCHISTAN
-							state_region = s:STATE_HIMALAYAS
-						}
-					}
-				}
-				add = 500
-			}
+#			if = {
+#				limit = {
+#					has_journal_entry = je_consolidate_colonial_rule
+#					scope:target_state = {
+#						OR = {
+#							state_region = s:STATE_BURMA
+#							state_region = s:STATE_KACHIN
+#							state_region = s:STATE_SHAN_STATES
+#							state_region = s:STATE_SINDH
+#							state_region = s:STATE_PUNJAB
+#							state_region = s:STATE_KASHMIR
+#							state_region = s:STATE_PASHTUNISTAN
+#							state_region = s:STATE_BALUCHISTAN
+#							state_region = s:STATE_HIMALAYAS
+#						}
+#					}
+#				}
+#				add = 500
+#			}
 
 			if = {
 				limit = {
