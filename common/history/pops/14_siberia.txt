@@ -40,7 +40,7 @@
 				size = 16000
 			}
 		}
-		region_state:QIN = {
+		region_state:DZN = {
 			create_pop = {
 				culture = tatar
 				size = 36000
@@ -73,7 +73,7 @@
 		}
 	}
 	s:STATE_TUVA = {
-		region_state:QIN = {
+		region_state:KHA = {
 			create_pop = {
 				culture = tuvan
 				size = 30000

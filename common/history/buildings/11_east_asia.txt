@@ -1,6 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_DZUNGARIA={
-		region_state:QIN={
+		region_state:DZN={
 			create_building={
 				building="building_livestock_ranch"
 				level=3
@@ -10,7 +10,7 @@
 		}
 	}
 	s:STATE_TIANSHAN={
-		region_state:QIN={
+		region_state:YAR={
 			create_building={
 				building="building_livestock_ranch"
 				level=3
@@ -200,7 +200,7 @@
 		}
 	}
 	s:STATE_ALXA={
-		region_state:QIN={
+		region_state:KHA={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -216,7 +216,7 @@
 		}
 	}
 	s:STATE_HINGGAN={
-		region_state:QIN={
+		region_state:KHA={
 			create_building={
 				building="building_livestock_ranch"
 				level=2
@@ -388,7 +388,7 @@
 		}
 	}
 	s:STATE_NORTHERN_MANCHURIA={
-		region_state:MCH={
+		region_state:KHA={
 			create_building={
 				building="building_logging_camp"
 				level=6
@@ -1214,7 +1214,7 @@
 		}
 	}
 	s:STATE_ULIASTAI={
-		region_state:MGL={
+		region_state:KHA={
 			create_building={
 				building="building_livestock_ranch"
 				level=4
@@ -1224,7 +1224,7 @@
 		}
 	}
 	s:STATE_URGA={
-		region_state:MGL={
+		region_state:KHA={
 			create_building={
 				building="building_livestock_ranch"
 				level=6

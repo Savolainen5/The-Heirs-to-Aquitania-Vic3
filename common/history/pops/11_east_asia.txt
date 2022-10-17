@@ -1,6 +1,6 @@
 ﻿POPS = {
 	s:STATE_DZUNGARIA = {
-		region_state:QIN = {
+		region_state:DZN = {
 			create_pop = {
 				culture = uighur
 				size = 412588
@@ -21,7 +21,7 @@
 		}
 	}
 	s:STATE_TIANSHAN = {
-		region_state:QIN = {
+		region_state:YAR = {
 			create_pop = {
 				culture = uighur
 				size = 684180
@@ -165,7 +165,7 @@
 		}
 	}
 	s:STATE_ALXA = {
-		region_state:QIN = {
+		region_state:KHA = {
 			create_pop = {
 				culture = mongol
 				size = 476392
@@ -181,7 +181,7 @@
 		}
 	}
 	s:STATE_HINGGAN = {
-		region_state:QIN = {
+		region_state:KHA = {
 			create_pop = {
 				culture = mongol
 				size = 536940
@@ -291,7 +291,7 @@
 		}
 	}
 	s:STATE_NORTHERN_MANCHURIA = {
-		region_state:MCH = {
+		region_state:KHA = {
 			create_pop = {
 				culture = manchu
 				size = 2821200
@@ -746,7 +746,7 @@
 		}
 	}
 	s:STATE_ULIASTAI = {
-		region_state:MGL = {
+		region_state:KHA = {
 			create_pop = {
 				culture = mongol
 				size = 540608
@@ -762,7 +762,7 @@
 		}
 	}
 	s:STATE_URGA = {
-		region_state:MGL = {
+		region_state:KHA = {
 			create_pop = {
 				culture = mongol
 				size = 751104

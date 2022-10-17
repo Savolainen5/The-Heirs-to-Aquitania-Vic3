@@ -395,18 +395,18 @@
 #			direction = import
 #			target = c:AEN.market
 #		}		
-		create_trade_route = {
-			goods = tea
-			level = 5
-			direction = import
-			target = c:QIN.market
-		}		
-		create_trade_route = {
-			goods = porcelain
-			level = 6
-			direction = import
-			target = c:QIN.market
-		}		
+#		create_trade_route = {
+#			goods = tea
+#			level = 5
+#			direction = import
+#			target = c:QIN.market
+#		}		
+#		create_trade_route = {
+#			goods = porcelain
+#			level = 6
+#			direction = import
+#			target = c:QIN.market
+#		}		
 #		create_trade_route = {
 #			goods = luxury_clothes
 #			level = 4
@@ -419,12 +419,12 @@
 #			direction = import
 #			target = c:FRA.market
 #		}
-		create_trade_route = {
-			goods = sugar
-			level = 7
-			direction = import
-			target = c:QIN.market
-		}		
+#		create_trade_route = {
+#			goods = sugar
+#			level = 7
+#			direction = import
+#			target = c:QIN.market
+#		}		
 #		create_trade_route = {
 #			goods = sugar
 #			level = 11
