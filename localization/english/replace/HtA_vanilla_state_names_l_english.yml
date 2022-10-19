@@ -5,3 +5,7 @@
  STATE_INGRIA: "Ingria-Pleskov"
  STATE_PELOPONNESE: "Peloponnesos"
  
+ STATE_SARIWON: "Sariwon"
+ STATE_PYONGYANG: "Pyongyang"
+ STATE_SEOUL: "Seoul"
+ STATE_BUSAN: "Busan"
