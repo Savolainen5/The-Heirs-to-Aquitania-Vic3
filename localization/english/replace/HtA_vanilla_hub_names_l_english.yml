@@ -82,3 +82,7 @@
 
  #Big Korea
  HUB_NAME_STATE_SARIWON_farm: "Haesamjeolbyeog"
+
+ #Qin
+ HUB_NAME_STATE_ZHEJIANG_mine: "Wenzhou"
+ HUB_NAME_STATE_ZHEJIANG_port: "Ningbo"

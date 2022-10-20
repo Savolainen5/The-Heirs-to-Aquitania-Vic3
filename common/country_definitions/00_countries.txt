@@ -67,13 +67,13 @@ POM = {
 }
 
 JAP = {
-	color = { 194 53 60 }
+	color = { 233 111 102 }  #{ 255 216 0 } #The colour of the seal of the imperial family is too yellow                  #{ 194 53 60 }
 	country_type = unrecognized
 	
 	tier = empire
 	
 	cultures = { japanese }
-	capital = STATE_KANSAI
+	capital = STATE_CHUGOKU #Temporarily?
 }
 
 

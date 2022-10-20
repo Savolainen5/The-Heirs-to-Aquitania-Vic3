@@ -250,6 +250,16 @@ QIN = {	#Qin China
 	cultures = { manchu han } 
 	capital = STATE_XIAN
 }
+RYU = { #Ryukyu
+	color = { 98 98 207 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { japanese }
+	capital = STATE_RYUKYU_ISLANDS
+}
 SBJ = { #Sama-Bujau
 	color = { 250 250 70 }
 	
@@ -341,6 +351,16 @@ TID = { # Tidore
 	cultures = { moluccan }
 	capital = STATE_WESTERN_NEW_GUINEA
 }
+TOH = { #Tohoku
+	color = { 99 199 145 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { japanese }
+	capital = STATE_TOHOKU
+}
 TRO = { #Trowulan
 	color = { 210 180 115 }
 	
@@ -350,6 +370,16 @@ TRO = { #Trowulan
 	
 	cultures = { javan }
 	capital = STATE_CENTRAL_JAVA 
+}
+YAM = { #Yamanashi Alliance
+	color = { 83 160 183 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { japanese }
+	capital = STATE_CHUBU
 }
 YAR = { #Yarkent Khanate
 	color = { 250 189 118 }

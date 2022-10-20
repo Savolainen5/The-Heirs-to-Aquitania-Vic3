@@ -481,12 +481,12 @@
 			direction = import
 			target = c:AEN.market
 		}		
-		create_trade_route = {
-			goods = porcelain
-			level = 3
-			direction = import
-			target = c:QIN.market
-		}		
+#		create_trade_route = {
+#			goods = porcelain
+#			level = 3
+#			direction = import
+#			target = c:QIN.market
+#		}		
 		create_trade_route = {
 			goods = luxury_furniture
 			level = 3

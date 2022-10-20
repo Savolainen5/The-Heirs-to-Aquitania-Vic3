@@ -216,6 +216,16 @@
 			type = tributary
 		}
 	}
+	c:JAP = {
+		create_diplomatic_pact = {
+			country = c:YAM
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:TOH
+			type = vassal
+		}
+	}		
 	c:MRT = {
 		create_diplomatic_pact = {
 			country = c:NAG
@@ -236,7 +246,19 @@
 		create_diplomatic_pact = {
 			country = c:KOR
 			type = tributary
-		}				
+		}
+		create_diplomatic_pact = {
+			country = c:KHA
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:YAR
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:LAD
+			type = tributary
+		}
 	}
 	c:NNY = {
 		create_diplomatic_pact = {

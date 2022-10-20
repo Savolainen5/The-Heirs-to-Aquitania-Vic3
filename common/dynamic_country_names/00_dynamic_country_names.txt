@@ -725,9 +725,9 @@ ITA = { # Italy
 }
 
 JAP = { # Japan
-	dynamic_country_name = {
-		name = dyn_c_japan_shogunate
-		adjective = dyn_c_japan_shogunate_adj
+	dynamic_country_name = {		#Edited for HtA
+		name = dyn_c_japan_imperial
+		adjective = dyn_c_japan_imperial_adj
 
 		is_main_tag_only = yes
 		priority = 10
@@ -781,9 +781,9 @@ KTI = { # Kutai
 }
 
 KOR = { # Korea
-	dynamic_country_name = { # Joseon
-		name = dyn_c_korea_joseon
-		adjective = dyn_c_korea_joseon_adj
+	dynamic_country_name = { # Goryeo
+		name = dyn_c_korea_goryeo
+		adjective = dyn_c_korea_goryeo_adj
 		
 		is_main_tag_only = yes
 		priority = 10

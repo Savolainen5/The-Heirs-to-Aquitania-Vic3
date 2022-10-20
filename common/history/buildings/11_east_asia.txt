@@ -108,7 +108,7 @@
 		}
 	}
 	s:STATE_GUIZHOU={
-		region_state:NNY={
+		region_state:YUN={
 			create_building={
 				building="building_government_administration"
 				level=4
@@ -514,7 +514,7 @@
 		}
 	}
 	s:STATE_CHONGQING={
-		region_state:NNY={
+		region_state:SIH={
 			create_building={
 				building="building_government_administration"
 				level=7
@@ -575,13 +575,13 @@
 			}
 			create_building={
 				building="building_rice_farm"
-				level=8
+				level=9
 				reserves=1
 				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_fig_orchards" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_dye_plantation"
-				level=12
+				level=14
 				reserves=1
 				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
@@ -605,31 +605,31 @@
 			}
 			create_building={
 				building="building_port"
-				level=3
+				level=4
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
 		}
-		region_state:POR={
-			create_building={
-				building="building_rice_farm"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned" "pm_tools_disabled" "pm_fig_orchards" }
-			}
-			create_building={
-				building="building_dye_plantation"
-				level=2
-				reserves=1
-				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_port"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
-		}
+#		region_state:POR={ #These buildings have been incorporated into the numbers above, so if you're gonna remake some treaty port at the mouth of the Pearl, subtract them from there again
+#			create_building={
+#				building="building_rice_farm"
+#				level=1
+#				reserves=1
+#				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned" "pm_tools_disabled" "pm_fig_orchards" }
+#			}
+#			create_building={
+#				building="building_dye_plantation"
+#				level=2
+#				reserves=1
+#				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned" }
+#			}
+#			create_building={
+#				building="building_port"
+#				level=1
+#				reserves=1
+#				activate_production_methods={ "pm_basic_port" }
+#			}
+#		}
 	}
 	s:STATE_FUJIAN={
 		region_state:NNY={
@@ -708,6 +708,26 @@
 				level=10
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
+		}
+		region_state:AQT={ #These buildings just copied from Macao
+			create_building={
+				building="building_rice_farm"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned" "pm_tools_disabled" "pm_fig_orchards" }
+			}
+			create_building={
+				building="building_dye_plantation"
+				level=2
+				reserves=1
+				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
 			}
 		}
 	}
@@ -1754,7 +1774,7 @@
 		}
 	}
 	s:STATE_HOKKAIDO={
-		region_state:JAP={
+		region_state:TOH={
 			create_building={
 				building="building_logging_camp"
 				level=2
@@ -1780,9 +1800,11 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
 			}
 		}
+		region_state:AIN={
+		}
 	}
 	s:STATE_TOHOKU={
-		region_state:JAP={
+		region_state:TOH={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -1874,7 +1896,7 @@
 		}
 	}
 	s:STATE_CHUBU={
-		region_state:JAP={
+		region_state:YAM={
 			create_building={
 				building="building_government_administration"
 				level=4
@@ -2078,7 +2100,7 @@
 		}
 	}
 	s:STATE_RYUKYU_ISLANDS={
-		region_state:JAP={
+		region_state:RYU={
 			create_building={
 				building="building_fishing_wharf"
 				level=1

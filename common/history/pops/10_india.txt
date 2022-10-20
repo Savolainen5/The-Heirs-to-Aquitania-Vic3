@@ -258,28 +258,39 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_KASHMIR = {
-		region_state:JND = {
-			create_pop = { #62%
+		region_state:JND = { #This used to have really nice percentages commented in
+			create_pop = {
 				culture = kashmiri
-				size = 1328002
+				size = 528002
 			}
-			create_pop = { #1.8%
+			create_pop = {
 				culture = panjabi
 				size = 37727
 			}
-			create_pop = { #22.3%
-				culture = tibetan
-				religion = mahayana
-				size = 475369
-			}
-			create_pop = { #11.7%
+			create_pop = { 
 				culture = kashmiri
 				religion = hindu
-				size = 249384
+				size = 219384
 			}
 			create_pop = { #1.8%
 				culture = pashtun
 				size = 37727
+			}
+		}
+		region_state:LAD = {
+			create_pop = {
+				culture = kashmiri
+				size = 828002
+			}
+			create_pop = { 
+				culture = tibetan
+				religion = mahayana
+				size = 475369
+			}
+			create_pop = {
+				culture = kashmiri
+				religion = hindu
+				size = 29384
 			}
 		}
 	}

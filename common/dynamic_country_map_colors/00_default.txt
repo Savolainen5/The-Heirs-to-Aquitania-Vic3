@@ -48,21 +48,11 @@ fennoscandia = {
 }
 
 korea_monarchy_blue = {
-	color = "joseon_blue"
+	color = "joseon_blue"	#Even though they're not the Joseon
 	possible = {
 		exists = c:KOR
 		THIS = c:KOR
 		has_law = law_type:law_monarchy 
-	}
-}
-
-japanese_shogunate = {
-	color = "tokugawa_green"
-	possible = {
-		exists = c:JAP
-		THIS = c:JAP
-		has_law = law_type:law_monarchy 
-		NOT = { has_variable = meiji_var }
 	}
 }
 

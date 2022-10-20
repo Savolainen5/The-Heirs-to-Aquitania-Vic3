@@ -1,56 +1,55 @@
 ﻿CHARACTERS = {
 	c:JAP = {
-		#create_character = {
-			# Emperor Ninko
-			##role = politician # Remove this line
-			#first_name = Ninko
-			#last_name = "Yamato"
-			#ruler = yes
-			#age = 36
-			#interest_group = ig_landowners # beholden to the Shogun
-			#ideology = ideology_traditionalist
-			#traits = {
-				#reserved # not very active in affairs of state
-			#}
-		#}
-
-		#create_character = {
-			##role = politician # Remove this line
-			#first_name = Osahito 
-			#last_name = Yamato
-			#heir = yes
-			#age = 5
-			#interest_group = ig_armed_forces
-			#traits = {
-				#reserved # ditto
-			#}
-		#}
-
-		create_character = {
+		create_character = { #Emperor Ninko
+			#role = politician # Remove this line
+			first_name = Ninko
+			last_name = "Yamato"
 			ruler = yes
-			first_name = Ienari
-			last_name = Tokugawa
-			birth_date = 1773.11.18
-			interest_group = ig_landowners
+			age = 36
+			interest_group = ig_landowners # beholden to the Shogun
 			ideology = ideology_traditionalist
 			traits = {
-				arrogant
-				expensive_tastes # bit of corruption
+				reserved # not very active in affairs of state
 			}
 		}
 
 		create_character = {
+			#role = politician # Remove this line
+			first_name = Osahito 
+			last_name = Yamato
 			heir = yes
-			first_name = Ieyoshi
-			last_name = Tokugawa
-			birth_date = 1793.6.22
-			interest_group = ig_landowners
-			ideology = ideology_traditionalist
+			age = 5
+			interest_group = ig_armed_forces
 			traits = {
-				meticulous
-				pious
+				reserved # ditto
 			}
 		}
+
+#		create_character = {
+#			ruler = yes
+#			first_name = Ienari
+#			last_name = Tokugawa
+#			birth_date = 1773.11.18
+#			interest_group = ig_landowners
+#			ideology = ideology_traditionalist
+#			traits = {
+#				arrogant
+#				expensive_tastes # bit of corruption
+#			}
+#		}
+#
+#		create_character = {
+#			heir = yes
+#			first_name = Ieyoshi
+#			last_name = Tokugawa
+#			birth_date = 1793.6.22
+#			interest_group = ig_landowners
+#			ideology = ideology_traditionalist
+#			traits = {
+#				meticulous
+#				pious
+#			}
+#		}
 
 		create_character = {
 			first_name = Heihachiro

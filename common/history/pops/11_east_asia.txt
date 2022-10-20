@@ -120,7 +120,7 @@
 		}
 	}
 	s:STATE_GUIZHOU = {
-		region_state:NNY = {
+		region_state:YUN = {
 			create_pop = {
 				culture = han # nanfaren
 				size = 3188452
@@ -421,7 +421,7 @@
 		}
 	}
 	s:STATE_CHONGQING = {
-		region_state:NNY = {
+		region_state:SIH = {
 			create_pop = {
 				culture = han # nanfaren
 				size = 19546404
@@ -463,21 +463,21 @@
 				culture = hakka
 				size = 148000
 			}
-		}
-		region_state:POR = {
+#		}
+#		region_state:POR = {
 			create_pop = {
 				culture = yue
 				size = 336000
 			}
-			create_pop = {
-				culture = portuguese
-				size = 996
-			}
-			create_pop = {
-				culture = yue
-				religion = catholic
-				size = 5000
-			}
+#			create_pop = {
+#				culture = portuguese
+#				size = 996
+#			}
+#			create_pop = {
+#				culture = yue
+#				religion = catholic
+#				size = 5000
+#			}
 		}
 	}
 	s:STATE_FUJIAN = {
@@ -526,6 +526,25 @@
 			create_pop = {
 				culture = miao
 				size = 156000
+			}
+		}
+		region_state:AQT = {
+			create_pop = {
+				culture = han
+				size = 81305
+			}
+			create_pop = {
+				culture = miao
+				size = 3961
+			}
+			create_pop = {
+				culture = han
+				size = 2854
+				religion = catholic
+			}
+			create_pop = {
+				culture = aquitanian
+				size = 408
 			}
 		}
 	}
@@ -1301,7 +1320,7 @@
 				size = 707500
 			}
 		}
-		region_state:JAP = {
+		region_state:TOH = {
 			create_pop = {
 				culture = ainu
 				size = 60020
@@ -1313,7 +1332,7 @@
 		}
 	}
 	s:STATE_TOHOKU = {
-		region_state:JAP = {
+		region_state:TOH = {
 			create_pop = {
 				culture = japanese
 				size = 2374632
@@ -1339,7 +1358,7 @@
 		}
 	}
 	s:STATE_CHUBU = {
-		region_state:JAP = {
+		region_state:YAM = {
 			create_pop = {
 				culture = japanese
 				size = 4127776
@@ -1387,12 +1406,12 @@
 	}
 
 	s:STATE_RYUKYU_ISLANDS = {
-		region_state:JAP = {
+		region_state:RYU = {
 			create_pop = {
 				culture = japanese
 				size = 259181
 			}
-	
+		}
 	}
 	s:STATE_CHUGOKU = {
 		region_state:JAP = {
