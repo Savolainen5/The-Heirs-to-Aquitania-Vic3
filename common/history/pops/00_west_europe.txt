@@ -206,7 +206,7 @@
 				size = 100000
 			}
 #			create_pop = {
-#				culture = irish
+#				culture = eirean
 #				size = 28400
 #			}
 		}
@@ -223,7 +223,7 @@
 				size = 85700
 			}
 			create_pop = {
-				culture = scottish
+				culture = alban
 				size = 80700
 			}
 		}
@@ -247,7 +247,7 @@
 				size = 2026592
 			}
 			create_pop = {
-				culture = scottish
+				culture = alban
 				size = 16000
 			}
 			create_pop = {
@@ -260,11 +260,11 @@
 	s:STATE_HIGHLANDS = {
 		region_state:IRE = {
 			create_pop = {
-				culture = scottish
+				culture = alban
 				size = 672396
 			}
 			create_pop = {
-				culture = scottish
+				culture = alban
 				religion = catholic
 				size = 8000
 			}
@@ -282,7 +282,7 @@
 				size = 24400
 			}
 #			create_pop = {
-#				culture = irish
+#				culture = eirean
 #				size = 12000
 #			}
 		}
@@ -312,7 +312,7 @@
 				size = 12400
 			}
 #			create_pop = {
-#				culture = irish
+#				culture = eirean
 #				size = 4400
 #			}
 		}
@@ -320,16 +320,16 @@
 	s:STATE_LOWLANDS = {
 		region_state:IRE = {
 			create_pop = {
-				culture = scottish
+				culture = alban
 				size = 1197200
 			}
 			create_pop = {
-				culture = scottish
+				culture = alban
 				religion = catholic
 				size = 188000
 			}
 			create_pop = {
-				culture = irish
+				culture = eirean
 				size = 252400
 			}
 		}
@@ -337,11 +337,11 @@
 	s:STATE_ULSTER = {
 		region_state:IRE = {
 			create_pop = {
-				culture = scottish
+				culture = alban
 				size = 109196
 			}
 			create_pop = {
-				culture = irish
+				culture = eirean
 				size = 1698000
 			}
 		}
@@ -349,11 +349,11 @@
 	s:STATE_MUNSTER = {
 		region_state:IRE = {
 			create_pop = {
-				culture = irish
+				culture = eirean
 				size = 2100600
 			}
 			create_pop = {
-				culture = scottish
+				culture = alban
 				size = 30612
 			}
 		}
@@ -361,11 +361,11 @@
 	s:STATE_LEINSTER = {
 		region_state:IRE = {
 			create_pop = {
-				culture = irish
+				culture = eirean
 				size = 1855692
 			}
 			create_pop = {
-				culture = scottish
+				culture = alban
 				size = 10096
 			}
 		}
@@ -373,11 +373,11 @@
 	s:STATE_CONNAUGHT = {
 		region_state:IRE = {
 			create_pop = {
-				culture = irish
+				culture = eirean
 				size = 1271692
 			}
 			create_pop = {
-				culture = scottish
+				culture = alban
 				size = 10096
 			}
 		}

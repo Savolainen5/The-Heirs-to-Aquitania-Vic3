@@ -909,7 +909,7 @@ guilderlander={
 	}
 }
 
-irish={
+eirean={
 	color={ 35 140 50 }
 	religion = catholic
 	traits = { celtic_people european_heritage }
@@ -1122,7 +1122,7 @@ marianais={
 	}
 }
 
-scottish = {
+alban = {
 	color= { 192 207 31 }
 	religion= protestant
 	traits = { celtic_people european_heritage }
@@ -1470,7 +1470,7 @@ anatolian={
 	}
 }
 
-greek={
+hellene={
 	color={ 200 50 100 }
 	religion = orthodox
 	traits = { roman_culture european_heritage }

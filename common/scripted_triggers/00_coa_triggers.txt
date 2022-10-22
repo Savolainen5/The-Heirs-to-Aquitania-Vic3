@@ -95,7 +95,7 @@ coa_military_trigger = {
 coa_controls_part_of_ireland = {
 	any_scope_state = {
 		state_region = {
-			is_homeland = irish
+			is_homeland = eirean
 		}
 	}
 }

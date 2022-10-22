@@ -36,8 +36,8 @@ high_kingdom_ireland = {
 }
 
 basic_ireland = {
-	#color = "irish_green"
-	color = "naples_purple"
+	color = "irish_green"
+	#color = "naples_purple" (for testing purposes)
 	
 	possible = {
 		exists = c:IRE

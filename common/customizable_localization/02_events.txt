@@ -693,7 +693,7 @@ alcohol = {
 	}
 	text = {
 		trigger = {
-			cu:scottish = {
+			cu:alban = {
 				is_primary_culture_of = root
 			}
 		}

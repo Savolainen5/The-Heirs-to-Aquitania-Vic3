@@ -66,7 +66,7 @@
 				size = 20004
 			}
 			create_pop = {
-				culture = irish
+				culture = eirean
 				size = 16000
 			}
 		}
@@ -458,7 +458,7 @@
 				size = 38928
 			}
 			create_pop = {
-				culture = irish
+				culture = eirean
 				size = 8000
 			}
 		}
@@ -524,7 +524,7 @@
 				size = 631504
 			}
 			create_pop = {
-				culture = irish
+				culture = eirean
 				size = 4004
 			}
 			create_pop = {
@@ -558,7 +558,7 @@
 				size = 4000
 			}
 			create_pop = {
-				culture = irish
+				culture = eirean
 				size = 8000
 			}
 			create_pop = {
@@ -583,7 +583,7 @@
 				size = 128000
 			}
 			create_pop = {
-				culture = irish
+				culture = eirean
 				size = 108004
 			}
 		}
@@ -608,7 +608,7 @@
 				size = 161879
 			}
 			create_pop = {
-				culture = irish
+				culture = eirean
 				size = 20000
 			}
 		}
@@ -637,7 +637,7 @@
 				size = 142960
 			}
 			create_pop = {
-				culture = irish
+				culture = eirean
 				size = 39996
 			}
 			create_pop = {
@@ -815,7 +815,7 @@
 				size = 144008
 			}
 			create_pop = {
-				culture = irish
+				culture = eirean
 				size = 59800
 			}
 			create_pop = {
@@ -884,7 +884,7 @@
 				size = 11996
 			}
 			create_pop = {
-				culture = irish
+				culture = eirean
 				size = 52400
 			}
 			create_pop = {
@@ -917,7 +917,7 @@
 				size = 16000
 			}
 			create_pop = {
-				culture = irish
+				culture = eirean
 				size = 381228
 			}
 		}
@@ -1070,7 +1070,7 @@
 			}
 		}
 	}
-	s:STATE_NY_SCHLESWIG = {
+	s:STATE_NY_SLESVIG = {
 		region_state:ASL = {
 			create_pop = {
 				culture = ashelasianer
@@ -1081,7 +1081,7 @@
 				size = 4000
 			}
 			create_pop = {
-				culture = irish
+				culture = eirean
 				size = 52800
 			}
 		}
@@ -1093,7 +1093,7 @@
 				size = 555200
 			}
 			create_pop = {
-				culture = irish
+				culture = eirean
 				size = 25000
 			}
 			create_pop = {
@@ -1119,7 +1119,7 @@
 				size = 7980
 			}
 			create_pop = {
-				culture = irish
+				culture = eirean
 				size = 40000
 			}
 			create_pop = {

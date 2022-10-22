@@ -134,7 +134,7 @@ IRE = {
 
 	tier = kingdom
 	
-	cultures = { irish }
+	cultures = { eirean }
 	capital = STATE_LEINSTER
 }
 JEB = { #Jebenhausen
@@ -179,7 +179,7 @@ MCD = { #Macedonia/Makedon
 	country_type = recognized
 	
 	tier = principality
-	cultures = { roman greek }
+	cultures = { roman hellene }
 	capital = STATE_THESSALONICA
 }
 MNZ = { #Mainz
@@ -229,7 +229,7 @@ ROM = { #Roman Empire
 	
 	tier = empire
 	
-	cultures = { roman greek anatolian }
+	cultures = { roman hellene anatolian }
 	capital = STATE_THRACE
 }
 RUT = { #Ruthenia (working name)

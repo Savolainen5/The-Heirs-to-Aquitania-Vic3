@@ -370,7 +370,7 @@
 			owned_provinces = { xFBDD5D xCCBBD1 x662BE7 x84625B x8E7728 xFACCE3 x314E1F x80DB90 x0E7C03 x37518E x3CFF08 xB7B8EA x0C1520 xF78F29 x637BE8 xF00652 x47C5CD x5B0884 }
 		}
 		
-		add_homeland = scottish
+		add_homeland = alban
 	}
 	s:STATE_MIDLANDS = {
 		create_state = {
@@ -402,7 +402,7 @@
 			owned_provinces = { xB2A15E x20E080 x676072 xA0E080 x0B53FA x832656 xA06080 x363883 x80F634 xD01BE2 xDCD566 x206080 x002C82 xA0E000 x193EFC x9B6ACC }
 		}
 		
-		add_homeland = scottish
+		add_homeland = alban
 	}
 	s:STATE_ULSTER = {
 		create_state = {
@@ -410,7 +410,7 @@
 			owned_provinces = { x688E79 x0A38AF x2BE1C8 xA06040 xCFCD2B xAA6FA1 x20E040 xA0C0E0 }
 		}
 		
-		add_homeland = irish
+		add_homeland = eirean
 	}
 	s:STATE_MUNSTER = {
 		create_state = {
@@ -418,7 +418,7 @@
 			owned_provinces = { xEF3F71 xE06040 xF53F9B xBDAB32 xA0E0C0 x849939 x02061B xECB3A5 x969279 xD9BB34 }
 		}
 		
-		add_homeland = irish
+		add_homeland = eirean
 	}
 	s:STATE_LEINSTER = {
 		create_state = {
@@ -426,7 +426,7 @@
 			owned_provinces = { xA0E040 xA2A933 x1E9CB2 xAEAF93 x2060C0 xCC3E24 x5B3F6F x5086D4 x60E040 }
 		}
 		
-		add_homeland = irish
+		add_homeland = eirean
 	}
 	s:STATE_CONNAUGHT = {
 		create_state = {
@@ -434,7 +434,7 @@
 			owned_provinces = { x20E0C0 x641238 xE5C4FE xC7847D xA060C0 x5DEF58 x85F13B x656D90 }
 		}
 		
-		add_homeland = irish
+		add_homeland = eirean
 	}
 	s:STATE_LANGUEDOC = {
 		create_state = {
@@ -807,7 +807,7 @@
 			owned_provinces = { x01D0E0 x18C9AD x518791 x8050E0 xBF5160 xE6E868 }
 		}
 		
-		add_homeland = greek
+		add_homeland = hellene
 	}
 	s:STATE_STRYMON = {
 		create_state = {
@@ -879,7 +879,7 @@
 		}	
 		
 		add_homeland = roman
-		add_homeland = greek
+		add_homeland = hellene
 	}
 	s:STATE_AEGEAN_ISLANDS = {
 		create_state = {
@@ -887,7 +887,7 @@
 			owned_provinces = { x2190A0 x6090A0 x6960A0 xC56452 xE011A0 x702020 }
 		}
 		
-		add_homeland = greek
+		add_homeland = hellene
 		add_homeland = roman		
 	}
 	

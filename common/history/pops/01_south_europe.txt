@@ -426,7 +426,7 @@
 				size = 832996
 			}
 			create_pop = {
-				culture = greek
+				culture = hellene
 				size = 281992
 			}
 			create_pop = {
@@ -462,7 +462,7 @@
 				size = 92004
 			}
 			create_pop = {
-				culture = greek
+				culture = hellene
 				size = 4000
 			}
 			create_pop = {
@@ -478,7 +478,7 @@
 				size = 1004808
 			}
 			create_pop = {
-				culture = greek
+				culture = hellene
 				size = 40000
 			}
 			create_pop = {
@@ -542,7 +542,7 @@
 				size = 497600
 			}
 			create_pop = {
-				culture = greek
+				culture = hellene
 				size = 40004
 			}
 			create_pop = {
@@ -736,7 +736,7 @@
 				size = 581800
 			}
 			create_pop = {
-				culture = greek
+				culture = hellene
 				size = 8000
 			}
 			create_pop = {
@@ -756,7 +756,7 @@
 				size = 59992
 			}
 			create_pop = {
-				culture = greek
+				culture = hellene
 				size = 80000
 			}
 		}
@@ -773,7 +773,7 @@
 				size = 1996
 			}
 			create_pop = {
-				culture = greek
+				culture = hellene
 				size = 122996
 			}
 		}
@@ -782,7 +782,7 @@
 	s:STATE_HELLAS = {
 		region_state:ROM = {
 			create_pop = {
-				culture = greek
+				culture = hellene
 				size = 637592
 			}
 		}
@@ -798,7 +798,7 @@
 				size = 12000
 			}
 			create_pop = {
-				culture = greek
+				culture = hellene
 				size = 935900
 			}
 			create_pop = {
@@ -827,7 +827,7 @@
 				size = 384000
 			}
 			create_pop = {
-				culture = greek
+				culture = hellene
 				size = 92000
 			}
 			create_pop = {
@@ -843,7 +843,7 @@
 				size = 84000
 			}
 			create_pop = {
-				culture = greek
+				culture = hellene
 				size = 276000
 			}
 			create_pop = {
@@ -863,7 +863,7 @@
 				size = 57204
 			}
 			create_pop = {
-				culture = greek
+				culture = hellene
 				size = 376000
 			}
 			create_pop = {
@@ -875,7 +875,7 @@
 	s:STATE_IONIAN_ISLANDS = {
 		region_state:ROM = {
 			create_pop = {
-				culture = greek
+				culture = hellene
 				size = 186404
 			}
 			create_pop = {
@@ -887,7 +887,7 @@
 	s:STATE_PELOPONNESE = {
 		region_state:ROM = {
 			create_pop = {
-				culture = greek
+				culture = hellene
 				size = 221996
 			}
 		}

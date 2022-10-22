@@ -10,7 +10,7 @@
 				size = 101384
 			}
 			create_pop = {
-				culture = irish
+				culture = eirean
 				size = 16080
 			}
 		}

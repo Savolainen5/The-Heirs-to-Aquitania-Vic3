@@ -3,7 +3,7 @@
 		create_character = {
 			first_name = "Constainti_n_II"
 			last_name = "Dalcais"
-			culture = cu:irish
+			culture = cu:eirean
 			ruler = yes
 			noble = yes
 			age = 51 #Born 3.9.1781
@@ -19,7 +19,7 @@
 		create_character = {
 			first_name = "Cathaoir"
 			last_name = "Dalcais"
-			culture = cu:irish
+			culture = cu:eirean
 			heir = yes
 			noble = yes
 			age = 32

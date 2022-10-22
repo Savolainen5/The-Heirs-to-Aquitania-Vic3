@@ -179,17 +179,6 @@ FLA = {
 	is_named_from_capital = yes
 }
 
-IRE = {
-	color = { 112  150  105 }
-	
-	country_type = recognized
-
-	tier = kingdom
-	
-	cultures = { irish }
-	capital = STATE_LEINSTER
-}
-
 NET = {
 	color = hsv360{ 20  80  80 }
 	
@@ -219,7 +208,7 @@ SCO = {
 
 	tier = kingdom
 	
-	cultures = { scottish }
+	cultures = { alban }
 	capital = STATE_LOWLANDS
 }
 
@@ -337,18 +326,6 @@ HAM = {
 	
 	cultures = { north_german }
 	capital = STATE_ELBE
-}
-
-HAN = {
-	color = { 164  217  127 }
-	
-	country_type = recognized
-
-	tier = kingdom
-	
-	cultures = { north_german }
-	capital = STATE_HANNOVER
-	is_named_from_capital = yes
 }
 
 HES = {
@@ -735,20 +712,8 @@ CRE = {
 
 	tier = principality
 	
-	cultures = { greek }
+	cultures = { hellene }
 	capital = STATE_CRETE
-	is_named_from_capital = yes
-}
-
-CRO = {
-	color = { 174  227  95 }
-	
-	country_type = recognized
-
-	tier = kingdom
-	
-	cultures = { croat }
-	capital = STATE_CROATIA
 	is_named_from_capital = yes
 }
 
@@ -759,7 +724,7 @@ CYP = {
 
 	tier = principality
 	
-	cultures = { greek }
+	cultures = { hellene }
 	capital = STATE_CYPRUS
 	is_named_from_capital = yes
 }
@@ -771,7 +736,7 @@ GRE = {
 
 	tier = kingdom
 	
-	cultures = { greek }	
+	cultures = { hellene }	
 	capital = STATE_HELLAS
 }
 
@@ -1615,17 +1580,6 @@ JOH = {
 	cultures = { malay }
 }
 
-SIA = {
-	color = { 88  137  172 }
-	
-	country_type = unrecognized
-	
-	tier = kingdom
-	
-	cultures = { thai }
-	capital = STATE_BANGKOK
-}
-
 CMI = {
 	color = { 17  16  203 }
 	
@@ -1812,7 +1766,7 @@ ISR = {
 #
 #	tier = empire
 #	
-#	cultures = { greek }	
+#	cultures = { hellene }	
 #	capital = STATE_THRACE
 #}
 
@@ -2233,18 +2187,6 @@ YAK = { # Yakutia
 	cultures = { yakut }
 
 	capital = STATE_YAKUTSK
-}
-
-ASM = { # Assam
-	color = { 163 5 77 }
-	
-	country_type = unrecognized
-	
-	tier = principality
-	
-	cultures = { assamese }
-	
-	capital = STATE_ASSAM
 }
 
 MNP = { # Manipur
@@ -3093,4 +3035,29 @@ ASS = {
 	
 	cultures = { assyrian }
 	capital = STATE_MOSUL
+}
+
+# Kalmykia
+KLM = {
+	color = { 58 65 73 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { kalmyk }
+	capital = STATE_ASTRAKHAN
+}
+
+# Schleswig
+SCH = {
+	color = { 235  225  95 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { north_german danish }
+	capital = STATE_SCHLESWIG_HOLSTEIN
+	is_named_from_capital = yes
 }
