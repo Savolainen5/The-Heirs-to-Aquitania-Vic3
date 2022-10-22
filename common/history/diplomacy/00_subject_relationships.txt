@@ -131,12 +131,12 @@
 			type = puppet
 		}
 	}
-	c:KAB = {
-		create_diplomatic_pact = {
-			country = c:CHC
-			type = puppet
-		}
-	}
+#	c:KAB = {							#Countries of the lowest rank aren't allowed to have vassals, which seems strange to me
+#		create_diplomatic_pact = {
+#			country = c:CHC
+#			type = puppet
+#		}
+#	}
 	c:KRI = {
 		create_diplomatic_pact = {
 			country = c:MOL
@@ -270,11 +270,11 @@
 			type = vassal
 		}
 	}
-	c:TAI = {
-		create_diplomatic_pact = {
-			country = c:ASM
-			type = vassal
-		}
-	}
+#	c:TAI = { #Shan is unable to reach a high enough rank at game start to have ASM as a vassal
+#		create_diplomatic_pact = {
+#			country = c:ASM
+#			type = vassal
+#		}
+#	}
 
 }

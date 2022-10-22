@@ -1596,6 +1596,18 @@
 	s:STATE_SHAN_STATES={
 		region_state:TAI={
 			create_building={
+				building="building_rice_farm"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+			}
+			create_building={
 				building="building_opium_plantation"
 				level=1
 				reserves=1
@@ -1603,7 +1615,7 @@
 			}
 			create_building={
 				building="building_barracks"
-				level=5
+				level=10
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}

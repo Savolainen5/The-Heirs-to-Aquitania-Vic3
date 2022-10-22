@@ -58,7 +58,7 @@ s:STATE_BIHAR = {
 				size = 220000
 			}
 		}
-		region_state:ASM = {
+		region_state:TAI = {
 			create_pop = {
 				culture = assamese
 				religion = hindu
