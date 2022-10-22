@@ -46,7 +46,7 @@ POPS = {
 				size = 104000
 			}
 			create_pop = {
-				culture = british
+				culture = aenglish
 				size = 3588
 			}
 			create_pop = {
@@ -759,7 +759,7 @@ POPS = {
 	s:STATE_SOUTH_ATLANTIC_ISLANDS = {
 		region_state:AEN = {
 			create_pop = {
-				culture = british
+				culture = aenglish
 				size = 14540
 			}
 		}

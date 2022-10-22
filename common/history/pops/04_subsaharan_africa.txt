@@ -2561,7 +2561,7 @@
 				size = 184400
 			}
 			create_pop = {
-				culture = british
+				culture = aenglish
 				size = 48000
 			}
 			create_pop = {
@@ -2590,7 +2590,7 @@
 				size = 108000
 			}
 			create_pop = {
-				culture = british
+				culture = aenglish
 				size = 44100
 			}
 			create_pop = {
@@ -2606,7 +2606,7 @@
 				size = 32000
 			}
 			create_pop = {
-				culture = british
+				culture = aenglish
 				size = 4000
 			}
 			create_pop = {

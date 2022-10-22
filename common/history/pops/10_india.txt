@@ -6,7 +6,7 @@ s:STATE_BIHAR = {
 				size = 9244392
 			}
 			create_pop = {
-				culture = british
+				culture = aenglish
 				size = 192
 			}
 			create_pop = {
@@ -37,7 +37,7 @@ s:STATE_BIHAR = {
 				size = 252804
 			}
 			create_pop = {
-				culture = british
+				culture = aenglish
 				size = 96
 			}
 			create_pop = {
@@ -87,7 +87,7 @@ s:STATE_BIHAR = {
 				size = 8200520
 			}
 			create_pop = {
-				culture = british
+				culture = aenglish
 				size = 304
 			}
 			create_pop = {
@@ -170,7 +170,7 @@ s:STATE_BIHAR = {
 				size = 55600
 			}
 			create_pop = {
-				culture = british
+				culture = aenglish
 				size = 32
 			}
 			create_pop = {
@@ -248,7 +248,7 @@ s:STATE_BIHAR = {
 				size = 3339996
 			}
 			create_pop = {
-				culture = british
+				culture = aenglish
 				size = 96
 			}
 			create_pop = {
@@ -330,7 +330,7 @@ s:STATE_BIHAR = {
 				size = 356383
 			}
 			create_pop = {
-				culture = british
+				culture = aenglish
 				size = 3072
 			}
 		}
@@ -414,7 +414,7 @@ s:STATE_BIHAR = {
 				size = 6662763
 			}
 			create_pop = {
-				culture = british
+				culture = aenglish
 				size = 18527
 			}
 		}
@@ -490,13 +490,13 @@ s:STATE_BIHAR = {
 				size = 491062
 			}
 			create_pop = {
-				culture = british
+				culture = aenglish
 				size = 48
 			}
 		}
 	}
 	s:STATE_CEYLON = {
-		region_state:HIS = {
+		region_state:NET = {
 			create_pop = {
 				culture = sinhala
 				size = 849208
@@ -508,7 +508,7 @@ s:STATE_BIHAR = {
 			}
 			create_pop = {
 				culture = tamil
-				size = 194000
+				size = 142000
 			}
 			create_pop = {
 				culture = mashriqi
@@ -525,7 +525,7 @@ s:STATE_BIHAR = {
 				size = 16400
 			}
 			create_pop = {
-				culture = british
+				culture = dutch
 				size = 7992
 			}
 			create_pop = {
@@ -549,11 +549,26 @@ s:STATE_BIHAR = {
 				size = 6400
 			}
 		}
+		region_state:POR={
+			create_pop = {
+				culture = tamil
+				size = 52000
+			}
+			create_pop = {
+				culture = portuguese
+				size = 135
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = sinhala
+				size = 1620
+			}
+		}
 	}
 	s:STATE_INDIAN_OCEAN_TERRITORY = {
-		region_state:FRA = {
+		region_state:AQT = {
 			create_pop = {					# TODO Add Slave pops
-				culture = french
+				culture = aquitanian
 				size = 29992
 			}
 			create_pop = {
@@ -572,16 +587,12 @@ s:STATE_BIHAR = {
 		}
 		region_state:AEN = {
 			create_pop = {
-				culture = french
-				size = 2088
+				culture = aenglish
+				size = 2888
 			}
 			create_pop = {
 				culture = afro_antillean
 				size = 94612
-			}
-			create_pop = {
-				culture = british
-				size = 800
 			}
 			create_pop = {
 				culture = afro_caribbean
@@ -609,7 +620,7 @@ s:STATE_BIHAR = {
 				size = 899992
 			}
 			create_pop = {
-				culture = british
+				culture = aenglish
 				size = 96
 			}
 			create_pop = {
@@ -625,7 +636,7 @@ s:STATE_BIHAR = {
 				size = 9762168
 			}
 			create_pop = {
-				culture = british
+				culture = aenglish
 				size = 594
 			}
 			create_pop = {
@@ -761,7 +772,7 @@ s:STATE_BIHAR = {
 				size = 91145
 			}
 			create_pop = {
-				culture = british
+				culture = aenglish
 				size = 30369
 			}
 			create_pop = {
@@ -859,7 +870,7 @@ s:STATE_BIHAR = {
 				size = 2032854
 			}
 			create_pop = {
-				culture = british
+				culture = aenglish
 				size = 37911
 			}
 			create_pop = {

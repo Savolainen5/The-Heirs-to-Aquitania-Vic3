@@ -22,7 +22,7 @@
 				size = 7104
 			}
 			create_pop = {
-				culture = british
+				culture = aenglish
 				size = 104
 			}
 		}
@@ -67,7 +67,7 @@
 				size = 500
 			}
 			create_pop = {
-				culture = british
+				culture = aenglish
 				size = 500
 			}
 			create_pop = {
@@ -150,7 +150,7 @@
 	s:STATE_BAHAMAS = {
 		region_state:AEN = {
 			create_pop = {
-				culture = british
+				culture = aenglish
 				size = 19200
 			}
 			create_pop = {
@@ -182,7 +182,7 @@
 		}
 		region_state:AEN = {
 			create_pop = {
-				culture = british
+				culture = aenglish
 				size = 34704
 			}
 			create_pop = {
