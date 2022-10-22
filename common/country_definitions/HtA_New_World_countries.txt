@@ -36,6 +36,15 @@ ATB = { #Athabasca
     cultures = { athabaskan }
     capital = STATE_NIQUAN
 }
+BRS = { #Bresail (Hy-Brasil, Irish colony lost in the late 18th century)
+	color = { 30 172 68 }
+	country = recognized
+	
+	tier = kingdom
+	
+	cultures = { bresailean }
+	capital = STATE_THISLAND
+}
 CHN = { #Chinook
 	color = { 155 190 25 }
 	

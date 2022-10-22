@@ -257,6 +257,38 @@ blandet={ #Danish Metis
 	}
 }
 
+bresailean={
+	color={ 30 172 68 }
+	religion = catholic
+	traits = { celtic_people european_heritage new_world_settler }
+	male_common_first_names={
+		Abba_n A_dhamh Alastar Anrai_ Aodh Aodha_n Aonghus Artu_r Bairre Bran Breasal Breanda_n Brian Caola_n Cathal Cathaoir Ciara_n Cillian
+		Colm Conall Cona_n Conchobhar Constainti_n Cri_osto_ir Cuan Daine_al Da_ithi_ Da_ire De_agla_n Diarmaid Do_nal Dubhghall E_amonn Earna_n E_ibhear E_nna Eoghan
+		Fachtna Faola_n Feardorcha Fearghal Fechi_n Feidhlim Fiachra Fiona_n Fionn Fionnlagh Flann Gearo_id Goba_n Gofraidh Gre_ago_ir I_omhar Ionata_n
+		Lachtna Lorca_n Lu_ca_s Ma_irti_n Maitiu_ Mealla_n Michea_l Muiris Naoise Niall Ninian Niocla_s Odhra_n Oisi_n Oscar Pa_draig Peadar Piaras Pilib
+		Proinsias Re_amann Ristea_rd Roibea_rd Ro_rda_n Riaga_n Ri_an Ro_na_n Ruairi_ Se_afra Se_amus Se_an Seo_irse Seosamh Stiofa_n Tadhg Tiarna_n Toma_s Torin Ulta_n Uilliam		
+	}
+	female_common_first_names = {
+		A_ine Ailbhe Aisling Aoibheann Aoibhinn Aoife Blathnaid Bronagh Caoilainn Caoimhe Cara Caragh Ciara Clo_dagh Dearbhla E_imhear
+		Eabha Fiadh Fiona Gra_inne I_omha_i_n Laoise Mairead Me_abh Niamh O_rla Orlaith Ri_ona Ro_isi_n Sadhbh Saoirse Sea_na Sionna
+	}
+	common_last_names={
+		Breathnach Caomha_nach Dalcais Mac_A_rdghail Mac_Bradaigh Mac_Gafraidh Mac_Cearnaigh Mac_Craith Mac_Carthaigh Mac_Congail
+		Mac_Conmara Mac_Donnchadha Mac_Diarmada Mac_Gabhann Mac_Lochlainn Mac_Liam Mac_Maghnais Mac_Scannla_in Mac_Suibhne Mac_Toma_is
+		Mac_Uidhir O__Baoill O__Birn O__Briain O__Broin O__Braona_in O__Cathail O__Ceallaigh O__Cearbhaill O__Ceallacha_in O__Cle_irigh O__Cinne_ide
+		O__Conaill O__Coilea_in O__Conghaile  O__Conchobhair O__Cuana O__Cuinn O__Dochartaigh O__Donnaga_in O__Da_laigh O__Diubha_in O__Dubhghaill
+		O__Domhnaill O__Duinn O__Dufaigh O__Fallamha_in O__Fearghail O__Fionn O__Floinn O__Flannaga_in O__Gallchobhair O__Glaimhin O__Gri_ofa
+		O__hAghmaill O__hAodha O__hEachtighearna O__hE_alaighthe O__hO_ga_in O__hUiginn O__Laoghaire O__Loinsigh O__Maoilriain O__Meachair O__Mathu_na
+		O__Mordha O__Murchadha O__Muireadhaigh O__Nualla_in O__Ne_ill O__Raghallaigh O__Riaga_in O__Scolla_in O__Se_aghdha O__Speala_in O__Su_illeabha_in
+		O__Tarpaigh O__Tuama
+	}
+	
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
 coluan={
 	color={ 92 106 237 }
 	religion = catholic

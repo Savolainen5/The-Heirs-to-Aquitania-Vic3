@@ -65,10 +65,10 @@
 				culture = afro_american
 				size = 20004
 			}
-			create_pop = {
-				culture = eirean
-				size = 16000
-			}
+#			create_pop = {
+#				culture = bresailean
+#				size = 16000
+#			}
 		}
 	}
 	s:STATE_NORTH_ADWERDIA = { # population of VA proper minus Fairfax County, which had its population figures added to DC to inflate the pop count there
@@ -461,10 +461,6 @@
 				culture = afro_american
 				size = 38928
 			}
-			create_pop = {
-				culture = eirean
-				size = 8000
-			}
 		}
 	}
 	s:STATE_MONGONIE = {
@@ -527,10 +523,10 @@
 				culture = guilderlander
 				size = 631504
 			}
-			create_pop = {
-				culture = eirean
-				size = 4004
-			}
+#			create_pop = {
+#				culture = bresailean
+#				size = 4004
+#			}
 			create_pop = {
 				culture = algonquian
 				size = 5000
@@ -561,10 +557,10 @@
 				culture = siouan
 				size = 4000
 			}
-			create_pop = {
-				culture = eirean
-				size = 8000
-			}
+#			create_pop = {
+#				culture = bresailean
+#				size = 8000
+#			}
 			create_pop = {
 				culture = guilderlander
 				religion = catholic
@@ -586,10 +582,10 @@
 				culture = north_german
 				size = 128000
 			}
-			create_pop = {
-				culture = eirean
-				size = 108004
-			}
+#			create_pop = {
+#				culture = bresailean
+#				size = 108004
+#			}
 		}
 	}
 	s:STATE_PEQUIE = {
@@ -611,10 +607,10 @@
 				culture = afro_american
 				size = 161879
 			}
-			create_pop = {
-				culture = eirean
-				size = 20000
-			}
+#			create_pop = {
+#				culture = bresailean
+#				size = 20000
+#			}
 		}
 	}
 	s:STATE_WELLBURN = {
@@ -641,7 +637,7 @@
 				size = 142960
 			}
 			create_pop = {
-				culture = eirean
+				culture = welsh
 				size = 39996
 			}
 			create_pop = {
@@ -819,7 +815,7 @@
 				size = 144008
 			}
 			create_pop = {
-				culture = eirean
+				culture = bresailean
 				size = 59800
 			}
 			create_pop = {
@@ -888,7 +884,7 @@
 				size = 11996
 			}
 			create_pop = {
-				culture = eirean
+				culture = bresailean
 				size = 52400
 			}
 			create_pop = {
@@ -902,7 +898,11 @@
 		region_state:ASL = {
 			create_pop = {
 				culture = ashelasianer
-				size = 223300
+				size = 113300
+			}
+			create_pop = {
+				culture = bresailean
+				size = 112400
 			}
 		}
 	}
@@ -911,6 +911,10 @@
 			create_pop = {
 				culture = guilderlander
 				size = 282848
+			}
+			create_pop = {
+				culture = bresailean
+				size = 8000
 			}
 		}
 	}
@@ -921,7 +925,7 @@
 				size = 16000
 			}
 			create_pop = {
-				culture = eirean
+				culture = bresailean
 				size = 381228
 			}
 		}
@@ -981,12 +985,16 @@
 		region_state:LOG = {
 			create_pop = {
 				culture = logrish
-				size = 253836
+				size = 193836
 			}
 			create_pop = {
 				culture = logrish
 				religion = jewish
 				size = 1000
+			}
+			create_pop = {
+				culture = welsh
+				size = 60423
 			}
 			create_pop = {
 				culture = cherokee
@@ -1078,15 +1086,15 @@
 		region_state:ASL = {
 			create_pop = {
 				culture = ashelasianer
-				size = 262653
+				size = 92653
 			}
 			create_pop = {
 				culture = afro_american
 				size = 4000
 			}
 			create_pop = {
-				culture = eirean
-				size = 52800
+				culture = bresailean
+				size = 222800
 			}
 		}
 	}
@@ -1097,7 +1105,7 @@
 				size = 555200
 			}
 			create_pop = {
-				culture = eirean
+				culture = bresailean
 				size = 25000
 			}
 			create_pop = {
@@ -1123,7 +1131,7 @@
 				size = 7980
 			}
 			create_pop = {
-				culture = eirean
+				culture = bresailean
 				size = 40000
 			}
 			create_pop = {

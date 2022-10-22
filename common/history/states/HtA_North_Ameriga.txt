@@ -83,10 +83,6 @@
 			country = c:SAL
 			owned_provinces = { x4C08A9 x9A3053 xE3380D xE52F87 xD833D7 xE06C22 x4EBD49 x5BB5B5 x90BFEF xABC1F1 x551707 x2FEE4D x2CE4D9 xC8CBF4 x8CF087 xFE866D }
 		}
-		#create_state = {
-		#	country = c:NZP
-		#	owned_provinces = { x68129D x004935 x553AEE xA92FD8 x3575A8 x6AA85B xB5A331 x64DA01 xBBBE62 xDCF81F }
-		#}
 		create_state = {
 			country = c:CHN
 			owned_provinces = { x0187D7 }
@@ -134,13 +130,6 @@
 		add_homeland = klamath
 	}
 	s:STATE_TAMAJAHUIS = {
-		#create_state = {
-		#	country = c:SHO
-		#	owned_provinces = { 
-		#		 
-		#	}
-		#	#state_type = unincorporated
-		#}
 		create_state = {
 			country = c:SAL
 			owned_provinces = {
@@ -738,6 +727,7 @@
 		}
 		
 		add_homeland = ashelasianer
+		add_homeland = bresailean
 	}	
 	s:STATE_THISLAND = {
 		create_state = {
@@ -746,7 +736,7 @@
 		}
 		
 		add_homeland = ashelasianer
-		add_homeland = eirean
+		add_homeland = bresailean
 	}
 	s:STATE_SOUTH_ADWERDIA = {
 		create_state = {
@@ -994,10 +984,10 @@
 		create_state = {
 			country = c:ASL
 			owned_provinces = { x087678 x0C0CCC x0DB516 x10A000 x1FA5AC x23500D x24AD62 x2D3204 x326D52 x37D0BC x48F357 x563A89 x68F55E x74E14D x798C8E x79AB95 x7C0D56 x7FA89F x818D9D x8588BF x8C6B34 x8D790B xA148A8 xA82803 xBACEF7 xC6E552 xCB412F xD1D79F xD6143F xDE7BE8 xDE7D17 xEB2540 xEE4F4F xF7CF7E }
-			state_type = unincorporated
 		}
 		
 		add_homeland = ashelasianer
+		add_homeland = bresailean
 	}
 	s:STATE_NY_SLESVIG = {
 		create_state = {
@@ -1006,7 +996,7 @@
 		}
 		
 		add_homeland = ashelasianer
-		add_homeland = ashelasianer
+		add_homeland = bresailean
 	}
 	s:STATE_SONORA = {
 		create_state = {
