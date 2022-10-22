@@ -1,4 +1,4 @@
-﻿### Try to keep tags in alphabetical order if it's not too far gone, please.
+﻿### Try to keep tags in alphabetical order
 
 IRE = { #Ireland/Eire
 	dynamic_country_name = { #High Kingdom
@@ -17,6 +17,27 @@ IRE = { #Ireland/Eire
 				}
 			}
 			NOT = { exists = c:SCO }
+		}
+	}
+}
+
+SAF = { #South Africa
+	dynamic_country_name = { #Cape Colony
+		name = dyn_c_cape_colony
+		adjective = dyn_c_cape_colony_adj
+		
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			exists = c:NET
+			c:NET = {
+				has_diplomatic_pact = {
+					who = c:SAF
+					type = puppet
+					is_initiator = yes
+				}
+			}
 		}
 	}
 }
