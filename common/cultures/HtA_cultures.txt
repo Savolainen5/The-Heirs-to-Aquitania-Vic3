@@ -493,6 +493,61 @@ eirean={
 	}
 }
 
+gagauz={
+	color= { 0.99 0.48 0.80 }
+	religion = orthodox
+	traits = { turkic middle_eastern_heritage }
+#	obsessions = {
+#		tea
+#	}
+	male_common_first_names={
+		Abdulhamid Abdulkerim Abdullah Abdulrahim Ahmet Akif Ali Arif Bahaeddin Bekir Celaleddin Cemal Cevad Cevdet Daud Edhem Emin Enver Fahri Ferid Fevzi Fuat Hafiz Halil Halim
+		Hamza Hasan Hayrullah Husrev Ibrahim Iskender Ismet Izzet Kamil Kazim Kemal Lutfi Mahmut Mehmet Mithat Muhtar Musa Mustafa Namik Nazim Numan Nurettin Nuri Omar Osman
+		Pertev Rauf Receb Refet Reshad Rifat Riza Sabaheddin Said Selim Shevket Shukru Suleyman Talat Tevfik Vefik Yunus Yusuf Ziya Ziyauddin Aslan Hamza Jamal_al-Din Mansur Murad
+		Ruslan Shamil Soferbi Zamudin
+	}
+	female_common_first_names = {
+		Ayse Emina Fatma Hatice Kap-Ipha Mihrengiz Nurefsun Sadika Samiye Saffet Sefika Seniye Zeliha
+	}	
+	noble_last_names = {
+		Ankuap
+		Arpazli
+		Balyan
+		Benderli
+		Cengic
+		Cihci
+		Koprulu
+		Maan
+		Marshan
+		Shakir
+		Talhosten
+		Vocibe
+		Qipcakli
+	}
+	common_last_names={
+		Akbas
+		Burhan
+		Cakin
+		Eczacibashi
+		Engineri
+		Ercman
+		Hasagasi
+		Koc
+		Kosalay
+		Manas
+		Mulos
+		Oezal
+		Sabanci
+		Taymur
+		Yalaz
+		Zanetov
+	}
+	ethnicities = {
+		1 = arab
+	}
+	graphics = mideast_indian
+}
+
 gledish={
 	color={ 205 132 185 }
 	religion = catholic

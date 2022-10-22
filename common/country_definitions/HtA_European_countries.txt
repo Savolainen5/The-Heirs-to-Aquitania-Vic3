@@ -86,6 +86,15 @@ DAU = { #Daufinat
 	cultures = { aquitanian }
 	capital = STATE_RHONE
 }
+GAG = { #Gagauzia
+	color = { 213 102 150 }
+	
+	country_type = recognized
+	
+	tier = principality
+	cultures = { gagauz }
+	capital = STATE_BESSARABIA
+}
 GLG = { #Galgai, i.e. Ingushetia #As of mid-August, not currently existing
 	color = { 96 60 110 } #some kind of red would be better, tbh
 	

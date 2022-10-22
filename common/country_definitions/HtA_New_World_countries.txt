@@ -38,7 +38,7 @@ ATB = { #Athabasca
 }
 BRS = { #Bresail (Hy-Brasil, Irish colony lost in the late 18th century)
 	color = { 30 172 68 }
-	country = recognized
+	country_type = recognized
 	
 	tier = kingdom
 	

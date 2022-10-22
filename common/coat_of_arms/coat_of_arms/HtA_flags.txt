@@ -501,6 +501,23 @@ DEL = {
 	}
 }
 ##############################
+GAG = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	colored_emblem = {
+		texture = "ce_stripes_02_bottom_karelia.dds"
+		color1 = "red_light"
+		color3 = "white"
+	}
+	colored_emblem = {
+		texture = "ce_star_06.dds"
+		color1 = "yellow"
+		instance = {
+			position = { 0.25 0.26 } scale = { 0.25 0.25 }
+		}
+	}
+}
+##############################
 HHB = {
 	pattern = "pattern_solid.tga"
 	color1 = "azure"

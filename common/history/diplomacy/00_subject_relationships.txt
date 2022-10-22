@@ -139,7 +139,7 @@
 #	}
 	c:KRI = {
 		create_diplomatic_pact = {
-			country = c:MOL
+			country = c:GAG
 			type = puppet
 		}
 	}

@@ -216,7 +216,7 @@
 	}
 	s:STATE_MOLDAVIA = {
 		create_state = {
-			country = c:MOL
+			country = c:GAG
 			owned_provinces = { x734EFF xF40045 x0983EE x0D8A56 xFF2F40 x30E0A0 x3CE97E xB0A0E0 x556DE7 xEF2060 x56839F x80D8F3 x35CE84 x946A66   x31A0A0 x7E6263 xFFCCDA x00A7F4 x067DF0 }
 		}
 		
@@ -1167,7 +1167,7 @@
 	}
 	s:STATE_BESSARABIA = {
 		create_state = {
-			country = c:MOL
+			country = c:GAG
 			owned_provinces = { x622837 x1E1DEF x712161 xFC9EFE x8955DF xFDE796 x79D62E x8ACA9B x53D7E0 xE7274A xB0E0A0 x23621B x5F2259 x6BF7B8 }
 		}
 		

@@ -1154,7 +1154,7 @@
 		}
 	}
 	s:STATE_MOLDAVIA={
-		region_state:MOL={
+		region_state:GAG={
 			create_building={
 				building="building_wheat_farm"
 				level=2
@@ -1204,7 +1204,7 @@
 		}
 	}
 	s:STATE_BESSARABIA={
-		region_state:MOL={
+		region_state:GAG={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
