@@ -435,6 +435,17 @@ on_create_market = {
 # Root = The applicable country
 # scope:technology = The technology type they started to research
 on_research_technology_started = {
+	effect = {
+#		if = {
+#			limit = { 
+#				has_journal_entry = je_tutorial_research_technology
+#			}
+#			je:je_tutorial_research_technology = {
+#				set_target_technology = scope:technology
+#			}
+#			set_variable = tut_began_new_research
+#		}
+	}
 }
 
 # Root = The applicable country
@@ -1189,10 +1200,9 @@ on_diplo_play_subject_released_overlord = {
 # previous = Country switched from
 on_diplo_play_switch_sides = {
 	effect = {
-#		set_global_variable = achievement_revo_needed
 	}
 }
-# Root = Diplomatic Play				
+# Root = Diplomatic Play
 on_diplo_play_declare_neutrality = {
 	effect = {
 		post_notification = diplo_play_declare_neutrality_notification
@@ -1239,6 +1249,15 @@ on_sway_offer_rejected = {
 # Root = Building
 on_production_method_changed = {
 	effect = {
+#		owner = {
+#			if = {
+#				limit = { 
+#					has_journal_entry = je_tutorial_change_production_method
+#					je:je_tutorial_change_production_method.target = root
+#				}
+#				set_variable = has_changed_production_method
+#			}
+#		}
 	}
 }
 
@@ -1551,6 +1570,8 @@ on_revolution_end = {
 # Root = Country
 # This action is triggered after `on_revolution_end`
 on_civil_war_won = {
+	effect = {
+	}
 }
 
 # Root = Country
@@ -1687,6 +1708,24 @@ on_political_movement_disbanded = {
 # Root = Colony state
 on_colony_created = {
 	effect = {
+#		owner = {
+#			if = {
+#				limit = {
+#					has_journal_entry = je_tutorial_colonize_state
+#					je:je_tutorial_colonize_state = {
+#						NOT = {
+#							has_variable = tut_colony_target
+#						}
+#					}
+#				}
+#				je:je_tutorial_colonize_state = {
+#					set_variable = {
+#						name = tut_colony_target
+#						value = root
+#					}
+#				}
+#			}
+#		}
 	}
 }
 
