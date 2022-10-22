@@ -1268,7 +1268,7 @@
 		region_state:GDL={
 		}
 	}
-	s:STATE_NY_SCHLESWIG={
+	s:STATE_NY_SLESVIG={
 		region_state:ASL={
 			create_building={
 				building="building_lead_mine"

@@ -24,7 +24,7 @@
  STATE_SKOVOY: "Skovøy" #Forest island
  STATE_CHRISTIANSLAND: "Christiansland" #Christian's land
  STATE_FREDERIKSLAND: "Frederiksland" #Fredrik's land
- STATE_NY_SCHLESWIG: "Ny Schleswig" #New Schleswig
+ STATE_NY_SLESVIG: "Ny Schleswig" #New Schleswig
  STATE_THISLAND: "Thisland" #Land of Tyr
  STATE_MESESAG: "Mesesag"
  STATE_KIVEDIN: "Kivedin"

@@ -854,7 +854,7 @@ STATE_MESESAG = {
         undiscovered_amount = 40
     }
 }
-STATE_NY_SCHLESWIG = {
+STATE_NY_SLESVIG = {
     id = 311
     subsistence_building = "building_subsistence_farms"
     provinces = { "x082153" "x085C83" "x326F36" "x380F20" "x406FBA" "x484A09" "x5A0CA8" "x62FC6A" "x63E1C4" "x6B5822" "x7040C0" "x70A0CE" "x70C040" "x71A015" "x8060C0" "x80AA26" "x8CFA32" "x8ED253" "x905458" "x99CA75" "xB95DB3" "xBB0F05" "xC060C0" "xC91FD7" "xCA0399" "xDE0FD5" "xE4892F" "xEAFA99" "xEC5B4B" "xEE2FFF" "xF01C37" "xF04040" "xF95D47" }
