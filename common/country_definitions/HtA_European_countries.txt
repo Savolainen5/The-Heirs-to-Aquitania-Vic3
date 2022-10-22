@@ -117,7 +117,7 @@ HHB = { #Hochburg
 	capital = STATE_BADEN
 }
 HIS = {
-	color = { 175 152 0 }#hsv360{ 0 71 74 }#a dark red because yellow is overrated
+	color = { 229 206 60 } #hsv360{ 0 71 74 }#a dark red because yellow is overrated?
 	
 	country_type = recognized
 
@@ -213,7 +213,7 @@ NMR = { #Namur
 	capital = STATE_WALLONIA
 }
 PDN = { #Padan Union
-	color = { 207 241 85 }
+	color = { 196 243 85 }
 	
 	country_type = recognized
 	

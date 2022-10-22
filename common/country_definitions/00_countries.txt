@@ -512,7 +512,7 @@ VEN = {
 }
 
 BOH = {
-	color = { 161 139 40 }
+	color = { 127 103 27 }
 	
 	country_type = recognized
 
