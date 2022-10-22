@@ -100,7 +100,7 @@
 				size = 19780
 			}
 			create_pop = {
-				culture = spanish
+				culture = hispanian
 				size = 192
 			}
 			create_pop = {
@@ -136,7 +136,7 @@
 	s:STATE_JANIZ = {
 		region_state:NUT = {
 			create_pop = {
-				culture = spanish
+				culture = hispanian
 				size = 4848
 			}		
 			create_pop = {

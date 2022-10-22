@@ -186,7 +186,7 @@
 	s:STATE_TOLEDO = {
 		region_state:HIS = {
 			create_pop = {
-				culture = spanish
+				culture = hispanian
 				size = 1268400
 			}
 		}
@@ -199,7 +199,7 @@
 				size = 828528
 			}
 			create_pop = {
-				culture = spanish
+				culture = hispanian
 				size = 12264
 			}
 		}
@@ -208,7 +208,7 @@
 		# please don't ask for a source
 		region_state:HIS = {
 			create_pop = {
-				culture = spanish
+				culture = hispanian
 				size = 614264
 			}
 			create_pop = {
@@ -220,7 +220,7 @@
 	s:STATE_CASTILE = {
 		region_state:HIS = {
 			create_pop = {
-				culture = spanish
+				culture = hispanian
 				size = 1430808
 			}
 			create_pop = {
@@ -232,7 +232,7 @@
 	s:STATE_NAVARRA = {
 		region_state:HIS = {
 			create_pop = {
-				culture = spanish
+				culture = hispanian
 				size = 219200
 			}
 			create_pop = {
@@ -254,7 +254,7 @@
 				size = 161052
 			}
 			create_pop = {
-				culture = spanish
+				culture = hispanian
 				size = 53834
 			}
 		}
@@ -262,7 +262,7 @@
 	s:STATE_ARAGON = {
 		region_state:HIS = {
 			create_pop = {
-				culture = spanish
+				culture = hispanian
 				size = 401200
 			}
 			create_pop = {
@@ -282,7 +282,7 @@
 				size = 404308
 			}
 			create_pop = {
-				culture = spanish
+				culture = hispanian
 				size = 86804
 			}
 		}
@@ -304,7 +304,7 @@
 				size = 145244
 			}
 			create_pop = {
-				culture = spanish
+				culture = hispanian
 				size = 78020
 			}
 		}
@@ -312,7 +312,7 @@
 	s:STATE_ANDALUSIA = {
 		region_state:HIS = {
 			create_pop = {
-				culture = spanish
+				culture = hispanian
 				size = 1057592
 			}
 		}
@@ -320,7 +320,7 @@
 	s:STATE_GRANADA = {
 		region_state:HIS = {
 			create_pop = {
-				culture = spanish
+				culture = hispanian
 				size = 1267428
 			}
 			create_pop = {
@@ -332,7 +332,7 @@
 	s:STATE_BADAJOZ = {
 		region_state:HIS = {
 			create_pop = {
-				culture = spanish
+				culture = hispanian
 				size = 579992
 			}
 		}
@@ -340,7 +340,7 @@
 	s:STATE_VALENCIA = {
 		region_state:HIS = {
 			create_pop = {
-				culture = spanish
+				culture = hispanian
 				size = 989604
 			}
 			create_pop = {
@@ -401,7 +401,7 @@
 	s:STATE_CANARY_ISLANDS = {
 		region_state:HIS = {
 			create_pop = {
-				culture = spanish
+				culture = hispanian
 				size = 208004
 			}
 		}

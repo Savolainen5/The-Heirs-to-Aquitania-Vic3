@@ -597,6 +597,46 @@ coluan={
 	}
 }
 
+eirean={
+	color={ 35 140 50 }
+	religion = catholic
+	traits = { celtic_people european_heritage }
+	male_common_first_names={
+		Abba_n A_dhamh Alastar Anrai_ Aodh Aodha_n Aonghus Artu_r Bairre Bran Breasal Breanda_n Brian Caola_n Cathal Cathaoir Ciara_n Cillian
+		Colm Conall Cona_n Conchobhar Constainti_n Cri_osto_ir Cuan Daine_al Da_ithi_ Da_ire De_agla_n Diarmaid Do_nal Dubhghall E_amonn Earna_n E_ibhear E_nna Eoghan
+		Fachtna Faola_n Feardorcha Fearghal Fechi_n Feidhlim Fiachra Fiona_n Fionn Fionnlagh Flann Gearo_id Goba_n Gofraidh Gre_ago_ir I_omhar Ionata_n
+		Lachtna Lorca_n Lu_ca_s Ma_irti_n Maitiu_ Mealla_n Michea_l Muiris Naoise Niall Ninian Niocla_s Odhra_n Oisi_n Oscar Pa_draig Peadar Piaras Pilib
+		Proinsias Re_amann Ristea_rd Roibea_rd Ro_rda_n Riaga_n Ri_an Ro_na_n Ruairi_ Se_afra Se_amus Se_an Seo_irse Seosamh Stiofa_n Tadhg Tiarna_n Toma_s Torin Ulta_n Uilliam		
+	}
+	female_common_first_names = {
+		A_ine Ailbhe Aisling Aoibheann Aoibhinn Aoife Blathnaid Bronagh Caoilainn Caoimhe Cara Caragh Ciara Clo_dagh Dearbhla E_imhear
+		Eabha Fiadh Fiona Gra_inne I_omha_i_n Laoise Mairead Me_abh Niamh O_rla Orlaith Ri_ona Ro_isi_n Sadhbh Saoirse Sea_na Sionna
+	}
+	common_last_names={
+		Breathnach Caomha_nach Dalcais Mac_A_rdghail Mac_Bradaigh Mac_Gafraidh Mac_Cearnaigh Mac_Craith Mac_Carthaigh Mac_Congail
+		Mac_Conmara Mac_Donnchadha Mac_Diarmada Mac_Gabhann Mac_Lochlainn Mac_Liam Mac_Maghnais Mac_Scannla_in Mac_Suibhne Mac_Toma_is
+		Mac_Uidhir O__Baoill O__Birn O__Briain O__Broin O__Braona_in O__Cathail O__Ceallaigh O__Cearbhaill O__Ceallacha_in O__Cle_irigh O__Cinne_ide
+		O__Conaill O__Coilea_in O__Conghaile  O__Conchobhair O__Cuana O__Cuinn O__Dochartaigh O__Donnaga_in O__Da_laigh O__Diubha_in O__Dubhghaill
+		O__Domhnaill O__Duinn O__Dufaigh O__Fallamha_in O__Fearghail O__Fionn O__Floinn O__Flannaga_in O__Gallchobhair O__Glaimhin O__Gri_ofa
+		O__hAghmaill O__hAodha O__hEachtighearna O__hE_alaighthe O__hO_ga_in O__hUiginn O__Laoghaire O__Loinsigh O__Maoilriain O__Meachair O__Mathu_na
+		O__Mordha O__Murchadha O__Muireadhaigh O__Nualla_in O__Ne_ill O__Raghallaigh O__Riaga_in O__Scolla_in O__Se_aghdha O__Speala_in O__Su_illeabha_in
+		O__Tarpaigh O__Tuama
+	}
+	
+	male_regal_first_names = {
+		#Populate?
+	}
+	
+	regal_last_names = {
+		Dalcais #(unsure if it makes sense to put this here)
+	}
+	
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
 guilderlander={
 	color= { 255 206 84 }
 	religion = protestant
@@ -909,40 +949,175 @@ guilderlander={
 	}
 }
 
-eirean={
-	color={ 35 140 50 }
+hispanian={
+	color= hsv{ 0.16 0.56 0.86 }
 	religion = catholic
-	traits = { celtic_people european_heritage }
+	traits = { iberian_culture_group hispanophone european_heritage }
 	male_common_first_names={
-		Abba_n A_dhamh Alastar Anrai_ Aodh Aodha_n Aonghus Artu_r Bairre Bran Breasal Breanda_n Brian Caola_n Cathal Cathaoir Ciara_n Cillian
-		Colm Conall Cona_n Conchobhar Constainti_n Cri_osto_ir Cuan Daine_al Da_ithi_ Da_ire De_agla_n Diarmaid Do_nal Dubhghall E_amonn Earna_n E_ibhear E_nna Eoghan
-		Fachtna Faola_n Feardorcha Fearghal Fechi_n Feidhlim Fiachra Fiona_n Fionn Fionnlagh Flann Gearo_id Goba_n Gofraidh Gre_ago_ir I_omhar Ionata_n
-		Lachtna Lorca_n Lu_ca_s Ma_irti_n Maitiu_ Mealla_n Michea_l Muiris Naoise Niall Ninian Niocla_s Odhra_n Oisi_n Oscar Pa_draig Peadar Piaras Pilib
-		Proinsias Re_amann Ristea_rd Roibea_rd Ro_rda_n Riaga_n Ri_an Ro_na_n Ruairi_ Se_afra Se_amus Se_an Seo_irse Seosamh Stiofa_n Tadhg Tiarna_n Toma_s Torin Ulta_n Uilliam		
+		Agustin
+		Alberto
+		Alejandro
+		Alfonso
+		Antonio
+		Antonio_Maria
+		Arsenio
+		Augusto
+		Baldomero
+		Baltasar
+		Benito
+		Bernardino
+		Bernardo
+		Calixto
+		Carlos
+		Celestino
+		Claudio
+		Cristobal
+		Diego
+		Dionisio
+		Damaso
+		Eduardo
+		Emilio
+		Estanislao
+		Federico
+		Felipe
+		Fernando
+		Francisco
+		Francisco_Javier
+		Felix
+		Gabino
+		Gabriel
+		Gaspar
+		Genaro
+		Gonzalo
+		Ignacio
+		Isidro
+		Jacobo
+		Jaime
+		Joaquin
+		Jose
+		Jose_Antonio
+		Jose_Manuel
+		Jose_Maria
+		Juan
+		Juan_Bautista
+		Julio
+		Jorge
+		Leopoldo
+		Lorenzo
+		Luis
+		Manuel
+		Marcelo
+		Mariano
+		Mateo
+		Melchor
+		Miguel
+		Nicolas_2
+		Pablo
+		Pascual
+		Pedro
+		Rafael_2
+		Raimundo
+		Ramon
+		Ricardo
+		Santiago
+		Sebastian
+		Segismundo
+		Valeriano
+		Vicente
+		Alvaro
 	}
 	female_common_first_names = {
-		A_ine Ailbhe Aisling Aoibheann Aoibhinn Aoife Blathnaid Bronagh Caoilainn Caoimhe Cara Caragh Ciara Clo_dagh Dearbhla E_imhear
-		Eabha Fiadh Fiona Gra_inne I_omha_i_n Laoise Mairead Me_abh Niamh O_rla Orlaith Ri_ona Ro_isi_n Sadhbh Saoirse Sea_na Sionna
+		Adelaida
+		Alejandrina
+		Amalia
+		Antonia
+		Bonifacia
+		Carlota
+		Clotilde
+		Concepcion
+		Dolores
+		Emilia
+		Enriqueta
+		Eulalia
+		Faustina
+		Francisca
+		Guillermina
+		Herminia
+		Isabella
+		Joaquina
+		Manuela
+		Maria_2
+		Mariana
+		Martina
+		Robustiana
+		Rosa
+		Sabina
+		Teresa
+	}	
+	noble_last_names = {
+		Alvarez_de_Toledo de_Albornoz de_ArmendA_riz de_Almansa de_AlO_s de_Arteche
+		Barrionuevo de_Bohorques de_Bernuy de_Bago
+		Cabrera Cagigal_de_la_Vega Colon de_Carvajal del_Carmen_Contreras
+		DI_ez_de_Rivera de_Domecq
+		Fernandez_de_Cordoba de_la_Fuente Fitz-James_Stuart de_Figueroa Flores_de_SeptiE_n FernA_ndez-Zapata FernA_ndez_de_CO_rdoba
+		Garcia_de_la_Noceda GirO_n de_GuzmA_n de_Godoy GonzA_lez_de_Cienfuegos Grimaldi
+		Hidalgo_de_Cisneros
+		JordA_n_de_UrrI_es
+		LO_pez_de_Haro de_Llorach
+		MessI_a de_Mercader de_Mora de_Medina del_Milagro_Quesada
+		Ortiz_de_la_Riva O_Donnell Osorio_de_Moscoso de_Orozco
+		Primo_de_Rivera PE_rez_de_Herrasti de_Palafox PE_rez_de_GuzmA_n PiN_eiro de_Pedro del_Pilar_Osorio
+		de_QuirO_s de_Quintanilla
+		RamI_rez_de_Saavedra del_Rosario_FalcO_ del_Rosario_Vereterra de_Rojas de_Riquer Ruiz_de_Arana
+		SuA_rez_de_ArgudI_n de_Silva de_SatrU_stegui SaI_nz_de_la_Maza de_Samaniego de_Sentmenat de_Salavert de_Santiago_Concha Sanchiz
+		de_Tineo
+		de_Urquijo de_Uzqueta
+		de_Valda del_Valle de_Villalonga de_la_Vera ValdE_s
+		de_ZufI_a
 	}
 	common_last_names={
-		Breathnach Caomha_nach Dalcais Mac_A_rdghail Mac_Bradaigh Mac_Gafraidh Mac_Cearnaigh Mac_Craith Mac_Carthaigh Mac_Congail
-		Mac_Conmara Mac_Donnchadha Mac_Diarmada Mac_Gabhann Mac_Lochlainn Mac_Liam Mac_Maghnais Mac_Scannla_in Mac_Suibhne Mac_Toma_is
-		Mac_Uidhir O__Baoill O__Birn O__Briain O__Broin O__Braona_in O__Cathail O__Ceallaigh O__Cearbhaill O__Ceallacha_in O__Cle_irigh O__Cinne_ide
-		O__Conaill O__Coilea_in O__Conghaile  O__Conchobhair O__Cuana O__Cuinn O__Dochartaigh O__Donnaga_in O__Da_laigh O__Diubha_in O__Dubhghaill
-		O__Domhnaill O__Duinn O__Dufaigh O__Fallamha_in O__Fearghail O__Fionn O__Floinn O__Flannaga_in O__Gallchobhair O__Glaimhin O__Gri_ofa
-		O__hAghmaill O__hAodha O__hEachtighearna O__hE_alaighthe O__hO_ga_in O__hUiginn O__Laoghaire O__Loinsigh O__Maoilriain O__Meachair O__Mathu_na
-		O__Mordha O__Murchadha O__Muireadhaigh O__Nualla_in O__Ne_ill O__Raghallaigh O__Riaga_in O__Scolla_in O__Se_aghdha O__Speala_in O__Su_illeabha_in
-		O__Tarpaigh O__Tuama
+		Acuna Aguirre Alcala-Zamora Allendesalazar Alonso Aranda Arguelles-Meres Asensio Aznar Alvarez Acedo Arabolaza Arrate Artola Aranzadi
+		Barradas Bugallal BotI_n Bonilla Belaunde Blanco
+		Cano Cervera Corsi Cuadrada Comamala
+		Diaz_2 DomI_nguez
+		Espartero Escoda EguiazA_bal
+		Fernandez Franco Fajardo
+		Garcia Gonzalez Gil Grasset Galatas
+		Heredia Hernandez Herrera Hevia
+		Izaguirre
+		Linares Lopez Lorenzana Landazabal LarraN_aga
+		Maroto Martinez-Campos Maura Menendez Miaja Millan-Astray Mina Mola Munoz Marquez MelE_ndez MedizA_bal Muguerza Moreira Mandiola Muguruza
+		Narvaez
+		Ortega Otero Onsalo OrdO_N_ez Olaso Ozores
+		Pavia Perez PajarO_n Pagaza Pattullo Pena
+		Queipo_de_Llano Quintana Quirante
+		Rodriguez Rojo Ruiz Reparez Ruete
+		Sanjurjo Serrano Silvestre Samitier Serrano Saprissa
+		Topete Tuduri Terradas Torralba
+		Valdes Varela Villapol Villar Vela Villota Vilalta Vallana VA_zquez
+		Weyler
+		Yague
+		Zamora Zabala
 	}
-	
-	male_regal_first_names = {
-		#Populate?
+	male_regal_first_names={
+		Alfonso Amadeo
+		Carlos
+		Felipe Fernando
+		Jose Juan_Carlos
+		Luis
 	}
-	
+	female_regal_first_names={
+		Beatriz
+		Eulalia
+		Isabel
+		Luisa_Fernanda
+		Maria_2 MarI_a_Teresa
+	}
 	regal_last_names = {
-		Dalcais #(unsure if it makes sense to put this here)
-	}
-	
+		de_Andrade
+		de_Trasta_mara
+		Capeto
+	}	
 	graphics = european
 	ethnicities = {
 		1 = caucasian

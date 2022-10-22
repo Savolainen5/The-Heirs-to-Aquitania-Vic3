@@ -123,7 +123,7 @@
 			triggered_desc = {
 				desc = falangist_party
 				trigger = {
-					country_has_primary_culture = cu:spanish
+					country_has_primary_culture = cu:hispanian
 				}
 			}
 			triggered_desc = {

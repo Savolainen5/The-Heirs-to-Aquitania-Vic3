@@ -1631,7 +1631,7 @@ PHI = {
 	
 	tier = kingdom
 	
-	cultures = { filipino spanish }
+	cultures = { filipino hispanian }
 	capital = STATE_LUZON
 }
 
@@ -1922,7 +1922,7 @@ IBE = {
 
 	tier = empire
 	
-	cultures = { spanish catalan portuguese basque galician }
+	cultures = { hispanian catalan portuguese basque galician }
 	capital = STATE_TOLEDO
 }
 
@@ -2090,7 +2090,7 @@ ANL = {
 
 	tier = principality
 	
-	cultures = { spanish }
+	cultures = { hispanian }
 	capital = STATE_ANDALUSIA
 	is_named_from_capital = yes
 }
@@ -2102,7 +2102,7 @@ CAS = {
 
 	tier = kingdom
 	
-	cultures = { spanish }
+	cultures = { hispanian }
 	capital = STATE_TOLEDO
 	is_named_from_capital = yes
 }

@@ -407,6 +407,6 @@ ZBG = { #Zamboanga
 	
 	tier = principality
 	
-	cultures = { moro spanish } #Add some kind of Zamboangueño mestizo culture?
+	cultures = { moro hispanian } #Add some kind of Zamboangueño mestizo culture?
 	capital = STATE_MINDANAO
 }

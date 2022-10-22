@@ -961,28 +961,6 @@ PAP = { # Papal State, but the base name is technically Rome
 	}
 }
 
-
-PHI = {
-	dynamic_country_name = {
-		name = dyn_c_spanish_philippines
-		adjective = dyn_c_spanish_philippines_adj
-		
-		is_main_tag_only = yes
-		priority = 0
-		
-		trigger = {
-			exists = c:HIS
-			c:HIS = {
-				has_diplomatic_pact = {
-					who = c:PHI
-					type = puppet
-					is_initiator = yes
-				}
-			}
-		}
-	}
-}
-
 PON = { # Pontianak
 	dynamic_country_name = { # Kalimantan
 		name = dyn_c_kalimantan

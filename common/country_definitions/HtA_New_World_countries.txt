@@ -128,7 +128,7 @@ NUT = { #Territory of Nutca, Hispanian possession
 	
 	tier = principality
 	
-	cultures = { spanish }
+	cultures = { hispanian }
 	capital = STATE_BUCARELI
 }
 PET = { #(Isla) Petri
@@ -238,7 +238,7 @@ LON = { #Lonco, independent country name for Nueva Extremadura
 	
 	tier = kingdom
 	
-	cultures = { spanish }
+	cultures = { hispanian }
 	capital = STATE_SANTIAGO
 }
 NEX = { #Nueva Extremadura
@@ -248,7 +248,7 @@ NEX = { #Nueva Extremadura
 	
 	tier = kingdom
 	
-	cultures = { spanish }
+	cultures = { hispanian }
 	capital = STATE_SANTIAGO
 }
 GLE = { #Gledy or Gledia, Aenglish colony
@@ -286,7 +286,7 @@ NCS = { #Nueva Castilla, in revolt from Hispania
 	
 	tier = kingdom
 	
-	cultures = { spanish }
+	cultures = { hispanian }
 	capital = STATE_LIMA
 }
 NHL = { #New Holland, Dutch colony. Independent as Sintelland?
@@ -306,7 +306,7 @@ NGR = { #Viceroyalty of Nueva Granada, Hispanian colony
 	
 	tier = kingdom
 	
-	cultures = { spanish portuguese }
+	cultures = { hispanian portuguese }
 	capital = STATE_ZULIA
 }
 NLT = { #Viceroyalty of Nova Lusitania, Hispanian colony
@@ -316,6 +316,6 @@ NLT = { #Viceroyalty of Nova Lusitania, Hispanian colony
 	
 	tier = kingdom
 	
-	cultures = { spanish portuguese }
+	cultures = { hispanian portuguese }
 	capital = STATE_BUENOS_AIRES
 }

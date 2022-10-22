@@ -349,7 +349,7 @@
 				size = 4000
 			}
 			create_pop = {
-				culture = spanish
+				culture = hispanian
 				size = 73200
 			}
 		}

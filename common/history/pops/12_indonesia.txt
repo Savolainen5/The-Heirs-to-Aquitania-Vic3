@@ -504,7 +504,7 @@
 		}
 		region_state:HIS = {
 			create_pop = {
-				culture = spanish
+				culture = hispanian
 				size = 18
 			}
 			create_pop = {
@@ -1093,7 +1093,7 @@
 				size = 24053
 			}
 			create_pop = {
-				culture = spanish
+				culture = hispanian
 				size = 604
 			}
 		}
@@ -1144,7 +1144,7 @@
 				size = 8000
 			}
 			create_pop = {
-				culture = spanish
+				culture = hispanian
 				size = 8000
 			}
 			create_pop = {
@@ -1192,7 +1192,7 @@
 				size = 891604
 			}
 			create_pop = {
-				culture = spanish
+				culture = hispanian
 				size = 796
 			}
 			create_pop = {
@@ -1219,7 +1219,7 @@
 				size = 23840
 			}
 			create_pop = {
-				culture = spanish
+				culture = hispanian
 				size = 24
 			}
 			create_pop = {
@@ -1236,7 +1236,7 @@
 				size = 23840
 			}
 			create_pop = {
-				culture = spanish
+				culture = hispanian
 				size = 24
 			}
 			create_pop = {

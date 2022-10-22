@@ -1729,7 +1729,7 @@
 	s:STATE_SOUTH_CAMEROON = {
 		region_state:HIS = {
 			create_pop = {
-				culture = spanish
+				culture = hispanian
 				size = 800
 			}
 			create_pop = {
