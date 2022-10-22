@@ -231,6 +231,14 @@
 			country = c:NAG
 			type = vassal
 		}
+		create_diplomatic_pact = {
+			country = c:BER
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:KUT
+			type = vassal
+		}
 	}
 	c:PER = {
 		create_diplomatic_pact = {
