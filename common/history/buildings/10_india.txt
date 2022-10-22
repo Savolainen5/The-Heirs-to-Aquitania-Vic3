@@ -818,7 +818,7 @@
 		}
 	}
 	s:STATE_CEYLON={
-		region_state:HIS={
+		region_state:NET={
 			create_building={
 				building="building_fishing_wharf"
 				level=2
@@ -856,9 +856,11 @@
 				activate_production_methods={ "pm_basic_port" }
 			}			
 		}
+		region_state:POR={
+		}
 	}
 	s:STATE_INDIAN_OCEAN_TERRITORY={
-		region_state:FRA={
+		region_state:AQT={
 			create_building={
 				building="building_sugar_plantation"
 				level=2

@@ -102,8 +102,13 @@
 	}	
 	s:STATE_CEYLON = {
 		create_state = {
-			country = c:HIS
-			owned_provinces = { xA0EFCC xA0A0D0 x23CE5A x8D6FA8 xDF2050 xDAB923 x1DA090 xC18817 x8A707A x967CCE x602050 xC23350 x95AAA3 x5B5C22 x47B038 }
+			country = c:NET
+			owned_provinces = { xA0EFCC xA0A0D0 x23CE5A x8D6FA8 xDF2050 xDAB923 x1DA090 xC18817 x8A707A x967CCE x602050 xC23350 x5B5C22 x47B038 }
+			state_type = unincorporated
+		}
+		create_state = {
+			country = c:POR
+			owned_provinces = { x95AAA3 }
 			state_type = unincorporated
 		}
 		

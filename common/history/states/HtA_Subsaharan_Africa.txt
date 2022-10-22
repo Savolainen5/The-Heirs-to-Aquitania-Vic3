@@ -174,7 +174,7 @@
 	}
 	s:STATE_INDIAN_OCEAN_TERRITORY = {
 		create_state = {
-			country = c:FRA
+			country = c:AQT
 			owned_provinces = { xD690E0 }
 			state_type = unincorporated
 
