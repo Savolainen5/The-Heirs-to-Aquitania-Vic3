@@ -132,6 +132,10 @@ SCN = {
 	states = { STATE_SCANIA }
 	
 	ai_will_do = { always = no }
+	
+	possible = {
+		NOT = { has_game_rule = plausible_releasable_nations }
+	}
 }
 
 NAV = {
@@ -189,6 +193,10 @@ JAN = {
 	provinces = { x31968A }
 	
 	ai_will_do = { always = no }
+	
+	possible = {
+		NOT = { has_game_rule = plausible_releasable_nations }
+	}
 }
 
 POL = {
@@ -516,7 +524,7 @@ BAH = {
 	ai_will_do = { always = no }
 }
 
-PHI = {
+LAZ = {
 	use_culture_states = yes
 	
 	ai_will_do = { always = no }
@@ -1015,11 +1023,15 @@ BRA = {
 }
 
 HOL = {
-	states = {
-		STATE_SCHLESWIG_HOLSTEIN
-	}
+	provinces = { xBFCC21 x804160 x64824C xE000A0 }
 	ai_will_do = { always = no }
 }
+
+SCH = {
+	provinces = { x00C060 x78B203 xE3C876 }
+	ai_will_do = { always = no }
+}
+
 
 LUX = {
 	provinces = { x5180A0 }
