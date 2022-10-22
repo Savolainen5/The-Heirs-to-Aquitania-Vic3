@@ -13,7 +13,7 @@
 		}
 	}
 	s:STATE_OMAN = {
-		region_state:OMA = {
+		region_state:HDR = {
 			create_pop = {
 				culture = bedouin
 				religion = shiite
@@ -55,7 +55,7 @@
 				size = 2000
 			}
 		}
-		region_state:OMA = {
+		region_state:POR = {
 			create_pop = {
 				culture = bedouin
 				size = 3000
@@ -91,8 +91,8 @@
 			}
 		}
 	}
-	s:STATE_YEMEN = {
-		region_state:ZAI = {
+	s:STATE_YEMEN = {		#I had to make some hard choices in POPs here. HDR would have had just 40k total in what is supposed to be their power base! Seems a bit low
+		region_state:HDJ = {
 			create_pop = {
 				pop_type = slaves
 				culture = sudanese
@@ -110,38 +110,24 @@
 				culture = sephardic
 				size = 5996
 			}
-		}
-		region_state:HDJ = {
 			create_pop = {
 				pop_type = slaves
 				culture = sudanese
 				size = 1400
 			}
 			create_pop = {
-				culture = bedouin
-				size = 32000
-			}
-			create_pop = {
 				culture = sephardic
 				size = 956
 			}
 		}
-		region_state:MAH = {
+		region_state:HDR = {
 			create_pop = {
 				culture = bedouin
-				size = 13000
+				size = 72000
 			}
-		}
-		region_state:KAT = {
 			create_pop = {
-				culture = bedouin
-				size = 12000
-			}
-		}
-		region_state:LAH = {
-			create_pop = {
-				culture = bedouin
-				size = 15000
+				culture = sephardic
+				size = 956
 			}
 		}
 	}

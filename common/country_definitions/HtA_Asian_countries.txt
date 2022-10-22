@@ -89,6 +89,16 @@ DZN = { #Dzungar Mongols
 	cultures = { uighur }
 	capital = STATE_JETISY
 }
+HDR = { #Hadramaut
+	color = { 51 59 169 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { bedouin }
+	capital = STATE_YEMEN
+}
 IDG = { #Kingdom of Indragiri
 	color = { 130 180 140 }
 	
@@ -108,56 +118,6 @@ JND = { #Janid Empire
 	
 	cultures = { pashtun panjabi }
 	capital = STATE_EASTERN_AFGHANISTAN 
-}
-LRT = { #Larantuka
-	color = { 104 174 134 }
-	
-	country_type = unrecognized
-	
-	tier = kingdom
-	
-	cultures = { moluccan }
-	capital = STATE_SUNDA_ISLANDS 
-}
-MEL = { #Kingdom of Melayu
-	color = { 80 200 210 }
-	
-	country_type = unrecognized
-	
-	tier = kingdom
-	
-	cultures = { sumatran }
-	capital = STATE_SOUTH_SUMATRA 
-}
-MKB = { #Minangkabau
-	color = { 50 150 10 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { sumatran }
-	capital = STATE_NORTH_SUMATRA
-}
-MRT = { #Maratha Empire
-	color = { 220 70 20 }
-	
-	country_type = unrecognized
-
-	tier = empire
-	
-	cultures = { marathi }
-	capital = STATE_BOMBAY
-}
-NIA = { #Nias
-	color = { 120 80 190 }
-	
-	country_type = decentralized
-	
-	tier = principality
-	
-	cultures = { sumatran }
-	capital = STATE_NORTH_SUMATRA
 }
 JBL = { #Jabalpur
 	color = { 250 40 90 }
@@ -189,15 +149,15 @@ LAZ = { #Lazarine Islands / Lazarines
 	cultures = { filipino aquitanian }
 	capital = STATE_LUZON
 }
-NNA = { #Nanai, one of the ethnic groups of Outer Manchuria
-	color = { 161 233 115 }
+LRT = { #Larantuka
+	color = { 104 174 134 }
 	
-	country_type = decentralized
+	country_type = unrecognized
 	
-	tier = principality
+	tier = kingdom
 	
-	cultures = { manchu }
-	capital = STATE_NORTHERN_MANCHURIA
+	cultures = { moluccan }
+	capital = STATE_SUNDA_ISLANDS 
 }
 MDR = { #Madurai
 	color = { 150 140 230 }
@@ -209,6 +169,26 @@ MDR = { #Madurai
 	cultures = { tamil }
 	capital = STATE_MADRAS
 }
+MEL = { #Kingdom of Melayu
+	color = { 80 200 210 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { sumatran }
+	capital = STATE_SOUTH_SUMATRA 
+}
+MKB = { #Minangkabau
+	color = { 50 150 10 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { sumatran }
+	capital = STATE_NORTH_SUMATRA
+}
 MRK = { #Mrauk U
 	color = { 95 35 160 }
 	
@@ -218,6 +198,36 @@ MRK = { #Mrauk U
 	
 	cultures = { burmese }
 	capital = STATE_PEGU
+}
+MRT = { #Maratha Empire
+	color = { 220 70 20 }
+	
+	country_type = unrecognized
+
+	tier = empire
+	
+	cultures = { marathi }
+	capital = STATE_BOMBAY
+}
+NIA = { #Nias
+	color = { 120 80 190 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { sumatran }
+	capital = STATE_NORTH_SUMATRA
+}
+NNA = { #Nanai, one of the ethnic groups of Outer Manchuria
+	color = { 161 233 115 }
+	
+	country_type = decentralized
+	
+	tier = principality
+	
+	cultures = { manchu }
+	capital = STATE_NORTHERN_MANCHURIA
 }
 NNY = { #Nanyue / Southern Yue
 	color = { 100 220 230 }

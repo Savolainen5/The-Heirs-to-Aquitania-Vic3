@@ -418,7 +418,7 @@
 		}
 	}
 	s:STATE_ZANZIBAR={
-		region_state:OMA={
+		region_state:ZAN={
 			create_building={
 				building="building_coffee_plantation"
 				level=1

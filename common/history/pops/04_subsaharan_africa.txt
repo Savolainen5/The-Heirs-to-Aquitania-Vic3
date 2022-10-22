@@ -807,7 +807,7 @@
 		}
 	}
 	s:STATE_ZANZIBAR = {
-		region_state:OMA = {
+		region_state:ZAN = {
 			create_pop = {
 				culture = swahili
 				size = 382800

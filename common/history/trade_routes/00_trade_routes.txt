@@ -27,29 +27,7 @@
 		}		
 	}
 	
-	
-	# Sulu
-#	c:SUL = { #Can't be maintained as of 30.8.22
-#		create_trade_route = {
-#			goods = clippers
-#			level = 1
-#			direction = import
-#			target = c:QIN.market
-#		}
-#		create_trade_route = {
-#			goods = tobacco
-#			level = 3
-#			direction = export
-#			target = c:QIN.market
-#		}
-#		create_trade_route = {
-#			goods = grain
-#			level = 3
-#			direction = import
-#			target = c:QIN.market
-#		}			
-#	}	
-	
+		
 	# Khiva
 	c:KHI = {
 		create_trade_route = {
@@ -262,7 +240,7 @@
 #	}
 	
 	# Lahej
-	c:LAH = {
+	c:HDR = {
 		create_trade_route = {
 			goods = coffee
 			level = 1 #3

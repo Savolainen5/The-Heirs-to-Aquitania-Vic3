@@ -16,7 +16,7 @@
 		}
 	}
 	s:STATE_OMAN={
-		region_state:OMA={
+		region_state:HDR={
 			create_building={
 				building="building_shipyards"
 				level=1
@@ -72,7 +72,7 @@
 		}
 	}
 	s:STATE_YEMEN={
-		region_state:LAH={
+		region_state:HDR={
 			create_building={
 				building="building_coffee_plantation"
 				level=2
@@ -86,7 +86,7 @@
 				activate_production_methods={ "pm_anchorage" }
 			}	
 		}
-		region_state:ZAI={
+		region_state:HDJ={
 			create_building={
 				building="building_wheat_farm"
 				level=2
@@ -111,15 +111,12 @@
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
-		}
-		region_state:HDJ={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
 			}
-
 		}
 	}
 	s:STATE_HEDJAZ={
