@@ -179,24 +179,13 @@
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_debt_slavery
 	}
-	c:MCH = { #Manchuria
-		effect_starting_technology_tier_4_tech = yes
+	c:NNA = { #Nanai
+		effect_starting_technology_tier_6_tech = yes
 		
 		effect_starting_politics_traditional = yes
 		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_state_religion
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_traditionalism
-		activate_law = law_type:law_right_of_assembly
-		activate_law = law_type:law_land_based_taxation
-		activate_law = law_type:law_debt_slavery
 
-		ig:ig_devout = {										#They would probably be Buddhist, which they were before conquering China OTL
-			set_interest_group_name = ig_mahayana_monks
-			remove_ideology = ideology_moralist
-			add_ideology = ideology_buddhist_moralist
-		}
+
 	}
 	c:MEL = { #Melayu
 		effect_starting_technology_tier_4_tech = yes

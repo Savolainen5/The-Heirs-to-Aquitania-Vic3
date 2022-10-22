@@ -332,7 +332,7 @@
 		}
 	}
 	s:STATE_OUTER_MANCHURIA={
-		region_state:MCH={
+		region_state:NNA={
 			create_building={
 				building="building_logging_camp"
 				level=4
@@ -687,7 +687,7 @@
 			}			
 			create_building={
 				building="building_tea_plantation"
-				level=15
+				level=14
 				reserves=1
 				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
@@ -710,18 +710,18 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
-		region_state:AQT={ #These buildings just copied from Macao
+		region_state:AQT={ #These buildings mostly just copied from Macao
 			create_building={
 				building="building_rice_farm"
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned" "pm_tools_disabled" "pm_fig_orchards" }
-			}
+			}			
 			create_building={
-				building="building_dye_plantation"
-				level=2
+				building="building_tea_plantation"
+				level=1
 				reserves=1
-				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_port"

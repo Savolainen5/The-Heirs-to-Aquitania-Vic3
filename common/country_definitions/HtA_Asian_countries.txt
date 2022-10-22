@@ -189,16 +189,15 @@ LAZ = { #Lazarine Islands / Lazarines
 	cultures = { filipino aquitanian }
 	capital = STATE_LUZON
 }
-MCH = { #Manchuria (name to be changed?)
-	color = { 255  254  124 }
+NNA = { #Nanai, one of the ethnic groups of Outer Manchuria
+	color = { 161 233 115 }
 	
-	country_type = unrecognized
+	country_type = decentralized
 	
-	tier = kingdom
+	tier = principality
 	
 	cultures = { manchu }
 	capital = STATE_NORTHERN_MANCHURIA
-	is_named_from_capital = yes
 }
 MDR = { #Madurai
 	color = { 150 140 230 }

@@ -255,7 +255,7 @@
 		}
 	}
 	s:STATE_OUTER_MANCHURIA = {
-		region_state:MCH = {
+		region_state:NNA = {
 			create_pop = {
 				culture = manchu
 				size = 1303996
@@ -1102,7 +1102,7 @@
 				size = 3480
 			}
 			create_pop = {
-				culture = irish
+				culture = eirean
 				size = 96
 			}
 			create_pop = {
@@ -1291,7 +1291,7 @@
 		}
 		region_state:IRE = {
 			create_pop = {
-				culture = irish
+				culture = eirean
 				size = 48
 			}
 			create_pop = {
