@@ -805,7 +805,7 @@ TUR = {
 
 	tier = kingdom
 	
-	cultures = { turkish }
+	cultures = { tourki }
 	capital = STATE_DIYARBAKIR
 }
 

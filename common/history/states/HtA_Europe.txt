@@ -816,7 +816,6 @@
 		}
 		
 		add_homeland = roman
-		add_homeland = turkish	
 		add_homeland = bulgarian
 	}
 	s:STATE_NORTHERN_THRACE = {
@@ -824,8 +823,7 @@
 			country = c:ROM
 			owned_provinces = { x95BCE8 xF0A0E0 xC7D441 xF021A0 x6E7192 x9D0D6C x15CDCD x455522 xAF56D0 x7121A0 x0DE556 }
 		}
-		
-		add_homeland = turkish	
+
 		add_homeland = bulgarian
 	}
 	s:STATE_BULGARIA = {
@@ -833,8 +831,7 @@
 			country = c:BUL
 			owned_provinces = { xC866AF xCDD237 xB4F1D6 x2038F6 xB55757 x71A0A0 xC2E2B9 x6768DB xEC96F3 xE8D59C x64275F xF0A0A0 xD06121 x52BF3E xC59A98 xEFEAA0 }
 		}
-		
-		add_homeland = turkish	
+
 		add_homeland = bulgarian		
 	}
 	s:STATE_MONTENEGRO = {
@@ -861,7 +858,6 @@
 		}
 		
 		add_homeland = serb
-		add_homeland = turkish
 		add_homeland = albanian
 	}
 	s:STATE_CYPRUS = {

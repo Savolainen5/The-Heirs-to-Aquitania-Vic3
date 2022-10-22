@@ -817,7 +817,6 @@
 		}
 		
 		add_homeland = mashriqi
-		add_homeland = turkish
 		add_homeland = kurdish
 	}
 	s:STATE_BAGHDAD = {
@@ -836,7 +835,6 @@
 		}
 		
 		add_homeland = mashriqi
-		add_homeland = turkish
 		add_homeland = kurdish		
 	}
 	s:STATE_LARISTAN = {
@@ -968,7 +966,8 @@
 		}
 		
 		add_homeland = hellene
-		add_homeland = roman			
+		add_homeland = roman
+		add_homeland = tourki	
 	}
 	s:STATE_OPSIKION = {
 		create_state = {
@@ -996,6 +995,7 @@
 		
 		add_homeland = armenian
 		add_homeland = anatolian
+		add_homeland = tourki
 	}
 	s:STATE_PAPHLAGONIA = {
 		create_state = {
@@ -1004,6 +1004,7 @@
 		}
 		
 		add_homeland = anatolian
+		add_homeland = tourki
 	}
 	s:STATE_CHALDIA = {
 		create_state = {
@@ -1014,13 +1015,14 @@
 		add_homeland = anatolian
 		add_homeland = kurdish
 		add_homeland = armenian
+		add_homeland = tourki
 	s:STATE_CHALACHIA = {
 		create_state = {
 			country = c:ROM
 			owned_provinces = { x92A943 x59E513 xFDB72C x27689E x740ED1 x8F5A6A x895074 x801080 x52EB9A xC01080 xC41BC3 x795751 x669A31 x90BA49 x7BC870 x81F589 xD0901D xF51B98 x60677E x31B08C x5C223C x8713CE x465D69 x964F97 x1A75C7 xCB8C83 }
 		}
 		
-		add_homeland = turkish
+		add_homeland = tourki
 		add_homeland = armenian
 		add_homeland = kurdish
 	}
@@ -1034,7 +1036,7 @@
 			owned_provinces = { xB8481F x467F92 x327755 }
 		}
 
-		add_homeland = turkish
+		add_homeland = tourki
 		add_homeland = armenian
 		#add_homeland = kurdish
 		add_homeland = georgian
@@ -1047,6 +1049,7 @@
 		
 		add_homeland = armenian
 		add_homeland = anatolian
+		add_homeland = tourki
 	}
 	s:STATE_WESTERN_AFGHANISTAN = {
 		create_state = {
@@ -1064,7 +1067,7 @@
 			owned_provinces = { x3CB54F x86D676 x0FD328 x5E4B3A xFB66D7 x95EA60 xC9CF24 x9E2132 xA090E0 x31F004 x9457C4 x55EC85 x47DD99 x1D287B xA57AFA x8A4F16 xD8B670 x60D4AE x665380 x319F6B xF3EE0A x376F7A xF657D8 x7DD48B x4DA0F1 }
 		}
 		
-		add_homeland = turkish
+		add_homeland = tourki
 		add_homeland = armenian
 		add_homeland = kurdish
 		add_homeland = mashriqi
@@ -1882,7 +1885,7 @@
 			owned_provinces = { x2111E0 x39CBF7 x909463 x63E9DB xA4523A xB0E060 xFA9C84 xE8DCC5 xA09060 } 
 		}
 		
-		add_homeland = turkish
+		add_homeland = tourki
 		add_homeland = armenian
 		add_homeland = kurdish
 	}

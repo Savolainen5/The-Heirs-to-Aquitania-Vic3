@@ -176,11 +176,11 @@
 	s:STATE_CYPRUS = {
 		region_state:ROM = {
 			create_pop = {
-				culture = turkish
+				culture = tourki
 				size = 35992
 			}
 			create_pop = {
-				culture = hellene
+				culture = roman
 				size = 116000
 			}
 		}
@@ -303,7 +303,8 @@
 				size = 6000
 			}
 			create_pop = {
-				culture = turkish
+				culture = tourki
+				religion = sunni
 				size = 100500
 			}
 			create_pop = {
@@ -346,7 +347,8 @@
 				size = 104004
 			}
 			create_pop = {
-				culture = turkish
+				culture = tourki
+				religion = sunni
 				size = 23992
 			}
 			create_pop = {
@@ -382,7 +384,8 @@
 				size = 194296
 			}
 			create_pop = {
-				culture = turkish
+				culture = tourki
+				religion = sunni
 				size = 112804
 			}
 			create_pop = {
@@ -690,7 +693,7 @@
 	s:STATE_OPSIKION = {
 		region_state:ROM = {
 			create_pop = {
-				culture = turkish
+				culture = roman
 				size = 840396
 			}
 			create_pop = {
@@ -702,7 +705,7 @@
 				size = 102160
 			}
 			create_pop = {
-				culture = hellene
+				culture = tourki
 				size = 109996
 			}
 		}
@@ -710,15 +713,19 @@
 	s:STATE_IONIA = {
 		region_state:ROM = {
 			create_pop = {
-				culture = turkish
-				size = 1068900
+				culture = anatolian
+				size = 637300
+			}
+			create_pop = {
+				culture = roman
+				size = 431600
 			}
 			create_pop = {
 				culture = armenian
 				size = 4000
 			}
 			create_pop = {
-				culture = hellene
+				culture = tourki
 				size = 120400
 			}
 			create_pop = {
@@ -730,36 +737,48 @@
 	s:STATE_THRAKESION = {
 		region_state:ROM = {
 			create_pop = {
-				culture = hellene
-				size = 80404
+				culture = anatolian
+				size = 90404
+			}
+			create_pop = {
+				culture = roman
+				size = 89237
+			}
+			create_pop = {
+				culture = tourki
+				size = 67156
 			}
 		}
 	}
 	s:STATE_ANATOLIKON = {
 		region_state:ROM = {
 			create_pop = {
-				culture = turkish
-				size = 852000
+				culture = anatolian
+				size = 552000
 			}
 			create_pop = {
 				culture = armenian
 				size = 8000
 			}
 			create_pop = {
-				culture = hellene
-				size = 57900
+				culture = tourki
+				size = 357900
 			}
 		}
 	}
 	s:STATE_PAPHLAGONIA = {
 		region_state:ROM = {
 			create_pop = {
-				culture = turkish
-				size = 556000
+				culture = anatolian
+				size = 354257
 			}
 			create_pop = {
-				culture = hellene
-				size = 27996
+				culture = tourki
+				size = 122996
+			}
+			create_pop = {
+				culture = roman
+				size = 105135
 			}
 		}
 	}
@@ -767,16 +786,16 @@
 		region_state:ROM = {
 			create_pop = {
 				culture = kurdish
-				size = 556000
+				size = 552000
 			}
 			create_pop = {
 				culture = mashriqi
 				religion = catholic
-				size = 88004
+				size = 78004
 			}
 			create_pop = {
-				culture = turkish
-				size = 198792
+				culture = tourki
+				size = 188792
 			}
 			create_pop = {
 				culture = mashriqi
@@ -787,13 +806,17 @@
 				culture = armenian
 				size = 296000
 			}
+			create_pop = {
+				culture = anatolian
+				size = 24000
+			}
 		}
 	}
 	s:STATE_CILICIA = {
 		region_state:ROM = {
 			create_pop = {
-				culture = turkish
-				size = 512008
+				culture = tourki
+				size = 412008
 			}
 			create_pop = {
 				culture = kurdish
@@ -804,16 +827,16 @@
 				size = 99996
 			}
 			create_pop = {
-				culture = hellene
-				size = 12000
+				culture = anatolian
+				size = 112000
 			}
 		}
 	}
 	s:STATE_CHALDIA = {
 		region_state:ROM = {
 			create_pop = {
-				culture = turkish
-				size = 569196
+				culture = tourki
+				size = 262196
 			}
 			create_pop = {
 				culture = kurdish
@@ -824,20 +847,24 @@
 				size = 245200
 			}
 			create_pop = {
-				culture = hellene
-				size = 92000
+				culture = anatolian
+				size = 291000
+			}
+			create_pop = {
+				culture = roman
+				size = 107972
 			}
 		}
 	}
 	s:STATE_CHALACHIA = {
 		region_state:ROM = {
 			create_pop = {
-				culture = turkish
-				size = 384000
+				culture = tourki
+				size = 364000
 			}
 			create_pop = {
 				culture = kurdish
-				size = 244392
+				size = 224392
 			}
 			create_pop = {
 				culture = georgian
@@ -846,12 +873,15 @@
 			}
 			create_pop = {
 				culture = armenian
-				size = 240000
+				size = 220000
 			}
 			create_pop = {
 				culture = georgian
 				size = 16000
 			}
+			create_pop = {
+				culture = anatolian
+				size = 59235
 		}
 	}
 	s:STATE_KARS = {
@@ -874,13 +904,13 @@
 				size = 28500
 			}
 			create_pop = {
-				culture = hellene
-				size = 15000
+				culture = anatolian
+				size = 5000
 			}
 		}
 		region_state:ROM = {
 			create_pop = {
-				culture = turkish
+				culture = tourki
 				size = 61000
 			}
 			create_pop = {
@@ -895,17 +925,21 @@
 				culture = armenian
 				size = 11000
 			}
+			create_pop = {
+				culture = anatolian
+				size = 10000
+			}
 		}
 	}
 	s:STATE_BOUKELLARION = {
 		region_state:ROM = {
 			create_pop = {
-				culture = turkish
-				size = 769988
+				culture = tourki
+				size = 369988
 			}
 			create_pop = {
-				culture = hellene
-				size = 27996
+				culture = anatolian
+				size = 427996
 			}
 			create_pop = {
 				culture = armenian

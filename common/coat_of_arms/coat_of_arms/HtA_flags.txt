@@ -852,7 +852,30 @@ POR = {
 }
 ###################################	
 ROM = {
-	textured_emblem = { texture = "V2/BYZ_monarchy.tga" } #Temporary
+	#textured_emblem = { texture = "V2/BYZ_monarchy.tga" } #Temporary
+	
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	colored_emblem = {
+		texture = "ce_eagle_doubleheaded_base.dds"
+		color1 = "yellow_light"
+		color2 = "yellow"
+	}
+	colored_emblem = {
+		texture = "ce_eagle_doubleheaded_russia_claws.dds"
+		color1 = "yellow_light"
+		color2 = "yellow"
+		color3 = "yellow"
+	}
+	colored_emblem = {
+		texture = "ce_crown_imperial_russia.dds"
+		color1 = "yellow"
+		color2 = "yellow_light"
+		color3 = "blue"
+		instance = {
+			position = { 0.5 0.1 } scale = { 0.25 0.25 }
+		}
+	}
 }
 ###################################
 KRI = { #Krivia
