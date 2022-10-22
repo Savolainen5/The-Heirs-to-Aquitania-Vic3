@@ -41,6 +41,98 @@
 	}
 }
 
+afro_saxon={ #Aenglish + Dutch
+	color={ 144 142 41 }
+	religion = catholic
+	traits = { anglophone african_heritage }
+
+	male_common_first_names={
+		Aelric Aelwold Aethelber Arnolf Azur
+		Bordelm Borthric Bortsige Borwin Boren Bricmer Burghard Byrnod 
+		Cerdic Cola Copsige Doda
+		Edric Edulf Edweard Edwin Ealdwulf Enfrid Estan
+		Fulcred Fulcwin Gamal Grim Gyrd 
+		Haimo Inwer Ivo Ledmer Lofget Lofric Lofweld Lofwin 
+		Maccus Manno Merlwen Odo Ordgar Orm Osborn Osmund Oswin
+		Petre Radwulf Rafwin Renweld Roberth
+		Sarwin Swithring
+		Thedric Thored Thurfrid Tosti Turstin Ulf 
+		Waldof Wiglaf Wigot Woro
+		Alexander Andreas Anton Daniel 
+		David Elias Ernst Erwin Frans Frederik Gabriel Gustaaf Hans Hendrik
+		Hugo Isaac Jacob Jan Johannes Laurens Maurits Nikolaas Paul
+		Petrus Ruben Rudolf Rutger Simon Stefan Thomas Willem Zacharias
+	}
+	
+	female_common_first_names = {
+		Aebba Aelfrida Aelfthryd Aelfwynn Aethelgif Aethelreda
+		Agatha Balthild Berhtgyd Berhtwynn Bernflaed Bertgif Blaeja Celflaed Cristina Cuthburg
+		Cynehild Cyneswith Eadfled Eadgyd Ealdgyd Ecwyn Gunhild Gyda Helga Heregyd Hereswith
+		Hungif Judith Lefflaed Lefgif Lefrun Margaret Maud Mildrith Octreda Sifflaed 
+		Wulfgif Wulfhild Wulfrun Wulfwynn Wynnflaed
+		Aletta Anna	Catharina Emma Eufemia Felicia Henrieette
+		Juliana Johanna Louise Lessina Maria Martha Pauline Suzanna Sara
+	}
+	
+	common_last_names = {
+		Aelfstan Alby Alston Altone Blec Bodwin Bruning Brun Carlel
+		Cetham Conded Danmann Elton Erle Estone 
+		Gren Grencin Halwel Hegden Hering Kemp 
+		Lester Lincleg Lyter Mertuna Nawen Nortuna Oforbert
+		Prest Ramseg Rid Roscow Scottow Serlo Shelswell Somes Smid Still Swening Thein 
+		Waler Weld Wulfno
+		Bentinck Boreel Boumeester Brandt Brouwer Buyskes Broekhof Cleerens
+		Coehoorn Coen Coops Crijnssen Daendels  Duycker Ellis Engels Evertzen
+		Gregory Janssens Kool Kortenaer Kruys Kohler List Lucas Martena Michiels
+		Sabron Schenk Schouten Spiegel Staal Steltman  
+		Trip Vetter Weitzel
+	}
+		
+	graphics = european
+	ethnicities = {
+		1 = african
+	}
+}
+
+alban = {
+	color= { 192 207 31 }
+	religion= protestant
+	traits = { celtic_people european_heritage }
+	
+	male_common_first_names = {
+		A_dhamh Aindrea Alasdair Baltair Beistean Brian Cailean Caomhainn Ciaran Coinneach Comhnall Cormag Cuithbeart
+		Da_ibhidh Daidh Daniel Deo_rsa Domhnall Donnchadh Dubh Dubhghall Du_ghlas Ealar Eo_ghann Eumann Eo_in Eo_saph Faolan Fearghas Filib
+		Fionnlagh Gilleasbuig Gille-Bri_dhde Gillebeart Goraidh Guaidre Harailt Iain Iomhair Io_na Lachlann Maol-Iosa Maoldo_naich Mata
+		Murchadh Niall Padruig Peadrus Pa_l Raghnall Seoras Simidh Somhairle Tadhg Tomaidh U_isdean
+	}
+	
+	female_common_first_names = {		#Shamelessly stolen from the Irish. Must fix at some point
+		A_ine Ailbhe Aisling Aoibheann Aoibhinn Aoife Blathnaid Bronagh Caoilainn Caoimhe Cara Caragh Ciara Clo_dagh Dearbhla E_imhear
+		Eabha Fiadh Fiona Gra_inne I_omha_i_n Laoise Mairead Me_abh Niamh O_rla Orlaith Ri_ona Ro_isi_n Sadhbh Saoirse Sea_na Sionna
+	}
+	
+	common_last_names = {
+		Aileanach Ambarsan Ba_nach Bla_r Bra_igheach Buiseid Caimbeulach Cananach Crannach Ca_idh Deo_ir Do_mhnullach
+		Fearghasdan Griogalach Lobhdain Mac_a__Charraige Mac_a__Ghobhainn Mac_a__Leo_ra Mac_a__Phearsain
+		Mac_an_Duibh Mac_an_Fhuibhir Mac_an_Luaimh Mac_an_Rothaich Mac_Iain_Duibh MacAsgaill MacCormaig
+		MacDheo_rsa MacDhungail MacEalar MacFigeinn MacGiobain MacLagain MacLianain MacMhatha MacNi_ll MacPha_ic
+		MacTiridh Robasan Seadh Ta_illear Urchadainn
+	}
+	
+	male_regal_first_names = {
+		#Populate?
+	}
+	
+	regal_last_names = {
+		Dalcais #Need to come up with some more
+	}
+	
+	graphics = european	
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
 aquitanian={
 	color= { 174 99 202 } #<-- a bit more faded than this -->#{ 192 40 247 }
 	religion = catholic
@@ -139,369 +231,25 @@ aquitanian={
 	}
 }
 
-semian={ #Latvian and Lithuanian combined
-	color = { 100 100 180 }
-	religion = protestant
-	traits = { baltic_culture_group european_heritage }
-	male_common_first_names={
-		Aaron
-		Abrams
-		Adolfas
-		Alberts
-		Aleksandras
-		Aleksandrs
-		Algirdas
-		Aloisz
-		Andrejs
-		Andrius
-		Antanas
-		Arkadij
-		Armands
-		Arnolds
-		Arturas
-		Arunas
-		Atis
-		Augustinas
-		Balys
-		Boris
-		Bronislovas
-		Brunis
-		Bruno
-		Danielius
-		Darius
-		Eduards
-		Eliass
-		Elmars
-		Emils
-		Evgenijs
-		Filips
-		Fricis
-		Gendiminas
-		Gustavs
-		Heinrihs
-		Henrikas
-		Hermanis
-		Izaks
-		Janis
-		Jazeps
-		Jekabs
-		Johans
-		Jonas
-		Jonusas
-		Juozas
-		Juras
-		Jurgis
-		Juris
-		Justas
-		Karlis
-		Kazimieras
-		Kazys
-		Kipras
-		Konstantinas
-		Krisjanis
-		Leo
-		Lukas
-		Marijus
-		Mark
-		Markas
-		Martins
-		Mihails
-		Mikalojus
-		Mikelis
-		Mindaugas
-		Motejus
-		Mykolas
-		Nikolajs
-		Oskars
-		Paulius
-		Pauls
-		Peteris
-		Petras
-		Povilas
-		Ramunas
-		Rihards
-		Ringaudas
-		Roberts
-		Rolandas
-		Romans
-		Sandis
-		Sergejs
-		Simonas
-		Stasys
-		Steponas
-		Tadas
-		Valdas
-		Valdemaras
-		Valdemars
-		Valerians
-		Valter
-		Viktoras
-		Vilhelmas
-		Vilis
-		Visvaldas
-		Vladimiras
-		Vladimirs
-		Vygantas
-		Vytautas
-		Zigfrids
-		Zydrunas
-	}
-	female_common_first_names = {
-		Amida
-		Antonija 
-		Aurelija
-		Benigna
-		Berta
-		Birute
-		Dalia
-		Diana
-		Edita
-		Elena
-		Elfriede 
-		Elza 
-		Emilija
-		Emma
-		Gabriele
-		Ieva
-		Inguna
-		Johanna
-		Julija
-		Justina
-		Karoline
-		Klara
-		Lidija
-		Lizete
-		Magda
-		Marija
-		Marta
-		Matilde
-		Meilute
-		Miriam
-		Ona
-		Regina
-		Roze
-		Salomeja
-		Sofija
-	}	
-	noble_last_names = {
-		Cartoriskis
-		Glinskis
-		Gostautas
-		Kallaur
-		Kosakovskis
-		Krek
-		Krupskis
-		Manvydas
-		Oginskis
-		Ostrogiskis
-		Pacas
-		Penikis
-		Plater
-		Plavins
-		Stasjevicis
-		Tiskevicis
-		Tontegode
-		Tyzenhauzas
-		Visnioveckis
-		von_Knabenau
-		von_Lieven
-		von_Mengden
-		von_Plettenberg
-		von_Stamm
-		von_Wolff
-	}
-	common_last_names={
-		Abakovskis
-		Adamkus
-		Almenas
-		Apsenieks
-		Avizienis
-		Balodis
-		Baltrusaitis
-		Basanavicius
-		Baumanis
-		Berkis
-		Berzin
-		Betins
-		Birutis
-		Bradziunas
-		Braons
-		Brazauskas
-		Buga
-		Caks
-		Cakste
-		Caps
-		Celmins
-		Ciurlionis
-		Dalins
-		Dambitis
-		Danauskas
-		Darzins
-		Daukantas
-		Dauksa
-		Dobkevicius
-		Dubeneckis
-		Dvarionas
-		Galdikas
-		Goppers
-		Grinius
-		Griskevicius
-		Halsmans
-		Irbitis
-		Ivanauskas
-		Jablonskis
-		Jucys
-		Kalnins
-		Kalpaks
-		Kovalevskis
-		Krogzems
-		Kronvalds
-		Krupavicius
-		Kucis
-		Kuks
-		Kviesis
-		Lacis
-		Leiko
-		Loskis
-		Lozoraitis
-		Maters
-		Meierovics
-		Merkys
-		Milenbahs
-		Needra
-		Ozolins
-		Paksas
-		Paleckis
-		Paulauskas
-		Petrauskas
-		Piskarkas
-		Plieksans
-		Pozela
-		Pumpurs
-		Rothko
-		Sabaniauskas
-		Schatz
-		Semtona
-		Simanis
-		Simonavicius
-		Sirvydas
-		Slezevicius
-		Snieckus
-		Stauaitis
-		Straizys
-		Stucka
-		Stulginkis
-		Svedas
-		Terleckas
-		Tumins
-		Ulmanis
-		Urbsys
-		Vagnorius
-		Valeska
-		Veidenbaums
-		Voldemaras
-		Zemaitis
-		Zuokas
-	}
-	ethnicities = {
-		1 = slavic
-	}
-	graphics = european
-}
-
 blandet={ #Danish Metis
 	color= { 150 105 150 }
 	religion = protestant
 	traits = { nordic_speaking indigenous_american_heritage north_american_group }
 	male_common_first_names={
-		Adam
-		Anders
-		Axel
-		Bjorn
-		Christian
-		Edvin
-		Einar
-		Erik
-		Fredrik
-		Gustav
-		Haakon
-		Hans
-		Harald
-		Henrik
-		Julius
-		Knud
-		Ludvig
-		Magnus
-		Nils
-		Olaf
-		Olav
-		Ole
-		Sven
-		Thorvald
-		Vilhelm
-	}
+		Adam Anders Axel Bjorn Christian Edvin Einar Erik Fredrik Gustav
+		Haakon Hans Harald Henrik Julius Knud Ludvig Magnus Nils Olaf
+		Olav Ole Sven Thorvald Vilhelm
+		}
 	female_common_first_names = {
-		Alvide
-		Amalie
-		Anna
-		Birgitte
-		Camilla
-		Charlotte
-		Dagmar
-		Eleonore
-		Elisabeth
-		Frederikke
-		Hendrikke
-		Irene
-		Jensine
-		Josephine
-		Louise
-		Maren
-		Margrethe
-		Ragnhild
-		Sanna
-		Susanne
-		Ulrikke
+		Alvide Amalie Anna Birgitte Camilla Charlotte Dagmar Eleonore Elisabeth
+		Frederikke Hendrikke Irene Jensine Josephine Louise Maren Margrethe
+		Ragnhild Sanna Susanne Ulrikke
 	}
 	common_last_names={
-		Adeler
-		Balchen
-		Berg
-		Bloch
-		Bonde
-		Borresen
-		Brentzon
-		Carlsen
-		Christiansen
-		Dannemand
-		Dhal
-		Egge
-		Falsen
-		Folsach
-		Gundersen
-		Hakonarson
-		Hambro
-		Hansen
-		Jensen
-		Johansen
-		Kaldager
-		Klauman
-		Konow
-		Laessoe
-		Larsen
-		Leuenbach
-		Lovenbalk
-		Michaelsen
-		Munthe
-		Neergaard
-		Nilsen
-		Obelitz
-		Pettersen
-		Skjalgsson
-		Suenson
-		Urne
-		Wiborg
-		With
+		Adeler Balchen Berg Bloch Bonde Borresen Brentzon Carlsen Christiansen Dannemand Dhal Egge
+		Falsen Folsach Gundersen Hakonarson Hambro Hansen Jensen Johansen Kaldager Klauman Konow
+		Laessoe Larsen Leuenbach Lovenbalk Michaelsen Munthe Neergaard Nilsen Obelitz Pettersen Skjalgsson
+		Suenson Urne Wiborg With
 	}
 	graphics = european
 	ethnicities = {
@@ -597,6 +345,82 @@ coluan={
 	}
 }
 
+cruzan={ #Spanish Cruceño after the defunct colonial region of la Tierra de la Santa Cruz
+	color= { 224 232 116 }
+	religion = catholic
+	traits = { hispanophone european_heritage }
+	male_common_first_names={
+		Agustin Antonio Atanasio Baltasar Bartolome Bernardino Bernardo Carlos Cecilio Cirilo Claudio Clemente Candido_2 Domingo Emiliano Esteban Eugenio_2
+		Evaristo Facundo Faustino Feliciano Francisco Fructuoso Felix Gabriel Gaspar Guillermo Hipolito Ignacio Jose Juan_Jose Juan_Manuel Juan_Ramon Julio
+		Justo Lorenzo Luis Manuel Marcial Miguel Maximo Nicolas_2 Patricio Pedro Prudencio Ramon Roberto Roque Salvador Santiago Torcuato Venancio
+	}
+	female_common_first_names = {
+		Agustina Catalina Constancia Encarnacion Eva Juana Manuela Maria Martina Robustiana Sara
+	}	
+	noble_last_names = {
+		de_Alvear
+		de_Goyeneche
+		de_Lamadrid
+		de_Pueyrredon
+		de_Rosas
+		de_Urquiza
+		de_la_Plaza
+		Rivadavia
+	}
+	common_last_names={
+		Aguirre
+		Avellaneda
+		Balcarce
+		Bareiro
+		Berro
+		Brown
+		Baez
+		Caballero
+		Cruz
+		Derqui
+		Diaz_2
+		Ellauri
+		Escobar
+		Flores
+		Gonzalez
+		Jovellanos
+		Justo
+		Juarez
+		Latorre
+		Lopez
+		Machain
+		Maza
+		Meza
+		Mitre
+		Paz
+		Pedernera
+		Pellegrini
+		Pereira
+		Quintana
+		Rivarola
+		Rivera
+		Roca
+		Rodriguez_de_Francia
+		Rojas
+		Rondeau
+		Santos
+		Sarmineto
+		Solano
+		Saenz
+		Tajes
+		Uriburu
+		Viamonte
+		Vidal
+		Williman
+		Wisner
+		Yrigoyen
+	}
+	ethnicities = {
+		1 = south_american
+	}
+	graphics = generic
+}
+
 eirean={
 	color={ 35 140 50 }
 	religion = catholic
@@ -637,8 +461,515 @@ eirean={
 	}
 }
 
+gledish={
+	color={ 205 132 185 }
+	religion = catholic
+	traits = { anglophone new_world_settler european_heritage }
+
+	male_common_first_names={
+		Aelfgar Aelric Aelwold Aethelber Aethelwine Arnolf Azur
+		Bordelm Borthric Bortsige Borwin Boren Bricmer Burghard Byrnod 
+		Cenwulf Cerdic Cnut Cola Copsige Cuthbert Cypping Doda
+		Edmer Edric Edulf Edweard Edwig Edwin Eldred Ealdwulf Enfrid Estan
+		Fulcred Fulcwin Gamal Godwin Grim Gudmund Gyrd 
+		Hacon Haimo Harold Herlewin Inwer Ivo Ledmer Lofget Lofric Lofweld Lofwin 
+		Maccus Manno Merlwen Morcar Odo Ordgar Orm Osborn Osmund Osric Oswin
+		Petre Radwulf Rafwin Renweld Roberth
+		Sarwin Sigeric Sird Siward Stigand Swegn Swithelm Swithring
+		Thedric Thored Thurfrid Tosti Turstin Ulf 
+		Waldof Wiglaf Wigot Woro Wulf Wulfhelm
+	}
+	
+	female_common_first_names = {
+			#Converted "eo" to "e", Ash to "ae", "-yth" to "-yd" mostly, most "ht" to just "t", "Ecg" to "Ec", "-gifu" to "-gif" and did some other simplification. These names otherwise drawn from CK2
+		Aebba Aelfflaed Aelfgif	Aelfgyd	Aelflaeda Aelfrida Aelfthryd Aelfwynn Aethelburg Aethelburh Aethelflaed Aethelgif Aethelhild Aethelreda Aethelswith
+		Aethelthryd Agatha Balthild Berhtgyd Berhtwaru Berhtwynn Bernflaed Berngyd Bertflaed Bertgif Blaeja Burgflaed Celflaed Cristina Cuthburg Cwenburg Cyneburg
+		Cynegyd Cynehild Cyneswith Cynethryd Eadburg Eadfled Eadgif Eadgyd Eadhburh Eadhild Ealdgyd Ecfrida Ecwyn Godgif Gunhild Gyda Helga Heregyd Hereswith
+		Hexilda Hungif Judith Lefflaed Lefgif Lefrun Lefwar Lefwynn Margaret Maud Mildrith Octreda Saethryd Seaxburh Sifflaed Sigrid Waerburg Witburhyd
+		Wulfflaed Wulfgif Wulfgyd Wulfhild Wulfrun Wulfthryd Wulfwaru Wulfwynn Wynnflaed
+	}
+	
+	common_last_names = {
+		Aelfstan Aethelwerd Alby Algot Alston Altone Autibern Bennag Birkenfod Blec Bodwin Brictric Bruning Carlel
+		Cetham Colling Conded Corelmann Daging Danmann Denholm Dirling Edwys Elton Erle Estone Etwell Felcener Fingast
+		Gren Grencin Grimbald Halwel Hegden Heghurst Hering Holcastre Kemp Ketilbern Kollung Langfer Latton_Parhome
+		Lester Lincleg Lyter Marculf Mertuna Mundred Nawen Normann Nortuna Oforbert Ogercin Othenkar of_Alwold of_Cottesbec
+		of_Crawa of_Grensted of_Hesdin of_Hopa of_Marck of_Niwetun of_Torcy of_Tosny of_Tregole of_Waddsdone Paddan Peasmor
+		Prest Ramseg Reeve Rid Roscow Rowleg Saswalo Scottow Serlo Shelswell Somes Smid Still Swening Thein Tomsete Totibarn
+		Urso Vilgrip Vitalis Waler Weld Wulfno
+	}
+		
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
 guilderlander={
 	color= { 255 206 84 }
+	religion = protestant
+	traits = { beneluxian_culture_group european_heritage new_world_settler }
+	male_common_first_names={
+		Abraham Adolf Adriaan Albert Alexander Alfons Alphonse Andreas Andries Antonius Antoon Augustus
+		Barthout Bonifaas Boudewijn Casimir Carl Christiaan Christoffel Constant Constantijn Cornelis Daniel
+		Daniel_2 David Diederik Dirk Dominicus Drikus Edmond Eduardus Eise Elias Emmanuel Ernst Erwin Eugene
+		Felix Ferdinand Filip Frans Frederik Gabriel Gaspar Gerard Gerben Gijsbert Godfried Guillaume Gustaaf
+		Gustave Hans Hendrik Herman Hugo Ignaas Isaac Jacob Jan Jeroen Jochem Johan Joost Josse Jozef Jurgen_2
+		Karel Kasper Laurens Leon Leonard Leopold Lodewijk Lucien Luuk Manfred Marius Mathias Matthijs Maurits
+		Maximiliaam Merkus Moritz Nikolaas Olivier Paul Pauwel Philippe Pierre Pieter Quinten Rafael Richardus
+		Robert Roeland Rogier Ruben Rudolf Rutger Simon Stefan Sylvain Theodoor Thomas Victor Vincent Werner
+		Willem Zacharias
+	}
+	female_common_first_names = {
+		Aletta Anna Anna_Louisa Annewies Beatrix Catharina Charlotte Christina Constantia Cornelie Diderika
+		Emma Eufemia Felicia Goverdine Hendrika Henrieette Ida Jacoba Johanna Josepha Juliana Leocadie Lessina
+		Louisa Margaretha Maria Martha Mathilda Nathalie Pauline Petronella Roosje Sara Sjoukje Stefanie Suzanna
+		Wilhelmina
+	}	
+	noble_last_names = {
+		Annez_de_Zillebroeck Boucqueau_de_Villeraye Coomans_de_Brachene de_Croeser Coopieters_-t_Wallant De_Duerwaerder De_Geer
+		de_Jaegher de_Jonghe_d_Ardoye de_Kerchove_de_Denterghem de_Meer_de_Moorsel De_Munck_Moerman De_Smedt de_Theux_de_Meylandt
+		de_Vos_van_Steenwijk de_Watervliet Desmanet_de_Biesme du_Bois_de_Vroylande Goddyn Lampsins Melvill_van_Carnbee Quarles_van_Ufford
+		Schimmelpenninck_van_der_Oye Surlet_de_Chokier Surmont_de_Volsberghe van_Asseliers van_Boetzelaer van_Boisschot van_Coeverden van_den_Velden
+		van_der_Noot van_Doorn van_Egmont Van_Huele van_Lyere van_Lynden Van_Naemen van_Wassenaer van_Zuylen_van_Nyevelt
+	}
+	common_last_names={
+		Andries Barbanson Barthelemy Batenburg Beaucarne Beernaert Bentinck Berthels Beyts Bischoff Blomme Boetge Boreel Bosmans Boumeester Brandt
+		Broekhof Brouwer Buylaert Buyse Buyskes Chasse Claes Cleerens Cochius Coehoorn Coen Cogels Cols Coops Coppens Coppieters Cort-Heyligers Corten
+		Crijnssen Cruts d_Ansembourg d_Arschot_Schoonhoven d_Hanens Daendels Dayeneux de_Brouckere de_Casembroot de_Celles de_Coninck de_Constant_Rebecque
+		de_Decker de_Eerens de_Foere de_Gaesebeke de_Ghellink de_Grez de_Grouwe de_Haerne de_Houtman de_Jonghe de_Kock de_Langhe de_Leeuw de_Leuze
+		de_Man de_Meester de_Merode de_Moor de_Muelenaere de_Pelichy de_Renesse de_Rijk de_Rodes de_Roo de_Ryckere de_Smet de_Tiecken de_Viron de_Winter
+		de_Woelmont Deijkerhoff Delberke Delehaye Delwarde Deswert Dhanis Domis du_Bois Duycker Ellis Engels Engelvaart Evertzen Fabius Fransman Gelders
+		Geudens Goethals Gregory Hennequin Huysman Jacobs Janssens Janssens Joos Jottrand Kater Kockaert Kohler Kool Kortenaer Kruys Kuiper Ledeganck Lefebvre
+		Liedts List Lucas Martena Meeus Michiels Morel Moyersoen Mulle Nachtegaal Nahuys Nepveu Nypels Ongerboer Ooms Osy Peemans Peeters Petens Reijersen
+		Rijk Rodenbach Roell Roels Rosseuw Rouppe Rutten Sabron Schenk Schollaert Schouten Serruys Simons Speelman Spiegel Staal Steltman Stokhuyzen Struye
+		Stuyvesant Tasman Terlinden Teuwens Thienpont Tilkens Trip Uiterwijk van_Assendelft van_Braam_Houckgeest van_Brederode van_Bronkhorst van_Caloen van_Casteel van_Crombrugghe
+		van_Culemborg van_Dambenoy van_de_Kerchove van_de_Werve_de_Vorselaar van_de_Weyer van_den_Bosch van_den_Broucke van_den_Hove van_der_Aa van_der_Belen
+		van_der_Bruggen van_der_Burch van_der_Capellen van_der_Does van_der_Eecken van_der_Heijden van_der_Linden van_der_Linden_d_Hooghvorst van_der_Looy
+		van_der_Werff van_der_Wijck van_Diemen van_Dievoet van_Dorpe van_Duivenvoorde van_Galen van_Geen van_Ham van_Haren van_Havre van_Heemskerck van_Heutsz
+		van_Hoensbroeck van_Hoobrouck van_Huchtenbroek van_Ilpendam van_Innis van_Keppel van_Marnix van_Meenen van_Neste van_Nieuwenaar van_Noort van_Pallandt
+		van_Raephorst van_Rechteren van_Renesse van_Riebeeck van_Rossum van_Snick van_Spilbergen van_Swieten van_Tongerloo van_Troyen Van_Utenhove van_Volden_de_Lombeke
+		van_Vredenburch van_Walbeeck van_Wesembeke van_Wijngaarden van_Wingle van_Zeeland Vandive Verbeke Vercruysse Verduyn Vergauwen Verseyden_de_Varick Verspijck
+		Verwilghen Vetter Wallaert Wannaar Weitzel Werbrouck Wolterbeek Wyvekens
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+hispanian={
+	color= hsv{ 0.16 0.56 0.86 }
+	religion = catholic
+	traits = { iberian_culture_group hispanophone european_heritage }
+	male_common_first_names={
+		Agustin Alberto Alejandro Alfonso Antonio Antonio_Maria Arsenio Augusto Baldomero Baltasar Benito Bernardino Bernardo
+		Calixto Carlos Celestino Claudio Cristobal Diego Dionisio Damaso Eduardo Emilio Estanislao Federico Felipe Fernando
+		Francisco Francisco_Javier Felix Gabino Gabriel Gaspar Genaro Gonzalo Ignacio Isidro Jacobo Jaime Joaquin Jose Jose_Antonio
+		Jose_Manuel Jose_Maria Juan Juan_Bautista Julio Jorge Leopoldo Lorenzo Luis Manuel Marcelo Mariano Mateo Melchor Miguel
+		Nicolas_2 Pablo Pascual Pedro Rafael_2 Raimundo Ramon Ricardo Santiago Sebastian Segismundo Valeriano Vicente Alvaro
+	}
+	female_common_first_names = {
+		Adelaida Alejandrina Amalia Antonia Bonifacia Carlota Clotilde Concepcion Dolores Emilia Enriqueta Eulalia Faustina Francisca
+		Guillermina Herminia Isabella Joaquina Manuela Maria_2 Mariana Martina Robustiana Rosa Sabina Teresa
+	}	
+	noble_last_names = {
+		Alvarez_de_Toledo de_Albornoz de_ArmendA_riz de_Almansa de_AlO_s de_Arteche
+		Barrionuevo de_Bohorques de_Bernuy de_Bago
+		Cabrera Cagigal_de_la_Vega Colon de_Carvajal del_Carmen_Contreras
+		DI_ez_de_Rivera de_Domecq
+		Fernandez_de_Cordoba de_la_Fuente Fitz-James_Stuart de_Figueroa Flores_de_SeptiE_n FernA_ndez-Zapata FernA_ndez_de_CO_rdoba
+		Garcia_de_la_Noceda GirO_n de_GuzmA_n de_Godoy GonzA_lez_de_Cienfuegos Grimaldi
+		Hidalgo_de_Cisneros
+		JordA_n_de_UrrI_es
+		LO_pez_de_Haro de_Llorach
+		MessI_a de_Mercader de_Mora de_Medina del_Milagro_Quesada
+		Ortiz_de_la_Riva O_Donnell Osorio_de_Moscoso de_Orozco
+		Primo_de_Rivera PE_rez_de_Herrasti de_Palafox PE_rez_de_GuzmA_n PiN_eiro de_Pedro del_Pilar_Osorio
+		de_QuirO_s de_Quintanilla
+		RamI_rez_de_Saavedra del_Rosario_FalcO_ del_Rosario_Vereterra de_Rojas de_Riquer Ruiz_de_Arana
+		SuA_rez_de_ArgudI_n de_Silva de_SatrU_stegui SaI_nz_de_la_Maza de_Samaniego de_Sentmenat de_Salavert de_Santiago_Concha Sanchiz
+		de_Tineo
+		de_Urquijo de_Uzqueta
+		de_Valda del_Valle de_Villalonga de_la_Vera ValdE_s
+		de_ZufI_a
+	}
+	common_last_names={
+		Acuna Aguirre Alcala-Zamora Allendesalazar Alonso Aranda Arguelles-Meres Asensio Aznar Alvarez Acedo Arabolaza Arrate Artola Aranzadi
+		Barradas Bugallal BotI_n Bonilla Belaunde Blanco
+		Cano Cervera Corsi Cuadrada Comamala
+		Diaz_2 DomI_nguez
+		Espartero Escoda EguiazA_bal
+		Fernandez Franco Fajardo
+		Garcia Gonzalez Gil Grasset Galatas
+		Heredia Hernandez Herrera Hevia
+		Izaguirre
+		Linares Lopez Lorenzana Landazabal LarraN_aga
+		Maroto Martinez-Campos Maura Menendez Miaja Millan-Astray Mina Mola Munoz Marquez MelE_ndez MedizA_bal Muguerza Moreira Mandiola Muguruza
+		Narvaez
+		Ortega Otero Onsalo OrdO_N_ez Olaso Ozores
+		Pavia Perez PajarO_n Pagaza Pattullo Pena
+		Queipo_de_Llano Quintana Quirante
+		Rodriguez Rojo Ruiz Reparez Ruete
+		Sanjurjo Serrano Silvestre Samitier Serrano Saprissa
+		Topete Tuduri Terradas Torralba
+		Valdes Varela Villapol Villar Vela Villota Vilalta Vallana VA_zquez
+		Weyler
+		Yague
+		Zamora Zabala
+	}
+	male_regal_first_names={
+		Alfonso Amadeo
+		Carlos
+		Felipe Fernando
+		Jose Juan_Carlos
+		Luis
+	}
+	female_regal_first_names={
+		Beatriz
+		Eulalia
+		Isabel
+		Luisa_Fernanda
+		Maria_2 MarI_a_Teresa
+	}
+	regal_last_names = {
+		de_Andrade
+		de_Trasta_mara
+		Capeto
+	}	
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+logrish={
+	color={ 5 100 130 }
+	religion = catholic
+	traits = { anglophone new_world_settler european_heritage }
+
+	male_common_first_names={
+		Aelfgar Aelric Aelwold Aethelber Aethelwine Arnolf Azur
+		Bordelm Borthric Bortsige Borwin Boren Bricmer Burghard Byrnod 
+		Cenwulf Cerdic Cnut Cola Copsige Cuthbert Cypping Doda
+		Edmer Edric Edulf Edweard Edwig Edwin Eldred Ealdwulf Enfrid Estan
+		Fulcred Fulcwin Gamal Godwin Grim Gudmund Gyrd 
+		Hacon Haimo Harold Herlewin Inwer Ivo Ledmer Lofget Lofric Lofweld Lofwin 
+		Maccus Manno Merlwen Morcar Odo Ordgar Orm Osborn Osmund Osric Oswin
+		Petre Radwulf Rafwin Renweld Roberth
+		Sarwin Sigeric Sird Siward Stigand Swegn Swithelm Swithring
+		Thedric Thored Thurfrid Tosti Turstin Ulf 
+		Waldof Wiglaf Wigot Woro Wulf Wulfhelm
+	}
+	
+	female_common_first_names = {
+			#Converted "eo" to "e", Ash to "ae", "-yth" to "-yd" mostly, most "ht" to just "t", "Ecg" to "Ec", "-gifu" to "-gif" and did some other simplification. These names otherwise drawn from CK2
+		Aebba Aelfflaed Aelfgif	Aelfgyd	Aelflaeda Aelfrida Aelfthryd Aelfwynn Aethelburg Aethelburh Aethelflaed Aethelgif Aethelhild Aethelreda Aethelswith
+		Aethelthryd Agatha Balthild Berhtgyd Berhtwaru Berhtwynn Bernflaed Berngyd Bertflaed Bertgif Blaeja Burgflaed Celflaed Cristina Cuthburg Cwenburg Cyneburg
+		Cynegyd Cynehild Cyneswith Cynethryd Eadburg Eadfled Eadgif Eadgyd Eadhburh Eadhild Ealdgyd Ecfrida Ecwyn Godgif Gunhild Gyda Helga Heregyd Hereswith
+		Hexilda Hungif Judith Lefflaed Lefgif Lefrun Lefwar Lefwynn Margaret Maud Mildrith Octreda Saethryd Seaxburh Sifflaed Sigrid Waerburg Witburhyd
+		Wulfflaed Wulfgif Wulfgyd Wulfhild Wulfrun Wulfthryd Wulfwaru Wulfwynn Wynnflaed
+	}
+	
+	common_last_names = {
+		Aelfstan Aethelwerd Alby Algot Alston Altone Autibern Bennag Birkenfod Blec Bodwin Brictric Bruning Carlel
+		Cetham Colling Conded Corelmann Daging Danmann Denholm Dirling Edwys Elton Erle Estone Etwell Felcener Fingast
+		Gren Grencin Grimbald Halwel Hegden Heghurst Hering Holcastre Kemp Ketilbern Kollung Langfer Latton_Parhome
+		Lester Lincleg Lyter Marculf Mertuna Mundred Nawen Normann Nortuna Oforbert Ogercin Othenkar of_Alwold of_Cottesbec
+		of_Crawa of_Grensted of_Hesdin of_Hopa of_Marck of_Niwetun of_Torcy of_Tosny of_Tregole of_Waddsdone Paddan Peasmor
+		Prest Ramseg Reeve Rid Roscow Rowleg Saswalo Scottow Serlo Shelswell Somes Smid Still Swening Thein Tomsete Totibarn
+		Urso Vilgrip Vitalis Waler Weld Wulfno
+	}
+		
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+lusitano={
+	color=rgb{ 168 186 50 }
+	religion = catholic
+	traits = { hispanophone european_heritage }
+	male_common_first_names={
+		Agustin Antonio Atanasio Baltasar Bartolome Bernardino Bernardo Carlos Cecilio Cirilo Claudio Clemente Candido_2 Domingo Emiliano Esteban Eugenio_2
+		Evaristo Facundo Faustino Feliciano Francisco Fructuoso Felix Gabriel Gaspar Guillermo Hipolito Ignacio Jose Juan_Jose Juan_Manuel Juan_Ramon Julio
+		Justo Lorenzo Luis Manuel Marcial Miguel Maximo Nicolas_2 Patricio Pedro Prudencio Ramon Roberto Roque Salvador Santiago Torcuato Venancio
+	}
+	female_common_first_names = {
+		Agustina Catalina Constancia Encarnacion Eva Juana Manuela Maria Martina Robustiana Sara
+	}	
+	noble_last_names = {
+		de_Alvear
+		de_Goyeneche
+		de_Lamadrid
+		de_Pueyrredon
+		de_Rosas
+		de_Urquiza
+		de_la_Plaza
+		Rivadavia
+	}
+	common_last_names={
+		Aguirre
+		Avellaneda
+		Balcarce
+		Bareiro
+		Berro
+		Brown
+		Baez
+		Caballero
+		Cruz
+		Derqui
+		Diaz_2
+		Ellauri
+		Escobar
+		Flores
+		Gonzalez
+		Jovellanos
+		Justo
+		Juarez
+		Latorre
+		Lopez
+		Machain
+		Maza
+		Meza
+		Mitre
+		Paz
+		Pedernera
+		Pellegrini
+		Pereira
+		Quintana
+		Rivarola
+		Rivera
+		Roca
+		Rodriguez_de_Francia
+		Rojas
+		Rondeau
+		Santos
+		Sarmineto
+		Solano
+		Saenz
+		Tajes
+		Uriburu
+		Viamonte
+		Vidal
+		Williman
+		Wisner
+		Yrigoyen
+	}
+	ethnicities = {
+		1 = south_american
+	}
+	graphics = generic
+}
+
+marianais={
+	color= { 29 142 48 }
+	religion = catholic
+	traits = { francophone european_heritage new_world_settler }
+	
+	male_common_first_names={
+		Achille Adolphe Adrien Aimable Alphonse Amedee Antoine Armand August Augustin Alcide
+		Charles Constant
+		Daniel Denis
+		Elie Eugene Edouard Ettiene
+		Fernand Francois Frederic Felicien Felix
+		Georges Guillaume Gustave Gaston
+		Henri Hippolyte Hubert Hugo
+		Jacques Jean Joseph Jules Julien Jeremie
+		Lazare Louis Lucien Leopold_2 Leon
+		Matthieu Michel Marcel
+		Napoleon Nicolas
+		Patrice Paul Philippe Pierre
+		Robert Roland Rodolphe Raymond
+		Thibaut Thierry Thomas
+	}
+	female_common_first_names = {
+		Adelaide_2
+		Adele_2
+		Alexandrine
+		Amelie_2
+		Angelique
+		Anne
+		Antoinette
+		Athenais
+		Augustine
+		Beatrice
+		Blanche
+		Camille
+		Caroline
+		Catherine
+		Charlotte
+		Claire
+		Clemence
+		Clotilde
+		Delphine
+		Diane
+		Eleonore_2
+		Ernestine
+		Eugenie
+		Eulalie
+		Francoise
+		Gabrielle
+		Henriette
+		Hortense
+		Jeanne
+		Julie
+		Juliette
+		Justine
+		Leopoldine
+		Louise
+		Louise-Victorine
+		Marcelle
+		Marguerite
+		Marie
+		Marie-Anne
+		Marie-Felix
+		Marthe
+		Mathilde
+		Melanie
+		Pauline
+		Radegondle 
+		Septimanie
+		Sibylle
+		Sophie
+		Stephanie
+		Suzanne
+		Therese_2
+		Victoire
+		Victorine
+		Virginie
+	}	
+	noble_last_names = {
+		Baraguey_d_Hilliers
+		Bergeret
+		Bonaparte
+		d_Aumont
+		d_Orleans
+		de_Beauharnais
+		de_Bourbon
+		de_Bussiere
+		de_Chastellux
+		de_Chodron_de_Courcel
+		de_Durfort
+		de_Gramont
+		de_Guerin
+		de_Gueydon
+		de_Lamartine
+		de_Pourtales
+		de_Rochebouet
+		Decazes
+		Fesch
+		Gros
+		Lagrange
+		Marbot
+	}
+	common_last_names={
+		Anthoine Archinard Augereau Aucouturier Alavoine
+		Baraguey Bazaine Billot Bosquet Boulanger Bourbaki Boue_de_Lapeyrere Bouet-Willaumez Bugeaud Beaugendre Bronchard Baudet Bodinier Bouillet BiE_re
+		Caillard Canrobert Courbet Cousin-Mountauban de_Castellane de_Castelnau Combes ClouE_ Cornet Colas Chauvet Carrere Chartier Combelles Chaude Colin Cruchon Cauvry ChaudE_ Collet Cottrel Charron Caudrelier Courcelles
+		Davout Depre Dubail Dubois Duchene Dupetit-Thouars Desbordes DelcassE_ Dortignacq Dargassies Desgrange Daumain Decaup Dozol Duboc Darche Deloffre Dutiron Denizot Dufour Devilly Dhers Dartigue Degy
+		Exelmans
+		Foch Forey Franchet_d_Esperey Freycinet Faidherbe Fily Fleury Forestier Figuet
+		Gallieni Gouraud Guillaumat de_Gaulle Gain Georget Gabory Guillarme Garrigou Genin GE_raud Godivier Germain Gardent Goujon
+		Hamelin Harispe Hoche Humbert d_Hilliers Habierre Herbelin Harquet
+		Jamais Jaures Joffre JaurE_guiberry Jousselin
+		Lebouef Lyautey de_Langle_de_Cary Leygoute Lignon Lallement Lacroix Lafourcade Le_Bars Lachaise Leman Lorillon Lecointe Langlade Leblanc Lagagner Leroy Lapize
+		Marmontel Murat de_Montaignac Mazel Maitron ME_nager Meili Mathonat
+		Ney_d_Elchingen Nivelle Nancy Neboux Nempon
+		Oudin Ory
+		Petain Pellissier Pothier Pasquier Pautrat Payan Passerieu Paulmier Ponson PiE_trois Pardon
+		Quenon
+		Ringeval Roux Rabot Riviere Roche Riou Ricaux Roquebert Rottie
+		Saget de_Saint_Arnaud SouliE_
+		Trebutien Trousselier Tuvache
+		Vaillant Ventresque Villette Vivier Vaidis Vilette
+		Wattelier Winant
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+nutcan={ #Spanish Nutqueño but that may be a step too far?
+	color=rgb{ 168 186 50 }
+	religion = catholic
+	traits = { hispanophone european_heritage }
+	male_common_first_names={
+		Agustin Antonio Atanasio Baltasar Bartolome Bernardino Bernardo Carlos Cecilio Cirilo Claudio Clemente Candido_2 Domingo Emiliano Esteban Eugenio_2
+		Evaristo Facundo Faustino Feliciano Francisco Fructuoso Felix Gabriel Gaspar Guillermo Hipolito Ignacio Jose Juan_Jose Juan_Manuel Juan_Ramon Julio
+		Justo Lorenzo Luis Manuel Marcial Miguel Maximo Nicolas_2 Patricio Pedro Prudencio Ramon Roberto Roque Salvador Santiago Torcuato Venancio
+	}
+	female_common_first_names = {
+		Agustina Catalina Constancia Encarnacion Eva Juana Manuela Maria Martina Robustiana Sara
+	}	
+	noble_last_names = {
+		de_Alvear
+		de_Goyeneche
+		de_Lamadrid
+		de_Pueyrredon
+		de_Rosas
+		de_Urquiza
+		de_la_Plaza
+		Rivadavia
+	}
+	common_last_names={
+		Aguirre
+		Avellaneda
+		Balcarce
+		Bareiro
+		Berro
+		Brown
+		Baez
+		Caballero
+		Cruz
+		Derqui
+		Diaz_2
+		Ellauri
+		Escobar
+		Flores
+		Gonzalez
+		Jovellanos
+		Justo
+		Juarez
+		Latorre
+		Lopez
+		Machain
+		Maza
+		Meza
+		Mitre
+		Paz
+		Pedernera
+		Pellegrini
+		Pereira
+		Quintana
+		Rivarola
+		Rivera
+		Roca
+		Rodriguez_de_Francia
+		Rojas
+		Rondeau
+		Santos
+		Sarmineto
+		Solano
+		Saenz
+		Tajes
+		Uriburu
+		Viamonte
+		Vidal
+		Williman
+		Wisner
+		Yrigoyen
+	}
+	ethnicities = {
+		1 = south_american
+	}
+	graphics = generic
+}
+
+sintellander={
+	color= { 188 119 17 }
 	religion = protestant
 	traits = { beneluxian_culture_group european_heritage new_world_settler }
 	male_common_first_names={
@@ -949,392 +1280,6 @@ guilderlander={
 	}
 }
 
-hispanian={
-	color= hsv{ 0.16 0.56 0.86 }
-	religion = catholic
-	traits = { iberian_culture_group hispanophone european_heritage }
-	male_common_first_names={
-		Agustin
-		Alberto
-		Alejandro
-		Alfonso
-		Antonio
-		Antonio_Maria
-		Arsenio
-		Augusto
-		Baldomero
-		Baltasar
-		Benito
-		Bernardino
-		Bernardo
-		Calixto
-		Carlos
-		Celestino
-		Claudio
-		Cristobal
-		Diego
-		Dionisio
-		Damaso
-		Eduardo
-		Emilio
-		Estanislao
-		Federico
-		Felipe
-		Fernando
-		Francisco
-		Francisco_Javier
-		Felix
-		Gabino
-		Gabriel
-		Gaspar
-		Genaro
-		Gonzalo
-		Ignacio
-		Isidro
-		Jacobo
-		Jaime
-		Joaquin
-		Jose
-		Jose_Antonio
-		Jose_Manuel
-		Jose_Maria
-		Juan
-		Juan_Bautista
-		Julio
-		Jorge
-		Leopoldo
-		Lorenzo
-		Luis
-		Manuel
-		Marcelo
-		Mariano
-		Mateo
-		Melchor
-		Miguel
-		Nicolas_2
-		Pablo
-		Pascual
-		Pedro
-		Rafael_2
-		Raimundo
-		Ramon
-		Ricardo
-		Santiago
-		Sebastian
-		Segismundo
-		Valeriano
-		Vicente
-		Alvaro
-	}
-	female_common_first_names = {
-		Adelaida
-		Alejandrina
-		Amalia
-		Antonia
-		Bonifacia
-		Carlota
-		Clotilde
-		Concepcion
-		Dolores
-		Emilia
-		Enriqueta
-		Eulalia
-		Faustina
-		Francisca
-		Guillermina
-		Herminia
-		Isabella
-		Joaquina
-		Manuela
-		Maria_2
-		Mariana
-		Martina
-		Robustiana
-		Rosa
-		Sabina
-		Teresa
-	}	
-	noble_last_names = {
-		Alvarez_de_Toledo de_Albornoz de_ArmendA_riz de_Almansa de_AlO_s de_Arteche
-		Barrionuevo de_Bohorques de_Bernuy de_Bago
-		Cabrera Cagigal_de_la_Vega Colon de_Carvajal del_Carmen_Contreras
-		DI_ez_de_Rivera de_Domecq
-		Fernandez_de_Cordoba de_la_Fuente Fitz-James_Stuart de_Figueroa Flores_de_SeptiE_n FernA_ndez-Zapata FernA_ndez_de_CO_rdoba
-		Garcia_de_la_Noceda GirO_n de_GuzmA_n de_Godoy GonzA_lez_de_Cienfuegos Grimaldi
-		Hidalgo_de_Cisneros
-		JordA_n_de_UrrI_es
-		LO_pez_de_Haro de_Llorach
-		MessI_a de_Mercader de_Mora de_Medina del_Milagro_Quesada
-		Ortiz_de_la_Riva O_Donnell Osorio_de_Moscoso de_Orozco
-		Primo_de_Rivera PE_rez_de_Herrasti de_Palafox PE_rez_de_GuzmA_n PiN_eiro de_Pedro del_Pilar_Osorio
-		de_QuirO_s de_Quintanilla
-		RamI_rez_de_Saavedra del_Rosario_FalcO_ del_Rosario_Vereterra de_Rojas de_Riquer Ruiz_de_Arana
-		SuA_rez_de_ArgudI_n de_Silva de_SatrU_stegui SaI_nz_de_la_Maza de_Samaniego de_Sentmenat de_Salavert de_Santiago_Concha Sanchiz
-		de_Tineo
-		de_Urquijo de_Uzqueta
-		de_Valda del_Valle de_Villalonga de_la_Vera ValdE_s
-		de_ZufI_a
-	}
-	common_last_names={
-		Acuna Aguirre Alcala-Zamora Allendesalazar Alonso Aranda Arguelles-Meres Asensio Aznar Alvarez Acedo Arabolaza Arrate Artola Aranzadi
-		Barradas Bugallal BotI_n Bonilla Belaunde Blanco
-		Cano Cervera Corsi Cuadrada Comamala
-		Diaz_2 DomI_nguez
-		Espartero Escoda EguiazA_bal
-		Fernandez Franco Fajardo
-		Garcia Gonzalez Gil Grasset Galatas
-		Heredia Hernandez Herrera Hevia
-		Izaguirre
-		Linares Lopez Lorenzana Landazabal LarraN_aga
-		Maroto Martinez-Campos Maura Menendez Miaja Millan-Astray Mina Mola Munoz Marquez MelE_ndez MedizA_bal Muguerza Moreira Mandiola Muguruza
-		Narvaez
-		Ortega Otero Onsalo OrdO_N_ez Olaso Ozores
-		Pavia Perez PajarO_n Pagaza Pattullo Pena
-		Queipo_de_Llano Quintana Quirante
-		Rodriguez Rojo Ruiz Reparez Ruete
-		Sanjurjo Serrano Silvestre Samitier Serrano Saprissa
-		Topete Tuduri Terradas Torralba
-		Valdes Varela Villapol Villar Vela Villota Vilalta Vallana VA_zquez
-		Weyler
-		Yague
-		Zamora Zabala
-	}
-	male_regal_first_names={
-		Alfonso Amadeo
-		Carlos
-		Felipe Fernando
-		Jose Juan_Carlos
-		Luis
-	}
-	female_regal_first_names={
-		Beatriz
-		Eulalia
-		Isabel
-		Luisa_Fernanda
-		Maria_2 MarI_a_Teresa
-	}
-	regal_last_names = {
-		de_Andrade
-		de_Trasta_mara
-		Capeto
-	}	
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-logrish={
-	color={ 5 100 130 }
-	religion = catholic
-	traits = { anglophone new_world_settler european_heritage }
-
-	male_common_first_names={
-		Aelfgar Aelric Aelwold Aethelber Aethelwine Arnolf Azur
-		Bordelm Borthric Bortsige Borwin Boren Bricmer Burghard Byrnod 
-		Cenwulf Cerdic Cnut Cola Copsige Cuthbert Cypping Doda
-		Edmer Edric Edulf Edweard Edwig Edwin Eldred Ealdwulf Enfrid Estan
-		Fulcred Fulcwin Gamal Godwin Grim Gudmund Gyrd 
-		Hacon Haimo Harold Herlewin Inwer Ivo Ledmer Lofget Lofric Lofweld Lofwin 
-		Maccus Manno Merlwen Morcar Odo Ordgar Orm Osborn Osmund Osric Oswin
-		Petre Radwulf Rafwin Renweld Roberth
-		Sarwin Sigeric Sird Siward Stigand Swegn Swithelm Swithring
-		Thedric Thored Thurfrid Tosti Turstin Ulf 
-		Waldof Wiglaf Wigot Woro Wulf Wulfhelm
-	}
-	
-	female_common_first_names = {
-			#Converted "eo" to "e", Ash to "ae", "-yth" to "-yd" mostly, most "ht" to just "t", "Ecg" to "Ec", "-gifu" to "-gif" and did some other simplification. These names otherwise drawn from CK2
-		Aebba Aelfflaed Aelfgif	Aelfgyd	Aelflaeda Aelfrida Aelfthryd Aelfwynn Aethelburg Aethelburh Aethelflaed Aethelgif Aethelhild Aethelreda Aethelswith
-		Aethelthryd Agatha Balthild Berhtgyd Berhtwaru Berhtwynn Bernflaed Berngyd Bertflaed Bertgif Blaeja Burgflaed Celflaed Cristina Cuthburg Cwenburg Cyneburg
-		Cynegyd Cynehild Cyneswith Cynethryd Eadburg Eadfled Eadgif Eadgyd Eadhburh Eadhild Ealdgyd Ecfrida Ecwyn Godgif Gunhild Gyda Helga Heregyd Hereswith
-		Hexilda Hungif Judith Lefflaed Lefgif Lefrun Lefwar Lefwynn Margaret Maud Mildrith Octreda Saethryd Seaxburh Sifflaed Sigrid Waerburg Witburhyd
-		Wulfflaed Wulfgif Wulfgyd Wulfhild Wulfrun Wulfthryd Wulfwaru Wulfwynn Wynnflaed
-	}
-	
-	common_last_names = {
-		Aelfstan Aethelwerd Alby Algot Alston Altone Autibern Bennag Birkenfod Blec Bodwin Brictric Bruning Carlel
-		Cetham Colling Conded Corelmann Daging Danmann Denholm Dirling Edwys Elton Erle Estone Etwell Felcener Fingast
-		Gren Grencin Grimbald Halwel Hegden Heghurst Hering Holcastre Kemp Ketilbern Kollung Langfer Latton_Parhome
-		Lester Lincleg Lyter Marculf Mertuna Mundred Nawen Normann Nortuna Oforbert Ogercin Othenkar of_Alwold of_Cottesbec
-		of_Crawa of_Grensted of_Hesdin of_Hopa of_Marck of_Niwetun of_Torcy of_Tosny of_Tregole of_Waddsdone Paddan Peasmor
-		Prest Ramseg Reeve Rid Roscow Rowleg Saswalo Scottow Serlo Shelswell Somes Smid Still Swening Thein Tomsete Totibarn
-		Urso Vilgrip Vitalis Waler Weld Wulfno
-	}
-		
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-marianais={
-	color= { 29 142 48 }
-	religion = catholic
-	traits = { francophone european_heritage new_world_settler }
-	
-	male_common_first_names={
-		Achille Adolphe Adrien Aimable Alphonse Amedee Antoine Armand August Augustin Alcide
-		Charles Constant
-		Daniel Denis
-		Elie Eugene Edouard Ettiene
-		Fernand Francois Frederic Felicien Felix
-		Georges Guillaume Gustave Gaston
-		Henri Hippolyte Hubert Hugo
-		Jacques Jean Joseph Jules Julien Jeremie
-		Lazare Louis Lucien Leopold_2 Leon
-		Matthieu Michel Marcel
-		Napoleon Nicolas
-		Patrice Paul Philippe Pierre
-		Robert Roland Rodolphe Raymond
-		Thibaut Thierry Thomas
-	}
-	female_common_first_names = {
-		Adelaide_2
-		Adele_2
-		Alexandrine
-		Amelie_2
-		Angelique
-		Anne
-		Antoinette
-		Athenais
-		Augustine
-		Beatrice
-		Blanche
-		Camille
-		Caroline
-		Catherine
-		Charlotte
-		Claire
-		Clemence
-		Clotilde
-		Delphine
-		Diane
-		Eleonore_2
-		Ernestine
-		Eugenie
-		Eulalie
-		Francoise
-		Gabrielle
-		Henriette
-		Hortense
-		Jeanne
-		Julie
-		Juliette
-		Justine
-		Leopoldine
-		Louise
-		Louise-Victorine
-		Marcelle
-		Marguerite
-		Marie
-		Marie-Anne
-		Marie-Felix
-		Marthe
-		Mathilde
-		Melanie
-		Pauline
-		Radegondle 
-		Septimanie
-		Sibylle
-		Sophie
-		Stephanie
-		Suzanne
-		Therese_2
-		Victoire
-		Victorine
-		Virginie
-	}	
-	noble_last_names = {
-		Baraguey_d_Hilliers
-		Bergeret
-		Bonaparte
-		d_Aumont
-		d_Orleans
-		de_Beauharnais
-		de_Bourbon
-		de_Bussiere
-		de_Chastellux
-		de_Chodron_de_Courcel
-		de_Durfort
-		de_Gramont
-		de_Guerin
-		de_Gueydon
-		de_Lamartine
-		de_Pourtales
-		de_Rochebouet
-		Decazes
-		Fesch
-		Gros
-		Lagrange
-		Marbot
-	}
-	common_last_names={
-		Anthoine Archinard Augereau Aucouturier Alavoine
-		Baraguey Bazaine Billot Bosquet Boulanger Bourbaki Boue_de_Lapeyrere Bouet-Willaumez Bugeaud Beaugendre Bronchard Baudet Bodinier Bouillet BiE_re
-		Caillard Canrobert Courbet Cousin-Mountauban de_Castellane de_Castelnau Combes ClouE_ Cornet Colas Chauvet Carrere Chartier Combelles Chaude Colin Cruchon Cauvry ChaudE_ Collet Cottrel Charron Caudrelier Courcelles
-		Davout Depre Dubail Dubois Duchene Dupetit-Thouars Desbordes DelcassE_ Dortignacq Dargassies Desgrange Daumain Decaup Dozol Duboc Darche Deloffre Dutiron Denizot Dufour Devilly Dhers Dartigue Degy
-		Exelmans
-		Foch Forey Franchet_d_Esperey Freycinet Faidherbe Fily Fleury Forestier Figuet
-		Gallieni Gouraud Guillaumat de_Gaulle Gain Georget Gabory Guillarme Garrigou Genin GE_raud Godivier Germain Gardent Goujon
-		Hamelin Harispe Hoche Humbert d_Hilliers Habierre Herbelin Harquet
-		Jamais Jaures Joffre JaurE_guiberry Jousselin
-		Lebouef Lyautey de_Langle_de_Cary Leygoute Lignon Lallement Lacroix Lafourcade Le_Bars Lachaise Leman Lorillon Lecointe Langlade Leblanc Lagagner Leroy Lapize
-		Marmontel Murat de_Montaignac Mazel Maitron ME_nager Meili Mathonat
-		Ney_d_Elchingen Nivelle Nancy Neboux Nempon
-		Oudin Ory
-		Petain Pellissier Pothier Pasquier Pautrat Payan Passerieu Paulmier Ponson PiE_trois Pardon
-		Quenon
-		Ringeval Roux Rabot Riviere Roche Riou Ricaux Roquebert Rottie
-		Saget de_Saint_Arnaud SouliE_
-		Trebutien Trousselier Tuvache
-		Vaillant Ventresque Villette Vivier Vaidis Vilette
-		Wattelier Winant
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
-}
-
-alban = {
-	color= { 192 207 31 }
-	religion= protestant
-	traits = { celtic_people european_heritage }
-	
-	male_common_first_names = {
-		A_dhamh Aindrea Alasdair Baltair Beistean Brian Cailean Caomhainn Ciaran Coinneach Comhnall Cormag Cuithbeart
-		Da_ibhidh Daidh Daniel Deo_rsa Domhnall Donnchadh Dubh Dubhghall Du_ghlas Ealar Eo_ghann Eumann Eo_in Eo_saph Faolan Fearghas Filib
-		Fionnlagh Gilleasbuig Gille-Bri_dhde Gillebeart Goraidh Guaidre Harailt Iain Iomhair Io_na Lachlann Maol-Iosa Maoldo_naich Mata
-		Murchadh Niall Padruig Peadrus Pa_l Raghnall Seoras Simidh Somhairle Tadhg Tomaidh U_isdean
-	}
-	
-	female_common_first_names = {		#Shamelessly stolen from the Irish. Must fix at some point
-		A_ine Ailbhe Aisling Aoibheann Aoibhinn Aoife Blathnaid Bronagh Caoilainn Caoimhe Cara Caragh Ciara Clo_dagh Dearbhla E_imhear
-		Eabha Fiadh Fiona Gra_inne I_omha_i_n Laoise Mairead Me_abh Niamh O_rla Orlaith Ri_ona Ro_isi_n Sadhbh Saoirse Sea_na Sionna
-	}
-	
-	common_last_names = {
-		Aileanach Ambarsan Ba_nach Bla_r Bra_igheach Buiseid Caimbeulach Cananach Crannach Ca_idh Deo_ir Do_mhnullach
-		Fearghasdan Griogalach Lobhdain Mac_a__Charraige Mac_a__Ghobhainn Mac_a__Leo_ra Mac_a__Phearsain
-		Mac_an_Duibh Mac_an_Fhuibhir Mac_an_Luaimh Mac_an_Rothaich Mac_Iain_Duibh MacAsgaill MacCormaig
-		MacDheo_rsa MacDhungail MacEalar MacFigeinn MacGiobain MacLagain MacLianain MacMhatha MacNi_ll MacPha_ic
-		MacTiridh Robasan Seadh Ta_illear Urchadainn
-	}
-	
-	male_regal_first_names = {
-		#Populate?
-	}
-	
-	regal_last_names = {
-		Dalcais #(unsure if it makes sense to put this here)
-	}
-	
-	graphics = european	
-	ethnicities = {
-		1 = caucasian
-	}
-}
 roman={
 	color={ 102 2 60 }
 	religion = orthodox
@@ -1802,6 +1747,276 @@ hellene={
 
 krivian={ #Latvian and Lithuanian combined, plus (to be added) a Slavic naming twist
 	color = { 125 150 150 }
+	religion = protestant
+	traits = { baltic_culture_group european_heritage }
+	male_common_first_names={
+		Aaron
+		Abrams
+		Adolfas
+		Alberts
+		Aleksandras
+		Aleksandrs
+		Algirdas
+		Aloisz
+		Andrejs
+		Andrius
+		Antanas
+		Arkadij
+		Armands
+		Arnolds
+		Arturas
+		Arunas
+		Atis
+		Augustinas
+		Balys
+		Boris
+		Bronislovas
+		Brunis
+		Bruno
+		Danielius
+		Darius
+		Eduards
+		Eliass
+		Elmars
+		Emils
+		Evgenijs
+		Filips
+		Fricis
+		Gendiminas
+		Gustavs
+		Heinrihs
+		Henrikas
+		Hermanis
+		Izaks
+		Janis
+		Jazeps
+		Jekabs
+		Johans
+		Jonas
+		Jonusas
+		Juozas
+		Juras
+		Jurgis
+		Juris
+		Justas
+		Karlis
+		Kazimieras
+		Kazys
+		Kipras
+		Konstantinas
+		Krisjanis
+		Leo
+		Lukas
+		Marijus
+		Mark
+		Markas
+		Martins
+		Mihails
+		Mikalojus
+		Mikelis
+		Mindaugas
+		Motejus
+		Mykolas
+		Nikolajs
+		Oskars
+		Paulius
+		Pauls
+		Peteris
+		Petras
+		Povilas
+		Ramunas
+		Rihards
+		Ringaudas
+		Roberts
+		Rolandas
+		Romans
+		Sandis
+		Sergejs
+		Simonas
+		Stasys
+		Steponas
+		Tadas
+		Valdas
+		Valdemaras
+		Valdemars
+		Valerians
+		Valter
+		Viktoras
+		Vilhelmas
+		Vilis
+		Visvaldas
+		Vladimiras
+		Vladimirs
+		Vygantas
+		Vytautas
+		Zigfrids
+		Zydrunas
+	}
+	female_common_first_names = {
+		Amida
+		Antonija 
+		Aurelija
+		Benigna
+		Berta
+		Birute
+		Dalia
+		Diana
+		Edita
+		Elena
+		Elfriede 
+		Elza 
+		Emilija
+		Emma
+		Gabriele
+		Ieva
+		Inguna
+		Johanna
+		Julija
+		Justina
+		Karoline
+		Klara
+		Lidija
+		Lizete
+		Magda
+		Marija
+		Marta
+		Matilde
+		Meilute
+		Miriam
+		Ona
+		Regina
+		Roze
+		Salomeja
+		Sofija
+	}	
+	noble_last_names = {
+		Cartoriskis
+		Glinskis
+		Gostautas
+		Kallaur
+		Kosakovskis
+		Krek
+		Krupskis
+		Manvydas
+		Oginskis
+		Ostrogiskis
+		Pacas
+		Penikis
+		Plater
+		Plavins
+		Stasjevicis
+		Tiskevicis
+		Tontegode
+		Tyzenhauzas
+		Visnioveckis
+		von_Knabenau
+		von_Lieven
+		von_Mengden
+		von_Plettenberg
+		von_Stamm
+		von_Wolff
+	}
+	common_last_names={
+		Abakovskis
+		Adamkus
+		Almenas
+		Apsenieks
+		Avizienis
+		Balodis
+		Baltrusaitis
+		Basanavicius
+		Baumanis
+		Berkis
+		Berzin
+		Betins
+		Birutis
+		Bradziunas
+		Braons
+		Brazauskas
+		Buga
+		Caks
+		Cakste
+		Caps
+		Celmins
+		Ciurlionis
+		Dalins
+		Dambitis
+		Danauskas
+		Darzins
+		Daukantas
+		Dauksa
+		Dobkevicius
+		Dubeneckis
+		Dvarionas
+		Galdikas
+		Goppers
+		Grinius
+		Griskevicius
+		Halsmans
+		Irbitis
+		Ivanauskas
+		Jablonskis
+		Jucys
+		Kalnins
+		Kalpaks
+		Kovalevskis
+		Krogzems
+		Kronvalds
+		Krupavicius
+		Kucis
+		Kuks
+		Kviesis
+		Lacis
+		Leiko
+		Loskis
+		Lozoraitis
+		Maters
+		Meierovics
+		Merkys
+		Milenbahs
+		Needra
+		Ozolins
+		Paksas
+		Paleckis
+		Paulauskas
+		Petrauskas
+		Piskarkas
+		Plieksans
+		Pozela
+		Pumpurs
+		Rothko
+		Sabaniauskas
+		Schatz
+		Semtona
+		Simanis
+		Simonavicius
+		Sirvydas
+		Slezevicius
+		Snieckus
+		Stauaitis
+		Straizys
+		Stucka
+		Stulginkis
+		Svedas
+		Terleckas
+		Tumins
+		Ulmanis
+		Urbsys
+		Vagnorius
+		Valeska
+		Veidenbaums
+		Voldemaras
+		Zemaitis
+		Zuokas
+	}
+	ethnicities = {
+		1 = slavic
+	}
+	graphics = european
+}
+
+semian={ #Latvian and Lithuanian combined
+	color = { 100 100 180 }
 	religion = protestant
 	traits = { baltic_culture_group european_heritage }
 	male_common_first_names={

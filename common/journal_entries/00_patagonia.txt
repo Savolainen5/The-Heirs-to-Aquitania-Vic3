@@ -8,7 +8,7 @@
 		}
 		OR = {
 			country_has_primary_culture = cu:south_andean
-			country_has_primary_culture = cu:platinean
+			country_has_primary_culture = cu:lusitano
 		}
 	}
 

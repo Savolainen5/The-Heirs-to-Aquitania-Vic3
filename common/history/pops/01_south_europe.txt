@@ -380,7 +380,7 @@
 				size = 103532
 			}
 			create_pop = {
-				culture = afro_brazilian
+				culture = afro_caribeno
 				size = 24666
 			}
 		}
@@ -393,7 +393,7 @@
 				size = 103532
 			}
 			create_pop = {
-				culture = afro_brazilian
+				culture = afro_caribeno
 				size = 24666
 			}
 		}
@@ -414,7 +414,7 @@
 				size = 103532
 			}
 			create_pop = {
-				culture = afro_brazilian
+				culture = afro_caribeno
 				size = 24666
 			}
 		}

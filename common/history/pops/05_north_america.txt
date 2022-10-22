@@ -100,8 +100,8 @@
 				size = 19780
 			}
 			create_pop = {
-				culture = hispanian
-				size = 192
+				culture = nutcan
+				size = 592
 			}
 			create_pop = {
 				culture = inuit
@@ -118,6 +118,10 @@
 			create_pop = {
 				culture = salish
 				size = 10000
+			}
+			create_pop = {
+				culture = nutcan
+				size = 31384
 			}
 		}
 		region_state:SAL = {
@@ -136,7 +140,7 @@
 	s:STATE_JANIZ = {
 		region_state:NUT = {
 			create_pop = {
-				culture = hispanian
+				culture = nutcan
 				size = 4848
 			}		
 			create_pop = {
@@ -1169,6 +1173,10 @@
 			create_pop = {
 				culture = athabaskan
 				size = 12000
+			}
+			create_pop = {
+				culture = nutcan
+				size = 1734
 			}
 		}
 		region_state:HAD = {
