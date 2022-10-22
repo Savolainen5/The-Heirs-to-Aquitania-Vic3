@@ -2,13 +2,9 @@
 	#European masters first
 	
 	c:AEN = {
-		create_diplomatic_pact = {
-			country = c:SAF
-			type = puppet
-		}
 
 		### AUSTRALIA ###
-		# Colony of New South Wales
+		# Colony of Gewisse
 		create_diplomatic_pact = {
 			country = c:GWS
 			type = puppet
@@ -141,6 +137,12 @@
 			type = puppet
 		}
 	}
+	c:KRI = {
+		create_diplomatic_pact = {
+			country = c:MOL
+			type = puppet
+		}
+	}
 	c:NAP = {
 		create_diplomatic_pact = {
 			country = c:MLT
@@ -160,6 +162,10 @@
 #			country = c:TER
 #			type = vassal
 #		}
+		create_diplomatic_pact = {
+			country = c:SAF
+			type = puppet
+		}
 		
 		# "Colony" of Maregen
 		create_diplomatic_pact = {
@@ -189,12 +195,6 @@
 			type = puppet
 		}
 	}
-	c:KRI = {
-		create_diplomatic_pact = {
-			country = c:MOL
-			type = puppet
-		}
-	}
 	c:SWE = {
 		create_diplomatic_pact = {
 			country = c:POL
@@ -213,7 +213,7 @@
 	c:EGY = {  #Yeah, this is technically Africa, but whatever, man
 		create_diplomatic_pact = {
 			country = c:HDJ
-			type = tributary
+			type = vassal
 		}
 	}
 	c:JAP = {
