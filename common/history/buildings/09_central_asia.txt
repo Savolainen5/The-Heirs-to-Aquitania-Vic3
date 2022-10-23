@@ -228,7 +228,7 @@
 	s:STATE_URALSK={
 		region_state:TAT={
 		}
-		region_state:JUZ={
+		region_state:KAZ={
 		}
 	}
 	s:STATE_KHIVA={
@@ -281,14 +281,28 @@
 			}
 			create_building={
 				building="building_barracks"
-				level=20
+				level=15
+				reserves=1
+				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
+		}
+		region_state:KAZ={
+			create_building={
+				building="building_livestock_ranch"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_barracks"
+				level=5
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
 	}
 	s:STATE_TAJIKISTAN={
-		region_state:KOK={
+		region_state:JND={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -335,29 +349,37 @@
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
-		}
-		region_state:DZN={
 			create_building={
 				building="building_wheat_farm"
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
-			}		
+			}	
 		}
+#		region_state:DZN={	
+#		}
 	}
 	s:STATE_TURKMENIA={
 		region_state:KHI={
 			create_building={
 				building="building_livestock_ranch"
-				level=2
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_barracks"
-				level=6
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
+		}
+		region_state:PER={
+			create_building={
+				building="building_livestock_ranch"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 		}
 	}

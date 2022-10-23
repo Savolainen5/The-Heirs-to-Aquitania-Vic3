@@ -225,7 +225,7 @@
 			country = c:TOH
 			type = vassal
 		}
-	}		
+	}
 	c:MRT = {
 		create_diplomatic_pact = {
 			country = c:NAG

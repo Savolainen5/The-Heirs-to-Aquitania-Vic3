@@ -144,13 +144,6 @@
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_debt_slavery
 	}
-	c:JUZ = { #Junior Zhuz of the Kazakhs
-		effect_starting_technology_tier_6_tech = yes
-		
-		effect_starting_politics_traditional = yes
-		
-		effect_native_conscription_2 = yes
-	}
 	c:LAZ = { #Lazarines
 		
 		effect_starting_technology_tier_3_tech  = yes
