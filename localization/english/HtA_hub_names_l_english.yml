@@ -219,15 +219,26 @@
  HUB_NAME_STATE_ONJARA_mine: "Boen" #Village near Kristiansand
  HUB_NAME_STATE_ONJARA_wood: "Korup" #Location in Schleswig
 
-# HUB_NAME_STATE_MESESAG_city: ""
-# HUB_NAME_STATE_MESESAG_farm: ""
-# HUB_NAME_STATE_MESESAG_mine: ""
-# HUB_NAME_STATE_MESESAG_wood: ""
+ HUB_NAME_STATE_SAGAIGAN_city: "Ignatius" #Pretty much on the same place as the current town of St. Ignace, Michigan
+ HUB_NAME_STATE_SAGAIGAN_farm: "Mygind" #Village north of Aarhus in NE Jutland
+ HUB_NAME_STATE_SAGAIGAN_mine: "Bangsby" #Jens Bang built a house that's now a landmark in Ålborg
+ HUB_NAME_STATE_SAGAIGAN_wood: "Sehested" #Hannibal Sehested was a statesman
 
-# HUB_NAME_STATE_MESESAG_city: ""
-# HUB_NAME_STATE_MESESAG_farm: ""
-# HUB_NAME_STATE_MESESAG_mine: ""
-# HUB_NAME_STATE_MESESAG_wood: ""
+ HUB_NAME_STATE_KIVEDIN_city: "Stormbugt" #Storm bay, Stormhavn is also possible
+ HUB_NAME_STATE_KIVEDIN_farm: "Hudslev" #Location on Als in southern Denmark
+ HUB_NAME_STATE_KIVEDIN_mine: "Seest" #Location which is part of the city of Kolding
+ HUB_NAME_STATE_KIVEDIN_wood: "Annested" #Invented
+
+ HUB_NAME_STATE_RODLAND_city: "Ny Trondheim"
+ HUB_NAME_STATE_RODLAND_farm: "Herrestorp" #Village south of Malmö
+ HUB_NAME_STATE_RODLAND_mine: "Blåfort" #Invented
+ HUB_NAME_STATE_RODLAND_wood: "Lilleby" #Village near Sarpsborg in OTL Norway
+
+# HUB_NAME_STATE_NORDLYSLAND_city: ""
+# HUB_NAME_STATE_NORDLYSLAND_farm: ""
+# HUB_NAME_STATE_NORDLYSLAND_mine: ""
+# HUB_NAME_STATE_NORDLYSLAND_port: ""
+# HUB_NAME_STATE_NORDLYSLAND_wood: ""
 
  #Roman Empire
  HUB_NAME_STATE_EPIRUS_city: "Ioannina"
