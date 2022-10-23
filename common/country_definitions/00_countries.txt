@@ -1520,7 +1520,7 @@ KOR = {
 	tier = kingdom
 	
 	cultures = { korean }
-	capital = STATE_SEOUL
+	capital = STATE_PYONGYANG
 }
 
 LAO = {

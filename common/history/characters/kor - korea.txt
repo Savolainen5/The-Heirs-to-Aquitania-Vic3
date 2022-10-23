@@ -1,11 +1,10 @@
 ﻿CHARACTERS = {
 	c:KOR = {
 		create_character = {
-			# Heonjong of Joseon
-			first_name = "Heonjong"
-			last_name = "Yi"
+			first_name = "Hui"
+			last_name = "Wang"
 			ruler = yes
-			age = 9
+			age = 25
 			interest_group = ig_landowners
 			ideology = ideology_traditionalist
 			traits = {
@@ -14,9 +13,8 @@
 		}	
 
 		create_character = {
-			# Cheoljong of Joseon
-			first_name = "Cheoljong"
-			last_name = "Yi"
+			first_name = "Yeon"
+			last_name = "Wang"
 			heir = yes
 			age = 5
 			interest_group = ig_landowners

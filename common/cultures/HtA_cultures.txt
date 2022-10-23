@@ -2255,6 +2255,93 @@ krivian={ #Latvian and Lithuanian combined, plus (to be added) a Slavic naming t
 	graphics = european
 }
 
+korean={
+	color= hsv{ 0.17 0.41 0.34 }
+	religion = mahayana
+	traits = { korean_language east_asian_heritage }
+	male_common_first_names={
+		Bak Bong-haek
+		Gu
+		Han Heogak Heon-gyo Hong
+		Jeong Jeongil Jo
+		Jwa-chin
+		Kwon
+		Geun
+		Ok
+		Sang-ok Sang-yong Sim
+		Yi Yun
+	}
+	female_common_first_names = {
+		Du-seon
+		Hwahyeop
+		Seonhui Sinjeong Sunghee
+		Yeongsu Yunji
+		Yong-sun
+	}
+	male_noble_first_names = {
+		Bang-bo Byung-guk Byung-hak Byung-si
+		Ung
+		Don-in Du-seon
+		Ha-eung Hong-jip Hunggun
+		Gyu-ho
+		In-young
+		Jeong-hui Jin Jo-sun Jung-yang Jwa-geun
+		Kyung-jae
+		Sang-hwan Sun-mok Sung-taek
+		Won-yong Yu-won
+		Yong-su
+	}
+	male_regal_first_names = {
+		Byeon
+		Cheok
+		Geum Gong
+		Hui Hwan
+		Myeong-bok
+		San
+	}
+	female_regal_first_names = {
+		Ja-yeong Jeungsun
+		Hyoyu
+		Ok-jeong
+	}
+
+	noble_last_names = {
+		Bak
+		Chang Choe
+		Gang Gim Gwon
+		Han Hong
+		Jo
+		Kim Ko
+		Min Moon
+		Na Namgung
+		Park
+		Shin Seong Seok Song
+		Won
+		Yi
+	}
+	common_last_names={
+		Bo
+		Ch_ok #Weird
+		Chung
+		Guk #Weird
+		Gyu #Weird
+		Haung
+		Hu Hwan Hyong #all three weird or even maybe impossible today
+		Im
+		Jip #could be a given name
+		Mok
+		Seo Seon Sun
+		Shinjong #Weird, given name
+		Si 
+		Taek #Very given namey
+		Yong #Weird
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}
+
 semian={ #Latvian and Lithuanian combined
 	color = { 100 100 180 }
 	religion = protestant

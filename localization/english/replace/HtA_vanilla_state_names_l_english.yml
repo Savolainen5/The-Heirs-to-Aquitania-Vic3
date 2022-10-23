@@ -7,5 +7,6 @@
  
  STATE_SARIWON: "Sariwon"
  STATE_PYONGYANG: "Pyongyang"
- STATE_SEOUL: "Seoul"
+ STATE_SEOUL: "Hanyang"
  STATE_BUSAN: "Busan"
+ STATE_SEA_OF_JAPAN: "East Sea""
