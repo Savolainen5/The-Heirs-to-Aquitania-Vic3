@@ -653,7 +653,7 @@ blandet={ #Danish Metis
 }
 
 bresailean={
-	color={ 30 172 68 }
+	color={ 123 186 140 }
 	religion = catholic
 	traits = { celtic_people european_heritage new_world_settler }
 	male_common_first_names={
@@ -2676,8 +2676,6 @@ tourki={ #Hellenized Turks, names need improvement
 	}
 	graphics = mideast_indian
 }
-
-
 
 semian={ #Latvian and Lithuanian combined
 	color = { 100 100 180 }
