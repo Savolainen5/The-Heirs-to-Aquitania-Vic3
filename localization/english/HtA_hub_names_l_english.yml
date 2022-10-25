@@ -1,5 +1,5 @@
 ﻿l_english:
- #North Ameriga -- Comments indicate the meaning and/or origin of the name, and when a place is references, it's a place that actually exists
+ #North Ameriga -- Comments indicate the meaning and/or origin of the name, and when a place is referenced, it's a place that actually exists
 
  HUB_NAME_STATE_SOLELHA_city: "Plasença" #Pleasance, name of a town in Gers
  HUB_NAME_STATE_SOLELHA_farm: "Najas" #Name of a town in Tarn
@@ -196,6 +196,12 @@
  HUB_NAME_STATE_NY_SLESVIG_mine: "Egedesborg" #Inspired by Hans Egede
  HUB_NAME_STATE_NY_SLESVIG_port: "Muslingbugt" #Clam bay, kind of a calque of the Mi'kmaq name for the place where Lunenberg was founded
  HUB_NAME_STATE_NY_SLESVIG_wood: "Griffenfeld" #Peder Schumacher, Count of Griffenfeld
+
+ HUB_NAME_STATE_THISLAND_city: "Ny Roskilde"
+ HUB_NAME_STATE_THISLAND_farm: "Bavunya" #Bad Danification of an Babhun Nua - New Bawn
+ HUB_NAME_STATE_THISLAND_mine: "Kilfinen" #Kilfinane in County Limerick
+ HUB_NAME_STATE_THISLAND_port: "Duvanfor" #Clumsy Danification of Dumhainphort - Deep Port
+ HUB_NAME_STATE_THISLAND_wood: "Cornamona" #Village on the center of the west coast of Ireland
 
  HUB_NAME_STATE_FREDERIKSLAND_city: "Ulvensflod" #Clumsy(?) calque of OTL Quebecois town of Riviere-du-Loup
  HUB_NAME_STATE_FREDERIKSLAND_farm: "Ahornsted" #Maple-place, essentially the calque of a similar community OTL

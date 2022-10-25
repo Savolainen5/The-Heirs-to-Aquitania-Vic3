@@ -1,1 +1,26 @@
-- Mokpo in SW Korea doesn't have a port anchor to connect to the sea node because I cannot for the life of me work out how to create a Type 1 anchor. If I could, its ID would be 69000 Type 1. I think there's another port somewhere in the world like that too.
+-[pdx_assert.cpp:612]: Assertion failed: Achievements not loaded correctly
+
+	This probably has something to do with the fact that I tried to disabled achievements completely
+
+
+
+-[jomini_script_system.cpp:262]: Script system error!
+  Error: create_state effect [ Province 'x8D2552' crossing multiple state regions ]
+  Script location: file: common/history/states/HtA_Europe.txt line: 143
+-[jomini_script_system.cpp:262]: Script system error!
+  Error: create_state effect [ Province 'x988C08' crossing multiple state regions ]
+  Script location: file: common/history/states/HtA_North_Africa.txt line: 23
+-[jomini_script_system.cpp:262]: Script system error!
+  Error: create_state effect [ Province 'x4C1EFA' crossing multiple state regions ]
+  Script location: file: common/history/states/HtA_North_Ameriga.txt line: 787
+
+	The game thinks these provinces are in different states in different files, but I've checked several times and they're not???
+
+
+-[pdx_assert.cpp:612]: Assertion failed: pCurIdler->GetApplication().GetCurrentIdlerType() == EJominiIdler::INGAME
+
+	No one seems to know what this is about
+
+
+Crash-causing bugs:
+- Trying to expand buildings from the Buildings menu by clicking the +

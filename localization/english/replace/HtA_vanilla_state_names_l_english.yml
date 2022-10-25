@@ -10,3 +10,12 @@
  STATE_SEOUL: "Hanyang"
  STATE_BUSAN: "Busan"
  STATE_SEA_OF_JAPAN: "East Sea"
+
+ #Aengland
+ STATE_WEST_COUNTRY: "Wessaxe"
+ STATE_HOME_COUNTIES: "Sudsaxe"
+ STATE_EAST_ANGLIA: "Essaxe"
+ STATE_MIDLANDS: "Mierce"
+ STATE_WALES: "Weales"
+ STATE_LANCASHIRE: "Combre"
+ STATE_YORKSHIRE: "Nordumbre"
