@@ -133,6 +133,161 @@ alban = {
 	}
 }
 
+anatolian={
+	color={ 170 20 120 }
+	religion = orthodox
+	traits = { roman_culture european_heritage }
+	
+	obsessions = {
+		wine
+	}	
+	
+	male_common_first_names={
+		Adamantios
+		Alexandros
+		Anastasios
+		Andreas
+		Antonios
+		Aristidis
+		Athanasios
+		Augustinos
+		Benizelos
+		Charalambos
+		Charilaos
+		Dimitrios
+		Diomidis
+		Eleftherios
+		Emmanouil
+		Epameinontas
+		Evripidis
+		Gennaios
+		Georgios
+		Ilias
+		Ionnis
+		Kitsos
+		Konstantinos
+		Kyriakos
+		Kyriakoulis
+		Leonidas
+		Makarios
+		Markos
+		Mikhael
+		Militiadis
+		Nikolaos
+		Odysseas
+		Othon
+		Panagiotis
+		Pavlos
+		Petros
+		Sofoklis
+		Sotiris
+		Spyridion
+		Spyros
+		Staikos
+		Stefanos
+		Stylianos
+		Tharyvoulos
+		Themistoklis
+		Theodoros
+		Tzannis
+		Vasos
+		Viktor
+		Zinovios
+	}
+	female_common_first_names = {
+		Alexandra
+		Anastasia
+		Angeliki
+		Anna
+		Aspasia
+		Diamantina
+		Ekaterini
+		Euphrosyne
+		Evanthia
+		Konstantina
+		Maria
+		Pipina
+		Rallou
+		Sevasti
+		Sophia
+		Soteria
+		Theodora
+	}	
+	noble_last_names = {
+		Christakis-Zografos
+		Diligiannis
+		Kalogera
+		Kapodistrias
+		Langouras
+		Levidis
+		Mavrocordatos
+		Mavromichalis
+		Metaxas
+		Mitsotakis
+		Mousouros
+		Rallis
+		Roufos
+		Skouzes
+		Theotokis
+		Trikoupis
+		Typaldos-Alfonsatos
+		Tzavaras
+		Venizelos
+		Zosimas
+	}
+	common_last_names={
+		Charalambis
+		Danglis
+		Dousmanis
+		Foumis
+		Gonatas
+		Hatzianestis
+		Kallergis
+		Kanaris
+		Katsimiros
+		Kolokotronis
+		Kondylis
+		Kountouriotis
+		Kriezis
+		Makriyannis
+		Manos
+		Mavrovouniotis
+		Mouskos
+		Nider
+		Othonaios
+		Palaskas
+		Pangalos
+		Papadiamantopoulos
+		Papadopoulos
+		Papagos
+		Papoulas
+		Parakevopouolos
+		Plapoutas
+		Plastiras
+		Sapountzakis
+		Sarafis
+		Smolenskis
+		Sofoulis
+		Soutsos
+		Spyromilios
+		Staikopoulos
+		Stanotas
+		Tsakalotos
+		Tsolakoglou
+		Tzavelas
+		Vassos
+		Voulgaris
+		Zaimis
+		Zymvrakakis
+		tes_Elladas
+	}
+	
+	graphics = european
+	ethnicities = {
+		1 = slavic
+	}
+}
+
 aquitanian={
 	color= { 174 99 202 } #<-- a bit more faded than this -->#{ 192 40 247 }
 	religion = catholic
@@ -225,6 +380,246 @@ aquitanian={
 		de_Mauguio
 	}	
 	
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+ashelasianer={
+	color= hsv{ 0 0.56 0.82 }
+	religion = protestant
+	traits = { scandinavian_culture_group european_heritage new_world_settler }
+	male_common_first_names={
+		Aage
+		Aasmund
+		Adam
+		Adrian
+		Alber
+		Alfred
+		Anders
+		Arne
+		Axel
+		Bernt
+		Birger
+		Bjorn
+		Carl
+		Caspar
+		Christian
+		Christopher
+		Cort
+		Dagfin
+		Edvard
+		Edvin
+		Einar
+		Elias
+		Emil
+		Erik
+		Folke
+		Frederik
+		Fredrik
+		Georg
+		Gerhard
+		Gustav
+		Haakon
+		Hannibal
+		Hans
+		Hans_Magne
+		Harald
+		Henrik
+		Herman
+		Hugo
+		Ivar
+		Jacob
+		Johan
+		Jorgen
+		Julius
+		Knud
+		Ludvig
+		Magne
+		Magnus
+		Michael
+		Niels
+		Nils
+		Ogmund
+		Olaf
+		Olav
+		Ole
+		Osvald
+		Otto
+		Peter
+		Poul
+		Sigurd
+		Sven
+		Tage
+		Thomas
+		Thorvald
+		Ukrik
+		Valdemar
+		Vilhelm
+	}
+	female_common_first_names = {
+		Alette
+		Alvide
+		Amalie
+		Anna
+		Annestine
+		Augusta
+		Barbara
+		Birgitte
+		Camilla
+		Caroline
+		Catharina
+		Catharine
+		Charlotte
+		Christiane
+		Conradine
+		Dagmar
+		Dorothea
+		Eleonore
+		Elisabeth
+		Elise
+		Frederikke
+		Gustava
+		Hanna
+		Hendrikke
+		Hermana
+		Hilchen
+		Irene
+		Jacobine
+		Jensine
+		Josephine
+		Karen
+		Louise
+		Lucia
+		Maren
+		Margrethe
+		Marie
+		Nicoline
+		Petrine
+		Ragnhild
+		Regine
+		Sanna
+		Sara
+		Sophie
+		Susanne
+		Thyra
+		Ulrikke
+		Vilhelmine
+	}	
+	noble_last_names = {
+		af_Danneskiold-Samsoe
+		Anker
+		Bagge
+		Barnekow
+		Benkestok
+		Bernstorff
+		Bjelke
+		Brock
+		Brodtkorb
+		de_Neergaard
+		de_Tonsberg
+		Gyldenkrantz
+		Gyldenstierne 
+		Kaas
+		Kane
+		Knagenhjelm
+		Lovenskiold
+		Reventlow
+		Rosenkrantz
+		Rosenvinge
+		Skanke
+		Steenstrup
+		Trampe
+		Treschow
+		Trolle
+		Valkendorf
+		Vogelius
+		von_Baudissin
+		von_Falkenskiold 
+		von_Klenow
+		von_Krogh
+		von_Sievers
+		Wedel-Jarlsberg
+		Werenskiold
+		Wichfeld
+	}
+	common_last_names={
+		Adeler
+		Ahlefeldt
+		Asp-Persson
+		Balchen
+		Bang
+		Berg
+		Berger
+		Bloch
+		Bonde
+		Borresen
+		Bratzland
+		Brentzon
+		Carlsen
+		Christiansen
+		Dannemand
+		Danneskjold-Samso
+		de_Meza
+		Dhal
+		Eberlin
+		Egge
+		Falsen
+		Fleicher
+		Folsach
+		Frisvold
+		Gundersen
+		Guntelberg
+		Gyldenfeldt
+		Haack
+		Hakonarson
+		Hambro
+		Hansen
+		Haxthausen
+		Hund
+		Jaatun
+		Jensen
+		Johansen
+		Juul
+		Kaldager
+		Karlsen
+		Klauman
+		Konow
+		Krogh
+		Laessoe
+		Lambrechts
+		Larsen
+		Leuenbach
+		Lie
+		Lovenbalk
+		Michaelsen
+		Morgenstierne
+		Munthe
+		Mylius
+		Neergaard
+		Nilsen
+		Obelitz
+		Oxholm
+		Pettersen
+		Rye
+		Schack-Schackenborg
+		Sissener
+		Skjalgsson
+		Stemman
+		Suenson
+		Tambarskjelve
+		Thygeson
+		Trampe
+		Urne
+		Wadenstierna
+		Wedel-Heinen
+		Wiborg
+		With
+		Zeiner-Gundersen
+		Zwilgmeyer
+		Zytphen-Adeler
+	}
 	graphics = european
 	ethnicities = {
 		1 = caucasian
@@ -377,6 +772,53 @@ coluan={
 	}
 }
 
+chinook={ # copied from salish, sorry
+	color= hsv{ 0.85 0.37 0.52 }
+	religion = animist
+	traits = { indigenous_american_heritage north_american_group }
+	male_common_first_names={
+		Cumshewa
+		Cuneah
+		Dah-egin
+		Gush_X-een
+		Guujaaw
+		Hluugitgaa
+		Masset
+		Ninstints
+		Skaay
+		Skidegate
+		Tahaygen
+		Wiisheyksh
+		Xhuuyaa
+	}
+	female_common_first_names = {
+		Ansnaq
+		Jadal_q-eganga
+		Kung_Jaadee
+		Kwiigeliones
+		K-woiyang
+		Qawkuna
+		Skil_Kew_Wat
+	}	
+	noble_last_names = {
+		Gispwudwada
+		Idinsaw
+		Taantakwaan
+		Y-akwa-lanas
+	}
+	common_last_names={
+		Daaxan
+		Hak
+		Ni-isyuus
+		Psday
+		Yahgulanaas
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
 cruzan={ #Spanish Cruceño after the defunct colonial region of la Tierra de la Santa Cruz
 	color= { 224 232 116 }
 	religion = catholic
@@ -490,6 +932,161 @@ eirean={
 	graphics = european
 	ethnicities = {
 		1 = caucasian
+	}
+}
+
+hellene={
+	color={ 200 50 100 }
+	religion = orthodox
+	traits = { roman_culture european_heritage }
+	
+	obsessions = {
+		wine
+	}	
+	
+	male_common_first_names={
+		Adamantios
+		Alexandros
+		Anastasios
+		Andreas
+		Antonios
+		Aristidis
+		Athanasios
+		Augustinos
+		Benizelos
+		Charalambos
+		Charilaos
+		Dimitrios
+		Diomidis
+		Eleftherios
+		Emmanouil
+		Epameinontas
+		Evripidis
+		Gennaios
+		Georgios
+		Ilias
+		Ionnis
+		Kitsos
+		Konstantinos
+		Kyriakos
+		Kyriakoulis
+		Leonidas
+		Makarios
+		Markos
+		Mikhael
+		Militiadis
+		Nikolaos
+		Odysseas
+		Othon
+		Panagiotis
+		Pavlos
+		Petros
+		Sofoklis
+		Sotiris
+		Spyridion
+		Spyros
+		Staikos
+		Stefanos
+		Stylianos
+		Tharyvoulos
+		Themistoklis
+		Theodoros
+		Tzannis
+		Vasos
+		Viktor
+		Zinovios
+	}
+	female_common_first_names = {
+		Alexandra
+		Anastasia
+		Angeliki
+		Anna
+		Aspasia
+		Diamantina
+		Ekaterini
+		Euphrosyne
+		Evanthia
+		Konstantina
+		Maria
+		Pipina
+		Rallou
+		Sevasti
+		Sophia
+		Soteria
+		Theodora
+	}	
+	noble_last_names = {
+		Christakis-Zografos
+		Diligiannis
+		Kalogera
+		Kapodistrias
+		Langouras
+		Levidis
+		Mavrocordatos
+		Mavromichalis
+		Metaxas
+		Mitsotakis
+		Mousouros
+		Rallis
+		Roufos
+		Skouzes
+		Theotokis
+		Trikoupis
+		Typaldos-Alfonsatos
+		Tzavaras
+		Venizelos
+		Zosimas
+	}
+	common_last_names={
+		Charalambis
+		Danglis
+		Dousmanis
+		Foumis
+		Gonatas
+		Hatzianestis
+		Kallergis
+		Kanaris
+		Katsimiros
+		Kolokotronis
+		Kondylis
+		Kountouriotis
+		Kriezis
+		Makriyannis
+		Manos
+		Mavrovouniotis
+		Mouskos
+		Nider
+		Othonaios
+		Palaskas
+		Pangalos
+		Papadiamantopoulos
+		Papadopoulos
+		Papagos
+		Papoulas
+		Parakevopouolos
+		Plapoutas
+		Plastiras
+		Sapountzakis
+		Sarafis
+		Smolenskis
+		Sofoulis
+		Soutsos
+		Spyromilios
+		Staikopoulos
+		Stanotas
+		Tsakalotos
+		Tsolakoglou
+		Tzavelas
+		Vassos
+		Voulgaris
+		Zaimis
+		Zymvrakakis
+		tes_Elladas
+	}
+	
+	graphics = european
+	ethnicities = {
+		1 = slavic
 	}
 }
 
@@ -728,6 +1325,410 @@ hispanian={
 	ethnicities = {
 		1 = caucasian
 	}
+}
+
+klamath={ # copied from salish, sorry
+	color= hsv{ 0.85 0.37 0.52 }
+	religion = animist
+	traits = { indigenous_american_heritage north_american_group }
+	male_common_first_names={
+		Cumshewa
+		Cuneah
+		Dah-egin
+		Gush_X-een
+		Guujaaw
+		Hluugitgaa
+		Masset
+		Ninstints
+		Skaay
+		Skidegate
+		Tahaygen
+		Wiisheyksh
+		Xhuuyaa
+	}
+	female_common_first_names = {
+		Ansnaq
+		Jadal_q-eganga
+		Kung_Jaadee
+		Kwiigeliones
+		K-woiyang
+		Qawkuna
+		Skil_Kew_Wat
+	}	
+	noble_last_names = {
+		Gispwudwada
+		Idinsaw
+		Taantakwaan
+		Y-akwa-lanas
+	}
+	common_last_names={
+		Daaxan
+		Hak
+		Ni-isyuus
+		Psday
+		Yahgulanaas
+	}
+	ethnicities = {
+		1 = native_american
+	}
+	graphics = generic
+}
+
+korean={
+	color= hsv{ 0.17 0.41 0.34 }
+	religion = mahayana
+	traits = { korean_language east_asian_heritage }
+	male_common_first_names={
+		Bak Bong-haek
+		Gu
+		Han Heogak Heon-gyo Hong
+		Jeong Jeongil Jo
+		Jwa-chin
+		Kwon
+		Geun
+		Ok
+		Sang-ok Sang-yong Sim
+		Yi Yun
+	}
+	female_common_first_names = {
+		Du-seon
+		Hwahyeop
+		Seonhui Sinjeong Sunghee
+		Yeongsu Yunji
+		Yong-sun
+	}
+	male_noble_first_names = {
+		Bang-bo Byung-guk Byung-hak Byung-si
+		Ung
+		Don-in Du-seon
+		Ha-eung Hong-jip Hunggun
+		Gyu-ho
+		In-young
+		Jeong-hui Jin Jo-sun Jung-yang Jwa-geun
+		Kyung-jae
+		Sang-hwan Sun-mok Sung-taek
+		Won-yong Yu-won
+		Yong-su
+	}
+	male_regal_first_names = {
+		Byeon
+		Cheok
+		Geum Gong
+		Hui Hwan
+		Myeong-bok
+		San
+	}
+	female_regal_first_names = {
+		Ja-yeong Jeungsun
+		Hyoyu
+		Ok-jeong
+	}
+
+	noble_last_names = {
+		Bak
+		Chang Choe
+		Gang Gim Gwon
+		Han Hong
+		Jo
+		Kim Ko
+		Min Moon
+		Na Namgung
+		Park
+		Shin Seong Seok Song
+		Won
+		Yi
+	}
+	common_last_names={
+		Bo
+		Ch_ok #Weird
+		Chung
+		Guk #Weird
+		Gyu #Weird
+		Haung
+		Hu Hwan Hyong #all three weird or even maybe impossible today
+		Im
+		Jip #could be a given name
+		Mok
+		Seo Seon Sun
+		Shinjong #Weird, given name
+		Si 
+		Taek #Very given namey
+		Yong #Weird
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}
+
+krivian={ #Latvian and Lithuanian combined, plus (to be added) a Slavic naming twist
+	color = { 125 150 150 }
+	religion = protestant
+	traits = { baltic_culture_group european_heritage }
+	male_common_first_names={
+		Aaron
+		Abrams
+		Adolfas
+		Alberts
+		Aleksandras
+		Aleksandrs
+		Algirdas
+		Aloisz
+		Andrejs
+		Andrius
+		Antanas
+		Arkadij
+		Armands
+		Arnolds
+		Arturas
+		Arunas
+		Atis
+		Augustinas
+		Balys
+		Boris
+		Bronislovas
+		Brunis
+		Bruno
+		Danielius
+		Darius
+		Eduards
+		Eliass
+		Elmars
+		Emils
+		Evgenijs
+		Filips
+		Fricis
+		Gendiminas
+		Gustavs
+		Heinrihs
+		Henrikas
+		Hermanis
+		Izaks
+		Janis
+		Jazeps
+		Jekabs
+		Johans
+		Jonas
+		Jonusas
+		Juozas
+		Juras
+		Jurgis
+		Juris
+		Justas
+		Karlis
+		Kazimieras
+		Kazys
+		Kipras
+		Konstantinas
+		Krisjanis
+		Leo
+		Lukas
+		Marijus
+		Mark
+		Markas
+		Martins
+		Mihails
+		Mikalojus
+		Mikelis
+		Mindaugas
+		Motejus
+		Mykolas
+		Nikolajs
+		Oskars
+		Paulius
+		Pauls
+		Peteris
+		Petras
+		Povilas
+		Ramunas
+		Rihards
+		Ringaudas
+		Roberts
+		Rolandas
+		Romans
+		Sandis
+		Sergejs
+		Simonas
+		Stasys
+		Steponas
+		Tadas
+		Valdas
+		Valdemaras
+		Valdemars
+		Valerians
+		Valter
+		Viktoras
+		Vilhelmas
+		Vilis
+		Visvaldas
+		Vladimiras
+		Vladimirs
+		Vygantas
+		Vytautas
+		Zigfrids
+		Zydrunas
+	}
+	female_common_first_names = {
+		Amida
+		Antonija 
+		Aurelija
+		Benigna
+		Berta
+		Birute
+		Dalia
+		Diana
+		Edita
+		Elena
+		Elfriede 
+		Elza 
+		Emilija
+		Emma
+		Gabriele
+		Ieva
+		Inguna
+		Johanna
+		Julija
+		Justina
+		Karoline
+		Klara
+		Lidija
+		Lizete
+		Magda
+		Marija
+		Marta
+		Matilde
+		Meilute
+		Miriam
+		Ona
+		Regina
+		Roze
+		Salomeja
+		Sofija
+	}	
+	noble_last_names = {
+		Cartoriskis
+		Glinskis
+		Gostautas
+		Kallaur
+		Kosakovskis
+		Krek
+		Krupskis
+		Manvydas
+		Oginskis
+		Ostrogiskis
+		Pacas
+		Penikis
+		Plater
+		Plavins
+		Stasjevicis
+		Tiskevicis
+		Tontegode
+		Tyzenhauzas
+		Visnioveckis
+		von_Knabenau
+		von_Lieven
+		von_Mengden
+		von_Plettenberg
+		von_Stamm
+		von_Wolff
+	}
+	common_last_names={
+		Abakovskis
+		Adamkus
+		Almenas
+		Apsenieks
+		Avizienis
+		Balodis
+		Baltrusaitis
+		Basanavicius
+		Baumanis
+		Berkis
+		Berzin
+		Betins
+		Birutis
+		Bradziunas
+		Braons
+		Brazauskas
+		Buga
+		Caks
+		Cakste
+		Caps
+		Celmins
+		Ciurlionis
+		Dalins
+		Dambitis
+		Danauskas
+		Darzins
+		Daukantas
+		Dauksa
+		Dobkevicius
+		Dubeneckis
+		Dvarionas
+		Galdikas
+		Goppers
+		Grinius
+		Griskevicius
+		Halsmans
+		Irbitis
+		Ivanauskas
+		Jablonskis
+		Jucys
+		Kalnins
+		Kalpaks
+		Kovalevskis
+		Krogzems
+		Kronvalds
+		Krupavicius
+		Kucis
+		Kuks
+		Kviesis
+		Lacis
+		Leiko
+		Loskis
+		Lozoraitis
+		Maters
+		Meierovics
+		Merkys
+		Milenbahs
+		Needra
+		Ozolins
+		Paksas
+		Paleckis
+		Paulauskas
+		Petrauskas
+		Piskarkas
+		Plieksans
+		Pozela
+		Pumpurs
+		Rothko
+		Sabaniauskas
+		Schatz
+		Semtona
+		Simanis
+		Simonavicius
+		Sirvydas
+		Slezevicius
+		Snieckus
+		Stauaitis
+		Straizys
+		Stucka
+		Stulginkis
+		Svedas
+		Terleckas
+		Tumins
+		Ulmanis
+		Urbsys
+		Vagnorius
+		Valeska
+		Veidenbaums
+		Voldemaras
+		Zemaitis
+		Zuokas
+	}
+	ethnicities = {
+		1 = slavic
+	}
+	graphics = european
 }
 
 logrish={
@@ -1518,320 +2519,11 @@ roman={
 	
 	graphics = european
 	ethnicities = {
-		1 = eth_placeholder
+		1 = slavic
 	}
 }
 
-anatolian={
-	color={ 170 20 120 }
-	religion = orthodox
-	traits = { roman_culture european_heritage }
-	
-	obsessions = {
-		wine
-	}	
-	
-	male_common_first_names={
-		Adamantios
-		Alexandros
-		Anastasios
-		Andreas
-		Antonios
-		Aristidis
-		Athanasios
-		Augustinos
-		Benizelos
-		Charalambos
-		Charilaos
-		Dimitrios
-		Diomidis
-		Eleftherios
-		Emmanouil
-		Epameinontas
-		Evripidis
-		Gennaios
-		Georgios
-		Ilias
-		Ionnis
-		Kitsos
-		Konstantinos
-		Kyriakos
-		Kyriakoulis
-		Leonidas
-		Makarios
-		Markos
-		Mikhael
-		Militiadis
-		Nikolaos
-		Odysseas
-		Othon
-		Panagiotis
-		Pavlos
-		Petros
-		Sofoklis
-		Sotiris
-		Spyridion
-		Spyros
-		Staikos
-		Stefanos
-		Stylianos
-		Tharyvoulos
-		Themistoklis
-		Theodoros
-		Tzannis
-		Vasos
-		Viktor
-		Zinovios
-	}
-	female_common_first_names = {
-		Alexandra
-		Anastasia
-		Angeliki
-		Anna
-		Aspasia
-		Diamantina
-		Ekaterini
-		Euphrosyne
-		Evanthia
-		Konstantina
-		Maria
-		Pipina
-		Rallou
-		Sevasti
-		Sophia
-		Soteria
-		Theodora
-	}	
-	noble_last_names = {
-		Christakis-Zografos
-		Diligiannis
-		Kalogera
-		Kapodistrias
-		Langouras
-		Levidis
-		Mavrocordatos
-		Mavromichalis
-		Metaxas
-		Mitsotakis
-		Mousouros
-		Rallis
-		Roufos
-		Skouzes
-		Theotokis
-		Trikoupis
-		Typaldos-Alfonsatos
-		Tzavaras
-		Venizelos
-		Zosimas
-	}
-	common_last_names={
-		Charalambis
-		Danglis
-		Dousmanis
-		Foumis
-		Gonatas
-		Hatzianestis
-		Kallergis
-		Kanaris
-		Katsimiros
-		Kolokotronis
-		Kondylis
-		Kountouriotis
-		Kriezis
-		Makriyannis
-		Manos
-		Mavrovouniotis
-		Mouskos
-		Nider
-		Othonaios
-		Palaskas
-		Pangalos
-		Papadiamantopoulos
-		Papadopoulos
-		Papagos
-		Papoulas
-		Parakevopouolos
-		Plapoutas
-		Plastiras
-		Sapountzakis
-		Sarafis
-		Smolenskis
-		Sofoulis
-		Soutsos
-		Spyromilios
-		Staikopoulos
-		Stanotas
-		Tsakalotos
-		Tsolakoglou
-		Tzavelas
-		Vassos
-		Voulgaris
-		Zaimis
-		Zymvrakakis
-		tes_Elladas
-	}
-	
-	graphics = european
-	ethnicities = {
-		1 = eth_placeholder
-	}
-}
-
-hellene={
-	color={ 200 50 100 }
-	religion = orthodox
-	traits = { roman_culture european_heritage }
-	
-	obsessions = {
-		wine
-	}	
-	
-	male_common_first_names={
-		Adamantios
-		Alexandros
-		Anastasios
-		Andreas
-		Antonios
-		Aristidis
-		Athanasios
-		Augustinos
-		Benizelos
-		Charalambos
-		Charilaos
-		Dimitrios
-		Diomidis
-		Eleftherios
-		Emmanouil
-		Epameinontas
-		Evripidis
-		Gennaios
-		Georgios
-		Ilias
-		Ionnis
-		Kitsos
-		Konstantinos
-		Kyriakos
-		Kyriakoulis
-		Leonidas
-		Makarios
-		Markos
-		Mikhael
-		Militiadis
-		Nikolaos
-		Odysseas
-		Othon
-		Panagiotis
-		Pavlos
-		Petros
-		Sofoklis
-		Sotiris
-		Spyridion
-		Spyros
-		Staikos
-		Stefanos
-		Stylianos
-		Tharyvoulos
-		Themistoklis
-		Theodoros
-		Tzannis
-		Vasos
-		Viktor
-		Zinovios
-	}
-	female_common_first_names = {
-		Alexandra
-		Anastasia
-		Angeliki
-		Anna
-		Aspasia
-		Diamantina
-		Ekaterini
-		Euphrosyne
-		Evanthia
-		Konstantina
-		Maria
-		Pipina
-		Rallou
-		Sevasti
-		Sophia
-		Soteria
-		Theodora
-	}	
-	noble_last_names = {
-		Christakis-Zografos
-		Diligiannis
-		Kalogera
-		Kapodistrias
-		Langouras
-		Levidis
-		Mavrocordatos
-		Mavromichalis
-		Metaxas
-		Mitsotakis
-		Mousouros
-		Rallis
-		Roufos
-		Skouzes
-		Theotokis
-		Trikoupis
-		Typaldos-Alfonsatos
-		Tzavaras
-		Venizelos
-		Zosimas
-	}
-	common_last_names={
-		Charalambis
-		Danglis
-		Dousmanis
-		Foumis
-		Gonatas
-		Hatzianestis
-		Kallergis
-		Kanaris
-		Katsimiros
-		Kolokotronis
-		Kondylis
-		Kountouriotis
-		Kriezis
-		Makriyannis
-		Manos
-		Mavrovouniotis
-		Mouskos
-		Nider
-		Othonaios
-		Palaskas
-		Pangalos
-		Papadiamantopoulos
-		Papadopoulos
-		Papagos
-		Papoulas
-		Parakevopouolos
-		Plapoutas
-		Plastiras
-		Sapountzakis
-		Sarafis
-		Smolenskis
-		Sofoulis
-		Soutsos
-		Spyromilios
-		Staikopoulos
-		Stanotas
-		Tsakalotos
-		Tsolakoglou
-		Tzavelas
-		Vassos
-		Voulgaris
-		Zaimis
-		Zymvrakakis
-		tes_Elladas
-	}
-	
-	graphics = european
-	ethnicities = {
-		1 = eth_placeholder
-	}
-}
-tourki={
+tourki={ #Hellenized Turks, names need improvement
 	color= hsv{ 0.99 0.48 0.80 }
 	religion = orthodox
 	traits = { turkic middle_eastern_heritage }
@@ -1985,362 +2677,7 @@ tourki={
 	graphics = mideast_indian
 }
 
-krivian={ #Latvian and Lithuanian combined, plus (to be added) a Slavic naming twist
-	color = { 125 150 150 }
-	religion = protestant
-	traits = { baltic_culture_group european_heritage }
-	male_common_first_names={
-		Aaron
-		Abrams
-		Adolfas
-		Alberts
-		Aleksandras
-		Aleksandrs
-		Algirdas
-		Aloisz
-		Andrejs
-		Andrius
-		Antanas
-		Arkadij
-		Armands
-		Arnolds
-		Arturas
-		Arunas
-		Atis
-		Augustinas
-		Balys
-		Boris
-		Bronislovas
-		Brunis
-		Bruno
-		Danielius
-		Darius
-		Eduards
-		Eliass
-		Elmars
-		Emils
-		Evgenijs
-		Filips
-		Fricis
-		Gendiminas
-		Gustavs
-		Heinrihs
-		Henrikas
-		Hermanis
-		Izaks
-		Janis
-		Jazeps
-		Jekabs
-		Johans
-		Jonas
-		Jonusas
-		Juozas
-		Juras
-		Jurgis
-		Juris
-		Justas
-		Karlis
-		Kazimieras
-		Kazys
-		Kipras
-		Konstantinas
-		Krisjanis
-		Leo
-		Lukas
-		Marijus
-		Mark
-		Markas
-		Martins
-		Mihails
-		Mikalojus
-		Mikelis
-		Mindaugas
-		Motejus
-		Mykolas
-		Nikolajs
-		Oskars
-		Paulius
-		Pauls
-		Peteris
-		Petras
-		Povilas
-		Ramunas
-		Rihards
-		Ringaudas
-		Roberts
-		Rolandas
-		Romans
-		Sandis
-		Sergejs
-		Simonas
-		Stasys
-		Steponas
-		Tadas
-		Valdas
-		Valdemaras
-		Valdemars
-		Valerians
-		Valter
-		Viktoras
-		Vilhelmas
-		Vilis
-		Visvaldas
-		Vladimiras
-		Vladimirs
-		Vygantas
-		Vytautas
-		Zigfrids
-		Zydrunas
-	}
-	female_common_first_names = {
-		Amida
-		Antonija 
-		Aurelija
-		Benigna
-		Berta
-		Birute
-		Dalia
-		Diana
-		Edita
-		Elena
-		Elfriede 
-		Elza 
-		Emilija
-		Emma
-		Gabriele
-		Ieva
-		Inguna
-		Johanna
-		Julija
-		Justina
-		Karoline
-		Klara
-		Lidija
-		Lizete
-		Magda
-		Marija
-		Marta
-		Matilde
-		Meilute
-		Miriam
-		Ona
-		Regina
-		Roze
-		Salomeja
-		Sofija
-	}	
-	noble_last_names = {
-		Cartoriskis
-		Glinskis
-		Gostautas
-		Kallaur
-		Kosakovskis
-		Krek
-		Krupskis
-		Manvydas
-		Oginskis
-		Ostrogiskis
-		Pacas
-		Penikis
-		Plater
-		Plavins
-		Stasjevicis
-		Tiskevicis
-		Tontegode
-		Tyzenhauzas
-		Visnioveckis
-		von_Knabenau
-		von_Lieven
-		von_Mengden
-		von_Plettenberg
-		von_Stamm
-		von_Wolff
-	}
-	common_last_names={
-		Abakovskis
-		Adamkus
-		Almenas
-		Apsenieks
-		Avizienis
-		Balodis
-		Baltrusaitis
-		Basanavicius
-		Baumanis
-		Berkis
-		Berzin
-		Betins
-		Birutis
-		Bradziunas
-		Braons
-		Brazauskas
-		Buga
-		Caks
-		Cakste
-		Caps
-		Celmins
-		Ciurlionis
-		Dalins
-		Dambitis
-		Danauskas
-		Darzins
-		Daukantas
-		Dauksa
-		Dobkevicius
-		Dubeneckis
-		Dvarionas
-		Galdikas
-		Goppers
-		Grinius
-		Griskevicius
-		Halsmans
-		Irbitis
-		Ivanauskas
-		Jablonskis
-		Jucys
-		Kalnins
-		Kalpaks
-		Kovalevskis
-		Krogzems
-		Kronvalds
-		Krupavicius
-		Kucis
-		Kuks
-		Kviesis
-		Lacis
-		Leiko
-		Loskis
-		Lozoraitis
-		Maters
-		Meierovics
-		Merkys
-		Milenbahs
-		Needra
-		Ozolins
-		Paksas
-		Paleckis
-		Paulauskas
-		Petrauskas
-		Piskarkas
-		Plieksans
-		Pozela
-		Pumpurs
-		Rothko
-		Sabaniauskas
-		Schatz
-		Semtona
-		Simanis
-		Simonavicius
-		Sirvydas
-		Slezevicius
-		Snieckus
-		Stauaitis
-		Straizys
-		Stucka
-		Stulginkis
-		Svedas
-		Terleckas
-		Tumins
-		Ulmanis
-		Urbsys
-		Vagnorius
-		Valeska
-		Veidenbaums
-		Voldemaras
-		Zemaitis
-		Zuokas
-	}
-	ethnicities = {
-		1 = slavic
-	}
-	graphics = european
-}
 
-korean={
-	color= hsv{ 0.17 0.41 0.34 }
-	religion = mahayana
-	traits = { korean_language east_asian_heritage }
-	male_common_first_names={
-		Bak Bong-haek
-		Gu
-		Han Heogak Heon-gyo Hong
-		Jeong Jeongil Jo
-		Jwa-chin
-		Kwon
-		Geun
-		Ok
-		Sang-ok Sang-yong Sim
-		Yi Yun
-	}
-	female_common_first_names = {
-		Du-seon
-		Hwahyeop
-		Seonhui Sinjeong Sunghee
-		Yeongsu Yunji
-		Yong-sun
-	}
-	male_noble_first_names = {
-		Bang-bo Byung-guk Byung-hak Byung-si
-		Ung
-		Don-in Du-seon
-		Ha-eung Hong-jip Hunggun
-		Gyu-ho
-		In-young
-		Jeong-hui Jin Jo-sun Jung-yang Jwa-geun
-		Kyung-jae
-		Sang-hwan Sun-mok Sung-taek
-		Won-yong Yu-won
-		Yong-su
-	}
-	male_regal_first_names = {
-		Byeon
-		Cheok
-		Geum Gong
-		Hui Hwan
-		Myeong-bok
-		San
-	}
-	female_regal_first_names = {
-		Ja-yeong Jeungsun
-		Hyoyu
-		Ok-jeong
-	}
-
-	noble_last_names = {
-		Bak
-		Chang Choe
-		Gang Gim Gwon
-		Han Hong
-		Jo
-		Kim Ko
-		Min Moon
-		Na Namgung
-		Park
-		Shin Seong Seok Song
-		Won
-		Yi
-	}
-	common_last_names={
-		Bo
-		Ch_ok #Weird
-		Chung
-		Guk #Weird
-		Gyu #Weird
-		Haung
-		Hu Hwan Hyong #all three weird or even maybe impossible today
-		Im
-		Jip #could be a given name
-		Mok
-		Seo Seon Sun
-		Shinjong #Weird, given name
-		Si 
-		Taek #Very given namey
-		Yong #Weird
-	}
-	ethnicities = {
-		1 = asian
-	}
-	graphics = asian
-}
 
 semian={ #Latvian and Lithuanian combined
 	color = { 100 100 180 }
@@ -2670,6 +3007,156 @@ shoshone={ #Split from vanilla Paiute
 	}
 	graphics = generic
 }
+
+steenkooler={
+	color= rgb{ 205 181 102 }
+	religion = protestant
+	traits = { german_speaking european_heritage }
+	male_common_first_names={
+		Adelbert
+		Adolf
+		Albrecht
+		Alexander
+		Alfred
+		August
+		Bernhard
+		Burkhard
+		Dieter
+		Eduard
+		Edwin
+		Erich
+		Ernst
+		Erwin
+		Florian
+		Franz
+		Friedrich
+		Fritz
+		Georg
+		Gustav
+		Gunther
+		Hasso
+		Heinrich
+		Helmuth
+		Hermann
+		Hugo
+		Joachim
+		Johann
+		Jurgen
+		Karl
+		Konrad
+		Leonhard
+		Leopold
+		Ludwig
+		Lukas
+		Manfred
+		Maximilian
+		Markus
+		Michael
+		Nikolaus
+		Otto
+		Pascal
+		Paul
+		Peter
+		Reinhard
+		Rudolf
+		Ruprecht
+		Stefan
+		Theodor
+		Wilhelm
+		Wolfgang
+	}
+	female_common_first_names = {
+		Adelheid Armgard Adolphine Albertine Anna Amalie Anna_Dorothea Anna_Sophia Anna_Erika Aurora Agnes
+		Beatrix
+		Charlotte Cecilia Caroline Christina Clara
+		Dorothea_Sophia Dorothea
+		Elisabeth Erika
+		Friederike 
+		Hilda Henriette Hedwig
+		Ingeborg
+		Julia Johanna
+		Luise
+		Mathilde Margarethe Maria Marie_Elisabeth Magdalene
+		Sigrid Sophie Sophie_Albertine
+		Therese
+		Viktoria
+	}
+	common_last_names={
+		Abegg
+		Anger
+		Arendt
+		Behncke
+		Boermel
+		Borsig
+		Brill
+		Brommy
+		Clebsch
+		Cordemann
+		Culemeyer
+		Dahlmann
+		Dieffenbach
+		Diestel
+		Dreyer
+		Droste
+		Depre
+		Ehlert
+		Eichelbaum
+		Feyerabend
+		Fritsch
+		Garbe
+		Gerlach
+		Gloger
+		Goerdeler
+		Goetz
+		Grebe
+		Groener
+		Groth
+		Hagen
+		Harkort
+		Harych
+		Hassenpflug
+		Heppendorf
+		Hirschfeld
+		Hoffmann
+		Hubatsch
+		Jastrow
+		Johow
+		Katz
+		Kempner
+		Kirchweger
+		Koffka
+		Krohn
+		Krummnow
+		Lasker
+		Leistikow
+		Leonhardt
+		Ludendorff
+		Lehmkuhl
+		Olbers
+		Mittwoch
+		Moll
+		Peiser
+		Rehfisch
+		Roepke
+		Scherfke
+		Schimmelfennig
+		Schmidt
+		Schree
+		Schurz
+		Treibe
+		Umbscheiden
+		Weydemeyer
+		Wittfeld
+		Woehlert
+		Zerrahn
+	}
+
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
 ute={ #Split from vanilla Paiute
 	color= hsv{ 0.18 0.19 0.30 }
 	religion = animist
@@ -2727,336 +3214,4 @@ ute={ #Split from vanilla Paiute
 		1 = native_american
 	}
 	graphics = generic
-}
-chinook={ # copied from salish, sorry
-	color= hsv{ 0.85 0.37 0.52 }
-	religion = animist
-	traits = { indigenous_american_heritage north_american_group }
-	male_common_first_names={
-		Cumshewa
-		Cuneah
-		Dah-egin
-		Gush_X-een
-		Guujaaw
-		Hluugitgaa
-		Masset
-		Ninstints
-		Skaay
-		Skidegate
-		Tahaygen
-		Wiisheyksh
-		Xhuuyaa
-	}
-	female_common_first_names = {
-		Ansnaq
-		Jadal_q-eganga
-		Kung_Jaadee
-		Kwiigeliones
-		K-woiyang
-		Qawkuna
-		Skil_Kew_Wat
-	}	
-	noble_last_names = {
-		Gispwudwada
-		Idinsaw
-		Taantakwaan
-		Y-akwa-lanas
-	}
-	common_last_names={
-		Daaxan
-		Hak
-		Ni-isyuus
-		Psday
-		Yahgulanaas
-	}
-	ethnicities = {
-		1 = native_american
-	}
-	graphics = generic
-}
-
-klamath={ # copied from salish, sorry
-	color= hsv{ 0.85 0.37 0.52 }
-	religion = animist
-	traits = { indigenous_american_heritage north_american_group }
-	male_common_first_names={
-		Cumshewa
-		Cuneah
-		Dah-egin
-		Gush_X-een
-		Guujaaw
-		Hluugitgaa
-		Masset
-		Ninstints
-		Skaay
-		Skidegate
-		Tahaygen
-		Wiisheyksh
-		Xhuuyaa
-	}
-	female_common_first_names = {
-		Ansnaq
-		Jadal_q-eganga
-		Kung_Jaadee
-		Kwiigeliones
-		K-woiyang
-		Qawkuna
-		Skil_Kew_Wat
-	}	
-	noble_last_names = {
-		Gispwudwada
-		Idinsaw
-		Taantakwaan
-		Y-akwa-lanas
-	}
-	common_last_names={
-		Daaxan
-		Hak
-		Ni-isyuus
-		Psday
-		Yahgulanaas
-	}
-	ethnicities = {
-		1 = native_american
-	}
-	graphics = generic
-}
-ashelasianer={
-	color= hsv{ 0 0.56 0.82 }
-	religion = protestant
-	traits = { scandinavian_culture_group european_heritage new_world_settler }
-	male_common_first_names={
-		Aage
-		Aasmund
-		Adam
-		Adrian
-		Alber
-		Alfred
-		Anders
-		Arne
-		Axel
-		Bernt
-		Birger
-		Bjorn
-		Carl
-		Caspar
-		Christian
-		Christopher
-		Cort
-		Dagfin
-		Edvard
-		Edvin
-		Einar
-		Elias
-		Emil
-		Erik
-		Folke
-		Frederik
-		Fredrik
-		Georg
-		Gerhard
-		Gustav
-		Haakon
-		Hannibal
-		Hans
-		Hans_Magne
-		Harald
-		Henrik
-		Herman
-		Hugo
-		Ivar
-		Jacob
-		Johan
-		Jorgen
-		Julius
-		Knud
-		Ludvig
-		Magne
-		Magnus
-		Michael
-		Niels
-		Nils
-		Ogmund
-		Olaf
-		Olav
-		Ole
-		Osvald
-		Otto
-		Peter
-		Poul
-		Sigurd
-		Sven
-		Tage
-		Thomas
-		Thorvald
-		Ukrik
-		Valdemar
-		Vilhelm
-	}
-	female_common_first_names = {
-		Alette
-		Alvide
-		Amalie
-		Anna
-		Annestine
-		Augusta
-		Barbara
-		Birgitte
-		Camilla
-		Caroline
-		Catharina
-		Catharine
-		Charlotte
-		Christiane
-		Conradine
-		Dagmar
-		Dorothea
-		Eleonore
-		Elisabeth
-		Elise
-		Frederikke
-		Gustava
-		Hanna
-		Hendrikke
-		Hermana
-		Hilchen
-		Irene
-		Jacobine
-		Jensine
-		Josephine
-		Karen
-		Louise
-		Lucia
-		Maren
-		Margrethe
-		Marie
-		Nicoline
-		Petrine
-		Ragnhild
-		Regine
-		Sanna
-		Sara
-		Sophie
-		Susanne
-		Thyra
-		Ulrikke
-		Vilhelmine
-	}	
-	noble_last_names = {
-		af_Danneskiold-Samsoe
-		Anker
-		Bagge
-		Barnekow
-		Benkestok
-		Bernstorff
-		Bjelke
-		Brock
-		Brodtkorb
-		de_Neergaard
-		de_Tonsberg
-		Gyldenkrantz
-		Gyldenstierne 
-		Kaas
-		Kane
-		Knagenhjelm
-		Lovenskiold
-		Reventlow
-		Rosenkrantz
-		Rosenvinge
-		Skanke
-		Steenstrup
-		Trampe
-		Treschow
-		Trolle
-		Valkendorf
-		Vogelius
-		von_Baudissin
-		von_Falkenskiold 
-		von_Klenow
-		von_Krogh
-		von_Sievers
-		Wedel-Jarlsberg
-		Werenskiold
-		Wichfeld
-	}
-	common_last_names={
-		Adeler
-		Ahlefeldt
-		Asp-Persson
-		Balchen
-		Bang
-		Berg
-		Berger
-		Bloch
-		Bonde
-		Borresen
-		Bratzland
-		Brentzon
-		Carlsen
-		Christiansen
-		Dannemand
-		Danneskjold-Samso
-		de_Meza
-		Dhal
-		Eberlin
-		Egge
-		Falsen
-		Fleicher
-		Folsach
-		Frisvold
-		Gundersen
-		Guntelberg
-		Gyldenfeldt
-		Haack
-		Hakonarson
-		Hambro
-		Hansen
-		Haxthausen
-		Hund
-		Jaatun
-		Jensen
-		Johansen
-		Juul
-		Kaldager
-		Karlsen
-		Klauman
-		Konow
-		Krogh
-		Laessoe
-		Lambrechts
-		Larsen
-		Leuenbach
-		Lie
-		Lovenbalk
-		Michaelsen
-		Morgenstierne
-		Munthe
-		Mylius
-		Neergaard
-		Nilsen
-		Obelitz
-		Oxholm
-		Pettersen
-		Rye
-		Schack-Schackenborg
-		Sissener
-		Skjalgsson
-		Stemman
-		Suenson
-		Tambarskjelve
-		Thygeson
-		Trampe
-		Urne
-		Wadenstierna
-		Wedel-Heinen
-		Wiborg
-		With
-		Zeiner-Gundersen
-		Zwilgmeyer
-		Zytphen-Adeler
-	}
-	graphics = european
-	ethnicities = {
-		1 = caucasian
-	}
 }

@@ -1256,33 +1256,33 @@
 		}
 	}
 	s:STATE_VRYSTAAT={
-		region_state:ORA={
+		region_state:BST={
 		}
 	}
 	s:STATE_TRANSVAAL={
-		region_state:TRN={
+		region_state:SWZ={
 		}
 	}
 	s:STATE_EASTERN_CAPE={
-		region_state:SAF={
-			create_building={
-				building="building_wheat_farm"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_simple_farming" "pm_tools_disabled" "pm_vineyards" }
-			}
-			create_building={
-				building="building_livestock_ranch"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_privately_owned" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" "pm_open_air_stockyards" }
-			}
-			create_building={
-				building="building_barracks"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_wound_dressing" "pm_irregular_infantry" "pm_cavalry_scouts" "pm_no_specialists" "pm_mobile_artillery" }
-			}
+		region_state:XHO={
+#			create_building={
+#				building="building_wheat_farm"
+#				level=1
+#				reserves=1
+#				activate_production_methods={ "pm_privately_owned" "pm_simple_farming" "pm_tools_disabled" "pm_vineyards" }
+#			}
+#			create_building={
+#				building="building_livestock_ranch"
+#				level=1
+#				reserves=1
+#				activate_production_methods={ "pm_privately_owned" "pm_simple_ranch" "pm_standard_fences" "pm_unrefrigerated" "pm_open_air_stockyards" }
+#			}
+#			create_building={
+#				building="building_barracks"
+#				level=5
+#				reserves=1
+#				activate_production_methods={ "pm_wound_dressing" "pm_irregular_infantry" "pm_cavalry_scouts" "pm_no_specialists" "pm_mobile_artillery" }
+#			}
 		}
 	}
 	s:STATE_CAPE_COLONY={

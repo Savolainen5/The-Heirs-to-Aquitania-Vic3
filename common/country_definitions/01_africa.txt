@@ -96,7 +96,7 @@ SAF = {
 	
 	tier = kingdom
 	
-	cultures = { british boer }
+	cultures = { boer }
 	capital = STATE_CAPE_COLONY
 }
 

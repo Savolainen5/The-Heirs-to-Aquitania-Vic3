@@ -184,6 +184,8 @@
  SRW_ADJ: "Sarawakese"
  SUR: "Surabaya"
  SUR_ADJ: "Surabayan"
+ SWZ: "Eswatini" #Though maybe the European name of Swazi would be better?
+ SWZ_ADJ: "Swati"
  TAI: "Shan Confederacy"
  TAI_ADJ: "Shan"
  TAR: "Tarki Shamkhalate"

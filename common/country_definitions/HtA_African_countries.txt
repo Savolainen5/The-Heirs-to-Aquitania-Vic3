@@ -39,3 +39,13 @@ SQA = { #Emirate of Souq 'Ahras
 	cultures = { maghrebi }
 	capital = STATE_CONSTANTINE
 }
+SWZ = { #Eswatini / Swazi
+	color = { 68 123 219 }
+	
+	country_type = decentralized
+	
+	tier = kingdom
+	
+	cultures = { nguni sotho }
+	capital = STATE_TRANSVAAL
+}
