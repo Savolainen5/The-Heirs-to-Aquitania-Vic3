@@ -645,6 +645,40 @@ JEB = { #_absolute_monarchy = {
 	}
 }
 ##############################
+KOR = { #Korea / Goryeo
+	pattern = "pattern_solid.tga"
+	color1 = "yellow_light"
+	
+	textured_emblem = {
+		texture = "te_goryeo_bonggi.dds"
+	}
+}
+###################################
+KRI = { #Krivia
+	pattern = "pattern_horizontal_split_01.tga"
+	color1 = "red"
+	color2 = "white"
+	
+	colored_emblem = {
+		texture = "ce_lion_supporter.dds"
+		color1 = "yellow"
+		color2 = "red_light"
+		color3 = "white"
+		instance = {
+			position = { 0.25 0.55 }
+		}
+	}
+	colored_emblem = {
+		texture = "ce_deer_supporter.dds"
+		color1 = "azure"
+		color2 = "black"
+		color3 = "white"
+		instance = {
+			position = { 0.75 0.5 }
+		}
+	}
+}
+####################################
 LDN = { #suitable as the default and republican flags
 	pattern = "pattern_vertical_split_01.tga"
 	color1 = "azure"
@@ -878,31 +912,6 @@ ROM = {
 	}
 }
 ###################################
-KRI = { #Krivia
-	pattern = "pattern_horizontal_split_01.tga"
-	color1 = "red"
-	color2 = "white"
-	
-	colored_emblem = {
-		texture = "ce_lion_supporter.dds"
-		color1 = "yellow"
-		color2 = "red_light"
-		color3 = "white"
-		instance = {
-			position = { 0.25 0.55 }
-		}
-	}
-	colored_emblem = {
-		texture = "ce_deer_supporter.dds"
-		color1 = "azure"
-		color2 = "black"
-		color3 = "white"
-		instance = {
-			position = { 0.75 0.5 }
-		}
-	}
-}
-####################################
 SHC = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
