@@ -6,11 +6,11 @@
 				size = 63200
 			}
 			create_pop = {
-				culture = australian
+				culture = aenglish
 				size = 101384
 			}
 			create_pop = {
-				culture = eirean
+				culture = welsh
 				size = 16080
 			}
 		}
@@ -22,20 +22,20 @@
 				size = 31118
 			}
 			create_pop = {
-				culture = australian
+				culture = aenglish
 				size = 24676
 			}
 		}
 	}
 
 	s:STATE_TASMANIA = {
-		region_state:TAS = {
+		region_state:GWS = {
 			create_pop = {
 				culture = aborigine
 				size = 12208
 			}
 			create_pop = {
-				culture = australian
+				culture = aenglish
 				size = 11319
 			}
 		}
@@ -47,7 +47,7 @@
 				size = 59200
 			}
 			create_pop = {
-				culture = australian
+				culture = aenglish
 				size = 4000
 			}
 		}
@@ -55,7 +55,7 @@
 	s:STATE_SOUTH_AUSTRALIA = {
 		region_state:GWS = {
 			create_pop = {
-				culture = australian
+				culture = aenglish
 				size = 10500
 			}		
 			create_pop = {
@@ -68,11 +68,21 @@
 		region_state:FRD = {
 			create_pop = {
 				culture = aborigine
-				size = 47500
+				size = 34770
 			}
 			create_pop = {
-				culture = australian
+				culture = danish
 				size = 3004
+			}
+		}
+		region_state:MRG = {
+			create_pop = {
+				culture = aborigine
+				size = 12735
+			}
+			create_pop = {
+				culture = dutch
+				size = 280
 			}
 		}
 		region_state:NNG = {
@@ -88,13 +98,17 @@
 				culture = aborigine
 				size = 31804
 			}
+			create_pop = {
+				culture = dutch
+				size = 120
+			}
 		}
 	}
 	s:STATE_NORTH_ISLAND = {
 		region_state:UNT = {
 			create_pop = {
 				culture = maori
-				religion = protestant
+				religion = catholic
 				size = 30000
 			}
 			create_pop = {
@@ -108,7 +122,7 @@
 				size = 5000
 			}
 			create_pop = {
-				culture = australian
+				culture = hispanian
 				size = 1004
 			}
 		}
@@ -121,10 +135,10 @@
 	}
 	s:STATE_SOUTH_ISLAND = {
 		region_state:NTO = {
-			create_pop = {
-				culture = australian
-				size = 428
-			}
+#			create_pop = {
+#				culture = aenglish
+#				size = 428
+#			}
 			create_pop = {
 				culture = maori
 				size = 12000

@@ -9,11 +9,6 @@
 			country = c:GWS
 			type = puppet
 		}
-		# Colony of Tasmania, historically called Van Dieman's Land until 1856
-		create_diplomatic_pact = {
-			country = c:TAS
-			type = puppet
-		}
 		# United Tribes of New Zealand
 		#create_diplomatic_pact = {
 		#	country = c:UNT
