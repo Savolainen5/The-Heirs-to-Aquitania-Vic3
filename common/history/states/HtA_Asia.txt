@@ -1237,8 +1237,12 @@
 	}
 	s:STATE_CHUBU = {
 		create_state = {
+			country = c:JAP
+			owned_provinces = { x910F25 x31D0C0 xADE732 }
+		}
+		create_state = {
 			country = c:YAM
-			owned_provinces = { x9B2E00 x205FEB x4942D2 x3050C0 xC02285 x910F25 xB5F9BD xE76E8F xEF90C0 x5A57C3 xB0D040 x88595F x31D0C0 x5E87A1 xADE732 xD12DC5 xB050C0 x779089 }
+			owned_provinces = { x9B2E00 x205FEB x4942D2 x3050C0 xC02285 xB5F9BD xE76E8F xEF90C0 x5A57C3 xB0D040 x88595F x5E87A1 xD12DC5 xB050C0 x779089 }
 		}
 		
 		add_homeland = japanese
@@ -1246,7 +1250,11 @@
 	s:STATE_KANSAI = {
 		create_state = {
 			country = c:JAP
-			owned_provinces = { xB0D0C0 xB03EF0 x614287 x705040 x879C25 x8EC4C9 x305040 xCCB03E x70D040 x9BD7C1 x9E58B2 }
+			owned_provinces = { xB0D0C0 xB03EF0 x614287 x70D040 x9BD7C1 x9E58B2 }
+		}
+		create_state = {
+			country = c:YAM
+			owned_provinces = { x305040 x705040 x879C25 xCCB03E x8EC4C9 }
 		}
 		
 		add_homeland = japanese

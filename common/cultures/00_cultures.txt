@@ -10182,6 +10182,7 @@ japanese={
 		Tsuneko
 	}	
 	noble_last_names = {
+		Date_
 		Hayashi
 		Ito
 		Jutoku
@@ -10189,6 +10190,7 @@ japanese={
 		Matsudaira
 		Mitsune
 		Nabeshima
+		Nagachika
 		Togo
 		Tokugawa
 	}

@@ -1,0 +1,34 @@
+﻿CHARACTERS = {
+	c:YAM = {
+		create_character = {
+			first_name = "Shigemune"
+			last_name = "Date_"
+			culture = cu:japanese
+			ruler = yes
+			noble = yes
+			age = 38
+			interest_group = ig_armed_forces
+			traits = {
+				cruel
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+		create_character = {
+			first_name = "Motomune"
+			last_name = "Date_"
+			culture = cu:japanese
+			heir = yes
+			noble = yes
+			age = 12
+			interest_group = ig_armed_forces
+			traits = {
+				cruel
+			}
+			on_created = {
+				set_variable = is_married
+			}
+		}
+	}
+}

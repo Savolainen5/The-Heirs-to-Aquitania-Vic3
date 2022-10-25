@@ -1361,12 +1361,23 @@
 		region_state:YAM = {
 			create_pop = {
 				culture = japanese
-				size = 4127776
+				size = 3127776
 			}
 			create_pop = {
 				culture = japanese
 				religion = shinto
-				size = 1745764
+				size = 1575764
+			}
+		}
+		region_state:JAP = {
+			create_pop = {
+				culture = japanese
+				size = 916781
+			}
+			create_pop = {
+				culture = japanese
+				religion = shinto
+				size = 174576
 			}
 		}
 	}
@@ -1374,12 +1385,23 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 6178176
+				size = 3578176
 			}
 			create_pop = {
 				culture = japanese
 				religion = shinto
-				size = 1686204
+				size = 926814
+			}
+		}
+		region_state:YAM = {
+			create_pop = {
+				culture = japanese
+				size = 2695257
+			}
+			create_pop = {
+				culture = japanese
+				religion = shinto
+				size = 691523
 			}
 		}
 	}

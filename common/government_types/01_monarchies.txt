@@ -15,6 +15,24 @@
 #	}
 #}
 
+gov_daimyo = {
+	transfer_of_power = hereditary
+	
+	male_ruler = "RULER_TITLE_DAIMYO"
+	female_ruler = "RULER_TITLE_DAIMYO" 
+
+	male_heir = "RULER_TITLE_HEIR_APPARENT"
+	female_heir = "RULER_TITLE_HEIR_APPARENT"
+	
+	possible = {
+		OR = {
+			AND = { exists = c:YAM c:YAM = ROOT }
+			AND = { exists = c:TOH c:TOH = ROOT }
+		}
+		has_law = law_type:law_monarchy
+	}
+}
+
 gov_hawaiian_monarchy_recognised = {
 	transfer_of_power = hereditary
 	

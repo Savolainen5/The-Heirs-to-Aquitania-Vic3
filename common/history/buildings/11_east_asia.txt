@@ -1908,6 +1908,38 @@
 		}
 	}
 	s:STATE_CHUBU={
+		region_state:JAP={
+			create_building={
+				building="building_furniture_manufacturies"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_handcrafted_furniture" "pm_merchant_guilds_building_furniture_manufacturies" "pm_automation_disabled" "pm_luxury_furniture" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
+			}
+			create_building={
+				building="building_rice_farm"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned" "pm_tools_disabled" "pm_fig_orchards" }
+			}
+			create_building={
+				building="building_tea_plantation"
+				level=1
+				reserves=1
+				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_barracks"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
+		}
 		region_state:YAM={
 			create_building={
 				building="building_government_administration"
@@ -1975,7 +2007,7 @@
 		region_state:JAP={
 			create_building={
 				building="building_government_administration"
-				level=6
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
 			}
@@ -1987,19 +2019,19 @@
 			}				
 			create_building={
 				building="building_textile_mills"
-				level=4
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_handsewn_clothes" "pm_merchant_guilds_building_textile_mills" "pm_traditional_looms" "pm_craftsman_sewing" }
 			}
 			create_building={
 				building="building_paper_mills"
-				level=3
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_paper_mills" }
 			}
 			create_building={
 				building="building_fishing_wharf"
-				level=3
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
 			}
@@ -2011,31 +2043,93 @@
 			}
 			create_building={
 				building="building_rice_farm"
-				level=3
+				level=1
 				reserves=1
 				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned" "pm_tools_disabled" "pm_fig_orchards" }
 			}
 			create_building={
 				building="building_silk_plantation"
-				level=3
+				level=2
 				reserves=1
 				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_tobacco_plantation"
-				level=2
+				level=1
 				reserves=1
 				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_tea_plantation"
-				level=5
+				level=2
 				reserves=1
 				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_barracks"
-				level=20
+				level=10
+				reserves=1
+				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
+		}
+		region_state:YAM={
+			create_building={
+				building="building_government_administration"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_horizontal_drawer_cabinets" }
+			}
+			create_building={
+				building="building_construction_sector"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_wooden_buildings" }
+			}				
+			create_building={
+				building="building_textile_mills"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_handsewn_clothes" "pm_merchant_guilds_building_textile_mills" "pm_traditional_looms" "pm_craftsman_sewing" }
+			}
+			create_building={
+				building="building_paper_mills"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_paper_mills" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
+			}
+			create_building={
+				building="building_rice_farm"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_privately_owned" "pm_tools_disabled" "pm_fig_orchards" }
+			}
+			create_building={
+				building="building_silk_plantation"
+				level=1
+				reserves=1
+				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_tobacco_plantation"
+				level=1
+				reserves=1
+				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_tea_plantation"
+				level=3
+				reserves=1
+				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_barracks"
+				level=10
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}

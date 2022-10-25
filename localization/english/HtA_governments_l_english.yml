@@ -1,0 +1,4 @@
+﻿l_english:
+ gov_daimyo: "Daimyo Rule"
+ gov_daimyo_desc: "This is a [concept_government] ruled by the [Concept('concept_ruler','$RULER_TITLE_DAIMYO$')], a powerful feudal lord who has secured the loyalty of the local landed class. Though he is nominally subservient to the [Concept('concept_ruler','$RULER_TITLE_EMPEROR$')], the monarchy has no direct power over this vassal."
+ RULER_TITLE_DAIMYO: "Daimyo"
