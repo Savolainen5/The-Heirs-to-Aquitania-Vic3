@@ -9,6 +9,7 @@
 			country = c:GWS
 			type = puppet
 		}
+		
 		# United Tribes of New Zealand
 		#create_diplomatic_pact = {
 		#	country = c:UNT

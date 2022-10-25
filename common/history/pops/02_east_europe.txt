@@ -3,32 +3,55 @@
 		region_state:SWE = {
 			create_pop = {
 				culture = russian
-				size = 858808
+				size = 358808
 			}
 			create_pop = {
 				culture = estonian
-				size = 4000
+				size = 2000
 			}
 			create_pop = {
 				culture = north_german
-				size = 32000
+				size = 3200
 			}
 			create_pop = {
 				culture = finnish
 				size = 88000
 			}
 			create_pop = {
-				culture = semian
-				size = 12000
+				culture = krivian
+				size = 41000
 			}
 			create_pop = {
 				culture = ugrian
 				religion = orthodox
-				size = 8004
+				size = 7004
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 5600
+				size = 4200
+			}
+		}
+		region_state:KRI={
+			create_pop = {
+				culture = russian
+				size = 217460
+			}
+			create_pop = {
+				culture = estonian
+				size = 2000
+			}
+			create_pop = {
+				culture = russian
+				size = 89560
+			}
+			create_pop = {
+				culture = ugrian
+				religion = orthodox
+				size = 1004
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 1400
 			}
 		}
 	}
@@ -467,11 +490,11 @@
 		region_state:SWE = {
 			create_pop = {
 				culture = semian
-				size = 1047496
+				size = 517496
 			}
 			create_pop = {
 				culture = north_german
-				size = 71996
+				size = 24996
 			}
 			create_pop = {
 				culture = estonian
@@ -479,7 +502,7 @@
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 53408
+				size = 23408
 			}
 			create_pop = {
 				culture = ugrian
@@ -488,11 +511,33 @@
 			}
 			create_pop = {
 				culture = polish
-				size = 32000
+				size = 3000
+			}
+		}
+		region_state:KRI = {
+			create_pop = {
+				culture = semian
+				size = 448023
 			}
 			create_pop = {
-				culture = russian
-				size = 21000
+				culture = north_german
+				size = 3268
+			}
+			create_pop = {
+				culture = estonian
+				size = 200
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 24105
+			}
+			create_pop = {
+				culture = polish
+				size = 2000
+			}
+			create_pop = {
+				culture = krivian
+				size = 61000
 			}
 		}
 	}
@@ -500,23 +545,45 @@
 		region_state:SWE = {
 			create_pop = {
 				culture = polish
-				size = 111796
+				size = 41796
 			}
 			create_pop = {
 				culture = semian
-				size = 729000
+				size = 409000
 			}
 			create_pop = {
 				culture = ashkenazi
-				size = 220000
+				size = 70000
 			}
 			create_pop = {
 				culture = north_german
-				size = 24000
+				size = 9400
 			}
 			create_pop = {
-				culture = russian
+				culture = krivian
 				size = 8000
+			}
+		}
+		region_state:KRI = {
+			create_pop = {
+				culture = polish
+				size = 52345
+			}
+			create_pop = {
+				culture = semian
+				size = 225210
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 140000
+			}
+			create_pop = {
+				culture = north_german
+				size = 2600
+			}
+			create_pop = {
+				culture = krivian
+				size = 88000
 			}
 		}
 	}
@@ -524,11 +591,11 @@
 		region_state:POL = {
 			create_pop = {
 				culture = polish
-				size = 1676000
+				size = 1686000
 			}
 			create_pop = {
-				culture = semian
-				size = 20000
+				culture = swedish
+				size = 2000
 			}
 			create_pop = {
 				culture = ashkenazi
