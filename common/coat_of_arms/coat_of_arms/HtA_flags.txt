@@ -501,6 +501,25 @@ DEL = {
 	}
 }
 ##############################
+FRA = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	color2 = "blue"
+	color3 = "red"
+	colored_emblem = {
+		texture = "ce_tricolor_fimbriated_large.dds"
+		color1 = color2
+		color2 = color1
+		color3 = color3
+	}
+	textured_emblem = {
+		texture = "te_tournus_france.dds"
+		instance = {
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+##############################
 GAG = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
@@ -770,6 +789,29 @@ LOG_colony = {
 	sub = {
         parent = "sub_AEN" 
         instance = { scale = { @canton_scale_cross_x @canton_scale_cross_y }  } # top left
+	}
+}
+##############################
+MAR = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	textured_emblem = {
+		texture = "te_fra_lesser_coa.dds"
+		instance = {
+			scale = { 0.75 0.75 }
+			position = { 0.75 0.5 }
+		}
+	}
+}
+MAR_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	textured_emblem = {
+		texture = "te_fra_lesser_coa.dds"
+		instance = {
+			scale = { 0.75 0.75 }
+			position = { 0.75 0.5 }
+		}
 	}
 }
 ##############################
