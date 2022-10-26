@@ -3,10 +3,6 @@
 	This probably has something to do with the fact that I tried to disabled achievements completely
 
 
-
--[jomini_script_system.cpp:262]: Script system error!
-  Error: create_state effect [ Province 'x8D2552' crossing multiple state regions ]
-  Script location: file: common/history/states/HtA_Europe.txt line: 143
 -[jomini_script_system.cpp:262]: Script system error!
   Error: create_state effect [ Province 'x988C08' crossing multiple state regions ]
   Script location: file: common/history/states/HtA_North_Africa.txt line: 23
@@ -20,6 +16,7 @@
 -[pdx_assert.cpp:612]: Assertion failed: pCurIdler->GetApplication().GetCurrentIdlerType() == EJominiIdler::INGAME
 
 	No one seems to know what this is about
+
 
 
 Crash-causing bugs:
