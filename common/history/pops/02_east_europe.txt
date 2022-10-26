@@ -2,8 +2,8 @@
 	s:STATE_INGRIA = {
 		region_state:SWE = {
 			create_pop = {
-				culture = russian
-				size = 358808
+				culture = krivian				#Could theoretically add another 75k POPs here somewhere
+				size = 198808
 			}
 			create_pop = {
 				culture = estonian
@@ -15,10 +15,10 @@
 			}
 			create_pop = {
 				culture = finnish
-				size = 88000
+				size = 148000
 			}
 			create_pop = {
-				culture = krivian
+				culture = russian
 				size = 41000
 			}
 			create_pop = {
@@ -30,10 +30,14 @@
 				culture = ashkenazi
 				size = 4200
 			}
+			create_pop = {
+				culture = swedish
+				size = 24935
+			}
 		}
 		region_state:KRI={
 			create_pop = {
-				culture = russian
+				culture = krivian
 				size = 217460
 			}
 			create_pop = {
@@ -59,7 +63,11 @@
 		region_state:KRI = {
 			create_pop = {
 				culture = russian
-				size = 3653196
+				size = 1653196
+			}
+			create_pop = {
+				culture = krivian
+				size = 893052
 			}
 			create_pop = {
 				culture = ashkenazi
@@ -75,11 +83,10 @@
 			}
 			create_pop = {
 				culture = byelorussian
-				size = 698996
+				size = 298996
 			}
 			create_pop = {
 				culture = semian
-				religion = orthodox
 				size = 20000
 			}
 			create_pop = {
@@ -96,8 +103,8 @@
 				size = 200000
 			}
 			create_pop = {
-				culture = semian
-				size = 95996
+				culture = krivian
+				size = 495996
 			}
 		}
 	}
@@ -136,7 +143,7 @@
 				size = 141504
 			}
 			create_pop = {
-				culture = russian
+				culture = krivian
 				size = 36400
 			}
 		}
@@ -156,7 +163,7 @@
 				size = 344004
 			}
 			create_pop = {
-				culture = byelorussian
+				culture = krivian
 				size = 80000
 			}
 		}
@@ -172,6 +179,10 @@
 				size = 1996
 			}
 			create_pop = {
+				culture = krivian #This is almost 1m POPs more than in the base game, since I moved them from Moscow, that city being less important ITTL
+				size = 984034      #This means that we may have starvation and stuff here, so the state itself may need editing
+			}
+			create_pop = {
 				culture = ugrian
 				religion = orthodox
 				size = 84000
@@ -182,19 +193,19 @@
 		region_state:KRI = {
 			create_pop = {
 				culture = russian
-				size = 88400
+				size = 38400
 			}
 			create_pop = {
 				culture = byelorussian
-				size = 1753376
+				size = 1053376
 			}
 			create_pop = {
 				culture = ashkenazi
 				size = 260004
 			}
 			create_pop = {
-				culture = semian
-				size = 256000
+				culture = krivian
+				size = 1456000
 			}
 			create_pop = {
 				culture = polish
@@ -206,22 +217,30 @@
 		region_state:KRI = {
 			create_pop = {
 				culture = russian
-				size = 82996
+				size = 71996
 			}
 			create_pop = {
 				culture = ugrian
 				religion = animist
 				size = 1000
 			}
+			create_pop = {
+				culture = krivian
+				size = 11000
+			}
 		}
 		region_state:SWE = {
 			create_pop = {
 				culture = finnish
-				size = 57200
+				size = 56200
 			}
 			create_pop = {
 				culture = ugrian
 				size = 21021
+			}
+			create_pop = {
+				culture = swedish
+				size = 1315
 			}
 		}
 	}
