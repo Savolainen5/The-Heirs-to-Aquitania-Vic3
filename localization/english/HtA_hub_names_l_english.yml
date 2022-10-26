@@ -174,14 +174,14 @@
  #Shawnee Confederacy
 
  HUB_NAME_STATE_OETAGAMIE_city: "Tijkopera" #Dutchification of the indigenous name for the area of Madison, WI
- HUB_NAME_STATE_OETAGAMIE_wood: "Stiervalt" #Bull Falls, though this is a false etymology of the French name for Wausau, WI
+ HUB_NAME_STATE_OETAGAMIE_wood: "Stiervallen" #Bull Falls, though this is a false etymology of the French name for Wausau, WI
  HUB_NAME_STATE_OETAGAMIE_mine: "Seipgensklif" #Seipgens' rock. Emile Seipgens was a Dutch writer in the 19th century born in Roermond
- HUB_NAME_STATE_OETAGAMIE_farm: "Schikakou" #Chicago haha
+ HUB_NAME_STATE_OETAGAMIE_farm: "Schikakoo" #Chicago haha
 
  HUB_NAME_STATE_MONGONIE_city: "De Terpen" #The Mounds, named for all the ceremonial mounds around the area.
  HUB_NAME_STATE_MONGONIE_wood: "Makato" #Similar town nearby - Mankato, WI -, roughly means Blue Earth
  HUB_NAME_STATE_MONGONIE_mine: "Kinderbos" #Village near Boxtel in NL
- HUB_NAME_STATE_MONGONIE_farm: "Cederstroomversnelling" #Cedar Rapids. That is so ugly, isn't it
+ HUB_NAME_STATE_MONGONIE_farm: "Cederstroom" #Cedar Rapids. That is so ugly, isn't it
 
  #Ashelasia
 
@@ -194,14 +194,14 @@
  HUB_NAME_STATE_NY_SLESVIG_city: "Storhavn" #Great Harbour, calque of the Mi'kmaq name for the place where Halifax was founded
  HUB_NAME_STATE_NY_SLESVIG_farm: "Ris" #Village in Jutland north of Horsens
  HUB_NAME_STATE_NY_SLESVIG_mine: "Egedesborg" #Inspired by Hans Egede
- HUB_NAME_STATE_NY_SLESVIG_port: "Muslingbugt" #Clam bay, kind of a calque of the Mi'kmaq name for the place where Lunenberg was founded
+ HUB_NAME_STATE_NY_SLESVIG_port: "Muslingebugt" #Clam bay, kind of a calque of the Mi'kmaq name for the place where Lunenberg was founded
  HUB_NAME_STATE_NY_SLESVIG_wood: "Griffenfeld" #Peder Schumacher, Count of Griffenfeld
 
  HUB_NAME_STATE_THISLAND_city: "Ny Roskilde"
- HUB_NAME_STATE_THISLAND_farm: "Bavunya" #Bad Danification of an Babhun Nua - New Bawn
+ HUB_NAME_STATE_THISLAND_farm: "Bavunua" #Good enough(?) Danification of an Babhun Nua - New Bawn
  HUB_NAME_STATE_THISLAND_mine: "Kilfinen" #Kilfinane in County Limerick
- HUB_NAME_STATE_THISLAND_port: "Duvanfor" #Clumsy Danification of Dumhainphort - Deep Port
- HUB_NAME_STATE_THISLAND_wood: "Cornamona" #Village on the center of the west coast of Ireland
+ HUB_NAME_STATE_THISLAND_port: "Duvanfort" #Clumsy Danification of Dumhainphort - Deep Port
+ HUB_NAME_STATE_THISLAND_wood: "Kornamona" #Village on the center of the west coast of Ireland
 
  HUB_NAME_STATE_FREDERIKSLAND_city: "Ulvensflod" #Clumsy(?) calque of OTL Quebecois town of Riviere-du-Loup
  HUB_NAME_STATE_FREDERIKSLAND_farm: "Ahornsted" #Maple-place, essentially the calque of a similar community OTL
@@ -210,7 +210,7 @@
  HUB_NAME_STATE_FREDERIKSLAND_wood: "Flintinge" #A location on Lolland
 
  HUB_NAME_STATE_CHRISTIANSLAND_city: "Tordenskioldsted" #Peder Tordenskjold, though something better could be invented
- HUB_NAME_STATE_CHRISTIANSLAND_farm: "Dyppelsgård" #Dyppel was a governor-general Danish West Indies
+ HUB_NAME_STATE_CHRISTIANSLAND_farm: "Dyppelsgaard" #Dyppel was a governor-general Danish West Indies
  HUB_NAME_STATE_CHRISTIANSLAND_mine: "Ny Faaborg" #New Faaborg
  HUB_NAME_STATE_CHRISTIANSLAND_port: "Ingeborg" #Pretend some queen was called that
  HUB_NAME_STATE_CHRISTIANSLAND_wood: "Gråskov" #Location in central Jutland

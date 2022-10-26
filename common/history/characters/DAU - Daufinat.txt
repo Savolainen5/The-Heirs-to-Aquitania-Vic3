@@ -6,12 +6,13 @@
 			culture = cu:aquitanian
 			ruler = yes
 			age = 33 #born 1802
-			interest_group = ig_industrialists
+			interest_group = ig_landowners
 			traits = {
 				pious
 			}
 			on_created = {
 				set_variable = is_married
+				set_variable = { name = guigo_11 }
 			}
 		}
 

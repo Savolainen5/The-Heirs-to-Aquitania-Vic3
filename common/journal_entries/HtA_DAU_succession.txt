@@ -1,0 +1,105 @@
+﻿je_daufinat_succession = {
+	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
+
+	is_shown_when_inactive = {
+		c:DAU = root
+	}
+
+	possible = {
+		exists = c:DAU
+		c:DAU = ROOT
+		ruler = { has_variable = guigo_11 }
+		NOT = {
+			any_scope_character = {
+				is_heir = yes
+			}
+		}
+	}
+
+	complete = {
+		custom_tooltip = {
+			text = DAU_heir_chosen
+			ruler = {
+				NOT = { has_variable = guigo_11 }
+			}
+		}
+	}
+
+	on_complete = {
+		custom_tooltip = DAU_heir_appears
+		if = {
+			limit = {
+				exists = c:DAU
+				c:DAU = ROOT
+				has_variable = DAU_heir_AQT
+			}
+			trigger_event = { id = DAU_succession_events.2 }
+		}
+		else_if = {
+			limit = {
+				exists = c:DAU
+				c:DAU = ROOT
+				has_variable = DAU_heir_PDN
+			}
+			trigger_event = { id = DAU_succession_events.3 }
+		}
+		else_if = {
+			limit = {
+				exists = c:DAU
+				c:DAU = ROOT
+				has_variable = DAU_heir_neutral
+			}
+			trigger_event = { id = DAU_succession_events.4 }
+		}
+	}
+
+	on_monthly_pulse = {
+		effect = {
+			if = {
+				limit = {
+					exists = c:DAU
+					c:DAU = ROOT
+					ruler = { has_variable = guigo_11 }
+					OR = {
+						has_variable = DAU_heir_AQT
+						has_variable = DAU_heir_PDN
+						has_variable = DAU_heir_neutral
+					}
+				}
+				random_list = {
+					11 = { }
+					1 = {
+						ruler = { kill_character = yes }
+					}
+				}
+			}
+		}
+	}
+
+	invalid = {
+		OR = {
+			NOT = {
+				exists = c:DAU
+			}
+			is_subject = yes
+			any_scope_character = {
+				is_heir = yes
+			}
+
+#			c:DAU = {
+#				custom_tooltip = {
+#					text = "DEBUG_NO_CHARACTER_IN_DAU_IS_VICTORIA"
+#					NOT = {
+#						any_scope_character = {
+#							has_variable = is_victoria
+#						}
+#					}
+#				}
+#			}
+		}
+	}
+
+	weight = 10
+
+	should_be_pinned_by_default = yes
+}
