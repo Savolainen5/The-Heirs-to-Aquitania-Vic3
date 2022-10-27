@@ -1,0 +1,15 @@
+How to create split states quickly
+
+IMPORTANT: This is a rather complicated process, but when you get used to it, it's far easier and quicker than any other method I've yet heard of. I've been using this method 
+
+Cynic came up with most of this.
+
+1. Open the provinces file in GIMP (maybe PS works too, I've never used it)
+2. Select all the provinces in the state you want to move
+3. Copy them to a new file with a transparent background
+4. Convert the image mode from RGB to Indexed
+5. Export the indexed palette as a .txt document (this now gives you a list of hex values)
+6. Edit them all (using macros ideally to speed it up) to be in the correct format and with a | between each entry so we can do regex magic (x111111 |x222222 |x333333 etc)
+7. Copy the full list and use your favourite text editor with the regex search mode to replace all of the list with nothing
+8. Go back to your list and remove all the |
+9. Copy that new list to the new split part of the state (whose entry you need to make)
