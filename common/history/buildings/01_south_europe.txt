@@ -1525,7 +1525,7 @@
 		}
 	}
 	s:STATE_DOBRUDJA={
-		region_state:BUL={
+		region_state:ROM={
 			create_building={
 				building="building_fishing_wharf"
 				level=2
@@ -1675,7 +1675,7 @@
 		}
 	}
 	s:STATE_BULGARIA={
-		region_state:BUL={
+		region_state:ROM={
 			create_building={
 				building="building_furniture_manufacturies"
 				level=3

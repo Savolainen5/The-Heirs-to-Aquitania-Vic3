@@ -452,7 +452,7 @@
 		}
 	}
 	s:STATE_DOBRUDJA = {
-		region_state:BUL = {
+		region_state:ROM = {
 			create_pop = {
 				culture = gagauz
 				size = 61604
@@ -569,7 +569,7 @@
 		}
 	}
 	s:STATE_BULGARIA = {
-		region_state:BUL = {
+		region_state:ROM = {
 			create_pop = {
 				culture = roman
 				size = 180404

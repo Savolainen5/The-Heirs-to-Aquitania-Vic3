@@ -107,6 +107,10 @@
 			type = puppet
 		}
 		create_diplomatic_pact = {
+			country = c:NCS
+			type = puppet
+		}
+		create_diplomatic_pact = {
 			country = c:GUA
 			type = puppet
 		}
@@ -170,10 +174,10 @@
 		}
 	}
 	c:ROM = {
-		create_diplomatic_pact = {
-			country = c:BUL
-			type = puppet
-		}
+#		create_diplomatic_pact = {
+#			country = c:BUL
+#			type = puppet
+#		}
 #		create_diplomatic_pact = {
 #			country = c:GRE
 #			type = puppet

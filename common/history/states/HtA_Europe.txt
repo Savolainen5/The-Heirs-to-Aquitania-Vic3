@@ -58,7 +58,7 @@
 	}
 	s:STATE_DOBRUDJA = {
 		create_state = {
-			country = c:BUL
+			country = c:ROM
 			owned_provinces = { x7F25CD xB06121 x50F5CB x7763F3 xD9E021 x940C8D x316021 xA3D7CE }
 		}
 		
@@ -833,7 +833,7 @@
 	}
 	s:STATE_BULGARIA = {
 		create_state = {
-			country = c:BUL
+			country = c:ROM
 			owned_provinces = { xC866AF xCDD237 xB4F1D6 x2038F6 xB55757 x71A0A0 xC2E2B9 x6768DB xEC96F3 xE8D59C x64275F xF0A0A0 xD06121 x52BF3E xC59A98 xEFEAA0 }
 		}
 
