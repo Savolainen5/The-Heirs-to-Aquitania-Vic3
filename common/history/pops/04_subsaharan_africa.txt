@@ -2358,7 +2358,7 @@
 		}
 	}
 	s:STATE_ZAMBEZI = {
-		region_state:MTB = {
+		region_state:GZA = {
 			create_pop = {
 				culture = shona
 				size = 120000
@@ -2680,15 +2680,29 @@
 		region_state:POR = {
 			create_pop = {
 				culture = nguni
-				size = 333804
+				size = 153804
 			}
 			create_pop = {
 				culture = shona
-				size = 260000
+				size = 234000
 			}
 			create_pop = {
 				culture = tonga
-				size = 380000
+				size = 342000
+			}
+		}
+		region_state:GZA = {
+			create_pop = {
+				culture = nguni
+				size = 179804
+			}
+			create_pop = {
+				culture = shona
+				size = 26000
+			}
+			create_pop = {
+				culture = tonga
+				size = 38000
 			}
 		}
 	}

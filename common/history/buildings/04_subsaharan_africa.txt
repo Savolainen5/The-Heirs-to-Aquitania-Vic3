@@ -1222,7 +1222,7 @@
 		}
 	}
 	s:STATE_ZAMBEZI={
-		region_state:MTB={
+		region_state:GZA={
 		}
 		region_state:MSH={
 		}
@@ -1359,6 +1359,8 @@
 				reserves=1
 				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned" }
 			}
+		}
+		region_state:GZA={
 		}
 	}
 }

@@ -50,6 +50,12 @@
 			set_interest_group_name = ig_sunni_madrasahs
 		}
 	}
+	c:GZA = { #Great Zimbabwe
+		effect_starting_technology_tier_6_tech = yes
+		effect_starting_politics_traditional = yes
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_debt_slavery
+	}
 	c:SQA = {
 		effect_starting_technology_tier_4_tech = yes
 

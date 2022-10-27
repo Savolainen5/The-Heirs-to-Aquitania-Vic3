@@ -18,7 +18,15 @@ DUZ = { #Emirate of Douz
 	cultures = { maghrebi }
 	capital = STATE_TUNISIA
 }
-
+GZA = { #Great Zimbabwe
+	color = { 100 100 100 }
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { nguni }
+	capital = STATE_ZAMBEZI
+}
 MOS = {
 	color = { 27 128 45 }
 	country_type = unrecognized
