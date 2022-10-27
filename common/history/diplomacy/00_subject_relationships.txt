@@ -91,19 +91,11 @@
 	}
 	c:HIS = {
 		create_diplomatic_pact = {
-			country = c:POR
-			type = puppet
-		}
-		create_diplomatic_pact = {
 			country = c:NGR
 			type = puppet
 		}
 		create_diplomatic_pact = {
 			country = c:NEX
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:NLT
 			type = puppet
 		}
 		create_diplomatic_pact = {
@@ -170,6 +162,12 @@
 		# "Colony" of Maregen
 		create_diplomatic_pact = {
 			country = c:MRG
+			type = puppet
+		}
+	}
+	c:POR = {
+		create_diplomatic_pact = {
+			country = c:NLT
 			type = puppet
 		}
 	}
