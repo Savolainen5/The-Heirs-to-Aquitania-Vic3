@@ -24,8 +24,8 @@ cultural_homeland_events.1 = { #Majority Culture blames minority culture
 	trigger = {
 		any_scope_state = {
 			is_homeland_of_country_cultures = ROOT
-			any_scope_pop = {
-				pop_is_discriminated = yes
+				any_scope_culture = {
+				culture_is_discriminated_in = ROOT
 			}
 			any_scope_pop = {
 				pop_has_primary_culture = yes
@@ -39,7 +39,7 @@ cultural_homeland_events.1 = { #Majority Culture blames minority culture
 			limit = {
 				is_homeland_of_country_cultures = ROOT
 				any_scope_culture = {
-					culture_is_discriminated_in = ROOT #culture_is_discriminated = yes doesn't work
+					culture_is_discriminated_in = ROOT
 				}
 				any_scope_pop = {
 					pop_has_primary_culture = yes
@@ -112,8 +112,8 @@ cultural_homeland_events.10 = { #Newspaper writes article about minority culture
 	trigger = {
 		any_scope_state = {
 			is_homeland_of_country_cultures = ROOT
-			any_scope_pop = {
-				pop_is_discriminated = yes
+			any_scope_culture = {
+				culture_is_discriminated_in = ROOT
 			}
 			any_scope_pop = {
 				pop_has_primary_culture = yes
@@ -125,8 +125,8 @@ cultural_homeland_events.10 = { #Newspaper writes article about minority culture
 		random_scope_state = {
 			limit = {
 				is_homeland_of_country_cultures = ROOT
-				any_scope_pop = {
-					pop_is_discriminated = yes
+				any_scope_culture = {
+					culture_is_discriminated_in = ROOT
 				}
 				any_scope_pop = {
 					pop_has_primary_culture = yes
