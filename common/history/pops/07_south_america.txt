@@ -501,32 +501,32 @@ POPS = {
 		}
 	}
 	s:STATE_BAJO_PARAGUAY = {
-		region_state:NLT = {
+		region_state:GNI = {
 			create_pop = {
 				culture = lusitano
-				size = 308396
+				size = 8540 #308396
 			}
 			create_pop = {
 				culture = guarani
+				religion = catholic #This previously down below - evangelization much more successful OTL than in HtA?
 				size = 36000
 			}
 			create_pop = {
 				culture = guarani
-				religion = catholic
 				size = 282240
 			}
 			create_pop = {
 				pop_type = slaves
 				culture = afro_caribeno
-				size = 14560
+				size = 835 #14560
 			}
 			create_pop = {
 				culture = afro_caribeno
-				size = 17996
+				size = 175 #17996
 			}
 			create_pop = {
 				culture = cruzan
-				size = 8000
+				size = 850 #8000 
 			}
 		}
 	}
