@@ -289,7 +289,7 @@
 				size = 11996
 			}
 			create_pop = {
-				culture = hellene
+				culture = roman
 				size = 8996
 			}
 			create_pop = {
@@ -321,7 +321,7 @@
 				size = 16000
 			}
 			create_pop = {
-				culture = hellene
+				culture = roman
 				size = 20400
 			}
 		}
@@ -390,7 +390,7 @@
 				size = 28000
 			}
 			create_pop = {
-				culture = hellene
+				culture = roman
 				size = 7996
 			}
 			create_pop = {
@@ -447,7 +447,7 @@
 				size = 356600
 			}
 			create_pop = {
-				culture = hellene
+				culture = roman
 				size = 4000
 			}
 			create_pop = {

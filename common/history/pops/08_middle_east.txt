@@ -713,10 +713,6 @@
 	s:STATE_IONIA = {
 		region_state:ROM = {
 			create_pop = {
-				culture = anatolian
-				size = 637300
-			}
-			create_pop = {
 				culture = roman
 				size = 431600
 			}
@@ -737,12 +733,8 @@
 	s:STATE_THRAKESION = {
 		region_state:ROM = {
 			create_pop = {
-				culture = anatolian
-				size = 90404
-			}
-			create_pop = {
 				culture = roman
-				size = 89237
+				size = 179641
 			}
 			create_pop = {
 				culture = tourki
@@ -753,7 +745,7 @@
 	s:STATE_ANATOLIKON = {
 		region_state:ROM = {
 			create_pop = {
-				culture = anatolian
+				culture = roman
 				size = 552000
 			}
 			create_pop = {
@@ -769,16 +761,12 @@
 	s:STATE_PAPHLAGONIA = {
 		region_state:ROM = {
 			create_pop = {
-				culture = anatolian
-				size = 354257
+				culture = roman
+				size = 459396
 			}
 			create_pop = {
 				culture = tourki
 				size = 122996
-			}
-			create_pop = {
-				culture = roman
-				size = 105135
 			}
 		}
 	}
@@ -807,7 +795,7 @@
 				size = 296000
 			}
 			create_pop = {
-				culture = anatolian
+				culture = roman
 				size = 24000
 			}
 		}
@@ -827,7 +815,7 @@
 				size = 99996
 			}
 			create_pop = {
-				culture = anatolian
+				culture = roman
 				size = 112000
 			}
 		}
@@ -847,12 +835,8 @@
 				size = 245200
 			}
 			create_pop = {
-				culture = anatolian
-				size = 291000
-			}
-			create_pop = {
 				culture = roman
-				size = 107972
+				size = 398972
 			}
 		}
 	}
@@ -880,7 +864,7 @@
 				size = 16000
 			}
 			create_pop = {
-				culture = anatolian
+				culture = roman
 				size = 59235
 		}
 	}
@@ -904,7 +888,7 @@
 				size = 28500
 			}
 			create_pop = {
-				culture = anatolian
+				culture = roman
 				size = 5000
 			}
 		}
@@ -926,7 +910,7 @@
 				size = 11000
 			}
 			create_pop = {
-				culture = anatolian
+				culture = roman
 				size = 10000
 			}
 		}
@@ -938,7 +922,7 @@
 				size = 369988
 			}
 			create_pop = {
-				culture = anatolian
+				culture = roman
 				size = 427996
 			}
 			create_pop = {

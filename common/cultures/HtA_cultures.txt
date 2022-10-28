@@ -2589,7 +2589,7 @@ roman={
 tourki={ #Hellenized Turks, names need improvement
 	color= hsv{ 0.99 0.48 0.80 }
 	religion = orthodox
-	traits = { turkic middle_eastern_heritage }
+	traits = { turkic roman_culture middle_eastern_heritage }
 	obsessions = {
 		tea
 	}

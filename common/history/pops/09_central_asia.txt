@@ -50,7 +50,7 @@
 				size = 528804
 			}
 			create_pop = {
-				culture = hellene
+				culture = russian
 				size = 4000
 			}
 			create_pop = {

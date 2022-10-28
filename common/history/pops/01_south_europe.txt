@@ -423,11 +423,7 @@
 		region_state:ROM = {
 			create_pop = {
 				culture = roman
-				size = 832996
-			}
-			create_pop = {
-				culture = hellene
-				size = 241992
+				size = 1074988
 			}
 			create_pop = {
 				culture = north_italian
@@ -466,7 +462,7 @@
 				size = 92004
 			}
 			create_pop = {
-				culture = hellene
+				culture = roman
 				size = 4000
 			}
 			create_pop = {
@@ -486,7 +482,7 @@
 				size = 1004808
 			}
 			create_pop = {
-				culture = hellene
+				culture = roman
 				size = 40000
 			}
 			create_pop = {
@@ -543,15 +539,11 @@
 		region_state:ROM = {
 			create_pop = {
 				culture = roman
-				size = 213408
+				size = 283412
 			}
 			create_pop = {
 				culture = bulgarian
 				size = 497600
-			}
-			create_pop = {
-				culture = hellene
-				size = 70004
 			}
 			create_pop = {
 				culture = bulgarian
@@ -740,7 +732,7 @@
 	s:STATE_SOUTHERN_SERBIA = {
 		region_state:SER = {
 			create_pop = {
-				culture = hellene
+				culture = roman			#Should these even be here?
 				size = 124000
 			}
 			create_pop = {
@@ -772,7 +764,7 @@
 				size = 19992
 			}
 			create_pop = {
-				culture = hellene
+				culture = roman
 				size = 120000
 			}
 		}
@@ -789,12 +781,8 @@
 				size = 1996
 			}
 			create_pop = {
-				culture = hellene
-				size = 79996
-			}
-			create_pop = {
 				culture = roman
-				size = 52996
+				size = 131996
 			}
 		}
 
@@ -802,7 +790,7 @@
 	s:STATE_HELLAS = {
 		region_state:ROM = {
 			create_pop = {
-				culture = hellene
+				culture = roman
 				size = 617592
 			}
 			create_pop = {
@@ -822,7 +810,7 @@
 				size = 12000
 			}
 			create_pop = {
-				culture = hellene
+				culture = roman
 				size = 935900
 			}
 			create_pop = {
@@ -851,7 +839,7 @@
 				size = 384000
 			}
 			create_pop = {
-				culture = hellene
+				culture = roman
 				size = 92000
 			}
 			create_pop = {
@@ -867,7 +855,7 @@
 				size = 54000
 			}
 			create_pop = {
-				culture = hellene
+				culture = roman
 				size = 306000
 			}
 			create_pop = {
@@ -887,23 +875,19 @@
 				size = 57204
 			}
 			create_pop = {
-				culture = hellene
-				size = 376000
-			}
-			create_pop = {
 				culture = bulgarian
 				size = 80000
 			}
 			create_pop = {
 				culture = roman
-				size = 221682
+				size = 597682
 			}
 		}
 	}
 	s:STATE_IONIAN_ISLANDS = {
 		region_state:ROM = {
 			create_pop = {
-				culture = hellene
+				culture = roman
 				size = 186404
 			}
 			create_pop = {
@@ -915,7 +899,7 @@
 	s:STATE_PELOPONNESE = {
 		region_state:ROM = {
 			create_pop = {
-				culture = hellene
+				culture = roman
 				size = 201996
 			}
 			create_pop = {

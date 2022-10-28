@@ -4175,7 +4175,7 @@ serb={
 bulgarian={
 	color= hsv{ 0.40 0.26 0.58 }
 	religion = orthodox
-	traits = { jugoslav european_heritage }
+	traits = { jugoslav roman_culture european_heritage }
 	male_common_first_names={
 		Aleksandar
 		Andrey
