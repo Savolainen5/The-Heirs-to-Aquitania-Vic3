@@ -12,4 +12,7 @@ Same for pops, too.
 
 2
 
-IDK, so many errors pop up from removing tags, but not all references everywhere.
+IDK, so many errors pop up from removing tags, but not all references everywhere in the history
+
+3
+
