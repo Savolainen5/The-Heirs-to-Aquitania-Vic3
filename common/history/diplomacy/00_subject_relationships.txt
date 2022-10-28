@@ -76,7 +76,7 @@
 			country = c:ASL
 			type = puppet
 		}
-		# Colony of Frederiksland (formerly Western Australia)
+		# Colony of Frederiksland
 		create_diplomatic_pact = {
 			country = c:FRD
 			type = puppet
@@ -123,7 +123,7 @@
 			type = puppet
 		}
 	}
-#	c:KAB = {							#Countries of the lowest rank aren't allowed to have vassals, which seems strange to me
+#	c:KAB = {							#Countries of the lowest rank aren't allowed to have vassals, which seems strange to me. This should be changed in the mod
 #		create_diplomatic_pact = {
 #			country = c:CHC
 #			type = puppet
@@ -150,10 +150,6 @@
 			country = c:NHL
 			type = puppet
 		}
-#		create_diplomatic_pact = {
-#			country = c:TER
-#			type = vassal
-#		}
 		create_diplomatic_pact = {
 			country = c:SAF
 			type = puppet
@@ -165,25 +161,7 @@
 			type = puppet
 		}
 	}
-	c:POR = {
-		create_diplomatic_pact = {
-			country = c:NLT
-			type = puppet
-		}
-	}
 	c:ROM = {
-#		create_diplomatic_pact = {
-#			country = c:BUL
-#			type = puppet
-#		}
-#		create_diplomatic_pact = {
-#			country = c:GRE
-#			type = puppet
-#		}
-#		create_diplomatic_pact = {
-#			country = c:MCD
-#			type = puppet
-#		}
 		create_diplomatic_pact = {
 			country = c:MON
 			type = puppet
@@ -202,12 +180,6 @@
 	#####################################################################################
 	#Asia
 	
-#	c:AJP = {
-#		create_diplomatic_pact = {
-#			country = c:BIM
-#			type = vassal
-#		}
-#	}
 	c:EGY = {  #Yeah, this is technically Africa, but whatever, man
 		create_diplomatic_pact = {
 			country = c:HDJ

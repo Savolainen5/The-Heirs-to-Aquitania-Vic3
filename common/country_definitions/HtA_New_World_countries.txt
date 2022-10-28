@@ -318,7 +318,7 @@ NGR = { #Viceroyalty of Nueva Granada, Hispanian colony
 	cultures = { north_andean }
 	capital = STATE_ZULIA
 }
-NLT = { #Viceroyalty of Nova Lusitania, Hispanian colony
+TPR = { #Portuguese possession, Provincias Unidas da Terra Prateada
 	color = { 71 158 75 }
 	
 	country_type = colonial

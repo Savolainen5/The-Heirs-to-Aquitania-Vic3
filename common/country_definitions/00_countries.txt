@@ -198,7 +198,7 @@ POR = {
 	tier = kingdom
 	
 	cultures = { portuguese }
-	capital = STATE_ESTREMADURA
+	capital = STATE_BUENOS_AIRES
 }
 
 SCO = {

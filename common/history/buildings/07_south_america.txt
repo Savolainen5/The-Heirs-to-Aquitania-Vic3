@@ -499,7 +499,7 @@
 		}
 	}
 	s:STATE_URUGUAY={
-		region_state:NLT={
+		region_state:POR={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -523,7 +523,7 @@
 	s:STATE_JUJUY={
 		region_state:NCS={
 		}
-		region_state:NLT={
+		region_state:POR={
 		}
 	}
 	s:STATE_ALTO_PARAGUAY={
@@ -596,7 +596,7 @@
 		}
 	}
 	s:STATE_BUENOS_AIRES={
-		region_state:NLT={
+		region_state:POR={
 			create_building={
 				building="building_furniture_manufacturies"
 				level=2
@@ -652,11 +652,11 @@
 		}
 	}
 	s:STATE_RIO_NEGRO={
-		region_state:NLT={
+		region_state:POR={
 		}
 	}
 	s:STATE_LA_PAMPA={
-		region_state:NLT={
+		region_state:POR={
 			create_building={
 				building="building_textile_mills"
 				level=2
@@ -678,7 +678,7 @@
 		}
 	}
 	s:STATE_SANTA_FE={
-		region_state:NLT={
+		region_state:POR={
 			create_building={
 				building="building_logging_camp"
 				level=1
@@ -694,7 +694,7 @@
 		}
 	}
 	s:STATE_CORRIENTES={
-		region_state:NLT={
+		region_state:POR={
 			create_building={
 				building="building_livestock_ranch"
 				level=2
@@ -710,7 +710,7 @@
 		}
 	}
 	s:STATE_TUCUMAN={
-		region_state:NLT={
+		region_state:POR={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -852,7 +852,7 @@
 		}
 	}
 	s:STATE_RIO_GRANDE_DO_SUL={
-		region_state:NLT={
+		region_state:POR={
 			create_building={
 				building="building_livestock_ranch"
 				level=2
@@ -880,7 +880,7 @@
 		}
 	}
 	s:STATE_PARANA={
-		region_state:NLT={
+		region_state:POR={
 			create_building={
 				building="building_logging_camp"
 				level=1
@@ -896,7 +896,7 @@
 		}
 	}
 	s:STATE_SANTA_CATARINA={
-		region_state:NLT={
+		region_state:POR={
 			create_building={
 				building="building_logging_camp"
 				level=1
