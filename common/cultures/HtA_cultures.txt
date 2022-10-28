@@ -1775,82 +1775,6 @@ logrish={
 	}
 }
 
-lusitano={
-	color=rgb{ 168 186 50 }
-	religion = catholic
-	traits = { hispanophone european_heritage }
-	male_common_first_names={
-		Agustin Antonio Atanasio Baltasar Bartolome Bernardino Bernardo Carlos Cecilio Cirilo Claudio Clemente Candido_2 Domingo Emiliano Esteban Eugenio_2
-		Evaristo Facundo Faustino Feliciano Francisco Fructuoso Felix Gabriel Gaspar Guillermo Hipolito Ignacio Jose Juan_Jose Juan_Manuel Juan_Ramon Julio
-		Justo Lorenzo Luis Manuel Marcial Miguel Maximo Nicolas_2 Patricio Pedro Prudencio Ramon Roberto Roque Salvador Santiago Torcuato Venancio
-	}
-	female_common_first_names = {
-		Agustina Catalina Constancia Encarnacion Eva Juana Manuela Maria Martina Robustiana Sara
-	}	
-	noble_last_names = {
-		de_Alvear
-		de_Goyeneche
-		de_Lamadrid
-		de_Pueyrredon
-		de_Rosas
-		de_Urquiza
-		de_la_Plaza
-		Rivadavia
-	}
-	common_last_names={
-		Aguirre
-		Avellaneda
-		Balcarce
-		Bareiro
-		Berro
-		Brown
-		Baez
-		Caballero
-		Cruz
-		Derqui
-		Diaz_2
-		Ellauri
-		Escobar
-		Flores
-		Gonzalez
-		Jovellanos
-		Justo
-		Juarez
-		Latorre
-		Lopez
-		Machain
-		Maza
-		Meza
-		Mitre
-		Paz
-		Pedernera
-		Pellegrini
-		Pereira
-		Quintana
-		Rivarola
-		Rivera
-		Roca
-		Rodriguez_de_Francia
-		Rojas
-		Rondeau
-		Santos
-		Sarmineto
-		Solano
-		Saenz
-		Tajes
-		Uriburu
-		Viamonte
-		Vidal
-		Williman
-		Wisner
-		Yrigoyen
-	}
-	ethnicities = {
-		1 = south_american
-	}
-	graphics = generic
-}
-
 marianais={
 	color= { 29 142 48 }
 	religion = catholic
@@ -2049,6 +1973,145 @@ nutcan={ #Spanish Nutqueño but that may be a step too far?
 		Williman
 		Wisner
 		Yrigoyen
+	}
+	ethnicities = {
+		1 = south_american
+	}
+	graphics = generic
+}
+
+prateado={
+	color=rgb{ 168 186 50 }
+	religion = catholic
+	traits = { lusophone european_heritage }
+	male_common_first_names={
+		Afonso
+		Antonio_3
+		Artur
+		Augusto
+		Aurelio_2
+		Benjamin
+		Carlos
+		Celso
+		Custodio
+		Candido
+		Delfim
+		Deodoro
+		Eduardo
+		Emilio_2
+		Epitacio
+		Ernesto
+		Federico
+		Fernando
+		Filipe
+		Floriano
+		Francisco_Xavier
+		Francisco_de_Paula
+		Fabio_2
+		Gaspar
+		Gastao
+		Getulio
+		Henrique
+		Hermes
+		Humberto
+		Isaias
+		Joaquim
+		Jose
+		Joao
+		Juscelino
+		Julio_2
+		Luis_2
+		Manuel
+		Marco_Antonio_2
+		Miguel
+		Mario_2
+		Nereu
+		Nilo
+		Paulo
+		Pedro
+		Prudente
+		Silviano
+		Tancredo
+		Urbano
+		Venceslau
+		Vital
+	}
+	female_common_first_names = {
+		Adelia
+		Amalia_2
+		Beatriz
+		Carmen
+		Cristina
+		Domitila
+		Emilia
+		Francisca
+		Isabel
+		Josefina
+		Julia
+		Maria
+		Mariana
+		Narcisa
+		Teresa
+		Veridiana
+		Violanta
+	}	
+	noble_last_names = {
+		Boaventura
+		de_Beaurepaire-Rohan
+		de_Braganca
+		de_Carvalho
+		de_Lima_e_Silva
+		da_Camara
+		da_Costa
+		da_Fonseca
+		de_Aguiar
+		de_Barros
+		de_Itapevi
+		de_Melo
+		de_Noronha
+		de_Oliveira
+		de_Orleans
+		de_Souza_Neto
+		de_Suruf
+		de_Castro
+		de_Alcantara
+		da_Silva_Prado
+	}
+	common_last_names={
+		Barreto
+		Bernardes
+		Bittencourt
+		Brandao
+		Bras
+		Cabral_da_Silva
+		Caldwell
+		Constant
+		Costa
+		Dutra
+		Fragoso
+		Frontin
+		Galvao
+		Jordao_2
+		Labatut
+		Lopes
+		Maciel
+		Mallet
+		Marques
+		Marques_de_Sousa
+		Maurity
+		Moreira
+		Osorio_2
+		Peixoto
+		Pena
+		Pessoa
+		Pinto
+		Rondon
+		Saldanha_da_Gama
+		Santos
+		Soares
+		Tavares
+		Vargas
+		Wandenkolk
 	}
 	ethnicities = {
 		1 = south_american

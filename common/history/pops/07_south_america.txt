@@ -444,7 +444,7 @@ POPS = {
 	s:STATE_URUGUAY = {
 		region_state:NLT = {
 			create_pop = {
-				culture = lusitano
+				culture = prateado
 				size = 95192
 			}
 			create_pop = {
@@ -473,13 +473,13 @@ POPS = {
 				size = 48000
 			}
 			create_pop = {
-				culture = lusitano
+				culture = prateado
 				size = 4000
 			}
 		}
 		region_state:NLT = {
 			create_pop = {
-				culture = lusitano
+				culture = prateado
 				size = 29304
 			}
 			create_pop = {
@@ -495,7 +495,7 @@ POPS = {
 				size = 56196
 			}
 			create_pop = {
-				culture = lusitano
+				culture = prateado
 				size = 3996
 			}
 		}
@@ -503,7 +503,7 @@ POPS = {
 	s:STATE_BAJO_PARAGUAY = {
 		region_state:GNI = {
 			create_pop = {
-				culture = lusitano
+				culture = prateado
 				size = 8540 #308396
 			}
 			create_pop = {
@@ -533,7 +533,7 @@ POPS = {
 	s:STATE_BUENOS_AIRES = {
 		region_state:NLT = {
 			create_pop = {
-				culture = lusitano
+				culture = prateado
 				size = 206600
 			}
 			create_pop = {
@@ -564,7 +564,7 @@ POPS = {
 				size = 31100
 			}
 			create_pop = {
-				culture = lusitano
+				culture = prateado
 				size = 8000
 			}			
 		}
@@ -576,7 +576,7 @@ POPS = {
 				size = 23880
 			}
 			create_pop = {
-				culture = lusitano
+				culture = prateado
 				size = 19996
 			}
 			create_pop = {
@@ -593,7 +593,7 @@ POPS = {
 	s:STATE_LA_PAMPA = {
 		region_state:NLT = {
 			create_pop = {
-				culture = lusitano
+				culture = prateado
 				size = 159740
 			}
 			create_pop = {
@@ -614,7 +614,7 @@ POPS = {
 	s:STATE_SANTA_FE = {
 		region_state:NLT = {
 			create_pop = {
-				culture = lusitano
+				culture = prateado
 				size = 94658
 			}
 			create_pop = {
@@ -637,7 +637,7 @@ POPS = {
 	s:STATE_CORRIENTES = {
 		region_state:NLT = {
 			create_pop = {
-				culture = lusitano
+				culture = prateado
 				size = 101462
 			}
 			create_pop = {
@@ -662,7 +662,7 @@ POPS = {
 	s:STATE_TUCUMAN = {
 		region_state:NLT = {
 			create_pop = {
-				culture = lusitano
+				culture = prateado
 				size = 76078
 			}
 			create_pop = {
@@ -693,7 +693,7 @@ POPS = {
 		}
 		region_state:NLT = {
 			create_pop = {
-				culture = lusitano
+				culture = prateado
 				size = 36004
 			}
 			create_pop = {
@@ -833,7 +833,7 @@ POPS = {
 	s:STATE_RIO_GRANDE_DO_SUL = {
 		region_state:NLT = {
 			create_pop = {
-				culture = lusitano
+				culture = prateado
 				size = 116681
 			}
 			create_pop = {
@@ -871,7 +871,7 @@ POPS = {
 	s:STATE_SANTA_CATARINA = { # 1836 estimate. 61753 total.
 		region_state:NLT = {
 			create_pop = {
-				culture = lusitano
+				culture = prateado
 				size = 35582
 			}
 			create_pop = {

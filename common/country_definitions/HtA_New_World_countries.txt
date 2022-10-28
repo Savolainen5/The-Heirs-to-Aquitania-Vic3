@@ -325,6 +325,6 @@ NLT = { #Viceroyalty of Nova Lusitania, Hispanian colony
 	
 	tier = kingdom
 	
-	cultures = { lusitano }
+	cultures = { prateado }
 	capital = STATE_BUENOS_AIRES
 }
