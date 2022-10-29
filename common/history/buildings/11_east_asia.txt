@@ -1332,7 +1332,7 @@
 		}
 	}
 	s:STATE_TONKIN={
-		region_state:NNY={
+		region_state:DAI={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -1369,13 +1369,13 @@
 		region_state:DAI={
 			create_building={
 				building="building_fishing_wharf"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
 			}
 			create_building={
 				building="building_livestock_ranch"
-				level=2
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
@@ -1385,31 +1385,17 @@
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
-		}
-		region_state:DAI={
-			create_building={
-				building="building_fishing_wharf"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
-			}
-			create_building={
-				building="building_livestock_ranch"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_barracks"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
-			}
 			create_building={
 				building="building_port"
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_anchorage" }
+			}
+			create_building={
+				building="building_government_administration"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
 			}
 		}
 	}
@@ -1417,7 +1403,7 @@
 		region_state:DAI={
 			create_building={
 				building="building_rice_farm"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
 			}
@@ -1432,6 +1418,12 @@
 				level=10
 				reserves=1
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
+			}
+			create_building={
+				building="building_government_administration"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
 			}
 		}
 		region_state:SIA={
@@ -1458,6 +1450,34 @@
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_anchorage" }
+			}
+		}
+	}
+	s:STATE_NAMTRUNG={
+		region_state:DAI={
+			create_building={
+				building="building_government_administration"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_simple_organization" }
+			}
+			create_building={
+				building="building_rice_farm"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_farming_building_rice_farm" "pm_no_secondary" "pm_tools_disabled" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_tea_plantation"
+				level=2
+				reserves=1
+				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_barracks"
+				level=20
+				reserves=1
+				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
 			}
 		}
 	}

@@ -182,6 +182,14 @@
  HUB_NAME_STATE_MONGONIE_wood: "Makato" #Similar town nearby - Mankato, WI -, roughly means Blue Earth
  HUB_NAME_STATE_MONGONIE_mine: "Kinderbos" #Village near Boxtel in NL
  HUB_NAME_STATE_MONGONIE_farm: "Cederstroom" #Cedar Rapids. That is so ugly, isn't it
+ 
+  #Dai Ngu
+
+ HUB_NAME_STATE_NAMTRUNG_city: "Quy Nohn" #Capital of Later Dai Ngu
+ HUB_NAME_STATE_NAMTRUNG_wood: "Kon Tum" #Bull Falls, though this is a false etymology of the French name for Wausau, WI
+ HUB_NAME_STATE_NAMTRUNG_mine: "Đắk Lắk" #Seipgens' rock. Emile Seipgens was a Dutch writer in the 19th century born in Roermond
+ HUB_NAME_STATE_NAMTRUNG_farm: "Da Lat" #Chicago haha
+ HUB_NAME_STATE_NAMTRUNG_port: "Kaian" #Japanese Hoian
 
  #Ashelasia
 

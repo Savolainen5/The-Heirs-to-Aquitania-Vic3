@@ -850,9 +850,27 @@
 				size = 30000
 			}
 		}
+		region_state:JAP = {
+			create_pop = {
+				culture = japanese
+				size = 28000
+			}
+			create_pop = {
+				culture = thai
+				size = 16000
+			}
+			create_pop = {
+				culture = min
+				size = 1600
+			}
+			create_pop = {
+				culture = yue
+				size = 1500
+			}
+		}
 	}
 	s:STATE_TONKIN = {
-		region_state:NNY = {
+		region_state:DAI = {
 			create_pop = {
 				culture = vietnamese
 				size = 1861320
@@ -880,26 +898,11 @@
 		region_state:DAI = {
 			create_pop = {
 				culture = vietnamese
-				size = 508099
+				size = 1583205
 			}
 			create_pop = {
 				culture = yue
-				size = 7999
-			}
-			create_pop = {
-				culture = vietnamese
-				religion = catholic
-				size = 54000
-			}
-		}
-		region_state:NNY = {
-			create_pop = {
-				culture = vietnamese
-				size = 1532297
-			}
-			create_pop = {
-				culture = yue
-				size = 23992
+				size = 31922
 			}
 			create_pop = {
 				culture = miao
@@ -908,7 +911,7 @@
 			create_pop = {
 				culture = vietnamese
 				religion = catholic
-				size = 16200
+				size = 70200
 			}
 		}
 	}
@@ -970,6 +973,57 @@
 			}
 		}
 	}
+	
+	s:STATE_NAMTRUNG = {
+		region_state:DAI = {
+			create_pop = {
+				culture = vietnamese
+				size = 909297
+			}
+			create_pop = {
+				culture = vietnamese
+				religion = animist
+				size = 64000
+			}
+			create_pop = {
+				culture = khmu
+				size = 18000
+			}
+			create_pop = {
+				culture = vietnamese
+				religion = catholic
+				size = 58200
+			}
+			create_pop = {
+				culture = yue
+				size = 15000
+			}
+			create_pop = {
+				culture = min
+				size = 10996
+			}
+		}
+		
+		region_state:JAP = {
+			create_pop = {
+				culture = yue
+				size = 28000
+			}
+			create_pop = {
+				culture = min
+				size = 16000
+			}
+			create_pop = {
+				culture = japanese
+				size = 1600
+			}
+			create_pop = {
+				culture = portuguese
+				size = 150
+			}
+		}
+	}
+	
 	s:STATE_LAOS = {
 		region_state:SIA = {
 			create_pop = {

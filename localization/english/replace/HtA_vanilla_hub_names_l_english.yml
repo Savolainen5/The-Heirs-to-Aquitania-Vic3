@@ -89,3 +89,11 @@
  #Qin
  HUB_NAME_STATE_ZHEJIANG_mine: "Wenzhou"
  HUB_NAME_STATE_ZHEJIANG_port: "Ningbo"
+ 
+ #Dai Ngu
+ HUB_NAME_STATE_ANNAM_mine: "Thanh Hoa" #Mines in Province
+ HUB_NAME_STATE_ANNAM_farm: "Huế" #Japanized Hoi An
+ 
+ HUB_NAME_STATE_MEKONG_farm: "Cần Thơ" #4th largest city in Vietnam
+ HUB_NAME_STATE_MEKONG_mine: "Ha Tien" #Mines in the province
+

@@ -42,6 +42,9 @@
  STATE_WELLBURN: "Wellburn" #something-brook
  STATE_BERDON: "Berdon" #Beard-something?
 
+ #Dai Viet
+ STATE_NAMTRUNG: "Trung Kỳ"
+
  #Mariana - Most state names are based on indigenous names
  STATE_TOHOME: "Tohomé"
  STATE_TANABIE: "Tanabie"

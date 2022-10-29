@@ -1497,7 +1497,7 @@ DAI = {
 	tier = kingdom
 	
 	cultures = { vietnamese }
-	capital = STATE_MEKONG
+	capital = STATE_NAMTRUNG
 }
 
 JAV = {

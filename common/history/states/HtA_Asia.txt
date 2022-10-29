@@ -28,11 +28,11 @@
 	s:STATE_MEKONG = {
 		create_state = {
 			country = c:DAI
-			owned_provinces = { x7D46C6 xB366DB x248BCA xA4DBB7 x00C0B0 xD8BFF1 xFD66E6 x5F0DAB x47ADCE x841E31 x72E436 x1C5BE6 xC080B0 x5E16EB x58B174 x70B060 x3C8C22 }
+			owned_provinces = { x00C0B0 x223DD3 x246E58 x248BCA x7D46C6 xA4DBB7 xE5A4DA x0C662E }
 		}
 		create_state = {
 			country = c:SIA
-			owned_provinces = { x4923A3 xDF070D x223DD3 x474B0B x0C662E x246E58 x217F68 x1D9718 x4080B0 xE5A4DA }
+			owned_provinces = { x4923A3  x223DD3 x474B0B x246E58 x217F68 x1D9718 x4080B0 xDF070D }
 		}
 		
 		add_homeland = vietnamese
@@ -1085,27 +1085,43 @@
 	s:STATE_BANGKOK = {
 		create_state = {
 			country = c:SIA
-			owned_provinces = { xF36077 x09DC04 x154B0D xAD234F x060F5C x98384C x10AFE0 x2C4B2F xEEFF94 x20DFD0 x5B0F13 x30EF20 x99A1C0 xA0084E xADC4DA xDF3CAD xAA42AD x541AFB x552E9A xCE49D1 x194621 }
+			owned_provinces = { xF36077 x09DC04 x154B0D xAD234F x060F5C x98384C x10AFE0 x2C4B2F xEEFF94 x5B0F13 x30EF20 x99A1C0 xA0084E xADC4DA xDF3CAD xAA42AD x541AFB x552E9A xCE49D1 x194621 }
+		}
+		create_state = {
+			country = c:JAP
+			owned_provinces = { x20DFD0 }
 		}
 		
 		add_homeland = thai
 	}
 	s:STATE_TONKIN = {
 		create_state = {
-			country = c:NNY
+			country = c:DAI
 			owned_provinces = { x88BB78 x70B09F xCF906A x7B8217 x32BFFB x65FE48 x799EA4 x738D72 xCD0D1D xD27C1B x5083AB xF031A0 x36F847 x98FD84 xF0E531 x61145A x60458E xF0B0A0 x64BE62 xD49EE0 x4BB178 x5AB75C xC37AF1 }
 		}
 		
 		add_homeland = vietnamese
+		add_homeland = yue
+		add_homeland = han
 	}
 	s:STATE_ANNAM = {
 		create_state = {
 			country = c:DAI
-			owned_provinces = { xC46194 xEDBFB1 xFAB663 xA01EF1 xEF3060 }
+			owned_provinces = { x0BE805 x2A870A x307020 x3070A0 x5109BC x7A5ACC x9E5CF8 xB070A0 xC08B17 xE63DDE xEEB5DD xF22C8B }
+		}
+		
+		add_homeland = vietnamese
+		add_homeland = han
+		add_homeland = yue
+	}
+	s:STATE_NAMTRUNG = {
+		create_state = {
+			country = c:DAI
+			owned_provinces = { x1C5BE6 x3C8C22 x47ADCE x58B174 x5E16EB x5F0DAB x70B060 x72E436 x841E31 xB366DB xC080B0 xD8BFF1 xEDBFB1 xEF3060 xFAB663 xFD66E6 xC46194 }
 		}
 		create_state = {
-			country = c:NNY
-			owned_provinces = { x5109BC x307020 xF22C8B x3070A0 x7A5ACC x2A870A xE63DDE x9E5CF8 xB070A0 xC08B17 x0BE805 xEEB5DD }
+			country = c:JAP
+			owned_provinces = { xA01EF1 }
 		}
 		
 		add_homeland = vietnamese
