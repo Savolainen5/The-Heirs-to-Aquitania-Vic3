@@ -652,7 +652,7 @@
 		}
 	}
 	s:STATE_LIBYAN_DESERT = {
-		region_state:TRI = {
+		region_state:CYR = {
 			create_pop = {
 				culture = bedouin
 				size = 30000

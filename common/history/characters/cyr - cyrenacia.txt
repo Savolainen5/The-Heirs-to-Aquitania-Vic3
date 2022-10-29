@@ -1,0 +1,19 @@
+﻿CHARACTERS = {
+	c:CYR = {
+		create_character = {
+			first_name = "Yahya"
+			last_name = "al-Idrisi"
+			birth_date = 1779.4.1
+			ruler = yes
+			#hq = region_caucasus
+			#is_general = yes
+			#commander_rank = commander_rank_2
+			interest_group = ig_devout
+			ideology = ideology_traditionalist
+			traits = {
+				pious
+				brave
+			}
+		}
+	}
+}

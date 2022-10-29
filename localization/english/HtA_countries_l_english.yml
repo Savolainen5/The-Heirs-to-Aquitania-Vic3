@@ -31,6 +31,8 @@
  CLN_ADJ: "Cologner"
  CNL: "Canelia"
  CNL_ADJ: "Canelian"
+ CYR: "Cyrenacia"
+ CYR_ADJ: "Cyrenacian"
  DAU: "Daufinat"
  DAU_ADJ: "Daufinens"
  DEL: "Deli"
@@ -107,7 +109,6 @@
  MEL_ADJ: "Melayese"
  MDR: "Madurai"
  MDR_ADJ: "Maduraite"
-  #The above is not the best adjective for this, but that's OK for now
  MKB: "Minangkabau"
  MKB_ADJ: "Minangkabau"
  MNZ: "Mainz"

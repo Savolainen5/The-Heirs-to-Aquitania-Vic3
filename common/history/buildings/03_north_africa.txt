@@ -787,7 +787,7 @@
 		}
 	}
 	s:STATE_LIBYAN_DESERT={
-		region_state:TRI={
+		region_state:CYR={
 		}
 	}
 	s:STATE_SAHARA={
