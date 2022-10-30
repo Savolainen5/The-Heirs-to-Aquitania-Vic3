@@ -67,6 +67,14 @@ GDL = { # Guilderland
 		coa_with_overlord_canton = GDL_subject			
 		priority = 1
 	}
+	flag_definition = {
+		coa = GDL_monarchy
+		subject_canton = GDL_monarchy
+		priority = 20
+		trigger = {
+			coa_def_monarchy_flag_trigger = yes
+		}
+	}
 }
 
 HIS = { # Spain
