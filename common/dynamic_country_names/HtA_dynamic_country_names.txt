@@ -21,6 +21,24 @@ IRE = { #Ireland/Eire
 	}
 }
 
+POR = { #Portugal obviously
+	dynamic_country_name = { #United Kingdom
+		name = dyn_c_united_kingdom_por
+		#adjective = dyn_c_united_kingdom_por_adj #Should remain Portuguese
+		
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			exists = scope:actor
+#			scope:actor = {
+#				capital = { state_region = s:STATE_BUENOS_AIRES } #This should work, and yet it does not. WHY?!
+#			}
+			NOT = { exists = c:TPR } #Terra Prateada doesn't exist
+		}
+	}
+}
+
 SAF = { #South Africa
 	dynamic_country_name = { #Cape Colony
 		name = dyn_c_cape_colony
@@ -34,6 +52,27 @@ SAF = { #South Africa
 			c:NET = {
 				has_diplomatic_pact = {
 					who = c:SAF
+					type = puppet
+					is_initiator = yes
+				}
+			}
+		}
+	}
+}
+
+UCA = { #Central America
+	dynamic_country_name = { #Guatemala
+		name = dyn_c_uca_guatemala
+		adjective = dyn_c_uca_guatemala_adj
+		
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			exists = c:HIS
+			c:HIS = {
+				has_diplomatic_pact = {
+					who = c:UCA
 					type = puppet
 					is_initiator = yes
 				}
