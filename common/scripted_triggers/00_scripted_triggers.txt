@@ -461,10 +461,7 @@ owned_central_asia_region_states = {
 	owns_entire_state_region = STATE_SEMIRECHE
 	owns_entire_state_region = STATE_DZUNGARIA
 	owns_entire_state_region = STATE_TIANSHAN
-	owns_entire_state_region = STATE_NGARI
-	owns_entire_state_region = STATE_LHASA
-	owns_entire_state_region = STATE_KASHMIR
-	owns_entire_state_region = STATE_PASHTUNISTAN
+	owns_entire_state_region = STATE_JETISY
 	owns_entire_state_region = STATE_TAJIKISTAN
 	owns_entire_state_region = STATE_KIRGHIZIA
 	owns_entire_state_region = STATE_UZBEKIA
@@ -1097,6 +1094,18 @@ can_reach_target_country = {
 			navy_size >= 10
 			has_port = yes
 			scope:target_country = { has_port = yes }
+		}
+	}
+}
+
+can_reach_target_state = {
+	has_diplomatic_relevance = scope:target_state.owner
+	OR = {
+		has_strategic_adjacency = scope:target_state
+		AND = {
+			navy_size >= 10
+			has_port = yes
+			scope:target_state = { is_coastal = yes }
 		}
 	}
 }

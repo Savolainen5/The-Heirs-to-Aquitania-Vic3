@@ -11,6 +11,7 @@ Political map:
 - Siberia
 - Balkans
 - Sub-Saharan Africa
+- Rework Vietnam in light of discussions on 29.10.
 
 Countries:
 - Japanese religious stuff
