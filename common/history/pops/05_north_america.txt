@@ -1548,7 +1548,7 @@
 		region_state:AME = {
 			create_pop = {
 				culture = coluan
-				size = 121499
+				size = 106146
 			}
 			create_pop = {
 				culture = oodham
@@ -1563,14 +1563,22 @@
 				culture = afro_caribeno
 				size = 6000
 			}
+			create_pop = {
+				culture = mejicano
+				size = 14642
+			}
 		}
 	}
 	s:STATE_VERACRUZ = {
 		region_state:AME = {
 			create_pop = {
+				culture = mejicano
+				size = 242061
+			}
+			create_pop = {
 				culture = coluan
-				size = 251061
-			}		
+				size = 8251
+			}
 		}
 	}
 	s:STATE_DURANGO = { # est. total of 156999. 153810 in 1830, 160187 in 1840
@@ -1593,7 +1601,7 @@
 		region_state:AME = {
 			create_pop = {
 				culture = coluan
-				size = 113841
+				size = 100841
 			}
 			create_pop = {
 				culture = oodham
@@ -1603,17 +1611,22 @@
 				culture = afro_caribeno
 				size = 1100
 			}
+			create_pop = {
+				culture = mejicano
+				size = 13942
+			}
 		}
 	}
-	# San Luis Potosi:	302390 in 1830, 326559 in 1840, so averaging out to 314475
-	# Guanajuato:		442916 in 1830, 591401 in 1840, so averaging out to 517159
-	# Queretaro:		114437 in 1830, 122962 in 1840, so averaging out to 118699
-	# working total number of 950333
+
 	s:STATE_BAJIO = {
 		region_state:AME = {
 			create_pop = {
 				culture = coluan
-				size = 594909
+				size = 383104
+			}
+			create_pop = {
+				culture = mejicano
+				size = 214913
 			}
 			create_pop = {
 				culture = nahua
@@ -1636,7 +1649,7 @@
 	s:STATE_YUCATAN = { 
 		region_state:YUC = {
 			create_pop = {
-				culture = coluan
+				culture = mejicano
 				size = 226764
 			}
 			create_pop = {
@@ -1653,7 +1666,11 @@
 		region_state:AME = {
 			create_pop = {
 				culture = coluan
-				size = 763486
+				size = 163486
+			}
+			create_pop = {
+				culture = mejicano
+				size = 604561
 			}
 			create_pop = {
 				culture = mixtec
@@ -1677,8 +1694,12 @@
 	s:STATE_GUERRERO = {
 		region_state:AME = {
 			create_pop = {
+				culture = mejicano
+				size = 98874
+			}
+			create_pop = {
 				culture = coluan
-				size = 114874
+				size = 10618
 			}
 			create_pop = {
 				culture = zapotec
@@ -1698,11 +1719,15 @@
 			}
 		}
 	}
-	s:STATE_OAXACA = { # approx 479674. 457504 in 1830, 501844 in 1840.
+	s:STATE_OAXACA = {
 		region_state:AME = {
 			create_pop = {
+				culture = mejicano
+				size = 137903
+			}
+			create_pop = {
 				culture = coluan
-				size = 143903
+				size = 5439
 			}
 			create_pop = {
 				culture = zapotec
@@ -1726,7 +1751,11 @@
 		region_state:AME = {
 			create_pop = {
 				culture = coluan
-				size = 1011710
+				size = 5153751
+			}
+			create_pop = {
+				culture = mejicano
+				size = 481715
 			}
 			create_pop = {
 				culture = oodham
@@ -1743,7 +1772,11 @@
 		region_state:AME = {
 			create_pop = {
 				culture = coluan
-				size = 137347
+				size = 130023
+			}
+			create_pop = {
+				culture = mejicano
+				size = 7373
 			}
 			create_pop = {
 				culture = nahua
@@ -1754,7 +1787,7 @@
 	s:STATE_CHIAPAS = {
 		region_state:GUA = {
 			create_pop = {
-				culture = coluan
+				culture = central_american
 				size = 75032
 			}
 			create_pop = {
