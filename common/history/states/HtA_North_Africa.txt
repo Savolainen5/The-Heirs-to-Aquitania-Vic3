@@ -10,7 +10,7 @@
 	s:STATE_TUNISIA = {
 		create_state = {
 			country = c:TUN
-			owned_provinces = { x7B9842  x491AE9 x7A3A59 xC05020 xF69D0A x1799E8 x80D0A0 x4DF111 x67FF86 x40D021 xCF7B71 x6016DA }
+			owned_provinces = { x7B9842 x491AE9 x7A3A59 xC05020 xF69D0A x1799E8 x80D0A0 x4DF111 x67FF86 x40D021 xCF7B71 x6016DA }
 		}
 		create_state = {
 			country = c:DUZ
@@ -22,7 +22,7 @@
 		}
 		create_state = {
 			country = c:AQT
-			owned_provinces = { x063C9A x063CAB x15695C x7C6240 x988C08 }
+			owned_provinces = { x063C9A x063CAB x15695C x988C08 }
 			state_type = unincorporated
 		}
 		
@@ -121,11 +121,11 @@
 	s:STATE_ALGIERS = {
 		create_state = {
 			country = c:BOU
-			owned_provinces = { x0090A0  x3A0E38 x429B12 x5ACA8F x7E5293 x9AF6A4 xAA79B2 xB951DE xD14DAC }
+			owned_provinces = { x0090A0 x3A0E38 x429B12 x5ACA8F x7E5293 x9AF6A4 xAA79B2 xB951DE xD14DAC }
 		}
 		create_state = {
 			country = c:AQT
-			owned_provinces = { x0050A0 x713C2F x265E07 xB5486B xA75E78 x8090DF xA39A15 xCB898B xC6BA37 x20EF40 }
+			owned_provinces = { x0050A0 x713C2F x265E07 xB5486B xA75E78 x8090DF xA39A15 xCB898B xC6BA37 x20EF40 x7C6240 }
 			state_type = unincorporated
 		}
 		
