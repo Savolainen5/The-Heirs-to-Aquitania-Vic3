@@ -53,20 +53,8 @@ AEN_republic2 = { #doesn't look as good as 1, but it DOES have a cross fleury
 		texture = "ce_martlet.dds"
 		color1 = color2
 		instance = { position = { 0.2 0.2 } scale = { 0.625 0.625 } }
-	}
-	colored_emblem = {
-		texture = "ce_martlet.dds"
-		color1 = color2
 		instance = { position = { 0.8 0.2 } scale = { 0.625 0.625 } }
-	}
-	colored_emblem = {
-		texture = "ce_martlet.dds"
-		color1 = color2
 		instance = { position = { 0.2 0.8 } scale = { 0.625 0.625 } }
-	}
-	colored_emblem = {
-		texture = "ce_martlet.dds"
-		color1 = color2
 		instance = { position = { 0.8 0.8 } scale = { 0.625 0.625 } }
 	}
 }
@@ -84,20 +72,8 @@ AEN_republic = {
 		texture = "ce_martlet.dds"
 		color1 = color2
 		instance = { position = { 0.25 0.2 } scale = { 0.75 0.75 } }
-	}
-	colored_emblem = {
-		texture = "ce_martlet.dds"
-		color1 = color2
 		instance = { position = { 0.78 0.2 } scale = { 0.75 0.75 } }
-	}
-	colored_emblem = {
-		texture = "ce_martlet.dds"
-		color1 = color2
 		instance = { position = { 0.25 0.8 } scale = { 0.75 0.75 } }
-	}
-	colored_emblem = {
-		texture = "ce_martlet.dds"
-		color1 = color2
 		instance = { position = { 0.78 0.8 } scale = { 0.75 0.75 } }
 	}
 }
@@ -132,9 +108,58 @@ AEN_canton = {
 		texture = "te_wyvern.dds"
 	}
 }
+##############################
+AME = {
+	pattern = "pattern_per_saltire.dds"
+	color1 = "green"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_frame_circle_roundel_triangles.dds"
+		color1 = "yellow"
+		color2 = "yellow"
+		color3 = "red"
+		instance = {
+			scale = { 0.75 0.75 }
+		}
+	}
+#	textured_emblem = {
+#		texture = "te_usa_bald_eagle.dds" #Just kidding
+#		instance = {
+#			scale = { 0.5 0.5 }
+#		}
+#	}
+	colored_emblem = {
+		texture = "ce_cross_santiago.dds"
+		color1 = "red"
+		instance = {
+			scale = { 0.5 0.5 }
+		}
+	}
+
+}
 
 ##############################
-
+ASL = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+}
+ASL_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+	colored_emblem = {
+		texture = "ce_cross_denmark.dds"
+		color1 = "white"
+	}
+}
+ASL_colony_DEN = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+	colored_emblem = {
+		texture = "ce_cross_denmark.dds"
+		color1 = "white"
+	}
+}
+##############################
 #AQT_decent_fascist = {
 #	pattern = "pattern_solid.tga"
 #	color1 = "black"
@@ -180,16 +205,12 @@ AQT_fascist = { #_pretty_good_fascist
 		texture = "ce_frame_circle.dds"
 		color1 = color2
 		instance = { scale = { 0.6 0.6 } }
+		instance = { scale = { 0.5 0.5 } }
 	}
 	colored_emblem = {
 		texture = "ce_stripe_center.dds"
 		color1 = color2
 		instance = { scale = { 1 0.875 } }
-	}
-	colored_emblem = {
-		texture = "ce_frame_circle.dds"
-		color1 = color2
-		instance = { scale = { 0.5 0.5 } }
 	}
 	colored_emblem = {
 		texture = "ce_celtic_cross.dds"
@@ -411,19 +432,11 @@ CYR = {
 			scale = { 0.5 0.5 }
 			position = { 0.25 0.3 }
 		}
-	}
-	colored_emblem = {
-		texture = "ce_crescent.dds"
-		color1 = "yellow"
 		instance = {
 			scale = { 0.5 0.5 }
 			position = { 0.75 0.3 }
 			rotation = 180
 		}
-	}
-	colored_emblem = {
-		texture = "ce_crescent.dds"
-		color1 = "yellow"
 		instance = {
 			scale = { 0.25 0.5 }
 			position = { 0.5 0.7 }
@@ -495,20 +508,8 @@ DAU_dictatorship = {
 		texture = "ce_fleur_de_lis.dds"
 		color1 = color2
 		instance = { position = { 0.25 0.25 } scale = { 0.5 0.5 } }
-	}
-	colored_emblem = {
-		texture = "ce_fleur_de_lis.dds"
-		color1 = color2
 		instance = { position = { 0.75 0.75 } scale = { 0.5 0.5 } }
-	}
-	colored_emblem = {
-		texture = "ce_fleur_de_lis.dds"
-		color1 = color1
 		instance = { position = { 0.75 0.25 } scale = { 0.5 0.5 } }
-	}
-	colored_emblem = {
-		texture = "ce_fleur_de_lis.dds"
-		color1 = color1
 		instance = { position = { 0.25 0.75 } scale = { 0.5 0.5 } }
 	}
 }
@@ -521,12 +522,6 @@ DEL = {
 		color1 = "orange"
 		instance = {
 			position = { 0.225 0.275 } scale = { 0.55 0.55 }
-		}
-	}
-	colored_emblem = {
-		texture = "ce_indonesian_flower.dds"
-		color1 = "orange"
-		instance = {
 			position = { 0.225 0.725 } scale = { 0.55 0.55 }
 		}
 	}
@@ -591,20 +586,10 @@ GDL = {
 			position = { @[8/14] 0.6 }
 			scale = { 0.7 0.7 }
 		}
-	}
-	colored_emblem = {
-		texture = "ce_guelders_flower.dds"
-		color1 = "white"
-		color2 = "yellow"
 		instance = {
 			position = { @[12/15] 0.6 }
 			scale = { 0.7 0.7 }
 		}
-	}
-	colored_emblem = {
-		texture = "ce_guelders_flower.dds"
-		color1 = "white"
-		color2 = "yellow"
 		instance = {
 			position = { @[19/28] 0.25 }
 			scale = { 0.7 0.7 }
@@ -634,20 +619,10 @@ GDL_subject = {
 			position = { @[8/14] 0.6 }
 			scale = { 0.7 0.7 }
 		}
-	}
-	colored_emblem = {
-		texture = "ce_guelders_flower.dds"
-		color1 = "white"
-		color2 = "yellow"
 		instance = {
 			position = { @[12/15] 0.6 }
 			scale = { 0.7 0.7 }
 		}
-	}
-	colored_emblem = {
-		texture = "ce_guelders_flower.dds"
-		color1 = "white"
-		color2 = "yellow"
 		instance = {
 			position = { @[19/28] 0.25 }
 			scale = { 0.7 0.7 }
@@ -665,7 +640,30 @@ GDL_monarchy = {
 		}
 	}
 }
-	
+GDL_colony_NET = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	colored_emblem = {
+		texture = "ce_royal_mantle.dds"
+		color1 = "red"
+		color2 = "blue"
+		color3 = "purple"
+		instance = {
+			scale = { 0.75 0.75 }
+			position = { 0.75 0.5 }
+		}
+	}
+	colored_emblem = {
+		texture = "ce_lion_rampant_batavian.dds"
+		color1 = "beige"
+		color2 = "black"
+		color3 = "yellow"
+		instance = {
+			scale = { 0.4 0.4 }
+			position = { 0.75 0.55 }
+		}
+	}
+}
 	
 	
 ##############################
@@ -906,11 +904,12 @@ LOG = {
 		texture = "ce_stripes_06.dds"
 		color1 = "red"
 	}
-	sub = {
-        parent = "sub_AEN" 
-        instance = { scale = { @canton_scale_cross_x @canton_scale_cross_y }  } # top left
-	}
+#	sub = {
+#		parent = "sub_AEN" 
+#		instance = { scale = { @canton_scale_cross_x @canton_scale_cross_y }  } # top left
+#	}
 }
+
 LOG_colony = {
 	pattern = "pattern_solid.tga"
 	color1 = "white"
@@ -918,9 +917,18 @@ LOG_colony = {
 		texture = "ce_stripes_06.dds"
 		color1 = "red"
 	}
-	sub = {
-        parent = "sub_AEN" 
-        instance = { scale = { @canton_scale_cross_x @canton_scale_cross_y }  } # top left
+#	sub = {
+#		parent = "sub_AEN" 
+#		instance = { scale = { @canton_scale_cross_x @canton_scale_cross_y }  } # top left
+#	}
+}
+
+LOG_subject	 = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	colored_emblem = {
+		texture = "ce_stripes_06.dds"
+		color1 = "red"
 	}
 }
 ##############################
