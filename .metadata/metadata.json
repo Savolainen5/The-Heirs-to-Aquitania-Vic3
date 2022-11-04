@@ -2,7 +2,7 @@
 	"name" : "The Heirs to Aquitània",
 	"id" : "org.HtA.awesome",	
 	"version" : "0.3.0",
-	"supported_game_version" : "1.0.3",
+	"supported_game_version" : "1.0.5",
 	"short_description" : "The Heirs to Aquitània",
 	"tags" : [
 		"overhaul"
