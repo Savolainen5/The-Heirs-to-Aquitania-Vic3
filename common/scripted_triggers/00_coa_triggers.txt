@@ -468,7 +468,10 @@ coa_def_turkic_trigger = {
 coa_def_hispanic_american_trigger = {
     any_primary_culture = {
         has_discrimination_trait = new_world_settler
-        has_discrimination_trait = hispanophone
+        OR = {
+			has_discrimination_trait = hispanophone
+			has_discrimination_trait = lusophone
+		}
     }
 }
 

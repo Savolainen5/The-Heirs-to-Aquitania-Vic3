@@ -1,7 +1,7 @@
 ﻿# Niche party for anarchists in specific circumstances
 
 anarchist_party = {
-	color = { 150 20 20 }
+	color = { 0 0 0 }
 	name = {
 		first_valid = {
 			triggered_desc = {
@@ -52,6 +52,9 @@ anarchist_party = {
 	}
 	icon = {
 		default = "/gfx/interface/icons/political_parties/anarchist.dds"
+	}
+	unlocking_technologies = {
+		anarchism
 	}
 	# THIS IS RUN ONLY ONCE AT GAME START
 	valid_for_country = {

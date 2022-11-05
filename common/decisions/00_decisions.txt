@@ -24,7 +24,46 @@
 #		}
 #	}
 #}
+revive_olympic_games_decision = {
+	is_shown = {
+		exists = c:ROM
+		this = c:ROM
+	}
+  
 
+	possible = {
+		this = c:ROM
+		has_technology_researched = organized_sports
+		hidden_trigger = {
+			NOT = { has_variable = revive_olympics_decision_taken }
+		}
+	}
+	
+	when_taken = {
+		set_variable = {
+			name = revive_olympics_decision_taken
+			value = yes
+		}
+		add_modifier = {
+			name = modifier_olympic_games
+		}
+	}
+
+	ai_chance = {
+		base = 0
+		modifier = {
+			trigger = { bureaucracy > 0 }
+			add = 5
+		}
+		modifier = {
+			OR = {
+				is_diplomatic_play_committed_participant = yes
+				is_at_war = yes
+			}
+			add = -1000
+		}		
+	}
+}
 
 
 lowlands_land_reclamation = {
@@ -74,10 +113,13 @@ lowlands_land_reclamation = {
 	}
 
 	ai_chance = {
-		base = 0
+		base = 5
 		modifier = {
-			trigger = { bureaucracy > 200 }
-			add = 10
+			OR = {
+				is_diplomatic_play_committed_participant = yes
+				is_at_war = yes
+			}
+			add = -1000
 		}
 	}
 }
@@ -108,6 +150,6 @@ abolish_tangena_ordeal = {
 	}
 
 	ai_chance = {
-		base = 10
+		base = 100
 	}
 }

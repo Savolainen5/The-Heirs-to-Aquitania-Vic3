@@ -228,6 +228,54 @@ gov_balinese_monarchy = {
 	}
 }
 
+gov_sikkimese_monarchy = {
+	transfer_of_power = hereditary
+	
+	male_ruler = "RULER_TITLE_DHARMA_KING"
+	female_ruler = "RULER_TITLE_DHARMA_QUEEN"
+
+	male_heir = "RULER_TITLE_PRINCE"
+	female_heir = "RULER_TITLE_PRINCESS"
+	
+	possible = {
+		has_law = law_type:law_monarchy
+		exists = c:SIK 
+		c:SIK = ROOT
+	}
+}
+
+gov_bhutanese_monarchy = {
+	transfer_of_power = hereditary
+	
+	male_ruler = "RULER_TITLE_DRAGON_KING"
+	female_ruler = "RULER_TITLE_DRAGON_QUEEN"
+
+	male_heir = "RULER_TITLE_DRAGON_PRINCE"
+	female_heir = "RULER_TITLE_DRAGON_PRINCESS"
+	
+	possible = {
+		has_law = law_type:law_monarchy
+		exists = c:BHU 
+		c:BHU = ROOT
+	}
+}
+
+gov_mughal_empire = {
+	transfer_of_power = hereditary
+	
+	male_ruler = "RULER_TITLE_PADISHAH"
+	female_ruler = "RULER_TITLE_PADSHAH_BEGUM"
+
+	male_heir = "RULER_TITLE_CROWN_PRINCE"
+	female_heir = "RULER_TITLE_PRINCESS"
+	
+	possible = {
+		has_law = law_type:law_monarchy
+		exists = c:MUG
+		c:MUG = ROOT
+	}
+}
+
 gov_caliphate = {
 	transfer_of_power = hereditary
 	
@@ -257,7 +305,7 @@ gov_khedive = {
 		has_law = law_type:law_monarchy
 		exists = c:EGY
 		c:EGY = ROOT
-	}	
+	}
 }
 
 
@@ -369,7 +417,7 @@ gov_kaiser = {
 }
 
 
-gov_decentralized_realm= {
+gov_decentralized_realm = {
 	transfer_of_power = hereditary
 	
 	male_ruler = "RULER_TITLE_KING"
@@ -389,20 +437,20 @@ gov_decentralized_realm= {
 }
 
 
-#gov_hm_gov = {
-#	transfer_of_power = hereditary
-#
-#	male_ruler = "RULER_TITLE_KING"
-#	female_ruler = "RULER_TITLE_QUEEN"
-#	
-#	male_heir = "RULER_TITLE_PRINCE"
-#	female_heir = "RULER_TITLE_PRINCESS"
-#	
-#	possible = {
-#		has_law = law_type:law_monarchy
-#		AND = { exists = c:GBR c:GBR = ROOT }
-#	}
-#}
+gov_hm_gov = {
+	transfer_of_power = hereditary
+
+	male_ruler = "RULER_TITLE_KING"
+	female_ruler = "RULER_TITLE_QUEEN"
+	
+	male_heir = "RULER_TITLE_PRINCE"
+	female_heir = "RULER_TITLE_PRINCESS"
+	
+	possible = {
+		has_law = law_type:law_monarchy
+		AND = { exists = c:AEN c:AEN = ROOT } #Or maybe another country?
+	}
+}
 
 gov_constitutional_monarchy = {
 	transfer_of_power = hereditary
@@ -421,47 +469,6 @@ gov_constitutional_monarchy = {
 		}
 	}
 }
-
-#gov_princely_state_hindu = {
-#	transfer_of_power = hereditary
-#
-#	male_ruler = "RULER_TITLE_RAJA"
-#	female_ruler = "RULER_TITLE_RANI"
-#	
-#	male_heir = "RULER_TITLE_PRINCE"
-#	female_heir = "RULER_TITLE_PRINCESS"
-#	
-#	possible = {
-#		has_law = law_type:law_monarchy
-#		OR = {
-#			AND = { exists = c:GBR is_subject_of = c:GBR }
-#			AND = { exists = c:BIC is_subject_of = c:BIC }
-#		}
-#		country_has_state_religion = rel:hindu
-#	}
-#}
-
-#gov_princely_state_muslim = {
-#	transfer_of_power = hereditary
-#
-#	male_ruler = "RULER_TITLE_SULTAN"
-#	female_ruler = "RULER_TITLE_SULTANA"
-#	
-#	male_heir = "RULER_TITLE_PRINCE"
-#	female_heir = "RULER_TITLE_PRINCESS"
-#	
-#	possible = {
-#		has_law = law_type:law_monarchy
-#		OR = {
-#			AND = { exists = c:GBR is_subject_of = c:GBR }
-#			AND = { exists = c:BIC is_subject_of = c:BIC }
-#		}
-#		OR = {
-#			country_has_state_religion = rel:sunni
-#			country_has_state_religion = rel:shiite
-#		}
-#	}
-#}
 
 gov_khanate = {
 	transfer_of_power = hereditary

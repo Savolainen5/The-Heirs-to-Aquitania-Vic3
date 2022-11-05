@@ -1,5 +1,0 @@
-﻿assert = {
-	assert_if = {
-		limit = { always = yes }
-	}
-}

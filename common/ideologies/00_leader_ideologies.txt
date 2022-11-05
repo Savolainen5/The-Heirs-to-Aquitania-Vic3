@@ -274,6 +274,7 @@ ideology_radical = {
 		law_census_voting = approve
 		law_wealth_voting = neutral
 		law_landed_voting = disapprove
+		law_anarchy = strongly_disapprove
 		law_oligarchy = strongly_disapprove
 		law_autocracy = strongly_disapprove
 	}
@@ -682,6 +683,11 @@ ideology_slaver = {
 	}
 	
 	possible = {
+		owner = { 
+			NOT = {
+				has_law = law_type:law_slavery_banned 
+			}
+		}
 		scope:interest_group = { 
 			OR = {
 				is_interest_group_type = ig_landowners
@@ -747,8 +753,8 @@ ideology_pacifist = {
 	lawgroup_army_model = {
 		law_national_militia = approve
 		law_professional_army = disapprove
-		law_peasant_levies = strongly_disapprove
-		law_mass_conscription = strongly_disapprove
+		law_peasant_levies = disapprove
+		law_mass_conscription = disapprove
 	}
 
 	lawgroup_colonization = {		
@@ -1027,8 +1033,15 @@ ideology_social_democrat = {
 		law_per_capita_based_taxation = neutral
 		law_proportional_taxation = approve
 		law_graduated_taxation = strongly_approve
-	}	
+	}
 
+	lawgroup_welfare = {
+		law_poor_laws = strongly_disapprove
+		law_no_social_security = strongly_disapprove
+		law_wage_subsidies = approve
+		law_old_age_pension = strongly_approve
+	}
+	
 	possible = {
 		owner = { has_technology_researched = socialism }
 		scope:interest_group = {
@@ -1364,12 +1377,15 @@ ideology_fascist = {
 	character_ideology = yes
 
 	lawgroup_distribution_of_power = {
+		law_autocracy = strongly_approve
+		law_oligarchy = neutral
+		law_anarchy = strongly_disapprove
 		law_universal_suffrage = strongly_disapprove
 		law_census_voting = strongly_disapprove
 		law_wealth_voting = strongly_disapprove
-		law_landed_voting = strongly_disapprove
-		law_oligarchy = neutral
-		law_autocracy = strongly_approve		
+		law_landed_voting = strongly_disapprove				
+						 
+									
 	}
 
 	lawgroup_citizenship = {
@@ -1664,7 +1680,7 @@ ideology_ethno_nationalist = {
 
 	possible = {
 		owner = {
-			has_technology_researched = pan-nationalism
+			has_technology_researched = political_agitation
 		}
 		scope:interest_group = {
 			NOR = {

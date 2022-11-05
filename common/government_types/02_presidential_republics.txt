@@ -18,6 +18,21 @@
 	}
 }
 
+gov_bhutanese_dual_system_temporal = {
+	transfer_of_power = dictatorial
+
+	male_ruler = "RULER_TITLE_DRAGON_REGENT"
+	female_ruler = "RULER_TITLE_DRAGON_REGENT"
+	
+	possible = {
+		exists = c:BHU 
+		c:BHU = ROOT
+		has_law = law_type:law_presidential_republic
+		has_law = law_type:law_state_religion
+		country_has_voting_franchise = no
+	}
+}
+
 gov_warlord_state = {
 	transfer_of_power = dictatorial
 
@@ -81,9 +96,24 @@ gov_colonial_administration = {
 	
 	possible = {
 		has_law = law_type:law_presidential_republic
-		AND = { exists = c:NET is_subject_of = c:NET }
-		AND = { exists = c:DEI c:DEI = ROOT }
-		is_subject_type = subject_type_dominion
+		OR = {
+			AND = {
+				AND = { exists = c:NET is_subject_of = c:NET }
+				AND = { exists = c:DEI c:DEI = ROOT }
+				is_subject_type = subject_type_dominion
+			}
+			AND = {
+				exists = c:FRA
+				is_subject_of = c:FRA
+				is_subject_type = subject_type_puppet
+				is_country_type = colonial
+				top_overlord = { NOT = { is_country_type = colonial } }
+				any_primary_culture = {
+					has_discrimination_trait = european_heritage
+				}
+				country_is_in_europe = no
+			}
+		}
 	}
 }
 
@@ -97,13 +127,13 @@ gov_crown_colony = {
 	possible = {
 		has_law = law_type:law_presidential_republic
 		or = {
-#			AND = {
-#				exists = c:GBR
-#				is_subject_of = c:GBR
-#				c:GBR = {
-#					has_law = law_type:law_monarchy
-#				}
-#			}
+			AND = {
+				exists = c:AEN
+				is_subject_of = c:AEN
+				c:AEN = {
+					has_law = law_type:law_monarchy
+				}
+			}
 			AND = {
 				exists = c:HIS
 				is_subject_of = c:HIS

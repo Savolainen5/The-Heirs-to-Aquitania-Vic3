@@ -20,27 +20,26 @@
 	on_war_end = {}
 }
 
-# TODO PRCAL-20245
-#dp_regime_change = {
-#	war_goal = regime_change
-#	
-#	texture = "gfx/interface/icons/war_goals/regime_change.dds"
-#
-#	possible = {
-#		NOT = { is_country_type = decentralized }
-#		aggressive_diplomatic_plays_permitted = yes
-#		NOT = { is_subject_of = scope:target }
-#		scope:target = {
-#			NOT = { is_country_type = decentralized }
-#		}
-#	}
-#
-#	on_weekly_pulse = {}
-#
-#	on_war_begins = {}
-#
-#	on_war_end = {}
-#}
+dp_regime_change = {
+	war_goal = regime_change
+	
+	texture = "gfx/interface/icons/war_goals/regime_change.dds"
+
+	possible = {
+		NOT = { is_country_type = decentralized }
+		aggressive_diplomatic_plays_permitted = yes
+		NOT = { is_subject_of = scope:target }
+		scope:target = {
+			NOT = { is_country_type = decentralized }
+		}
+	}
+
+	on_weekly_pulse = {}
+
+	on_war_begins = {}
+
+	on_war_end = {}
+}
 
 dp_ban_slavery = {
 	war_goal = ban_slavery
@@ -161,12 +160,6 @@ dp_take_treaty_port = {
 		aggressive_diplomatic_plays_permitted = yes
 		NOT = { is_subject_of = scope:target }
 		scope:target = {
-			OR = {
-				has_law = law_type:law_isolationism
-				has_law = law_type:law_mercantilism
-				has_law = law_type:law_agrarianism
-				has_law = law_type:law_command_economy
-			}
 			NOT = { is_country_type = decentralized }
 			NOT = { is_subject_of = root }
 		}			
@@ -256,6 +249,7 @@ dp_annex_subject = {
 			NOT = { is_country_type = decentralized }
 			is_direct_subject_of = root
 			OR = {
+				has_diplomatic_pact = { who = root type = dominion }
 				has_diplomatic_pact = { who = root type = puppet }
 				has_diplomatic_pact = { who = root type = vassal }
 			}

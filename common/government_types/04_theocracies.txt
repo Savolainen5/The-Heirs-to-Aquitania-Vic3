@@ -32,6 +32,19 @@ gov_papacy = {
 	}
 }
 
+gov_bhutanese_dual_system_dharma = {
+	transfer_of_power = dictatorial
+
+	male_ruler = "RULER_TITLE_DHARMA_RAJA"
+	female_ruler = "RULER_TITLE_DHARMA_RAJA"
+	
+	possible = {
+		exists = c:BHU 
+		c:BHU = ROOT
+		has_law = law_type:law_theocracy
+	}
+}
+
 gov_prince_bishopric = {					# Oddball political system present in Montenegro, where power usually transferred uncle-to-nephew (due to celibacy req for bishops), but always within the same family
 	transfer_of_power = hereditary
 	

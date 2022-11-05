@@ -275,7 +275,7 @@ SWE = {
 		
 		trigger = {
 			exists = scope:actor
-			scope:actor = {			
+			scope:actor = {	
 				capital = { state_region = s:STATE_GOTLAND }
 			}
 		}

@@ -179,9 +179,11 @@
 	icon = {
 		default = "/gfx/interface/icons/political_parties/fascists.dds"
 	}
+	unlocking_technologies = {
+		political_agitation
+	}
 	available_for_interest_group = {
 		owner = {
-			has_technology_researched = mass_propaganda
 			country_has_voting_franchise = yes
 		}
 	}
@@ -201,7 +203,7 @@
 				}
 			}
 			add = {
-				value = 5
+				value = 10
 				desc = "from_fascism"
 			}
 		}
@@ -213,7 +215,7 @@
 				}
 			}
 			add = {
-				value = 5
+				value = 10
 				desc = "from_fascism_powerful"
 			}
 		}

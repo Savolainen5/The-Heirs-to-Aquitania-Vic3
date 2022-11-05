@@ -33,7 +33,7 @@
 			owns_entire_state_region = STATE_WEST_PRUSSIA
 			owns_entire_state_region = STATE_EAST_PRUSSIA
 			owns_entire_state_region = STATE_POSEN
-			amount >= 13
+			amount >= 10
 		}
 	}
 

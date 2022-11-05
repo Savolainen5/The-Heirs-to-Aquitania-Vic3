@@ -191,50 +191,58 @@ country_is_in_southeast_asia = {
 ### Climate triggers
 
 is_arabic_farmland = {
-	region = sr:region_anatolia
-	region = sr:region_arabic
-	region = sr:region_persia
-	region = sr:region_central_asia
-	region = sr:region_nile_basin
-	region = sr:region_north_africa
-	region = sr:region_senegal
-	region = sr:region_niger
-	region = sr:region_congo
-	region = sr:region_ethiopia
-	region = sr:region_zanj
-	region = sr:region_southern_africa
+	OR = {
+		region = sr:region_anatolia
+		region = sr:region_arabic
+		region = sr:region_persia
+		region = sr:region_central_asia
+		region = sr:region_nile_basin
+		region = sr:region_north_africa
+		region = sr:region_senegal
+		region = sr:region_niger
+		region = sr:region_congo
+		region = sr:region_ethiopia
+		region = sr:region_zanj
+		region = sr:region_southern_africa
+	}
 }
 
 is_asian_farmland = {
-	region = sr:region_indochina
-	region = sr:region_indonesia
-	region = sr:region_south_china
-	region = sr:region_north_china
-	region = sr:region_manchuria
-	region = sr:region_japan
+	OR = {
+		region = sr:region_indochina
+		region = sr:region_indonesia
+		region = sr:region_south_china
+		region = sr:region_north_china
+		region = sr:region_manchuria
+		region = sr:region_japan
+	}
 }
 
 is_subtropic_farmland = {
-	region = sr:region_mexico
-	region = sr:region_central_america
-	region = sr:region_gran_colombia
-	region = sr:region_andes
-	region = sr:region_brazil
-	region = sr:region_la_plata
-	region = sr:region_caribbean
+	OR = {
+		region = sr:region_mexico
+		region = sr:region_central_america
+		region = sr:region_gran_colombia
+		region = sr:region_andes
+		region = sr:region_brazil
+		region = sr:region_la_plata
+		region = sr:region_caribbean
+	}
 }
 
 is_arid_region = {
-	region = sr:region_oceania
-	region = sr:region_congo
-	region = sr:region_southern_africa
-	region = sr:region_niger
-	region = sr:region_zanj
-	region = sr:region_ethiopia
-	region = sr:region_nile_basin
-	region = sr:region_north_africa
-	region = sr:region_senegal
-	region = sr:region_anatolia
-	region = sr:region_arabic
-	region = sr:region_persia
+	OR = {
+		region = sr:region_oceania
+		region = sr:region_congo
+		region = sr:region_southern_africa
+		region = sr:region_niger
+		region = sr:region_zanj
+		region = sr:region_ethiopia
+		region = sr:region_nile_basin
+		region = sr:region_north_africa
+		region = sr:region_senegal
+		region = sr:region_anatolia
+		region = sr:region_arabic
+		region = sr:region_persia
+	}
 }

@@ -1160,7 +1160,7 @@ on_diplo_play_back_down = {
 			}
 			set_global_variable = achievement_mightier_than_the_sword
 		}
-  }
+	}
 }
 
 # Root = Diplomatic Play
@@ -1214,6 +1214,7 @@ on_diplo_play_switch_sides = {
 		set_global_variable = achievement_revo_needed
 	}
 }
+
 # Root = Diplomatic Play
 on_diplo_play_declare_neutrality = {
 	effect = {

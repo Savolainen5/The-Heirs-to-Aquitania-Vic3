@@ -183,32 +183,32 @@
 					}
 				}
 			}
-#			triggered_desc = {
-#				desc = party_socialist_workers_party
-#				trigger = {
-#					exists = c:MEX
-#					THIS = c:MEX
-#					any_interest_group = {
-#						is_powerful = yes
-#						leader = {
-#							has_ideology = ideology_vanguardist
-#						}
-#					}
-#				}
-#			}
-#			triggered_desc = {
-#				desc = party_kke
-#				trigger = {
-#					exists = c:GRE
-#					THIS = c:GRE
-#					any_interest_group = {
-#						is_powerful = yes
-#						leader = {
-#							has_ideology = ideology_vanguardist
-#						}
-#					}
-#				}
-#			}
+			triggered_desc = {
+				desc = party_socialist_workers_party
+				trigger = {
+					exists = c:AME
+					THIS = c:AME
+					any_interest_group = {
+						is_powerful = yes
+						leader = {
+							has_ideology = ideology_vanguardist
+						}
+					}
+				}
+			}
+			triggered_desc = {
+				desc = party_kke
+				trigger = {
+					exists = c:ROM
+					THIS = c:ROM
+					any_interest_group = {
+						is_powerful = yes
+						leader = {
+							has_ideology = ideology_vanguardist
+						}
+					}
+				}
+			}
 			triggered_desc = {
 				desc = party_kpd
 				trigger = {

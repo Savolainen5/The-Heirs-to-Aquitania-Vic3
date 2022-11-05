@@ -151,9 +151,12 @@ hindu_clothes_pop_trigger = {
 african_diaspora_clothes_trigger = { #In recent versions the discrimination trait thing has been changed to look at the afro_ cultures
 	exists = scope:character
 	scope:character = {
-		culture = {
-			has_discrimination_trait = new_world_settler
-			has_discrimination_trait = african_heritage
+		OR = {
+			culture = cu:afro_caribbean
+			culture = cu:afro_antillean
+			culture = cu:afro_caribeno
+			culture = cu:afro_american
+			culture = cu:afro_saxon
 		}
 	}
 }
@@ -161,9 +164,12 @@ african_diaspora_clothes_trigger = { #In recent versions the discrimination trai
 african_diaspora_pop_clothes_trigger = {
 	exists = scope:pop
 	scope:pop = {
-		culture = {
-			has_discrimination_trait = new_world_settler
-			has_discrimination_trait = african_heritage
+		OR = {
+			culture = cu:afro_caribbean
+			culture = cu:afro_antillean
+			culture = cu:afro_caribeno
+			culture = cu:afro_american
+			culture = cu:afro_saxon
 		}
 	}
 }
@@ -438,7 +444,6 @@ arabic_military_fez_pop_trigger = {
 		}
 	}       
 }
-
 
 arabic_clothes_trigger = {
 	exists = scope:character
