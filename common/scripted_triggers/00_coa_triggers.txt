@@ -13,8 +13,6 @@
 # |          | if it exists     |                     | if it exists      |
 # |----------|------------------|---------------------|-------------------|
 
-# Eventually add stuff for HtA here ############################################################################################################ (millions of these for visibility)
-
 ### scope is COUNTRY ###
 
 coa_monarchy_trigger = {
@@ -373,7 +371,7 @@ coa_def_netherlands_ensign_trigger = {
 coa_def_colonial_ensign_trigger = {
 	# TODO there's probably a better way to do this although I'm not sure if every western nation should fit here
 	OR = {
-		#coa_def_british_ensign_trigger = yes	
+		coa_def_aenglish_ensign_trigger = yes	
 		coa_def_french_ensign_trigger = yes	
 		coa_def_german_ensign_trigger = yes	
 		coa_def_spanish_ensign_trigger = yes

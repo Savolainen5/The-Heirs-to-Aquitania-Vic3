@@ -629,17 +629,59 @@ GDL_subject = {
 		}
 	}
 }
+
 GDL_monarchy = {
 	pattern = "pattern_vertical_split_01.tga"
-	color1 = "blue"
-	color2 = "yellow"
-	textured_emblem = {
-		texture = "te_guilderland_monarchy.dds"
-		instance = {
-			scale = { 1.15 1.25 }
-		}
-	}
+    color1 = "blue"
+    color2 = "yellow"
+
+    colored_emblem = {
+        texture = "ce_anb_mural_crown.dds"
+        color1 = "yellow_dark"
+        color2 = color2
+        instance = { scale = { 0.5 0.5 }    position = { 0.505 0.195 }    }
+    }
+    colored_emblem = {
+        texture = "ce_anb_mural_crown.dds"
+        color1 = "yellow_light"
+        color2 = color2
+        instance = { scale = { 0.5 0.5 }    position = { 0.5 0.2 }    }
+    }
+    colored_emblem = {
+        texture = "ce_shield_iberian.dds"
+        color1 = rgb { 30 70 155 }
+        color2 = "dark_blue"
+        instance = { scale = { 0.75 0.75 }    position = { 0.5 0.6 }    }
+    }
+    colored_emblem = {
+        texture = "ce_shield_iberian.dds"
+        color1 = color2
+        color2 = color2
+        instance = { scale = { 0.5 0.5 }    position = { 0.5 0.6 }    }
+    }
+    colored_emblem = {
+        texture = "ce_guelders_flower.dds"
+        color1 = color2
+        color2 = color2
+        color3 = color2
+        instance = { scale = { 0.2 0.2 }    position = { 0.5 0.39 }    }
+        instance = { scale = { 0.2 0.2 }    position = { 0.632 0.39 }    }
+        instance = { scale = { 0.2 0.2 }    position = { 0.632 0.58 }    }
+        instance = { scale = { 0.2 0.2 }    position = { 0.613 0.765 }    }
+        instance = { scale = { 0.2 0.2 }    position = { 0.5 0.855 }    }
+        #left
+        instance = { scale = { 0.2 0.2 }    position = { 0.368 0.39 }    }
+        instance = { scale = { 0.2 0.2 }    position = { 0.368 0.58 }    }
+        instance = { scale = { 0.2 0.2 }    position = { 0.387 0.765 }    }
+    }
+    colored_emblem = {
+        texture = "ce_lion_rampant.dds"
+        color1 = "dark_grey"
+        color2 = "dark_grey"
+        instance = { scale = { 0.43 0.43 }    position = { 0.5 0.6 }    }
+    }
 }
+
 GDL_colony_NET = {
 	pattern = "pattern_solid.tga"
 	color1 = "yellow"
@@ -664,8 +706,28 @@ GDL_colony_NET = {
 		}
 	}
 }
-	
-	
+##############################
+GLE = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+}
+GLE_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+}
+##############################
+GUA = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+}
+GUA_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+}
+GUA_HIS = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+}
 ##############################
 HHB = {
 	pattern = "pattern_solid.tga"
@@ -720,6 +782,52 @@ HHB_fascist = {
 		texture = "ce_lightning_bolt.dds"
 		color1 = "black"
 		instance = { scale = { 0.75 0.75 } }
+	}
+}
+##############################
+HIS = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_armillary_sphere.dds"
+		color1 = color2
+		instance = {
+			scale = { 0.75 0.75 }
+		}
+	}
+	colored_emblem = {
+		texture = "ce_wreath_thin.dds"
+		color1 = color2
+	}
+	textured_emblem = {
+		texture = "te_hispania_por_claim.dds"
+		instance = {
+			scale = { 0.75 0.75 }
+		}
+	}
+}
+
+HIS_PORclaim = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	color2 = "white"
+	colored_emblem = {
+		texture = "ce_armillary_sphere.dds"
+		color1 = color2
+		instance = {
+			scale = { 0.75 0.75 }
+		}
+	}
+	colored_emblem = {
+		texture = "ce_wreath_thin.dds"
+		color1 = color2
+	}
+	textured_emblem = {
+		texture = "te_hispania_por_claim.dds"
+		instance = {
+			scale = { 0.75 0.75 }
+		}
 	}
 }
 ##############################
@@ -986,6 +1094,20 @@ NAP = {
 	color2 = "red_light"
 }
 ##############################
+#New Castile
+NCS = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+}
+NCS_subject = { #Generic subject
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+}
+NCS_HIS = { #Specifically when subject of Hispania
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+}
+##############################
 NET = { #Initial idea, before work on the server
 	pattern = "pattern_gironny_8.dds"
 	color1 = "red"
@@ -995,7 +1117,44 @@ NET = { #Initial idea, before work on the server
 		color1 = "white"
 	}
 }
-	
+##############################
+#New Extremadura
+NEX = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+}
+NEX_subject = { #Generic subject
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+}
+NEX_HIS = { #Specifically when subject of Hispania
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+}
+##############################
+#New Granada
+NGR = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+}
+NGR_subject = { #Generic subject
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+}
+NGR_HIS = { #Specifically when subject of Hispania
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+}
+##############################
+NHL = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+}
+NHL_colony_NET = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+}
+
 ##############################
 NMR = {
 	pattern = "pattern_solid.tga"
@@ -1003,6 +1162,20 @@ NMR = {
 	textured_emblem = {
 		texture = "te_namur.dds"
 	}
+}
+##############################
+#Nutca
+NUT = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+}
+NUT_subject = { #Generic subject
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+}
+NUT_HIS = { #Specifically when subject of Hispania
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
 }
 ##############################
 PDN = {

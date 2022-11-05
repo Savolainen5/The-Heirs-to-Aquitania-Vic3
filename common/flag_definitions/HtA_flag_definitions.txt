@@ -122,61 +122,35 @@ GDL = { # Guilderland
 	}
 }
 
-HIS = { # Spain
+GLE = { # Gledy
+	flag_definition = {
+		coa = GLE
+		subject_canton = GLE
+		allow_overlord_canton = yes		
+		coa_with_overlord_canton = GLE_subject
+		priority = 1
+	}
+}
+
+HIS = { # Hispania
 	flag_definition = {
 		coa = HIS
 		subject_canton = HIS
 		coa_with_overlord_canton = HIS_subject
 		allow_overlord_canton = yes
 	}
-#	flag_definition = {
-#		coa = HIS_republic
-#		subject_canton = HIS_republic
-#		priority = 10
-#		trigger = { 
-#			coa_def_republic_flag_trigger = yes
-#		}
-#	}
-#	flag_definition = {
-#		coa = HIS_absolute_monarchy
-#		subject_canton = HIS_absolute_monarchy	
-#		priority = 10
-#		trigger = { 
-#			coa_def_absolute_monarchy_flag_trigger = yes
-#		}
-#	}
-#	flag_definition = {
-#		coa = HIS_dictatorship
-#		subject_canton = HIS_dictatorship
-#		priority = 20
-#		trigger = {
-#			coa_def_dictatorship_flag_trigger = yes
-#		}
-#	}
-#	flag_definition = {
-#		coa = HIS_communist
-#		subject_canton = HIS_communist
-#		priority = 1500
-#		trigger = { 
-#			coa_def_communist_flag_trigger = yes
-#		}
-#	}		
-#	flag_definition = {
-#		coa = HIS_theocracy
-#		subject_canton = HIS_theocracy
-#		priority = 20
-#		trigger = { 
-#			coa_def_theocracy_flag_trigger = yes
-#		}
-#	}	
-	#flag_definition = {
-	#	coa = SPA_subject_GBR
-	#	allow_overlord_canton = yes		
-	#	priority = 50
-	#	trigger = { 
-	#		coa_def_british_ensign_trigger = yes
-	#	}
-	#}		
+	flag_definition = {
+		coa = HIS_PORclaim
+		subject_canton = HIS_PORclaim
+		coa_with_overlord_canton = HIS_subject
+		allow_overlord_canton = yes
+		priority = 20
+		trigger = {
+			#scope:actor = { NOT = { has_variable = POR_claim_relinquished_var } }
+			coa_def_monarchy_flag_trigger = yes
+			#coa_HIS_claim_POR_trigger = yes #Didn't work
+		}
+	}
 }
 
 LOG = { # Logria
@@ -184,9 +158,10 @@ LOG = { # Logria
 		coa = LOG
 		subject_canton = LOG
 		allow_overlord_canton = yes		
-		coa_with_overlord_canton = LOG_subject			
+		coa_with_overlord_canton = LOG_subject
 		priority = 1
 	}
+	
 	#flag_definition = {
 	#	coa = LOG_colony
 	#	subject_canton = LOG
@@ -195,6 +170,7 @@ LOG = { # Logria
 	#	overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }	
 	#	priority = 1
 	#}
+	
 	flag_definition = {
 		coa = LOG
 		subject_canton = LOG_canton
@@ -264,7 +240,107 @@ NAP = { # Naples
 #			coa_def_communist_flag_trigger = yes
 #		}
 #	}		
-}	
+}
+
+NCS = { #New Castille
+	flag_definition = {
+		coa = NCS
+		subject_canton = NCS
+		allow_overlord_canton = yes		
+		coa_with_overlord_canton = NCS_subject
+		priority = 1
+	}
+
+	flag_definition = {
+		coa = NCS_HIS
+		allow_overlord_canton = yes
+		subject_canton = NCS_HIS
+		priority = 5
+		trigger = {
+			coa_def_spanish_ensign_trigger = yes
+		}
+	}
+}
+
+NEX = { #New Extremadura
+	flag_definition = {
+		coa = NEX
+		subject_canton = NEX
+		allow_overlord_canton = yes		
+		coa_with_overlord_canton = NEX_subject
+		priority = 1
+	}
+
+	flag_definition = {
+		coa = NEX_HIS
+		allow_overlord_canton = yes
+		subject_canton = NEX_HIS
+		priority = 5
+		trigger = {
+			coa_def_spanish_ensign_trigger = yes
+		}
+	}
+}
+
+NGR = { #New Granada
+	flag_definition = {
+		coa = NGR
+		subject_canton = NGR
+		allow_overlord_canton = yes		
+		coa_with_overlord_canton = NGR_subject
+		priority = 1
+	}
+
+	flag_definition = {
+		coa = NGR_HIS
+		allow_overlord_canton = yes
+		subject_canton = NGR_HIS
+		priority = 5
+		trigger = {
+			coa_def_spanish_ensign_trigger = yes
+		}
+	}
+}
+
+NHL = { # New Holland
+	flag_definition = {
+		coa = NHL
+		subject_canton = NHL
+		allow_overlord_canton = yes		
+		coa_with_overlord_canton = NHL_subject
+		priority = 1
+	}
+
+	flag_definition = {
+		coa = NHL_colony_NET
+		allow_overlord_canton = yes
+		subject_canton = NHL_colony_NET
+		priority = 5
+		trigger = {
+			coa_def_netherlands_ensign_trigger = yes
+		}
+	}
+}
+
+NUT = { #Nutca
+	flag_definition = {
+		coa = NUT
+		subject_canton = NUT
+		allow_overlord_canton = yes		
+		coa_with_overlord_canton = NUT_subject
+		priority = 1
+	}
+
+	flag_definition = {
+		coa = NUT_HIS
+		allow_overlord_canton = yes
+		subject_canton = NUT_HIS
+		priority = 5
+		trigger = {
+			coa_def_spanish_ensign_trigger = yes
+		}
+	}
+}
 
 ROM = { # Roman Empire
 	flag_definition = {
