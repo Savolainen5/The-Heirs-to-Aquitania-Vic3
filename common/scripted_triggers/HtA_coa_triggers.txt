@@ -1,0 +1,9 @@
+﻿coa_HIS_claim_POR_trigger = {
+	exists = c:HIS
+	exists = c:POR
+	c:POR = {
+		any_state = {
+			has_claim_by = root
+		}
+	}
+}

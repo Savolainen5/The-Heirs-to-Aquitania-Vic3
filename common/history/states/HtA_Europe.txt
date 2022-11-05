@@ -590,6 +590,7 @@
 		}
 		
 		add_homeland = portuguese
+		add_claim = c:HIS
 	}
 	s:STATE_ESTREMADURA = {
 		create_state = {
@@ -598,6 +599,7 @@
 		}
 		
 		add_homeland = portuguese
+		add_claim = c:HIS
 	}
 	s:STATE_ALENTEJO = {
 		create_state = {
@@ -606,6 +608,7 @@
 		}
 		
 		add_homeland = portuguese
+		add_claim = c:HIS
 	}
 	s:STATE_MADEIRA = {
 		create_state = {
@@ -616,6 +619,7 @@
 		
 		
 		add_homeland = portuguese
+		add_claim = c:HIS
 
 	}	
 
@@ -628,6 +632,7 @@
 		
 		
 		add_homeland = portuguese
+		add_claim = c:HIS
 
 	}	
 
@@ -640,6 +645,7 @@
 		
 	
 		add_homeland = portuguese
+		add_claim = c:HIS
 
 	}	
 
