@@ -299,39 +299,50 @@ s:STATE_BIHAR = {
 			create_pop = {
 				culture = panjabi
 				religion = sunni
-				size = 9033705
+				size = 6233705
 			}
 			create_pop = {
 				culture = avadhi
 				religion = hindu
-				size = 386485
+				size = 102868
 			}
 			create_pop = {
 				culture = panjabi
-				size = 1366552
+				size = 421723
 			}
 			create_pop = {
 				culture = panjabi
 				religion = hindu
-				size = 2656912
+				size = 756912
 			}
-			create_pop = { #BIC pops, probably should be consolidated
+			create_pop = {
 				culture = nepali
-				size = 486027
+				size = 86027
+			}
+		}
+		region_state:MRT = {
+			create_pop = {
+				culture = avadhi
+				religion = hindu
+				size = 640123
+			}
+			create_pop = {
+				culture = panjabi
+				size = 966552
+			}
+			create_pop = {
+				culture = panjabi
+				religion = hindu
+				size = 1921734
+			}
+			create_pop = {
+				culture = nepali
+				size = 405034
 			}
 			create_pop = {
 				culture = panjabi
 				religion = sunni
-				size = 36867
-			}
-			create_pop = {
-				culture = avadhi
-				religion = hindu
-				size = 356383
-			}
-			create_pop = {
-				culture = aenglish
-				size = 3072
+				size = 2836867
 			}
 		}
 	}

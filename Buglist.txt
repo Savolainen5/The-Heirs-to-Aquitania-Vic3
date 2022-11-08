@@ -1,15 +1,3 @@
--[jomini_script_system.cpp:262]: Script system error!
-  Error: create_state effect [ Province 'x988C08' crossing multiple state regions ]
-  Script location: file: common/history/states/HtA_North_Africa.txt line: 23
--[jomini_script_system.cpp:262]: Script system error!
-  Error: create_state effect [ Province 'x4C1EFA' crossing multiple state regions ]
-  Script location: file: common/history/states/HtA_North_Ameriga.txt line: 787
-
-	The game thinks these provinces are in different states in different files, but I've checked several times and they're not???
-	
-	Partial solution: The North Africa one was fixed by noting that a different province was in two different state regions. In the state history file it was the province before the stated one that was in multiple states.
-
-
 -[pdx_assert.cpp:612]: Assertion failed: pCurIdler->GetApplication().GetCurrentIdlerType() == EJominiIdler::INGAME
 
 	No one seems to know what this is about

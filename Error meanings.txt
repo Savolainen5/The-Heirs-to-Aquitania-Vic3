@@ -16,3 +16,8 @@ IDK, so many errors pop up from removing tags, but not all references everywhere
 
 3
 
+[jomini_script_system.cpp:262]: Script system error!
+  Error: create_state effect [ Province 'x4C1EFA' crossing multiple state regions ]
+  Script location: file: common/history/states/HtA_North_Ameriga.txt line: 787
+  
+  A province is listed in different states in map_data and in history. It may not be the province that's reported. My solution is to go and copy the province list from one of the files and paste it into the other.
