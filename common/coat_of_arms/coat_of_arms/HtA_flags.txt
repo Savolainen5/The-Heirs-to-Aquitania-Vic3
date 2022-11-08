@@ -546,6 +546,27 @@ FRA = {
 	}
 }
 ##############################
+FRD = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue_light"
+}
+FRD_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "azure"
+	colored_emblem = {
+		texture = "ce_cross_denmark.dds"
+		color1 = "white"
+	}
+}
+FRD_colony_DEN = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+	colored_emblem = {
+		texture = "ce_cross_denmark.dds"
+		color1 = "white"
+	}
+}
+##############################
 GAG = {
 	pattern = "pattern_solid.tga"
 	color1 = "blue"
@@ -729,6 +750,29 @@ GUA_HIS = {
 	color1 = "yellow"
 }
 ##############################
+GWS = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+}
+GWS_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+}
+##############################
+#Hegoalde
+HEG = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+}
+HEG_subject = { #Generic subject
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+}
+HEG_HIS = { #Specifically when subject of Hispania
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+}
+##############################
 HHB = {
 	pattern = "pattern_solid.tga"
 	color1 = "azure"
@@ -810,7 +854,7 @@ HIS = {
 
 HIS_PORclaim = {
 	pattern = "pattern_solid.tga"
-	color1 = "red"
+	color1 = "purple"
 	color2 = "white"
 	colored_emblem = {
 		texture = "ce_armillary_sphere.dds"
@@ -823,10 +867,26 @@ HIS_PORclaim = {
 		texture = "ce_wreath_thin.dds"
 		color1 = color2
 	}
+	colored_emblem = {
+		texture = "ce_crown_imperial_austria.dds"
+		color1 = "yellow"
+		color2 = "pearl"
+		color3 = "red"
+		instance = {
+			scale = { 0.5 0.5 }
+			position = { 0.5 0.275 }
+		}
+	}
 	textured_emblem = {
-		texture = "te_hispania_por_claim.dds"
+		texture = "te_hispania.dds"
 		instance = {
 			scale = { 0.75 0.75 }
+		}
+	}
+	textured_emblem = {
+		texture = "te_portugal_inescutcheon.dds"
+		instance = {
+			position = { 0.5 0.565 }
 		}
 	}
 }
@@ -1065,6 +1125,16 @@ MAR_subject = {
 ##############################
 MNZ = { textured_emblem = { texture = "V2/MNZ.tga" } }
 ##############################
+MRG = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+}
+MRG_colony_NET = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+}
+
+##############################
 NAP_monarchy = {
 	pattern = "pattern_solid.tga"
 	color1 = "yellow"
@@ -1200,6 +1270,19 @@ PDN = {
 		instance = { position = { 0.23 0.2 } scale = { 0.25 0.3 } rotation = 90 }
 	}
 }
+####################################
+PET = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+}
+PET_subject = { #Generic subject
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+}
+PET_colony_AQT = { #Specifically when subject of AQT
+	pattern = "pattern_solid.tga"
+	color1 = "purple"
+}
 ##################################
 POL_sweden_cross = {
 	pattern = "pattern_solid.tga"
@@ -1285,6 +1368,19 @@ SLS = {
 }
 ####################################
 #SRM
+####################################
+STM = {
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+}
+STM_subject = { #Generic subject
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+}
+STM_colony_AQT = { #Specifically when subject of AQT
+	pattern = "pattern_solid.tga"
+	color1 = "purple"
+}
 ####################################
 TRR = {
 	pattern = "pattern_solid.tga"

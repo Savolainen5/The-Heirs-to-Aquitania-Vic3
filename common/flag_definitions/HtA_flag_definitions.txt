@@ -95,6 +95,26 @@ DAU = { #Daufinat
 	}
 }
 
+FRD = { # Frederiksland
+	flag_definition = {
+		coa = FRD
+		subject_canton = FRD
+		allow_overlord_canton = yes		
+		coa_with_overlord_canton = FRD_subject			
+		priority = 1
+	}
+	flag_definition = {
+		coa = FRD_colony_DEN
+		allow_overlord_canton = yes
+		overlord_canton_scale = { @canton_scale_denmark_x @canton_scale_denmark_y }
+		subject_canton = FRD_colony_DEN
+		priority = 5
+		trigger = { 
+			coa_def_danish_ensign_trigger = yes
+		}
+	}
+}
+
 GDL = { # Guilderland
 	flag_definition = {
 		coa = GDL
@@ -129,6 +149,36 @@ GLE = { # Gledy
 		allow_overlord_canton = yes		
 		coa_with_overlord_canton = GLE_subject
 		priority = 1
+	}
+}
+
+GWS = { # Gewisse
+	flag_definition = {
+		coa = GWS
+		subject_canton = GWS
+		allow_overlord_canton = yes		
+		coa_with_overlord_canton = GWS_subject
+		priority = 1
+	}
+}
+
+HEG = { #Hegoalde
+	flag_definition = {
+		coa = HEG
+		subject_canton = HEG
+		allow_overlord_canton = yes		
+		coa_with_overlord_canton = HEG_subject
+		priority = 1
+	}
+
+	flag_definition = {
+		coa = HEG_HIS
+		allow_overlord_canton = yes
+		subject_canton = HEG_HIS
+		priority = 5
+		trigger = {
+			coa_def_spanish_ensign_trigger = yes
+		}
 	}
 }
 
@@ -192,23 +242,28 @@ MAR = { # Louisiana errr I mean Mariana
 		coa_with_overlord_canton = MAR_subject			
 		priority = 1
 	}
-#	flag_definition = {
-#		coa = MAR_monarchy
-#		subject_canton = LOU_monarchy
-#		priority = 10
-#		trigger = { 
-#			coa_def_theocracy_flag_trigger = yes
-#		}
-#	}
-#	flag_definition = {
-#		coa = LOU_monarchy
-#		subject_canton = LOU_monarchy
-#		priority = 10
-#		trigger = { 
-#			coa_def_monarchy_flag_trigger = yes
-#		}
-#	}
 }
+
+MRG = { # Maregen
+	flag_definition = {
+		coa = MRG
+		subject_canton = MRG
+		allow_overlord_canton = yes		
+		coa_with_overlord_canton = MRG_subject
+		priority = 1
+	}
+
+	flag_definition = {
+		coa = MRG_colony_NET
+		allow_overlord_canton = yes
+		subject_canton = MRG_colony_NET
+		priority = 5
+		trigger = {
+			coa_def_netherlands_ensign_trigger = yes
+		}
+	}
+}
+
 NAP = { # Naples
 	flag_definition = {
 		coa = NAP
@@ -217,29 +272,6 @@ NAP = { # Naples
 		subject_canton = NAP
 		priority = 1
 	}
-#	flag_definition = {
-#		coa = SIC_republic
-#		subject_canton = SIC_republic
-#		priority = 10
-#		trigger = { 
-#			coa_def_republic_flag_trigger = yes
-#		}
-#	}	
-#	flag_definition = {
-#		coa = SIC_dictatorship
-#		subject_canton = SIC_dictatorship
-#		priority = 20
-#		trigger = {
-#			coa_def_dictatorship_flag_trigger = yes
-#		}
-#	}	
-#	flag_definition = {
-#		coa = SIC_communist
-#		priority = 1500
-#		trigger = { 
-#			coa_def_communist_flag_trigger = yes
-#		}
-#	}		
 }
 
 NCS = { #New Castille
@@ -342,11 +374,51 @@ NUT = { #Nutca
 	}
 }
 
+PET = { # Isla Petri
+	flag_definition = {
+		coa = PET
+		subject_canton = PET
+		allow_overlord_canton = yes		
+		coa_with_overlord_canton = PET_subject
+		priority = 1
+	}
+
+	flag_definition = {
+		coa = PET_colony_AQT
+		allow_overlord_canton = yes
+		subject_canton = PET_colony_AQT
+		priority = 5
+		trigger = {
+			coa_def_aquitanian_ensign_trigger = yes
+		}
+	}
+}
+
 ROM = { # Roman Empire
 	flag_definition = {
 		coa = ROM
 		allow_overlord_canton = yes
 		subject_canton = ROM
 		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+
+STM = { # Sent Micolau
+	flag_definition = {
+		coa = STM
+		subject_canton = STM
+		allow_overlord_canton = yes		
+		coa_with_overlord_canton = STM_subject
+		priority = 1
+	}
+
+	flag_definition = {
+		coa = STM_colony_AQT
+		allow_overlord_canton = yes
+		subject_canton = STM_colony_AQT
+		priority = 5
+		trigger = {
+			coa_def_aquitanian_ensign_trigger = yes
+		}
 	}
 }

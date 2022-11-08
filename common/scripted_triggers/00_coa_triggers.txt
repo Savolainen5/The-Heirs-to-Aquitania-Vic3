@@ -291,6 +291,12 @@ coa_def_mexican_ensign_trigger = { #Adapted for HtA
 	coa_def_ensign_trigger = yes
 }
 
+coa_def_aquitanian_ensign_trigger = { #created for HtA
+	exists = c:AQT
+	c:AQT = { save_temporary_scope_as = custom_overlord }
+	coa_def_ensign_trigger = yes
+}
+
 coa_def_swedish_ensign_trigger = {
 	exists = c:SWE
 	c:SWE = { save_temporary_scope_as = custom_overlord }
