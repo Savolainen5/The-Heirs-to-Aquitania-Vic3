@@ -12,8 +12,8 @@ IRE = { #Ireland/Eire
 			exists = scope:actor
 			scope:actor = {
 				OR = {
-					owns_entire_state_region = STATE_LOWLANDS
-					owns_entire_state_region = STATE_HIGHLANDS
+					owns_entire_state_region = STATE_GHALLDACHD
+					owns_entire_state_region = STATE_GHAIDHEALTACHD
 				}
 			}
 			NOT = { exists = c:SCO }

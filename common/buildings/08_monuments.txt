@@ -98,7 +98,7 @@ building_big_ben = {
 		error_check = {
 			severity = invalid
 			this = {
-				state_region = s:STATE_HOME_COUNTIES
+				state_region = s:STATE_SUDSAXE
 			}
 		}
 	}

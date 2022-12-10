@@ -11,7 +11,7 @@
 	tier = kingdom
 	
 	cultures = { aenglish }
-	capital = STATE_HOME_COUNTIES
+	capital = STATE_SUDSAXE
 }
 	
 AQT = { #Aquitania
@@ -144,7 +144,7 @@ IRE = {
 	tier = kingdom
 	
 	cultures = { eirean }
-	capital = STATE_LEINSTER
+	capital = STATE_LAIGHIN
 }
 JEB = { #Jebenhausen
 	color = { 182 84 153 }

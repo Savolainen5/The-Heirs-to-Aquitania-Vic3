@@ -539,7 +539,7 @@
 			}
 		}
 	}
-	s:STATE_HOME_COUNTIES={
+	s:STATE_SUDSAXE={
 		region_state:AEN={
 			create_building={
 				building="building_government_administration"
@@ -621,7 +621,7 @@
 			}
 		}
 	}
-	s:STATE_LANCASHIRE={
+	s:STATE_COMBRE={
 		region_state:AEN={
 			create_building={
 				building="building_textile_mills"
@@ -703,7 +703,7 @@
 			}
 		}
 	}
-	s:STATE_WALES={
+	s:STATE_WEALES={
 		region_state:AEN={
 			create_building={
 				building="building_paper_mills"
@@ -749,7 +749,7 @@
 			}
 		}
 	}
-	s:STATE_YORKSHIRE={
+	s:STATE_NORDUMBRE={
 		region_state:AEN={
 			create_building={
 				building="building_tooling_workshops"
@@ -819,7 +819,7 @@
 			}
 		}
 	}
-	s:STATE_HIGHLANDS={
+	s:STATE_GHAIDHEALTACHD={
 		region_state:IRE={
 			create_building={
 				building="building_barracks"
@@ -847,7 +847,7 @@
 			}
 		}
 	}
-	s:STATE_MIDLANDS={
+	s:STATE_MIERCE={
 		region_state:AEN={
 			create_building={
 				building="building_textile_mills"
@@ -917,7 +917,7 @@
 			}
 		}
 	}
-	s:STATE_EAST_ANGLIA={
+	s:STATE_ESSAXE={
 		region_state:AEN={
 			create_building={
 				building="building_university"
@@ -987,7 +987,7 @@
 			}
 		}
 	}
-	s:STATE_WEST_COUNTRY={
+	s:STATE_WESSAXE={
 		region_state:AEN={
 			create_building={
 				building="building_tooling_workshops"
@@ -1051,7 +1051,7 @@
 			}
 		}
 	}
-	s:STATE_LOWLANDS={
+	s:STATE_GHALLDACHD={
 		region_state:IRE={
 			create_building={
 				building="building_government_administration"
@@ -1127,7 +1127,7 @@
 			}
 		}
 	}
-	s:STATE_ULSTER={
+	s:STATE_ULAIDH={
 		region_state:IRE={
 			create_building={
 				building="building_livestock_ranch"
@@ -1149,7 +1149,7 @@
 			}
 		}
 	}
-	s:STATE_MUNSTER={
+	s:STATE_MHUMHAIN={
 		region_state:IRE={
 			create_building={
 				building="building_rye_farm"
@@ -1177,7 +1177,7 @@
 			}
 		}
 	}
-	s:STATE_LEINSTER={
+	s:STATE_LAIGHIN={
 		region_state:IRE={
 			create_building={
 				building="building_university"
@@ -1223,7 +1223,7 @@
 			}
 		}
 	}
-	s:STATE_CONNAUGHT={
+	s:STATE_CHONNACHT={
 		region_state:IRE={
 			create_building={
 				building="building_rye_farm"

@@ -28,8 +28,8 @@ high_kingdom_ireland = {
 		exists = c:IRE
 		THIS = c:IRE
 		OR = {
-			owns_entire_state_region = STATE_LOWLANDS
-			owns_entire_state_region = STATE_HIGHLANDS
+			owns_entire_state_region = STATE_GHALLDACHD
+			owns_entire_state_region = STATE_GHAIDHEALTACHD
 		}
 		NOT = { exists = c:SCO }
 	}
@@ -43,8 +43,8 @@ basic_ireland = {
 		exists = c:IRE
 		THIS = c:IRE
 		NOT = {
-			owns_entire_state_region = STATE_HIGHLANDS
-			owns_entire_state_region = STATE_LOWLANDS
+			owns_entire_state_region = STATE_GHAIDHEALTACHD
+			owns_entire_state_region = STATE_GHALLDACHD
 		}
 	}
 }
@@ -58,8 +58,8 @@ basic_ireland = {
 #		OR = {
 #			exists = c:SCO
 #			AND = {
-#				NOT = { owns_entire_state_region = STATE_LOWLANDS }
-#				NOT = { owns_entire_state_region = STATE_HIGHLANDS }
+#				NOT = { owns_entire_state_region = STATE_GHALLDACHD }
+#				NOT = { owns_entire_state_region = STATE_GHAIDHEALTACHD }
 #			}
 #		}
 #	}

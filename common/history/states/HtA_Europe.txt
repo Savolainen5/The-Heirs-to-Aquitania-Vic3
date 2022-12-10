@@ -8,7 +8,7 @@
 		add_homeland = russian
 		add_homeland = byelorussian
 	}
-	s:STATE_HOME_COUNTIES = {
+	s:STATE_SUDSAXE = {
 		create_state = {
 			country = c:AEN
 			owned_provinces = { xE0E0C0 x7543C8 x60E0C0 x58D3AE x625993 x39F45B x19CECD x800020 xE060C0 }
@@ -16,7 +16,7 @@
 		
 		add_homeland = aenglish
 	}
-	s:STATE_LANCASHIRE = {
+	s:STATE_COMBRE = {
 		create_state = {
 			country = c:AEN
 			owned_provinces = { x410CE6 x60E000 xE0E000 xA242B2 xE06000 xE74158 x65617C x137263 }
@@ -352,7 +352,7 @@
 		
 		add_homeland = icelandic
 	}
-	s:STATE_WALES = {
+	s:STATE_WEALES = {
 		create_state = {
 			country = c:AEN
 			owned_provinces = { x2020C0 xA2308A x775D55 xA0A040 xB7FC74 x20A040 x70D92B xA02040 x633EF5 }
@@ -361,7 +361,7 @@
 		add_homeland = aenglish
 		add_homeland = welsh
 	}
-	s:STATE_YORKSHIRE = {
+	s:STATE_NORDUMBRE = {
 		create_state = {
 			country = c:AEN
 			owned_provinces = { x527116 x606000 x824DB7 xB5BF4E xE06080 x606080 xEDC0BA x5544D0 x86B021 }
@@ -369,7 +369,7 @@
 		
 		add_homeland = aenglish
 	}
-	s:STATE_HIGHLANDS = {
+	s:STATE_GHAIDHEALTACHD = {
 		create_state = {
 			country = c:IRE
 			owned_provinces = { xFBDD5D xCCBBD1 x662BE7 x84625B x8E7728 xFACCE3 x314E1F x80DB90 x0E7C03 x37518E x3CFF08 xB7B8EA x0C1520 xF78F29 x637BE8 xF00652 x47C5CD x5B0884 }
@@ -377,7 +377,7 @@
 		
 		add_homeland = alban
 	}
-	s:STATE_MIDLANDS = {
+	s:STATE_MIERCE = {
 		create_state = {
 			country = c:AEN
 			owned_provinces = { x20A0C0 xA021B0 xA220D6 x11C2BB x6020C0 x99305F xE0E080 xA0A0C0 x2482B4 x60E080 x528DEE }
@@ -385,7 +385,7 @@
 		
 		add_homeland = aenglish
 	}
-	s:STATE_EAST_ANGLIA = {
+	s:STATE_ESSAXE = {
 		create_state = {
 			country = c:AEN
 			owned_provinces = { x8C667B x516676 x73EF57 x6D87D7 xE02040 x5024FD x60A040 x618949 xE0A040 }
@@ -393,7 +393,7 @@
 		
 		add_homeland = aenglish
 	}
-	s:STATE_WEST_COUNTRY = {
+	s:STATE_WESSAXE = {
 		create_state = {
 			country = c:AEN
 			owned_provinces = { xE020C0 x1E38F8 xC900EF xA2DD9E x63EF7E x65B395 x6060C0 x225544 xEB9862 xE0E040 }
@@ -401,7 +401,7 @@
 		
 		add_homeland = aenglish
 	}
-	s:STATE_LOWLANDS = {
+	s:STATE_GHALLDACHD = {
 		create_state = {
 			country = c:IRE
 			owned_provinces = { xB2A15E x20E080 x676072 xA0E080 x0B53FA x832656 xA06080 x363883 x80F634 xD01BE2 xDCD566 x206080 x002C82 xA0E000 x193EFC x9B6ACC }
@@ -409,7 +409,7 @@
 		
 		add_homeland = alban
 	}
-	s:STATE_ULSTER = {
+	s:STATE_ULAIDH = {
 		create_state = {
 			country = c:IRE
 			owned_provinces = { x688E79 x0A38AF x2BE1C8 xA06040 xCFCD2B xAA6FA1 x20E040 xA0C0E0 }
@@ -417,7 +417,7 @@
 		
 		add_homeland = eirean
 	}
-	s:STATE_MUNSTER = {
+	s:STATE_MHUMHAIN = {
 		create_state = {
 			country = c:IRE
 			owned_provinces = { xEF3F71 xE06040 xF53F9B xBDAB32 xA0E0C0 x849939 x02061B xECB3A5 x969279 xD9BB34 }
@@ -425,7 +425,7 @@
 		
 		add_homeland = eirean
 	}
-	s:STATE_LEINSTER = {
+	s:STATE_LAIGHIN = {
 		create_state = {
 			country = c:IRE
 			owned_provinces = { xA0E040 xA2A933 x1E9CB2 xAEAF93 x2060C0 xCC3E24 x5B3F6F x5086D4 x60E040 }
@@ -433,7 +433,7 @@
 		
 		add_homeland = eirean
 	}
-	s:STATE_CONNAUGHT = {
+	s:STATE_CHONNACHT = {
 		create_state = {
 			country = c:IRE
 			owned_provinces = { x20E0C0 x641238 xE5C4FE xC7847D xA060C0 x5DEF58 x85F13B x656D90 }

@@ -516,19 +516,19 @@ german_treaty_ports = {
 
 british_treaty_ports = {
 	OR = {
-		owns_treaty_port_in = STATE_WEST_COUNTRY
-		owns_treaty_port_in = STATE_HOME_COUNTIES
-		owns_treaty_port_in = STATE_EAST_ANGLIA
-		owns_treaty_port_in = STATE_WALES
-		owns_treaty_port_in = STATE_MIDLANDS
-		owns_treaty_port_in = STATE_YORKSHIRE
-		owns_treaty_port_in = STATE_LANCASHIRE
-		#owns_treaty_port_in = STATE_LOWLANDS
-		#owns_treaty_port_in = STATE_HIGHLANDS
-		#owns_treaty_port_in = STATE_ULSTER
-		#owns_treaty_port_in = STATE_LEINSTER
-		#owns_treaty_port_in = STATE_CONNAUGHT
-		#owns_treaty_port_in = STATE_MUNSTER
+		owns_treaty_port_in = STATE_WESSAXE
+		owns_treaty_port_in = STATE_SUDSAXE
+		owns_treaty_port_in = STATE_ESSAXE
+		owns_treaty_port_in = STATE_WEALES
+		owns_treaty_port_in = STATE_MIERCE
+		owns_treaty_port_in = STATE_NORDUMBRE
+		owns_treaty_port_in = STATE_COMBRE
+		#owns_treaty_port_in = STATE_GHALLDACHD
+		#owns_treaty_port_in = STATE_GHAIDHEALTACHD
+		#owns_treaty_port_in = STATE_ULAIDH
+		#owns_treaty_port_in = STATE_LAIGHIN
+		#owns_treaty_port_in = STATE_CHONNACHT
+		#owns_treaty_port_in = STATE_MHUMHAIN
 	}
 }
 

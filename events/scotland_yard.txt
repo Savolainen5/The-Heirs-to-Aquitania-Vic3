@@ -13,7 +13,7 @@ scotland_yard.1 = {
 #				trigger = {
 #					exists = c:GBR
 #					THIS = c:GBR
-#					owns_entire_state_region = STATE_HOME_COUNTIES
+#					owns_entire_state_region = STATE_SUDSAXE
 #				}
 #			}
 			triggered_desc = {

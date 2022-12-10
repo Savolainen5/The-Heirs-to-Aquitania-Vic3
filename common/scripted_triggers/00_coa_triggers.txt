@@ -317,8 +317,8 @@ coa_def_dominant_scotland_trigger = {
 				capital = {
 					state_region = {
 						OR = {
-							this = s:STATE_LOWLANDS
-							this = s:STATE_HIGHLANDS
+							this = s:STATE_GHALLDACHD
+							this = s:STATE_GHAIDHEALTACHD
 						}
 					}
 				}

@@ -49,8 +49,8 @@ AZB = {
 
 SCO = {
 	states = { 
-		STATE_LOWLANDS
-		STATE_HIGHLANDS
+		STATE_GHALLDACHD
+		STATE_GHAIDHEALTACHD
 	}
 
 	ai_will_do = { always = no }
@@ -58,7 +58,7 @@ SCO = {
 
 WLS = {
 	states = {
-		STATE_WALES
+		STATE_WEALES
 	}
 	
 	ai_will_do = { always = no }

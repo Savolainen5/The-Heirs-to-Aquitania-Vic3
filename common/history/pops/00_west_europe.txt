@@ -189,7 +189,7 @@
 			}
 		}
 	}
-	s:STATE_HOME_COUNTIES = {
+	s:STATE_SUDSAXE = {
 		region_state:AEN = {
 			create_pop = {
 				culture = aenglish
@@ -211,7 +211,7 @@
 #			}
 		}
 	}
-	s:STATE_LANCASHIRE = {
+	s:STATE_COMBRE = {
 		region_state:AEN = {
 			create_pop = {
 				culture = aenglish
@@ -228,7 +228,7 @@
 			}
 		}
 	}
-	s:STATE_WALES = {
+	s:STATE_WEALES = {
 		region_state:AEN = {
 			create_pop = {
 				culture = welsh
@@ -240,7 +240,7 @@
 			}
 		}
 	}
-	s:STATE_YORKSHIRE = {
+	s:STATE_NORDUMBRE = {
 		region_state:AEN = {
 			create_pop = {
 				culture = aenglish
@@ -257,7 +257,7 @@
 			}
 		}
 	}
-	s:STATE_HIGHLANDS = {
+	s:STATE_GHAIDHEALTACHD = {
 		region_state:IRE = {
 			create_pop = {
 				culture = alban
@@ -270,7 +270,7 @@
 			}
 		}
 	}
-	s:STATE_MIDLANDS = {
+	s:STATE_MIERCE = {
 		region_state:AEN = {
 			create_pop = {
 				culture = aenglish
@@ -287,7 +287,7 @@
 #			}
 		}
 	}
-	s:STATE_EAST_ANGLIA = {
+	s:STATE_ESSAXE = {
 		region_state:AEN = {
 			create_pop = {
 				culture = aenglish
@@ -300,7 +300,7 @@
 			}
 		}
 	}
-	s:STATE_WEST_COUNTRY = {
+	s:STATE_WESSAXE = {
 		region_state:AEN = {
 			create_pop = {
 				culture = aenglish
@@ -317,7 +317,7 @@
 #			}
 		}
 	}
-	s:STATE_LOWLANDS = {
+	s:STATE_GHALLDACHD = {
 		region_state:IRE = {
 			create_pop = {
 				culture = alban
@@ -334,7 +334,7 @@
 			}
 		}
 	}
-	s:STATE_ULSTER = {
+	s:STATE_ULAIDH = {
 		region_state:IRE = {
 			create_pop = {
 				culture = alban
@@ -346,7 +346,7 @@
 			}
 		}
 	}
-	s:STATE_MUNSTER = {
+	s:STATE_MHUMHAIN = {
 		region_state:IRE = {
 			create_pop = {
 				culture = eirean
@@ -358,7 +358,7 @@
 			}
 		}
 	}
-	s:STATE_LEINSTER = {
+	s:STATE_LAIGHIN = {
 		region_state:IRE = {
 			create_pop = {
 				culture = eirean
@@ -370,7 +370,7 @@
 			}
 		}
 	}
-	s:STATE_CONNAUGHT = {
+	s:STATE_CHONNACHT = {
 		region_state:IRE = {
 			create_pop = {
 				culture = eirean

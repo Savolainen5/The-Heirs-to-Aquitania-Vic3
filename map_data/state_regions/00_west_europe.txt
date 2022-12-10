@@ -317,7 +317,7 @@ STATE_OSTROBOTHNIA = {
     naval_exit_id = 3000
 }
 
-STATE_HOME_COUNTIES = {
+STATE_SUDSAXE = {
     id = 15
     subsistence_building = "building_subsistence_farms"
     provinces = { "x19CECD" "x39F45B" "x58D3AE" "x60E0C0" "x625993" "x7543C8" "x800020" "xE060C0" "xE0E0C0" }
@@ -337,7 +337,7 @@ STATE_HOME_COUNTIES = {
     naval_exit_id = 3028
 }
 
-STATE_LANCASHIRE = {
+STATE_COMBRE = {
     id = 16
     subsistence_building = "building_subsistence_farms"
     provinces = { "x137263" "x410CE6" "x60E000" "x65617C" "xA242B2" "xE06000" "xE0E000" "xE74158" }
@@ -359,7 +359,7 @@ STATE_LANCASHIRE = {
     naval_exit_id = 3030
 }
 
-STATE_WALES = {
+STATE_WEALES = {
     id = 17
     subsistence_building = "building_subsistence_farms"
     provinces = { "x2020C0" "x20A040" "x633EF5" "x70D92B" "x775D55" "xA02040" "xA0A040" "xA2308A" "xB7FC74" }
@@ -379,7 +379,7 @@ STATE_WALES = {
     naval_exit_id = 3030
 }
 
-STATE_YORKSHIRE = {
+STATE_NORDUMBRE = {
     id = 18
     subsistence_building = "building_subsistence_farms"
     provinces = { "x527116" "x5544D0" "x606000" "x606080" "x824DB7" "x86B021" "xB5BF4E" "xE06080" "xEDC0BA" }
@@ -401,7 +401,7 @@ STATE_YORKSHIRE = {
     naval_exit_id = 3027
 }
 
-STATE_HIGHLANDS = {
+STATE_GHAIDHEALTACHD = {
     id = 19
     subsistence_building = "building_subsistence_farms"
     provinces = { "x0C1520" "x0E7C03" "x314E1F" "x37518E" "x3CFF08" "x47C5CD" "x5B0884" "x637BE8" "x662BE7" "x80DB90" "x84625B" "x8E7728" "xB7B8EA" "xCCBBD1" "xF00652" "xF78F29" "xFACCE3" "xFBDD5D" }
@@ -421,7 +421,7 @@ STATE_HIGHLANDS = {
     naval_exit_id = 3027
 }
 
-STATE_MIDLANDS = {
+STATE_MIERCE = {
     id = 20
     subsistence_building = "building_subsistence_farms"
     provinces = { "x11C2BB" "x20A0C0" "x2482B4" "x528DEE" "x6020C0" "x60E080" "x99305F" "xA021B0" "xA0A0C0" "xA220D6" "xE0E080" }
@@ -442,7 +442,7 @@ STATE_MIDLANDS = {
     naval_exit_id = 3027
 }
 
-STATE_EAST_ANGLIA = {
+STATE_ESSAXE = {
     id = 21
     subsistence_building = "building_subsistence_farms"
     provinces = { "x5024FD" "x516676" "x60A040" "x618949" "x6D87D7" "x73EF57" "x8C667B" "xE02040" "xE0A040" }
@@ -463,7 +463,7 @@ STATE_EAST_ANGLIA = {
     naval_exit_id = 3028
 }
 
-STATE_WEST_COUNTRY = {
+STATE_WESSAXE = {
     id = 22
     subsistence_building = "building_subsistence_farms"
     provinces = { "x1E38F8" "x225544" "x6060C0" "x63EF7E" "x65B395" "xA2DD9E" "xC900EF" "xE020C0" "xE0E040" "xEB9862" }
@@ -483,7 +483,7 @@ STATE_WEST_COUNTRY = {
     naval_exit_id = 3028
 }
 
-STATE_LOWLANDS = {
+STATE_GHALLDACHD = {
     id = 23
     subsistence_building = "building_subsistence_farms"
     provinces = { "x002C82" "x0B53FA" "x193EFC" "x206080" "x20E080" "x363883" "x676072" "x80F634" "x832656" "x9B6ACC" "xA06080" "xA0E000" "xA0E080" "xB2A15E" "xD01BE2" "xDCD566" }
@@ -504,7 +504,7 @@ STATE_LOWLANDS = {
     naval_exit_id = 3027
 }
 
-STATE_ULSTER = {
+STATE_ULAIDH = {
     id = 24
     subsistence_building = "building_subsistence_farms"
     provinces = { "x0A38AF" "x20E040" "x2BE1C8" "x688E79" "xA06040" "xA0C0E0" "xAA6FA1" "xCFCD2B" }
@@ -522,7 +522,7 @@ STATE_ULSTER = {
     naval_exit_id = 3030
 }
 
-STATE_MUNSTER = {
+STATE_MHUMHAIN = {
     id = 25
     subsistence_building = "building_subsistence_farms"
     provinces = { "x02061B" "x849939" "x969279" "xA0E0C0" "xBDAB32" "xD9BB34" "xE06040" "xECB3A5" "xEF3F71" "xF53F9B" }
@@ -542,7 +542,7 @@ STATE_MUNSTER = {
     naval_exit_id = 3030
 }
 
-STATE_LEINSTER = {
+STATE_LAIGHIN = {
     id = 26
     subsistence_building = "building_subsistence_farms"
     provinces = { "x1E9CB2" "x2060C0" "x5086D4" "x5B3F6F" "x60E040" "xA0E040" "xA2A933" "xAEAF93" "xCC3E24" }
@@ -562,7 +562,7 @@ STATE_LEINSTER = {
     naval_exit_id = 3030
 }
 
-STATE_CONNAUGHT = {
+STATE_CHONNACHT = {
     id = 27
     subsistence_building = "building_subsistence_farms"
     provinces = { "x20E0C0" "x5DEF58" "x641238" "x656D90" "x85F13B" "xA060C0" "xC7847D" "xE5C4FE" }

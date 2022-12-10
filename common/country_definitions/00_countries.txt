@@ -209,7 +209,7 @@ SCO = {
 	tier = kingdom
 	
 	cultures = { alban }
-	capital = STATE_LOWLANDS
+	capital = STATE_GHALLDACHD
 }
 
 WLS = {
@@ -220,7 +220,7 @@ WLS = {
 	tier = principality
 	
 	cultures = { welsh }
-	capital = STATE_WALES
+	capital = STATE_WEALES
 	is_named_from_capital = yes
 }
 
