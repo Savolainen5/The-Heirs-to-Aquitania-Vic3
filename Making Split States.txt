@@ -13,3 +13,14 @@ Cynic came up with most of this.
 7. Copy the full list and use your favourite text editor with the regex search mode to replace all of the list with nothing
 8. Go back to your list and remove all the |
 9. Copy that new list to the new split part of the state (whose entry you need to make)
+
+
+
+
+In-game with events, this effect:
+
+        create_country = {
+            tag = LOM
+            origin = c:SWI
+            state = s:STATE_LOMBARDY.region_state:SWI
+        }
