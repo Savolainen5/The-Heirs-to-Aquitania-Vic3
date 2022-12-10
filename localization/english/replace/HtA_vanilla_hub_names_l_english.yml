@@ -1,16 +1,16 @@
 ﻿l_english:
  
  #Aquitània
- HUB_NAME_STATE_LANGUEDOC_farm: "Narbona"
  HUB_NAME_STATE_LANGUEDOC_city: "Mauguio"
+ HUB_NAME_STATE_LANGUEDOC_farm: "Narbona"
  HUB_NAME_STATE_LANGUEDOC_mine: "Alés"
  HUB_NAME_STATE_LANGUEDOC_port: "Seta"
  HUB_NAME_STATE_LANGUEDOC_wood: "Carcassona"
 
  HUB_NAME_STATE_ARMAGNAC_city: "Tolosa"
  HUB_NAME_STATE_ARMAGNAC_farm: "Montalban"
- HUB_NAME_STATE_ARMAGNAC_wood: "Albi"
  HUB_NAME_STATE_ARMAGNAC_mine: "Fois"
+ HUB_NAME_STATE_ARMAGNAC_wood: "Albi"
 
  HUB_NAME_STATE_AQUITAINE_city: "Bordèu"
  HUB_NAME_STATE_AQUITAINE_farm: "Marçan"
@@ -37,8 +37,8 @@
  HUB_NAME_STATE_PROVENCE_city: "Marselha"
  HUB_NAME_STATE_PROVENCE_farm: "Avinhon"
  HUB_NAME_STATE_PROVENCE_mine: "Digno"
- HUB_NAME_STATE_PROVENCE_wood: "Niça"
  HUB_NAME_STATE_PROVENCE_port: "Touloun"
+ HUB_NAME_STATE_PROVENCE_wood: "Niça"
 
  HUB_NAME_STATE_SAVOY_city: "Genèva"
  HUB_NAME_STATE_SAVOY_farm: "Chambèri"
@@ -47,8 +47,8 @@
 
  HUB_NAME_STATE_PIEDMONT_farm: "Lissandria"
  HUB_NAME_STATE_PIEDMONT_mine: "Noara"
- HUB_NAME_STATE_PIEDMONT_wood: "Coni"
  HUB_NAME_STATE_PIEDMONT_port: "Zena"
+ HUB_NAME_STATE_PIEDMONT_wood: "Coni"
 
  #Germany
  HUB_NAME_STATE_RHINELAND_farm: "Oggersheim"

@@ -1,5 +1,15 @@
 ﻿l_english:
  
  DAI: "Dai Ngu"
- SIA: "Korat Kingdom"
+ IRE: "Eire"
+ IRE_ADJ: "Eirean"
  KAZ: "Kazakh Khanate"
+ ROM: "Roman Empire"
+ ROM_ADJ: "Roman"
+ RUT: "Ruthenia"
+ RUT_ADJ: "Ruthenian"
+ SCO: "Alba"
+ SCO_ADJ: "Alban"
+ SIA: "Korat Kingdom"
+ SWI: "Helvetia"
+ SWI_ADJ: "Helvetian"

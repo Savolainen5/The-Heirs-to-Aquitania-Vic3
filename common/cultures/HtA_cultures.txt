@@ -900,7 +900,7 @@ eirean={
 	religion = catholic
 	traits = { celtic_people european_heritage }
 	male_common_first_names={
-		Abba_n A_dhamh Alastar Anrai_ Aodh Aodha_n Aonghus Artu_r Bairre Bran Breasal Breanda_n Brian Caola_n Cathal Cathaoir Ciara_n Cillian
+		Abba_n A__dhamh Alastar Anrai_ Aodh Aodha_n Aonghus Artu_r Bairre Bran Breasal Breanda_n Brian Caola_n Cathal Cathaoir Ciara_n Cillian
 		Colm Conall Cona_n Conchobhar Constainti_n Cri_osto_ir Cuan Daine_al Da_ithi_ Da_ire De_agla_n Diarmaid Do_nal Dubhghall E_amonn Earna_n E_ibhear E_nna Eoghan
 		Fachtna Faola_n Feardorcha Fearghal Fechi_n Feidhlim Fiachra Fiona_n Fionn Fionnlagh Flann Gearo_id Goba_n Gofraidh Gre_ago_ir I_omhar Ionata_n
 		Lachtna Lorca_n Lu_ca_s Ma_irti_n Maitiu_ Mealla_n Michea_l Muiris Naoise Niall Ninian Niocla_s Odhra_n Oisi_n Oscar Pa_draig Peadar Piaras Pilib
