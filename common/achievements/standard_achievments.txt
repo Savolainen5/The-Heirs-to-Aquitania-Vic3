@@ -435,16 +435,16 @@ the_berlin_conference = {
 		hidden_trigger = {
 			c:GER = {
 				any_scope_state = {
-					OR = {
-						european_colonies_north_africa = yes
-						european_colonies_west_africa = yes
-						european_colonies_nile_basin = yes
-						european_colonies_central_africa = yes
-						european_colonies_east_africa = yes
-						european_colonies_south_africa = yes
-					}
-					count = 10
-					is_incorporated = no
+		   
+					state_in_africa = yes
+					is_split_state = no
+										
+											
+										 
+										  
+	  
+					count >= 10
+						 
 				}
 			}
 		}
@@ -622,7 +622,7 @@ reading_campaign = {
 		has_variable = reading_campaign_ach_possible
 	}
 	happened = {
-		literacy_rate = 1
+		literacy_rate = 0.95
 	}
 }
 
@@ -704,10 +704,10 @@ poppydock = {
 
 grander_colombia = {
 	possible = {
-		always = no
+	
 	}
 	happened = { 
-		always = no
+		
 		# exists = c:GCO
 		# this = c:GCO
 		# c:GCO = {

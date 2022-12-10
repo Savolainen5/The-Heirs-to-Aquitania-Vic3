@@ -1593,11 +1593,15 @@ ai_strategy_default = {
 			
 			if = {
 				limit = {
-					scope:target_country = { is_subject_of = root }	
+					scope:target_country = { 
+						is_subject_of = root
+						relations:root < relations_threshold:cordial 
+						scope:target_country.country_rank < rank_value:major_power
+					}
 				}
-				add = 100
-			}			
-			
+				add = 50
+			}	
+
 			if = {
 				limit = {
 					can_reach_target_country = yes

@@ -708,10 +708,20 @@ ideology_slaver = {
 	
 	leader_weight = {
 		value = 50
+		if = {
+			limit = {
+				   
+				owner = {
+					has_law = law_type:law_slavery_banned
+				}
+			}
+			add = -1000
 #		if = {
 #			limit = {
 #				exists = c:HAI
 #				owner = { c:HAI = THIS }
+										  
+	 
 #			}
 #			add = -1000
 #		}		
@@ -1383,9 +1393,7 @@ ideology_fascist = {
 		law_universal_suffrage = strongly_disapprove
 		law_census_voting = strongly_disapprove
 		law_wealth_voting = strongly_disapprove
-		law_landed_voting = strongly_disapprove				
-						 
-									
+		law_landed_voting = strongly_disapprove
 	}
 
 	lawgroup_citizenship = {
