@@ -186,9 +186,9 @@
   #Dai Ngu
 
  HUB_NAME_STATE_NAMTRUNG_city: "Quy Nohn" #Capital of Later Dai Ngu
- HUB_NAME_STATE_NAMTRUNG_wood: "Kon Tum" #Bull Falls, though this is a false etymology of the French name for Wausau, WI
- HUB_NAME_STATE_NAMTRUNG_mine: "Đắk Lắk" #Seipgens' rock. Emile Seipgens was a Dutch writer in the 19th century born in Roermond
- HUB_NAME_STATE_NAMTRUNG_farm: "Da Lat" #Chicago haha
+ HUB_NAME_STATE_NAMTRUNG_wood: "Kon Tum"
+ HUB_NAME_STATE_NAMTRUNG_mine: "Đắk Lắk"
+ HUB_NAME_STATE_NAMTRUNG_farm: "Da Lat"
  HUB_NAME_STATE_NAMTRUNG_port: "Kaian" #Japanese Hoian
 
  #Ashelasia
@@ -346,3 +346,86 @@
  HUB_NAME_STATE_CILICIA_mine: "Sision"
  HUB_NAME_STATE_CILICIA_farm: "Seleucia"
  HUB_NAME_STATE_CILICIA_wood: "Chiniki" #Invented based on the old Turkish town of Kınık in/near Osmaniye
+
+ #Aengland
+
+ HUB_NAME_STATE_ESSAXE_city: "Grantebryc"
+ HUB_NAME_STATE_ESSAXE_port: "Yippswyc"
+ HUB_NAME_STATE_ESSAXE_mine: "Letun"
+ HUB_NAME_STATE_ESSAXE_farm: "Colcestre"
+ HUB_NAME_STATE_ESSAXE_wood: "Edmundsburh"
+
+ HUB_NAME_STATE_SUDSAXE_city: "Lundenster"
+ HUB_NAME_STATE_SUDSAXE_port: "Porsmuth"
+ HUB_NAME_STATE_SUDSAXE_mine: "Redsthorp"
+ HUB_NAME_STATE_SUDSAXE_farm: "Cenwerburh"
+ HUB_NAME_STATE_SUDSAXE_wood: "Oxnaford"
+
+ HUB_NAME_STATE_WESSAXE_city: "Brycstow"
+ HUB_NAME_STATE_WESSAXE_port: "Ayshe"
+ HUB_NAME_STATE_WESSAXE_mine: "Glocestre"
+ HUB_NAME_STATE_WESSAXE_farm: "Tontun"
+ HUB_NAME_STATE_WESSAXE_wood: "Berdstaple"
+
+ HUB_NAME_STATE_WEALES_city: "Cerdyf"
+ HUB_NAME_STATE_WEALES_port: "Swansey"
+ HUB_NAME_STATE_WEALES_mine: "Merthyr Tydfil"
+ HUB_NAME_STATE_WEALES_farm: "Carmarthen"
+ HUB_NAME_STATE_WEALES_wood: "Bangor"
+
+ HUB_NAME_STATE_MIERCE_city: "Berminham"
+ HUB_NAME_STATE_MIERCE_port: "Romwledon"
+ HUB_NAME_STATE_MIERCE_mine: "Snotihham"
+ HUB_NAME_STATE_MIERCE_farm: "Ligocestre"
+ HUB_NAME_STATE_MIERCE_wood: "Gildenburh"
+
+ HUB_NAME_STATE_NORDUMBRE_city: "Eforwyc"
+ HUB_NAME_STATE_NORDUMBRE_port: "Monkcestre"
+ HUB_NAME_STATE_NORDUMBRE_mine: "Dor"
+ HUB_NAME_STATE_NORDUMBRE_farm: "Seltle"
+ HUB_NAME_STATE_NORDUMBRE_wood: "Wyc"
+
+ HUB_NAME_STATE_COMBRE_city: "Selhford"
+ HUB_NAME_STATE_COMBRE_port: "Liferpol"
+ HUB_NAME_STATE_COMBRE_mine: "Blacburna"
+ HUB_NAME_STATE_COMBRE_farm: "Carves"
+ HUB_NAME_STATE_COMBRE_wood: "Barrey"
+
+ #Alba
+
+ HUB_NAME_STATE_GHALLDACHD_city: "Dùn Èideann"
+ HUB_NAME_STATE_GHALLDACHD_port: "Obar Dheathain"
+ HUB_NAME_STATE_GHALLDACHD_mine: "Dùn Phris"
+ HUB_NAME_STATE_GHALLDACHD_farm: "Glaschu"
+ HUB_NAME_STATE_GHALLDACHD_wood: "Dùn Dé"
+
+ HUB_NAME_STATE_GHAIDHEALTACHD_city: "Inbhir Nis"
+ HUB_NAME_STATE_GHAIDHEALTACHD_port: "Bàgh na h-Eaglaise"
+ HUB_NAME_STATE_GHAIDHEALTACHD_mine: "Drumadrouchit"
+ HUB_NAME_STATE_GHAIDHEALTACHD_farm: "Caol"
+ HUB_NAME_STATE_GHAIDHEALTACHD_wood: "An Aghaidh Mhòr"
+
+  # Eire
+ HUB_NAME_STATE_ULAIDH_city: "Béal Feirste"
+ HUB_NAME_STATE_ULAIDH_port: "Doire"
+ HUB_NAME_STATE_ULAIDH_mine: "Inis Ceithleann"
+ HUB_NAME_STATE_ULAIDH_farm: "An Iúraigh"
+ HUB_NAME_STATE_ULAIDH_wood: "An Ómaigh"
+
+ HUB_NAME_STATE_LAIGHIN_city: "Duibhlinn"
+ HUB_NAME_STATE_LAIGHIN_port: "Loch Garman"
+ HUB_NAME_STATE_LAIGHIN_mine: "Port Láirge"
+ HUB_NAME_STATE_LAIGHIN_farm: "Ceatharlach"
+ HUB_NAME_STATE_LAIGHIN_wood: "An Cabhán"
+
+ HUB_NAME_STATE_CHONNACHT_city: "Gaillimh"
+ HUB_NAME_STATE_CHONNACHT_port: "Sligeach"
+ HUB_NAME_STATE_CHONNACHT_mine: "Cathair na Mart"
+ HUB_NAME_STATE_CHONNACHT_farm: "Baile Átha Luain"
+ HUB_NAME_STATE_CHONNACHT_wood: "Baile Locha Riach"
+
+ HUB_NAME_STATE_MHUMHAIN_city: "Corcaigh"
+ HUB_NAME_STATE_MHUMHAIN_port: "Cill Chaoi"
+ HUB_NAME_STATE_MHUMHAIN_mine: "Cill Airne"
+ HUB_NAME_STATE_MHUMHAIN_farm: "Mala"
+ HUB_NAME_STATE_MHUMHAIN_wood: "Aonach Urmhumhan"

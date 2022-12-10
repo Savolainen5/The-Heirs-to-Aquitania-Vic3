@@ -1,6 +1,8 @@
 ﻿l_english:
  #State names (different ones)
  
+##North Ameriga##
+
  #Guilderland
  STATE_MOURITSLAND: "Mouritsland" #Mourit's land
  STATE_KARELSLAND: "Karelsland" #Karel's land
@@ -42,9 +44,6 @@
  STATE_WELLBURN: "Wellburn" #something-brook
  STATE_BERDON: "Berdon" #Beard-something?
 
- #Dai Viet
- STATE_NAMTRUNG: "Trung Kỳ"
-
  #Mariana - Most state names are based on indigenous names
  STATE_TOHOME: "Tohomé"
  STATE_TANABIE: "Tanabie"
@@ -83,7 +82,7 @@
  STATE_DENEDE: "Denede" #Central Denedeh, the land of the Dene
 
 
- #Caribbean
+ ##Caribbean##
  STATE_SOLELHA: "Solelha"
 
  STATE_ISLA_PETRI: "Isla Petri" #Island of Peter in Latin, named for King Pèire of Aquitània when it was discovered
@@ -91,9 +90,30 @@
 
  STATE_DEMONSEG: "Demonseg" #Demon's Island, an older name for Bermuda
 
- #South Ameriga
+ ##South Ameriga##
 
  STATE_GYREFENA: "Gyrefena"
+
+ ##Europe##
+
+ #Aengland
+ STATE_WESSAXE: "Wessaxe"
+ STATE_SUDSAXE: "Sudsaxe"
+ STATE_ESSAXE: "Essaxe"
+ STATE_MIERCE: "Mierce"
+ STATE_WEALES: "Weales"
+ STATE_COMBRE: "Combre"
+ STATE_NORDUMBRE: "Nordumbre"
+
+ #Alba
+ STATE_GHALLDACHD: "Ghalldachd"
+ STATE_GHAIDHEALTACHD: "Ghàidhealtachd"
+
+ #Eire
+ STATE_ULAIDH: "Ulaidh"
+ STATE_LAIGHIN: "Laighin"
+ STATE_CHONNACHT: "Chonnacht"
+ STATE_MHUMHAIN: "Mhumhain"
 
  #Roman Empire
  STATE_EPIRUS: "Epirus" #Or maybe Nicopolis would be better?
@@ -112,4 +132,7 @@
  STATE_BOUKELLARION: "Boukellarion"
  STATE_CILICIA: "Cilicia"
 
- #Europe
+ ##Asia##
+
+ #Dai Viet
+ STATE_NAMTRUNG: "Trung Kỳ"
