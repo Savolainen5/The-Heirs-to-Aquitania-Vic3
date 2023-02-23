@@ -193,15 +193,7 @@ AFG = { # Afghanistan
 		trigger = { 
 			coa_def_theocracy_flag_trigger = yes
 		}
-	}
-#	flag_definition = {
-#		coa = AFG_subject_GBR
-#		allow_overlord_canton = yes		
-#		priority = 50
-#		trigger = { 
-#			coa_def_british_ensign_trigger = yes
-#		}
-#	}		
+	}	
 }
 
 AFS = {
@@ -211,12 +203,8 @@ AFS = {
 		allow_overlord_canton = no
 		priority = 100
 		trigger = {
-			scope:actor = {
-				any_state = {
-					owner = c:AFS
-					region = sr:region_congo
-				}
-			}
+            exists= c:AFS
+            scope:actor = { capital = { region = sr:region_congo } }
 		}
 	}
 
@@ -226,12 +214,8 @@ AFS = {
 		allow_overlord_canton = no
 		priority = 100
 		trigger = {
-			scope:actor = {
-				any_state = {
-					owner = c:AFS
-					region = sr:region_southern_africa
-				}
-			}
+            exists= c:AFS
+            scope:actor = { capital = { region = sr:region_southern_africa } }
 		}
 	}
 
@@ -241,12 +225,8 @@ AFS = {
 		allow_overlord_canton = no
 		priority = 100
 		trigger = {
-			scope:actor = {
-				any_state = {
-					owner = c:AFS
-					region = sr:region_zanj
-				}
-			}
+            exists= c:AFS
+            scope:actor = { capital = { region = sr:region_zanj } }
 		}
 	}
 
@@ -256,12 +236,8 @@ AFS = {
 		allow_overlord_canton = no
 		priority = 100
 		trigger = {
-			scope:actor = {
-				any_state = {
-					owner = c:AFS
-					region = sr:region_nile_basin
-				}
-			}
+            exists= c:AFS
+            scope:actor = { capital = { region = sr:region_nile_basin } }
 		}
 	}
 
@@ -271,32 +247,28 @@ AFS = {
 		allow_overlord_canton = no
 		priority = 100
 		trigger = {
+            exists= c:AFS
 			scope:actor = {
-				any_state = {
-					owner = c:AFS
-					OR = {
-						region = sr:region_niger
-						region = sr:region_senegal
-					}
-				}
-			}
+            	capital = {
+            		OR = {
+            			region = sr:region_senegal
+            			region = sr:region_niger
+            		} 
+            	}
+            }
 		}
 	}
 
-	flag_definition = {
-		coa = AFS_sahara
-		subject_canton = AFS
-		allow_overlord_canton = no
-		priority = 100
-		trigger = {
-			scope:actor = {
-				any_state = {
-					owner = c:AFS
-					region = sr:region_north_africa
-				}
-			}
-		}
-	}
+    flag_definition = {
+        coa = AFS_sahara
+        subject_canton = AFS
+        allow_overlord_canton = no
+        priority = 100
+        trigger = {
+            exists= c:AFS
+            scope:actor = { capital = { region = sr:region_north_africa } }
+        }
+    }
 }
 
 ALB = { # Albania

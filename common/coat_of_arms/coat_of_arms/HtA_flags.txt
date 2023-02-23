@@ -699,6 +699,7 @@ GDL_monarchy = {
         texture = "ce_lion_rampant.dds"
         color1 = "dark_grey"
         color2 = "dark_grey"
+		color3 = "white"
         instance = { scale = { 0.43 0.43 }    position = { 0.5 0.6 }    }
     }
 }
