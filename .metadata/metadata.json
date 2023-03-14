@@ -1,7 +1,7 @@
 {
 	"name" : "The Heirs to Aquitània",
 	"id" : "org.HtA.awesome",	
-	"version" : "0.4.3",
+	"version" : "0.4.4",
 	"supported_game_version" : "1.2.*",
 	"short_description" : "The Heirs to Aquitània",
 	"tags" : [
