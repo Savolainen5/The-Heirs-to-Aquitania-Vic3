@@ -10,4 +10,6 @@
  STATE_SEOUL: "Hanyang"
  STATE_BUSAN: "Busan"
  
+ STATE_FORMOSA: "Takasago"
+ 
  STATE_SEA_OF_JAPAN: "East Sea"
