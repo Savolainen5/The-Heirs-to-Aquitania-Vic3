@@ -73,7 +73,7 @@ JAP = {
 	tier = empire
 	
 	cultures = { japanese }
-	capital = STATE_CHUGOKU #Temporarily?
+	capital = STATE_KANSAI 
 }
 
 

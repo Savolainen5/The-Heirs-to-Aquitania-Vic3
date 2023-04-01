@@ -528,7 +528,7 @@
 				size = 156000
 			}
 		}
-		region_state:AQT = {
+		region_state:HIS = {
 			create_pop = {
 				culture = han
 				size = 81305
@@ -543,7 +543,7 @@
 				religion = catholic
 			}
 			create_pop = {
-				culture = aquitanian
+				culture = hispanian
 				size = 408
 			}
 		}
@@ -733,18 +733,18 @@
 		}
 	}
 	s:STATE_FORMOSA = {
-		region_state:NET = {
+		region_state:HIS = {
 			create_pop = {
-				culture = min
-				size = 1880000
+				culture = japanese
+				size = 1000000
 			}
 			create_pop = {
-				culture = dutch
+				culture = hispanian
 				size = 492
 			}
 			create_pop = {
-				culture = han # nanfaren
-				size = 1015504
+				culture = japanese
+				size = 880000
 			}
 		}
 	}
@@ -849,8 +849,6 @@
 				culture = yue
 				size = 30000
 			}
-		}
-		region_state:JAP = {
 			create_pop = {
 				culture = japanese
 				size = 28000
@@ -944,14 +942,13 @@
 				size = 10996
 			}
 		}
-		region_state:SIA = {
+		region_state:HIS = {
 			create_pop = {
-				culture = vietnamese
+				culture = japanese
 				size = 404099
 			}
 			create_pop = {
-				culture = vietnamese
-				religion = animist
+				culture = khmer
 				size = 64000
 			}
 			create_pop = {
@@ -959,7 +956,7 @@
 				size = 162000
 			}
 			create_pop = {
-				culture = vietnamese
+				culture = japanese
 				religion = catholic
 				size = 58200
 			}
@@ -969,6 +966,10 @@
 			}
 			create_pop = {
 				culture = min
+				size = 1000
+			}
+			create_pop = {
+				culture = hispanian
 				size = 1000
 			}
 		}
@@ -1002,9 +1003,6 @@
 				culture = min
 				size = 10996
 			}
-		}
-		
-		region_state:JAP = {
 			create_pop = {
 				culture = yue
 				size = 28000
@@ -1374,7 +1372,7 @@
 				size = 707500
 			}
 		}
-		region_state:TOH = {
+		region_state:JAP = {
 			create_pop = {
 				culture = ainu
 				size = 60020
@@ -1412,7 +1410,7 @@
 		}
 	}
 	s:STATE_CHUBU = {
-		region_state:YAM = {
+		region_state:JAP = {
 			create_pop = {
 				culture = japanese
 				size = 3127776
@@ -1447,7 +1445,7 @@
 				size = 926814
 			}
 		}
-		region_state:YAM = {
+		region_state:JAP = {
 			create_pop = {
 				culture = japanese
 				size = 2695257
@@ -1463,29 +1461,30 @@
 		region_state:JAP = {
 			create_pop = {
 				culture = japanese
-				size = 3170167
+				size = 3378150
 			}
-			create_pop = {
-				culture = micronesian
-				size = 132
-			}
+		}
+		region_state:HIS = {
 			create_pop = {
 				culture = japanese
-				religion = shinto
-				size = 1067036
+				size = 71582
 			}
 			create_pop = {
-				culture = han # nanfaren
-				size = 18712
+				culture = hispanian
+				size = 60
 			}
 		}
 	}
 
 	s:STATE_RYUKYU_ISLANDS = {
-		region_state:RYU = {
+		region_state:HIS = {
 			create_pop = {
 				culture = japanese
 				size = 259181
+			}
+			create_pop = {
+				culture = hispanian
+				size = 60
 			}
 		}
 	}
@@ -1527,7 +1526,17 @@
 		region_state:KOR = {
 			create_pop = {
 				culture = korean
-				size = 1372002
+				size = 1302002
+			}
+		}
+		region_state:JAP = {
+			create_pop = {
+				culture = japanese
+				size = 50200
+			}
+			create_pop = {
+				culture = korean
+				size = 20332
 			}
 		}
 	}
@@ -1536,6 +1545,20 @@
 			create_pop = {
 				culture = korean
 				size = 1372002
+			}
+		}
+		region_state:HIS = {
+			create_pop = {
+				culture = japanese
+				size = 30000
+			}
+			create_pop = {
+				culture = korean
+				size = 50000
+			}
+			create_pop = {
+				culture = hispanian
+				size = 100
 			}
 		}
 	}
