@@ -1,4 +1,54 @@
-﻿aenglish={
+﻿formosan={
+	color= hsv{ 0.45 0.10 0.74 }
+	religion = animist
+	traits = { southeast_asian_heritage malay_culture }
+	male_common_first_names={
+		Kiras
+		Nerus
+		Tifatul
+	}
+	female_common_first_names = {
+		Atiqah
+		Fatin
+		Sari
+		Sharena
+	}	
+	noble_last_names = {
+		Manisia
+		Marga_Sinambela
+		Odapodap
+		Panglima
+	}
+	common_last_names={
+		Angkat
+		Bako
+		Bangun
+		Berasa
+		Berutu
+		Bintang
+		Capah
+		Cibro
+		Gajah
+		Kesogihen
+		Kaloko
+		Longga
+		Meka
+		Padang
+		Pasi
+		Saraan
+		Sinamo
+		Suka
+		Tendang
+		Tinendung
+		Turutan
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}
+
+aenglish={
 	color={ 247  56  42 }
 	religion = catholic
 	traits = { anglophone european_heritage }

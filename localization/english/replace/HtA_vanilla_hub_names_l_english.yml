@@ -96,4 +96,14 @@
  
  HUB_NAME_STATE_MEKONG_farm: "Cần Thơ" #4th largest city in Vietnam
  HUB_NAME_STATE_MEKONG_mine: "Ha Tien" #Mines in the province
+ 
+#Japan
+ HUB_NAME_STATE_KANSAI_city: "Fukuhara" #Located at modern day Kobe, named after the capital of Taira no Kiyomori
+ HUB_NAME_STATE_KANSAI_farm: "Fushimi" #Located at modern day Kobe, named after the capital of Taira no Kiyomori
+ HUB_NAME_STATE_KANSAI_mine: "Matsusaka"  
+ HUB_NAME_STATE_KANSAI_port: "Osaka" 
+ 
+ #Korea
+ HUB_NAME_STATE_BUSAN_wood: "Masan" #Last remaining Japanese port city in South Korea
+
 

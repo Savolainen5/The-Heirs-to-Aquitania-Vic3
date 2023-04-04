@@ -891,6 +891,57 @@ HIS_PORclaim = {
 		}
 	}
 }
+
+JAP_imperial_early = {
+	# Based on nishiki flag
+	
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	colored_emblem = {
+		texture = "ce_nishiki.dds"
+		color1 = "yellow"
+		color2 = "grey"
+	}
+}
+
+JAP_imperial_late = {
+	# Based on nishiki flag
+	
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	colored_emblem = {
+		texture = "ce_nishiki.dds"
+		color1 = "yellow"
+		color2 = "grey"
+	}
+}
+
+JAP_taira = {
+	# Based on nishiki flag albeit 
+	
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "yellow"
+	}
+}
+
+JAP_subject = {
+	# Based on nishiki flag
+	
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	color2 = "yellow"
+
+	colored_emblem = {
+		texture = "ce_circle.dds"
+		color1 = "yellow"
+		color2 = "red"
+		instance = { scale = { 0.5 0.5 } position = { 0.75 0.5 } }			
+	}	
+}
 ##############################
 JEB_dictatorship = {
 	pattern = "pattern_border_of_4.dds"
