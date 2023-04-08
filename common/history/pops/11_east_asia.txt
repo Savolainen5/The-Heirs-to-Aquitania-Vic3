@@ -253,6 +253,21 @@
 				size = 801994
 			}
 		}
+		region_state:QIN = {
+			create_pop = {
+				culture = han # nanfaren
+				size = 1291006
+			}
+			create_pop = {
+				culture = han # nanfaren
+				religion = sunni
+				size = 80000
+			}
+			create_pop = {
+				culture = manchu
+				size = 801994
+			}
+		}
 	}
 	s:STATE_OUTER_MANCHURIA = {
 		region_state:NNA = {
@@ -1484,6 +1499,16 @@
 			}
 			create_pop = {
 				culture = hispanian
+				size = 60
+			}
+		}
+		region_state:JAP = {
+			create_pop = {
+				culture = japanese
+				size = 259181
+			}
+			create_pop = {
+				culture = korean
 				size = 60
 			}
 		}

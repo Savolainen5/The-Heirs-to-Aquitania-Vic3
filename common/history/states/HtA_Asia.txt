@@ -1161,13 +1161,7 @@
 				x34B782 x8ACAAA xA48A8B xAE0221 xB0D000 xBC0C5A xC81C12 xD42CA8 xF09080 xF91D98
 			}
 		}
-		
-		create_state = {
-			country = c:HIS
-			owned_provinces = { xB0D080 }
-			state_type = unincorporated
-		}
-		
+				
 		add_homeland = korean
 	}
 	s:STATE_SARIWON = {
@@ -1205,14 +1199,14 @@
 		create_state = {
 			country = c:AIN
 			owned_provinces = { 
-				x6275D4 x65D8B2 x5F2A24 x103C2B xEEB7F4 x413F60 x03E00D x86757A x420E86 xC85C0C x7F67EF x1E5261 x601140 x1E9A93
+				x6275D4 x65D8B2 x5F2A24 x103C2B xEEB7F4 x413F60 x03E00D x86757A x420E86 xC85C0C x7F67EF x1E5261 x601140 x1E9A93 x5B9D2D x70C55B x2090C0 x3EA37A x493B76 x9E56C2 
 			}
 		}
 		create_state = {
 			country = c:JAP
 			owned_provinces = {
-				xA090C0 x40BDB8 xF17C01 x5B9D2D x70C55B 
-				x17C8CA x210B6E x85C158 x2090C0 x3EA37A x493B76 x9E56C2 xA011C0 x3974DA 
+				xA090C0 x40BDB8 xF17C01 
+				x17C8CA x210B6E x85C158 xA011C0 x3974DA 
 			}
 		}
 		
@@ -1221,7 +1215,7 @@
 	}
 	s:STATE_TOHOKU = {
 		create_state = {
-			country = c:TOH
+			country = c:JAP
 			owned_provinces = { xE22202 xE0D080 xBC2AFE x3190C0 x15EED4 x81A720 xB011C0 xBED026 x1BAF33 x4C5533 xA26E5F xB090C0 xF29D08 x701040 x637FEB xAC762F xF01040 x322F47 x19C715 x3CA2FC }
 		}
 		
@@ -1254,12 +1248,12 @@
 	s:STATE_KYUSHU = {
 		create_state = {
 			country = c:JAP
-			owned_provinces = { x70CF00 x73414A xAE5874 xE16F98 x705080 x906F1E xEF5080 xCEA020 x1F0D2C x5C7980 x70D080 x800111 xEF50C0 }
+			owned_provinces = { x70CF00 x73414A xAE5874 xE16F98 x705080 x906F1E xEF5080 xCEA020 x5C7980  x800111 xEF50C0 }
 		}
 		
 		create_state = {
 			country = c:HIS
-			owned_provinces = { xF0D000 }
+			owned_provinces = { xF0D000 xf0f061 xf0d080 }
 			state_type = unincorporated
 			state_type = treaty_port
 		}
@@ -1269,12 +1263,18 @@
 
 	s:STATE_RYUKYU_ISLANDS = {
 		create_state = {
-			country = c:HIS
-			owned_provinces = { xf0f061 xf0d080 }
+			country = c:JAP
+			owned_provinces = { x70D080 x1F0D2C }
 			state_type = unincorporated
 		}
-			
+		
+		create_state = {
+			country = c:HIS
+			owned_provinces = { xB0D080 }
+			state_type = unincorporated
+		}
 		add_homeland = japanese
+		add_homeland = korean
 	}
 
 
@@ -1436,7 +1436,13 @@
 		create_state = {
 			country = c:KOR
 			owned_provinces = { 
-				x04FCF3 x167EE8 x169772 x20E6F2 x311D9E x474AF5 x5C7F26 x5DC943 x61D001 x6707A1 x68FAEC x709001 x7E008D x7F79DA x8D1556 x955331 x964A4F xA202E9 xB75C7A xC7B981 xCD72A9 xCEB565 xCF4570 xD0B789 xD7F9BA xE01101 xE05101 xE7363A xE9E896 xE9FEDB xEFCA02 xF6155A
+				x167EE8 x169772 x311D9E x474AF5 x5C7F26 x5DC943 x61D001 x709001 x7E008D x7F79DA x955331 x964A4F xA202E9 xC7B981 xCD72A9 xCEB565 xCF4570 xD0B789 xE7363A xE9E896 xE9FEDB xEFCA02 xF6155A
+			}
+		}
+		create_state = {
+			country = c:QIN
+			owned_provinces = { 
+				x6707a1 x8d1556 xe01101 xe05101 xb75c7a x20e6f2 x04fcf3 x68faec xd7f9ba
 			}
 		}
 		add_homeland = han
