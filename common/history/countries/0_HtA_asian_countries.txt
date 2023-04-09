@@ -347,40 +347,40 @@
 #		}
 #		add_journal_entry = { type = je_warlord_china }
 	}
-	c:RYU = { #Ryukyu
-		effect_starting_technology_tier_5_tech = yes
-
-
-		set_tax_level = medium
+#	c:RYU = { #Ryukyu
+#		effect_starting_technology_tier_5_tech = yes
+#
+#
+#		set_tax_level = medium
 		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_autocracy 
-		activate_law = law_type:law_freedom_of_conscience
-		activate_law = law_type:law_serfdom
-		activate_law = law_type:law_hereditary_bureaucrats
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_isolationism
-		activate_law = law_type:law_local_police
-		activate_law = law_type:law_no_schools
-		activate_law = law_type:law_land_based_taxation		
-		activate_law = law_type:law_right_of_assembly
-		activate_law = law_type:law_closed_borders	
-
-		ig:ig_armed_forces = {
-			set_interest_group_name = ig_samurai
-			add_ruling_interest_group = yes
-		}
-
-		ig:ig_devout = {
-			set_interest_group_name = ig_buddhist_monks
-			remove_ideology = ideology_moralist
-			add_ideology = ideology_buddhist_moralist
-		}
-
-		ig:ig_rural_folk = {
-			set_interest_group_name = ig_peasants
-		}
-	}
+#		activate_law = law_type:law_monarchy
+#		activate_law = law_type:law_autocracy 
+#		activate_law = law_type:law_freedom_of_conscience
+#		activate_law = law_type:law_serfdom
+#		activate_law = law_type:law_hereditary_bureaucrats
+#		activate_law = law_type:law_national_supremacy
+#		activate_law = law_type:law_isolationism
+#		activate_law = law_type:law_local_police
+#		activate_law = law_type:law_no_schools
+#		activate_law = law_type:law_land_based_taxation		
+#		activate_law = law_type:law_right_of_assembly
+#		activate_law = law_type:law_closed_borders	
+#
+#		ig:ig_armed_forces = {
+#			set_interest_group_name = ig_samurai
+#			add_ruling_interest_group = yes
+#		}
+#
+#		ig:ig_devout = {
+#			set_interest_group_name = ig_buddhist_monks
+#			remove_ideology = ideology_moralist
+#			add_ideology = ideology_buddhist_moralist
+#		}
+#
+#		ig:ig_rural_folk = {
+#			set_interest_group_name = ig_peasants
+#		}
+#	}
 	c:SIH = { #Sichuan
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes

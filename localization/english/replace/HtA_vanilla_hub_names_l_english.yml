@@ -102,6 +102,9 @@
  HUB_NAME_STATE_KANSAI_farm: "Fushimi" #Located at modern day Kobe, named after the capital of Taira no Kiyomori
  HUB_NAME_STATE_KANSAI_mine: "Matsusaka"  
  HUB_NAME_STATE_KANSAI_port: "Osaka" 
+ HUB_NAME_STATE_RYUKYU_ISLANDS_city: "Saishu"
+ HUB_NAME_STATE_RYUKYU_ISLANDS_farm: "Iki"
+ HUB_NAME_STATE_RYUKYU_ISLANDS_port: "Tsushima"
  
  #Korea
  HUB_NAME_STATE_BUSAN_wood: "Masan" #Last remaining Japanese port city in South Korea
