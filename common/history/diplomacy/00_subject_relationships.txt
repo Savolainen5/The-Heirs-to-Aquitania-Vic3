@@ -59,6 +59,10 @@
 			country = c:WAL
 			type = puppet
 		}
+		create_diplomatic_pact = {
+			country = c:HOL
+			type = puppet
+		}
 	}
 	c:DEN = {
 		create_diplomatic_pact = {
@@ -86,6 +90,18 @@
 		# Colony of Mariana
 		create_diplomatic_pact = {
 			country = c:MAR
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:NET
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:TRR
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:LUX
 			type = puppet
 		}
 	}

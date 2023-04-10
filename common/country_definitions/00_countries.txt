@@ -6,8 +6,7 @@
 	tier = empire
 	
 	cultures = { north_german south_german }
-	capital = STATE_BRANDENBURG
-}
+	capital = STATE_HESSE
 
 SCA = {
 	color = { 62  122  189 }
