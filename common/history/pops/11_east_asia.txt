@@ -464,7 +464,7 @@
 				size = 148000
 			}
 #		}
-#		region_state:POR = {
+#		region_state:GLZ = {
 			create_pop = {
 				culture = yue
 				size = 336000

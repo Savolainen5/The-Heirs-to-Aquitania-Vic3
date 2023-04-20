@@ -993,6 +993,17 @@ SIB = {
 	}
 }
 
+GLZ = {
+	use_culture_states = yes
+
+	ai_will_do = { always = no }
+}
+
+MAU = {
+	use_culture_states = yes
+
+	ai_will_do = { always = no }
+}
 
 NET = {
 	use_culture_states = yes

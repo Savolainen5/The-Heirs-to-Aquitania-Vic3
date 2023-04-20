@@ -967,7 +967,7 @@
 	}
 	s:STATE_SOUTH_CAMEROON = {
 		create_state = {
-			country = c:HIS
+			country = c:MAU
 			owned_provinces = { x902089 }
 			state_type = unincorporated
 		}

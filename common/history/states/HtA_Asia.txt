@@ -80,7 +80,7 @@
 			owned_provinces = { x2060EF x1D38B7 xA8B603 xD91A27 xA0E070 xAD1F3C xEF70EC xC226AF }
 		}
 		create_state = {
-			country = c:HIS
+			country = c:MAU
 			owned_provinces = { x5C2239 x5C2250 }
 			state_type = unincorporated
 		}

@@ -667,7 +667,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_MYSORE = {
-		region_state:POR = {
+		region_state:GLZ = {
 			create_pop = {
 				culture = kannada
 				religion = hindu
@@ -700,7 +700,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_TRAVANCORE = {
-		region_state:POR = {
+		region_state:GLZ = {
 			create_pop = {
 				culture = malayalam
 				size = 704000
@@ -861,7 +861,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_BOMBAY = {
-		region_state:POR = {
+		region_state:GLZ = {
 			create_pop = {				# TODO Add slave pops
 				culture = marathi
 				religion = catholic

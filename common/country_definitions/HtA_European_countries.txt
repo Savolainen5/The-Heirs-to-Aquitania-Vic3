@@ -104,6 +104,15 @@ GLG = { #Galgai, i.e. Ingushetia #As of mid-August, not currently existing
 	cultures = { north_caucasian }
 	capital = STATE_DAGESTAN
 }
+GLZ = { #Galiza
+	color = { 100 225 245 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	cultures = { hispanian galician }
+	capital = STATE_GALICIA
+}
 HAN = {
 	color = { 164  217  127 }
 	
@@ -200,6 +209,15 @@ MNZ = { #Mainz
 	
 	cultures = { north_german }
 	capital = STATE_HESSE
+}
+MAU = { #Mauretania
+	color = { 230 190 50 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	cultures = { hispanian }
+	capital = STATE_MARRAKECH
 }
 NAP = { #Naples
 	color = { 14 83 105 }
