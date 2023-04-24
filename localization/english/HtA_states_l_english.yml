@@ -115,6 +115,11 @@
  STATE_CHONNACHT: "Chonnacht"
  STATE_MHUMHAIN: "Mhumhain"
 
+ #Galiza
+ STATE_PORTUGALIZA: "Portugaliza"
+ STATE_LEON: "León"
+ STATE_BASQUE_COUNTRY: "Euskal Herria" #Could also be Basque Country
+
  #Roman Empire
  STATE_EPIRUS: "Epirus" #Or maybe Nicopolis would be better?
  STATE_HELLAS: "Hellas"

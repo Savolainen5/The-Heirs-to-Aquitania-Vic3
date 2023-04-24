@@ -184,16 +184,16 @@
 		}
 	}
 	s:STATE_TOLEDO = {
-		region_state:HIS = {
+		region_state:MAU = {
 			create_pop = {
 				culture = hispanian
 				size = 1268400
 			}
 		}
 	}
-	s:STATE_GALICIA = {
+	s:STATE_PORTUGALIZA = {
 		# 840792
-		region_state:HIS = {
+		region_state:GLZ = {
 			create_pop = {
 				culture = galician
 				size = 828528
@@ -206,7 +206,7 @@
 	}
 	s:STATE_ASTURIAS = {
 		# please don't ask for a source
-		region_state:HIS = {
+		region_state:GLZ = {
 			create_pop = {
 				culture = hispanian
 				size = 614264
@@ -218,7 +218,7 @@
 		}	
 	}
 	s:STATE_CASTILE = {
-		region_state:HIS = {
+		region_state:GLZ = {
 			create_pop = {
 				culture = hispanian
 				size = 1430808
@@ -229,8 +229,8 @@
 			}
 		}
 	}
-	s:STATE_NAVARRA = {
-		region_state:HIS = {
+	s:STATE_BASQUE_COUNTRY = {
+		region_state:GLZ = {
 			create_pop = {
 				culture = hispanian
 				size = 219200
@@ -260,7 +260,7 @@
 		}
 	}
 	s:STATE_ARAGON = {
-		region_state:HIS = {
+		region_state:AQT = {
 			create_pop = {
 				culture = hispanian
 				size = 401200
@@ -276,16 +276,16 @@
 		}
 	}
 	s:STATE_CATALONIA = {
-		region_state:HIS = {
-			create_pop = {
-				culture = catalan
-				size = 404308
-			}
-			create_pop = {
-				culture = hispanian
-				size = 86804
-			}
-		}
+#		region_state:AQT = { #Go back through and reincorporate this when it's figured out what's happening with catalunya and aragon
+#			create_pop = {
+#				culture = catalan
+#				size = 404308
+#			}
+#			create_pop = {
+#				culture = hispanian
+#				size = 86804
+#			}
+#		}
 		region_state:AQT = {
 			create_pop = {
 				culture = catalan
@@ -298,7 +298,7 @@
 		}
 	}
 	s:STATE_BALEARES = {
-		region_state:HIS = {
+		region_state:MAU = {
 			create_pop = {
 				culture = catalan
 				size = 145244
@@ -310,7 +310,7 @@
 		}
 	}
 	s:STATE_ANDALUSIA = {
-		region_state:HIS = {
+		region_state:MAU = {
 			create_pop = {
 				culture = hispanian
 				size = 1057592
@@ -318,7 +318,7 @@
 		}
 	}
 	s:STATE_GRANADA = {
-		region_state:HIS = {
+		region_state:MAU = {
 			create_pop = {
 				culture = hispanian
 				size = 1267428
@@ -330,7 +330,7 @@
 		}
 	}
 	s:STATE_BADAJOZ = {
-		region_state:HIS = {
+		region_state:MAU = {
 			create_pop = {
 				culture = hispanian
 				size = 579992
@@ -338,7 +338,7 @@
 		}
 	}
 	s:STATE_VALENCIA = {
-		region_state:HIS = {
+		region_state:MAU = {
 			create_pop = {
 				culture = hispanian
 				size = 989604
@@ -349,7 +349,7 @@
 			}
 		}
 	}
-	s:STATE_BEIRA = {
+	s:STATE_LEON = {
 		region_state:GLZ = {
 			create_pop = {
 				culture = portuguese
@@ -366,7 +366,7 @@
 		}
 	}
 	s:STATE_ALENTEJO = {
-		region_state:GLZ = {
+		region_state:MAU = {
 			create_pop = {
 				culture = portuguese
 				size = 372508
@@ -374,7 +374,7 @@
 		}
 	}
 	s:STATE_CAPE_VERDE = {
-		region_state:GLZ = {
+		region_state:MAU = {
 			create_pop = {
 				culture = portuguese
 				size = 103532
@@ -387,7 +387,7 @@
 	}
 
 	s:STATE_MADEIRA = {
-		region_state:GLZ = {
+		region_state:MAU = {
 			create_pop = {
 				culture = portuguese
 				size = 103532
@@ -399,7 +399,7 @@
 		}
 
 	s:STATE_CANARY_ISLANDS = {
-		region_state:HIS = {
+		region_state:MAU = {
 			create_pop = {
 				culture = hispanian
 				size = 208004

@@ -557,10 +557,10 @@ iberian_treaty_ports = {
 		owns_treaty_port_in = STATE_ANDALUSIA
 		owns_treaty_port_in = STATE_VALENCIA
 		owns_treaty_port_in = STATE_CATALONIA
-		owns_treaty_port_in = STATE_NAVARRA
-		owns_treaty_port_in = STATE_GALICIA
+		owns_treaty_port_in = STATE_BASQUE_COUNTRY
+		owns_treaty_port_in = STATE_PORTUGALIZA
 		owns_treaty_port_in = STATE_BALEARES
-		owns_treaty_port_in = STATE_BEIRA
+		#owns_treaty_port_in = STATE_LEON #As of 25.4.23 this state is no longer coastal, it used to be Beira
 		owns_treaty_port_in = STATE_ESTREMADURA
 		owns_treaty_port_in = STATE_ALENTEJO
 	}

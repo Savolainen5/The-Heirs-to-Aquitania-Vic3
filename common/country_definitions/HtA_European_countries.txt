@@ -111,7 +111,7 @@ GLZ = { #Galiza
 	
 	tier = kingdom
 	cultures = { hispanian galician }
-	capital = STATE_GALICIA
+	capital = STATE_PORTUGALIZA
 }
 HAN = {
 	color = { 164  217  127 }

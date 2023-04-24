@@ -232,7 +232,7 @@ NAV = {
 	tier = kingdom
 	
 	cultures = { basque }
-	capital = STATE_NAVARRA
+	capital = STATE_BASQUE_COUNTRY
 	is_named_from_capital = yes
 }
 
@@ -2843,7 +2843,7 @@ GLI = {
 	tier = principality
 	
 	cultures = { galician }
-	capital = STATE_GALICIA
+	capital = STATE_PORTUGALIZA
 }
 
 PAL = {

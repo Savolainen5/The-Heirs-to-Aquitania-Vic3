@@ -43,7 +43,7 @@
 	s:STATE_ANDALUSIA = {
 		create_state = {
 			country = c:MAU
-			owned_provinces = { x4E5464 xB1108A x911497 x801020 x53634F x4A1438 x3C4E5B x58E3EB x809020 x2B6ABC xD06000 x59202C }
+			owned_provinces = { x4E5464 xB1108A x911497 x801020 x53634F x4A1438 x3C4E5B x809020 xD06000 x59202C }
 		}
 		
 		add_homeland = hispanian
@@ -238,7 +238,7 @@
 		
 		add_homeland = romanian
 	}
-	s:STATE_GALICIA = {
+	s:STATE_PORTUGALIZA = {
 		create_state = {
 			country = c:GLZ
 			owned_provinces = { x641376 x583E92 xD03554 xA64B2E x167F12 xB85939 x0EA604 xD0A000 x50E040 x0EF845 x33F984 xD0E040 xD0E0C0 }
@@ -250,7 +250,7 @@
 	s:STATE_ASTURIAS = {
 		create_state = {
 			country = c:GLZ
-			owned_provinces = { x0F84B8 x3E77F9 x5060C0 x525202 xA1037C xBF2564 xF0A000 }
+			owned_provinces = { xD30171 x0543B8 xBF2564 x525202 x5060C0 x0F84B8 x3E77F9 xF0A000 xB1C098 x70F50D }
 		}
 		
 		add_homeland = hispanian
@@ -258,7 +258,7 @@
 	s:STATE_CASTILE = {
 		create_state = {
 			country = c:GLZ
-			owned_provinces = { xD060C0 xD30171 x38C557 x70F50D x906201 xB1C098 x70A000 x5DB702 x24A9D6 x4D18FC x50E0C0 x10C4E5 x0543B8 xF02000 xDC8B19 xD7A4DE xF44AAA xCA2220 xB3BC6E xB02000 x0D5242 x2C00C8 x3A3528 x590C75 x702000 x22193A xC3ED38 }
+			owned_provinces = { x302080 x3A3528 xB5194A xCA2220 xF02000 xF841E6 xF44AAA x70A000 xDC8B19 x3CBF9E xD7A4DE }
 		}
 		
 		add_homeland = hispanian
@@ -266,19 +266,19 @@
 	s:STATE_ARAGON = {
 		create_state = {
 			country = c:AQT
-			owned_provinces = { x506040 x202982 x9060C0 x339B06 x2555A4 x076DE0 x30A080 x5FB607 x3CBF9E x45B331 xA603C7 }
+			owned_provinces = { x506040 x202982 x9060C0 x339B06 x2555A4 x076DE0 x30A080 x5FB607 x45B331 xA603C7 }
 		}
 		
 		add_homeland = hispanian
 	}
-	s:STATE_NAVARRA = {
+	s:STATE_BASQUE_COUNTRY = {
 		create_state = {
 			country = c:GLZ
-			owned_provinces = { xAC1425 x9EC9B8 xCB3245 }
+			owned_provinces = { xA1037C xAC1425 xCB3245 x5DB702 x9EC9B8  }
 		}
 		create_state = {
 			country = c:AQT
-			owned_provinces = { x702080 x10E0C0 xABE0B3 x48868C }
+			owned_provinces = { x702080 x48868C x10E0C0 xABE0B3 }
 		}
 		
 		add_homeland = hispanian
@@ -581,10 +581,10 @@
 		}
 		add_homeland = north_german
 	}
-	s:STATE_BEIRA = {
+	s:STATE_LEON = {
 		create_state = {
 			country = c:GLZ
-			owned_provinces = { x37ADD8 x9238AD xE415AF x3020A3 xF92B7F xE24C15 }
+			owned_provinces = { x2C00C8 x22193A x590C75 x7500D4 x702000 x4D18FC xB02000 x0D5242 x2B550F x906201 x4A8E78 xD060C0 x24A9D6 x37ADD8 x10C4E5 x38C557 x41C3FC xCAA3E1 xB3BC6E x50E0C0 xC3ED38 }
 		}
 		
 		add_homeland = portuguese
@@ -593,7 +593,7 @@
 	s:STATE_ESTREMADURA = {
 		create_state = {
 			country = c:GLZ
-			owned_provinces = { xD0A080 xA0F6EC x50A000 xD02000 x545164 }
+			owned_provinces = { x3020A3 xD02000 xE415AF x9238AD xF92B7F xE24C15 x50A000 xD0A080 xA0F6EC }
 		}
 		
 		add_homeland = portuguese
@@ -602,7 +602,7 @@
 	s:STATE_ALENTEJO = {
 		create_state = {
 			country = c:MAU
-			owned_provinces = { xEBA935 x84A822 xEFC9BC xB0177A xC3BFC4 xA07080 x8B17E3 x88DCE1 x207080 }
+			owned_provinces = { x8B17E3 xB0177A x545164 x207080 x009020 xA07080 x679A01 x84A822 xEBA935 xC3BFC4 x88DCE1 xEFC9BC }
 		}
 		
 		add_homeland = portuguese
@@ -667,14 +667,14 @@
 	s:STATE_BADAJOZ = {
 		create_state = {
 			country = c:MAU
-			owned_provinces = { xB4471A x679A01 x009020 x97FBA4 x342BE6 x506000 xC694C3 xF19B02 x7500D4 x30A000 x4A8E78 xE47DCF }
+			owned_provinces = { x8010A0 x342BE6 x506000 xB4471A x2B6ABC x30A000 xE47DCF xB0A000 xC694C3 xF19B02 x58E3EB x97FBA4 }
 		}
 		add_homeland = hispanian
 	}
 	s:STATE_VALENCIA = {
 		create_state = {
 			country = c:MAU
-			owned_provinces = { x721583 xCAC27C x99E5CE x8FDF80 xD06040 xDFEF80 x25DD5C xB03776 x71158B x626878 xE0BED4 x6549AD xA03040 x134657 }
+			owned_provinces = { x721583 xCAC27C x99E5CE x8FDF80 xD06040 xDFEF80 x25DD5C xB03776 x71158B x626878 xE0BED4 xA03040 x134657 }
 		}
 		add_homeland = catalan
 		add_homeland = hispanian
@@ -682,7 +682,7 @@
 	s:STATE_TOLEDO = {
 		create_state = {
 			country = c:MAU
-			owned_provinces = { x302080 x2B550F xB0A080 xB5194A xF841E6 xB0A000 xF693FD x92DDDA x89CA9E xCAA3E1 xDCD24C x41C3FC x73D6A9 x093A56 xB02080 xF44640 x88CEE5 x8010A0 xA1BEC2 }
+			owned_provinces = { x093A56 xB02080 x6549AD xF44640 xB0A080 xF693FD xA1BEC2 x89CA9E x73D6A9 x88CEE5 xDCD24C x92DDDA  }
 		}
 		add_homeland = hispanian
 	}

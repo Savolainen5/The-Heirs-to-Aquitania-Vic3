@@ -139,7 +139,7 @@ SCN = {
 }
 
 NAV = {
-	states = { STATE_NAVARRA }
+	states = { STATE_BASQUE_COUNTRY }
 	
 	ai_will_do = { always = no }
 }
@@ -939,7 +939,7 @@ KUR = {
 
 GLI = {
 	states = {
-		STATE_GALICIA
+		STATE_PORTUGALIZA
 	}
 
 	ai_will_do = { always = no }
