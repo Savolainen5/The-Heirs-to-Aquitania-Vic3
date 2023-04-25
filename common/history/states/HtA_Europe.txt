@@ -255,7 +255,7 @@
 		
 		add_homeland = hispanian
 	}
-	s:STATE_CASTILE = {
+	s:STATE_ENTROS_RIOS = {
 		create_state = {
 			country = c:GLZ
 			owned_provinces = { x302080 x3A3528 xB5194A xCA2220 xF02000 xF841E6 xF44AAA x70A000 xDC8B19 x3CBF9E xD7A4DE }
@@ -590,7 +590,7 @@
 		add_homeland = portuguese
 		#add_claim = c:HIS
 	}
-	s:STATE_ESTREMADURA = {
+	s:STATE_BEIRA = {
 		create_state = {
 			country = c:GLZ
 			owned_provinces = { x3020A3 xD02000 xE415AF x9238AD xF92B7F xE24C15 x50A000 xD0A080 xA0F6EC }

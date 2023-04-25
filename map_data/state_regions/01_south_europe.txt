@@ -376,7 +376,7 @@ STATE_ASTURIAS = {
     naval_exit_id = 3029
 }
 
-STATE_CASTILE = {
+STATE_ENTROS_RIOS = {
     id = 95
     subsistence_building = "building_subsistence_farms"
     provinces = { "x302080" "x3A3528" "xB5194A" "xCA2220" "xF02000" "xF841E6" "xF44AAA" "x70A000" "xDC8B19" "x3CBF9E" "xD7A4DE" }
@@ -560,7 +560,7 @@ STATE_LEON = {
     naval_exit_id = 3029
 }
 
-STATE_ESTREMADURA = {
+STATE_BEIRA = {
     id = 105
     subsistence_building = "building_subsistence_farms"
     provinces = { "x3020A3" "xD02000" "xE415AF" "x9238AD" "xF92B7F" "xE24C15" "x50A000" "xD0A080" "xA0F6EC" }

@@ -217,7 +217,7 @@
 			}
 		}	
 	}
-	s:STATE_CASTILE = {
+	s:STATE_ENTROS_RIOS = {
 		region_state:GLZ = {
 			create_pop = {
 				culture = hispanian
@@ -357,7 +357,7 @@
 			}
 		}
 	}
-	s:STATE_ESTREMADURA = {
+	s:STATE_BEIRA = {
 		region_state:GLZ = {
 			create_pop = {
 				culture = portuguese

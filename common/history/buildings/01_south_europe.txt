@@ -837,7 +837,7 @@
 			}
 		}
 	}
-	s:STATE_CASTILE={
+	s:STATE_ENTROS_RIOS={
 		region_state:GLZ={
 			create_building={
 				building="building_wheat_farm"
@@ -1288,7 +1288,7 @@
 			}
 		}
 	}
-	s:STATE_ESTREMADURA={
+	s:STATE_BEIRA={
 		region_state:GLZ={
 			create_building={
 				building="building_government_administration"

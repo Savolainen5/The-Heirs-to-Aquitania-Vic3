@@ -117,8 +117,9 @@
 
  #Galiza
  STATE_PORTUGALIZA: "Portugaliza"
- STATE_LEON: "León"
- STATE_BASQUE_COUNTRY: "Euskal Herria" #Could also be Basque Country
+ STATE_LEON: "Leão"
+ STATE_BASQUE_COUNTRY: "Navarra" #Could also be Basque Country / Euskal Herria, Nafarroa, etc.
+ STATE_ENTROS_RIOS: "Entros Rios"
 
  #Roman Empire
  STATE_EPIRUS: "Epirus" #Or maybe Nicopolis would be better?

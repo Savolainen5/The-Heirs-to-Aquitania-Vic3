@@ -565,7 +565,7 @@ ANL = {
 CAS = {
 	states = { 
 		STATE_ASTURIAS
-		STATE_CASTILE
+		STATE_ENTROS_RIOS
 		STATE_TOLEDO
 	}
 	
