@@ -394,7 +394,7 @@
 			}
 		}
 	}
-	s:STATE_PROVENCE = {
+	s:STATE_PROUVENCA = {
 		region_state:AQT = {
 			create_pop = {
 				culture = aquitanian
@@ -410,7 +410,7 @@
 			}
 		}
 	}
-	s:STATE_LANGUEDOC = {
+	s:STATE_LES = {
 		region_state:AQT = {
 			create_pop = {
 				culture = aquitanian
@@ -495,7 +495,7 @@
 			}
 		}
 	}
-	s:STATE_ARMAGNAC = {
+	s:STATE_MIEGJORN = {
 		region_state:AQT = {
 			create_pop = {
 				culture = aquitanian
@@ -503,7 +503,7 @@
 			}
 		}
 	}
-	s:STATE_LIMOUSIN = {
+	s:STATE_LEMOTGES = {
 		region_state:AQT = {
 			create_pop = {
 				culture = french
@@ -563,7 +563,7 @@
 			}
 		}
 	}
-	s:STATE_AUVERGNE = {
+	s:STATE_AUVERNHA = {
 		region_state:AQT = {
 			create_pop = {
 				culture = aquitanian
@@ -571,7 +571,7 @@
 			}
 		}
 	}
-	s:STATE_AQUITAINE = {
+	s:STATE_GARONA = {
 		region_state:AQT = {
 			create_pop = {
 				culture = aquitanian

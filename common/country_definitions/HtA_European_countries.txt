@@ -22,7 +22,7 @@ AQT = { #Aquitania
 	tier = kingdom
 	
 	cultures = { aquitanian }
-	capital = STATE_LANGUEDOC
+	capital = STATE_LES
 }
 ARM = { #Armenia
 	color = { 133  244  244 }
@@ -142,7 +142,7 @@ HIS = {
 	tier = empire
 	
 	cultures = { hispanian }
-	capital = STATE_TOLEDO
+	capital = STATE_GUADALAJARA
 }
 IRE = {
 	#color = { 112  150  105 }

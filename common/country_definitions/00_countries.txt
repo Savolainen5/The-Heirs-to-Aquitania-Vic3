@@ -1923,7 +1923,7 @@ IBE = {
 	tier = empire
 	
 	cultures = { hispanian catalan portuguese basque galician }
-	capital = STATE_TOLEDO
+	capital = STATE_GUADALAJARA
 }
 
 COM = {
@@ -2091,7 +2091,7 @@ ANL = {
 	tier = principality
 	
 	cultures = { hispanian }
-	capital = STATE_ANDALUSIA
+	capital = STATE_BETICA
 	is_named_from_capital = yes
 }
 
@@ -2103,7 +2103,7 @@ CAS = {
 	tier = kingdom
 	
 	cultures = { hispanian }
-	capital = STATE_TOLEDO
+	capital = STATE_GUADALAJARA
 	is_named_from_capital = yes
 }
 

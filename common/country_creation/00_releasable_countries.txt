@@ -555,8 +555,8 @@ AIN = {
 
 ANL = {
 	states = { 
-		STATE_ANDALUSIA
-		STATE_BADAJOZ
+		STATE_BETICA
+		STATE_TOLEDO_LA_MANCHA
 		STATE_GRANADA
 	}
 	ai_will_do = { always = no }
@@ -566,7 +566,7 @@ CAS = {
 	states = { 
 		STATE_ASTURIAS
 		STATE_ENTROS_RIOS
-		STATE_TOLEDO
+		STATE_GUADALAJARA
 	}
 	
 	ai_will_do = { always = no }

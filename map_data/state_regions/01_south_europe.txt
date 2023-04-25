@@ -322,7 +322,7 @@ STATE_SICILY = {
     naval_exit_id = 3033
 }
 
-STATE_TOLEDO = {
+STATE_GUADALAJARA = {
     id = 93
     subsistence_building = "building_subsistence_farms"
     provinces = { "x093A56" "xB02080" "x6549AD" "xF44640" "xB0A080" "xF693FD" "xA1BEC2" "x89CA9E" "x73D6A9" "x88CEE5" "xDCD24C" "x92DDDA" }
@@ -396,7 +396,7 @@ STATE_ENTROS_RIOS = {
 STATE_BASQUE_COUNTRY = {
     id = 96
     subsistence_building = "building_subsistence_farms"
-    provinces = { "xA1037C" "xAC1425" "x702080" "xCB3245" "x48868C" "x5DB702" "x10E0C0" "x9EC9B8" "xABE0B3" }
+    provinces = { "xA1037C" "xAC1425" "x702080" "xCB3245" "x48868C" "x5DB702" "x10E0C0" "x9EC9B8" "xABE0B3" "x6E16BB" "x073FC4" }
     traits = { "state_trait_pyrenees_mountains" }
     city = "xA1037C"
     port = "x48868C"
@@ -409,7 +409,7 @@ STATE_BASQUE_COUNTRY = {
         bg_coal_mining = 60
         bg_iron_mining = 60
         bg_logging = 11
-        bg_fishing = 6
+        bg_fishing = 7
     }
     naval_exit_id = 3029
 }
@@ -467,7 +467,7 @@ STATE_BALEARES = {
     naval_exit_id = 3032
 }
 
-STATE_ANDALUSIA = {
+STATE_BETICA = {
     id = 100
     subsistence_building = "building_subsistence_farms"
     provinces = { "x3C4E5B" "x4A1438" "x4E5464" "x53634F" "x59202C" "x801020" "x809020" "x911497" "xB1108A" "xD06000" }
@@ -505,7 +505,7 @@ STATE_GRANADA = {
     naval_exit_id = 3031
 }
 
-STATE_BADAJOZ = {
+STATE_TOLEDO_LA_MANCHA = {
     id = 102
     subsistence_building = "building_subsistence_farms"
     provinces = { "x8010A0" "x342BE6" "x506000" "xB4471A" "x2B6ABC" "x30A000" "xE47DCF" "xB0A000" "xC694C3" "xF19B02" "x58E3EB" "x97FBA4"  }
@@ -520,7 +520,7 @@ STATE_BADAJOZ = {
     }
 }
 
-STATE_VALENCIA = {
+STATE_LEVANTE = {
     id = 103
     subsistence_building = "building_subsistence_farms"
     provinces = { "x134657" "x25DD5C" "x626878" "x71158B" "x721583" "x8FDF80" "x99E5CE" "xA03040" "xB03776" "xCAC27C" "xD06040" "xDFEF80" "xE0BED4" }
@@ -578,7 +578,7 @@ STATE_BEIRA = {
     naval_exit_id = 3029
 }
 
-STATE_ALENTEJO = {
+STATE_CINETICO = {
     id = 106
     subsistence_building = "building_subsistence_farms"
     provinces = { "x8B17E3" "xB0177A" "x545164" "x207080" "x009020" "xA07080" "x679A01" "x84A822" "xEBA935" "xC3BFC4" "x88DCE1" "xEFC9BC" }

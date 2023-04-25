@@ -24,7 +24,7 @@
 		
 		add_homeland = aenglish
 	}
-	s:STATE_PROVENCE = {
+	s:STATE_PROUVENCA = {
 		create_state = {
 			country = c:AQT
 			owned_provinces = { x31C0DF x1727F7 xC03918 xB0C0E0 xB8E48D xBBB6AD x6D5E3F xB040E0 x3040E0 xCB9C34 xB0C060 x5080E0 }
@@ -40,7 +40,7 @@
 		
 		add_homeland = french
 	}
-	s:STATE_ANDALUSIA = {
+	s:STATE_BETICA = {
 		create_state = {
 			country = c:MAU
 			owned_provinces = { x4E5464 xB1108A x911497 x801020 x53634F x4A1438 x3C4E5B x809020 xD06000 x59202C }
@@ -274,11 +274,11 @@
 	s:STATE_BASQUE_COUNTRY = {
 		create_state = {
 			country = c:GLZ
-			owned_provinces = { xA1037C xAC1425 xCB3245 x5DB702 x9EC9B8  }
+			owned_provinces = { xA1037C xAC1425 xCB3245 x5DB702 x9EC9B8 }
 		}
 		create_state = {
 			country = c:AQT
-			owned_provinces = { x702080 x48868C x10E0C0 xABE0B3 }
+			owned_provinces = { x702080 x48868C x10E0C0 xABE0B3 x6E16BB x073FC4 }
 		}
 		
 		add_homeland = hispanian
@@ -440,7 +440,7 @@
 		
 		add_homeland = eirean
 	}
-	s:STATE_LANGUEDOC = {
+	s:STATE_LES = {
 		create_state = {
 			country = c:AQT
 			owned_provinces = { x906080 x106080 x7BCDC4 xCF9FBF x1060C0 }
@@ -490,7 +490,7 @@
 		
 		add_homeland = french
 	}
-	s:STATE_ARMAGNAC = {
+	s:STATE_MIEGJORN = {
 		create_state = {
 			country = c:AQT
 			owned_provinces = { x306080 xD957E6 xECF077 x5615DD x7C1D57 x106040 xB0E000 xA2BBE9 }
@@ -498,7 +498,7 @@
 		
 		add_homeland = aquitanian
 	}
-	s:STATE_LIMOUSIN = {
+	s:STATE_LEMOTGES = {
 		create_state = {
 			country = c:AQT
 			owned_provinces = { xB06000 xC8CD2F xDF5770 x368F00 x306000 x01FD5F x50A0C0 x61609A x9401C7 x5020C0 }
@@ -538,7 +538,7 @@
 		
 		add_homeland = french
 	}
-	s:STATE_AUVERGNE = {
+	s:STATE_AUVERNHA = {
 		create_state = {
 			country = c:AQT
 			owned_provinces = { xA27EFD x70C060 xABE045 xAF89BC xF0C060 xBED0F4 x061121 xF3D359 x30E000 }
@@ -546,10 +546,10 @@
 		
 		add_homeland = aquitanian
 	}
-	s:STATE_AQUITAINE = {
+	s:STATE_GARONA = {
 		create_state = {
 			country = c:AQT
-			owned_provinces = { x76BA85 xF0A080 xBBF036 xA220D0 x606DEC x70A080 x086618 x5F7F2D x3784B2 x6E16BB xCD8E77 xF02080 x073FC4 }
+			owned_provinces = { x76BA85 xF0A080 xBBF036 xA220D0 x606DEC x70A080 x086618 x5F7F2D x3784B2 xCD8E77 xF02080 }
 		}
 		
 		add_homeland = aquitanian
@@ -599,7 +599,7 @@
 		add_homeland = portuguese
 		#add_claim = c:HIS
 	}
-	s:STATE_ALENTEJO = {
+	s:STATE_CINETICO = {
 		create_state = {
 			country = c:MAU
 			owned_provinces = { x8B17E3 xB0177A x545164 x207080 x009020 xA07080 x679A01 x84A822 xEBA935 xC3BFC4 x88DCE1 xEFC9BC }
@@ -664,14 +664,14 @@
 		
 		add_homeland = hispanian
 	}
-	s:STATE_BADAJOZ = {
+	s:STATE_TOLEDO_LA_MANCHA = {
 		create_state = {
 			country = c:MAU
 			owned_provinces = { x8010A0 x342BE6 x506000 xB4471A x2B6ABC x30A000 xE47DCF xB0A000 xC694C3 xF19B02 x58E3EB x97FBA4 }
 		}
 		add_homeland = hispanian
 	}
-	s:STATE_VALENCIA = {
+	s:STATE_LEVANTE = {
 		create_state = {
 			country = c:MAU
 			owned_provinces = { x721583 xCAC27C x99E5CE x8FDF80 xD06040 xDFEF80 x25DD5C xB03776 x71158B x626878 xE0BED4 xA03040 x134657 }
@@ -679,7 +679,7 @@
 		add_homeland = catalan
 		add_homeland = hispanian
 	}
-	s:STATE_TOLEDO = {
+	s:STATE_GUADALAJARA = {
 		create_state = {
 			country = c:MAU
 			owned_provinces = { x093A56 xB02080 x6549AD xF44640 xB0A080 xF693FD xA1BEC2 x89CA9E x73D6A9 x88CEE5 xDCD24C x92DDDA  }

@@ -597,7 +597,7 @@ STATE_ILE_DE_FRANCE = {
     }
 }
 
-STATE_PROVENCE = {
+STATE_PROUVENCA = {
     id = 29
     subsistence_building = "building_subsistence_farms"
     provinces = { "x1727F7" "x3040E0" "x31C0DF" "x5080E0" "x6D5E3F" "xB040E0" "xB0C060" "xB0C0E0" "xB8E48D" "xBBB6AD" "xC03918" "xCB9C34" }
@@ -637,7 +637,7 @@ STATE_NORMANDY = {
     naval_exit_id = 3028
 }
 
-STATE_LANGUEDOC = {
+STATE_LES = {
     id = 31
     subsistence_building = "building_subsistence_farms"
     provinces = { "x106080" "x1060C0" "x7BCDC4" "x906080" "xCF9FBF" }
@@ -750,7 +750,7 @@ STATE_POITOU = {
     naval_exit_id = 3029
 }
 
-STATE_ARMAGNAC = {
+STATE_MIEGJORN = {
     id = 37
     subsistence_building = "building_subsistence_farms"
     provinces = { "x106040" "x306080" "x5615DD" "x7C1D57" "xA2BBE9" "xB0E000" "xD957E6" "xECF077" }
@@ -765,7 +765,7 @@ STATE_ARMAGNAC = {
     }
 }
 
-STATE_LIMOUSIN = {
+STATE_LEMOTGES = {
     id = 38
     subsistence_building = "building_subsistence_farms"
     provinces = { "x01FD5F" "x306000" "x368F00" "x5020C0" "x50A0C0" "x61609A" "x9401C7" "xB06000" "xC8CD2F" "xD0A040" "xDF5770" }
@@ -851,7 +851,7 @@ STATE_FRANCHE_COMTE = {
     }
 }
 
-STATE_AUVERGNE = {
+STATE_AUVERNHA = {
     id = 43
     subsistence_building = "building_subsistence_farms"
     provinces = { "x061121" "x07BCC1" "x30E000" "x70C060" "xA27EFD" "xABE045" "xAF89BC" "xBED0F4" "xF080E0" "xF0C060" "xF3D359" }
@@ -868,10 +868,10 @@ STATE_AUVERGNE = {
     }
 }
 
-STATE_AQUITAINE = {
+STATE_GARONA = {
     id = 44
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x073FC4" "x086618" "x3784B2" "x5F7F2D" "x606DEC" "x6E16BB" "x70A080" "x76BA85" "xA220D0" "xBBF036" "xCD8E77" "xF02080" "xF0A080" }
+    provinces = { "x086618" "x3784B2" "x5F7F2D" "x606DEC" "x70A080" "x76BA85" "xA220D0" "xBBF036" "xCD8E77" "xF02080" "xF0A080" }
     city = "xBBF036"
     port = "x6E16BB"
     farm = "x70A080"

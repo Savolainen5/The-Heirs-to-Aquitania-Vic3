@@ -115,11 +115,25 @@
  STATE_CHONNACHT: "Chonnacht"
  STATE_MHUMHAIN: "Mhumhain"
 
- #Galiza
+ #Aquitània
+ STATE_GARONA: "Garona"
+ STATE_MIEGJORN: "Miègjorn"
+ STATE_LEMOTGES: "Lemòtges"
+ STATE_AUVERNHA: "Auvernha"
+ STATE_LES: "Les"
+ STATE_PROUVENCA: "Prouvença"
+
+ #Iberia
  STATE_PORTUGALIZA: "Portugaliza"
  STATE_LEON: "Leão"
  STATE_BASQUE_COUNTRY: "Navarra" #Could also be Basque Country / Euskal Herria, Nafarroa, etc.
  STATE_ENTROS_RIOS: "Entros Rios"
+ STATE_LEVANTE: "Levante"
+ STATE_GUADALAJARA: "Guadalajara"
+ STATE_TOLEDO_LA_MANCHA: "Toledo-La Mancha"
+ STATE_GRANADA: "Granada"
+ STATE_BETICA: "Bética"
+ STATE_CINETICO: "Cinético"
 
  #Roman Empire
  STATE_EPIRUS: "Epirus" #Or maybe Nicopolis would be better?

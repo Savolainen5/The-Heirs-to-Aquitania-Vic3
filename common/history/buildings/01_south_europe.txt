@@ -745,7 +745,7 @@
 			}
 		}
 	}
-	s:STATE_TOLEDO={
+	s:STATE_GUADALAJARA={
 		region_state:MAU={
 			create_building={
 				building="building_government_administration"
@@ -1082,7 +1082,7 @@
 			}
 		}
 	}
-	s:STATE_ANDALUSIA={
+	s:STATE_BETICA={
 		region_state:MAU={
 			create_building={
 				building="building_government_administration"
@@ -1180,7 +1180,7 @@
 			}
 		}
 	}
-	s:STATE_BADAJOZ={
+	s:STATE_TOLEDO_LA_MANCHA={
 		region_state:MAU={
 			create_building={
 				building="building_livestock_ranch"
@@ -1196,7 +1196,7 @@
 			}
 		}
 	}
-	s:STATE_VALENCIA={
+	s:STATE_LEVANTE={
 		region_state:MAU={
 			create_building={
 				building="building_textile_mills"
@@ -1352,7 +1352,7 @@
 			}
 		}
 	}
-	s:STATE_ALENTEJO={
+	s:STATE_CINETICO={
 		region_state:MAU={
 			create_building={
 				building="building_livestock_ranch"

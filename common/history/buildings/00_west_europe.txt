@@ -1303,7 +1303,7 @@
 			}
 		}
 	}
-	s:STATE_PROVENCE={
+	s:STATE_PROUVENCA={
 		region_state:AQT={
 			create_building={
 				building="building_textile_mills"
@@ -1407,7 +1407,7 @@
 			}
 		}
 	}
-	s:STATE_LANGUEDOC={
+	s:STATE_LES={
 		region_state:AQT={
 			create_building={
 				building="building_university"
@@ -1677,7 +1677,7 @@
 			}
 		}
 	}
-	s:STATE_ARMAGNAC={
+	s:STATE_MIEGJORN={
 		region_state:AQT={
 			create_building={
 				building="building_textile_mills"
@@ -1705,7 +1705,7 @@
 			}
 		}
 	}
-	s:STATE_LIMOUSIN={
+	s:STATE_LEMOTGES={
 		region_state:AQT={
 			create_building={
 				building="building_textile_mills"
@@ -1913,7 +1913,7 @@
 			}
 		}
 	}
-	s:STATE_AUVERGNE={
+	s:STATE_AUVERNHA={
 		region_state:AQT={
 			create_building={
 				building="building_tooling_workshops"
@@ -1953,7 +1953,7 @@
 			}
 		}
 	}
-	s:STATE_AQUITAINE={
+	s:STATE_GARONA={
 		region_state:AQT={
 			create_building={
 				building="building_government_administration"

@@ -429,3 +429,39 @@
  HUB_NAME_STATE_MHUMHAIN_mine: "Cill Airne"
  HUB_NAME_STATE_MHUMHAIN_farm: "Mala"
  HUB_NAME_STATE_MHUMHAIN_wood: "Aonach Urmhumhan"
+
+ #Aquitània
+
+ HUB_NAME_STATE_GARONA_city: "Bordèu"
+ HUB_NAME_STATE_GARONA_farm: "Marçan"
+ HUB_NAME_STATE_GARONA_mine: "Lorda"
+ HUB_NAME_STATE_GARONA_port: "Miarritze"
+ #HUB_NAME_STATE_GARONA_wood: "Gasconha wood"
+ 
+ HUB_NAME_STATE_LES_city: "Mauguio"
+ HUB_NAME_STATE_LES_farm: "Narbona"
+ HUB_NAME_STATE_LES_mine: "Alés"
+ HUB_NAME_STATE_LES_port: "Seta"
+ HUB_NAME_STATE_LES_wood: "Carcassona"
+
+ HUB_NAME_STATE_MIEGJORN_city: "Tolosa"
+ HUB_NAME_STATE_MIEGJORN_farm: "Montalban"
+ HUB_NAME_STATE_MIEGJORN_mine: "Fois"
+ HUB_NAME_STATE_MIEGJORN_wood: "Albi"
+
+ HUB_NAME_STATE_AUVERNHA_city: "Clarmont"
+ HUB_NAME_STATE_AUVERNHA_farm: "Caors"
+ HUB_NAME_STATE_AUVERNHA_mine: "Lo Puèi"
+ HUB_NAME_STATE_AUVERNHA_wood: "Orlhac"
+
+ HUB_NAME_STATE_LEMOTGES_city: "Lemòtges"
+ HUB_NAME_STATE_LEMOTGES_farm: "Peireguers"
+ HUB_NAME_STATE_LEMOTGES_mine: "Briva"
+ HUB_NAME_STATE_LEMOTGES_wood: "Engoleime"
+
+ HUB_NAME_STATE_PROUVENCA_city: "Marselha"
+ HUB_NAME_STATE_PROUVENCA_farm: "Avinhon"
+ HUB_NAME_STATE_PROUVENCA_mine: "Digno"
+ HUB_NAME_STATE_PROUVENCA_port: "Touloun"
+ HUB_NAME_STATE_PROUVENCA_wood: "Niça"
+ 

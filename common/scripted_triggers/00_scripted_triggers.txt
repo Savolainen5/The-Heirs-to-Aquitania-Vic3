@@ -496,9 +496,9 @@ french_treaty_ports = {
 		owns_treaty_port_in = STATE_BRITTANY
 		owns_treaty_port_in = STATE_LOIRE
 		owns_treaty_port_in = STATE_POITOU
-		#owns_treaty_port_in = STATE_AQUITAINE
-		#owns_treaty_port_in = STATE_PROVENCE
-		#owns_treaty_port_in = STATE_LANGUEDOC
+		#owns_treaty_port_in = STATE_GARONA
+		#owns_treaty_port_in = STATE_PROUVENCA
+		#owns_treaty_port_in = STATE_LES
 	}
 }
 
@@ -554,15 +554,15 @@ italian_treaty_ports = {
 iberian_treaty_ports = {
 	OR = {
 		owns_treaty_port_in = STATE_GRANADA
-		owns_treaty_port_in = STATE_ANDALUSIA
-		owns_treaty_port_in = STATE_VALENCIA
+		owns_treaty_port_in = STATE_BETICA
+		owns_treaty_port_in = STATE_LEVANTE
 		owns_treaty_port_in = STATE_CATALONIA
 		owns_treaty_port_in = STATE_BASQUE_COUNTRY
 		owns_treaty_port_in = STATE_PORTUGALIZA
 		owns_treaty_port_in = STATE_BALEARES
 		#owns_treaty_port_in = STATE_LEON #As of 25.4.23 this state is no longer coastal, it used to be Beira
 		owns_treaty_port_in = STATE_BEIRA
-		owns_treaty_port_in = STATE_ALENTEJO
+		owns_treaty_port_in = STATE_CINETICO
 	}
 }
 

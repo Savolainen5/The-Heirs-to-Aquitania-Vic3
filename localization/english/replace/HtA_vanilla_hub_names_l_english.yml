@@ -1,32 +1,5 @@
 ﻿l_english:
  
- #Aquitània
- HUB_NAME_STATE_LANGUEDOC_city: "Mauguio"
- HUB_NAME_STATE_LANGUEDOC_farm: "Narbona"
- HUB_NAME_STATE_LANGUEDOC_mine: "Alés"
- HUB_NAME_STATE_LANGUEDOC_port: "Seta"
- HUB_NAME_STATE_LANGUEDOC_wood: "Carcassona"
-
- HUB_NAME_STATE_ARMAGNAC_city: "Tolosa"
- HUB_NAME_STATE_ARMAGNAC_farm: "Montalban"
- HUB_NAME_STATE_ARMAGNAC_mine: "Fois"
- HUB_NAME_STATE_ARMAGNAC_wood: "Albi"
-
- HUB_NAME_STATE_AQUITAINE_city: "Bordèu"
- HUB_NAME_STATE_AQUITAINE_farm: "Marçan"
- HUB_NAME_STATE_AQUITAINE_mine: "Lorda"
- HUB_NAME_STATE_AQUITAINE_port: "Miarritze"
-
- HUB_NAME_STATE_AUVERGNE_city: "Clarmont"
- HUB_NAME_STATE_AUVERGNE_farm: "Caors"
- HUB_NAME_STATE_AUVERGNE_mine: "Lo Puèi"
- HUB_NAME_STATE_AUVERGNE_wood: "Orlhac"
-
- HUB_NAME_STATE_LIMOUSIN_city: "Lemòtges"
- HUB_NAME_STATE_LIMOUSIN_farm: "Peireguers"
- HUB_NAME_STATE_LIMOUSIN_mine: "Briva"
- HUB_NAME_STATE_LIMOUSIN_wood: "Engoleime"
-
  #Daufinat
 
  HUB_NAME_STATE_RHONE_city: "Liyon"
@@ -34,11 +7,11 @@
  HUB_NAME_STATE_RHONE_mine: "Grenoblo"
  HUB_NAME_STATE_RHONE_wood: "Sant-Etiève"
 
- HUB_NAME_STATE_PROVENCE_city: "Marselha"
- HUB_NAME_STATE_PROVENCE_farm: "Avinhon"
- HUB_NAME_STATE_PROVENCE_mine: "Digno"
- HUB_NAME_STATE_PROVENCE_port: "Touloun"
- HUB_NAME_STATE_PROVENCE_wood: "Niça"
+ HUB_NAME_STATE_PROUVENCA_city: "Marselha"
+ HUB_NAME_STATE_PROUVENCA_farm: "Avinhon"
+ HUB_NAME_STATE_PROUVENCA_mine: "Digno"
+ HUB_NAME_STATE_PROUVENCA_port: "Touloun"
+ HUB_NAME_STATE_PROUVENCA_wood: "Niça"
 
  HUB_NAME_STATE_SAVOY_city: "Genèva"
  HUB_NAME_STATE_SAVOY_farm: "Chambèri"
