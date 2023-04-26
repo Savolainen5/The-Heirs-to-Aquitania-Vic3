@@ -1,7 +1,7 @@
 ﻿DIPLOMACY = {
 	#European masters first
 	
-	c:AEN = {
+	c:IRE = {
 
 		### AUSTRALIA ###
 		# Colony of Gewisse
@@ -16,14 +16,14 @@
 		#	type = dominion
 		#}
 		
-		# Gledy
+		# Aengland
 		create_diplomatic_pact = {
-			country = c:GLE
-			type = puppet
+			country = c:AEN
+			type = protectorate
 		}
-		# Colony of Logria
+		# Weales
 		create_diplomatic_pact = {
-			country = c:LOG
+			country = c:WLS
 			type = puppet
 		}
 	}

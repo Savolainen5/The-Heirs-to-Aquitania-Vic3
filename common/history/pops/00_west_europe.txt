@@ -190,7 +190,7 @@
 		}
 	}
 	s:STATE_SUDSAXE = {
-		region_state:AEN = {
+		region_state:FRA = {
 			create_pop = {
 				culture = aenglish
 				size = 2657596
