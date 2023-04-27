@@ -540,7 +540,7 @@
 		}
 	}
 	s:STATE_SUDSAXE={
-		region_state:AEN={
+		region_state:FRA={
 			create_building={
 				building="building_government_administration"
 				level=15
@@ -622,7 +622,7 @@
 		}
 	}
 	s:STATE_COMBRE={
-		region_state:AEN={
+		region_state:IRE={
 			create_building={
 				building="building_textile_mills"
 				level=15
@@ -704,7 +704,7 @@
 		}
 	}
 	s:STATE_WEALES={
-		region_state:AEN={
+		region_state:WLS={
 			create_building={
 				building="building_paper_mills"
 				level=3
@@ -740,6 +740,34 @@
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_steam_trains" "pm_no_passenger_trains" }
+			}
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_CORSICA={
+		region_state:IRE={ 								#NEEDS EDITING TO FIT NEW REGION
+			create_building={
+				building="building_livestock_ranch"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_intensive_grazing_ranch" "pm_slaughterhouses" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_merchant_guilds_building_fishing_wharf" "pm_unrefrigerated" "pm_simple_fishing" }
+			}
+			create_building={
+				building="building_barracks"
+				level=5
+				reserves=1
+				activate_production_methods={ "pm_wound_dressing" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_line_infantry" }
 			}
 			create_building={
 				building="building_port"
@@ -918,7 +946,7 @@
 		}
 	}
 	s:STATE_ESSAXE={
-		region_state:AEN={
+		region_state:FRA={
 			create_building={
 				building="building_university"
 				level=5
@@ -988,7 +1016,7 @@
 		}
 	}
 	s:STATE_WESSAXE={
-		region_state:AEN={
+		region_state:FRA={
 			create_building={
 				building="building_tooling_workshops"
 				level=4
@@ -1616,7 +1644,7 @@
 		}
 	}
 	s:STATE_ALSACE_LORRAINE={
-		region_state:FRA={
+		region_state:TRR={
 			create_building={
 				building="building_steel_mills"
 				level=1
@@ -2034,7 +2062,7 @@
 		}
 	}
 	s:STATE_HOLLAND={
-		region_state:NET={
+		region_state:FRA={
 			create_building={
 				building="building_government_administration"
 				level=4
@@ -2116,7 +2144,7 @@
 		}
 	}
 	s:STATE_FRIESLAND={
-		region_state:NET={
+		region_state:TRR={
 			create_building={
 				building="building_paper_mills"
 				level=3
@@ -2129,30 +2157,30 @@
 				reserves=1
 				activate_production_methods={ "pm_forest_glass" "pm_merchant_guilds_building_glassworks" "pm_manual_glassblowing" "pm_ceramics" }
 			}
-			create_building={
-				building="building_fishing_wharf"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
-			}
-			create_building={
-				building="building_naval_base"
-				level=10
-				reserves=1
-				activate_production_methods={ "pm_man_o_wars" "pm_frigates" "pm_commerce_raider" "pm_no_naval_theory" }
-			}
+#			create_building={
+#				building="building_fishing_wharf"
+#				level=2
+#				reserves=1
+#				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
+#			}
+#			create_building={
+#				building="building_naval_base"
+#				level=10
+#				reserves=1
+#				activate_production_methods={ "pm_man_o_wars" "pm_frigates" "pm_commerce_raider" "pm_no_naval_theory" }
+#			}
 			create_building={
 				building="building_barracks"
 				level=5
 				reserves=1
 				activate_production_methods={ "pm_line_infantry" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
-			create_building={
-				building="building_port"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_basic_port" }
-			}
+#			create_building={
+#				building="building_port"
+#				level=3
+#				reserves=1
+#				activate_production_methods={ "pm_basic_port" }
+#			}
 		}
 	}
 	s:STATE_GELRE={
@@ -2184,32 +2212,18 @@
 		}
 	}
 	s:STATE_WALLONIA={
-		region_state:LUX={
-			create_building={
-				building="building_food_industry"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_bakery" "pm_disabled_canning" "pm_merchant_guilds_building_food_industry" "pm_manual_dough_processing" "pm_pot_stills" }
-			}
-			create_building={
-				building="building_livestock_ranch"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_barracks"
-				level=5
-				reserves=1
-				activate_production_methods={ "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_line_infantry" }
-			}
-		}
 		region_state:FRA={
 			create_building={
 				building="building_steel_mills"
 				level=3
 				reserves=1
 				activate_production_methods={ "pm_blister_steel_process" "pm_automation_disabled" "pm_privately_owned_industry" }
+			}
+			create_building={
+				building="building_food_industry"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_bakery" "pm_disabled_canning" "pm_merchant_guilds_building_food_industry" "pm_manual_dough_processing" "pm_pot_stills" }
 			}
 			create_building={
 				building="building_construction_sector"
@@ -2242,6 +2256,12 @@
 				activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_iron_mine" }
 			}
 			create_building={
+				building="building_livestock_ranch"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+			}
+			create_building={
 				building="building_wheat_farm"
 				level=2
 				reserves=1
@@ -2255,14 +2275,14 @@
 			}
 			create_building={
 				building="building_barracks"
-				level=10
+				level=15
 				reserves=1
 				activate_production_methods={ "pm_mobile_artillery" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_line_infantry" }
 			}
 		}
 	}
 	s:STATE_FLANDERS={
-		region_state:NET={
+		region_state:FRA={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -2368,7 +2388,7 @@
 		}
 	}
 	s:STATE_AUSTRIA={
-		region_state:AUS={
+		region_state:GER={
 			create_building={
 				building="building_government_administration"
 				level=10
@@ -2518,7 +2538,7 @@
 		}
 	}
 	s:STATE_STYRIA={
-		region_state:AUS={
+		region_state:GER={
 			create_building={
 				building="building_iron_mine"
 				level=3
@@ -2552,7 +2572,7 @@
 		}
 	}
 	s:STATE_TYROL={
-		region_state:BAV={
+		region_state:GER={
 			create_building={
 				building="building_iron_mine"
 				level=2
@@ -2590,7 +2610,7 @@
 		}
 	}
 	s:STATE_POMERANIA={
-		region_state:BBG={
+		region_state:MEC={
 			create_building={
 				building="building_fishing_wharf"
 				level=3
@@ -2630,27 +2650,21 @@
 		}
 	}
 	s:STATE_ELBE={
-		region_state:BRE={
+		region_state:MEC={
 			create_building={
-				building="building_paper_mills"
+				building="building_rye_farm"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_paper_mills" }
+				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_potatoes" }
 			}
 			create_building={
-				building="building_fishing_wharf"
-				level=1
+				building="building_barracks"
+				level=5
 				reserves=1
-				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
-			}
-			create_building={
-				building="building_port"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_anchorage" }
+				activate_production_methods={ "pm_mobile_artillery" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_line_infantry" }
 			}
 		}
-		region_state:BRA={
+		region_state:GER={
 			create_building={
 				building="building_glassworks"
 				level=1
@@ -2658,16 +2672,16 @@
 				activate_production_methods={ "pm_forest_glass" "pm_merchant_guilds_building_glassworks" "pm_manual_glassblowing" "pm_ceramics" }
 			}
 			create_building={
+				building="building_paper_mills"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_paper_mills" }
+			}
+			create_building={
 				building="building_furniture_manufacturies"
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_handcrafted_furniture" "pm_merchant_guilds_building_furniture_manufacturies" "pm_automation_disabled" "pm_luxury_furniture" }
-			}
-			create_building={
-				building="building_rye_farm"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_potatoes" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -2682,10 +2696,22 @@
 				activate_production_methods={ "pm_saw_mills" "pm_privately_owned_building_logging_camp" "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
 			}
 			create_building={
-				building="building_barracks"
-				level=5
+				building="building_rye_farm"
+				level=2
 				reserves=1
-				activate_production_methods={ "pm_mobile_artillery" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_line_infantry" }
+				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_potatoes" }
+			}
+			create_building={
+				building="building_fishing_wharf"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_simple_fishing" "pm_unrefrigerated" "pm_merchant_guilds_building_fishing_wharf" }
+			}
+			create_building={
+				building="building_port"
+				level=1
+				reserves=1
+				activate_production_methods={ "pm_anchorage" }
 			}
 		}
 	}
@@ -2770,7 +2796,7 @@
 		}
 	}
 	s:STATE_WESTPHALIA={
-		region_state:WES={
+		region_state:GER={
 			create_building={
 				building="building_chemical_plants"
 				level=2
@@ -2797,7 +2823,7 @@
 			}
 			create_building={
 				building="building_rye_farm"
-				level=2
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_tools_disabled" "pm_privately_owned" }
 			}
@@ -2807,18 +2833,10 @@
 				reserves=1
 				activate_production_methods={ "pm_mobile_artillery" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_skirmish_infantry" }
 			}
-		}
-		region_state:LIP = {
-			create_building={
-				building="building_rye_farm"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_potatoes" }
-			}	
 		}		
 	}
 	s:STATE_ANHALT={
-		region_state:BRA={
+		region_state:GER={
 			create_building={
 				building="building_furniture_manufacturies"
 				level=3
@@ -2827,53 +2845,27 @@
 			}
 			create_building={
 				building="building_logging_camp"
-				level=5
+				level=6
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_privately_owned_building_logging_camp" "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
 			}
 			create_building={
 				building="building_rye_farm"
-				level=2
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_soil_enriching_farming" "pm_potatoes" "pm_tools_disabled" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_livestock_ranch"
-				level=2
+				level=3
 				reserves=1
 				activate_production_methods={ "pm_intensive_grazing_ranch" "pm_slaughterhouses" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 			create_building={
 				building="building_barracks"
-				level=25
+				level=35
 				reserves=1
 				activate_production_methods={ "pm_skirmish_infantry" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
-			}
-		}
-		region_state:BBG={
-			create_building={
-				building="building_rye_farm"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_potatoes" }
-			}
-			create_building={
-				building="building_logging_camp"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_privately_owned_building_logging_camp" "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
-			}
-			create_building={
-				building="building_livestock_ranch"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_intensive_grazing_ranch" "pm_slaughterhouses" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_barracks"
-				level=15
-				reserves=1
-				activate_production_methods={ "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_line_infantry" }
 			}
 		}
 	}
@@ -2899,21 +2891,7 @@
 			}
 			create_building={
 				building="building_wheat_farm"
-				level=4
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_vineyards" }
-			}
-			create_building={
-				building="building_barracks"
-				level=10
-				reserves=1
-				activate_production_methods={ "pm_skirmish_infantry" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
-			}
-		}
-		region_state:LDN={
-			create_building={
-				building="building_wheat_farm"
-				level=1
+				level=5
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_vineyards" }
 			}
@@ -2925,14 +2903,14 @@
 			}
 			create_building={
 				building="building_barracks"
-				level=5
+				level=15
 				reserves=1
-				activate_production_methods={ "pm_mobile_artillery" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_line_infantry" }
+				activate_production_methods={ "pm_skirmish_infantry" "pm_mobile_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
 	}
-	s:STATE_NORTH_RHINE={
-		region_state:CLN={
+	s:STATE_NORTH_RHINE={ #Frisia or something, owned by NET
+		region_state:NET={
 			create_building={
 				building="building_arms_industry"
 				level=10
@@ -2978,7 +2956,7 @@
 		}
 	}
 	s:STATE_BRANDENBURG={
-		region_state:BBG={
+		region_state:MEC={
 			create_building={
 				building="building_government_administration"
 				level=13
@@ -3030,7 +3008,7 @@
 		}
 	}
 	s:STATE_SCHLESWIG_HOLSTEIN={
-		region_state:HOL={
+		region_state:MEC={
 			create_building={
 				building="building_rye_farm"
 				level=1
@@ -3090,7 +3068,7 @@
 		}
 	}
 	s:STATE_WURTTEMBERG={
-		region_state:JEB={
+		region_state:GER={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -3148,7 +3126,7 @@
 		}
 	}
 	s:STATE_BADEN={
-		region_state:LDN={
+		region_state:GER={
 			create_building={
 				building="building_university"
 				level=1
@@ -3163,7 +3141,7 @@
 			}
 			create_building={
 				building="building_wheat_farm"
-				level=4
+				level=5
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_vineyards" }
 			}
@@ -3175,34 +3153,20 @@
 			}
 			create_building={
 				building="building_logging_camp"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
 			}
-		}
-		region_state:HHB={
 			create_building={
 				building="building_barracks"
-				level=5
+				level=10
 				reserves=1
 				activate_production_methods={ "pm_mobile_artillery" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_line_infantry" }
 			}
-			create_building={
-				building="building_wheat_farm"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_vineyards" }
-			}
-			create_building={
-				building="building_logging_camp"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
-			}
 		}
 	}
-	s:STATE_HANNOVER={
-		region_state:NET={
+	s:STATE_HANNOVER={ ##############################################################################################################################ERROR CHECK PORT STUFF
+		region_state:GER={
 			create_building={
 				building="building_rye_farm"
 				level=2
@@ -3227,8 +3191,6 @@
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
 			}
-		}
-		region_state:HAN={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -3262,15 +3224,7 @@
 		}
 	}
 	s:STATE_BRUNSWICK={
-		region_state:HAN={
-			create_building={
-				building="building_livestock_ranch"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
-			}
-		}
-		region_state:BRA={
+		region_state:GER={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -3292,7 +3246,7 @@
 		}
 	}
 	s:STATE_BAVARIA={
-		region_state:BAV={
+		region_state:GER={
 			create_building={
 				building="building_government_administration"
 				level=3
@@ -3356,7 +3310,7 @@
 		}
 	}
 	s:STATE_FRANCONIA={
-		region_state:BAV={
+		region_state:GER={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -3408,7 +3362,7 @@
 		}
 	}
 	s:STATE_SAXONY={
-		region_state:SAX={
+		region_state:GER={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -3429,7 +3383,7 @@
 			}
 			create_building={
 				building="building_coal_mine"
-				level=3
+				level=4
 				reserves=1
 				activate_production_methods={ "pm_picks_and_shovels_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_merchant_guilds_building_coal_mine" }
 			}
@@ -3441,7 +3395,7 @@
 			}
 			create_building={
 				building="building_rye_farm"
-				level=2
+				level=5
 				reserves=1
 				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_potatoes" }
 			}
@@ -3453,94 +3407,14 @@
 			}
 			create_building={
 				building="building_barracks"
-				level=20
+				level=25
 				reserves=1
 				activate_production_methods={ "pm_mobile_artillery" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_line_infantry" }
-			}
-		}
-		region_state:MEI = {
-			create_building={
-				building="building_rye_farm"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_potatoes" }
-			}
-			create_building={
-				building="building_livestock_ranch"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_barracks"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_mobile_artillery" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_line_infantry" }
-			}					
-		}
-		region_state:WEI = {
-			create_building={
-				building="building_rye_farm"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_potatoes" }
 			}		
-			create_building={
-				building="building_livestock_ranch"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_coal_mine"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_picks_and_shovels_building_coal_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_merchant_guilds_building_coal_mine" }
-			}			
-			create_building={
-				building="building_barracks"
-				level=3
-				reserves=1
-				activate_production_methods={ "pm_mobile_artillery" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_line_infantry" }
-			}			
-		}	
-		region_state:COB = {
-			create_building={
-				building="building_rye_farm"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_potatoes" }
-			}	
-			create_building={
-				building="building_livestock_ranch"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_barracks"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_mobile_artillery" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_line_infantry" }
-			}					
-		}	
-		region_state:SCW = {
-			create_building={
-				building="building_rye_farm"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_potatoes" }
-			}	
-			create_building={
-				building="building_barracks"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_mobile_artillery" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_line_infantry" }
-			}					
-		}			
+		}		
 	}
 	s:STATE_HESSE={
-		region_state:FRM={
+		region_state:GER={
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -3548,51 +3422,35 @@
 				activate_production_methods={ "pm_handsewn_clothes" "pm_no_luxury_clothes" "pm_traditional_looms" "pm_merchant_guilds_building_textile_mills" }
 			}
 			create_building={
-				building="building_food_industry"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_bakery" "pm_disabled_canning" "pm_merchant_guilds_building_food_industry" "pm_manual_dough_processing" "pm_pot_stills" }
-			}
-		}
-		region_state:HEK={
-			create_building={
-				building="building_rye_farm"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_potatoes" }
-			}
-			create_building={
-				building="building_livestock_ranch"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_logging_camp"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
-			}			
-			create_building={
-				building="building_barracks"
-				level=9
-				reserves=1
-				activate_production_methods={ "pm_mobile_artillery" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_line_infantry" }
-			}			
-		}
-		region_state:HES={
-			create_building={
 				building="building_paper_mills"
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_paper_mills" }
 			}
 			create_building={
+				building="building_food_industry"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_bakery" "pm_disabled_canning" "pm_merchant_guilds_building_food_industry" "pm_manual_dough_processing" "pm_pot_stills" }
+			}
+			create_building={
 				building="building_tooling_workshops"
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_pig_iron" "pm_automation_disabled" "pm_privately_owned_building_tooling_workshops" }
-			}			
+			}
+			create_building={
+				building="building_rye_farm"
+				level=6
+				reserves=1
+				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_potatoes" }
+			}
+			create_building={
+				building="building_livestock_ranch"
+				level=4
+				reserves=1
+				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
+			}
 			create_building={
 				building="building_iron_mine"
 				level=1
@@ -3600,63 +3458,18 @@
 				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_merchant_guilds_building_iron_mine" }
 			}
 			create_building={
-				building="building_rye_farm"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_potatoes" }
-			}
-			create_building={
-				building="building_livestock_ranch"
-				level=2
-				reserves=1
-				activate_production_methods={ "pm_simple_ranch" "pm_butchering_tools" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
-			}
-			create_building={
-				building="building_barracks"
-				level=10
-				reserves=1
-				activate_production_methods={ "pm_mobile_artillery" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_line_infantry" }
-			}
-		}
-		region_state:NAS={
-			create_building={
-				building="building_rye_farm"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_potatoes" }
-			}
-			create_building={
-				building="building_livestock_ranch"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
-			}			
-			create_building={
 				building="building_logging_camp"
-				level=1
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
 			}
 			create_building={
 				building="building_barracks"
-				level=5
+				level=25
 				reserves=1
-				activate_production_methods={ "pm_wound_dressing" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_line_infantry" }
+				activate_production_methods={ "pm_mobile_artillery" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_line_infantry" }
 			}
-		}
-		region_state:MNZ = {
-			create_building={
-				building="building_rye_farm"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_farming" "pm_privately_owned" "pm_tools_disabled" "pm_potatoes" }
-			}
-			create_building={
-				building="building_food_industry"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_bakery" "pm_disabled_canning" "pm_merchant_guilds_building_food_industry" "pm_manual_dough_processing" "pm_pot_stills" }
-			}
+			
 		}
 	}
 	s:STATE_MECKLENBURG={
@@ -3684,14 +3497,6 @@
 				level=1
 				reserves=1
 				activate_production_methods={ "pm_basic_port" }
-			}
-		}
-		region_state:MST={
-			create_building={
-				building="building_livestock_ranch"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_simple_ranch" "pm_open_air_stockyards" "pm_standard_fences" "pm_unrefrigerated" "pm_privately_owned" }
 			}
 		}
 	}

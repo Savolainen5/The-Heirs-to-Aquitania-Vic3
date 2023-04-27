@@ -502,7 +502,7 @@
 #				size = 2400
 #			}
 		}
-		region_state:HIS = {
+		region_state:MAU = {
 			create_pop = {
 				culture = hispanian
 				size = 18

@@ -337,7 +337,7 @@
 		}
 	}
 	s:STATE_MARRAKECH={
-		region_state:MOR={
+		region_state:MAU={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -377,7 +377,7 @@
 		}
 	}
 	s:STATE_FEZ={
-		region_state:MOR={
+		region_state:MAU={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -417,7 +417,7 @@
 		}
 	}
 	s:STATE_AL_RIF={
-		region_state:HIS={
+		region_state:MAU={
 			create_building={
 				building="building_livestock_ranch"
 				level=1
@@ -451,7 +451,7 @@
 		}
 	}
 	s:STATE_INNER_MOROCCO={
-		region_state:MOR={
+		region_state:MAU={
 			create_building={
 				building="building_livestock_ranch"
 				level=2
@@ -583,7 +583,7 @@
 		}
 	}
 	s:STATE_TLEMCEN={
-		region_state:HIS={
+		region_state:MAU={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -615,7 +615,7 @@
 				activate_production_methods={ "pm_basic_port" }
 			}			
 		}
-		region_state:MOR={
+		region_state:MAU={
 			create_building={
 				building="building_wheat_farm"
 				level=2

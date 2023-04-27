@@ -182,26 +182,26 @@ HEG = { #Hegoalde
 	}
 }
 
-HIS = { # Hispania
-	flag_definition = {
-		coa = HIS
-		subject_canton = HIS
-		coa_with_overlord_canton = HIS_subject
-		allow_overlord_canton = yes
-	}
-	flag_definition = {
-		coa = HIS_PORclaim
-		subject_canton = HIS_PORclaim
-		coa_with_overlord_canton = HIS_subject
-		allow_overlord_canton = yes
-		priority = 20
-		trigger = {
-			#scope:actor = { NOT = { has_variable = POR_claim_relinquished_var } } #Needs to be set somehow, otherwise it throws an error
-			coa_def_monarchy_flag_trigger = yes
-			#coa_HIS_claim_POR_trigger = yes #Didn't work
-		}
-	}
-}
+#HIS = { # Hispania
+#	flag_definition = {
+#		coa = HIS
+#		subject_canton = HIS
+#		coa_with_overlord_canton = HIS_subject
+#		allow_overlord_canton = yes
+#	}
+#	flag_definition = {
+#		coa = HIS_PORclaim
+#		subject_canton = HIS_PORclaim
+#		coa_with_overlord_canton = HIS_subject
+#		allow_overlord_canton = yes
+#		priority = 20
+#		trigger = {
+#			#scope:actor = { NOT = { has_variable = POR_claim_relinquished_var } } #Needs to be set somehow, otherwise it throws an error
+#			coa_def_monarchy_flag_trigger = yes
+#			#coa_HIS_claim_POR_trigger = yes #Didn't work
+#		}
+#	}
+#}
 
 LOG = { # Logria
 	flag_definition = {

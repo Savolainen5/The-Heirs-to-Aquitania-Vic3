@@ -560,7 +560,7 @@ s:STATE_BIHAR = {
 				size = 6400
 			}
 		}
-		region_state:POR={
+		region_state:GLZ={
 			create_pop = {
 				culture = tamil
 				size = 52000

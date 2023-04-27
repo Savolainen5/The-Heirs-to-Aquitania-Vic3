@@ -13,7 +13,7 @@
 #	}	
 #	c:GBR = {
 #		create_diplomatic_pact = {
-#			country = c:POR
+#			country = c:GLZ
 #			type = trade_agreement
 #		}		
 #		create_diplomatic_pact = {

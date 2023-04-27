@@ -1,7 +1,7 @@
 ﻿DIPLOMACY = {
 #	c:AEN = {
 #		create_diplomatic_pact = {
-#			country = c:POR
+#			country = c:GLZ
 #			type = defensive_pact
 #		}	
 #	}	

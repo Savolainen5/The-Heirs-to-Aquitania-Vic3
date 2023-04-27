@@ -68,14 +68,6 @@
 			}
 		}
 	}
-	s:STATE_CORSICA = {
-		region_state:PDN = {
-			create_pop = {
-				culture = corsican
-				size = 196476
-			}
-		}
-	}
 	s:STATE_CAMPANIA = {
 		region_state:NAP = {
 			create_pop = {
@@ -581,7 +573,7 @@
 		}
 	}
 	s:STATE_SLOVENIA = {
-		region_state:AUS = {
+		region_state:SLO = {
 			create_pop = {
 				culture = slovene
 				size = 464400
@@ -627,7 +619,7 @@
 				size = 176000
 			}
 		}
-		region_state:AUS = {
+		region_state:SLO = {
 			create_pop = {
 				culture = croat
 				size = 413592
@@ -686,7 +678,7 @@
 		}
 	}
 	s:STATE_ISTRIA = {
-		region_state:AUS = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_italian
 				size = 197800

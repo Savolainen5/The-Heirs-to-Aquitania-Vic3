@@ -107,7 +107,7 @@
 			state_type = unincorporated
 		}
 		create_state = {
-			country = c:POR
+			country = c:GLZ
 			owned_provinces = { x95AAA3 }
 			state_type = unincorporated
 		}
@@ -146,7 +146,7 @@
 			owned_provinces = { x4D3B30 xD12977 x723F1D xFF7473 x28D126 xC9472E xE8E0A4 xA9240B x65A581 x70D020 x8C6854 x1830A7 x631F32 x69B568 xF0D021 }
 		}
 		create_state = {
-			country = c:POR
+			country = c:GLZ
 			owned_provinces = { x0DC972 }
 		}
 		create_state = {
@@ -277,7 +277,7 @@
 	}
 	s:STATE_MYSORE = {
 		create_state = {
-			country = c:POR
+			country = c:GLZ
 			owned_provinces = {
 				xE5A1AC x2A60B3 xB4ABD5 x903060 x8E3C9D x102D8B x25CBCC xBFDC26 xA26314 x16AA78 x9FE13F x1B7225 xEDFC06 x696049
 				x189045 xD0F0A0
@@ -289,7 +289,7 @@
 	}
 	s:STATE_TRAVANCORE = {
 		create_state = {
-			country = c:POR
+			country = c:GLZ
 			owned_provinces = { xEC8405 xE4EB67 x2121D0 xFD0A78 xA11A79 x21A0D0 xA0A050 xB0934C xCCDC34 }
 			state_type = unincorporated
 		}
@@ -367,7 +367,7 @@
 	}
 	s:STATE_BOMBAY = {
 		create_state = {
-			country = c:POR
+			country = c:GLZ
 			owned_provinces = { x51F0A0 xCC722D xB863FE xE01853 x11B0A0 xCF3817 x187C37 xD6660F x4F5C91 x40CE40 x1131A0 x7629BF x052B29 xD04F5D x405FB4 xD070A0 xED0654 x42ACA6 }
 			state_type = unincorporated
 		}
@@ -1556,7 +1556,7 @@
 			owned_provinces = { x7131E0 xA9B6D4 x19FD82 xB0B061 x2BDE7B x9A21B1 xC77200 x4E581C x477755 xF0B061 x85E0D4 xFEBFD5 x260389 x62BF42 xCB457A x30B0E0 x156AC0 xA92B88 xDC137A x3131E0 x475968 x489AB0 x2C4C48 xF98B04 x8C9358 xB031E0 }
 		}
 #		create_state = {
-#			country = c:POR
+#			country = c:GLZ
 #			owned_provinces = { xB031E0 }
 #			state_type = unincorporated
 #			state_type = treaty_port

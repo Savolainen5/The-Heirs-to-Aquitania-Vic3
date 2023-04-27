@@ -1,29 +1,29 @@
-﻿CHARACTERS = {
-	c:HAN = {
-		create_character = {
-			first_name = "Adelheid"
-			last_name = "von_Welver"
-			ruler = yes
-			female = yes
-			age = 57
-			interest_group = ig_landowners
-			traits = {
-				reserved
-			}
-			on_created = {
-				set_variable = is_married
-			}
-		}
-
-		create_character = {
-			first_name = "Karl_Ludwig"
-			last_name = "von_Edemissen"
-			heir = yes
-			age = 35
-			interest_group = ig_landowners
-			traits = {
-				reserved
-			}
-		}
-	}
-}
+﻿#CHARACTERS = {
+#	c:HAN = {
+#		create_character = {
+#			first_name = "Adelheid"
+#			last_name = "von_Welver"
+#			ruler = yes
+#			female = yes
+#			age = 57
+#			interest_group = ig_landowners
+#			traits = {
+#				reserved
+#			}
+#			on_created = {
+#				set_variable = is_married
+#			}
+#		}
+#
+#		create_character = {
+#			first_name = "Karl_Ludwig"
+#			last_name = "von_Edemissen"
+#			heir = yes
+#			age = 35
+#			interest_group = ig_landowners
+#			traits = {
+#				reserved
+#			}
+#		}
+#	}
+#}

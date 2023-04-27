@@ -936,7 +936,7 @@
 				activate_production_methods={ "pm_basic_port" }
 			}			
 		}
-		region_state:POR={
+		region_state:GLZ={
 		}
 	}
 	s:STATE_INDIAN_OCEAN_TERRITORY={
@@ -1038,7 +1038,7 @@
 		}
 	}
 	s:STATE_MYSORE={
-		region_state:POR={
+		region_state:GLZ={
 			create_building={
 				building="building_textile_mills"
 				level=3
@@ -1090,7 +1090,7 @@
 		}
 	}
 	s:STATE_TRAVANCORE={
-		region_state:POR={
+		region_state:GLZ={
 			create_building={
 				building="building_tea_plantation"
 				level=3
@@ -1286,7 +1286,7 @@
 		}
 	}
 	s:STATE_BOMBAY={
-		region_state:POR={
+		region_state:GLZ={
 			create_building={
 				building="building_dye_plantation"
 				level=2

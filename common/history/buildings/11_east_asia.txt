@@ -610,7 +610,7 @@
 				activate_production_methods={ "pm_basic_port" }
 			}
 		}
-#		region_state:POR={ #These buildings have been incorporated into the numbers above, so if you're gonna remake some treaty port at the mouth of the Pearl, subtract them from there again
+#		region_state:GLZ={ #These buildings have been incorporated into the numbers above, so if you're gonna remake some treaty port at the mouth of the Pearl, subtract them from there again
 #			create_building={
 #				building="building_rice_farm"
 #				level=1

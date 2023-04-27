@@ -1,5 +1,5 @@
 ﻿DIPLOMACY = {
 #	c:ARG = {
-#		set_relations = { country = c:HIS value = -30 }
+#		set_relations = { country = c:MAU value = -30 }
 #	}
 }
