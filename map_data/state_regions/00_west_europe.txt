@@ -605,7 +605,11 @@ STATE_ILE_DE_FRANCE = {
     traits = { "state_trait_seine_river" "state_trait_good_soils" }
     city = "x906000"
     farm = "x71DA2E"
+<<<<<<< Updated upstream
     mine = "x7080DF"
+=======
+    mine = "xF0E39E"
+>>>>>>> Stashed changes
     wood = "x90A0C0"
     arable_land = 66
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_monuments" }
@@ -638,7 +642,11 @@ STATE_NORMANDY = {
     subsistence_building = "building_subsistence_farms"
     provinces = { "x065CAE" "x0B7098" "x1020C0" "x65728E" "x79C0E6" "x90A040" "xB06080" "xB78E54" "xB8903B" "xF522D9" }
     traits = { "state_trait_seine_river" }
+<<<<<<< Updated upstream
     city = "xB06080"
+=======
+    city = "xA786BB"
+>>>>>>> Stashed changes
     port = "xA786BB"
     farm = "x79C0E6"
     mine = "x0B7098"
