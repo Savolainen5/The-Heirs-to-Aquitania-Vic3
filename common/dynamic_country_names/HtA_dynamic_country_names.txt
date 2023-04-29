@@ -1,26 +1,26 @@
 ﻿### Try to keep tags in alphabetical order
 
 CAT = { #Catalonia
-	dynamic_country_name = { #Catalonia-Navarre
-		name = dyn_c_catalonia_navarre
+	dynamic_country_name = { #Catalonia-Navarra
+		name = dyn_c_catalonia_navarra
 		#adjective = #Eh, just keep it
 		
 		is_main_tag_only = yes
 		priority = 10
 		
 		trigger = {
-			exists = c:AQT
-			c:AQT = {
-				has_diplomatic_pact = {
-					who = c:CAT
-					type = vassal
-					is_initiator = yes
-				}
-			}
-			exists = c:CAT
+#			exists = c:AQT
+#			c:AQT = {
+#				has_diplomatic_pact = {
+#					who = c:CAT
+#					type = vassal
+#					is_initiator = yes
+#				}
+#			}
+			exists = scope:actor
 			OR = {
-				c:CAT = { owns_entire_state_region = STATE_BASQUE_COUNTRY }
-				c:CAT = { country_has_primary_culture = cu:basque }
+				scope:actor = { any_scope_state = {	state_region = s:STATE_BASQUE_COUNTRY } }
+				scope:actor = { country_has_primary_culture = cu:basque }
 			}
 		}
 	}
