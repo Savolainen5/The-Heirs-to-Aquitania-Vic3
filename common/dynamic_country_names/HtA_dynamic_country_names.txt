@@ -1,9 +1,35 @@
 ﻿### Try to keep tags in alphabetical order
 
+CAT = { #Catalonia
+	dynamic_country_name = { #Catalonia-Navarre
+		name = dyn_c_catalonia_navarre
+		#adjective = #Eh, just keep it
+		
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			exists = c:AQT
+			c:AQT = {
+				has_diplomatic_pact = {
+					who = c:CAT
+					type = vassal
+					is_initiator = yes
+				}
+			}
+			exists = c:CAT
+			OR = {
+				c:CAT = { owns_entire_state_region = STATE_BASQUE_COUNTRY }
+				c:CAT = { country_has_primary_culture = cu:basque }
+			}
+		}
+	}
+}
+
 GLZ = { #Galiza obviously
 	dynamic_country_name = { #United Kingdom
 		name = dyn_c_united_kingdom_por
-		#adjective = dyn_c_united_kingdom_por_adj #Should remain Portuguese
+		#adjective = dyn_c_united_kingdom_por_adj #Should remain Galizan
 		
 		is_main_tag_only = yes
 		priority = 10

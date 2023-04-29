@@ -27,9 +27,9 @@
 		add_declared_interest = region_japan
 		add_declared_interest = region_indochina
 	}
-	c:NET = {
-		add_declared_interest = region_baltic
-		add_declared_interest = region_france
-		add_declared_interest = region_england
-	}
+#	c:NET = {
+#		add_declared_interest = region_baltic
+#		add_declared_interest = region_france
+#		add_declared_interest = region_england
+#	}
 }

@@ -43,6 +43,11 @@
 			country = c:LAZ
 			type = puppet
 		}
+		#Catalonia-Navarre
+		create_diplomatic_pact = {
+			country = c:CAT
+			type = puppet
+		}
 	}
 #	c:AUS = {
 #		create_diplomatic_pact = {

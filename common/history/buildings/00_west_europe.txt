@@ -735,12 +735,12 @@
 				reserves=1
 				activate_production_methods={ "pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts" "pm_privately_owned_building_logging_camp" }
 			}
-			create_building={
-				building="building_railway"
-				level=1
-				reserves=1
-				activate_production_methods={ "pm_steam_trains" "pm_no_passenger_trains" }
-			}
+#			create_building={ #Need Tier 1 tech for railways, WLS currently has Tier 2
+#				building="building_railway"
+#				level=1
+#				reserves=1
+#				activate_production_methods={ "pm_steam_trains" "pm_no_passenger_trains" }
+#			}
 			create_building={
 				building="building_port"
 				level=1

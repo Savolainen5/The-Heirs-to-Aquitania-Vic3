@@ -636,19 +636,19 @@ COM = { # Comanche
 #	}
 #}
 
-GER = { # Germany
-	dynamic_country_name = {
-		name = dyn_c_german_empire
-		
-		is_main_tag_only = yes
-		priority = 0
-		
-		trigger = {
-			coa_def_monarchy_flag_trigger = yes
-			country_rank >= rank_value:major_power
-		}
-	}
-}
+#GER = { # Germany
+#	dynamic_country_name = {
+#		name = dyn_c_german_empire
+#		
+#		is_main_tag_only = yes
+#		priority = 0
+#		
+#		trigger = {
+#			coa_def_monarchy_flag_trigger = yes
+#			country_rank >= rank_value:major_power
+#		}
+#	}
+#}
 
 HRO = { # Herero
 	dynamic_country_name = {
@@ -1290,23 +1290,6 @@ ZAI = { # Azal (Zaidi State)
 					has_law = law_type:law_monarchy
 					has_law = law_type:law_theocracy
 				}
-			}
-		}
-	}
-}
-
-WLS = {
-	dynamic_country_name = {
-		name = dyn_c_welsh_patagonia
-		adjective = dyn_c_welsh_patagonia_adj
-
-		is_main_tag_only = yes
-		priority = 0
-		
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				capital = { state_region = s:STATE_PATAGONIA }
 			}
 		}
 	}

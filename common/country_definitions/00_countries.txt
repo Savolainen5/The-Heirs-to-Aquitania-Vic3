@@ -162,7 +162,7 @@ CAT = {
 
 	tier = principality
 	
-	cultures = { catalan }
+	cultures = { catalan basque }
 	capital = STATE_CATALONIA
 	is_named_from_capital = yes
 }
