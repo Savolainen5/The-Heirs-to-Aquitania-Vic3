@@ -441,8 +441,8 @@
  HUB_NAME_STATE_GARONA_city: "Bordèu"
  HUB_NAME_STATE_GARONA_farm: "Marçan"
  HUB_NAME_STATE_GARONA_mine: "Lorda"
- HUB_NAME_STATE_GARONA_port: "Miarritze"
- #HUB_NAME_STATE_GARONA_wood: "Gasconha wood"
+ HUB_NAME_STATE_GARONA_port: "Arcaishon"
+ HUB_NAME_STATE_GARONA_wood: "Pau"
  
  HUB_NAME_STATE_LES_city: "Mauguio"
  HUB_NAME_STATE_LES_farm: "Narbona"
@@ -471,3 +471,69 @@
  HUB_NAME_STATE_PROUVENCA_port: "Touloun"
  HUB_NAME_STATE_PROUVENCA_wood: "Niça"
  
+ #Galiza / United Kingdom
+ HUB_NAME_STATE_PORTUGALIZA_city: "Porto"
+ HUB_NAME_STATE_PORTUGALIZA_farm: "Santiago de Compostela"
+ HUB_NAME_STATE_PORTUGALIZA_mine: "Ponferrada"
+ HUB_NAME_STATE_PORTUGALIZA_port: "Coruña"
+ HUB_NAME_STATE_PORTUGALIZA_wood: "Bragança"
+
+ HUB_NAME_STATE_ASTURIAS_city: "Torrelavega"
+ HUB_NAME_STATE_ASTURIAS_farm: "Cangas de Onis"
+ HUB_NAME_STATE_ASTURIAS_mine: "Reinosa"
+ HUB_NAME_STATE_ASTURIAS_port: "Gijón" 
+ #HUB_NAME_STATE_ASTURIAS_wood: "Cangas del Narcea"
+
+ HUB_NAME_STATE_BASQUE_COUNTRY_city: "Pamplona"
+ HUB_NAME_STATE_BASQUE_COUNTRY_farm: "Gazteiz"
+ HUB_NAME_STATE_BASQUE_COUNTRY_mine: "Logroño"
+ HUB_NAME_STATE_BASQUE_COUNTRY_port: "Bilbao"
+ HUB_NAME_STATE_BASQUE_COUNTRY_wood: "Biarritz"
+
+ HUB_NAME_STATE_LEON_city: "Leão"
+ HUB_NAME_STATE_LEON_farm: "Madrid"
+ HUB_NAME_STATE_LEON_mine: "Salamanca"
+ HUB_NAME_STATE_LEON_wood: "Plasencia"
+
+ HUB_NAME_STATE_ENTROS_RIOS_city: "Soria"
+ HUB_NAME_STATE_ENTROS_RIOS_farm: "Torrejón"
+ HUB_NAME_STATE_ENTROS_RIOS_mine: "Arnedo"
+ HUB_NAME_STATE_ENTROS_RIOS_wood: "Ezcaray"
+
+ HUB_NAME_STATE_ARAGON_mine: "Teruel"
+
+ HUB_NAME_STATE_BEIRA_city: "Lisboa"
+ HUB_NAME_STATE_BEIRA_farm: "Aveiro"
+ HUB_NAME_STATE_BEIRA_mine: "Coimbra"
+ HUB_NAME_STATE_BEIRA_port: "Figueira"
+ HUB_NAME_STATE_BEIRA_wood: "Castel Branco"
+
+ HUB_NAME_STATE_GUADALAJARA_city: "Guadalajara"
+ HUB_NAME_STATE_GUADALAJARA_farm: "Aranjuez"
+ HUB_NAME_STATE_GUADALAJARA_mine: "Ciudad Real"
+ HUB_NAME_STATE_GUADALAJARA_wood: "Cuenca"
+
+ #Mauretania
+
+ HUB_NAME_STATE_LEVANTE_city: "Valencia"
+ HUB_NAME_STATE_LEVANTE_farm: "Murcia"
+ HUB_NAME_STATE_LEVANTE_mine: "Albacete"
+ HUB_NAME_STATE_LEVANTE_port: "Cartagena"
+ HUB_NAME_STATE_LEVANTE_wood: "Castellón"
+
+ HUB_NAME_STATE_TOLEDO_LA_MANCHA_city: "Toledo"
+ HUB_NAME_STATE_TOLEDO_LA_MANCHA_farm: "Mérida"
+ HUB_NAME_STATE_TOLEDO_LA_MANCHA_mine: "Guadalupe"
+ HUB_NAME_STATE_TOLEDO_LA_MANCHA_wood: "Cáceres"
+
+ HUB_NAME_STATE_CINETICO_city: "Evora"
+ HUB_NAME_STATE_CINETICO_farm: "Setùbal"
+ HUB_NAME_STATE_CINETICO_mine: "Beja"
+ HUB_NAME_STATE_CINETICO_port: "Lagos"
+ HUB_NAME_STATE_CINETICO_wood: "Badajoz"
+
+ HUB_NAME_STATE_BETICA_city: "Seville"
+ HUB_NAME_STATE_BETICA_farm: "Córdoba"
+ HUB_NAME_STATE_BETICA_mine: "Huelva"
+ HUB_NAME_STATE_BETICA_port: "Cádiz"
+ HUB_NAME_STATE_BETICA_wood: "Écija"

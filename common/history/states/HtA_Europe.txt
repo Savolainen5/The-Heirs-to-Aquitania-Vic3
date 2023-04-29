@@ -261,11 +261,16 @@
 	}
 	s:STATE_ARAGON = {
 		create_state = {
-			country = c:AQT
-			owned_provinces = { x506040 x202982 x9060C0 x339B06 x2555A4 x076DE0 x30A080 x5FB607 x45B331 xA603C7 }
+			country = c:CAT
+			owned_provinces = { x506040 x202982 x9060C0 x339B06 x2555A4 x076DE0 x45B331 xA603C7 }
+		}
+		create_state = {
+			country = c:MAU
+			owned_provinces = { x5FB607 x30A080 }
 		}
 		
 		add_homeland = hispanian
+		add_homeland = catalan
 	}
 	s:STATE_BASQUE_COUNTRY = {
 		create_state = {
@@ -273,7 +278,7 @@
 			owned_provinces = { xA1037C xAC1425 xCB3245 x5DB702 x9EC9B8 }
 		}
 		create_state = {
-			country = c:AQT
+			country = c:CAT
 			owned_provinces = { x702080 x48868C x10E0C0 xABE0B3 x6E16BB x073FC4 }
 		}
 		
@@ -282,7 +287,7 @@
 	}
 	s:STATE_CATALONIA = {
 		create_state = {
-			country = c:AQT
+			country = c:CAT
 			owned_provinces = { xE0C020 xD616D2 x11E041 x08B4D6 x945748 x906040 x936FF3 x2914C3 x0C64AC xC2FFD9 x890622 }
 		}
 		

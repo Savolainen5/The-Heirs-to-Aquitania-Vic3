@@ -132,7 +132,7 @@
  STATE_LEVANTE: "Levante"
  STATE_GUADALAJARA: "Guadalajara"
  STATE_TOLEDO_LA_MANCHA: "Toledo-La Mancha"
- STATE_GRANADA: "Granada"
+ #STATE_GRANADA: "Granada" #Apparently unnecssary
  STATE_BETICA: "Bética"
  STATE_CINETICO: "Cinético"
 
