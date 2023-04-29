@@ -158,26 +158,6 @@
 			type = puppet
 		}
 	}
-	c:NET = {
-		create_diplomatic_pact = {
-			country = c:GDL
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:NHL
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:SAF
-			type = puppet
-		}
-		
-		# "Colony" of Maregen
-		create_diplomatic_pact = {
-			country = c:MRG
-			type = puppet
-		}
-	}
 	c:ROM = {
 		create_diplomatic_pact = {
 			country = c:MON

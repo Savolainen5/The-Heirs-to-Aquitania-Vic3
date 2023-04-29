@@ -732,7 +732,7 @@ TUV = {
 
 COR = {
 	states = {
-		STATE_CORSICA
+		STATE_BEORNICE
 	}
 	ai_will_do = { always = no }
 }

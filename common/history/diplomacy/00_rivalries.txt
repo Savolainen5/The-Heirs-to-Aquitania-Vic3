@@ -1,16 +1,4 @@
 ﻿DIPLOMACY = {
-	c:AEN = {
-		create_diplomatic_pact = {
-			country = c:FRA
-			type = rivalry
-		}
-	}
-	c:FRA = {
-		create_diplomatic_pact = {
-			country = c:AEN
-			type = rivalry
-		}
-	}		
 
 	c:PDN = {
 		create_diplomatic_pact = {

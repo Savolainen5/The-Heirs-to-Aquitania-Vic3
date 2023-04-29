@@ -11,7 +11,7 @@
 	tier = kingdom
 	
 	cultures = { aenglish }
-	capital = STATE_SUDSAXE
+	capital = STATE_NORDUMBRE
 }
 	
 AQT = { #Aquitania

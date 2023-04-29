@@ -2664,7 +2664,7 @@ COR = {
 	country_type = recognized
 	tier = principality
 	cultures = { corsican }
-	capital = STATE_CORSICA
+	capital = STATE_BEORNICE
 }
 
 TNS = {

@@ -103,7 +103,8 @@
  STATE_MIERCE: "Mierce"
  STATE_WEALES: "Weales"
  STATE_COMBRE: "Combre"
- STATE_NORDUMBRE: "Nordumbre"
+ STATE_NORDUMBRE: "Eoferwic"
+ STATE_BEORNICE: "Beornice"
 
  #Alba
  STATE_GHALLDACHD: "Ghalldachd"

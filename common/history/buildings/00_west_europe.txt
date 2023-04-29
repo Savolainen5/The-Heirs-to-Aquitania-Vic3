@@ -749,7 +749,7 @@
 			}
 		}
 	}
-	s:STATE_CORSICA={
+	s:STATE_BEORNICE={
 		region_state:IRE={ 								#NEEDS EDITING TO FIT NEW REGION
 			create_building={
 				building="building_livestock_ranch"

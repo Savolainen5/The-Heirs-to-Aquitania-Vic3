@@ -380,23 +380,29 @@
  HUB_NAME_STATE_MIERCE_wood: "Gildenburh"
 
  HUB_NAME_STATE_NORDUMBRE_city: "Eforwyc"
- HUB_NAME_STATE_NORDUMBRE_port: "Monkcestre"
- HUB_NAME_STATE_NORDUMBRE_mine: "Dor"
- HUB_NAME_STATE_NORDUMBRE_farm: "Seltle"
- HUB_NAME_STATE_NORDUMBRE_wood: "Wyc"
+ HUB_NAME_STATE_NORDUMBRE_port: "Mydilsburh"
+ HUB_NAME_STATE_NORDUMBRE_mine: "Wyc"
+ HUB_NAME_STATE_NORDUMBRE_farm: "Loidis"
+ HUB_NAME_STATE_NORDUMBRE_wood: "Donnecestre"
+ 
+ HUB_NAME_STATE_BEORNICE_city: "Bebbanburh"
+ HUB_NAME_STATE_BEORNICE_port: "Monkcestre"
+ HUB_NAME_STATE_BEORNICE_mine: "Edenburh"
+ HUB_NAME_STATE_BEORNICE_farm: "Selecirce"
+ HUB_NAME_STATE_BEORNICE_wood: "Carves"
 
  HUB_NAME_STATE_COMBRE_city: "Selhford"
  HUB_NAME_STATE_COMBRE_port: "Liferpol"
  HUB_NAME_STATE_COMBRE_mine: "Blacburna"
- HUB_NAME_STATE_COMBRE_farm: "Carves"
+ HUB_NAME_STATE_COMBRE_farm: "Ceastre"
  HUB_NAME_STATE_COMBRE_wood: "Barrey"
 
  #Alba
 
- HUB_NAME_STATE_GHALLDACHD_city: "Dùn Èideann"
+ HUB_NAME_STATE_GHALLDACHD_city: "Glaschu"
  HUB_NAME_STATE_GHALLDACHD_port: "Obar Dheathain"
  HUB_NAME_STATE_GHALLDACHD_mine: "Dùn Phris"
- HUB_NAME_STATE_GHALLDACHD_farm: "Glaschu"
+ HUB_NAME_STATE_GHALLDACHD_farm: "Inbhir Àir"
  HUB_NAME_STATE_GHALLDACHD_wood: "Dùn Dé"
 
  HUB_NAME_STATE_GHAIDHEALTACHD_city: "Inbhir Nis"

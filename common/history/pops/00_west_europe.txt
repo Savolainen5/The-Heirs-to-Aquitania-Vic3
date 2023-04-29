@@ -240,7 +240,7 @@
 			}
 		}
 	}
-	s:STATE_CORSICA = {				#Hopefully the presence of corsican pops will help someone remember to fix buildings and map_data for it, too :D
+	s:STATE_BEORNICE = {				#Hopefully the presence of corsican pops will help someone remember to fix buildings and map_data for it, too :D
 		region_state:IRE = {
 			create_pop = {
 				culture = corsican
