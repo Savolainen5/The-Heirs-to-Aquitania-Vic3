@@ -7,4 +7,32 @@
 		effect_starting_pop_wealth_medium = yes
 		effect_starting_pop_literacy_low = yes
 	}
+	c:EOF = {
+		effect_starting_pop_wealth_medium = yes
+		effect_starting_pop_literacy_high = yes
+	}
+	c:BEO = {
+		effect_starting_pop_wealth_medium = yes
+		effect_starting_pop_literacy_high = yes
+	}
+	c:SEV = {
+		effect_starting_pop_wealth_medium = yes
+		effect_starting_pop_literacy_high = yes
+	}
+	c:SNO = {
+		effect_starting_pop_wealth_medium = yes
+		effect_starting_pop_literacy_high = yes
+	}
+	c:ELY = {
+		effect_starting_pop_wealth_medium = yes
+		effect_starting_pop_literacy_high = yes
+	}
+	c:OXF = {
+		effect_starting_pop_wealth_medium = yes
+		effect_starting_pop_literacy_high = yes
+	}
+	c:IRE = {
+		effect_starting_pop_wealth_medium = yes
+		effect_starting_pop_literacy_high = yes
+	}
 }

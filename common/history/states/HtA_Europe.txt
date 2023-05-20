@@ -8,22 +8,7 @@
 		add_homeland = russian
 		add_homeland = byelorussian
 	}
-	s:STATE_SUDSAXE = {
-		create_state = {
-			country = c:FRA
-			owned_provinces = {x60E0C0 x58D3AE x625993 x39F45B x19CECD x800020 xE060C0 x7543C8 }
-		}
-		
-		add_homeland = aenglish
-	}
-	s:STATE_COMBRE = {
-		create_state = {
-			country = c:IRE
-			owned_provinces = {  x410CE6   x60E000   x65617C   xE06000   xE0E000   }
-		}
-		
-		add_homeland = aenglish
-	}
+	
 	s:STATE_PROUVENCA = {
 		create_state = {
 			country = c:AQT
@@ -360,19 +345,91 @@
 	s:STATE_WEALES = {
 		create_state = {
 			country = c:WLS
-			owned_provinces = {  x2020C0   x20A040   x633EF5   x70D92B   x775D55   xA02040   xA021B0   xA0A040   xA220D6   xA2308A   xB7FC74  }
+			owned_provinces = { x2020C0 x20A040   x633EF5   x70D92B   x775D55   xA02040   xA0A040   xA2308A   xB7FC74  }
 		}
-		
-		add_homeland = aenglish
 		add_homeland = welsh
 	}
 	s:STATE_NORDUMBRE = {
 		create_state = {
-			country = c:AEN
-			owned_provinces = {  x527116   x5544D0   x606080   x86B021   xB5BF4E   xE06080   xEDC0BA  }
+			country = c:EOF
+			owned_provinces = {  x527116   x606080   x86B021   xB5BF4E   xE06080   xEDC0BA x5544D0  }
 		}
 		
 		add_homeland = aenglish
+	}
+	s:STATE_SUDSAXE = {
+		create_state = {
+			country = c:FRA
+			owned_provinces = {x60E0C0 x625993 x39F45B x19CECD x800020 xE060C0 x7543C8 }
+		}
+		create_state = {
+			country = c:OXF
+			owned_provinces = { x58D3AE }
+		}
+		add_homeland = french
+		add_homeland = aenglish
+	}
+	s:STATE_COMBRE = {
+		create_state = {
+			country = c:BEO
+			owned_provinces = {  x410CE6   x60E000   x65617C   xE06000   xE0E000   }
+		}
+		
+		add_homeland = aenglish
+	}
+	s:STATE_MIERCE = {
+		create_state = {
+			country = c:SEV
+			owned_provinces = {   x6020C0  x99305F  x11C2BB xA021B0 xA220D6 }
+		}
+		create_state = {
+			country = c:SNO
+			owned_provinces = {  x20A0C0 xE0E080 xA0A0C0 }
+		}
+		create_state = {
+			country = c:ELY
+			owned_provinces = {  x2482B4 x528DEE x60E080 }
+		}
+		add_homeland = aenglish
+	}
+	s:STATE_ESSAXE = {
+		create_state = {
+			country = c:FRA
+			owned_provinces = {  x60A040   x618949  xE0E0C0 }
+		}
+		create_state = {
+			country = c:OXF
+			owned_provinces = { xE0A040 }
+		}
+		
+		create_state = {
+			country = c:ELY
+			owned_provinces = {  x5024FD   x516676   x73EF57     x8C667B  x6D87D7     xE02040  }
+		}
+		
+		add_homeland = french
+		add_homeland = aenglish
+	}
+	s:STATE_WESSAXE = {
+		create_state = {
+			country = c:FRA
+			owned_provinces = {  x1E38F8   x225544   x6060C0   x63EF7E   x65B395   xA2DD9E   xC900EF   xE0E040   xEB9862   }
+		}
+		create_state = {
+			country = c:SEV
+			owned_provinces = {  xE020C0  }
+		}
+		add_homeland = french
+		add_homeland = aenglish
+	}
+	s:STATE_BEORNICE = {
+		create_state = {
+			country = c:BEO
+			owned_provinces = {   x0B53FA   x606000   x80F634   x824DB7   xA0E080   xA242B2   xD01BE2   xDCD566   xE74158  }
+		}
+		
+		add_homeland = aenglish
+		add_homeland = alban
 	}
 	s:STATE_GHAIDHEALTACHD = {
 		create_state = {
@@ -381,30 +438,6 @@
 		}
 		
 		add_homeland = alban
-	}
-	s:STATE_MIERCE = {
-		create_state = {
-			country = c:AEN
-			owned_provinces = {   x11C2BB   x20A0C0   x2482B4   x528DEE   x6020C0   x60E080   x99305F   xA0A0C0   xE0E080  }
-		}
-		
-		add_homeland = aenglish
-	}
-	s:STATE_ESSAXE = {
-		create_state = {
-			country = c:FRA
-			owned_provinces = {  x5024FD   x516676   x60A040   x618949   x6D87D7   x73EF57     x8C667B   xE02040   xE0A040   xE0E0C0 }
-		}
-		
-		add_homeland = aenglish
-	}
-	s:STATE_WESSAXE = {
-		create_state = {
-			country = c:FRA
-			owned_provinces = {  x1E38F8   x225544   x6060C0   x63EF7E   x65B395   xA2DD9E   xC900EF   xE020C0   xE0E040   xEB9862   }
-		}
-		
-		add_homeland = aenglish
 	}
 	s:STATE_GHALLDACHD = {
 		create_state = {
@@ -1700,17 +1733,7 @@
 		add_homeland = romanian
 		add_homeland = serb
 	}
-	
-	#Below is actually Lothian
-	s:STATE_BEORNICE = {
-		create_state = {
-			country = c:IRE
-			owned_provinces = {   x0B53FA   x606000   x80F634   x824DB7   xA0E080   xA242B2   xD01BE2   xDCD566   xE74158  }
-		}
-		
-		add_homeland = corsican
-		add_homeland = north_italian
-	}
+
 
 
 }

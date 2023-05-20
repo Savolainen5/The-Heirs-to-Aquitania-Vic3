@@ -21,7 +21,7 @@
 	}
 	s:STATE_GHANA = {
 		create_state = {
-			country = c:AEN
+			country = c:FRA
 			owned_provinces = { x8504E6 }
 			state_type = unincorporated
 		}
@@ -180,7 +180,7 @@
 
 		}
 		create_state = {
-			country = c:AEN
+			country = c:FRA
 			owned_provinces = { xD0E090 x60E0B0 }
 			state_type = unincorporated
 

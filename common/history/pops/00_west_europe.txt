@@ -190,78 +190,145 @@
 		}
 	}
 	s:STATE_SUDSAXE = {
-		region_state:FRA = {
+		region_state:FRA = { #1831 census pops for Surrey, Kent, Middlesex, Hampshire and Sussex, reduced Middlesex pop by half (as London isn't a major city here) and reduced total pop by 90% (due to not being as major of a capital region as OTL). Made 20% of the remainder French)
 			create_pop = {
-				culture = aenglish
-				size = 2657596
+				culture = anglosaexoun
+				size = 1606879
 			}
 			create_pop = {
-				culture = aenglish
-				religion = jewish
-				size = 20000
+				culture = french
+				size = 401719
 			}
+		}
+		region_state:OXF = {
 			create_pop = {
-				culture = aenglish
-				religion = catholic
-				size = 100000
+				culture = anglosaexoun			#Take the pops of Oxford in 1831 census and reduce by 10% due to civil war and trade barriers
+				size = 138173
 			}
-#			create_pop = {
-#				culture = eirean
-#				size = 28400
-#			}
 		}
 	}
-	s:STATE_COMBRE = {
-		region_state:IRE = {
+	s:STATE_ESSAXE = {
+		region_state:FRA = {	#Take the pops of Essex (Aenglish), Hertford and Bedford (Anglosaexoun) in 1831 census (no reduction due to trade with France at the cost of 10% now being French)
 			create_pop = {
-				culture = aenglish
-				size = 1986404
+				culture = anglosaexoun
+				size = 214494
 			}
 			create_pop = {
 				culture = aenglish
 				religion = catholic
-				size = 85700
+				size = 285756
 			}
 			create_pop = {
-				culture = alban
-				size = 80700
+				culture = french
+				size = 55583
+			}
+		}
+		region_state:ELY = {
+			create_pop = {
+				culture = aenglish
+				size = 787165					#Take the pops of Norfolk, Suffolk and Cambridgeshire in 1831 census and reduce by 10% due to civil war and trade barriers
+			}
+			create_pop = {
+				culture = aenglish
+				religion = catholic
+				size = 18000
+			}
+		}
+		region_state:OXF = {
+			create_pop = {					#Take the pops of Buckinghamshire in 1831 census and reduce by 10% due to civil war and trade barriers
+				culture = anglosaexoun
+				size = 132279
+			}
+		}
+	}
+	s:STATE_WESSAXE = {
+		region_state:FRA = {			#Take the previous pops and subtract the pops of Glouchester in 1831 (no reduction due to trade with France at the cost of 10% now being French)
+			create_pop = {	
+				culture = anglosaexoun
+				size = 1435141
+			}
+			create_pop = {
+				culture = french
+				size = 159460
+			}
+		}
+		region_state:SEV = {	#Take the pops of Glouchester in 1831 census and reduce by 10% due to civil war and trade barriers
+			create_pop = {
+				culture = anglosaexoun
+				size = 348658
 			}
 		}
 	}
 	s:STATE_WEALES = {
-		region_state:WLS = {
+		region_state:WLS = { #Census data from 1831, 7.5% made into Irishmen
 			create_pop = {
 				culture = welsh
-				size = 778557
+				size = 716407
 			}
 			create_pop = {
-				culture = aenglish
-				size = 194639
-			}
-		}
-	}
-	s:STATE_BEORNICE = {				#Hopefully the presence of corsican pops will help someone remember to fix buildings and map_data for it, too :D
-		region_state:IRE = {
-			create_pop = {
-				culture = corsican
-				size = 196476
+				culture = eirean
+				size = 58087
 			}
 		}
 	}
-	s:STATE_NORDUMBRE = {
-		region_state:AEN = {
+	s:STATE_NORDUMBRE = { #Taken from 1831 census on York but the population of the West Riding is reduced by 20%}
+		region_state:EOF = {
 			create_pop = {
 				culture = aenglish
-				size = 2026592
+				size = 1175044
 			}
+		}
+	}
+	s:STATE_MIERCE = {
+		region_state:SNO = { #Take the pops of Staffordshire, Leichestershire, Nottinghamshire, Northamptonshire, Rutland and Derbyshire in 1831 census and reduce by 10% due to civil war and trade barriers
 			create_pop = {
-				culture = alban
-				size = 16000
+				culture = aenglish
+				size = 1116530
+			}
+			create_pop = { 
+				culture = aenglish
+				religion = catholic
+				size = 24400
+			}
+		}
+		region_state:SEV = { #Take the pops of Shropshire, Herefordshire, Worchestershire and Warwickshire in 1831 census and reduce by 10% due to civil war and trade barriers, 60% Catholics, 40%Protestant
+			create_pop = {
+				culture = aenglish
+				size = 318036
 			}
 			create_pop = {
 				culture = aenglish
 				religion = catholic
-				size = 48000
+				size = 477054
+			}
+		}
+		region_state:ELY = { #Take the pops of Huntingdonshire and Lincolnshire in 1831 census and reduce by 10% due to civil war and trade barriers
+			create_pop = {
+				culture = aenglish
+				size = 333591
+			}
+	}
+	s:STATE_BEORNICE = {
+		region_state:BEO = {	#Take 1831 Census pops for Cumberland, Northumberland, Durham, Berwickshire, Edinburghshire, Haddingtonshire, Linlithgowshire, Peebleshire, Selkirkshire, Roxburghshire
+			create_pop = {	#Why can't you be normal Scotland, and not have like 8 million tiny counties
+				culture = aenglish
+				size = 917442
+			}
+			create_pop = {	# Make 10% of the above Alban due to migration over the years
+				culture = alban
+				size = 101938
+			}
+		}
+	}
+	s:STATE_COMBRE = {
+		region_state:BEO = {	#Take 1831 Census pops for Lancashire, Cheshire and Westmoreland minus off 100000 Irishmen
+			create_pop = {
+				culture = aenglish
+				size = 1315954
+			}
+			create_pop = {		# Incredibly rough back of the envelope calculations based on % increase from 1841-1851 (pre-Great Famine) and working backwards from the number of Irishmen in Lancaster in 1851 to determine amount in 1841 and using that 1841 number for 1831 - need to find a better number
+				culture = eirean
+				size = 109432
 			}
 		}
 	}
@@ -278,58 +345,11 @@
 			}
 		}
 	}
-	s:STATE_MIERCE = {
-		region_state:AEN = {
-			create_pop = {
-				culture = aenglish
-				size = 2543604
-			}
-			create_pop = {
-				culture = aenglish
-				religion = catholic
-				size = 24400
-			}
-#			create_pop = {
-#				culture = eirean
-#				size = 12000
-#			}
-		}
-	}
-	s:STATE_ESSAXE = {
-		region_state:FRA = {
-			create_pop = {
-				culture = aenglish
-				size = 1565208
-			}
-			create_pop = {
-				culture = aenglish
-				religion = catholic
-				size = 8000
-			}
-		}
-	}
-	s:STATE_WESSAXE = {
-		region_state:FRA = {
-			create_pop = {
-				culture = aenglish
-				size = 1969600
-			}
-			create_pop = {
-				culture = aenglish
-				religion = catholic
-				size = 12400
-			}
-#			create_pop = {
-#				culture = eirean
-#				size = 4400
-#			}
-		}
-	}
 	s:STATE_GHALLDACHD = {
 		region_state:IRE = {
-			create_pop = {
+			create_pop = {				#Same number subtracting population in areas which are now part of Beornice
 				culture = alban
-				size = 1197200
+				size = 817297
 			}
 			create_pop = {
 				culture = alban

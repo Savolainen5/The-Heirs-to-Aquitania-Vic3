@@ -2126,7 +2126,7 @@ british={ # "English" in localization
 
 irish={
 	color= hsv{ 0.35 0.58 0.54 }
-	religion = catholic
+	religion = protestant
 	traits = { celtic_people european_heritage }
 	# could have anglophone but would make them non-discriminated in Britain
 	male_common_first_names={

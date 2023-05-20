@@ -10,3 +10,55 @@
 	
 	ai_will_do = { always = yes }
 }
+
+AEN = {
+	use_culture_states = yes
+	
+	is_major_formation = yes
+	
+	unification_play = dp_unify_aengland
+	leadership_play = dp_leadership_aengland
+
+	required_states_fraction = 0.625
+	
+	ai_will_do = { always = yes }
+
+	possible = {
+		OR = {
+			country_has_primary_culture = cu:aenglish
+			country_has_primary_culture = cu:saexoun
+		}	
+		any_country = {
+			OR = {
+				country_has_primary_culture = cu:aenglish
+				country_has_primary_culture = cu:saexoun
+			}			
+			has_technology_researched = nationalism
+		}
+	}
+}
+
+ANC = {
+	states = {
+		STATE_NORDUMBRE
+		STATE_MIERCE
+		STATE_COMBRE
+		STATE_BEORNICE
+	}
+	
+	required_states_fraction = 0.5
+	
+	ai_will_do = { always = yes }
+}
+
+BRT = {
+	states = {
+		STATE_SUDSAXE
+		STATE_ESSAXE
+		STATE_WESSAXE
+	}
+	
+	required_states_fraction = 1
+	
+	ai_will_do = { always = yes }
+}

@@ -63,7 +63,7 @@
 			state_type = unincorporated
 		}
 		create_state = {
-			country = c:AEN
+			country = c:FRA
 			owned_provinces = { x5CC6B6 }
 			state_type = unincorporated
 		}
@@ -198,7 +198,7 @@
 	}
 	s:STATE_ORISSA = {
 		create_state = {
-			country = c:AEN
+			country = c:FRA
 			owned_provinces = {
 				xBAE4B3 xA15F01 xB6E5C1 x323B8A x0CE6EA xCCE5B7 x22B96B x30C2D5 xA0A8E0 x11D169 x404EEA xFBF096 x1504AD x1622F2 x5BC5C8 x5031A0 xB07FDD
 				xBB9552 x597E99 xFFBC41 x38A6E6 xD031A0 xA2EF24
@@ -230,7 +230,7 @@
 	}
 	s:STATE_CIRCARS = {
 		create_state = {
-			country = c:AEN
+			country = c:FRA
 			owned_provinces = { xCDFBE6 xC744F9 xD19AD8 x477063 x7166FA xB3DED5 xB00B6B x3EC5D1 x9070A0 x6B15F1 x73B187 xEBBB7A xE2CF64 xF8BB81 x8B1F32 x207C4F x11F0A0 x9193B1 x42F4F2 x365CC3 xE9BCE7 x180640 xCFF020 x0AC82E x338BFB x0F1912 xF2F82A x063403 x34BB3B x5170A0 xF46AEC x84EE56 x35AB0E xF91482 x54D463 x461A00 x59BBE1 x669373 }
 			state_type = unincorporated
 		}
@@ -267,7 +267,7 @@
 			owned_provinces = { x9C673D x4B7422 x8B8B4D x9B0E9E x958AC3 xF036D0 x015F11 xA939B9 xA11B88 xD51B8A xD03120 x96CDBD xBDB272 x53D2AE x9473DC xBE1F55 x90F020 xE1911A xE9111A xED9802 x78E85C x4A2157 x0E41BA x471CDC x51B021 }
 		}
 		create_state = {
-			country = c:AEN
+			country = c:FRA
 			owned_provinces = { x8ECE82 x013159 xF09DA1 x1170A0 xB56E8E x2F70FB x274E94 x66F24C x20BC2C xC38F66 }
 			state_type = unincorporated
 		}
@@ -303,7 +303,7 @@
 			state_type = treaty_port
 		}
 		create_state = {
-			country = c:AEN
+			country = c:FRA
 			owned_provinces = { x99B424 x61FE06 x07104C x56456B x9A2EF3 xAEAE4C x0E2990 x10B060 xA3158E x2EAD15 x7CCE50 xA02050 x620762 xA021D0 x1FF7C6 x0559B3 x5AF5BE x20A050 x9E4F00 xEC1945 xB278DD x2D75FD x486310 xA63901 x6A381C }
 			state_type = unincorporated
 		}
@@ -539,7 +539,7 @@
 			owned_provinces = { x5157D3 xDA82F4 x7AC280 xAE71B4 xEC5DEA xA2F773 x6ED39E xE4C2D6 x9D4BD1 xDC4677 xEAF2DC x339E85 x7C7431 xD3A66E x983FEB x5BE3D2 }
 		}
 		create_state = {
-			country = c:AEN
+			country = c:FRA
 			owned_provinces = { xA1341F x91B001 x01C030 xD2D88C x9377DF xE0A0F0 x85B004 x8A3E15 x257D2C x79A66E }
 			state_type = unincorporated
 		}
@@ -557,7 +557,7 @@
 	}
 	s:STATE_SOUTH_SUMATRA = {
 		create_state = {
-			country = c:AEN
+			country = c:FRA
 			owned_provinces = { xDBE794 xA97585 x74812B x847F76 xE226FB x31E5B1 xE49A2F xE962F4 x174432 x7945C0 x7FFD6B x0D0BEB x4CF770 x00F15A }
 			state_type = unincorporated
 		}
@@ -583,7 +583,7 @@
 			}
 		}
 		create_state = {
-			country = c:AEN
+			country = c:FRA
 			owned_provinces = {
 				xAB0290 x9A7E0B x60E050 xC266CF
 			}
@@ -691,7 +691,7 @@
 			owned_provinces = { xF9F87A x80C0B0 xCAB9F2 xAA2287 x78EF92 xCF3E8D xD8E596 xE87C53 x374A68 xAF3737 x66170B x660411 xB6B53D x6CFA94 xFCBAFC x23578B x8E3305 xC84C4C x8080B0 x76546D x0080B0 }
 		}
 		create_state = {
-			country = c:AEN
+			country = c:FRA
 			owned_provinces = { x08673B }
 			state_type = unincorporated
 		}

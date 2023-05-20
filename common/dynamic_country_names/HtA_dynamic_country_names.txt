@@ -1,5 +1,34 @@
 ﻿### Try to keep tags in alphabetical order
 
+
+BRT = { #Bretagnie/Saexanie
+	dynamic_country_name = { #Saexanie
+		name = dyn_c_saexanie
+		adjective = #same
+		
+		is_main_tag_only = yes
+		priority = 5
+		
+		trigger = {
+			OR = {
+				AND = {
+					exists = c:FRA
+					c:FRA = {
+						has_diplomatic_pact = {
+							who = c:BRT
+							type = vassal
+							is_initiator = yes
+						}	
+					}
+				}
+				scope:actor = {
+					capital = { state_region = s:STATE_SUDSAXE }
+				}	
+			}	
+		}
+	}
+}
+
 CAT = { #Catalonia
 	dynamic_country_name = { #Catalonia-Navarra
 		name = dyn_c_catalonia_navarra

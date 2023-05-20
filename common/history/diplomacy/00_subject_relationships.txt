@@ -16,10 +16,10 @@
 		#	type = dominion
 		#}
 		
-		# Aengland
+		# Beornicia
 		create_diplomatic_pact = {
-			country = c:AEN
-			type = protectorate
+			country = c:BEO
+			type = puppet
 		}
 		# Weales
 		create_diplomatic_pact = {

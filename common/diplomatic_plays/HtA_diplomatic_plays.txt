@@ -1,0 +1,47 @@
+﻿dp_unify_aengland = {
+	war_goal = unification
+	
+	requires_interest_marker = no
+	blocked_by_diplomatic_status = no
+	
+	texture = "gfx/interface/icons/war_goals/unification.dds" #will get legit icons later
+	
+	selectable_in_lens = {
+		always = no
+	}
+	
+	possible = {
+		NOT = { exists = c:AEN }
+		NOT = { is_country_type = decentralized }
+		has_technology_researched = pan-nationalism
+	}
+	
+	on_weekly_pulse = {}
+	
+	on_war_begins = {}
+
+	on_war_end = {}
+}
+
+dp_leadership_aengland = {
+	war_goal = unification_leadership
+	
+	requires_interest_marker = no
+	mirror_war_goal = yes
+	
+	texture = "gfx/interface/icons/war_goals/unification.dds" #will get legit icons later
+	
+	selectable_in_lens = {
+		always = no
+	}	
+	
+	possible = {
+		has_technology_researched = nationalism			
+	}
+	
+	on_weekly_pulse = {}
+	
+	on_war_begins = {}
+
+	on_war_end = {}
+}

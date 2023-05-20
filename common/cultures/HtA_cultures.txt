@@ -1,6 +1,6 @@
 ﻿aenglish={
 	color={ 247  56  42 }
-	religion = catholic
+	religion = protestant
 	traits = { anglophone european_heritage }
 
 	male_common_first_names={
@@ -33,6 +33,79 @@
 		of_Crawa of_Grensted of_Hesdin of_Hopa of_Marck of_Niwetun of_Torcy of_Tosny of_Tregole of_Waddsdone Paddan Peasmor
 		Prest Ramseg Reeve Rid Roscow Rowleg Saswalo Scottow Serlo Shelswell Somes Smid Still Swening Thein Tomsete Totibarn
 		Urso Vilgrip Vitalis Waler Weld Wulfno
+	}
+	
+	male_regal_first_names = {
+		Athelstan
+		Oswald
+		Eadward
+		Aelfread
+	}
+	
+	female_regal_first_names = {
+		Aethelflaed # Need others
+	}
+	
+	regal_last_names = {
+		Eadricing # Descendents of an Eadric who liberated the Severn from French rule in HtA3
+		Iserning # House of Elig, cadet branch of the House of Wessex HtA3
+		Eadwulfing # House of Bamburgh, last of the Anglo-Saxon houses still in power (in Snotengaham)
+		Christening # House of Eoforwic, descendents of a Danish king brought over to rule over the Anglo-Saxons
+		Dalcais # Personal union between Beornice and the High Kingdom
+	}
+		
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
+anglosaexoun={
+	color={ 127  56  52 }
+	religion = catholic
+	traits = { francophone anglophone european_heritage }
+
+	male_common_first_names={ #Need to frenchify these names
+		Aelfgar Aelric Aelwold Aethelber Aethelwine Arnolf Azur
+		Bordelm Borthric Bortsige Borwin Boren Bricmer Burghard Byrnod 
+		Cenwulf Cerdic Cnut Cola Copsige Cuthbert Cypping Doda
+		Edmer Edric Edulf Edweard Edwig Edwin Eldred Ealdwulf Enfrid Estan
+		Fulcred Fulcwin Gamal Godwin Grim Gudmund Gyrd 
+		Hacon Haimo Harold Herlewin Inwer Ivo Ledmer Lofget Lofric Lofweld Lofwin 
+		Maccus Manno Merlwen Morcar Odo Ordgar Orm Osborn Osmund Osric Oswin
+		Petre Radwulf Rafwin Renweld Roberth
+		Sarwin Sigeric Siward Stigand Swegn Swithelm Swithring
+		Thedric Thored Thurfrid Tosti Turstin Ulf 
+		Waldof Wiglaf Wigot Woro Wulf Wulfhelm
+	}
+	
+	female_common_first_names = { #Need to frenchify these names
+		Aebba Aelfflaed Aelfgif	Aelfgyd	Aelflaeda Aelfrida Aelfthryd Aelfwynn Aethelburg Aethelburh Aethelflaed Aethelgif Aethelhild Aethelreda Aethelswith
+		Aethelthryd Agatha Balthild Berhtgyd Berhtwaru Berhtwynn Bernflaed Berngyd Bertflaed Bertgif Blaeja Burgflaed Celflaed Cristina Cuthburg Cwenburg Cyneburg
+		Cynegyd Cynehild Cyneswith Cynethryd Eadburg Eadfled Eadgif Eadgyd Eadhburh Eadhild Ealdgyd Ecfrida Ecwyn Godgif Gunhild Gyda Helga Heregyd Hereswith
+		Hexilda Hungif Judith Lefflaed Lefgif Lefrun Lefwar Lefwynn Margaret Maud Mildrith Octreda Saethryd Seaxburh Sifflaed Sigrid Waerburg Witburhyd
+		Wulfflaed Wulfgif Wulfgyd Wulfhild Wulfrun Wulfthryd Wulfwaru Wulfwynn Wynnflaed
+	}
+	
+	common_last_names = { #Need to frenchify these names
+		Aelfstan Aethelwerd Alby Algot Alston Altone Autibern Bennag Birkenfod Blec Bodwin Brictric Bruning Carlel
+		Cetham Colling Conded Corelmann Daging Danmann Denholm Dirling Edwys Elton Erle Estone Etwell Felcener Fingast
+		Gren Grencin Grimbald Halwel Hegden Heghurst Hering Holcastre Kemp Ketilbern Kollung Langfer Latton_Parhome
+		Lester Lincleg Lyter Marculf Mertuna Mundred Nawen Normann Nortuna Oforbert Ogercin Othenkar of_Alwold of_Cottesbec
+		of_Crawa of_Grensted of_Hesdin of_Hopa of_Marck of_Niwetun of_Torcy of_Tosny of_Tregole of_Waddsdone Paddan Peasmor
+		Prest Ramseg Reeve Rid Roscow Rowleg Saswalo Scottow Serlo Shelswell Somes Smid Still Swening Thein Tomsete Totibarn
+		Urso Vilgrip Vitalis Waler Weld Wulfno
+	}
+	
+	male_regal_first_names = { #Need to frenchify these names
+		Athelstan
+		Oswald
+		Eadward
+		Aelfread
+	}
+	
+	female_regal_first_names = { #Need to frenchify these names
+		Aethelflaed # Need others
 	}
 		
 	graphics = european
@@ -897,7 +970,7 @@ cruzan={ #Spanish Cruceño after the defunct colonial region of la Tierra de la 
 
 eirean={
 	color={ 35 140 50 }
-	religion = catholic
+	religion = protestant
 	traits = { celtic_people european_heritage }
 	male_common_first_names={
 		Abba_n A__dhamh Alastar Anrai_ Aodh Aodha_n Aonghus Artu_r Bairre Bran Breasal Breanda_n Brian Caola_n Cathal Cathaoir Ciara_n Cillian

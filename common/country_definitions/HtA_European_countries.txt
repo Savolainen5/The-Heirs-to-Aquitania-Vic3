@@ -11,9 +11,139 @@
 	tier = kingdom
 	
 	cultures = { aenglish }
+	capital = STATE_MIERCE
+}
+
+ANC = { #Aenglish Confederation
+	color = { 80 0 0 } # very deep red
+	# brown { 100 60 20 }
+	# greyerish red{ 140 75 75 } # yes
+	# rich cyan { 0 180 190 }
+	# pale cyan{ 85 200 175 }
+	
+	country_type = recognized
+
+	tier = grand_principality
+	
+	cultures = { aenglish }
+	capital = STATE_MIERCE
+}
+
+BRT = { #Bretagnie
+	color = { 54 65 124 } 
+	# { 124 72 21 } #ochre-brown, yes
+	# brown { 100 60 20 }
+	# gold
+	# greyerish red{ 140 75 75 } # yes
+	# rich cyan { 0 180 190 }
+	# pale cyan{ 85 200 175 }
+	
+	country_type = recognized
+
+	tier = grand_principality
+	
+	cultures = { saexoun french }
+	capital = STATE_WESSAXE
+}
+
+BEO = { #Beornice
+	color = { 255 241 91 } 
+	# { 124 72 21 } #ochre-brown, yes
+	# brown { 100 60 20 }
+	#gold
+	# greyerish red{ 140 75 75 } # yes
+	# rich cyan { 0 180 190 }
+	# pale cyan{ 85 200 175 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { aenglish }
+	capital = STATE_BEORNICE
+}
+
+EOF = { #Eoferwic
+	color = { 239 252 255 } 
+	# { 124 72 21 } #ochre-brown, yes
+	# brown { 100 60 20 }
+	# very deep red, nice{ 80 0 0 } #yes
+	# greyerish red{ 140 75 75 } # yes
+	# rich cyan { 0 180 190 }
+	# pale cyan{ 85 200 175 }
+	
+	country_type = recognized
+
+	tier = grand_principality
+	
+	cultures = { aenglish }
 	capital = STATE_NORDUMBRE
 }
+
+ELY = { #Elige
+	# { 0 180 190 }
+	#{ 124 72 21 } #ochre-brown, yes
+	# brown { 100 60 20 }
+	# very deep red, nice{ 80 0 0 } #yes
+	# greyerish red{ 140 75 75 } # yes
+	color = { 85 200 175 }
 	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { aenglish }
+	capital = STATE_ESSAXE
+}
+
+SNO = { #Snotengaham
+	color = { 114 76 86 }
+	#{ 124 72 21 } #ochre-brown, yes
+	# very deep red, nice{ 80 0 0 } #yes
+	# greyerish red{ 140 75 75 } # yes
+	# rich cyan { 0 180 190 }
+	# pale cyan{ 85 200 175 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { aenglish }
+	capital = STATE_MIERCE
+}
+
+SEV = { #Saefernside
+	color = { 188 83 83 }
+	# { 124 72 21 } #ochre-brown, yes
+	# brown { 100 60 20 }
+	# { 140 75 75 } # yes
+	# rich cyan { 0 180 190 }
+	# pale cyan{ 85 200 175 }
+	
+	country_type = recognized
+
+	tier = grand_principality
+	
+	cultures = { aenglish anglosaexoun }
+	capital = STATE_WESSAXE
+}
+
+OXF = { #Oxfort
+	color = { 100 72 21 } #ochre-brown, yes
+	# brown { 100 60 20 }
+	# very deep red, nice{ 80 0 0 } #yes
+	# greyerish red{ 140 75 75 } # yes
+	# rich cyan { 0 180 190 }
+	# pale cyan{ 85 200 175 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { anglosaexoun }
+	capital = STATE_MIERCE
+}
+
 AQT = { #Aquitania
 	color = { 192 40 247 }
 	
