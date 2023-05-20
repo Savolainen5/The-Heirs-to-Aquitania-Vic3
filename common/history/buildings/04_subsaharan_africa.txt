@@ -72,13 +72,9 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-		region_state:AEN={
-		}
-		region_state:MAL={
-		}
-		region_state:MAL={
-		}
 		region_state:KBU={
+		}
+		region_state:MAL={
 		}
 	}
 	s:STATE_SIERRA_LEONE={
@@ -330,7 +326,7 @@
 		}
 	}
 	s:STATE_GHANA={
-		region_state:AEN={
+		region_state:FRA={
 			create_building={
 				building="building_port"
 				level=1

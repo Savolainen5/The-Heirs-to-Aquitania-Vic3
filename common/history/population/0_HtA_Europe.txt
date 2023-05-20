@@ -1,20 +1,17 @@
 ﻿POPULATION = {
 	c:GAG = {
 		effect_starting_pop_wealth_medium = yes
-		effect_starting_pop_literacy_very_low = yes
+		effect_starting_pop_literacy_baseline = yes
 	}
 	c:GLZ = {
 		effect_starting_pop_wealth_medium = yes
 		effect_starting_pop_literacy_low = yes
 	}
-	c:EOF = {
-		effect_starting_pop_wealth_medium = yes
-		effect_starting_pop_literacy_high = yes
-	}
 	c:BEO = {
 		effect_starting_pop_wealth_medium = yes
 		effect_starting_pop_literacy_high = yes
 	}
+	#Eoforwic moved to its own file for testing
 	c:SEV = {
 		effect_starting_pop_wealth_medium = yes
 		effect_starting_pop_literacy_high = yes
@@ -24,12 +21,12 @@
 		effect_starting_pop_literacy_high = yes
 	}
 	c:ELY = {
-		effect_starting_pop_wealth_medium = yes
-		effect_starting_pop_literacy_high = yes
+		effect_starting_pop_wealth_very_low = yes
+		effect_starting_pop_literacy_baseline = yes
 	}
 	c:OXF = {
-		effect_starting_pop_wealth_medium = yes
-		effect_starting_pop_literacy_high = yes
+		effect_starting_pop_wealth_very_high = yes
+		effect_starting_pop_literacy_very_high = yes
 	}
 	c:IRE = {
 		effect_starting_pop_wealth_medium = yes

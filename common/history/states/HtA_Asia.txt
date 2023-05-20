@@ -298,7 +298,7 @@
 	}
 	s:STATE_MADRAS = {
 		create_state = {
-			country = c:FRA
+			country = c:IRE
 			owned_provinces = { xABADB1 }
 			state_type = treaty_port
 		}

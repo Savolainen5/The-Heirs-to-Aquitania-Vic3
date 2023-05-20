@@ -26,12 +26,12 @@ AEN = {
 	possible = {
 		OR = {
 			country_has_primary_culture = cu:aenglish
-			country_has_primary_culture = cu:saexoun
+			country_has_primary_culture = cu:anglosaexoun
 		}	
 		any_country = {
 			OR = {
 				country_has_primary_culture = cu:aenglish
-				country_has_primary_culture = cu:saexoun
+				country_has_primary_culture = cu:anglosaexoun
 			}			
 			has_technology_researched = nationalism
 		}

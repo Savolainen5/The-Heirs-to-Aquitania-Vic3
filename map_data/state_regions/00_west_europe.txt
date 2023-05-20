@@ -369,13 +369,13 @@ STATE_BEORNICE = {
     farm = "x396B5C"
     wood = "xEF4020"
     arable_land = 16
-    arable_resources = { "bg_livestock_ranches" }
+    arable_resources = { "bg_rye_farms" "bg_livestock_ranches" }
     capped_resources = {
        bg_coal_mining = 80
-        bg_iron_mining = 60
-        bg_lead_mining = 45
-        bg_logging = 9
-        bg_fishing = 20
+       bg_iron_mining = 60
+       bg_lead_mining = 45
+       bg_logging = 9
+       bg_fishing = 20
     }
     naval_exit_id = 3027
 }
@@ -459,7 +459,7 @@ STATE_MIERCE = {
         bg_iron_mining = 60
         bg_sulfur_mining = 40
         bg_logging = 6
-        bg_fishing = 2
+        bg_fishing = 4 #Savs upped from 2 on 20.5.2023
     }
     naval_exit_id = 3027
 }

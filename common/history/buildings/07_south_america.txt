@@ -812,7 +812,7 @@
 		}
 	}
 	s:STATE_SOUTH_ATLANTIC_ISLANDS={
-		region_state:AEN={
+		region_state:FRA={
 			create_building={
 				building="building_port"
 				level=1

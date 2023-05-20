@@ -4,7 +4,7 @@
 BRT = { #Bretagnie/Saexanie
 	dynamic_country_name = { #Saexanie
 		name = dyn_c_saexanie
-		adjective = #same
+		#adjective = #same
 		
 		is_main_tag_only = yes
 		priority = 5
@@ -18,7 +18,7 @@ BRT = { #Bretagnie/Saexanie
 							who = c:BRT
 							type = vassal
 							is_initiator = yes
-						}	
+						}
 					}
 				}
 				scope:actor = {

@@ -84,11 +84,11 @@
 			25 = { set_strategy = ai_strategy_progressive_agenda }
 		}
 	}	
-	c:AEN = {
-		set_strategy = ai_strategy_industrial_expansion
-		set_strategy = ai_strategy_economic_imperialism
-		set_strategy = ai_strategy_progressive_agenda
-	}
+#	c:AEN = {
+#		set_strategy = ai_strategy_industrial_expansion
+#		set_strategy = ai_strategy_economic_imperialism
+#		set_strategy = ai_strategy_progressive_agenda
+#	}
 	c:AME = {
 		random_list = {	
 			50 = { set_strategy = ai_strategy_industrial_expansion }

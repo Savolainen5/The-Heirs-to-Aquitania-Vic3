@@ -1438,7 +1438,7 @@
 		}
 	}
 	s:STATE_DEMONSEG={
-		region_state:AEN={
+		region_state:FRA={
 			create_building={
 				building="building_naval_base"
 				level=5

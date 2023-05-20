@@ -78,7 +78,7 @@
 #				size = 600
 #			}
 #		}
-		region_state:AEN = {
+		region_state:FRA = {
 			create_pop = {
 				culture = malay
 				size = 10000
@@ -433,7 +433,7 @@
 				size = 23604
 			}
 		}
-		region_state:AEN = {
+		region_state:FRA = {
 			create_pop = {
 				culture = javan
 				size = 238542
@@ -586,7 +586,7 @@
 				size = 7204
 			}
 		}
-		region_state:AEN = {
+		region_state:FRA = {
 			create_pop = {
 				culture = sumatran
 				size = 212321
@@ -650,7 +650,7 @@
 		}
 	}
 	s:STATE_SOUTH_SUMATRA = {
-		region_state:AEN = {
+		region_state:FRA = {
 			create_pop = {
 				culture = sumatran
 				size = 42122
@@ -766,7 +766,7 @@
 				size = 3287
 			}
 		}
-		region_state:AEN = {
+		region_state:FRA = {
 			create_pop = {
 				culture = batak
 				religion = sunni

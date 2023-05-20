@@ -391,7 +391,7 @@ s:STATE_BIHAR = {
 				size = 1264771
 			}
 		}
-		region_state:AEN = {
+		region_state:FRA = {
 			create_pop = {
 				culture = telegu
 				size = 335070
@@ -596,7 +596,7 @@ s:STATE_BIHAR = {
 				size = 6000
 			}
 		}
-		region_state:AEN = {
+		region_state:FRA = {
 			create_pop = {
 				culture = aenglish
 				size = 2888
@@ -612,7 +612,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_ORISSA = {
-		region_state:AEN = {
+		region_state:FRA = {
 			create_pop = {
 				culture = oriya
 				size = 456412
@@ -641,7 +641,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_CIRCARS = {
-		region_state:AEN = {
+		region_state:FRA = {
 			create_pop = {
 				culture = telegu
 				size = 9762168
@@ -757,7 +757,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_MADRAS = {
-		region_state:FRA = {
+		region_state:IRE = {
 			create_pop = { # TODO add slave pops to French India when possible
 				culture = tamil
 				size = 182284
@@ -772,7 +772,7 @@ s:STATE_BIHAR = {
 				size = 17773
 			}
 		}
-		region_state:AEN = {
+		region_state:FRA = {
 			create_pop = {
 				culture = tamil
 				size = 12479910

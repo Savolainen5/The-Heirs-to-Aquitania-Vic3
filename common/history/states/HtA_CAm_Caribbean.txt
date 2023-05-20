@@ -104,7 +104,7 @@
 			state_type = unincorporated
 		}
 		create_state = {
-			country = c:FRA
+			country = c:IRE
 			owned_provinces = { x335389 x89337A x445B6C x5299CA x70F001 xF0F001 x707080 xD496B1 x446C63 x606060 x89334D xECC061 }
 			state_type = unincorporated
 		}

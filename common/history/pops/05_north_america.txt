@@ -1326,7 +1326,7 @@
 		}
 	}
 	s:STATE_DEMONSEG = {
-		region_state:AEN = {
+		region_state:FRA = {
 			create_pop = {
 				culture = aenglish
 				size = 14848

@@ -200,7 +200,7 @@
 		}
 	}
 	s:STATE_BAHAMAS={
-		region_state:AEN={
+		region_state:FRA={
 			create_building={
 				building="building_banana_plantation"
 				level=1
@@ -262,7 +262,7 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-		region_state:AEN={
+		region_state:IRE={ #Originally by AEN, given to IRE just as a temporary thing
 			create_building={
 				building="building_sugar_plantation"
 				level=3
@@ -290,7 +290,7 @@
 		}
 	}
 	s:STATE_JAMAICA={
-		region_state:AEN={
+		region_state:FRA={
 			create_building={
 				building="building_banana_plantation"
 				level=1

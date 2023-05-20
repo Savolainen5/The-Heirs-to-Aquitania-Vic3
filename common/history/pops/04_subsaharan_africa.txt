@@ -160,7 +160,7 @@
 				size = 127996
 			}
 		}
-		#region_state:AEN = { #The territory of The Gambia, would make sense to be its own thing kind of
+		#region_state:FRA = { #The territory of The Gambia, would make sense to be its own thing kind of
 		#	create_pop = {
 		#		culture = mande
 		#		size = 91540
@@ -611,7 +611,7 @@
 		}
 	}
 	s:STATE_GHANA = {
-		region_state:AEN = {
+		region_state:FRA = {
 			create_pop = {
 				culture = akan
 				size = 40204

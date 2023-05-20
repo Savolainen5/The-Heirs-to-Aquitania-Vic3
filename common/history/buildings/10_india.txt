@@ -704,7 +704,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_wound_dressing" "pm_cavalry_scouts" "pm_no_specialists" "pm_no_artillery" }
 			}
 		}
-		region_state:AEN={
+		region_state:FRA={
 			create_building={
 				building="building_textile_mills"
 				level=1
@@ -954,7 +954,7 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-		region_state:AEN={
+		region_state:FRA={
 			create_building={
 				building="building_sugar_plantation"
 				level=1
@@ -970,7 +970,7 @@
 		}
 	}
 	s:STATE_ORISSA={
-		region_state:AEN={
+		region_state:FRA={
 			create_building={
 				building="building_sugar_plantation"
 				level=4
@@ -980,7 +980,7 @@
 		}
 	}
 	s:STATE_CIRCARS={
-		region_state:AEN={
+		region_state:FRA={
 			create_building={
 				building="building_government_administration"
 				level=5
@@ -1118,7 +1118,7 @@
 		}
 	}
 	s:STATE_MADRAS={
-		region_state:FRA={
+		region_state:IRE={
 			create_building={
 				building="building_dye_plantation"
 				level=2
@@ -1132,7 +1132,7 @@
 				activate_production_methods={ "pm_basic_port" }
 			}
 		}
-		region_state:AEN={
+		region_state:FRA={
 			create_building={
 				building="building_government_administration"
 				level=8

@@ -1,32 +1,32 @@
-﻿CHARACTERS = {
-	c:AEN = {
-		create_character = {
-			first_name = "Lofwin_II"
-			last_name = "Iserning"
-			culture = cu:aenglish
-			ruler = yes
-			noble = yes
-			age = 57 #Born 10.07.1779
-			interest_group = ig_armed_forces
-			traits = {
-				cruel
-			}
-			on_created = {
-				set_variable = is_married
-			}
-		}
-
-		create_character = {
-			first_name = "Aelfstan" #II
-			last_name = "Iserning"
-			culture = cu:aenglish
-			heir = yes
-			noble = yes
-			age = 26
-			interest_group = ig_petty_bourgeoisie
-			traits = {
-				romantic
-			}
-		}
-	}
-}
+﻿#CHARACTERS = {
+#	c:AEN = {
+#		create_character = {
+#			first_name = "Lofwin_II"
+#			last_name = "Iserning"
+#			culture = cu:aenglish
+#			ruler = yes
+#			noble = yes
+#			age = 57 #Born 10.07.1779
+#			interest_group = ig_armed_forces
+#			traits = {
+#				cruel
+#			}
+#			on_created = {
+#				set_variable = is_married
+#			}
+#		}
+#
+#		create_character = {
+#			first_name = "Aelfstan" #II
+#			last_name = "Iserning"
+#			culture = cu:aenglish
+#			heir = yes
+#			noble = yes
+#			age = 26
+#			interest_group = ig_petty_bourgeoisie
+#			traits = {
+#				romantic
+#			}
+#		}
+#	}
+#}

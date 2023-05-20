@@ -42,7 +42,7 @@ BRT = { #Bretagnie
 
 	tier = grand_principality
 	
-	cultures = { saexoun french }
+	cultures = { anglosaexoun french }
 	capital = STATE_WESSAXE
 }
 
