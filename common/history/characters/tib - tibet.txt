@@ -8,7 +8,7 @@
 			ruler = yes
 			age = 20
 			interest_group = ig_devout
-			ideology = ideology_theocrat
+			ideology = ideology:ideology_theocrat
 			traits = {
 				cautious
 			}

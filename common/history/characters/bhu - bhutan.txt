@@ -8,7 +8,7 @@
 			ruler = yes
 			# no idea about his age
 			interest_group = ig_devout
-			ideology = ideology_traditionalist
+			ideology = ideology:ideology_traditionalist
 			traits = {
 				persistent
 			}

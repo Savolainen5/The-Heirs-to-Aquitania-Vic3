@@ -9,7 +9,7 @@
 			female = yes
 			age = 58
 			interest_group = ig_landowners
-			ideology = ideology_moderate
+			ideology = ideology:ideology_moderate
 			traits = {
 				imperious
 			}

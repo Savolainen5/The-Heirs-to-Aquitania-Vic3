@@ -36,12 +36,13 @@ meiji.1 = {
 		}
 		if = {
 			limit = {
-				year < 1846
+				year < 1852
 			}
 			create_character = {
 				# Emperor Ninko
 				first_name = "Ninko"
 				last_name = "Yamato"
+				historical = yes
 				ruler = yes
 				birth_date = 1800.1.1
 				dna = dna_ninko
@@ -54,8 +55,10 @@ meiji.1 = {
 			create_character = {
 				first_name = "Komei"
 				last_name = Yamato
+				historical = yes
 				heir = yes
 				birth_date = 1831.1.1
+				dna = dna_emperor_komei
 				interest_group = ig_armed_forces
 				traits = {
 					reserved # ditto
@@ -64,14 +67,16 @@ meiji.1 = {
 		}
 		else_if = {
 			limit = {
-				year >= 1846
-				year < 1867
+				year >= 1852
+				year < 1879
 			}
 			create_character = {
 				first_name = "Komei"
 				last_name = "Yamato"
+				historical = yes
 				ruler = yes
 				birth_date = 1831.1.1
+				dna = dna_emperor_komei
 				interest_group = ig_armed_forces
 				traits = {
 					reserved # ditto
@@ -80,8 +85,10 @@ meiji.1 = {
 			create_character = {
 				first_name = "Meiji"
 				last_name = "Yamato"
+				historical = yes
 				heir = yes
 				birth_date = 1852.1.1
+				dna = dna_emperor_meiji
 				interest_group = ig_industrialists
 				traits = {
 					innovative
@@ -91,14 +98,16 @@ meiji.1 = {
 		}
 		else_if = {
 			limit = {
-				year >= 1867
+				year >= 1879
 				year < 1912
 			}
 			create_character = {
 				first_name = "Meiji"
 				last_name = "Yamato"
+				historical = yes
 				ruler = yes
 				birth_date = 1852.1.1
+				dna = dna_emperor_meiji
 				interest_group = ig_industrialists
 				traits = {
 					innovative
@@ -108,6 +117,7 @@ meiji.1 = {
 			create_character = {
 				first_name = "Taisho"
 				last_name = "Yamato"
+				historical = yes
 				heir = yes
 				birth_date = 1879.1.1
 				interest_group = ig_industrialists
@@ -123,6 +133,7 @@ meiji.1 = {
 			create_character = {
 				first_name = "Taisho"
 				last_name = "Yamato"
+				historical = yes
 				ruler = yes
 				birth_date = 1879.1.1
 				interest_group = ig_industrialists
@@ -132,6 +143,7 @@ meiji.1 = {
 			create_character = {
 				first_name = "Showa" # Hirohito
 				last_name = "Yamato"
+				historical = yes
 				heir = yes
 				birth_date = 1901.1.1
 				interest_group = ig_armed_forces
@@ -147,6 +159,7 @@ meiji.1 = {
 			create_character = {
 				first_name = "Showa" # Hirohito
 				last_name = "Yamato"
+				historical = yes
 				heir = yes
 				birth_date = 1901.1.1
 				interest_group = ig_armed_forces
@@ -359,11 +372,11 @@ meiji.2 = {
 
 	icon = "gfx/interface/icons/event_icons/event_scales.dds"
 	event_image = {
-		video = "gfx/event_pictures/asia_confucianism_shinto.bk2"
+		video = "asia_confucianism_shinto"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	on_opened_soundeffect = "event:/SFX/Events/asia/confucianism_shinto" 
+																	  
 
 	trigger = {
 		# triggered by meiji restoration JE
@@ -415,6 +428,14 @@ meiji.2 = {
 				add_claim = ROOT
 			}
 		}
+		if = {
+			limit = {
+				NOT = { owns_entire_state_region = STATE_YANGHO }
+			}
+			s:STATE_YANGHO = {
+				add_claim = ROOT
+			}
+		}
 	}
 	option = {
 		name = meiji.2.b
@@ -444,11 +465,11 @@ meiji.3 = {
 
 	icon = "gfx/interface/icons/event_icons/event_military.dds"
 	event_image = {
-		video = "gfx/event_pictures/asia_westerners_arriving.bk2"
+		video = "asia_westerners_arriving"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	on_opened_soundeffect = "event:/SFX/Events/asia/westeners_arriving_in_east_asia" 
+																				  
 
 	trigger = {
 		# triggered by JE
@@ -520,11 +541,11 @@ meiji.4 = {
 
 	icon = "gfx/interface/icons/event_icons/event_military.dds"
 	event_image = {
-		video = "gfx/event_pictures/asia_westerners_arriving.bk2"
+		video = "asia_westerners_arriving"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	on_opened_soundeffect = "event:/SFX/Events/asia/westeners_arriving_in_east_asia"
+																				 
 
 	trigger = {
 		NOT = {	has_modifier = western_military_consultant }
@@ -645,11 +666,11 @@ meiji.5 = {
 
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 	event_image = {
-		video = "gfx/event_pictures/asia_westerners_arriving.bk2"
+		video = "asia_westerners_arriving"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	on_opened_soundeffect = "event:/SFX/Events/asia/westeners_arriving_in_east_asia"
+																				 
 
 	cooldown = { months = short_modifier_time }
 
@@ -787,11 +808,11 @@ meiji.6 = {
 
 	icon = "gfx/interface/icons/event_icons/event_trade.dds"
 	event_image = {
-		video = "gfx/event_pictures/europenorthamerica_capitalists_meeting.bk2"
+		video = "europenorthamerica_capitalists_meeting"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	on_opened_soundeffect = "event:/SFX/Events/europenorthamerica/capitalists_meeting" 
+																					
 
 	trigger = {
 		NOT = { has_modifier = japan_production_tech_modifier }
@@ -908,11 +929,11 @@ meiji.7 = {
 	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 
 	event_image = {
-		video = "gfx/event_pictures/unspecific_trains.bk2"
+		video = "unspecific_trains"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	on_opened_soundeffect = "event:/SFX/Events/unspecific/trains"
+															  
 
 	trigger = {
 		NOT = { has_variable = foreign_railway_engineers_event }
@@ -992,7 +1013,7 @@ meiji.7 = {
 		}
 		add_technology_progress = {
 			technology = railways
-			progress = 650
+			progress = 3500
 		}
 	}
 
@@ -1008,7 +1029,7 @@ meiji.7 = {
 		}
 		add_technology_progress = {
 			technology = railways
-			progress = 650
+			progress = 3500
 		}
 	}
 
@@ -1024,7 +1045,7 @@ meiji.7 = {
 		}
 		add_technology_progress = {
 			technology = railways
-			progress = 650
+			progress = 3500
 		}
 	}
 
@@ -1052,11 +1073,11 @@ meiji.8 = {
 	icon = "gfx/interface/icons/event_icons/event_industry.dds"
 
 	event_image = {
-		video = "gfx/event_pictures/unspecific_armored_train.bk2"
+		video = "unspecific_armored_train"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	on_opened_soundeffect = "event:/SFX/Events/unspecific/armored_train"
+																	 
 
 	trigger = {
 		has_technology_researched = railways
@@ -1127,11 +1148,11 @@ meiji.9 = {
 	icon = "gfx/interface/icons/event_icons/event_military.dds"
 
 	event_image = {
-		video = "gfx/event_pictures/asia_westerners_arriving.bk2"
+		video = "asia_westerners_arriving"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	on_opened_soundeffect = "event:/SFX/Events/asia/westeners_arriving_in_east_asia"
+																				 
 
 	trigger = {
 		NOT = { has_variable = samurai_sword_privileges_event }
@@ -1205,11 +1226,11 @@ meiji.10 = {
 	icon = "gfx/interface/icons/event_icons/event_military.dds"
 
 	event_image = {
-		video = "gfx/event_pictures/asia_westerners_arriving.bk2"
+		video = "asia_westerners_arriving"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	on_opened_soundeffect = "event:/SFX/Events/asia/westeners_arriving_in_east_asia"
+																				 
 
 	trigger = {
 		NOT = { has_variable = shi_gakko_event }
@@ -1239,7 +1260,7 @@ meiji.10 = {
 				name = shi_gakko
 				months = normal_modifier_time
 			}
-			add_radicals = {
+			add_radicals_in_state = {
 				pop_type = soldiers
 				value = medium_radicals
 			}
@@ -1278,11 +1299,11 @@ meiji.11 = {
 	icon = "gfx/interface/icons/event_icons/event_trade.dds"
 
 	event_image = {
-		video = "gfx/event_pictures/asia_westerners_arriving.bk2"
+		video = "asia_westerners_arriving"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	on_opened_soundeffect = "event:/SFX/Events/asia/westeners_arriving_in_east_asia"
+																				 
 
 	trigger = {
 		NOT = { has_variable = japan_port_incident }
@@ -1398,11 +1419,11 @@ meiji.12 = {
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
 	event_image = {
-		video = "gfx/event_pictures/asia_confucianism_shinto.bk2"
+		video = "asia_confucianism_shinto"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	on_opened_soundeffect = "event:/SFX/Events/asia/confucianism_shinto" 
+																	  
 
 	trigger = {
 		NOT = { has_variable = japan_sakoku_article }
@@ -1428,13 +1449,13 @@ meiji.12 = {
 				value = -20
 			}
 		}
-		#if = {
-		#	limit = { exists = c:USA }
-		#	change_relations = {
-		#		country = c:USA
-		#		value = 30
-		#	}
-		#}
+#		if = {
+#			limit = { exists = c:USA }
+#			change_relations = {
+#				country = c:USA
+#				value = 30
+#			}
+#		}
 		every_country = {
 			limit = {
 				country_rank = rank_value:great_power
@@ -1475,5 +1496,58 @@ meiji.12 = {
 			months = normal_modifier_time
 		}
 
+	}
+}
+
+meiji.13 = {
+	type = country_event
+	placement = root
+	title = meiji.13.t
+	desc = meiji.13.d
+	flavor = meiji.13.f
+
+	duration = 3
+
+	icon = "gfx/interface/icons/event_icons/event_trade.dds"
+
+	icon = "gfx/interface/icons/event_icons/event_default.dds"
+	event_image = {
+		video = "asia_westerners_arriving"
+	}
+
+	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+
+	trigger = {
+		exists = c:JAP
+		THIS = c:JAP
+		has_modifier = forced_market_opening
+		NOT = { has_variable = meiji_var }
+		NOT = { has_variable = japan_forced_to_open_market }
+	}
+
+	immediate = {
+		ig:ig_landowners = {
+			save_scope_as = shogunate_ig
+		}
+		ruler = {
+			save_scope_as = shogun_scope
+		}
+		set_variable = japan_forced_to_open_market # affects AI strategy
+	}
+
+	option = {
+		name = meiji.13.a
+		scope:shogunate_ig = {
+			add_modifier = {
+				name = shogun_ig_forced_to_open_market
+				months = very_long_modifier_time
+			}
+		}
+		scope:shogun_scope = {
+			add_modifier = {
+				name = shogun_forced_to_open_market
+				months = very_long_modifier_time
+			}
+		}
 	}
 }

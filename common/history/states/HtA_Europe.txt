@@ -20,7 +20,7 @@
 	s:STATE_NORMANDY = {
 		create_state = {
 			country = c:FRA
-			owned_provinces = { x0B7098 x90A040 x79C0E6 x065CAE xD642B5 xB06080 x65728E x1020C0 xB8903B xB78E54  }
+			owned_provinces = { x1020C0 x0B7098 x90A040 x79C0E6 x065CAE xD642B5 xB06080 x65728E xB8903B xB78E54 }
 		}
 		
 		add_homeland = french

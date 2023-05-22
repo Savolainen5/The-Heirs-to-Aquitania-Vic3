@@ -8,7 +8,7 @@
 			age = 39
 			is_general = yes
 			interest_group = ig_landowners
-			ideology = ideology_traditionalist
+			ideology = ideology:ideology_traditionalist
 			traits = {
 				ambitious
 				basic_political_operator

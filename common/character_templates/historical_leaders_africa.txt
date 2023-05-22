@@ -4,7 +4,7 @@
     culture = cu:boer
     female = no
     religion = protestant
-    ideology = ideology_traditionalist
+    ideology = ideology:ideology_traditionalist
     interest_group = ig_rural_folk
     birth_date = 1825.10.10
     traits = {

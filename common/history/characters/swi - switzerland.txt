@@ -8,7 +8,7 @@
 			ig_leader = yes
 			ruler=yes
 			interest_group = ig_rural_folk # mayor of Bern
-			ideology = ideology_moderate
+			ideology = ideology:ideology_moderate
 			traits = {
 			}
 		}
@@ -20,7 +20,7 @@
 			age = 49
 			ig_leader = yes
 			interest_group = ig_armed_forces
-			ideology = ideology_moderate
+			ideology = ideology:ideology_moderate
 			traits = {
 				meticulous
 				surveyor
@@ -35,7 +35,7 @@
 			age = 35
 			ig_leader = yes
 			interest_group = ig_devout
-			ideology = ideology_moderate
+			ideology = ideology:ideology_moderate
 			traits = {
 				meticulous
 				pious

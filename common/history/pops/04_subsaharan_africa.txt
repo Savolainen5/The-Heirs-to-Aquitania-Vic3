@@ -2358,7 +2358,7 @@
 		}
 	}
 	s:STATE_ZAMBEZI = {
-		region_state:GZA = {
+		region_state:GZB = {
 			create_pop = {
 				culture = shona
 				size = 120000
@@ -2691,7 +2691,7 @@
 				size = 342000
 			}
 		}
-		region_state:GZA = {
+		region_state:GZB = {
 			create_pop = {
 				culture = nguni
 				size = 179804

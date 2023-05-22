@@ -28,7 +28,7 @@ DUZ = { #Emirate of Douz
 	cultures = { maghrebi }
 	capital = STATE_TUNISIA
 }
-GZA = { #Great Zimbabwe
+GZB = { #Great Zimbabwe
 	color = { 100 100 100 }
 	country_type = unrecognized
 	

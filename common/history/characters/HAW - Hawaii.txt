@@ -8,7 +8,7 @@
 			ruler = yes
 			age = 22
 			interest_group = ig_landowners
-			ideology = ideology_pacifist
+			ideology = ideology:ideology_pacifist
 			traits = {
 				direct
 				innovative
@@ -23,7 +23,7 @@
 			heir = yes
 			age = 2
 			interest_group = ig_landowners
-			ideology = ideology_theocrat
+			ideology = ideology:ideology_theocrat
 			traits = {
 				tactful
 			}
@@ -37,7 +37,7 @@
 			ig_leader = yes
 			age = 39
 			interest_group = ig_devout
-			ideology = ideology_theocrat
+			ideology = ideology:ideology_theocrat
 			traits = {
 				reserved
 			}

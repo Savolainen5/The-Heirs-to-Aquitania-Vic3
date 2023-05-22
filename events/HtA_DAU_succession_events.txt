@@ -9,11 +9,10 @@ DAU_succession_events.1 = { #An heir for Daufinat
 	flavor = DAU_succession_events.1.f
 
 	event_image = {
-		video = "gfx/event_pictures/southamerica_aristocrats.bk2" #But actually something else
+		video = "southamerica_aristocrats" #But actually something else
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	on_opened_soundeffect = "event:/SFX/Events/southamerica/aristocrats" #But actually something else
 
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
@@ -56,11 +55,10 @@ DAU_succession_events.2 = { #An AQT heir
 	flavor = DAU_succession_events.2.f
 
 	event_image = {
-		video = "gfx/event_pictures/southamerica_aristocrats.bk2" #But actually something else
+		video = "southamerica_aristocrats" #But actually something else
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	on_opened_soundeffect = "event:/SFX/Events/southamerica/aristocrats" #But actually something else
 
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
@@ -97,11 +95,10 @@ DAU_succession_events.3 = { #A PDN heir
 	flavor = DAU_succession_events.3.f
 
 	event_image = {
-		video = "gfx/event_pictures/southamerica_aristocrats.bk2" #But actually something else
+		video = "southamerica_aristocrats" #But actually something else
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	on_opened_soundeffect = "event:/SFX/Events/southamerica/aristocrats" #But actually something else
 
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
@@ -138,11 +135,10 @@ DAU_succession_events.4 = { #An independent heir
 	flavor = DAU_succession_events.4.f
 
 	event_image = {
-		video = "gfx/event_pictures/southamerica_aristocrats.bk2" #But actually something else
+		video = "southamerica_aristocrats" #But actually something else
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	on_opened_soundeffect = "event:/SFX/Events/southamerica/aristocrats" #But actually something else
 
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 

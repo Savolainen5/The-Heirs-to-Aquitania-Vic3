@@ -17,31 +17,31 @@
 				building="building_tea_plantation"
 				level=5
 				reserves=1
-				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_opium_plantation"
 				level=25
 				reserves=1
-				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}			
 			create_building={
 				building="building_tobacco_plantation"
 				level=3
 				reserves=1
-				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_sugar_plantation"
 				level=3
 				reserves=1
-				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_dye_plantation"
 				level=5
 				reserves=1
-				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 		}
 	}
@@ -69,19 +69,19 @@
 				building="building_opium_plantation"
 				level=25
 				reserves=1
-				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_silk_plantation"
 				level=4
 				reserves=1
-				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_tobacco_plantation"
 				level=6
 				reserves=1
-				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_barracks"
@@ -103,13 +103,13 @@
 				building="building_opium_plantation"
 				level=15
 				reserves=1
-				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_tea_plantation"
 				level=5
 				reserves=1
-				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_barracks"
@@ -129,7 +129,7 @@
 				building="building_tea_plantation"
 				level=1
 				reserves=1
-				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_barracks"
@@ -175,19 +175,19 @@
 				building="building_cotton_plantation"
 				level=2
 				reserves=1
-				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_opium_plantation"
 				level=15
 				reserves=1
-				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}			
 			create_building={
 				building="building_tea_plantation"
 				level=10
 				reserves=1
-				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_iron_mine"
@@ -221,13 +221,13 @@
 				building="building_opium_plantation"
 				level=20
 				reserves=1
-				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_dye_plantation"
 				level=5
 				reserves=1
-				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_barracks"
@@ -245,13 +245,13 @@
 				building="building_opium_plantation"
 				level=18
 				reserves=1
-				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_dye_plantation"
 				level=8
 				reserves=1
-				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_barracks"
@@ -291,13 +291,13 @@
 				building="building_sugar_plantation"
 				level=1
 				reserves=1
-				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_tobacco_plantation"
 				level=1
 				reserves=1
-				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_barracks"
@@ -349,13 +349,13 @@
 				building="building_sugar_plantation"
 				level=2
 				reserves=1
-				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_tobacco_plantation"
 				level=1
 				reserves=1
-				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_barracks"
@@ -371,7 +371,7 @@
 				building="building_opium_plantation"
 				level=5
 				reserves=1
-				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_barracks"
@@ -383,7 +383,7 @@
 				building="building_cotton_plantation"
 				level=1
 				reserves=1
-				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_barracks"
@@ -395,13 +395,13 @@
 				building="building_cotton_plantation"
 				level=1
 				reserves=1
-				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_opium_plantation"
 				level=3
 				reserves=1
-				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_barracks"
@@ -413,7 +413,7 @@
 				building="building_opium_plantation"
 				level=2
 				reserves=1
-				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_barracks"
@@ -425,7 +425,7 @@
 				building="building_cotton_plantation"
 				level=1
 				reserves=1
-				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_barracks"
@@ -465,7 +465,7 @@
 				building="building_opium_plantation"
 				level=2
 				reserves=1
-				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}			
 			create_building={
 				building="building_barracks"
@@ -491,7 +491,7 @@
 				building="building_opium_plantation"
 				level=1
 				reserves=1
-				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}			
 			create_building={
 				building="building_barracks"
@@ -555,13 +555,13 @@
 				building="building_tobacco_plantation"
 				level=5
 				reserves=1
-				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}	
 			create_building={
 				building="building_tea_plantation"
 				level=5
 				reserves=1
-				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -573,13 +573,13 @@
 				building="building_silk_plantation"
 				level=2
 				reserves=1
-				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_dye_plantation"
 				level=3
 				reserves=1
-				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_barracks"
@@ -641,13 +641,13 @@
 				building="building_tobacco_plantation"
 				level=2
 				reserves=1
-				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}	
 			create_building={
 				building="building_tea_plantation"
 				level=2
 				reserves=1
-				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -659,7 +659,7 @@
 				building="building_dye_plantation"
 				level=1
 				reserves=1
-				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_barracks"
@@ -689,13 +689,13 @@
 				building="building_dye_plantation"
 				level=3
 				reserves=1
-				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_opium_plantation"
 				level=3
 				reserves=1
-				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_barracks"
@@ -715,13 +715,13 @@
 				building="building_opium_plantation"
 				level=1
 				reserves=1
-				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_dye_plantation"
 				level=2
 				reserves=1
-				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_barracks"
@@ -773,13 +773,13 @@
 				building="building_silk_plantation"
 				level=2
 				reserves=1
-				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_silk_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_dye_plantation"
 				level=12
 				reserves=1
-				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -825,7 +825,7 @@
 				building="building_tea_plantation"
 				level=1
 				reserves=1
-				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -859,7 +859,7 @@
 				building="building_opium_plantation"
 				level=4
 				reserves=1
-				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_barracks"
@@ -883,7 +883,7 @@
 				building="building_opium_plantation"
 				level=2
 				reserves=1
-				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_opium_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_barracks"
@@ -909,19 +909,19 @@
 				building="building_tea_plantation"
 				level=4
 				reserves=1
-				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_tobacco_plantation"
 				level=2
 				reserves=1
-				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_coffee_plantation"
 				level=2
 				reserves=1
-				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_barracks"
@@ -945,7 +945,7 @@
 				building="building_sugar_plantation"
 				level=2
 				reserves=1
-				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_port"
@@ -959,7 +959,7 @@
 				building="building_sugar_plantation"
 				level=1
 				reserves=1
-				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_port"
@@ -975,7 +975,7 @@
 				building="building_sugar_plantation"
 				level=4
 				reserves=1
-				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 		}
 	}
@@ -1009,19 +1009,19 @@
 				building="building_tobacco_plantation"
 				level=4
 				reserves=1
-				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_dye_plantation"
 				level=6
 				reserves=1
-				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_sugar_plantation"
 				level=3
 				reserves=1
-				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_barracks"
@@ -1055,13 +1055,13 @@
 				building="building_coffee_plantation"
 				level=4
 				reserves=1
-				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_dye_plantation"
 				level=5
 				reserves=1
-				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_barracks"
@@ -1073,7 +1073,7 @@
 				building="building_coffee_plantation"
 				level=1
 				reserves=1
-				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_gold_mine"
@@ -1095,7 +1095,7 @@
 				building="building_tea_plantation"
 				level=3
 				reserves=1
-				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_barracks"
@@ -1107,7 +1107,7 @@
 				building="building_coffee_plantation"
 				level=2
 				reserves=1
-				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_barracks"
@@ -1123,7 +1123,7 @@
 				building="building_dye_plantation"
 				level=2
 				reserves=1
-				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_port"
@@ -1173,19 +1173,19 @@
 				building="building_coffee_plantation"
 				level=4
 				reserves=1
-				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_coffee_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_dye_plantation"
 				level=10
 				reserves=1
-				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_tobacco_plantation"
 				level=6
 				reserves=1
-				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_tobacco_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_naval_base"
@@ -1231,13 +1231,13 @@
 				building="building_cotton_plantation"
 				level=1
 				reserves=1
-				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_sugar_plantation"
 				level=2
 				reserves=1
-				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_barracks"
@@ -1269,13 +1269,13 @@
 				building="building_cotton_plantation"
 				level=1
 				reserves=1
-				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_cotton_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_sugar_plantation"
 				level=1
 				reserves=1
-				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_barracks"
@@ -1291,7 +1291,7 @@
 				building="building_dye_plantation"
 				level=2
 				reserves=1
-				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_dye_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_port"
@@ -1327,7 +1327,7 @@
 				building="building_tea_plantation"
 				level=6
 				reserves=1
-				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned" }
+				activate_production_methods={ "default_building_tea_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
 			create_building={
 				building="building_fishing_wharf"

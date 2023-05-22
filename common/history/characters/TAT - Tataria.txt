@@ -10,7 +10,7 @@
 			traits = {
 				ambitious
 			}
-			ideology = ideology_moderate
+			ideology = ideology:ideology_moderate
 			on_created = {
 				set_variable = is_married
 			}
@@ -27,7 +27,7 @@
 #			traits = {
 #				romantic
 #			}
-#			ideology = ideology_moderate
+#			ideology = ideology:ideology_moderate
 #		}
 	}
 }

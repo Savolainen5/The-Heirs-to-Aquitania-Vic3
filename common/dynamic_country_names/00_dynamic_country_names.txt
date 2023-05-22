@@ -23,9 +23,9 @@ DEFAULT = {
 					is_powerful = yes
 					leader = {
 						OR = {
-							has_ideology = ideology_communist
-							has_ideology = ideology_anarchist
-							has_ideology = ideology_vanguardist
+							has_ideology = ideology:ideology_communist
+							has_ideology = ideology:ideology_anarchist
+							has_ideology = ideology:ideology_vanguardist
 						}
 					}
 				}
@@ -47,8 +47,8 @@ DEFAULT = {
 					is_in_government = yes
 					leader = {
 						OR = {
-							has_ideology = ideology_fascist
-							has_ideology = ideology_ethno_nationalist
+							has_ideology = ideology:ideology_fascist
+							has_ideology = ideology:ideology_ethno_nationalist
 						}
 					}
 				}
@@ -69,7 +69,7 @@ DEFAULT = {
 				any_interest_group = {
 					is_in_government = yes
 					leader = {
-						has_ideology = ideology_radical
+						has_ideology = ideology:ideology_radical
 					}
 				}
 			}
