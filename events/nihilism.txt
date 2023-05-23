@@ -51,9 +51,6 @@ nihilism.1 = {
 					traits = {	
 						reserved
 					}
-					on_created = {
-						set_variable = is_stirner_var
-					}
 				}
 			}
 			else_if = {
