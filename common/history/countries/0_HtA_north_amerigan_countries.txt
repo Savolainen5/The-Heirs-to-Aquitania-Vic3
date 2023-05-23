@@ -5,7 +5,7 @@
 		effect_starting_technology_tier_2_tech = yes
 		
 		effect_starting_politics_liberal = yes
-		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_legacy_slavery
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_protectionism
@@ -38,7 +38,7 @@
 		effect_starting_technology_tier_2_tech = yes
 		
 		effect_starting_politics_liberal = yes
-		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_legacy_slavery
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_protectionism
@@ -71,7 +71,7 @@
 		effect_starting_technology_tier_2_tech = yes
 		
 		effect_starting_politics_liberal = yes
-		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_legacy_slavery
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_protectionism
@@ -104,7 +104,7 @@
 		effect_starting_technology_tier_2_tech = yes
 		
 		effect_starting_politics_liberal = yes
-		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_legacy_slavery
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_protectionism
@@ -137,7 +137,7 @@
 		effect_starting_technology_tier_2_tech = yes
 		
 		effect_starting_politics_liberal = yes
-		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_legacy_slavery
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_protectionism

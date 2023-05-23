@@ -478,12 +478,6 @@
  HUB_NAME_STATE_PORTUGALIZA_port: "Coruña"
  HUB_NAME_STATE_PORTUGALIZA_wood: "Bragança"
 
- HUB_NAME_STATE_ASTURIAS_city: "Torrelavega"
- HUB_NAME_STATE_ASTURIAS_farm: "Cangas de Onis"
- HUB_NAME_STATE_ASTURIAS_mine: "Reinosa"
- HUB_NAME_STATE_ASTURIAS_port: "Gijón" 
- #HUB_NAME_STATE_ASTURIAS_wood: "Cangas del Narcea"
-
  HUB_NAME_STATE_BASQUE_COUNTRY_city: "Pamplona"
  HUB_NAME_STATE_BASQUE_COUNTRY_farm: "Gazteiz"
  HUB_NAME_STATE_BASQUE_COUNTRY_mine: "Logroño"
@@ -499,14 +493,6 @@
  HUB_NAME_STATE_ENTROS_RIOS_farm: "Torrejón"
  HUB_NAME_STATE_ENTROS_RIOS_mine: "Arnedo"
  HUB_NAME_STATE_ENTROS_RIOS_wood: "Ezcaray"
-
- HUB_NAME_STATE_ARAGON_mine: "Teruel"
-
- HUB_NAME_STATE_BEIRA_city: "Lisboa"
- HUB_NAME_STATE_BEIRA_farm: "Aveiro"
- HUB_NAME_STATE_BEIRA_mine: "Coimbra"
- HUB_NAME_STATE_BEIRA_port: "Figueira"
- HUB_NAME_STATE_BEIRA_wood: "Castel Branco"
 
  HUB_NAME_STATE_GUADALAJARA_city: "Guadalajara"
  HUB_NAME_STATE_GUADALAJARA_farm: "Aranjuez"

@@ -13,6 +13,7 @@
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_homesteading
 		activate_law = law_type:law_right_of_assembly
 	}
 	c:GWS = { #Gewisse
@@ -29,6 +30,7 @@
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_homesteading
 		activate_law = law_type:law_right_of_assembly
 	}
 	c:HEG = { #Hegoalde
@@ -45,6 +47,7 @@
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_homesteading
 		activate_law = law_type:law_right_of_assembly
 	}
 	c:MRG = { #Maregen
@@ -61,6 +64,7 @@
 		activate_law = law_type:law_racial_segregation
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_homesteading
 		activate_law = law_type:law_right_of_assembly
 	}
 }

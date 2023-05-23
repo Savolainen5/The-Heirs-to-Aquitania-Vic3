@@ -1,4 +1,5 @@
-﻿COUNTRIES = {
+﻿#Please keep entries here in alhpabetical order by tag for easier sorting
+COUNTRIES = {
 	c:BEO = {
 		
 		effect_starting_technology_tier_1_tech = yes
@@ -15,7 +16,8 @@
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_colonial_resettlement
 		activate_law = law_type:law_dedicated_police
@@ -46,7 +48,8 @@
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_colonial_resettlement
 		activate_law = law_type:law_dedicated_police
@@ -77,7 +80,8 @@
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_colonial_resettlement
 		activate_law = law_type:law_dedicated_police
@@ -108,7 +112,8 @@
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_colonial_resettlement
 		activate_law = law_type:law_dedicated_police
@@ -139,7 +144,8 @@
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_colonial_resettlement
 		activate_law = law_type:law_dedicated_police
@@ -170,7 +176,8 @@
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_colonial_resettlement
 		activate_law = law_type:law_dedicated_police
@@ -203,7 +210,8 @@
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_colonial_resettlement
 		activate_law = law_type:law_dedicated_police
@@ -310,7 +318,8 @@
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_colonial_resettlement
 		activate_law = law_type:law_dedicated_police
@@ -556,7 +565,7 @@
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_colonial_exploitation
 		activate_law = law_type:law_dedicated_police
-		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_right_of_assembly
 
 		set_institution_investment_level = {
@@ -591,7 +600,8 @@
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_colonial_resettlement
 		activate_law = law_type:law_dedicated_police
@@ -644,7 +654,8 @@
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_colonial_resettlement
 		activate_law = law_type:law_dedicated_police
