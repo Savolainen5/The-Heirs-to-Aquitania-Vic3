@@ -116,6 +116,9 @@
  STATE_CHONNACHT: "Chonnacht"
  STATE_MHUMHAIN: "Mhumhain"
 
+ #Frankonia
+ #STATE_MAINE: "Maine" #It's probably fine to rely on the vanilla Maine loc
+
  #Aquitània
  STATE_GARONA: "Garona"
  STATE_MIEGJORN: "Miègjorn"

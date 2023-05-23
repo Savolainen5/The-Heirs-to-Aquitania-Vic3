@@ -1,5 +1,51 @@
 ﻿l_english:
  
+ #Frankonia
+ HUB_NAME_STATE_NORMANDY_city: "Caen"
+ HUB_NAME_STATE_NORMANDY_farm: "Lisieux"
+ HUB_NAME_STATE_NORMANDY_port: "Honfleur"
+
+ HUB_NAME_STATE_MAINE_city: "Le Mans"
+ HUB_NAME_STATE_MAINE_farm: "Vendôme"
+ HUB_NAME_STATE_MAINE_mine: "Alençon"
+ HUB_NAME_STATE_MAINE_wood: "Laval"
+
+ HUB_NAME_STATE_ILE_DE_FRANCE_farm: "Montereau"
+ HUB_NAME_STATE_ILE_DE_FRANCE_wood: "Auxerre"
+
+ HUB_NAME_STATE_ORLEANS_mine: "Moulins"
+
+ HUB_NAME_STATE_BURGUNDY_city: "Dijon"
+ HUB_NAME_STATE_BURGUNDY_farm: "Dole"
+ HUB_NAME_STATE_BURGUNDY_mine: "Lons-le-Saunier"
+ HUB_NAME_STATE_BURGUNDY_wood: "Mâcon"
+
+ HUB_NAME_STATE_CHAMPAGNE_farm: "Châlons"
+ HUB_NAME_STATE_CHAMPAGNE_mine: "Meaux"
+ HUB_NAME_STATE_CHAMPAGNE_wood: "Sézanne"
+
+ HUB_NAME_STATE_PICARDY_farm: "Rouen"
+ HUB_NAME_STATE_PICARDY_mine: "Dieppe"
+ HUB_NAME_STATE_PICARDY_port: "Calais"
+ HUB_NAME_STATE_PICARDY_wood: "Beauvais"
+
+ HUB_NAME_STATE_FRANCHE_COMTE_city: "Nancy"
+ HUB_NAME_STATE_FRANCHE_COMTE_mine: "Besançon"
+ HUB_NAME_STATE_FRANCHE_COMTE_wood: "Chaumont"
+
+ HUB_NAME_STATE_FLANDERS_city: "Arlon"
+ HUB_NAME_STATE_FLANDERS_farm: "Saint-Quentin"
+ HUB_NAME_STATE_FLANDERS_mine: "Marche-en-Famenne"
+ HUB_NAME_STATE_FLANDERS_wood: "Sedan"
+
+ HUB_NAME_STATE_WALLONIA_city: "Brussels"
+ HUB_NAME_STATE_WALLONIA_mine: "Ghent"
+ HUB_NAME_STATE_WALLONIA_port: "Bruges"
+ HUB_NAME_STATE_WALLONIA_wood: "Lille"
+
+ HUB_NAME_STATE_FRIESLAND_port: "Harlingen"
+
+
  #Daufinat
 
  HUB_NAME_STATE_RHONE_city: "Liyon"

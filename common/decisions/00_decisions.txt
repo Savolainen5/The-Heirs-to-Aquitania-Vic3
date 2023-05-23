@@ -68,7 +68,7 @@ revive_olympic_games_decision = {
 
 lowlands_land_reclamation = {
 	is_shown = {
-		owns_entire_state_region = STATE_FRIESLAND
+		owns_entire_state_region = STATE_GELRE
 		owns_entire_state_region = STATE_HOLLAND
 		OR = {
 			NOT = { exists = global_var:land_reclamation_global }

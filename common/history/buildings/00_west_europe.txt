@@ -2037,7 +2037,7 @@
 			}
 		}
 	}
-	s:STATE_POITOU={
+	s:STATE_MAINE={
 		region_state:FRA={
 			create_building={
 				building="building_paper_mills"
@@ -2179,7 +2179,7 @@
 			}
 		}
 	}
-	s:STATE_BURGUNDY={
+	s:STATE_CHAMPAGNE={
 		region_state:FRA={
 			create_building={
 				building="building_tooling_workshops"
@@ -2219,7 +2219,7 @@
 			}
 		}
 	}
-	s:STATE_CHAMPAGNE={
+	s:STATE_FRANCHE_COMTE={
 		region_state:FRA={
 			create_building={
 				building="building_food_industry"
@@ -2273,7 +2273,7 @@
 			}
 		}
 	}
-	s:STATE_FRANCHE_COMTE={
+	s:STATE_BURGUNDY={
 		region_state:FRA={
 			create_building={
 				building="building_furniture_manufacturies"
@@ -2416,7 +2416,7 @@
 		}
 	}
 	s:STATE_HOLLAND={
-		region_state:FRA={
+		region_state:NET={
 			create_building={
 				building="building_government_administration"
 				level=4
@@ -2497,7 +2497,7 @@
 			}
 		}
 	}
-	s:STATE_FRIESLAND={
+	s:STATE_GELRE={
 		region_state:TRR={
 			create_building={
 				building="building_paper_mills"
@@ -2537,7 +2537,7 @@
 #			}
 		}
 	}
-	s:STATE_GELRE={
+	s:STATE_FRIESLAND={
 		region_state:NET={
 			create_building={
 				building="building_furniture_manufacturies"

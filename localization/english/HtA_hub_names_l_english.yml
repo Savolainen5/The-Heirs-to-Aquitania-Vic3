@@ -135,7 +135,7 @@
  HUB_NAME_STATE_COCHAPO_farm: "Champs-Antoine" #Antoine fields. Just a random name
 
  HUB_NAME_STATE_NOUVEAU_BLOIS_port: "Le Nouveau-Chambord" #Blois is already taken from the country name, so let's take another important city in the former county
- HUB_NAME_STATE_NOUVEAU_BLOIS_city: "Vendôme" #Another name from the area
+ HUB_NAME_STATE_NOUVEAU_BLOIS_city: "Veuzain" #Another name from the area
  HUB_NAME_STATE_NOUVEAU_BLOIS_wood: "Bienville" #OTL governor who founded New Orleans
  HUB_NAME_STATE_NOUVEAU_BLOIS_farm: "Bendier" #Scholar and bibliophile Quentin-Claude Bendier
  HUB_NAME_STATE_NOUVEAU_BLOIS_mine: "Fort Rapide" #Actual fort on the Red River, kind of near this location, seen on a 1757 map
@@ -436,6 +436,14 @@
  HUB_NAME_STATE_MHUMHAIN_farm: "Mala"
  HUB_NAME_STATE_MHUMHAIN_wood: "Aonach Urmhumhan"
 
+ #Frankonia
+
+ HUB_NAME_STATE_LOIRE_city: "Poitiers"
+ HUB_NAME_STATE_LOIRE_farm: "Tours"
+ HUB_NAME_STATE_LOIRE_mine: "Cholet"
+ HUB_NAME_STATE_LOIRE_port: "Olonne"
+ HUB_NAME_STATE_LOIRE_wood: "Niort"
+
  #Aquitània
 
  HUB_NAME_STATE_GARONA_city: "Bordèu"
@@ -463,6 +471,7 @@
  HUB_NAME_STATE_LEMOTGES_city: "Lemòtges"
  HUB_NAME_STATE_LEMOTGES_farm: "Peireguers"
  HUB_NAME_STATE_LEMOTGES_mine: "Briva"
+ HUB_NAME_STATE_LEMOTGES_port: "La Rochèla"
  HUB_NAME_STATE_LEMOTGES_wood: "Engoleime"
 
  HUB_NAME_STATE_PROUVENCA_city: "Marselha"

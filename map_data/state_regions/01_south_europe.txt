@@ -177,7 +177,7 @@ STATE_ABRUZZO = {
 STATE_SAVOY = {
     id = 86
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x56B04B" "x6B4BA4" "x708060" "x7ACC0B" "x9041E0" "xA042B5" "xCF46D1" "xD000E0" "xD08060" "xDDDD3B" "xF00060" }
+    provinces = { "x56B04B" "x6B4BA4" "x7ACC0B" "x9041E0" "xA042B5" "xD000E0" "xD08060" "xDDDD3B" }
     traits = { "state_trait_alps_mountains" }
     city = "x56B04B"
     farm = "xD000E0"
@@ -510,7 +510,7 @@ STATE_TOLEDO_LA_MANCHA = {
     capped_resources = {
         bg_logging = 13
         bg_iron_mining = 5
-		bg_sulfur_mining = 10
+        bg_sulfur_mining = 10
     }
 }
 
@@ -673,7 +673,7 @@ STATE_THRACE = {
     mine = "xFCF160"
     wood = "x608BB0"
     arable_land = 30
-    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_tobacco_plantations"  }
+    arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_silk_plantations" "bg_tobacco_plantations" }
     capped_resources = {
         bg_iron_mining = 18
         bg_logging = 4

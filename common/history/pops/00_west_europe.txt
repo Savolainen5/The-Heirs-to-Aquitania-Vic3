@@ -511,7 +511,7 @@
 			}
 		}
 	}
-	s:STATE_POITOU = {
+	s:STATE_MAINE = {
 		region_state:FRA = {
 			create_pop = {
 				culture = french
@@ -555,7 +555,7 @@
 			}
 		}
 	}
-	s:STATE_BURGUNDY = {
+	s:STATE_CHAMPAGNE = {
 		region_state:FRA = {
 			create_pop = {
 				culture = french
@@ -563,7 +563,7 @@
 			}
 		}
 	}
-	s:STATE_CHAMPAGNE = {
+	s:STATE_FRANCHE_COMTE = {
 		region_state:FRA = {
 			create_pop = {
 				culture = french
@@ -575,7 +575,7 @@
 			}
 		}
 	}
-	s:STATE_FRANCHE_COMTE = {
+	s:STATE_BURGUNDY = {
 		region_state:FRA = {
 			create_pop = {
 				culture = french
@@ -620,7 +620,7 @@
 		}
 	}
 	s:STATE_HOLLAND = {
-		region_state:FRA = {
+		region_state:NET = {
 			create_pop = {
 				culture = dutch
 				size = 1096204
@@ -635,7 +635,7 @@
 			}
 		}
 	}
-	s:STATE_FRIESLAND = {
+	s:STATE_GELRE = {
 		region_state:TRR = {
 			create_pop = {
 				culture = dutch
@@ -651,7 +651,7 @@
 			}
 		}
 	}
-	s:STATE_GELRE = {
+	s:STATE_FRIESLAND = {
 		region_state:NET = {
 			create_pop = {
 				culture = dutch
