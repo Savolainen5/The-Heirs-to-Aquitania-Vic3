@@ -1,6 +1,6 @@
 ﻿BUILDINGS={
 	s:STATE_TANABIE={ #Now in western TN/KY
-		region_state:MAR={
+		region_state:AQT={ #MAR
 			create_building={
 				building="building_government_administration"
 				level=4
@@ -22,7 +22,7 @@
 		}
 	}
 	s:STATE_NOUVEAU_BLOIS={
-		region_state:MAR={
+		region_state:AQT={ #MAR
 			create_building={
 				building="building_port"
 				level=2
@@ -138,7 +138,7 @@
 		}
 	}
 	s:STATE_NORTH_ADWERDIA={
-		region_state:LOG={
+		region_state:MAR={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -282,7 +282,7 @@
 		}
 	}
 	s:STATE_TERRE_PLATE={
-		region_state:MAR={
+		region_state:AQT={ #MAR
 		}
 		region_state:PWN={
 		}
@@ -294,7 +294,7 @@
 		}
 	}
 	s:STATE_TABASSE={
-		region_state:MAR={
+		region_state:AQT={ #MAR
 			create_building={
 				building="building_cotton_plantation"
 				level=1
@@ -306,7 +306,7 @@
 		}
 	}
 	s:STATE_HACHICOBA={
-		region_state:MAR={
+		region_state:AQT={ #MAR
 			create_building={
 				building="building_cotton_plantation"
 				level=1
@@ -322,7 +322,7 @@
 		}
 	}
 	s:STATE_QUOIPAS={
-		region_state:MAR={
+		region_state:AQT={ #MAR
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -534,7 +534,7 @@
 		}
 	}
 	s:STATE_WELLBURN={
-		region_state:LOG={
+		region_state:MAR={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -574,7 +574,7 @@
 		}
 	}
 	s:STATE_COCHAPO={
-		region_state:MAR={
+		region_state:AQT={ #MAR
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -596,7 +596,7 @@
 		}
 	}
 	s:STATE_TOHOME={
-		region_state:MAR={
+		region_state:AQT={ #MAR
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -652,7 +652,7 @@
 		}
 	}
 	s:STATE_BERDON={
-		region_state:LOG={
+		region_state:MAR={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -896,7 +896,7 @@
 		}
 	}
 	s:STATE_OFERBERG={
-		region_state:LOG={
+		region_state:MAR={
 		}
 	}
 	s:STATE_MOURITSLAND={
@@ -1088,7 +1088,7 @@
 		}
 	}
 	s:STATE_SOUTH_ADWERDIA={
-		region_state:LOG={
+		region_state:MAR={
 			create_building={
 				building="building_government_administration"
 				level=2
@@ -1144,7 +1144,7 @@
 		}
 	}
 	s:STATE_CRUGOLAND={
-		region_state:LOG={
+		region_state:MAR={
 			create_building={
 				building="building_government_administration"
 				level=1
@@ -1454,7 +1454,7 @@
 		}
 	}
 	s:STATE_HAINAI={
-		region_state:MAR={
+		region_state:AQT={ #MAR
 			create_building={
 				building="building_cotton_plantation"
 				level=1

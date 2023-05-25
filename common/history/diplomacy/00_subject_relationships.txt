@@ -110,27 +110,27 @@
 #			type = puppet
 #		}
 	}
-#	c:MAU = {
-#		create_diplomatic_pact = {
-#			country = c:NGR
-#			type = puppet
-#		}
-#		create_diplomatic_pact = {
-#			country = c:NEX
-#			type = puppet
-#		}
-#		create_diplomatic_pact = {
-#			country = c:NCS
-#			type = puppet
-#		}
-#		create_diplomatic_pact = {
-#			country = c:GUA
-#			type = puppet
-#		}
-#		create_diplomatic_pact = {
-#			country = c:NUT #Nutca
-#			type = puppet
-#		}
+	c:GLZ = {
+		create_diplomatic_pact = {
+			country = c:NGR
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:NEX
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:NCS
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:GUA
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:NUT #Nutca
+			type = puppet
+		}
 #		create_diplomatic_pact = {
 #			country = c:ZBG #Zamboanga
 #			type = puppet
@@ -143,7 +143,7 @@
 #			country = c:HEG #Hegoaldea, in New Zealand
 #			type = puppet
 #		}
-#	}
+	}
 
 #	c:KAB = {							#Countries of the lowest rank aren't allowed to have vassals, which seems strange to me. This should be changed in the mod
 #		create_diplomatic_pact = {
