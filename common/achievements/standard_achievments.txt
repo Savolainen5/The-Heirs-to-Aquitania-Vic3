@@ -1,1 +1,35 @@
-﻿
+﻿peccavi = {
+    possible = {
+        has_variable = HtA_dummy_achievement_var
+    }
+    happened = {
+        owns_entire_state_region = STATE_HILLENSLAND
+        owns_entire_state_region = STATE_ILE_DE_FRANCE
+		owns_entire_state_region = STATE_PUNJAB
+    }
+}
+perkeletankki = { 
+    possible = {
+        has_variable = HtA_dummy_achievement_var
+    }
+    happened = {
+        hidden_trigger = {
+            market_capital.market = {
+                mg:tanks = {
+                    market_goods_production >= 100
+                }
+            }
+        }
+    }
+}
+
+luxurious_luxembourg = { 
+    possible = {
+        has_variable = HtA_dummy_achievement_var
+    }
+    happened = {
+        leading_producer_of = g:luxury_clothes
+        leading_producer_of = g:luxury_furniture
+        leading_producer_of = g:porcelain
+    }
+}
