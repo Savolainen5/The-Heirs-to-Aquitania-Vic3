@@ -1008,6 +1008,120 @@ eirean={
 	}
 }
 
+francien={
+	color= rgb{ 76 118 155 }
+	religion = catholic
+	traits = { francophone european_heritage }
+	
+	obsessions = {
+		wine
+	}
+	
+	male_common_first_names={
+		Achille Adolphe Adrien Aimable Alphonse Amedee Antoine Armand Auguste Augustin Alcide Andre Alexandre Athanase Abel Ambroise Aristide AlbE_ric Archambaud
+		Bertrand Bernardin Bernard Barthelemy
+		Charles Constant Camille Claude CE_lestin Christophe Cyprien
+		Daniel Denis Donat Dominique
+		Elie Eugene Edouard E_tienne Emile Emmanuel E_vrard ElzE_ar
+		Fernand Francois Frederic Felicien Felix Firmin Ferdinand
+		Georges Guillaume Gustave Gaston Guy Germain
+		Henri Hippolyte Hubert Hugo Hercule Hugues
+		Jacques Jean Joseph Jules Julien Jeremie JE_rO_me Just
+		Lazare Louis Lucien Leopold_2 Leon Laurent Lazare LE_onide
+		Matthieu Michel Marcel Maximilien Maxime Maurice MoI_se
+		Napoleon Nicolas
+		Olivier Oscar Octave Odilon
+		Patrice Paul Philippe Pierre Prosper Pascal
+		Robert Roland Rodolphe Raymond Rene RE_my
+		Sebastien Simon
+		Thibaut Thierry Thomas Theophile Theodore ThE_obald
+		Vincent
+		Xavier
+		Yves
+	}
+	female_common_first_names = {
+		Adelaide_2 Adele_2 Alexandrine Amelie_2 Angelique Anne Antoinette Athenais Augustine
+		Beatrice Blanche
+		Camille Caroline Catherine Charlotte Claire Clemence Clotilde
+		Delphine Diane
+		Eleonore_2 Ernestine Eugenie Eulalie
+		Francoise
+		Gabrielle
+		Henriette Hortense
+		Jeanne Julie Juliette Justine
+		LE_ontine Leopoldine Louise Louise-Victorine
+		Marcelle Marguerite Marie Marie-Anne Marie-Felix Marthe Mathilde Melanie
+		Pauline Paule
+		SE_raphine Sibylle Sophie Stephanie Suzanne
+		Therese_2
+		Victoire Victorine Virginie
+	}	
+	noble_last_names = {
+		d_Aumont
+		Baraguey_d_Hilliers Bergeret de_Beauharnais de_Bussiere de_Broglie
+		de_Chastellux de_Chodron_de_Courcel de_CambacE_rE_s de_Croy
+		Decazes de_Durfort
+		d_Essling
+		Fesch
+		Gros de_Gramont de_Guerin de_Gueydon de_Goyon
+		Kellermann
+		Lagrange de_Lamartine de_La_Luzerne de_Leuchtenberg
+		Marbot de_MacMahon de_Montmorency-Laval Maret de_Morny MassE_na
+		de_Noailles
+		Oudinot
+		Pasquier de_Pourtales de_Polignac de_Persigny
+		de_La_Rochefoucauld de_Rochebouet de_Rohan-Chabot
+		Suchet de_Sabran de_Saulx de_SE_rent
+		de_Talleyrand-PE_rigord
+	}
+	common_last_names={
+		Anthoine Archinard Augereau Aucouturier Alavoine
+		Baraguey Bazaine Billot Bosquet Boulanger Bourbaki Boue_de_Lapeyrere Bouet-Willaumez Bugeaud Beaugendre Bronchard Baudet Bodinier Bouillet BiE_re
+		Caillard Canrobert Courbet Cousin-Mountauban de_Castellane de_Castelnau Combes ClouE_ Cornet Colas Chauvet Carrere Chartier Combelles Chaude Colin Cruchon Cauvry ChaudE_ Collet Cottrel Charron Caudrelier Courcelles Cibiel
+		Davout Depre Dubail Dubois Duchene Dupetit-Thouars Desbordes DelcassE_ Dortignacq Dargassies Desgrange Daumain Decaup Dozol Duboc Darche Deloffre Dutiron Denizot Dufour Devilly Dhers Dartigue Degy Delpech Daime
+		Exelmans
+		Foch Forey Franchet_d_Esperey Freycinet Faidherbe Fily Fleury Forestier Figuet
+		Gallieni Gouraud Guillaumat de_Gaulle Gain Georget Gabory Guillarme Garrigou Genin GE_raud Godivier Germain Gardent Goujon
+		Hamelin Harispe Hoche Humbert d_Hilliers Habierre Herbelin Harquet
+		Jamais Jaures Joffre JaurE_guiberry Jousselin
+		Lebouef Lyautey de_Langle_de_Cary Leygoute Lignon Lallement Lacroix Lafourcade Le_Bars Lachaise Leman Lorillon Lecointe Langlade Leblanc Lagagner Leroy Lapize Lannelongue
+		Marmontel Murat de_Montaignac Mazel Maitron ME_nager Meili Mathonat
+		Ney_d_Elchingen Nivelle Nancy Neboux Nempon Nadaud
+		Oudin Ory
+		Petain Pellissier Pothier Pasquier Pautrat Payan Passerieu Paulmier Ponson PiE_trois Pardon
+		Quenon
+		Ringeval Roux Rabot Riviere Roche Riou Ricaux Roquebert Rottie Royannez
+		Saget de_Saint_Arnaud SouliE_
+		Trebutien Trousselier Tuvache
+		Vaillant Ventresque Villette Vivier Vaidis Vilette
+		Wattelier Winant
+	}
+	male_regal_first_names={
+		Antoine
+		Charles
+		Ferdinand-Philippe Francois
+		Henri
+		Louis
+	}
+	female_regal_first_names={
+		Anne
+		ClE_mentine
+		Francoise
+		HE_lE_ne
+		Isabelle
+		Louise
+		Marie Marie_ThE_rE_se
+	}
+	regal_last_names={
+		de_Tournus
+	}
+
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+
 hellene={
 	color={ 200 50 100 }
 	religion = orthodox
@@ -1847,6 +1961,84 @@ logrish={
 		1 = caucasian
 	}
 }
+manchais={
+	color= rgb{ 124 211 220 }
+	religion = catholic
+	traits = { francophone european_heritage }
+	
+	obsessions = {
+		#wine #Maybe no obsession? Harder to get wine in Aengland
+	}
+	
+	male_common_first_names={
+		Achille Adolphe Adrien Aimable Alphonse Amedee Antoine Armand Auguste Augustin Alcide Andre Alexandre Athanase Abel Ambroise Aristide AlbE_ric Archambaud
+		Bertrand Bernardin Bernard Barthelemy
+		Charles Constant Camille Claude CE_lestin Christophe Cyprien
+		Daniel Denis Donat Dominique
+		Elie Eugene Edouard E_tienne Emile Emmanuel E_vrard ElzE_ar
+		Fernand Francois Frederic Felicien Felix Firmin Ferdinand
+		Georges Guillaume Gustave Gaston Guy Germain
+		Henri Hippolyte Hubert Hugo Hercule Hugues
+		Jacques Jean Joseph Jules Julien Jeremie JE_rO_me Just
+		Lazare Louis Lucien Leopold_2 Leon Laurent Lazare LE_onide
+		Matthieu Michel Marcel Maximilien Maxime Maurice MoI_se
+		Napoleon Nicolas
+		Olivier Oscar Octave Odilon
+		Patrice Paul Philippe Pierre Prosper Pascal
+		Robert Roland Rodolphe Raymond Rene RE_my
+		Sebastien Simon
+		Thibaut Thierry Thomas Theophile Theodore ThE_obald
+		Vincent
+		Xavier
+		Yves
+	}
+	female_common_first_names = {
+		Adelaide_2 Adele_2 Alexandrine Amelie_2 Angelique Anne Antoinette Athenais Augustine
+		Beatrice Blanche
+		Camille Caroline Catherine Charlotte Claire Clemence Clotilde
+		Delphine Diane
+		Eleonore_2 Ernestine Eugenie Eulalie
+		Francoise
+		Gabrielle
+		Henriette Hortense
+		Jeanne Julie Juliette Justine
+		LE_ontine Leopoldine Louise Louise-Victorine
+		Marcelle Marguerite Marie Marie-Anne Marie-Felix Marthe Mathilde Melanie
+		Pauline Paule
+		SE_raphine Sibylle Sophie Stephanie Suzanne
+		Therese_2
+		Victoire Victorine Virginie
+	}	
+	noble_last_names = {
+	}
+	common_last_names={
+		Anthoine Archinard Augereau Aucouturier Alavoine
+		Baraguey Bazaine Billot Bosquet Boulanger Bourbaki Boue_de_Lapeyrere Bouet-Willaumez Bugeaud Beaugendre Bronchard Baudet Bodinier Bouillet BiE_re
+		Caillard Canrobert Courbet Cousin-Mountauban de_Castellane de_Castelnau Combes ClouE_ Cornet Colas Chauvet Carrere Chartier Combelles Chaude Colin Cruchon Cauvry ChaudE_ Collet Cottrel Charron Caudrelier Courcelles Cibiel
+		Davout Depre Dubail Dubois Duchene Dupetit-Thouars Desbordes DelcassE_ Dortignacq Dargassies Desgrange Daumain Decaup Dozol Duboc Darche Deloffre Dutiron Denizot Dufour Devilly Dhers Dartigue Degy Delpech Daime
+		Exelmans
+		Foch Forey Franchet_d_Esperey Freycinet Faidherbe Fily Fleury Forestier Figuet
+		Gallieni Gouraud Guillaumat de_Gaulle Gain Georget Gabory Guillarme Garrigou Genin GE_raud Godivier Germain Gardent Goujon
+		Hamelin Harispe Hoche Humbert d_Hilliers Habierre Herbelin Harquet
+		Jamais Jaures Joffre JaurE_guiberry Jousselin
+		Lebouef Lyautey de_Langle_de_Cary Leygoute Lignon Lallement Lacroix Lafourcade Le_Bars Lachaise Leman Lorillon Lecointe Langlade Leblanc Lagagner Leroy Lapize Lannelongue
+		Marmontel Murat de_Montaignac Mazel Maitron ME_nager Meili Mathonat
+		Ney_d_Elchingen Nivelle Nancy Neboux Nempon Nadaud
+		Oudin Ory
+		Petain Pellissier Pothier Pasquier Pautrat Payan Passerieu Paulmier Ponson PiE_trois Pardon
+		Quenon
+		Ringeval Roux Rabot Riviere Roche Riou Ricaux Roquebert Rottie Royannez
+		Saget de_Saint_Arnaud SouliE_
+		Trebutien Trousselier Tuvache
+		Vaillant Ventresque Villette Vivier Vaidis Vilette
+		Wattelier Winant
+	}
+
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
 
 marianais={
 	color= { 29 142 48 }
@@ -2401,6 +2593,274 @@ prateado={
 		1 = south_american
 	}
 	graphics = generic
+}remenish={ #Germanic inhabitants of Frankonia
+	color= rgb{ 43 141 172 }
+	religion = catholic
+	traits = { beneluxian_culture_group european_heritage }
+	male_common_first_names={
+		Adolf
+		Adolphe
+		Adriaan
+		Albert
+		Alexander
+		Alexandre
+		Alfons
+		Alphonse
+		Andries
+		Antoine
+		Auguste
+		Bonifaas
+		Boudewijn
+		Camille
+		Charles
+		Constant
+		David
+		Diederik
+		Desire
+		Edmond
+		Emmanuel
+		Etienne
+		Eugene
+		Ferdinand
+		Filip
+		Frans
+		Francois
+		Frederik
+		Felix
+		Guillaume
+		Gustave
+		Hendrik
+		Henri
+		Herman
+		Ignaas
+		Ignace
+		Jan
+		Jean
+		Jean-Baptiste
+		Jean_Francois
+		Jean-Jacques
+		Jean-Louis
+		Jochem
+		Joseph
+		Josse
+		Jozef
+		Jules
+		Karel
+		Laurens
+		Leopold
+		Louis
+		Lucien
+		Leon
+		Leonard
+		Manfred
+		Mathias
+		Nicolas
+		Nikolaas
+		Olivier
+		Paul
+		Philippe
+		Philippe-Joseph
+		Pierre
+		Pieter
+		Robert
+		Sylvain
+		Theodoor
+		Victor
+		Vincent
+		Werner
+		Willem
+	}
+	female_common_first_names = {
+		Clementine Charlotte Christine
+		Hendrika Henrieette
+		Josepha Josephine
+		Leocadie Louise
+		Marie Mathilde
+		Nathalie
+		Stefanie
+	}	
+	noble_last_names = {
+		van_Asseliers
+		van_Boisschot du_Bois_de_Vroylande
+		Coomans_de_Brachene de_Croeser Coopieters_-t_Wallant
+		De_Duerwaerder
+		Goddyn
+		Van_Huele
+		de_Jaegher
+		de_Kerchove_de_Denterghem
+		De_Munck_Moerman
+		van_der_Noot Van_Naemen
+		De_Smedt
+		de_Watervliet
+		van_Zuylen_van_Nyevelt
+		Quarles_van_Ufford
+		
+		Annez_de_Zillebroeck
+		Boucqueau_de_Villeraye
+		Desmanet_de_Biesme
+		Surlet_de_Chokier
+		Surmont_de_Volsberghe
+		de_Jonghe_d_Ardoye
+		de_Meer_de_Moorsel
+		de_Theux_de_Meylandt
+		Vilain_XIIII
+	}
+	common_last_names={
+		Andries
+		Barbanson
+		Barthelemy
+		Beaucarne
+		Beernaert
+		Berthels
+		Bethune
+		Beyts
+		Bischoff
+		Blomme
+		Bosmans
+		Buylaert
+		Buyse
+		Claes
+		Claus
+		Cogels
+		Cols
+		Coppens
+		Coppieters
+		Corten
+		Cruts
+		Dayeneux
+		Delberke
+		Delehaye
+		Delwarde
+		Destouvelles
+		Deswert
+		Devaux
+		Dhanis
+		Domis
+		Fransman
+		Gelders
+		Geudens
+		Goethals
+		Hennequin
+		Huysman_d_Annecroix
+		Jacobs
+		Janssens
+		Joos
+		Jottrand
+		Kockaert
+		Ledeganck
+		Lefebvre
+		Liedts
+		Marcq
+		Meeus
+		Morel
+		Moyersoen
+		Mulle
+		Nypels
+		Ooms
+		Osy
+		Peemans
+		Peeters
+		Petens
+		Rodenbach
+		Roels
+		Rosseuw
+		Rouppe
+		Rutten
+		Schollaert
+		Serruys
+		Simons
+		Speelman
+		Struye
+		Terlinden
+		Teuwens
+		Thienpont
+		Tilkens
+		Vandive
+		Verbeke
+		Vercruysse
+		Verduyn
+		Vergauwen
+		Verseyden_de_Varick
+		Verwilghen
+		Wallaert
+		Wannaar
+		Werbrouck
+		Wyvekens
+		d_Ansembourg
+		d_Arschot_Schoonhoven
+		d_Hanens
+		de_Brouckere
+		de_Celles
+		de_Coninck
+		de_Decker
+		de_Foere
+		de_Gaesebeke
+		de_Ghellink
+		de_Grez
+		de_Haerne
+		de_Jonghe
+		de_Langhe
+		de_Leeuw
+		de_Leuze
+		de_Man
+		de_Meester
+		de_Muelenaere
+		de_Merode
+		de_Pelichy
+		de_Renesse
+		de_Robiano
+		de_Rodes
+		de_Roo
+		de_Ryckere
+		de_Smet
+		de_Tiecken
+		de_Viron
+		de_Woelmont
+		du_Bois
+		van_Caloen
+		van_Casteel
+		van_Crombrugghe
+		van_Dievoet
+		van_Dorpe
+		van_Havre
+		van_Hoobrouck
+		van_Innis
+		van_Meenen
+		van_Neste
+		van_Snick
+		van_Tongerloo
+		van_Volden_de_Lombeke
+		van_Zeeland
+		van_de_Kerchove
+		van_de_Werve_de_Vorselaar
+		van_de_Weyer
+		van_den_Broucke
+		van_den_Hove
+		van_der_Belen
+		van_der_Bruggen
+		van_der_Burch
+		van_der_Eecken
+		van_der_Linden
+		van_der_Linden_d_Hooghvorst
+		van_der_Looy
+	}
+	male_regal_first_names = {
+		Albert
+		Charles
+		Leopold
+		Philippe
+	}
+	female_regal_first_names = {
+		Charlotte Clementine
+		Elisabeth
+		Louise
+		Marie Maria_Hendrika Mathilde
+		Stefanie
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
 }
 
 roman={

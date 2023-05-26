@@ -661,7 +661,7 @@ alcohol = {
 	}
 	text = {
 		trigger = {
-			cu:french = {
+			cu:francien = {
 				is_primary_culture_of = root
 			}
 		}

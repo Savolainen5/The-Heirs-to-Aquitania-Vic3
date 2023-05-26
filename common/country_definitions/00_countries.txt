@@ -27,7 +27,7 @@ FRA = {
 
 	tier = empire
 	
-	cultures = { french }
+	cultures = { francien remenish manchais }
 	capital = STATE_ILE_DE_FRANCE
 }
 
@@ -175,7 +175,7 @@ FLA = {
 	tier = principality
 	
 	capital = STATE_FLANDERS
-	cultures = { flemish }
+	cultures = { remenish }
 	is_named_from_capital = yes
 }
 

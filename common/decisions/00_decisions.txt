@@ -12,7 +12,7 @@
 #
 #		error_check = {
 #			severity = fail
-#			country_has_primary_culture = cu:french # can be taken only by countries where the french culture is primary
+#			country_has_primary_culture = cu:francien # can be taken only by countries where the francien culture is primary
 #		}
 #	}
 #

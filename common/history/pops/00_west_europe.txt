@@ -196,7 +196,7 @@
 				size = 1606879
 			}
 			create_pop = {
-				culture = french
+				culture = manchais
 				size = 401719
 			}
 		}
@@ -219,7 +219,7 @@
 				size = 285756
 			}
 			create_pop = {
-				culture = french
+				culture = manchais
 				size = 55583
 			}
 		}
@@ -248,7 +248,7 @@
 				size = 1435141
 			}
 			create_pop = {
-				culture = french
+				culture = manchais
 				size = 159460
 			}
 		}
@@ -413,7 +413,7 @@
 	s:STATE_ILE_DE_FRANCE = {
 		region_state:FRA = {
 			create_pop = {
-				culture = french
+				culture = francien
 				size = 1306800
 			}
 			create_pop = {
@@ -433,7 +433,7 @@
 	s:STATE_NORMANDY = {
 		region_state:FRA = {
 			create_pop = {
-				culture = french
+				culture = francien
 				size = 2550396
 			}
 		}
@@ -465,7 +465,7 @@
 	s:STATE_LOIRE = {
 		region_state:FRA = {
 			create_pop = {
-				culture = french
+				culture = francien
 				size = 732480
 			}
 			create_pop = {
@@ -481,11 +481,11 @@
 				size = 2138408
 			}
 			create_pop = {
-				culture = flemish
+				culture = remenish
 				size = 171200
 			}
 			create_pop = {
-				culture = french
+				culture = remenish
 				size = 71200
 			}
 		}
@@ -493,7 +493,7 @@
 	s:STATE_ALSACE_LORRAINE = {
 		region_state:TRR = {
 			create_pop = {
-				culture = french
+				culture = remenish
 				size = 510008
 			}
 			create_pop = {
@@ -514,7 +514,7 @@
 	s:STATE_MAINE = {
 		region_state:FRA = {
 			create_pop = {
-				culture = french
+				culture = francien
 				size = 636266
 			}
 			create_pop = {
@@ -534,19 +534,19 @@
 	s:STATE_LEMOTGES = {
 		region_state:AQT = {
 			create_pop = {
-				culture = french
-				size = 800006
+				culture = francien
+				size = 200006
 			}
 			create_pop = {
 				culture = aquitanian
-				size = 800006
+				size = 600006
 			}
 		}
 	}
 	s:STATE_BRITTANY = {
 		region_state:FRA = {
 			create_pop = {
-				culture = french
+				culture = francien
 				size = 392572
 			}
 			create_pop = {
@@ -558,7 +558,7 @@
 	s:STATE_CHAMPAGNE = {
 		region_state:FRA = {
 			create_pop = {
-				culture = french
+				culture = remenish
 				size = 2192800
 			}
 		}
@@ -566,7 +566,7 @@
 	s:STATE_FRANCHE_COMTE = {
 		region_state:FRA = {
 			create_pop = {
-				culture = french
+				culture = remenish
 				size = 924200
 			}
 			create_pop = {
@@ -578,7 +578,7 @@
 	s:STATE_BURGUNDY = {
 		region_state:FRA = {
 			create_pop = {
-				culture = french
+				culture = remenish
 				size = 1994008
 			}
 			create_pop = {
@@ -614,7 +614,7 @@
 	s:STATE_ORLEANS = {
 		region_state:FRA = {
 			create_pop = {
-				culture = french
+				culture = francien
 				size = 1546400
 			}
 		}
@@ -626,7 +626,7 @@
 				size = 1096204
 			}
 			create_pop = {
-				culture = flemish
+				culture = remenish
 				size = 21400
 			}
 			create_pop = {
@@ -662,7 +662,7 @@
 				size = 3000
 			}
 			create_pop = {
-				culture = flemish
+				culture = remenish
 				size = 17200
 			}
 			create_pop = {
@@ -691,7 +691,7 @@
 				size = 71996
 			}
 			create_pop = {
-				culture = flemish
+				culture = remenish
 				size = 132800
 			}
 			create_pop = {
@@ -703,7 +703,7 @@
 	s:STATE_FLANDERS = {
 		region_state:FRA = {
 			create_pop = {
-				culture = flemish
+				culture = remenish
 				size = 2317000
 			}
 			create_pop = {
@@ -959,7 +959,7 @@
 				size = 424000
 			}
 			create_pop = {
-				culture = french
+				culture = remenish
 				size = 8400
 			}
 			create_pop = {

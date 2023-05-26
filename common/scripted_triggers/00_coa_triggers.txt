@@ -101,7 +101,7 @@ coa_controls_part_of_ireland = {
 coa_controls_part_of_france = {
 	any_scope_state = {
 		state_region = {
-			is_homeland = french
+			is_homeland = francien
 		}
 	}
 }
@@ -508,7 +508,7 @@ coa_SWE_karl_johan_is_king_trigger = {
 			# hacky way to see if King Karl Johan has been succeeded
 			ruler = {
 				is_monarch = yes
-				has_culture = cu:french
+				has_culture = cu:francien
 			}
 		}
 	}

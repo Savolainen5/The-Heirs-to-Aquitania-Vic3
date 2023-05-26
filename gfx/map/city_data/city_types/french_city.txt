@@ -9,7 +9,7 @@
 		any_scope_state = {
 			owner = {
 				OR = {
-					country_has_primary_culture = cu:french
+					country_has_primary_culture = cu:francien
 					country_has_primary_culture = cu:francoprovencal
 					country_has_primary_culture = cu:wallonian
 					country_has_primary_culture = cu:aquitanian

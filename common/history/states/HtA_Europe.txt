@@ -23,7 +23,7 @@
 			owned_provinces = { x1020C0 x065CAE x0B7098 x65728E xB06080 xB78E54 xB8903B x90A040 x79C0E6 }
 		}
 		
-		add_homeland = french
+		add_homeland = francien
 	}
 	s:STATE_BETICA = {
 		create_state = {
@@ -361,7 +361,7 @@
 			country = c:OXF
 			owned_provinces = { x58D3AE }
 		}
-		add_homeland = french
+		add_homeland = francien
 		add_homeland = aenglish
 	}
 	s:STATE_COMBRE = {
@@ -402,7 +402,7 @@
 			owned_provinces = { x5024FD x516676 x73EF57 x8C667B x6D87D7 xE02040 }
 		}
 		
-		add_homeland = french
+		add_homeland = francien
 		add_homeland = aenglish
 	}
 	s:STATE_WESSAXE = {
@@ -414,7 +414,7 @@
 			country = c:SEV
 			owned_provinces = { xE020C0 }
 		}
-		add_homeland = french
+		add_homeland = francien
 		add_homeland = aenglish
 	}
 	s:STATE_BEORNICE = {
@@ -496,7 +496,7 @@
 			owned_provinces = { x19234B x093DF5 xD02040 xD020C0 x6B5474 x3F74AF xDD4DD0 xE269A3 x50A040 }
 		}
 		
-		add_homeland = french
+		add_homeland = francien
 	}
 	s:STATE_PICARDY = {
 		create_state = {
@@ -504,7 +504,7 @@
 			owned_provinces = { x9020C0 x106000 xCF1F6D x10A0C0 xA786BB xD0854D xE0A624 xE0A0C0 xC4C61A }
 		}
 		
-		add_homeland = french
+		add_homeland = francien
 	}
 	s:STATE_ALSACE_LORRAINE = {
 		create_state = {
@@ -512,7 +512,7 @@
 			owned_provinces = { x4899A2 x6E4891 x904020 xB000E0 xCC3250 xF0C0A0 }
 		}
 		
-		add_homeland = french
+		add_homeland = francien
 		add_homeland = south_german
 	}
 	
@@ -523,7 +523,7 @@
 			owned_provinces = { x192CA5 xF91DD2 x7CAE05 x50CE72 x30E080 xF6A48C x56E158 xB0E080 }
 		}
 		
-		add_homeland = french
+		add_homeland = francien
 	}
 	s:STATE_MIEGJORN = {
 		create_state = {
@@ -555,7 +555,7 @@
 			owned_provinces = { x12462D xEF00DF x075199 x7040A0 xEF40A0 xE280FC xD6A06D x71DA2E x5FEA2F x8AE8D1 }
 		}
 		
-		add_homeland = french
+		add_homeland = francien
 	}
 	s:STATE_FRANCHE_COMTE = {
 		create_state = {
@@ -563,7 +563,7 @@
 			owned_provinces = { x700060 x600883 x282DCC xF00060 xCF46D1 x4B7684 x3080E0 x3D8EF9 xB080E0 x70BFA0 x7FC1E6 xA9D961 xC5F13A }
 		}
 		
-		add_homeland = french
+		add_homeland = francien
 	}
 	s:STATE_BURGUNDY = {
 		create_state = {
@@ -571,7 +571,7 @@
 			owned_provinces = { x380D42 x7000E0 x8329EC x8C3297 x6D7896 x708060 xF08060 x79B85C }
 		}
 		
-		add_homeland = french
+		add_homeland = francien
 	}
 	s:STATE_AUVERNHA = {
 		create_state = {
@@ -595,7 +595,7 @@
 			owned_provinces = { x6E4717 x886277 x07BCC1 x47B641 xF080E0 xA8AE71 x3FE149 x14F855 xE7B296 xD8BA95 x90E000 xE3E249 }
 		}
 		
-		add_homeland = french
+		add_homeland = francien
 	}
 	s:STATE_ILE_DE_FRANCE = {
 		create_state = {
@@ -603,7 +603,7 @@
 			owned_provinces = { xF522D9 x906000 xE13BC2 xD642B5 x7080DF x09BB96 x999D4B xC69235 x90A0C0 x10DF00 xF0E39E }
 		}
 		
-		add_homeland = french
+		add_homeland = francien
 	}
 	s:STATE_ELBE = {
 		create_state = {
@@ -738,8 +738,8 @@
 			owned_provinces = { xD001A0 x2D32D7 xEF2040 x3A5FB9 x486F6A x916574 x5180A0 x669027 x70C020 xB0A0C0 xEFBF20 }
 		}
 
-		add_homeland = flemish
-		add_homeland = french
+		add_homeland = remenish
+		add_homeland = francien
 	}
 	
 	#The below is actually Luxembourg state, could potentially be readded in time, considering it's using up an ID

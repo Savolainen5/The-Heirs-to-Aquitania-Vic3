@@ -118,6 +118,7 @@
 
  #Frankonia
  #STATE_MAINE: "Maine" #It's probably fine to rely on the vanilla Maine loc
+ STATE_LOIRE: "Loire"
 
  #Aquitània
  STATE_GARONA: "Garona"
