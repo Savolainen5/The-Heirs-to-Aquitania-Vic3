@@ -79,7 +79,7 @@
 	}
 	s:STATE_POMERANIA = {
 		create_state = {
-			country = c:MEC
+			country = c:GER
 			owned_provinces = { x514C51 xF77289 x19AE19 x6A53CF xA9BD82 x8C6982 x3C26DD x86E6F2 xCDEAE4 xA0C020 xD4C37D x8D1E12 xEF5730 x8001A0 x89A2A9 }
 		}
 		add_homeland = north_german
@@ -608,11 +608,7 @@
 	s:STATE_ELBE = {
 		create_state = {
 			country = c:GER
-			owned_provinces = { xC08061 x68BE66 x418061 x392FDA xC080E0 xA5E2E8 x7C8FD3 x587297 xF54C13 }
-		}
-		create_state = {
-			country = c:MEC
-			owned_provinces = { x587297 }
+			owned_provinces = {xC08061 x68BE66 x418061 x392FDA xC080E0 xA5E2E8 x7C8FD3 x587297 xF54C13 }
 		}
 		add_homeland = north_german
 	}
@@ -1535,7 +1531,7 @@
 	}
 	s:STATE_BRANDENBURG = {
 		create_state = {
-			country = c:MEC
+			country = c:GER
 			owned_provinces = { x169073 x28CEC2 x34386E x43CE26 x60BF20 x614121 x76EF4E x83B1A8 x9B9076 xA040A0 xA080E0 xA65DA6 xB90BFF xDF4020 xE0C0A0 xF8D457 }
 		}
 		
@@ -1544,7 +1540,7 @@
 	}
 	s:STATE_SCHLESWIG_HOLSTEIN = {
 		create_state = {
-			country = c:MEC
+			country = c:GER
 			owned_provinces = { xBFCC21 x804160 x64824C xE000A0 x60809F}
 		}
 		create_state = {
@@ -1695,7 +1691,7 @@
 	}
 	s:STATE_MECKLENBURG = {
 		create_state = {
-			country = c:MEC
+			country = c:GER
 			owned_provinces = { x069CFB x12E54F x24CA48 x4545BE x567452 x61C0A0 x82F9A8 x9E7304 xA04121 xD8F441 xD9A469 xE041A0 xE080A0 xE1A03A }
 		}
 		

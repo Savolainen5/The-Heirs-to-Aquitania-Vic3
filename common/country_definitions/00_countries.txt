@@ -1463,7 +1463,7 @@ BUR = {
 	
 	tier = kingdom
 	
-	cultures = { burmese }
+	cultures = { burmese mon kachin shan zo karen }
 	capital = STATE_BURMA
 }
 
@@ -2228,7 +2228,7 @@ KLT = { # Kalimantan
 HTH = { # Hanthawaddy
 	color = { 140 210 160 }
 	
-	country_type = decentralized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -3061,3 +3061,4 @@ SCH = {
 	capital = STATE_SCHLESWIG_HOLSTEIN
 	is_named_from_capital = yes
 }
+

@@ -813,7 +813,7 @@
 		}
 	}
 	s:STATE_POMERANIA = {
-		region_state:MEC = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 118800
@@ -838,7 +838,7 @@
 		}
 	}
 	s:STATE_ELBE = {
-		region_state:MEC = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 102004
@@ -848,8 +848,6 @@
 				religion = catholic
 				size = 4000
 			}
-		}
-		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 655192
@@ -1007,7 +1005,7 @@
 		}
 	}
 	s:STATE_BRANDENBURG = {
-		region_state:MEC = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 1050704
@@ -1032,7 +1030,7 @@
 		}
 	}
 	s:STATE_SCHLESWIG_HOLSTEIN = {
-		region_state:MEC = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 374604
@@ -1344,7 +1342,7 @@
 		}		
 	}
 	s:STATE_MECKLENBURG = {
-		region_state:MEC = {
+		region_state:GER = {
 			create_pop = {
 				culture = north_german
 				size = 490002

@@ -1428,11 +1428,6 @@ BRU = {
 	ai_will_do = { always = no }
 }
 
-BUR = {
-	use_culture_states = yes
-	ai_will_do = { always = no }
-}
-
 CAM = {
 	use_culture_states = yes
 	ai_will_do = { always = no }

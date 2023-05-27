@@ -398,16 +398,20 @@
 	s:STATE_ASSAM = {
 		create_state = {
 			country = c:BGL
-			owned_provinces = { x17E33F x0BB5E2 xA458FC x86D527 x3D8CD6 x12647B x9A1864 xA030E0 x4803C7 x954C46 x70069E xFB1561 xA77996 x4CCA97 x1D0302 x30B15A xB03121 xB238B2 xE101DA x8F90F5 x8C53B3 xF9B21B x1B997A xCB0893 xA17DC4 x8C6C79 xCC2DA0 x6030DF xC6301B x408BEB x9419F5 xF3B09A x337820 x5D1160 xD9940E }
+			owned_provinces = { x17E33F x0BB5E2 xA458FC x86D527 x3D8CD6 x12647B x9A1864 xA030E0 x4803C7 x954C46 x70069E xFB1561 xA77996 x4CCA97 x1D0302 x30B15A  xB238B2 xE101DA x8F90F5 x8C53B3 xF9B21B x1B997A xCB0893  x8C6C79 xCC2DA0 x6030DF xC6301B x408BEB x9419F5 }
 		}
 		create_state = {
 			country = c:TAI
 			owned_provinces = { x9700B9 x673438 xF71958 x344BF5 xDF30DF xEE6A3D x7DC31D x3FD07D }
 		}
-		
+		create_state = {
+			country = c:ZOG
+			owned_provinces = { x5D1160  xB03121  x337820  xA17DC4  xD9940E  xF3B09A }
+		}
 		add_homeland = assamese
 		add_homeland = bengali
 		add_homeland = manipuri
+		add_homeland = zo
 	}
 	s:STATE_AWADH = {
 		create_state = {
@@ -433,16 +437,8 @@
 	s:STATE_TENASSERIM = {
 		create_state = {
 			country = c:SIA
-			owned_provinces = {
-				x8000B0 xA060D0 x47B039 x2160CF x9E6CEE xD070DF xC0362D x289F37 x5070E0 x31852E xC6D6FB x7F8C95 xFB4ADA xBE9208 x6D56E2 x173AAB x2231CD
-				x9381F1 xB36203 x3911C1 xFE3639 x1BB979 x9F6BAC x958E99 x3F4145
-			}
+			owned_provinces = { x169A4D   x3911C1   x3F4145   x59E0CA   x9381F1   x94B7B9   x958E99   x9F6BAC   xB36203   xD0EF60   xFE3639  } x169A4D   x3911C1   x3F4145   x59E0CA   x9381F1   x94B7B9   x958E99   x9F6BAC   xB36203   xD0EF60   xFE3639  }
 		}
-		create_state = {
-			country = c:IRE
-			owned_provinces = { x3F4145 x169A4D x94B7B9 x59E0CA xD0EF60 }
-			state_type = unincorporated
-		}	
 		
 		add_homeland = burmese
 		add_homeland = karen
@@ -455,12 +451,18 @@
 		}
 		create_state = {
 			country = c:AVA
-			owned_provinces = { x234C64 xFB1A2B x634D79 xCD31D0 x3E75FA xE15EF6 xC1940E xD18BAA x47C5A9 xB8B1D2 x90EF60 xDEFDA8 }
+			owned_provinces = { xCD31D0 x3E75FA xE15EF6 xC1940E xD18BAA xB8B1D2 x90EF60 xDEFDA8 }
 		}
-		
+		create_state = {
+			country = c:ZOG
+			owned_provinces = {
+				x234C64  xFB1A2B  x634D79  x47C5A9
+			}
+		}
 		add_homeland = burmese
 		add_homeland = kachin
 		add_homeland = shan
+		add_homeland = zo
 	}
 	s:STATE_SHAN_STATES = {
 		create_state = {
@@ -484,7 +486,7 @@
 			}
 		}
 		create_state = {
-			country = c:PRI
+			country = c:HTH
 			owned_provinces = {
 				xD5035C x9070DF x26A2E9
 			}
@@ -501,37 +503,26 @@
 	}
 	s:STATE_PEGU = {
 		create_state = {
-			country = c:BGL
+			country = c:HTH
 			owned_provinces = {
-				 xB316F6 x9A018D xE85BF0 xD5DB0B x6305C9 xF691D2 
+				 xB316F6 x9A018D xE85BF0 xD5DB0B x6305C9 xF691D2 x2BD769 x11F060 x595BB6 x1070E0 xA85E24 x81D108  x1FD921 xCF7060 x020CFE x2906F0 xB13330 x2F9F98 xB0B0A0 xC9BBA0 xC2EA2C xF0F78C
 			}
 		}
 		create_state = {
 			country = c:TAU
 			owned_provinces = {
-				x2D91EF x02F3AF xC0E31F x1FD921 xCF7060
+				x2D91EF  x02F3AF  xC0E31F
 			}
 		}
 		create_state = {
-			country = c:PRI
-			owned_provinces = {
-				x2BD769 x11F060 x595BB6 x1070E0 xA85E24 x81D108
-			}
-		}
-		create_state = {
-			country = c:SIA
-			owned_provinces = {
-				x020CFE x2906F0 xB13330 x2F9F98 xB0B0A0 xC9BBA0 xC2EA2C xF0F78C
-			}
-		}
-		create_state = {
-			country = c:IRE
+			country = c:GER
 			owned_provinces = { xB030A0 x67520F }
 			state_type = unincorporated
 		}
 		
 		add_homeland = karen
 		add_homeland = mon
+		add_homeland = burmese
 	}
 	s:STATE_NORTH_SUMATRA = {
 		create_state = {
@@ -1162,6 +1153,15 @@
 		
 		add_homeland = thai
 		add_homeland = lao
+	}
+	s:STATE_NAKHON_SRI_THAMMARAT = {
+		create_state = {
+			country = c:SIA
+			owned_provinces = { x173AAB   x1BB979   x2160CF   x2231CD   x289F37   x31852E   x47B039   x5070E0   x6D56E2   x7F8C95   x9E6CEE   xA060D0   xBE9208   xC0362D   xC6D6FB   xD070DF   xFB4ADA }
+		}
+		add_homeland = malay
+		add_homeland = thai
+	}
 	s:STATE_SEOUL = {
 		create_state = {
 			country = c:KOR
@@ -1381,13 +1381,7 @@
 		create_state = {
 			country = c:YUN
 			owned_provinces = {
-				x15778F x0441DB x30B020 x58693A xE436A1 x620CDD x596A3B x5B4D62 x3F1A1A x1F78D6 xC0166A x7B64C3 x145038 x9F3CF8 x4BFD9D x82A017 x869E15 xD77B27 xB44B2B x361595 x1A9B06 x1030E0 xBE3E11 xB75AA7 x324DBC x8DE825 x81C1EF x9CC299 xE4031D x813682 x8A64C4 xEB44C6 x88F06D x9F048D x71C144 x171D65 x560DE1 x90B060 x78DC66 xD3FD34 xFE5E24 x208960 x7D9D85 xD7C8CD xF901AE x6A589B xA5EE2A x258B0E x013B73
-			}
-		}
-		create_state = {
-			country = c:TAI
-			owned_provinces = {
-				x20105C x2C11A0 x192036 x380CC0 x201A85 x182F15 x013B73 xB31532 x93373E x6B38F7 x006A4F x21761F xDA3D4C x4371C1 xA76417 xD050BA xFA541A x7F74E1 x8F7B8D xE67199 x96953B x1CB687 xB789C6 xF979F9 x0DD716 xCEA509 xE7A2A1 xB8B1E3 xB6C5A6 x82DE53 xC5D4FD xB2ED64 xCEE3D4 xFDF8D0 xAAC8DF
+				x15778F x0441DB x30B020 x58693A xE436A1 x620CDD x596A3B x5B4D62 x3F1A1A x1F78D6 xC0166A x7B64C3 x145038 x9F3CF8 x4BFD9D x82A017 x869E15 xD77B27 xB44B2B x361595 x1A9B06 x1030E0 xBE3E11 xB75AA7 x324DBC x8DE825 x81C1EF x9CC299 xE4031D x813682 x8A64C4 xEB44C6 x88F06D x9F048D x71C144 x171D65 x560DE1 x90B060 x78DC66 xD3FD34 xFE5E24 x208960 x7D9D85 xD7C8CD xF901AE x6A589B xA5EE2A x258B0E x013B73 x20105C x2C11A0 x192036 x380CC0 x201A85 x182F15 x013B73 xB31532 x93373E x6B38F7 x006A4F x21761F xDA3D4C x4371C1 xA76417 xD050BA xFA541A x7F74E1 x8F7B8D xE67199 x96953B x1CB687 xB789C6 xF979F9 x0DD716 xCEA509 xE7A2A1 xB8B1E3 xB6C5A6 x82DE53 xC5D4FD xB2ED64 xCEE3D4 xFDF8D0 xAAC8DF
 			}
 		}
 		
@@ -1404,16 +1398,6 @@
 		add_homeland = han
 		add_homeland = yi
 		add_homeland = zhuang
-	}
-	s:STATE_SHAOZHOU = {
-		create_state = {
-			country = c:NNY
-			owned_provinces = { xA613C9 xE6F815 xF070E0 xD2A4C7 x12F28E x242A48 xF7C5ED x40D43A x07C8D6 x8D6A1E xEA597E x9C3F91 xACD8B5 x4CF229 x845B19 xEAB2D0 x12DF0F xDFB220 x31B061 xAADB15 xCD4039 xA0C90D xB03161 }
-		}
-		
-		add_homeland = yue
-		add_homeland = han
-		add_homeland = hakka
 	}
 	s:STATE_ALXA = {
 		create_state = {
@@ -1438,7 +1422,7 @@
 	s:STATE_GUANGXI = {
 		create_state = {
 			country = c:NNY
-			owned_provinces = { xBE7B7A x6D1ACD x1E5C7E xE19EFE x37E3AC xC407AF xDCC7E1 x8D45C0 xF0F0A0 xBC6F1C xC20E6A x0422AC x53ABCA x58D3A8 xB1309B x94D1BC x702462 xC3BDF0 x4269D4 x686CE7 xB71848 xFA9280 xA98A12 xCC1018 xF071A0 xE38868 x09D527 xC776A0 x3B542C x9F05B1 x84F9AF x8834F9 xE2A874 x9E2972 x25EA31 x84BD66 x116561 xE33EC4 x5100A2 x0F948D x201F22 x05C2CD x942ACA x48D397 xA34E72 x1380FF xBA0CC4 xDDB27C xF4850E x0359FB x9E70F2 x505080 x135B0F x368CDE xFF1286 x6EB824 x244859 xB0B0E0 x432FE3 xD8799B x12B2EF }
+			owned_provinces = {   x0422AC   x09D527   x0F948D   x116561   x1E5C7E   x201F22   x25EA31   x37E3AC   x3B542C   x477755   x48D397   x4E581C   x5100A2   x53ABCA   x58D3A8   x6D1ACD   x702462   x7131E0   x84F9AF   x8834F9   x8D45C0   x94D1BC   x9A21B1   x9E2972   x9F05B1   xA34E72   xA98A12   xA9B6D4   xB1309B   xB71848   xBA0CC4   xBC6F1C   xBE7B7A   xC20E6A   xC3BDF0   xC407AF   xC77200   xC776A0   xCC1018   xDCC7E1   xE19EFE   xE2A874   xE33EC4   xE38868   xF071A0   xF0F0A0   xFA9280  } 
 		}
 		
 		add_homeland = yue
@@ -1553,7 +1537,7 @@
 	s:STATE_GUANGDONG = {
 		create_state = {
 			country = c:NNY
-			owned_provinces = { x7131E0 xA9B6D4 x19FD82 xB0B061 x2BDE7B x9A21B1 xC77200 x4E581C x477755 xF0B061 x85E0D4 xFEBFD5 x260389 x62BF42 xCB457A x30B0E0 x156AC0 xA92B88 xDC137A x3131E0 x475968 x489AB0 x2C4C48 xF98B04 x8C9358 xB031E0 }
+			owned_provinces = { x07C8D6   x12DF0F   x12F28E   x1380FF   x156AC0   x19FD82   x242A48   x260389   x2BDE7B   x2C4C48   x30B0E0   x3131E0   x31B061   x40D43A   x475968   x489AB0   x4CF229   x62BF42   x845B19   x84BD66   x85E0D4   x8C9358   x8D6A1E   x9C3F91   xA0C90D   xA613C9   xA92B88   xAADB15   xACD8B5   xB03161   xB031E0   xB0B061   xCB457A   xCD4039   xD2A4C7   xDC137A   xDFB220   xE6F815   xEA597E   xEAB2D0   xF070E0   xF0B061   xF7C5ED   xF98B04   xFEBFD5  }
 		}
 #		create_state = {
 #			country = c:GLZ
@@ -1669,7 +1653,7 @@
 	s:STATE_HUNAN = {
 		create_state = {
 			country = c:NNY
-			owned_provinces = { xF1D0A3 x0C3FAC x61F84E xC8039B x133EB5 xD010C0 x6823EC x0E9E2E xC8EB76 x313A55 x105040 x0BC9A5 xC2F0B2 x337511 xBC0A62 xEDEC87 x3E0895 x4BD086 x6CD43B x8AE2CB x252DF2 xD090C0 xC8CEB1 xF8E062 x838F91 x186F43 x2FA4D2 x0EE8CC x425FDF xA62BCD xD05080 x72AB61 x232F8B x8E92CB x4F1960 }
+			owned_provinces = {   x0359FB   x05C2CD   x0BC9A5   x0C3FAC   x0E9E2E   x0EE8CC   x105040   x12B2EF   x133EB5   x135B0F   x186F43   x232F8B   x244859   x252DF2   x2FA4D2   x313A55   x337511   x368CDE   x3E0895   x425FDF   x4269D4   x432FE3   x4BD086   x4F1960   x505080   x61F84E   x6823EC   x686CE7   x6CD43B   x6EB824   x72AB61   x838F91   x8AE2CB   x8E92CB   x942ACA   x9E70F2   xA62BCD   xB0B0E0   xBC0A62   xC2F0B2   xC8039B   xC8CEB1   xC8EB76   xD010C0   xD05080   xD090C0   xD8799B   xDDB27C   xEDEC87   xF1D0A3   xF4850E   xF8E062   xFF1286  }
 		}
 		
 		add_homeland = han

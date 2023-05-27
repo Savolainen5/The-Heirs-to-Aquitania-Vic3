@@ -400,6 +400,17 @@ YAR = { #Yarkent Khanate
 	cultures = { uighur }
 	capital = STATE_TIANSHAN
 }
+ZOG = { #Zogam
+	color = { 235  225  95 }
+	
+	country_type = unrecognized
+
+	tier = principality
+	
+	cultures = { zo }
+	capital = STATE_KACHIN
+	is_named_from_capital = yes
+}
 ZBG = { #Zamboanga
 	color = { 134 208 235 }
 	

@@ -4020,3 +4020,43 @@ ute={ #Split from vanilla Paiute
 	}
 	graphics = generic
 }
+
+zo={	#Needs more accurate names but I don't speak Zomi
+	color= hsv{ 0.64 0.14 0.90 }
+	religion = animist
+	traits = { burmese_language southeast_asian_heritage northeast_indian }
+	male_common_first_names={
+		Ding
+		Duwa
+		Ga
+		Hkyeng
+		Hta
+		Sama
+		Sinwa
+		U
+		Zan
+	}
+	female_common_first_names = {
+		Bawk_Ja
+		Thaung
+		Thin
+	}	
+	noble_last_names = {
+		Ningthouja
+		Singh
+	}
+	common_last_names={
+		Lahpai
+		Lahtaw
+		Maran
+		Marip
+		Nawng
+		Nhkum
+		Ratang
+		Sin
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}

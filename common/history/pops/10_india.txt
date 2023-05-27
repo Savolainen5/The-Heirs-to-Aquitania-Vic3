@@ -58,6 +58,17 @@ s:STATE_BIHAR = {
 				size = 220000
 			}
 		}
+		region_state:ZOG = {
+			create_pop = {
+				culture = zo
+				size = 82434	
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = manipuri
+				size = 1000
+			}
+		}
 		region_state:TAI = {
 			create_pop = {
 				culture = assamese

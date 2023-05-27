@@ -81,26 +81,6 @@ STATE_GUIZHOU = {
     }
 }
 
-STATE_SHAOZHOU = {
-    id = 483
-    subsistence_building = "building_subsistence_farms"
-    provinces = { "x07C8D6" "x12DF0F" "x12F28E" "x242A48" "x31B061" "x40D43A" "x4CF229" "x845B19" "x8D6A1E" "x9C3F91" "xA0C90D" "xA613C9" "xAADB15" "xACD8B5" "xB03161" "xCD4039" "xD2A4C7" "xDFB220" "xE6F815" "xEA597E" "xEAB2D0" "xF070E0" "xF7C5ED" }
-    traits = { "state_trait_natural_harbors" }
-    city = "xA0C90D"
-    port = "xB03161"
-    farm = "x12F28E"
-    mine = "xACD8B5"
-    wood = "x242A48"
-    arable_land = 486
-    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_silk_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_banana_plantations" }
-    capped_resources = {
-        bg_iron_mining = 36
-        bg_logging = 11
-        bg_fishing = 10
-    }
-    naval_exit_id = 3056
-}
-
 STATE_ALXA = {
     id = 484
     subsistence_building = "building_subsistence_farms"
@@ -138,7 +118,7 @@ STATE_HINGGAN = {
 STATE_GUANGXI = {
     id = 486
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x0359FB" "x0422AC" "x05C2CD" "x09D527" "x0F948D" "x116561" "x12B2EF" "x135B0F" "x1380FF" "x1E5C7E" "x201F22" "x244859" "x25EA31" "x368CDE" "x37E3AC" "x3B542C" "x4269D4" "x432FE3" "x48D397" "x505080" "x5100A2" "x53ABCA" "x58D3A8" "x686CE7" "x6D1ACD" "x6EB824" "x702462" "x84BD66" "x84F9AF" "x8834F9" "x8D45C0" "x942ACA" "x94D1BC" "x9E2972" "x9E70F2" "x9F05B1" "xA34E72" "xA98A12" "xB0B0E0" "xB1309B" "xB71848" "xBA0CC4" "xBC6F1C" "xBE7B7A" "xC20E6A" "xC3BDF0" "xC407AF" "xC776A0" "xCC1018" "xD8799B" "xDCC7E1" "xDDB27C" "xE19EFE" "xE2A874" "xE33EC4" "xE38868" "xF071A0" "xF0F0A0" "xF4850E" "xFA9280" "xFF1286" }
+    provinces = { "x0422AC" "x09D527" "x0F948D" "x116561" "x1E5C7E" "x201F22" "x25EA31" "x37E3AC" "x3B542C" "x477755" "x48D397" "x4E581C" "x5100A2" "x53ABCA" "x58D3A8" "x6D1ACD" "x702462" "x7131E0" "x84F9AF" "x8834F9" "x8D45C0" "x94D1BC" "x9A21B1" "x9E2972" "x9F05B1" "xA34E72" "xA98A12" "xA9B6D4" "xB1309B" "xB71848" "xBA0CC4" "xBC6F1C" "xBE7B7A" "xC20E6A" "xC3BDF0" "xC407AF" "xC77200" "xC776A0" "xCC1018" "xDCC7E1" "xE19EFE" "xE2A874" "xE33EC4" "xE38868" "xF071A0" "xF0F0A0" "xFA9280" }
     traits = { "state_trait_pearl_river" }
     city = "x37E3AC"
     farm = "x8834F9"
@@ -361,7 +341,7 @@ STATE_CHONGQING = {
 STATE_GUANGDONG = {
     id = 497
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x156AC0" "x19FD82" "x260389" "x2BDE7B" "x2C4C48" "x30B0E0" "x3131E0" "x475968" "x477755" "x489AB0" "x4E581C" "x62BF42" "x7131E0" "x85E0D4" "x8C9358" "x9A21B1" "xA92B88" "xA9B6D4" "xB031E0" "xB0B061" "xC77200" "xCB457A" "xDC137A" "xF0B061" "xF98B04" "xFEBFD5" }
+    provinces = { "x07C8D6" "x12DF0F" "x12F28E" "x1380FF" "x156AC0" "x19FD82" "x242A48" "x260389" "x2BDE7B" "x2C4C48" "x30B0E0" "x3131E0" "x31B061" "x40D43A" "x475968" "x489AB0" "x4CF229" "x62BF42" "x845B19" "x84BD66" "x85E0D4" "x8C9358" "x8D6A1E" "x9C3F91" "xA0C90D" "xA613C9" "xA92B88" "xAADB15" "xACD8B5" "xB03161" "xB031E0" "xB0B061" "xCB457A" "xCD4039" "xD2A4C7" "xDC137A" "xDFB220" "xE6F815" "xEA597E" "xEAB2D0" "xF070E0" "xF0B061" "xF7C5ED" "xF98B04" "xFEBFD5" }
     traits = { "state_trait_pearl_river" }
     city = "x2BDE7B"
     port = "xB031E0"
@@ -371,8 +351,9 @@ STATE_GUANGDONG = {
     arable_land = 758
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_silk_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_banana_plantations" }
     capped_resources = {
-        bg_logging = 8
-        bg_fishing = 14
+		bg_iron_mining = 36
+        bg_logging = 24
+        bg_fishing = 48
     }
     naval_exit_id = 3056
 }
@@ -572,7 +553,7 @@ STATE_EASTERN_HUBEI = {
 STATE_HUNAN = {
     id = 509
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x0BC9A5" "x0C3FAC" "x0E9E2E" "x0EE8CC" "x105040" "x133EB5" "x186F43" "x232F8B" "x252DF2" "x2FA4D2" "x313A55" "x337511" "x3E0895" "x425FDF" "x4BD086" "x4F1960" "x61F84E" "x6823EC" "x6CD43B" "x72AB61" "x838F91" "x8AE2CB" "x8E92CB" "xA62BCD" "xBC0A62" "xC2F0B2" "xC8039B" "xC8CEB1" "xC8EB76" "xD010C0" "xD05080" "xD090C0" "xEDEC87" "xF1D0A3" "xF8E062" }
+    provinces = { "x0359FB" "x05C2CD" "x0BC9A5" "x0C3FAC" "x0E9E2E" "x0EE8CC" "x105040" "x12B2EF" "x133EB5" "x135B0F" "x186F43" "x232F8B" "x244859" "x252DF2" "x2FA4D2" "x313A55" "x337511" "x368CDE" "x3E0895" "x425FDF" "x4269D4" "x432FE3" "x4BD086" "x4F1960" "x505080" "x61F84E" "x6823EC" "x686CE7" "x6CD43B" "x6EB824" "x72AB61" "x838F91" "x8AE2CB" "x8E92CB" "x942ACA" "x9E70F2" "xA62BCD" "xB0B0E0" "xBC0A62" "xC2F0B2" "xC8039B" "xC8CEB1" "xC8EB76" "xD010C0" "xD05080" "xD090C0" "xD8799B" "xDDB27C" "xEDEC87" "xF1D0A3" "xF4850E" "xF8E062" "xFF1286" }
     traits = { "state_trait_yangtze_river" }
     city = "x425FDF"
     farm = "xD010C0"
@@ -881,10 +862,34 @@ STATE_NAKHON_RATCHASIMA = {
     naval_exit_id = 3053
 }
 
+STATE_NAKHON_SRI_THAMMARAT = {
+    id = 483
+    subsistence_building = "building_subsistence_farms"
+    provinces = { "x173AAB" "x1BB979" "x2160CF" "x2231CD" "x289F37" "x31852E" "x47B039" "x5070E0" "x6D56E2" "x7F8C95" "x9E6CEE" "xA060D0" "xBE9208" "xC0362D" "xC6D6FB" "xD070DF" "xFB4ADA" }
+    traits = { "state_trait_natural_harbors" }
+    city = "xA0C90D"
+    port = "xB03161"
+    farm = "x12F28E"
+    mine = "xACD8B5"
+    wood = "x242A48"
+    arable_land = 486
+    arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_silk_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_banana_plantations" }
+	capped_resources = {
+        bg_logging = 17
+        bg_fishing = 12
+		bg_lead_mining = 5 #Tin Mines in Phuket
+    }
+    resource = {
+        type = "bg_rubber"
+        undiscovered_amount = 16
+    }
+    naval_exit_id = 3056
+}
+
 STATE_TENASSERIM = {
     id = 523
     subsistence_building = "building_subsistence_farms"
-    provinces = { "x169A4D" "x173AAB" "x1BB979" "x2160CF" "x2231CD" "x289F37" "x31852E" "x3911C1" "x3F4145" "x47B039" "x5070E0" "x59E0CA" "x6D56E2" "x7F8C95" "x8000B0" "x9381F1" "x94B7B9" "x958E99" "x9E6CEE" "x9F6BAC" "xA060D0" "xB36203" "xBE9208" "xC0362D" "xC6D6FB" "xD070DF" "xD0EF60" "xFB4ADA" "xFE3639" }
+    provinces = { "x169A4D" "x3911C1" "x3F4145" "x59E0CA" "x9381F1" "x94B7B9" "x958E99" "x9F6BAC" "xB36203" "xD0EF60" "xFE3639" }
     city = "x5070E0"
     port = "xB36203"
     farm = "x31852E"

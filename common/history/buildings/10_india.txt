@@ -92,6 +92,8 @@
 		}
 	}
 	s:STATE_ASSAM={
+		region_state:TAU={
+		}
 		region_state:BGL={
 			create_building={
 				building="building_government_administration"

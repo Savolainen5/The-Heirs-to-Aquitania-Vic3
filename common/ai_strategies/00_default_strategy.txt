@@ -2954,7 +2954,7 @@ ai_strategy_default = {
 						has_variable = opium_wars_target
 					}
 					scope:target_state = {
-						state_region = s:STATE_SHAOZHOU
+						state_region = s:STATE_NAKHON_SRI_THAMMARAT
 					}					
 				}
 				add = 1000
