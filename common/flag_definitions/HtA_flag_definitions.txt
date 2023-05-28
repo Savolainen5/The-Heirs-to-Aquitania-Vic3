@@ -374,6 +374,14 @@ NUT = { #Nutca
 	}
 }
 
+OXF = { #Oxenfurt
+	flag_definition = {
+		coa = OXF
+		subject_canton = OXF
+		priority = 1
+	}
+}
+
 PET = { # Isla Petri
 	flag_definition = {
 		coa = PET
@@ -400,6 +408,22 @@ ROM = { # Roman Empire
 		allow_overlord_canton = yes
 		subject_canton = ROM
 		overlord_canton_scale = { @canton_scale_cross_x @canton_scale_cross_y }
+	}
+}
+
+SEV = { #Saevernside
+	flag_definition = {
+		coa = SEV
+		subject_canton = SEV
+		priority = 1
+	}
+}
+
+SNO = { #Snotengaham
+	flag_definition = {
+		coa = SNO
+		subject_canton = SNO
+		priority = 1
 	}
 }
 

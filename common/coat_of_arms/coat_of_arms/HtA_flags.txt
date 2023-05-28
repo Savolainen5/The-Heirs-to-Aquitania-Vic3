@@ -592,7 +592,7 @@ GDL = {
 		color1 = "yellow"
 	}
 	colored_emblem = {
-		texture = "ce_waves.dds"
+		texture = "ce_waves_1.dds"
 		color1 = "white"
 		instance = {
 			rotation = 90
@@ -625,7 +625,7 @@ GDL_subject = {
 		color1 = "yellow"
 	}
 	colored_emblem = {
-		texture = "ce_waves.dds"
+		texture = "ce_waves_1.dds"
 		color1 = "white"
 		instance = {
 			rotation = 90
@@ -1248,6 +1248,27 @@ NUT_HIS = { #Specifically when subject of Hispania
 	pattern = "pattern_solid.tga"
 	color1 = "yellow"
 }
+###################################
+OXF = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	color2 = "blue"
+	
+	colored_emblem = {
+		texture = "ce_waves.dds"
+		color1 = color2
+		color2 = color1
+		instance = {
+			position = { 0.5 0.75 }
+		}
+	}
+	textured_emblem = {
+		texture = "te_oxfort.dds"
+#		instance = {
+#			scale = { 0.8 0.8 }
+#		}
+	}
+}
 ##############################
 PDN = {
 	#textured_emblem = { texture = "V2/PDN.tga" }
@@ -1351,6 +1372,16 @@ ROM = {
 	}
 }
 ###################################
+SEV = {
+	pattern = "pattern_per_bend_senester.dds"
+	color1 = "yellow_dark"
+	color2 = "blue"
+	
+	textured_emblem = {
+		texture = "te_nymph.dds"
+	}
+}
+###################################
 SHC = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -1366,6 +1397,40 @@ SHC = {
 ###################################
 SLS = {
 	textured_emblem = { texture = "V2/SLS_monarchy.tga" } #Temporary
+}
+####################################
+SNO = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	color2 = "green"
+	
+	colored_emblem = {
+		texture = "ce_cross_burgundy.dds"
+		color1 = color2
+		instance = {
+			rotation = 45
+			scale = { 0.8 1 }
+			#position = { 0.5 0.4 }
+		}
+	}
+	textured_emblem = {
+		texture = "te_crown.dds"
+		instance = {
+			position = { 0.25 0.2 }
+			scale = { 0.55 0.55 }
+		}
+		instance = {
+			position = { 0.75 0.2 }
+			scale = { 0.55 0.55 }
+		}
+	}
+	textured_emblem = {
+		texture = "te_crown_cut.dds"
+		instance = {
+			position = { 0.5 0.75 }
+			scale = { 0.55 0.55 }
+		}
+	}
 }
 ####################################
 #SRM
