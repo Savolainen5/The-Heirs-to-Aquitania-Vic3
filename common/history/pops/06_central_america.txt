@@ -187,7 +187,7 @@
 			}
 			create_pop = {
 				culture = afro_caribbean
-				size = 234768
+				size = 464768 #Practically doubled from 234768 because that's a lot of islands
 			}
 			create_pop = {
 				culture = aenglish

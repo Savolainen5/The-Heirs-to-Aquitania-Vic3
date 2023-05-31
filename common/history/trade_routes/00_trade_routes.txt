@@ -291,19 +291,19 @@
 	}
 
 	# Sweden 	
-#	c:SWE = {	
+	c:SWE = {	
 #		create_trade_route = {
 #			goods = tools
 #			level = 7
 #			direction = import
 #			target = c:PRU.market
 #		}	
-#		create_trade_route = {
-#			goods = hardwood
-#			level = 7
-#			direction = export
-#			target = c:AEN.market
-#		}			
+		create_trade_route = {
+			goods = hardwood
+			level = 2
+			direction = export
+			target = c:IRE.market
+		}			
 #		create_trade_route = {
 #			goods = luxury_furniture
 #			level = 2
@@ -334,7 +334,7 @@
 #			direction = import
 #			target = c:PRU.market
 #		}			
-#	}
+	}
 	
 	
 	# Bremen

@@ -1,7 +1,6 @@
 ﻿INTERESTS = {
-	c:SWE = {
-		add_declared_interest = region_north_germany
-	}
+
+#Europe
 #	c:AEN = {
 #		add_declared_interest = region_france
 #		add_declared_interest = region_south_china
@@ -13,23 +12,35 @@
 #		add_declared_interest = region_anatolia
 #		add_declared_interest = region_persia
 #	}
+	c:IRE = {
+		add_declared_interest = region_baltic
+		add_declared_interest = region_france
+		add_declared_interest = region_occitania
+		add_declared_interest = region_canada
+	}
+		
 	c:NAP = {
 		add_declared_interest = region_occitania
 		add_declared_interest = region_balkans
-	}
-	c:EGY = {
-		add_declared_interest = region_north_africa
-		add_declared_interest = region_niger
-		add_declared_interest = region_zanj
-		add_declared_interest = region_congo
-	}
-	c:QIN = {	
-		add_declared_interest = region_japan
-		add_declared_interest = region_indochina
 	}
 #	c:NET = {
 #		add_declared_interest = region_baltic
 #		add_declared_interest = region_france
 #		add_declared_interest = region_england
 #	}
+	c:SWE = {
+		add_declared_interest = region_north_germany
+	}
+#Africa
+	c:EGY = {
+		add_declared_interest = region_north_africa
+		add_declared_interest = region_niger
+		add_declared_interest = region_zanj
+		add_declared_interest = region_congo
+	}
+#Asia
+	c:QIN = {	
+		add_declared_interest = region_japan
+		add_declared_interest = region_indochina
+	}
 }

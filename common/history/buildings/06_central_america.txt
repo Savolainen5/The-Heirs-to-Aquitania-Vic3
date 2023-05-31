@@ -265,7 +265,7 @@
 		region_state:IRE={ #Originally by AEN, given to IRE just as a temporary thing
 			create_building={
 				building="building_sugar_plantation"
-				level=3
+				level=10
 				reserves=1
 				activate_production_methods={ "default_building_sugar_plantation" "pm_road_carts" "pm_privately_owned_plantation" }
 			}
