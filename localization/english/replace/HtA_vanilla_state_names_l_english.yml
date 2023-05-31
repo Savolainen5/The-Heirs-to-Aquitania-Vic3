@@ -10,6 +10,8 @@
  STATE_SEOUL: "Hanyang"
  STATE_BUSAN: "Busan"
  
+ STATE_SUNDA_ISLANDS: "Nusa Tenggara"
+ 
  STATE_SEA_OF_JAPAN: "East Sea"
 
  STATE_ORLEANS: "Orleans"

@@ -8804,39 +8804,19 @@ malagasy={
 	graphics = generic
 }
 
-filipino={
+filipino={						#These last names are WAYYY too Spanish derrived, we'll need to change them to be more Aquitanian derrived at some point
 	color= hsv{ 0.18 0.56 0.86 }
 	religion = catholic
 	traits = { southeast_asian_heritage malay_culture }
-	male_common_first_names={
-		Andres
-		Antonio
-		Apolinario
-		Arcadio
-		Artemio
-		Deodato
-		Emilio
-		Hermano
-		Jacinto
-		Jose
-		Ladislao
-		Leon_3
-		Manuel
-		Marcelo
-		Mariano
-		Santiago
-		Simeon_2
-		Teodoro
-		Valentine
+	male_common_first_names={		#Used Aquitanian pool
+		Agustin Alberto Alejandro Alfonso Antonio Antonio_Maria Arsenio Augusto Baldomero Baltasar Benito Bernardino Bernardo
+		Calixto Carlos Celestino Claudio Cristobal Diego Dionisio Damaso Eduardo Emilio Estanislao Federico Felipe Fernando
+		Francisco Francisco_Javier Felix Gabino Gabriel Gaspar Genaro Gonzalo Ignacio Isidro Jacobo Jaime Joaquin Jose Jose_Antonio
+		Jose_Manuel Jose_Maria Juan Juan_Bautista Julio Jorge Leopoldo Lorenzo Luis Manuel Marcelo Mariano Mateo Melchor Miguel
 	}
-	female_common_first_names = {
-		Brijida
-		Carmen
-		Catalina
-		Leona
-		Librada
-		Teodora
-		Trinidad
+	female_common_first_names = {	#Used Aquitanian pool
+		Adelaida Alejandrina Amalia Antonia Bonifacia Carlota Clotilde Concepcion Dolores Emilia Enriqueta Eulalia Faustina Francisca
+		Guillermina Herminia Isabella Joaquina Manuela Maria_2 Mariana Martina Robustiana Rosa Sabina Teresa
 	}	
 	noble_last_names = {
 		Aguainaldo
@@ -8857,7 +8837,7 @@ filipino={
 		Nakpil
 		Nocon
 		Plata
-		Rizal
+		Mistral
 	}
 	ethnicities = {
 		1 = south_east_asian

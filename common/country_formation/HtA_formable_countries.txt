@@ -4,6 +4,8 @@
 		STATE_BURMA
 		STATE_PEGU
 		STATE_SHAN_STATES
+		STATE_TENASSERIM
+		STATE_KENGTUNG
 	}
 	
 	required_states_fraction = 0.75

@@ -699,6 +699,61 @@ ashelasianer={
 	}
 }
 
+banjar={
+	color={ 85 78 89 }
+	religion = sunni
+	traits = { southeast_asian_heritage malay_culture }
+	male_common_first_names = {		#Maybe use some Banjar names but idk any
+		Abdullah
+		Al-Mukammal
+		Ali
+		Aziz
+		Idris
+		Isandar
+		Ismail
+		Jaafar
+		Jalil
+		Muabidin
+		Muhammad
+		Riayat
+		Safiuddin
+		Shahabuddin
+		Tuanku
+		Yusuf
+	}
+	female_common_first_names = {
+		Adibah
+		Aishah
+		Faridah
+		Fatimah
+		Maimunah 
+		Nur_Maznah
+		Rafidah
+		Zaharah
+		Zaleha
+	}	
+	noble_last_names = {
+		Bendahara
+		bin_Nik
+		Jamalullail
+	}
+	common_last_names = {
+		Aadzam
+		Bendahara
+		Muadzam
+		Murshidul
+		Raja_Ahmad
+		Raja_Inu
+		Riayat_Shah
+		al-Khairat
+		al-Marhum
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}
+
 blandet={ #Danish Metis
 	color= { 150 105 150 }
 	religion = protestant
@@ -755,6 +810,61 @@ bresailean={
 	ethnicities = {
 		1 = caucasian
 	}
+}
+
+bugismakassar={		#need Christian names
+	color={ 85 78 89 }
+	religion = catholic
+	traits = { southeast_asian_heritage malay_culture }
+	male_common_first_names = {		
+		Abdullah
+		Al-Mukammal
+		Ali
+		Aziz
+		Idris
+		Isandar
+		Ismail
+		Jaafar
+		Jalil
+		Muabidin
+		Muhammad
+		Riayat
+		Safiuddin
+		Shahabuddin
+		Tuanku
+		Yusuf
+	}
+	female_common_first_names = {
+		Adibah
+		Aishah
+		Faridah
+		Fatimah
+		Maimunah 
+		Nur_Maznah
+		Rafidah
+		Zaharah
+		Zaleha
+	}	
+	noble_last_names = {
+		Bendahara
+		bin_Nik
+		Jamalullail
+	}
+	common_last_names = {
+		Aadzam
+		Bendahara
+		Muadzam
+		Murshidul
+		Raja_Ahmad
+		Raja_Inu
+		Riayat_Shah
+		al-Khairat
+		al-Marhum
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
 }
 
 coluan={
@@ -843,6 +953,61 @@ coluan={
 	ethnicities = {
 		1 = caucasian
 	}
+}
+
+cham={		#need proper Cham names (maybe take from EU4?)
+	color={ 85 78 89 }
+	religion = sunni
+	traits = { southeast_asian_heritage malay_culture }
+	male_common_first_names = {		
+		Abdullah
+		Al-Mukammal
+		Ali
+		Aziz
+		Idris
+		Isandar
+		Ismail
+		Jaafar
+		Jalil
+		Muabidin
+		Muhammad
+		Riayat
+		Safiuddin
+		Shahabuddin
+		Tuanku
+		Yusuf
+	}
+	female_common_first_names = {
+		Adibah
+		Aishah
+		Faridah
+		Fatimah
+		Maimunah 
+		Nur_Maznah
+		Rafidah
+		Zaharah
+		Zaleha
+	}	
+	noble_last_names = {
+		Bendahara
+		bin_Nik
+		Jamalullail
+	}
+	common_last_names = {
+		Aadzam
+		Bendahara
+		Muadzam
+		Murshidul
+		Raja_Ahmad
+		Raja_Inu
+		Riayat_Shah
+		al-Khairat
+		al-Marhum
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
 }
 
 chinook={ # copied from salish, sorry
@@ -1007,7 +1172,265 @@ eirean={
 		1 = caucasian
 	}
 }
-
+eurasian={	#Mauretanian mestizo in SEA
+	color= hsv{ 0.16 0.16 0.43 }
+	religion = catholic
+	traits = { iberian_culture_group hispanophone malay_culture southeast_asian_heritage }
+	male_common_first_names={
+		Agustin Alberto Alejandro Alfonso Antonio Antonio_Maria Arsenio Augusto Baldomero Baltasar Benito Bernardino Bernardo
+		Calixto Carlos Celestino Claudio Cristobal Diego Dionisio Damaso Eduardo Emilio Estanislao Federico Felipe Fernando
+		Francisco Francisco_Javier Felix Gabino Gabriel Gaspar Genaro Gonzalo Ignacio Isidro Jacobo Jaime Joaquin Jose Jose_Antonio
+		Jose_Manuel Jose_Maria Juan Juan_Bautista Julio Jorge Leopoldo Lorenzo Luis Manuel Marcelo Mariano Mateo Melchor Miguel
+		Nicolas_2 Pablo Pascual Pedro Rafael_2 Raimundo Ramon Ricardo Santiago Sebastian Segismundo Valeriano Vicente Alvaro
+	}
+	female_common_first_names = {
+		Adelaida Alejandrina Amalia Antonia Bonifacia Carlota Clotilde Concepcion Dolores Emilia Enriqueta Eulalia Faustina Francisca
+		Guillermina Herminia Isabella Joaquina Manuela Maria_2 Mariana Martina Robustiana Rosa Sabina Teresa
+	}	
+	noble_last_names = {
+		Alvarez_de_Toledo de_Albornoz de_ArmendA_riz de_Almansa de_AlO_s de_Arteche
+		Barrionuevo de_Bohorques de_Bernuy de_Bago
+		Cabrera Cagigal_de_la_Vega Colon de_Carvajal del_Carmen_Contreras
+		DI_ez_de_Rivera de_Domecq
+		Fernandez_de_Cordoba de_la_Fuente Fitz-James_Stuart de_Figueroa Flores_de_SeptiE_n FernA_ndez-Zapata FernA_ndez_de_CO_rdoba
+		Garcia_de_la_Noceda GirO_n de_GuzmA_n de_Godoy GonzA_lez_de_Cienfuegos Grimaldi
+		Hidalgo_de_Cisneros
+		JordA_n_de_UrrI_es
+		LO_pez_de_Haro de_Llorach
+		MessI_a de_Mercader de_Mora de_Medina del_Milagro_Quesada
+		Ortiz_de_la_Riva O_Donnell Osorio_de_Moscoso de_Orozco
+		Primo_de_Rivera PE_rez_de_Herrasti de_Palafox PE_rez_de_GuzmA_n PiN_eiro de_Pedro del_Pilar_Osorio
+		de_QuirO_s de_Quintanilla
+		RamI_rez_de_Saavedra del_Rosario_FalcO_ del_Rosario_Vereterra de_Rojas de_Riquer Ruiz_de_Arana
+		SuA_rez_de_ArgudI_n de_Silva de_SatrU_stegui SaI_nz_de_la_Maza de_Samaniego de_Sentmenat de_Salavert de_Santiago_Concha Sanchiz
+		de_Tineo
+		de_Urquijo de_Uzqueta
+		de_Valda del_Valle de_Villalonga de_la_Vera ValdE_s
+		de_ZufI_a
+	}
+	common_last_names={
+		Acuna Aguirre Alcala-Zamora Allendesalazar Alonso Aranda Arguelles-Meres Asensio Aznar Alvarez Acedo Arabolaza Arrate Artola Aranzadi
+		Barradas Bugallal BotI_n Bonilla Belaunde Blanco
+		Cano Cervera Corsi Cuadrada Comamala
+		Diaz_2 DomI_nguez
+		Espartero Escoda EguiazA_bal
+		Fernandez Franco Fajardo
+		Garcia Gonzalez Gil Grasset Galatas
+		Heredia Hernandez Herrera Hevia
+		Izaguirre
+		Linares Lopez Lorenzana Landazabal LarraN_aga
+		Maroto Martinez-Campos Maura Menendez Miaja Millan-Astray Mina Mola Munoz Marquez MelE_ndez MedizA_bal Muguerza Moreira Mandiola Muguruza
+		Narvaez
+		Ortega Otero Onsalo OrdO_N_ez Olaso Ozores
+		Pavia Perez PajarO_n Pagaza Pattullo Pena
+		Queipo_de_Llano Quintana Quirante
+		Rodriguez Rojo Ruiz Reparez Ruete
+		Sanjurjo Serrano Silvestre Samitier Serrano Saprissa
+		Topete Tuduri Terradas Torralba
+		Valdes Varela Villapol Villar Vela Villota Vilalta Vallana VA_zquez
+		Weyler
+		Yague
+		Zamora Zabala
+	}
+	male_regal_first_names={
+		Alfonso Amadeo
+		Carlos
+		Felipe Fernando
+		Jose Juan_Carlos
+		Luis
+	}
+	female_regal_first_names={
+		Beatriz
+		Eulalia
+		Isabel
+		Luisa_Fernanda
+		Maria_2 MarI_a_Teresa
+	}
+	regal_last_names = {
+		de_Andrade
+		de_Trasta_mara
+		Capeto
+	}	
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+formosan={		#Need proper Taiwanese aboriginal names
+	color= hsv{ 0 0 90 }
+	religion = mahayana
+	traits = { yamato east_asian_heritage }
+	male_common_first_names={
+		Aritomo
+		Gentaro
+		Gonnohyoe
+		Goro
+		Hayao
+		Heihachiro
+		Hikonojo
+		Hiroshi
+		Hyoe
+		Iwao
+		Jinzaburo
+		Jiro
+		Kageaki
+		Kagenori
+		Kantaro
+		Kazushige
+		Keisuke
+		Kenkichi
+		Kiyotaka
+		Koichiro
+		Kotohito
+		Kozo
+		Kuranosuke
+		Maresuke
+		Masatake
+		Masujiro
+		Michisura
+		Mineo
+		Mitsue
+		Mitsuomi
+		Nariaki
+		Nobuyoshi
+		Rokuro
+		Sadao
+		Samata
+		Shichiro
+		Shigeru
+		Shigeto
+		Shinsaku
+		Shoin
+		Soroku
+		Sotokichi
+		Sukenori
+		Sukeyuki
+		Sumiyoshi
+		Tadakuni
+		Takamori
+		Takayoshi
+		Takeaki
+		Tamemoto
+		Taro
+		Taruhito
+		Tetsutaro
+		Tomasaburo
+		Tomonosuke
+		Toshimichi
+		Toshiyoshi
+		Tsugumichi
+		Yahachi
+		Yasukata
+		Yasuyoshi
+		Yoshida
+		Yoshifuru
+		Yoshika
+		Yoshimichi
+		Yoshinobu
+		Yoshinori
+		Yusaku
+	}
+	female_common_first_names = {
+		Asako
+		Chikako
+		Ginko
+		Gyokuran
+		Kaho
+		Kei
+		Kin
+		Kumehachi
+		Masako
+		Miki
+		Natsu
+		Nobu
+		Oi
+		Rengetsu
+		Sayoko
+		Teru
+		Toyoko
+		Tsuneko
+	}	
+	noble_last_names = {
+		Hayashi
+		Ito
+		Jutoku
+		Kujo
+		Matsudaira
+		Mitsune
+		Nabeshima
+		Togo
+		Tokugawa
+	}
+	common_last_names={
+		Akiyama
+		Araki
+		Arichi
+		Arisugawa
+		Dewa
+		Enomoto
+		Hasegawa
+		Honjo
+		Ichinohe
+		Inoue
+		Itagaki
+		Kabayama
+		Kamimura
+		Kamio
+		Kanin
+		Kataoka
+		Kato
+		Katsu
+		Katsura
+		Kawakami
+		Kawamura
+		Kido
+		Kodama
+		Kuroda
+		Kuroki
+		Makino
+		Masaki
+		Minami
+		Muto
+		Nakamuta
+		Nire
+		Nogi
+		Nozu
+		Okada
+		Oku
+		Okubo
+		Omura
+		Osumi
+		Oyama
+		Saigo
+		Sakura
+		Sato
+		Shibayama
+		Shimamura
+		Shirakawa
+		Suzuki
+		Tachibana
+		Takashima
+		Takasugi
+		Tamon
+		Terauchi
+		Tsuboi
+		Ueda
+		Uehara
+		Ugaki
+		Uryu
+		Yamagata
+		Yamakawa
+		Yamamoto
+		Yamashita
+		Yamaya
+		Yashiro
+		Yui
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}
 francien={
 	color= rgb{ 76 118 155 }
 	religion = catholic
@@ -1916,6 +2339,89 @@ krivian={ #Latvian and Lithuanian combined, plus (to be added) a Slavic naming t
 		1 = slavic
 	}
 	graphics = european
+}
+
+lazarin={
+	color= hsv{ 0.16 0.56 0.86 }
+	religion = catholic
+	traits = { aquophone southeast_asian_heritage malay_culture }
+	male_common_first_names={
+		Agustin Alberto Alejandro Alfonso Antonio Antonio_Maria Arsenio Augusto Baldomero Baltasar Benito Bernardino Bernardo
+		Calixto Carlos Celestino Claudio Cristobal Diego Dionisio Damaso Eduardo Emilio Estanislao Federico Felipe Fernando
+		Francisco Francisco_Javier Felix Gabino Gabriel Gaspar Genaro Gonzalo Ignacio Isidro Jacobo Jaime Joaquin Jose Jose_Antonio
+		Jose_Manuel Jose_Maria Juan Juan_Bautista Julio Jorge Leopoldo Lorenzo Luis Manuel Marcelo Mariano Mateo Melchor Miguel
+		Nicolas_2 Pablo Pascual Pedro Rafael_2 Raimundo Ramon Ricardo Santiago Sebastian Segismundo Valeriano Vicente Alvaro
+	}
+	female_common_first_names = {
+		Adelaida Alejandrina Amalia Antonia Bonifacia Carlota Clotilde Concepcion Dolores Emilia Enriqueta Eulalia Faustina Francisca
+		Guillermina Herminia Isabella Joaquina Manuela Maria_2 Mariana Martina Robustiana Rosa Sabina Teresa
+	}	
+	noble_last_names = {
+		Alvarez_de_Toledo de_Albornoz de_ArmendA_riz de_Almansa de_AlO_s de_Arteche
+		Barrionuevo de_Bohorques de_Bernuy de_Bago
+		Cabrera Cagigal_de_la_Vega Colon de_Carvajal del_Carmen_Contreras
+		DI_ez_de_Rivera de_Domecq
+		Fernandez_de_Cordoba de_la_Fuente Fitz-James_Stuart de_Figueroa Flores_de_SeptiE_n FernA_ndez-Zapata FernA_ndez_de_CO_rdoba
+		Garcia_de_la_Noceda GirO_n de_GuzmA_n de_Godoy GonzA_lez_de_Cienfuegos Grimaldi
+		Hidalgo_de_Cisneros
+		JordA_n_de_UrrI_es
+		LO_pez_de_Haro de_Llorach
+		MessI_a de_Mercader de_Mora de_Medina del_Milagro_Quesada
+		Ortiz_de_la_Riva O_Donnell Osorio_de_Moscoso de_Orozco
+		Primo_de_Rivera PE_rez_de_Herrasti de_Palafox PE_rez_de_GuzmA_n PiN_eiro de_Pedro del_Pilar_Osorio
+		de_QuirO_s de_Quintanilla
+		RamI_rez_de_Saavedra del_Rosario_FalcO_ del_Rosario_Vereterra de_Rojas de_Riquer Ruiz_de_Arana
+		SuA_rez_de_ArgudI_n de_Silva de_SatrU_stegui SaI_nz_de_la_Maza de_Samaniego de_Sentmenat de_Salavert de_Santiago_Concha Sanchiz
+		de_Tineo
+		de_Urquijo de_Uzqueta
+		de_Valda del_Valle de_Villalonga de_la_Vera ValdE_s
+		de_ZufI_a
+	}
+	common_last_names={
+		Acuna Aguirre Alcala-Zamora Allendesalazar Alonso Aranda Arguelles-Meres Asensio Aznar Alvarez Acedo Arabolaza Arrate Artola Aranzadi
+		Barradas Bugallal BotI_n Bonilla Belaunde Blanco
+		Cano Cervera Corsi Cuadrada Comamala
+		Diaz_2 DomI_nguez
+		Espartero Escoda EguiazA_bal
+		Fernandez Franco Fajardo
+		Garcia Gonzalez Gil Grasset Galatas
+		Heredia Hernandez Herrera Hevia
+		Izaguirre
+		Linares Lopez Lorenzana Landazabal LarraN_aga
+		Maroto Martinez-Campos Maura Menendez Miaja Millan-Astray Mina Mola Munoz Marquez MelE_ndez MedizA_bal Muguerza Moreira Mandiola Muguruza
+		Narvaez
+		Ortega Otero Onsalo OrdO_N_ez Olaso Ozores
+		Pavia Perez PajarO_n Pagaza Pattullo Pena
+		Queipo_de_Llano Quintana Quirante
+		Rodriguez Rojo Ruiz Reparez Ruete
+		Sanjurjo Serrano Silvestre Samitier Serrano Saprissa
+		Topete Tuduri Terradas Torralba
+		Valdes Varela Villapol Villar Vela Villota Vilalta Vallana VA_zquez
+		Weyler
+		Yague
+		Zamora Zabala
+	}
+	male_regal_first_names={
+		Alfonso Amadeo
+		Carlos
+		Felipe Fernando
+		Jose Juan_Carlos
+		Luis
+	}
+	female_regal_first_names={
+		Beatriz
+		Eulalia
+		Isabel
+		Luisa_Fernanda
+		Maria_2 MarI_a_Teresa
+	}
+	regal_last_names = {
+		Mistral		#Lazarin Empire path
+	}	
+	graphics = european
+	ethnicities = {
+		1 = asian
+	}
 }
 
 logrish={
@@ -3805,6 +4311,116 @@ steenkooler={
 	ethnicities = {
 		1 = caucasian
 	}
+}
+
+sulewesian={		#need Christian names to add to the Islamic ones
+	color={ 85 78 89 }
+	religion = catholic
+	traits = { southeast_asian_heritage malay_culture }
+	male_common_first_names = {		
+		Abdullah
+		Al-Mukammal
+		Ali
+		Aziz
+		Idris
+		Isandar
+		Ismail
+		Jaafar
+		Jalil
+		Muabidin
+		Muhammad
+		Riayat
+		Safiuddin
+		Shahabuddin
+		Tuanku
+		Yusuf
+	}
+	female_common_first_names = {
+		Adibah
+		Aishah
+		Faridah
+		Fatimah
+		Maimunah 
+		Nur_Maznah
+		Rafidah
+		Zaharah
+		Zaleha
+	}	
+	noble_last_names = {
+		Bendahara
+		bin_Nik
+		Jamalullail
+	}
+	common_last_names = {
+		Aadzam
+		Bendahara
+		Muadzam
+		Murshidul
+		Raja_Ahmad
+		Raja_Inu
+		Riayat_Shah
+		al-Khairat
+		al-Marhum
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
+}
+
+sundan={		#Need to change the names to be less Islamic
+	color= hsv{ 0.92 0.49 0.60 }
+	religion = hindu
+	traits = { southeast_asian_heritage malay_culture }
+	male_common_first_names={
+		Abul Abdurrahman Ahmad Amir Anom Arifin
+		Bambang
+		Cirebon
+		Haji Hasyim
+		Karijosoedarmo
+		Muhammad Muhammad_Hasyim Muhieddin Marpuah
+		Ngabdurohman
+		Panembahan
+		Safiuddin Sarip Slamet Solikin Soegija Soeharto Soekarno
+		Zainul
+	}
+	female_common_first_names = {
+		Megawati
+		Siti Soimah Sunarti Soepiah
+		Tatiek
+		Yayuk
+	}	
+	noble_last_names = {
+		Cakraningrat
+		Djajadiningrat Djojohadikusumo
+		Hamengkubuwono
+		Notomidjojo
+		Pakualaman
+		Soerjowinoto Sastrowardoyo
+	}
+	common_last_names={
+		Akbaruddin Alaeddin
+		Djalaluddin
+		Emiruddin
+		Khairuddin
+		Mufakhir Muttakin
+		Natadiningrat Nurus
+		Salihin Sepuh
+		Tajul
+	}
+	male_regal_first_names = {
+		Antasena
+		Duksina Dorodjatun
+		Gathot_Menol
+		Ibnu_Jarot
+		Kuseini 
+		Malikis_Solikin Mustojo Murtejo
+		Sapardan Sugandi Sundoro Surojo Sujana Sujadi Subadya Sayyidin_Malikul_Kusna
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = asian
 }
 
 tourki={ #Hellenized Turks, names need improvement

@@ -954,6 +954,27 @@
 			create_pop = {
 				culture = north_german
 				religion = catholic
+				size = 1533008
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 3004
+			}
+			create_pop = {
+				culture = wallonian
+				size = 4000
+			}
+			create_pop = {
+				culture = north_german
+				size = 332004
+			}
+			create_pop = {
+				culture = ashkenazi
+				size = 1004
+			}
+			create_pop = {
+				culture = north_german
+				religion = catholic
 				size = 424000
 			}
 			create_pop = {
@@ -976,31 +997,6 @@
 				culture = south_german
 				religion = protestant
 				size = 303996
-			}
-		}
-	}
-	s:STATE_NORTH_RHINE = {
-		region_state:NET = {
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 1533008
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 3004
-			}
-			create_pop = {
-				culture = wallonian
-				size = 4000
-			}
-			create_pop = {
-				culture = north_german
-				size = 332004
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 1004
 			}
 		}
 	}

@@ -309,7 +309,7 @@ HES = {
 WES = {
 	states = { 
 		STATE_WESTPHALIA 
-		STATE_NORTH_RHINE 
+		STATE_SOUTH_BORNEO 
 		STATE_RHINELAND
 	}
 	
@@ -1445,7 +1445,7 @@ CHP = {
 
 JOH = {
 	states = {
-		STATE_MALAYA
+		STATE_NORTHERN_MALAYA
 	}
 	ai_will_do = { always = no }
 }
@@ -1590,7 +1590,7 @@ HNA = {
 AHU = {
 	states = {
 		STATE_SOUTHERN_ANHUI
-		STATE_NORTHERN_ANHUI
+		STATE_KENGTUNG
 	}
 	ai_will_do = { always = no }
 }

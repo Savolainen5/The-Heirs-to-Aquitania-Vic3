@@ -193,7 +193,7 @@ CLN = { #Cologne
 	tier = kingdom
 	
 	cultures = { north_german }
-	capital = STATE_NORTH_RHINE
+	capital = STATE_SOUTH_BORNEO
 }
 CRO = {
 	color = { 174  227  95 }

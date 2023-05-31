@@ -303,18 +303,6 @@ DEI = {
 	capital = STATE_WEST_JAVA
 }
 
-# Siak
-SAK = {
-	color = { 21  196  68 }
-	
-	country_type = unrecognized
-
-	tier = principality
-	
-	cultures = { sumatran }
-	capital = STATE_NORTH_SUMATRA
-}
-
 # Pontianak
 PON = {
 	color = { 255 102 102 }
@@ -348,7 +336,7 @@ JMB = {
 	tier = principality
 	
 	cultures = { sumatran }
-	capital = STATE_NORTH_SUMATRA
+	capital = STATE_EAST_SUMATRA
 }
 
 # Yogyakarta
@@ -396,7 +384,7 @@ SEL = {
 	tier = principality
 	
 	cultures = { malay }
-	capital = STATE_MALAYA
+	capital = STATE_NORTHERN_MALAYA
 }
 
 # Perak
@@ -408,7 +396,7 @@ PRK = {
 	tier = principality
 	
 	cultures = { malay }
-	capital = STATE_MALAYA
+	capital = STATE_NORTHERN_MALAYA
 }
 
 # Sulu
@@ -442,8 +430,8 @@ STG = {
 	country_type = unrecognized
 	
 	tier = principality
-	
-	cultures = { bornean }
+	religion = sunni
+	cultures = { malay dayak }
 	capital = STATE_WEST_BORNEO
 }
 
@@ -455,8 +443,8 @@ BNJ = {
 	
 	tier = principality
 	
-	cultures = { bornean }
-	capital = STATE_EAST_BORNEO
+	cultures = { banjar }
+	capital = STATE_SOUTH_BORNEO
 }
 
 # Indonesia

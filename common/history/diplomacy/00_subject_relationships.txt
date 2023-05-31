@@ -9,7 +9,14 @@
 			country = c:GWS
 			type = puppet
 		}
-		
+		create_diplomatic_pact = {
+			country = c:IEC #Irish East India Company
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:PAJ #Sunda
+			type = puppet
+		}
 		# United Tribes of New Zealand
 		#create_diplomatic_pact = {
 		#	country = c:UNT
@@ -157,6 +164,16 @@
 			type = puppet
 		}
 	}
+	c:MAU = {
+		create_diplomatic_pact = {
+			country = c:CEL #Viceroyalty of Celates (Spanish Malaya, Taiwan and Indochina)
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:LPG #Kingdom of Lampung
+			type = puppet
+		}
+	}
 	c:NAP = {
 		create_diplomatic_pact = {
 			country = c:MLT
@@ -196,6 +213,10 @@
 		create_diplomatic_pact = {
 			country = c:TOH
 			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:NST
+			type = puppet
 		}
 	}
 	c:MRT = {
@@ -247,6 +268,10 @@
 		}
 		create_diplomatic_pact = {
 			country = c:SIH
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:DAI
 			type = vassal
 		}
 	}

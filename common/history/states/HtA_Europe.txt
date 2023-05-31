@@ -751,7 +751,7 @@
 	s:STATE_FRIESLAND = {
 		create_state = {
 			country = c:NET
-			owned_provinces = { x4141A0 x41C021  x5A48A2  xC041A0 xC0C021 }
+			owned_provinces = { x4141A0 x41C021  x5A48A2  xC041A0 xC0C021 x784B8E xF9DCA2 }
 		}
 
 		add_homeland = dutch
@@ -1503,20 +1503,12 @@
 		add_homeland = polish
 		add_homeland = semian
 	}
+	
 	s:STATE_RHINELAND = {
 		create_state = {
 			country = c:TRR
 			owned_provinces = { x11C021 x29CCD6 x518021 x5D7A68 x707505 x8001E0 x834B66 x9F4072 xC1B963 xD080A0 }
 		}	
-		
-		add_homeland = north_german
-	}
-	#Below is actually East Frisia
-	s:STATE_NORTH_RHINE = {
-		create_state = {
-			country = c:NET
-			owned_provinces = { x784B8E xECC3B4 xF9DCA2 }
-		}
 		
 		add_homeland = north_german
 	}
@@ -1571,7 +1563,7 @@
 		
 		create_state = {
 			country = c:GER
-			owned_provinces = { x165E05 x4101E0 x4D62A0 x694B91 x8080E0 xBBA504 xBF00DF xC00161 }
+			owned_provinces = {  xECC3B4 x165E05 x4101E0 x4D62A0 x694B91 x8080E0 xBBA504 xBF00DF xC00161 }
 		}
 		
 		add_homeland = north_german

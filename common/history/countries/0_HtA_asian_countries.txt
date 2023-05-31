@@ -169,6 +169,7 @@
 			add_ruling_interest_group = yes
 		}
 	}
+	
 	c:LRT = { #Larantuka
 		effect_starting_technology_tier_4_tech = yes
 		effect_starting_politics_traditional = yes
@@ -188,26 +189,7 @@
 
 		effect_native_conscription_4 = yes
 	}
-	c:MEL = { #Melayu
-		effect_starting_technology_tier_4_tech = yes
-		effect_starting_politics_traditional = yes
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_state_religion
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_traditionalism
-		activate_law = law_type:law_right_of_assembly
-		activate_law = law_type:law_land_based_taxation
-		activate_law = law_type:law_debt_slavery
-
-		ig:ig_devout = { 
-			set_interest_group_name = ig_sunni_madrasahs
-		}
-
-		ig:ig_landowners = {
-			add_ruling_interest_group = yes
-		}
-	}
+	
 	c:KHA = { #Khalkha Khanate
 		effect_starting_technology_tier_4_tech = yes
 		
@@ -601,5 +583,277 @@
 		activate_law = law_type:law_right_of_assembly
 		activate_law = law_type:law_land_based_taxation
 		activate_law = law_type:law_debt_slavery
+	}
+	
+	##New tags added in 2023 ##
+	c:CEL = { #Celates, copied from Lazarines
+		
+		effect_starting_technology_tier_3_tech  = yes
+
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_legacy_slavery
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_censorship
+
+		ig:ig_devout = {
+			set_interest_group_name = ig_catholic_church
+		}
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+	}
+	c:IEC = { #Irish East India Company, copied from Lazarines
+		
+		effect_starting_technology_tier_3_tech  = yes
+
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_legacy_slavery
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_slave_trade
+		activate_law = law_type:law_censorship
+
+		ig:ig_devout = {
+			set_interest_group_name = ig_catholic_church
+		}
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+	}
+	c:IDG = { #Inderagiri
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_debt_slavery
+
+		ig:ig_devout = { 
+			set_interest_group_name = ig_sunni_madrasahs
+		}
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+	}
+	c:JMB = { #Jambi
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_debt_slavery
+
+		ig:ig_devout = { 
+			set_interest_group_name = ig_sunni_madrasahs
+		}
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+	}
+	c:IDP = { #Inderapura
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_debt_slavery
+
+		ig:ig_devout = { 
+			set_interest_group_name = ig_sunni_madrasahs
+		}
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+	}
+	c:PBG = { #Palembang
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_debt_slavery
+
+		ig:ig_devout = { 
+			set_interest_group_name = ig_sunni_madrasahs
+		}
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+	}
+	c:KED = { #Kedah
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_debt_slavery
+
+		ig:ig_devout = { 
+			set_interest_group_name = ig_sunni_madrasahs
+		}
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+	}
+	c:HTH = { #Hanthawaddy
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_debt_slavery
+	}
+	c:ZOG = { #Zogam
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_debt_slavery
+	}
+	c:CHA = { #Champa
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_debt_slavery
+	}
+	c:STG = { #Sintang
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_debt_slavery
+	}
+	c:BNJ = { #Banjar
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_debt_slavery
+	}
+	c:SUK = { #Sukadana
+		effect_starting_technology_tier_4_tech = yes
+		effect_starting_politics_traditional = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_debt_slavery
+	}
+	c:NST = { #Nanseito-do, copied from Japan
+		effect_starting_technology_tier_4_tech = yes
+
+		add_technology_researched = urban_planning
+		add_technology_researched = centralization
+		add_technology_researched = law_enforcement
+
+		set_tax_level = medium
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_autocracy 
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_serfdom
+		activate_law = law_type:law_hereditary_bureaucrats
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_isolationism
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_no_schools
+		activate_law = law_type:law_land_based_taxation		
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_closed_borders	
+
+		set_institution_investment_level = {
+			institution = institution_police
+			level = 1
+		}
+
+		ig:ig_armed_forces = {
+			add_ideology = ideology_bakufu
+			set_interest_group_name = ig_samurai
+			add_ruling_interest_group = yes
+		}
+
+		ig:ig_devout = {
+			set_interest_group_name = ig_buddhist_monks
+			remove_ideology = ideology_moralist
+			add_ideology = ideology_buddhist_moralist
+		}
+
+		ig:ig_landowners = {
+			set_interest_group_name = ig_shogunate
+			add_ruling_interest_group = yes
+		}
+
+		ig:ig_rural_folk = {
+			set_interest_group_name = ig_peasants
+		}
 	}
 }

@@ -80,7 +80,7 @@
 		}
 	}
 	s:STATE_WESTERN_AUSTRALIA={
-		region_state:FRD={
+		region_state:IEC={
 			create_building={
 				building="building_barracks"
 				level=1
@@ -89,8 +89,6 @@
 			}		
 		}
 		region_state:MRG={
-		}
-		region_state:NNG={
 		}
 	}
 	s:STATE_NORTHERN_TERRITORY={
