@@ -1,6 +1,6 @@
 ﻿POPS = {
 	s:STATE_NORTHERN_MALAYA = {		#Refer to NN Dodge for the two Malayas - RetiredLt20 - need to do pops afor this and Borneo
-		region_state:CEL = {
+		region_state:CTS = {
 			create_pop = {
 				culture = malay
 				size = 89000
@@ -18,9 +18,17 @@
 		}
 	}
 	s:STATE_SOUTHERN_MALAYA = {					#Refer to NN Dodge for the two Malayas - RetiredLt20
-		region_state:CEL = {
+		region_state:CTS = {
+			create_pop = {
+				culture = malay
+				size = 89000 #Placeholder
+			}
 		}
 		region_state:KED = {
+			create_pop = {
+				culture = malay
+				size = 89000 #Placeholder
+			}
 		}
 	}
 	s:STATE_NORTH_BORNEO = {		#North Borneo pops are to be untouched (same as Philippines)
@@ -92,7 +100,7 @@
 		}
 	}
 	s:STATE_EAST_BORNEO = {		#pops will need adjusting
-		region_state:AJP = {
+		region_state:MKS = {
 		}
 		region_state:LAZ = {
 		}
@@ -100,7 +108,7 @@
 	s:STATE_SOUTH_BORNEO = {		#pops will need adjusting
 		region_state:BNJ = {
 		}
-		region_state:AJP = {
+		region_state:MKS = {
 		}
 	}
 	s:STATE_WEST_JAVA = {		#Avoid adjusting pops too much
@@ -280,7 +288,7 @@
 	}
 	s:STATE_NORTH_SUMATRA = {		#Avoid adjusting pops too much
 		
-		region_state:CEL = {
+		region_state:CTS = {
 			create_pop = {
 				culture = sumatran
 				size = 1356
@@ -373,12 +381,11 @@
 		}
 	}
 	s:STATE_ACEH = {			#Avoid adjusting pops too much
-		region_state:CEL = {
+		region_state:CTS = {
 			create_pop = {
 				culture = malay
 				size = 107835
 			}
-			
 			create_pop = {
 				pop_type = slaves
 				culture = batak
@@ -398,14 +405,14 @@
 			}
 			
 		}
-		create_pop = {
-			culture = eurasian
-			size = 4210
-		}
-		create_pop = {
-			culture = yue
-			size = 4200
-		}
+#		create_pop = { #These are out of place ATM
+#			culture = eurasian
+#			size = 4210
+#		}
+#		create_pop = {
+#			culture = yue
+#			size = 4200
+#		}
 	}
 	s:STATE_WEST_SUMATRA = {	#Avoid adjusting pops too much
 		region_state:IDP = {
@@ -428,7 +435,7 @@
 			}
 		}
 	}
-	s:STATE_EAST_SUMATRA = {		#Avoid adjusting pops too much
+	s:STATE_RIAU = {		#Avoid adjusting pops too much
 		region_state:JMB = {
 			create_pop = {
 				culture = malay
@@ -518,7 +525,7 @@
 				size = 7778
 			}
 		}
-		region_state:AJP = {
+		region_state:MKS = {
 			create_pop = {
 				culture = moluccan
 				size = 45000
@@ -570,7 +577,7 @@
 		}
 	}
 	s:STATE_CELEBES = {		#Avoid adjusting pops too much
-		region_state:AJP = {
+		region_state:MKS = {
 			create_pop = {
 				culture = bugismakassar
 				size = 337797
@@ -678,7 +685,7 @@
 				size = 55996
 			}
 		}
-		region_state:AJP = {		
+		region_state:MKS = {		
 			create_pop = {
 				culture = moluccan
 				size = 150800
@@ -713,7 +720,7 @@
 				size = 32672
 			}
 			create_pop = {
-				culture = aquitainian
+				culture = aquitanian
 				size = 604
 			}
 			create_pop = {
@@ -819,7 +826,7 @@
 				size = 845604
 			}
 			create_pop = {
-				culture = aquitainian
+				culture = aquitanian
 				size = 796
 			}
 			create_pop = {

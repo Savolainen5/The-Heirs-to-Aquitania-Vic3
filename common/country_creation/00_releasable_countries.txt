@@ -1694,11 +1694,6 @@ WLD = {
 	ai_will_do = { always = no }
 }
 
-SAK = {
-	provinces = { x01317D x3F7EA0 x677AA6 x87F7B6 x8171EA x48428B x6021D0 x5BE3D2 x8B7A14 x35213F }
-	ai_will_do = { always = no }
-}
-
 PON = {
 	provinces = { xFFE074 x71D428 x706E00 xA91194 x4DD36E xB7B05B xAD54BC x4408AB xF8375D }
 	ai_will_do = { always = no }

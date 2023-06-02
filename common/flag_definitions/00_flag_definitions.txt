@@ -4704,13 +4704,13 @@ SAF = { # South Africa
 	}	
 }
 
-SAK = { # Siak
-	flag_definition = {
-		coa = SAK
-		subject_canton = SAK
-		priority = 1
-	}
-}
+#SAK = { # Siak
+#	flag_definition = {
+#		coa = SAK
+#		subject_canton = SAK
+#		priority = 1
+#	}
+#}
 
 
 

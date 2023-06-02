@@ -11,19 +11,6 @@
 			country = c:PDN
 			type = rivalry
 		}
-	}	
-	
-	c:SIA = {
-		create_diplomatic_pact = {
-			country = c:DAI
-			type = rivalry
-		}
-	}
-	c:DAI = {
-		create_diplomatic_pact = {
-			country = c:SIA
-			type = rivalry
-		}
 	}
 }	
 

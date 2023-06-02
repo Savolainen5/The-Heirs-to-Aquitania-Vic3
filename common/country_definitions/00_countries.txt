@@ -2810,7 +2810,7 @@ TPG = {
 	tier = kingdom
 	cultures = { han }
 	religion = protestant
-	capital = STATE_EAST_SUMATRA
+	capital = STATE_RIAU
 }
 
 GNI = {

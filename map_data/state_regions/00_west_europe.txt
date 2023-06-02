@@ -459,24 +459,7 @@ STATE_MIERCE = {
         bg_iron_mining = 60
         bg_sulfur_mining = 40
         bg_logging = 6
-        bg_fishing = 4 #Savs upped from 2 on 20.5.2023
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        bg_fishing = 4
     }
     naval_exit_id = 3027
 }
@@ -770,7 +753,7 @@ STATE_ALSACE_LORRAINE = {
         bg_logging = 17
     }
 }
-#Below is actually Maine
+
 STATE_MAINE = {
     id = 36
     subsistence_building = "building_subsistence_farms"

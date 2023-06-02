@@ -92,11 +92,11 @@
 			country = c:ASL
 			type = puppet
 		}
-		# Colony of Frederiksland
-		create_diplomatic_pact = {
-			country = c:FRD
-			type = puppet
-		}
+#		# Colony of Frederiksland
+#		create_diplomatic_pact = {
+#			country = c:FRD
+#			type = puppet
+#		}
 	}
 	c:FRA = {
 		# Colony of Mariana
@@ -112,10 +112,6 @@
 			country = c:TRR
 			type = puppet
 		}
-#		create_diplomatic_pact = {
-#			country = c:LUX
-#			type = puppet
-#		}
 	}
 	c:GLZ = {
 		create_diplomatic_pact = {
@@ -166,7 +162,7 @@
 	}
 	c:MAU = {
 		create_diplomatic_pact = {
-			country = c:CEL #Viceroyalty of Celates (Spanish Malaya, Taiwan and Indochina)
+			country = c:CTS #Viceroyalty of Celates (Spanish Malaya, Taiwan and Indochina)
 			type = puppet
 		}
 		create_diplomatic_pact = {

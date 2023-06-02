@@ -146,18 +146,14 @@ gov_sultanate = {
 			AND = { exists = c:MOR c:MOR = ROOT }
 			AND = { exists = c:OMA c:OMA = ROOT }
 			AND = { exists = c:JOH c:JOH = ROOT }
-			AND = { exists = c:BRU c:BRU = ROOT }
 			AND = { exists = c:ACE c:ACE = ROOT }
 			AND = { exists = c:BLG c:BLG = ROOT }
 			AND = { exists = c:YEM c:YEM = ROOT }
 			AND = { exists = c:ZAN c:ZAN = ROOT }
-			AND = { exists = c:SEL c:SEL = ROOT }
 			AND = { exists = c:PRK c:PRK = ROOT }
 			AND = { exists = c:SUL c:SUL = ROOT }
-			AND = { exists = c:SAK c:SAK = ROOT }
 			AND = { exists = c:YOG c:YOG = ROOT }
 			AND = { exists = c:TID c:TID = ROOT }
-			AND = { exists = c:BNJ c:BNJ = ROOT }
 			AND = { exists = c:STG c:STG = ROOT }
 			AND = { exists = c:SMB c:SMB = ROOT }
 			AND = { exists = c:PON c:PON = ROOT }
@@ -173,9 +169,6 @@ gov_sultanate = {
 			AND = { exists = c:WSG c:WSG = ROOT }
 			AND = { exists = c:ISQ c:ISQ = ROOT }
 			AND = { exists = c:DFR c:DFR = ROOT }
-#			AND = { exists = c:TUG c:TUG = ROOT }
-#			AND = { exists = c:AIT c:AIT = ROOT }
-#			AND = { exists = c:ALD c:ALD = ROOT }
 		}
 	}
 

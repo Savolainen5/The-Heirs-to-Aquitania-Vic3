@@ -3000,7 +3000,7 @@
 		}
 	}
 	s:STATE_POMERANIA={
-		region_state:MEC={
+		region_state:GER={
 			create_building={
 				building="building_fishing_wharf"
 				level=3
@@ -3040,7 +3040,7 @@
 		}
 	}
 	s:STATE_ELBE={
-		region_state:MEC={
+		region_state:GER={
 			create_building={
 				building="building_rye_farm"
 				level=1
@@ -3342,7 +3342,7 @@
 		}
 	}
 	s:STATE_BRANDENBURG={
-		region_state:MEC={
+		region_state:GER={
 			create_building={
 				building="building_government_administration"
 				level=13
@@ -3394,7 +3394,7 @@
 		}
 	}
 	s:STATE_SCHLESWIG_HOLSTEIN={
-		region_state:MEC={
+		region_state:GER={
 			create_building={
 				building="building_rye_farm"
 				level=1
@@ -3859,7 +3859,7 @@
 		}
 	}
 	s:STATE_MECKLENBURG={
-		region_state:MEC={
+		region_state:GER={
 			create_building={
 				building="building_rye_farm"
 				level=2

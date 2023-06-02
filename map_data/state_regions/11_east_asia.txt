@@ -124,11 +124,13 @@ STATE_GUANGXI = {
     farm = "x8834F9"
     mine = "x505080"
     wood = "xCC1018"
+    port = "x4E581C"
     arable_land = 934
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_silk_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_banana_plantations" }
     capped_resources = {
         bg_logging = 9
     }
+    naval_exit_id = 3054
 }
 
 STATE_BEIJING = {
@@ -815,6 +817,9 @@ STATE_NAKHON_SRI_THAMMARAT = {
         bg_logging = 7
         bg_fishing = 6
         bg_lead_mining = 5 #Tin Mines in Phuket
+
+
+
     }
     resource = {
         type = "bg_rubber"
@@ -850,7 +855,7 @@ STATE_KENGTUNG = {
     subsistence_building = "building_subsistence_farms"
     provinces = { "x1D8BBD" "x27DBA6" "x34E09D" "x5116F0" "x70292A" "x772D64" "x97D55A" "x9F7026" "xA125B4" "xC20B31" "xF1F906" "xF65E92" "xF6A5C7" }
     traits = { "state_trait_burmese_teak" }
-	city = "x901159"
+    city = "x901159"
     farm = "xC44EE7"
     mine = "x8EAD09"
     wood = "xC6A460"

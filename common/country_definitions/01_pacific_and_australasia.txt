@@ -336,7 +336,7 @@ JMB = {
 	tier = principality
 	
 	cultures = { sumatran }
-	capital = STATE_EAST_SUMATRA
+	capital = STATE_RIAU
 }
 
 # Yogyakarta

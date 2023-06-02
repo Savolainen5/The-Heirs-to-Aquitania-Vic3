@@ -999,24 +999,24 @@ PON = { # Pontianak
 #	}
 #}
 
-SAK = { # Siak
-	dynamic_country_name = {
-		name = dyn_c_sumatra
-		adjective = dyn_c_sumatra_adj
-		
-		is_main_tag_only = yes
-		priority = 0
-		
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				owns_entire_state_region = STATE_ACEH
-				owns_entire_state_region = STATE_NORTH_SUMATRA
-				owns_entire_state_region = STATE_SOUTH_SUMATRA
-			}
-		}
-	}
-}
+#SAK = { # Siak
+#	dynamic_country_name = {
+#		name = dyn_c_sumatra
+#		adjective = dyn_c_sumatra_adj
+#		
+#		is_main_tag_only = yes
+#		priority = 0
+#		
+#		trigger = {
+#			exists = scope:actor
+#			scope:actor = {
+#				owns_entire_state_region = STATE_ACEH
+#				owns_entire_state_region = STATE_NORTH_SUMATRA
+#				owns_entire_state_region = STATE_SOUTH_SUMATRA
+#			}
+#		}
+#	}
+#}
 
 SMB = { # Sambas
 	dynamic_country_name = { # Kalimantan

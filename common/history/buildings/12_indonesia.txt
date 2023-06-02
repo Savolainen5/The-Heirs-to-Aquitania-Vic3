@@ -1,6 +1,6 @@
 ﻿BUILDINGS={		#Need to sort out buildings for the entire Malay archipelago minus Lazarines + North Borneo
 	s:STATE_NORTHERN_MALAYA={
-		region_state:CEL={
+		region_state:CTS={
 			create_building={
 				building="building_fishing_wharf"
 				level=1
@@ -42,7 +42,7 @@
 		}
 	}
 	s:STATE_SOUTHERN_MALAYA={
-		region_state:CEL={
+		region_state:CTS={
 		}
 		region_state:KED={
 		}
@@ -113,11 +113,11 @@
 	s:STATE_SOUTH_BORNEO={ 
 		region_state:BNJ={
 		}
-		region_state:AJP={
+		region_state:MKS={
 		}
 	}
 	s:STATE_EAST_BORNEO={
-		region_state:AJP={
+		region_state:MKS={
 			create_building={
 				building="building_rice_farm"
 				level=1
@@ -257,7 +257,7 @@
 				activate_production_methods={ "pm_basic_port" }
 			}
 		}
-		region_state:PAJ={
+		region_state:PAJ={ #PAJ lacks tech for lots of these
 			create_building={
 				building="building_rice_farm"
 				level=1
@@ -471,7 +471,7 @@
 		}
 	}
 	s:STATE_NORTH_SUMATRA={
-		region_state:CEL={
+		region_state:CTS={
 		}
 	}
 	s:STATE_SOUTH_SUMATRA={
@@ -483,7 +483,7 @@
 		}
 	}
 	s:STATE_ACEH={
-		region_state:CEL={
+		region_state:CTS={
 			create_building={
 				building="building_rice_farm"
 				level=3
@@ -516,7 +516,7 @@
 			}
 		}
 	}
-	s:STATE_EAST_SUMATRA={
+	s:STATE_RIAU={
 		region_state:JMB={
 		}
 		region_state:IDG={
@@ -611,7 +611,7 @@
 				activate_production_methods={ "pm_irregular_infantry" "pm_no_artillery" "pm_cavalry_scouts" "pm_no_specialists" "pm_wound_dressing" }
 			}
 		}
-		region_state:AJP={
+		region_state:MKS={
 			create_building={
 				building="building_port"
 				level=1
@@ -701,7 +701,7 @@
 				activate_production_methods={ "pm_anchorage" }
 			}
 		}
-		region_state:AJP={
+		region_state:MKS={
 			create_building={
 				building="building_rice_farm"
 				level=1
