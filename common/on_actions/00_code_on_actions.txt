@@ -695,6 +695,18 @@ on_diplomatic_play_started = {
 
 # Root = Character
 on_character_creation = {
+#	effect = {
+#		if = {
+#			limit = {
+#				is_heir = yes
+#				owner = {
+#					THIS ?= c:DAU
+#					ruler = { has_variable = guigo_11 }
+#				}
+#			}
+#			kill_character = yes
+#		}
+#	}
 }
 
 # Root = Character
@@ -2112,8 +2124,27 @@ on_rank_changed = {
 
 # Root = Character
 on_heir_born = {
-	effect = {
-		post_notification = heir_born_notification
+	effect = { #This is some pretty janky stuff since it doesn't seem to be possible to block heir generation.
+		if = {
+			limit = {
+				owner = {
+					THIS ?= c:DAU
+					ruler = { has_variable = guigo_11 }
+				}
+			}
+			kill_character = {
+				hidden = yes #Imagine how many Daufinat heirs will be generated and instantly killed in the 6ish years before the variable can be removed
+				value = yes
+			}
+		}
+		else_if = {
+			limit = {
+				owner = {
+					ruler = { NOT = { has_variable = guigo_11 } }
+				}
+			}
+			post_notification = heir_born_notification
+		}
 	}
 }
 

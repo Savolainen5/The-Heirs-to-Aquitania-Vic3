@@ -18599,7 +18599,7 @@ franco_canadian={
 		Pierre
 		Pierre-Aurele
 		Pierre-Stanislas
-		Rene-Edouard
+#		Rene-Edouard
 		Simon-Napoleon
 		Telesphore
 		Theodore

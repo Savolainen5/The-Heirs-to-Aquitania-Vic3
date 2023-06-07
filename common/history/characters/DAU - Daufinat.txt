@@ -5,7 +5,7 @@
 			last_name = "de_Buonavi"
 			culture = cu:aquitanian
 			ruler = yes
-			age = 33 #born 1802
+			age = 38 #born 1798
 			interest_group = ig_landowners
 			traits = {
 				pious
@@ -16,17 +16,5 @@
 			}
 		}
 
-#		create_character = { 								#No heir yet designated
-#			first_name = "name" 
-#			last_name = "name"
-#			culture = cu:aquitanian
-#			ethnicity = caucasian_base
-#			heir = yes
-#			age = 26
-#			interest_group = ig_armed_forces
-#			traits = {
-#				arrogant
-#			}
-#		}
-#	}
+
 }

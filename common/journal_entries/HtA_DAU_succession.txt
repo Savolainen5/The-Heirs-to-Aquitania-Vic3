@@ -1,6 +1,12 @@
 ﻿je_daufinat_succession = {
 	icon = "gfx/interface/icons/event_icons/event_portrait.dds"
 
+	immediate = {
+		set_variable = {
+			name = DAU_successor_not_chosen_var
+		}
+	}
+
 	is_shown_when_inactive = {
 		c:DAU = root
 	}
@@ -31,7 +37,7 @@
 			limit = {
 				exists = c:DAU
 				c:DAU = ROOT
-				has_variable = DAU_heir_AQT
+				has_variable = DAU_successor_chosen_AQT
 			}
 			trigger_event = { id = DAU_succession_events.2 }
 		}
@@ -39,7 +45,7 @@
 			limit = {
 				exists = c:DAU
 				c:DAU = ROOT
-				has_variable = DAU_heir_PDN
+				has_variable = DAU_successor_chosen_PDN
 			}
 			trigger_event = { id = DAU_succession_events.3 }
 		}
@@ -47,12 +53,21 @@
 			limit = {
 				exists = c:DAU
 				c:DAU = ROOT
-				has_variable = DAU_heir_neutral
+				has_variable = DAU_successor_chosen_DAU
 			}
 			trigger_event = { id = DAU_succession_events.4 }
 		}
 	}
-
+	
+	on_weekly_pulse = {
+		events = {
+			DAU_succession_events.1
+			DAU_succession_events.2
+			DAU_succession_events.3
+			DAU_succession_events.4
+		}
+	}
+	
 	on_monthly_pulse = {
 		effect = {
 			if = {
@@ -61,9 +76,9 @@
 					c:DAU = ROOT
 					ruler = { has_variable = guigo_11 }
 					OR = {
-						has_variable = DAU_heir_AQT
-						has_variable = DAU_heir_PDN
-						has_variable = DAU_heir_neutral
+						has_variable = DAU_successor_chosen_AQT
+						has_variable = DAU_successor_chosen_PDN
+						has_variable = DAU_successor_chosen_DAU
 					}
 				}
 				random_list = {
@@ -84,6 +99,11 @@
 			is_subject = yes
 			any_scope_character = {
 				is_heir = yes
+				OR = {
+					has_variable = DAU_heir_AQT
+					has_variable = DAU_heir_PDN
+					has_variable = DAU_heir_DAU
+				}
 			}
 
 #			c:DAU = {
@@ -99,7 +119,7 @@
 		}
 	}
 
-	weight = 10
+	weight = 100
 
 	should_be_pinned_by_default = yes
 }

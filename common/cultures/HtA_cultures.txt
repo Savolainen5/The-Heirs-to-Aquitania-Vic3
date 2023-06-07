@@ -444,7 +444,7 @@ aquitanian={
 	}
 	
 	male_regal_first_names = {
-		Aymar Berenguer Bernat Huc Loi_s Pe_ire Pe_ire_Raimond Raimond Rogier Raimond_Rogier
+		Aymar Aymon Berenguer Bernat Huc Loi_s Pe_ire Pe_ire_Raimond Raimond Rogier Raimond_Rogier
 	}
 	female_regal_first_names = {
 		# populate with names here

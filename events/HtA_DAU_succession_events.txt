@@ -8,11 +8,16 @@ DAU_succession_events.1 = { #An heir for Daufinat
 	desc = DAU_succession_events.1.d
 	flavor = DAU_succession_events.1.f
 
+	left_icon = scope:DAU_monarch
+
+	cooldown = { months = normal_modifier_time }
+
 	event_image = {
-		video = "southamerica_aristocrats" #But actually something else
+		video = "unspecific_ruler_speaking_to_people"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
+	on_opened_soundeffect = "event:/SFX/Events/misc/2Characters"
 
 	icon = "gfx/interface/icons/event_icons/event_newspaper.dds"
 
@@ -20,28 +25,33 @@ DAU_succession_events.1 = { #An heir for Daufinat
 
 	trigger = {
 		ruler = { has_variable = guigo_11 }
+		has_variable = DAU_successor_not_chosen_var
 	}
-
-#	immediate = {
-#		set_global_variable = gp_hawaii_interest
-#		set_variable = death_of_kamehameha
-#	}
+	
+	immediate = {
+		ruler = {
+			save_scope_as = DAU_monarch
+		}
+	}
 
 	option = { #Chooose AQT-minded heir
 		name = DAU_succession_events.1.a
-		set_variable = DAU_heir_AQT
+		remove_variable = DAU_successor_not_chosen_var
+		set_variable = DAU_successor_chosen_AQT
 	}
 
 	option = { #Chooose PDN-minded heir
 		name = DAU_succession_events.1.b
-		set_variable = DAU_heir_PDN
+		remove_variable = DAU_successor_not_chosen_var
+		set_variable = DAU_successor_chosen_PDN
 
 	}
 
 	option = { #Chooose independent-minded heir
 		name = DAU_succession_events.1.c
+		remove_variable = DAU_successor_not_chosen_var
+		set_variable = DAU_successor_chosen_DAU
 		default_option = yes
-		set_variable = DAU_heir_neutral
 
 	}
 }
@@ -65,6 +75,8 @@ DAU_succession_events.2 = { #An AQT heir
 	duration = 3
 
 	trigger = {
+		has_variable = DAU_successor_chosen_AQT
+		year = 1840
 	}
 
 #	immediate = {
@@ -75,13 +87,16 @@ DAU_succession_events.2 = { #An AQT heir
 	option = { #IDK
 		name = DAU_succession_events.2.a
 		create_character = {
-			first_name = Aymar
+			first_name = Bernat
 			last_name = de_Buonavi
 			heir = yes
 			birth_date = 1848.9.25
 			traits = {
 				direct
 				persistent
+			}
+			on_created = {
+				set_variable = DAU_heir_AQT
 			}
 		}
 	}
@@ -105,6 +120,8 @@ DAU_succession_events.3 = { #A PDN heir
 	duration = 3
 
 	trigger = {
+		has_variable = DAU_successor_chosen_PDN
+		year = 1840
 	}
 
 #	immediate = {
@@ -122,6 +139,9 @@ DAU_succession_events.3 = { #A PDN heir
 			traits = {
 				direct
 				persistent
+			}
+			on_created = {
+				set_variable = DAU_heir_PDN
 			}
 		}
 	}
@@ -145,6 +165,8 @@ DAU_succession_events.4 = { #An independent heir
 	duration = 3
 
 	trigger = {
+		has_variable = DAU_successor_chosen_DAU
+		year = 1840
 	}
 
 #	immediate = {
@@ -155,13 +177,16 @@ DAU_succession_events.4 = { #An independent heir
 	option = { #IDK
 		name = DAU_succession_events.4.a
 		create_character = {
-			first_name = Bernat
+			first_name = Aymon
 			last_name = de_Buonavi
 			heir = yes
 			birth_date = 1848.9.25
 			traits = {
 				direct
 				persistent
+			}
+			on_created = {
+				set_variable = DAU_heir_DAU
 			}
 		}
 	}
