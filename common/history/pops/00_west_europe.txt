@@ -964,35 +964,35 @@
 				culture = wallonian
 				size = 4000
 			}
-			create_pop = {
-				culture = north_german
-				size = 332004
-			}
-			create_pop = {
-				culture = ashkenazi
-				size = 1004
-			}
-			create_pop = {
-				culture = north_german
-				religion = catholic
-				size = 424000
-			}
+#			create_pop = {
+#				culture = north_german
+#				size = 332004
+#			}
+#			create_pop = {
+#				culture = ashkenazi
+#				size = 1004
+#			}
+#			create_pop = {
+#				culture = north_german
+#				religion = catholic
+#				size = 424000
+#			}
 			create_pop = {
 				culture = remenish
 				size = 8400
 			}
-			create_pop = {
-				culture = north_german
-				size = 323992
-			}
+#			create_pop = {
+#				culture = north_german
+#				size = 323992
+#			}
 			create_pop = {
 				culture = south_german
 				size = 251600
 			}
-			create_pop = {
-				culture = ashkenazi
-				size = 1996
-			}
+#			create_pop = {
+#				culture = ashkenazi
+#				size = 1996
+#			}
 			create_pop = {
 				culture = south_german
 				religion = protestant

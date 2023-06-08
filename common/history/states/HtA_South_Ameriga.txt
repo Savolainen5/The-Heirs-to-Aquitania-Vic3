@@ -487,6 +487,7 @@
 		
 		add_homeland = prateado
 		add_homeland = guarani		
+	}
 	
 	s:STATE_JUJUY = {
 		create_state = {

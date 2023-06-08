@@ -93,22 +93,50 @@
 	}
 	s:STATE_WEST_BORNEO = {		#pops will need adjusting
 		region_state:SRW = {
+			create_pop = {
+				culture = malay
+				size = 10000
+			}
 		}
 		region_state:SUK = {
+			create_pop = {
+				culture = malay
+				size = 10000
+			}
 		}
 		region_state:STG = {
+			create_pop = {
+				culture = malay
+				size = 10000
+			}
 		}
 	}
 	s:STATE_EAST_BORNEO = {		#pops will need adjusting
 		region_state:MKS = {
+			create_pop = {
+				culture = malay
+				size = 10000
+			}
 		}
 		region_state:LAZ = {
+			create_pop = {
+				culture = malay
+				size = 10000
+			}
 		}
 	}
 	s:STATE_SOUTH_BORNEO = {		#pops will need adjusting
 		region_state:BNJ = {
+			create_pop = {
+				culture = malay
+				size = 10000
+			}
 		}
 		region_state:MKS = {
+			create_pop = {
+				culture = malay
+				size = 10000
+			}
 		}
 	}
 	s:STATE_WEST_JAVA = {		#Avoid adjusting pops too much

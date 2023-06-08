@@ -39,8 +39,13 @@
 		add_declared_interest = region_congo
 	}
 #Asia
-	c:QIN = {	
+	c:QIN = {
 		add_declared_interest = region_japan
 		add_declared_interest = region_indochina
+	}
+	c:JAP = {
+		add_declared_interest = region_indonesia
+		#add_declared_interest = region_south_china #As of 8.6.2023 Japan can only have one interest because it's not a civilized country or whatever
+		#add_declared_interest = region_manchuria
 	}
 }

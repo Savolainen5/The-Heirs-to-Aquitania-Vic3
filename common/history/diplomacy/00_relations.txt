@@ -1,6 +1,6 @@
 ﻿DIPLOMACY = {
 	c:IRE = { #Eire
-		set_relations = { country = c:BEO value = 80 }
+		set_relations = { country = c:BEO value = 170 }
 		set_relations = { country = c:EOF value = 30 }
 		set_relations = { country = c:WLS value = 50 }
 		set_relations = { country = c:SNO value = 30 }
@@ -56,5 +56,10 @@
 		set_relations = { country = c:GLZ value = -20 }
 		set_relations = { country = c:MAU value = -10 }
 		set_relations = { country = c:GER value = -20 }
+	}
+	c:JAP = {
+		set_relations = { country = c:YAM value = 80 }
+		set_relations = { country = c:TOH value = 80 }
+		set_relations = { country = c:NST value = 170 }
 	}
 }
