@@ -20,3 +20,13 @@
  DAU_succession_events.4.d: "Guigo has chosen his third cousin."
  DAU_succession_events.4.f: "Aymon, count of Chambéri, is born and bred in Daufinat, and seeks to maintain Daufinens independence in the face of the duchy's growing neighbours."
  DAU_succession_events.4.a: "Three hurrahs for Aymon!"
+
+ AQT_liberal_events.1.t: "The Death of Raimond VIII"
+ AQT_liberal_events.1.d: "The king is dead."
+ AQT_liberal_events.1.f: "He lived a full life and the stability he brought to the realm will be sorely missed. Now his son will reign as Raimond IX."
+ AQT_liberal_events.1.a: "Long live the king!"
+
+ AQT_liberal_events.2.t: "Liberals agitate"
+ AQT_liberal_events.2.d: "Description"
+ AQT_liberal_events.2.f: "Flavor"
+ AQT_liberal_events.2.a: "Option name"

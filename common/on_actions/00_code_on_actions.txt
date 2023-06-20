@@ -384,6 +384,11 @@ on_yearly_pulse_country = {
 		20 = pm_events.2
 		20 = pm_events.4
 		20 = pm_events.5
+
+		# Additional 1848
+		10 = 1848.10
+		10 = 1848.11
+		10 = 1848.12
 		
 		# Vampire Panic
 		1 = vampire_panic.1
@@ -419,8 +424,12 @@ on_yearly_pulse_country = {
 		10 = exiles_more_events.9
 		10 = exiles_more_events.10
 	}
-	
+
+	# Indochina JE start
 	random_events = {
+		40 = 0
+		10 = indochina.1 # Indochinese start
+		10 = indochina.2 # Imperialist start
 	}
 
 	#Slavery Abolition
@@ -734,6 +743,14 @@ on_character_death = {
 			}
 			owner = {
 				trigger_event = expedition_events.110
+			}
+		}
+		if = {
+			limit = {
+				has_variable = is_raimond_8
+			}
+			owner = {
+				trigger_event = AQT_liberal_events.1
 			}
 		}
 	}

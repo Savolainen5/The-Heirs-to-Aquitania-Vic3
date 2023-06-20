@@ -1,3 +1,4 @@
 -[pdx_assert.cpp:612]: Assertion failed: pCurIdler->GetApplication().GetCurrentIdlerType() == EJominiIdler::INGAME
-
 	No one seems to know what this is about
+	
+- The game thinks that x1C7417 and xE9E984 cross multiple state regions, but as far as I can tell this is not the case

@@ -40,7 +40,6 @@ STATE_SOUTHERN_MALAYA = {
     naval_exit_id = 3058
 }
 
-
 STATE_NORTH_BORNEO = {
     id = 541
     subsistence_building = "building_subsistence_farms"
@@ -307,8 +306,6 @@ STATE_WEST_SUMATRA = {
     }
     naval_exit_id = 3051
 }
-
-
 
 STATE_ACEH = {
     id = 547
