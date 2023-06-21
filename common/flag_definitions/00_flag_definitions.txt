@@ -2527,6 +2527,7 @@ IRE = { # Ireland
 		coa = IRE
 		allow_overlord_canton = yes
 		coa_with_overlord_canton = IRE_with_canton
+		subject_canton = IRE_canton
 		priority = 1
 	}
 	flag_definition = {
@@ -5697,7 +5698,16 @@ WLL = { # Wallonia
 
 WLS = { # Wales
 	flag_definition = {
+		coa = WLS
+		subject_canton = WLS
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = WLS_subject
+		priority = 1
+	}
+	flag_definition = {
 		coa = WLS_republic
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = WLS_subject
 		priority = 10
 		trigger = { 
 			coa_def_republic_flag_trigger = yes
@@ -5706,6 +5716,7 @@ WLS = { # Wales
 	flag_definition = {
 		coa = WLS_theocracy
 		subject_canton = WLS_theocracy
+		allow_overlord_canton = yes
 		priority = 10
 		trigger = { 
 			coa_def_theocracy_flag_trigger = yes
@@ -5713,6 +5724,8 @@ WLS = { # Wales
 	}
 	flag_definition = {
 		coa = WLS_coa
+		allow_overlord_canton = yes
+		coa_with_overlord_canton = WLS_subject
 		priority = 10
 		trigger = { 
 			coa_def_absolute_monarchy_flag_trigger = yes
