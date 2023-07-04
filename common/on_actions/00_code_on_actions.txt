@@ -1361,6 +1361,22 @@ on_ally_capitulated_notification = {
 	}
 }
 
+# Root = Character
+on_mobilized_general = {
+	effect = {
+		set_variable = {
+			name = num_months_mobilized
+			value = 0
+		}
+	}
+}
+
+# Root = Character
+on_demobilized_general = {
+	effect = {
+		remove_variable = num_months_mobilized
+	}
+}
 # Root = Diplomatic Play
 on_diplo_play_start = {
 	effect = {
@@ -1870,8 +1886,6 @@ on_law_enactment_fail = {
 # is still considered being enacted, therefore the `currently_enacting_law` link
 # will work as expected, even though the enactment is _just_ about to end
 on_law_enactment_ended = {
-	effect = {
-	}
 }
 
 # Root owner Country of the Law
@@ -1887,10 +1901,6 @@ on_law_enactment_ended = {
 # enacted. Therefore using the `currently_enacting_law` link will return the
 # null law
 on_law_activated = {
-	effect = {
-
-	}
-
 }
 
 # Root = Institution
@@ -1943,8 +1953,6 @@ on_revolution_start = {
 # Root = Country
 # scope:target = Uprising country
 on_revolution_end = {
-	effect = {
-	}
 }
 # Root = Country
 # scope:target = Uprising country
@@ -2139,9 +2147,18 @@ on_rank_changed = {
 	}
 }
 
+# Root = Country (that owns a state in the state region)
+# scope:actor = Claimant country
+# scope:region = State Region
+on_claim_added = {
+	effect = {
+		post_notification = claim_added_notification
+	}
+}
 # Root = Character
 on_heir_born = {
 	effect = { #This is some pretty janky stuff since it doesn't seem to be possible to block heir generation.
+		post_notification = heir_born_notification
 		if = {
 			limit = {
 				owner = {
