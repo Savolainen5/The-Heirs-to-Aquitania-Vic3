@@ -1,4 +1,6 @@
-﻿# Vicky and the Expedition Machine
+﻿#The vanilla file starts with an interesting method of assigning Taiping states and characters
+
+# Vicky and the Expedition Machine
 ai_expedition_simulator_start = {
 	random_scope_character = {
 		limit = {
@@ -1108,7 +1110,7 @@ communist_agitator_election_scope_effect = {
 		this.interest_group = {
 			save_scope_as = agitator_ig_scope
 		}
-		this.political_movement = {
+		this.political_movement ?= {
 			save_scope_as = agitator_movement_scope
 		}
 	}
@@ -1145,7 +1147,7 @@ fascist_agitator_election_scope_effect = {
 		this.interest_group = {
 			save_scope_as = agitator_ig_scope
 		}
-		this.political_movement = {
+		this.political_movement ?= {
 			save_scope_as = agitator_movement_scope
 		}
 	}
@@ -1172,7 +1174,7 @@ agrarian_agitator_election_scope_effect = {
 		this.interest_group = {
 			save_scope_as = agitator_ig_scope
 		}
-		this.political_movement = {
+		this.political_movement ?= {
 			save_scope_as = agitator_movement_scope
 		}
 	}
@@ -1199,7 +1201,7 @@ socdem_agitator_election_scope_effect = {
 		this.interest_group = {
 			save_scope_as = agitator_ig_scope
 		}
-		this.political_movement = {
+		this.political_movement ?= {
 			save_scope_as = agitator_movement_scope
 		}
 	}
@@ -1228,7 +1230,7 @@ liberal_agitator_election_scope_effect = {
 		this.interest_group = {
 			save_scope_as = agitator_ig_scope
 		}
-		this.political_movement = {
+		this.political_movement ?= {
 			save_scope_as = agitator_movement_scope
 		}
 	}
@@ -1256,7 +1258,7 @@ conservative_agitator_election_scope_effect = {
 		this.interest_group = {
 			save_scope_as = agitator_ig_scope
 		}
-		this.political_movement = {
+		this.political_movement ?= {
 			save_scope_as = agitator_movement_scope
 		}
 	}
@@ -1283,7 +1285,7 @@ radical_agitator_election_scope_effect = {
 		this.interest_group = {
 			save_scope_as = agitator_ig_scope
 		}
-		this.political_movement = {
+		this.political_movement ?= {
 			save_scope_as = agitator_movement_scope
 		}
 	}
@@ -1311,7 +1313,7 @@ free_trade_agitator_election_scope_effect = {
 		this.interest_group = {
 			save_scope_as = agitator_ig_scope
 		}
-		this.political_movement = {
+		this.political_movement ?= {
 			save_scope_as = agitator_movement_scope
 		}
 	}
@@ -1780,5 +1782,8 @@ exile_character_with_martyrdom = {
 		}
 		add_modifier = modifier_political_martyr
 	}
+	clean_up_exile_character_roles = yes
 	exile_character = yes
 }
+
+#The vanilla file has some really interesting stuff for VotP FRA

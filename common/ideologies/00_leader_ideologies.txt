@@ -120,15 +120,6 @@ ideology_traditionalist = {
 			}
 			add = 50
 		}
-		# conservative and/or reactionary leaders have a higher spawn chance if the Anti-Dreyfusards won.
-		if = {
-			limit = {
-				scope:interest_group = {
-					has_variable = anti_dreyfusard_victory
-				}
-			}
-			add = 50
-		}
 	}
 }
 
@@ -330,15 +321,6 @@ ideology_republican_leader = {
 			}
 			add = 75
 		}
-		# liberal and/or radical leaders have a higher spawn chance if the Dreyfusards won.
-#		if = {
-#			limit = {
-#				scope:interest_group = {
-#					has_variable = dreyfusard_victory
-#				}
-#			}
-#			add = 50
-#		}
 	}
 }
 
@@ -526,15 +508,6 @@ ideology_radical = {
 				}
 				multiply = { value = 0.5 }
 			}
-			# liberal and/or radical leaders have a higher spawn chance if the Dreyfusards won.
-#			if = {
-#				limit = {
-#					scope:interest_group = {
-#						has_variable = dreyfusard_victory
-#					}
-#				}
-#				add = 50
-#			}
 		}
 	}
 }
@@ -638,15 +611,6 @@ ideology_reformer = {
 			}
 			add = 50
 		}
-		# liberal and/or radical leaders have a higher spawn chance if the Dreyfusards won.
-#		if = {
-#			limit = {
-#				scope:interest_group = {
-#					has_variable = dreyfusard_victory
-#				}
-#			}
-#			add = 50
-#		}
 	}
 }
 
@@ -749,15 +713,6 @@ ideology_feminist = {
 				}
 				add = -50
 			}
-			# liberal and/or radical leaders have a higher spawn chance if the Dreyfusards won.
-			if = {
-				limit = {
-					scope:interest_group = {
-						has_variable = dreyfusard_victory
-					}
-				}
-				add = 50
-			}
 		}
 	}
 }
@@ -818,7 +773,7 @@ ideology_abolitionist = {
 		}	
 		if = {
 			limit = { scope:interest_group = { is_interest_group_type = ig_intelligentsia } }
-			add = 150		
+			add = 150
 		}		
 		if = {
 			limit = { has_trait = tactful }
@@ -872,14 +827,14 @@ ideology_slaver = {
 				}
 			}
 			add = -1000
-		}	
+		}
 		if = {
 			limit = { scope:interest_group = { is_interest_group_type = ig_landowners } }
-			add = 500			
+			add = 500
 		}
 		if = {
 			limit = { scope:interest_group = { is_interest_group_type = ig_rural_folk } }
-			add = 250			
+			add = 250
 		}		
 		if = {
 			limit = { has_trait = cruel }
@@ -1000,15 +955,6 @@ ideology_pacifist = {
 			}
 			add = 50
 		}
-		# liberal and/or radical leaders have a higher spawn chance if the Dreyfusards won.
-#		if = {
-#			limit = {
-#				scope:interest_group = {
-#					has_variable = dreyfusard_victory
-#				}
-#			}
-#			add = 50
-#		}
 	}
 }
 
@@ -1103,15 +1049,7 @@ ideology_jingoist_leader = {
 			}
 			add = 50
 		}
-		# conservative and/or reactionary leaders have a higher spawn chance if the Anti-Dreyfusards won.
-#		if = {
-#			limit = {
-#				scope:interest_group = {
-#					has_variable = anti_dreyfusard_victory
-#				}
-#			}
-#			add = 50
-#		}
+   
 	}
 }
 
@@ -1187,15 +1125,6 @@ ideology_royalist = {
 				}
 				scope:interest_group = {
 					ig_approval > 5
-				}
-			}
-			add = 50
-		}
-		# conservative and/or reactionary leaders have a higher spawn chance if the Anti-Dreyfusards won.
-		if = {
-			limit = {
-				scope:interest_group = {
-					has_variable = anti_dreyfusard_victory
 				}
 			}
 			add = 50
@@ -1336,15 +1265,6 @@ ideology_social_democrat = {
 			}
 			multiply = 0.01
 		}
-		# liberal and/or radical leaders have a higher spawn chance if the Dreyfusards won.
-#		if = {
-#			limit = {
-#				scope:interest_group = {
-#					has_variable = dreyfusard_victory
-#				}
-#			}
-#			add = 50
-#		}
 	}
 }
 
@@ -1866,15 +1786,6 @@ ideology_fascist = {
 			}
 			add = 150
 		}
-		# conservative and/or reactionary leaders have a higher spawn chance if the Anti-Dreyfusards won.
-#		if = {
-#			limit = {
-#				scope:interest_group = {
-#					has_variable = anti_dreyfusard_victory
-#				}
-#			}
-#			add = 50
-#		}
 	}
 }
 
@@ -1911,15 +1822,6 @@ ideology_anarchist = {
 		law_traditionalism = strongly_disapprove	
 		law_laissez_faire = strongly_disapprove
 		law_industry_banned = disapprove
-	}
-	
-	lawgroup_economic_system = {	
-		law_cooperative_ownership = strongly_approve
-		law_interventionism = neutral
-		law_agrarianism = neutral
-		law_command_economy = disapprove
-		law_traditionalism = disapprove	
-		law_laissez_faire = strongly_disapprove
 	}
 
 	lawgroup_army_model = {
@@ -2165,15 +2067,6 @@ ideology_ethno_nationalist = {
 			}
 			add = -75
 		}
-		# conservative and/or reactionary leaders have a higher spawn chance if the Anti-Dreyfusards won.
-#		if = {
-#			limit = {
-#				scope:interest_group = {
-#					has_variable = anti_dreyfusard_victory
-#				}
-#			}
-#			add = 50
-#		}
 	}
 }
 
@@ -2283,15 +2176,6 @@ ideology_theocrat = {
 			}
 			add = -150
 		}
-		# conservative and/or reactionary leaders have a higher spawn chance if the Anti-Dreyfusards won.
-#		if = {
-#			limit = {
-#				scope:interest_group = {
-#					has_variable = anti_dreyfusard_victory
-#				}
-#			}
-#			add = 50
-#		}
 	}
 }
 
@@ -2481,15 +2365,7 @@ ideology_market_liberal = {
 			}
 			add = -75
 		}
-		# liberal and/or radical leaders have a higher spawn chance if the Dreyfusards won.
-#		if = {
-#			limit = {
-#				scope:interest_group = {
-#					has_variable = dreyfusard_victory
-#				}
-#			}
-#			add = 50
-#		}
+   
 	}
 }
 
@@ -2704,15 +2580,7 @@ ideology_authoritarian = {
 			}
 			add = -50
 		}
-		# conservative and/or reactionary leaders have a higher spawn chance if the Anti-Dreyfusards won.
-#		if = {
-#			limit = {
-#				scope:interest_group = {
-#					has_variable = anti_dreyfusard_victory
-#				}
-#			}
-#			add = 50
-#		}
+   
 	}
 }
 
@@ -3046,15 +2914,6 @@ ideology_humanitarian = {
 			}
 			add = -50
 		}
-		# liberal and/or radical leaders have a higher spawn chance if the Dreyfusards won.
-#		if = {
-#			limit = {
-#				scope:interest_group = {
-#					has_variable = dreyfusard_victory
-#				}
-#			}
-#			add = 50
-#		}
 	}
 }
 

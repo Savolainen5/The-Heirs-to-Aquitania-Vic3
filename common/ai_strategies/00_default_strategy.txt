@@ -1785,7 +1785,9 @@ ai_strategy_default = {
 				limit = {		
 					scope:target_country = { is_subject_of = root }		
 				}
-				multiply = 0.0	
+				multiply = 0.0
+			}
+			if = {
 				limit = {	
 					AND = {
 						has_radical_leftist_government = yes
@@ -2947,18 +2949,18 @@ ai_strategy_default = {
 				}
 				add = 25
 			}
-			if = {
-				limit = {
-					has_journal_entry = je_opium_wars
-					scope:target_country = {
-						has_variable = opium_wars_target
-					}
-					scope:target_state = {
-						state_region = s:STATE_NAKHON_SRI_THAMMARAT
-					}					
-				}
-				add = 1000
-			}
+#			if = {
+#				limit = {
+#					has_journal_entry = je_opium_wars
+#					scope:target_country = {
+#						has_variable = opium_wars_target
+#					}
+#					scope:target_state = {
+#						state_region = s:STATE_NAKHON_SRI_THAMMARAT #Replace with some Chinese state if this is used
+#					}					
+#				}
+#				add = 1000
+#			}
 			if = {
 				limit = {
 					has_journal_entry = je_opium_wars

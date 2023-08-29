@@ -532,18 +532,18 @@ exile_character = {
 				add_modifier = {
 					name = in_exile_modifier
 				}
+				every_country = {
+					limit = {
+						has_diplomatic_relevance = scope:exiling_country_scope
+					}
+					post_notification = exile_notification
+				}
 			}
 			else = {
 				add_modifier = {
 					name = in_exile_modifier
 					multiplier = 3
 				}
-			}
-			every_country = {
-				limit = {
-					has_interest_marker_in_region = scope:exiling_country_scope.capital.region
-				}
-				post_notification = exile_notification
 			}
 		}
 		custom_tooltip = {
@@ -644,6 +644,48 @@ exile_character = {
 	}
 }
 
+demobilize_general = {
+	clicksound = "event:/SFX/DLC/1.3_ip1/UI/exile_character"
+
+	potential = {
+		has_role = general
+		is_mobilized = yes
+	}
+
+	show_requirements = yes
+
+	possible = {
+		custom_tooltip = {
+			text = demobilize_general_tt
+			var:num_months_mobilized >= num_months_before_permit_demobilization
+		}
+		commander_is_available = yes
+	}
+
+	effect = {
+		owner = {
+			add_modifier = {
+				name = early_demobilization
+				multiplier = {	# round down to 100s
+					value = root.mobilization_cost
+					divide = 100
+					round = yes
+					multiply = 100
+				}
+				months = num_months_mobilization_cost_after_early_demobilization
+				is_decaying = yes
+			}
+		}
+		demobilize = yes
+	}
+	
+	show_confirmation_box = yes
+	
+	ai_chance = {
+		value = 0
+	}
+}
+
 invite_exile = {
 	# icon = ""
 	clicksound = "event:/SFX/DLC/1.3_ip1/UI/character_invite"
@@ -668,7 +710,7 @@ invite_exile = {
 		        religion = scope:actor.religion
 		    }
 		}
-		# If you have state religion, exiles must hav eyour religion
+		# If you have state religion, exiles must have your religion
 		trigger_if = {
 			limit = {
 				NOT = { is_interest_group_type = ig_devout }
@@ -695,7 +737,7 @@ invite_exile = {
 
 	effect = {
 		transfer_character = scope:actor
-#		set_variable = exile_to_ruler_var
+		set_variable = exile_to_ruler_var
 		custom_tooltip = invite_exile_start_join_movement_effect
 		hidden_effect = {
 			remove_modifier = in_exile_modifier
@@ -784,7 +826,7 @@ retire_commander = {
 		interest_group = {
 			is_insurrectionary = no
 		}
-		is_busy = no
+		commander_is_available = yes
 	}
 
 	effect = {

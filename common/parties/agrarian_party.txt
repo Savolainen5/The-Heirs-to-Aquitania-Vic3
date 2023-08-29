@@ -130,10 +130,23 @@ agrarian_party = {
 		owner = {
 			country_has_voting_franchise = yes
 			ig:ig_rural_folk = {
-				is_powerful = yes
+				is_marginal = no
 			}
 		}
+		OR = {
+	     	NOT = {
+	         	owner = {
+	         		has_variable = only_valid_party
+	         	}
+	        }
+	        owner.var:only_valid_party = {
+	        	is_party_type = agrarian_party
+	        }
+	    }
 	}
+	
+	# Root - IG considering joining
+	# scope:number - the number of IGs that would join this party before the root IG																			 
 	join_weight = {
 		value = {
 			value = -5
@@ -274,6 +287,9 @@ agrarian_party = {
 				OR = {
 					has_ideology = ideology:ideology_proletarian
 					has_ideology = ideology:ideology_agrarian
+					leader = {
+						has_ideology = ideology:ideology_protectionist
+					}
 				}
 				owner = {
 					has_law = law_type:law_laissez_faire
@@ -374,20 +390,6 @@ agrarian_party = {
 		}
 		if = {
 			limit = {
-				owner = {
-	         		has_variable = only_valid_party
-	         	}
-	         	 owner.var:only_valid_party = {
-		        	is_party_type = agrarian_party
-		        }
-			}
-			add = {
-				value = 3
-				desc = "from_only_legal_party"
-			}
-		}
-		if = {
-			limit = {
 				is_interest_group_type = ig_rural_folk
 				is_powerful = yes
 			}
@@ -447,6 +449,37 @@ agrarian_party = {
 			}
 			multiply = {
 				value = 0
+			}
+		}
+		if = {
+			limit = {
+				owner = {
+	         		has_variable = only_valid_party
+	         	}
+				 owner.var:only_valid_party = {
+					is_party_type = agrarian_party
+				}
+	         	owner.ruler = {
+					this.interest_group = prev
+				}
+			}
+			add = {
+				value = 1000
+				desc = "from_only_legal_party"
+			}
+		}
+		else_if = {
+			limit = {
+				owner = {
+	         		has_variable = only_valid_party
+	         	}
+	         	 owner.var:only_valid_party = {
+		        	is_party_type = agrarian_party
+		        }
+			}
+			add = {
+				value = 3
+				desc = "from_only_legal_party"
 			}
 		}
 	}

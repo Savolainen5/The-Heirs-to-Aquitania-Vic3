@@ -1054,7 +1054,7 @@ nihilism.10 = { #Intellectual leader becomes a nihilist
 		ig:ig_intelligentsia = {
 			save_scope_as = intelligentsia_ig
 		}
-		if = { 
+		if = {
 			limit = {
 				OR = {
 					country_has_primary_culture = cu:north_german

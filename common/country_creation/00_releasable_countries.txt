@@ -309,7 +309,7 @@ HES = {
 WES = {
 	states = { 
 		STATE_WESTPHALIA 
-		STATE_SOUTH_BORNEO 
+		#Could be nice to come up with a new state in the region
 		STATE_RHINELAND
 	}
 	
@@ -730,12 +730,12 @@ TUV = {
 	ai_will_do = { always = no }
 }
 
-COR = {
-	states = {
-		STATE_BEORNICE
-	}
-	ai_will_do = { always = no }
-}
+#COR = {
+#	states = {
+#		STATE_BEORNICE
+#	}
+#	ai_will_do = { always = no }
+#}
 
 YAK = {
 	use_culture_states = yes
@@ -1428,6 +1428,11 @@ BRU = {
 	ai_will_do = { always = no }
 }
 
+
+BUR = {
+	use_culture_states = yes
+	ai_will_do = { always = no }
+}
 CAM = {
 	use_culture_states = yes
 	ai_will_do = { always = no }
@@ -1481,15 +1486,13 @@ TRC = {
 
 ASM = {
 	states = {
-		STATE_TURKMENIA
+		STATE_ASSAM
 	}
 	ai_will_do = { always = no }
 }
 
 MNP = {
-	states = {
-		STATE_TURKMENIA
-	}
+	provinces = { xB03121 xA17DC4 x8C53B3 xCB0893 x30B15A x8F90F5 xB238B2 }
 	ai_will_do = { always = no }
 }
 
@@ -1797,3 +1800,58 @@ WAL = {
 	}
 	ai_will_do = { always = no }
 }
+
+DFR = {
+	states = {
+		STATE_DARFUR
+	}
+	ai_will_do = { always = no }
+}
+
+ASH = {
+	states = {
+		STATE_GHANA
+	}
+	ai_will_do = { always = no }
+}
+
+DAH = {
+	states = {
+		STATE_DAHOMEY
+	}
+	ai_will_do = { always = no }
+}
+
+WAD = {
+	states = {
+		STATE_CHAD
+		STATE_WADDAI
+	}
+	ai_will_do = { always = no }
+}
+
+MAD = {
+	use_culture_states = yes
+	
+	ai_will_do = { always = no }
+}
+
+#KAU = {
+#	states = { 
+#		STATE_SOUTH_AUSTRALIA
+#	}
+#
+#	ai_will_do = { always = no }
+#}
+
+#YUZ = {
+#	states = { 
+#		STATE_FORMOSA
+#	}
+#	ai_will_do = { always = no }
+#}
+
+#AIT = {
+#	provinces = { x429B12 x9AF6A4 x8E7690 x2DF9DB x3A0E38 x0090A0 xB1BCFF x0C5C65 }
+#	ai_will_do = { always = no }
+#}

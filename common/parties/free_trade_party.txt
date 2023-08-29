@@ -415,69 +415,6 @@ free_trade_party = {
 				desc = from_protectionist_leader
 			}
 		}
-		if = { # anti-orleanist
-			limit = {
-				leader = {
-					has_ideology = ideology:ideology_bonapartist
-					has_ideology = ideology:ideology_legitimist
-				}
-				owner = {
-					any_interest_group = {
-						is_member_of_party = owner.py:conservative_party
-						is_powerful = yes
-						leader = {
-							has_ideology = ideology:ideology_orleanist
-						}
-					}
-				}
-			}
-			add = {
-				value = -5
-				desc = "from_french_monarchist_rival"
-			}
-		}
-		if = { # anti-legitimist
-			limit = {
-				leader = {
-					has_ideology = ideology:ideology_bonapartist
-					has_ideology = ideology:ideology_orleanist
-				}
-				owner = {
-					any_interest_group = {
-						is_member_of_party = owner.py:conservative_party
-						is_powerful = yes
-						leader = {
-							has_ideology = ideology:ideology_legitimist
-						}
-					}
-				}
-			}
-			add = {
-				value = -5
-				desc = "from_french_monarchist_rival"
-			}
-		}
-		if = { # anti-bonapartist
-			limit = {
-				leader = {
-					has_ideology = ideology:ideology_legitimist
-					has_ideology = ideology:ideology_orleanist
-				}
-				owner = {
-					any_interest_group = {
-						is_member_of_party = owner.py:conservative_party
-						is_powerful = yes
-						leader = {
-							has_ideology = ideology:ideology_bonapartist
-						}
-					}
-				}
-			}
-			add = {
-				value = -5
-				desc = "from_french_monarchist_rival"
-			}
-		}
 		if = {
 			limit = {
 				owner = {
@@ -494,6 +431,23 @@ free_trade_party = {
 			}
 		}
 		if = {
+			limit = {
+				owner = {
+	         		has_variable = only_valid_party
+	         	}
+				owner.var:only_valid_party = {
+					is_party_type = free_trade_party
+				}
+	         	owner.ruler = {
+					this.interest_group = prev
+				}
+			}
+			add = {
+				value = 1000
+				desc = "from_only_legal_party"
+			}
+		}
+		else_if = {
 			limit = {
 				owner = {
 	         		has_variable = only_valid_party

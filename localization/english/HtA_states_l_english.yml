@@ -1,6 +1,13 @@
 ﻿l_english:
  #State names (different ones)
+ #This file is organized so continents are kind of listed in alphabetical order, then regions/countries. Kind of
+
+ ###Africa###
+
+ STATE_TLEMCEN: "Tlemcen"
  
+###Amerigas###
+
 ##North Ameriga##
 
  #Guilderland
@@ -140,6 +147,8 @@
  STATE_BETICA: "Bética"
  STATE_CINETICO: "Cinético"
 
+ STATE_SARDINIA: "Maretan Islands" #Or maybe it should be something like Corsica & Sardinia
+
  #Roman Empire
  STATE_EPIRUS: "Epirus" #Or maybe Nicopolis would be better?
  STATE_HELLAS: "Hellas"
@@ -156,20 +165,3 @@
  STATE_CHALACHIA: "Chalachia" #My attempt at coming up for a region named after not-Erzurum, which could be Turkish Kalakı perhaps. It's pretty dang similar to the above state though
  STATE_BOUKELLARION: "Boukellarion"
  STATE_CILICIA: "Cilicia"
-
- ##Asia##
-
- #Dai Viet
- STATE_NAMTRUNG: "Trung Kỳ"
- 
- #Siam
- STATE_NAKHON_SRI_THAMMARAT: "Nakhon Sri Thammarat"
- STATE_KENGTUNG: "Kengtung"
- 
- #Indonesia and Malaysia
- STATE_SOUTH_BORNEO: "South Borneo"
- STATE_RIAU: "Riau"
- STATE_WEST_SUMATRA: "West Sumatra"
- STATE_SOUTHERN_MALAYA: "Southern Malaya"
- STATE_NORTHERN_MALAYA: "Northern Malaya"
- 

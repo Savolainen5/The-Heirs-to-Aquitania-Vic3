@@ -144,16 +144,45 @@
 	}
 
 	on_complete = {
+#		if = {
+#			limit = {
+#				scope:coup_ig = {
+#					is_interest_group_type = ig_armed_forces
+#				}
+#			}
+#			set_variable = achievement_military_junta_var
+#		}
+		remove_variable = coup_var
+		
+		custom_tooltip = coup_success_tt
+		
 		if = {
 			limit = {
-				scope:coup_ig = {
-					is_interest_group_type = ig_armed_forces
+				exists = currently_enacting_law
+			}
+			currently_enacting_law = {
+				type = {
+					save_scope_as = law_being_enacted
+				}
+				currently_active_law_in_group = {
+					type = {
+						save_scope_as = law_being_replaced
+					}
 				}
 			}
-#			set_variable = achievement_military_junta_var
+			if = {
+				limit = {
+					scope:coup_ig = {
+						prefers_law = { # If we prefer the current law to the enacting law
+							law = scope:law_being_replaced
+							comparison_law = scope:law_being_enacted
+						}
+					}
+				}
+				cancel_enactment = yes
+			}	
 		}
-		remove_variable = coup_var
-		custom_tooltip = coup_success_tt
+		
 		trigger_event = { id = coup.2 popup = yes }
 		hidden_effect = {
 			random_list = {
@@ -237,7 +266,15 @@
 	}
 
 	invalid = {
-		has_law = scope:coup_desired_law.type
+		OR = {
+			NOT = {
+				exists = scope:coup_desired_law
+			}
+			NOT = {
+				exists = scope:coup_ig
+			}
+			has_law = scope:coup_desired_law.type
+		}
 	}
 
 	on_invalid = {
@@ -280,6 +317,9 @@
 	progressbar = yes
 
 	should_be_pinned_by_default = yes
+
+	transferable = no
+	can_revolution_inherit = no
 
 	weight = 100
 }

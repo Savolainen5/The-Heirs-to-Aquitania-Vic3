@@ -199,9 +199,6 @@ radical_party = {
 				has_ideology = ideology:ideology_ethno_nationalist
 				has_ideology = ideology:ideology_traditionalist
 				has_ideology = ideology:ideology_royalist
-				has_ideology = ideology:ideology_orleanist
-				has_ideology = ideology:ideology_bonapartist
-				has_ideology = ideology:ideology_legitimist
 				has_ideology = ideology:ideology_theocrat
 				has_ideology = ideology:ideology_slaver
 			}
@@ -498,20 +495,6 @@ radical_party = {
 		}
 		if = {
 			limit = {
-				owner = {
-	         		has_variable = only_valid_party
-	         	}
-	         	 owner.var:only_valid_party = {
-		        	is_party_type = radical_party
-		        }
-			}
-			add = {
-				value = 3
-				desc = "from_only_legal_party"
-			}
-		}
-		if = {
-			limit = {
 				scope:number = 1
 				is_powerful = no
 				is_marginal = no
@@ -561,6 +544,37 @@ radical_party = {
 			}
 			multiply = {
 				value = 0
+			}
+		}
+		if = {
+			limit = {
+				owner = {
+	         		has_variable = only_valid_party
+	         	}
+				 owner.var:only_valid_party = {
+					 is_party_type = radical_party
+				 }
+	         	owner.ruler = {
+					this.interest_group = prev
+				}
+			}
+			add = {
+				value = 1000
+				desc = "from_only_legal_party"
+			}
+		}
+		else_if = {
+			limit = {
+				owner = {
+	         		has_variable = only_valid_party
+	         	}
+	         	 owner.var:only_valid_party = {
+		        	is_party_type = radical_party
+		        }
+			}
+			add = {
+				value = 3
+				desc = "from_only_legal_party"
 			}
 		}
 	}
