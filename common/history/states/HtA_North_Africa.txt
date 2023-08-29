@@ -40,7 +40,7 @@
 	}
 	s:STATE_MARRAKECH = {
 		create_state = {
-			country = c:MOR
+			country = c:MAU
 			owned_provinces = { xA71D65 x60EF40 x5875FD x05EA68 x6CA1BE xDB16D9 x4DF62B x567F0E x5A68FC xB4CFFC xDF7040 x58949B x43DA94 x76734F x082C5F x7318F4 xE070C0 x6CAFA4 xFDFF7B }
 		}
 		
@@ -49,7 +49,7 @@
 	}
 	s:STATE_FEZ = {
 		create_state = {
-			country = c:MOR
+			country = c:MAU
 			owned_provinces = { x955513 x99F490 x638C69 xDF3040 xD6AD03 xFAE2BB xB98CBC xA0F040 xF54743 x1A55F0 x5284C8 xB73221 x60B040 xE445EF }
 		}
 		
@@ -58,7 +58,7 @@
 	}
 	s:STATE_AL_RIF = {
 		create_state = {
-			country = c:HIS
+			country = c:MAU
 			owned_provinces = { xE6D43C xDFB040 xFA1C92 x20B0C0 xA0B0C0 xF05E87 x75DC50 x8FBBB6 x9BC3AC xE95985 xCA9F75 }
 			state_type = unincorporated
 		}
@@ -68,7 +68,7 @@
 	}
 	s:STATE_INNER_MOROCCO = {
 		create_state = {
-			country = c:MOR
+			country = c:MAU
 			owned_provinces = { x6030C0 x50BA5E xE3D0F0 xDF30C0 xE2981F x75EBCA xE521ED xFAE302 xB14383 x360984 xA0EFC0 x2853A6 xB096BF x0B4734 x031705 x96EF9B xE1981C x977DCA xD89587 x7D32B3 x95A1C3 x2D7AF0 x0488C2 xE92045 x830671 x0277E9 xAC4646 x66D4E9 x593CFE x6070C0 x9015D0 x4B50E0 xBA134C x45FD26 x8971F5 xBD6AB5 x1AA449 xCA258A x8ACEDE x0FA44F x4DE76B xE80E2E x8DCD09 x88C527 xF414B2 x9E582E x53C5EF x07D47A x4C6494 xE1B48A xBC1415 xDFEF40 x4F8487 x26277F xA21408 x370312 x603080 }
 		}
 		
@@ -77,13 +77,8 @@
 	}
 	s:STATE_TLEMCEN = {
 		create_state = {
-			country = c:MOR
-			owned_provinces = { x0D2515 x207040 x465605 x4CE79E x60D278 x6F831B x7534E5 x8C4FD5 x95CBD4 xA07040 xB78BBE xBCA418 xCEB068 xE76FA0 xEFD8F4 }
-		}
-		create_state = {
-			country = c:HIS
-			owned_provinces = { x6736D2 xC2269C xB735DB x3E6888 xDFB0C0 }
-			state_type = unincorporated
+			country = c:MAU
+			owned_provinces = { x0D2515 x207040 x465605 x4CE79E x60D278 x6F831B x7534E5 x8C4FD5 x95CBD4 xA07040 xB78BBE xBCA418 xCEB068 xE76FA0 xEFD8F4 x6736D2 xC2269C xB735DB x3E6888 xDFB0C0 }
 		}
 		
 		add_homeland = maghrebi

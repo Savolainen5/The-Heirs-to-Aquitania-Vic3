@@ -1,5 +1,78 @@
 ﻿### Try to keep tags in alphabetical order
 
+
+BRT = { #Bretagnie/Saexanie
+	dynamic_country_name = { #Saexanie
+		name = dyn_c_saexanie
+		#adjective = #same
+		
+		is_main_tag_only = yes
+		priority = 5
+		
+		trigger = {
+			OR = {
+				AND = {
+					exists = c:FRA
+					c:FRA = {
+						has_diplomatic_pact = {
+							who = c:BRT
+							type = vassal
+							is_initiator = yes
+						}
+					}
+				}
+				scope:actor = {
+					capital = { state_region = s:STATE_SUDSAXE }
+				}	
+			}	
+		}
+	}
+}
+
+CAT = { #Catalonia
+	dynamic_country_name = { #Catalonia-Navarra
+		name = dyn_c_catalonia_navarra
+		#adjective = #Eh, just keep it
+		
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+#			exists = c:AQT
+#			c:AQT = {
+#				has_diplomatic_pact = {
+#					who = c:CAT
+#					type = vassal
+#					is_initiator = yes
+#				}
+#			}
+			exists = scope:actor
+			OR = {
+				scope:actor = { any_scope_state = {	state_region = s:STATE_BASQUE_COUNTRY } }
+				scope:actor = { country_has_primary_culture = cu:basque }
+			}
+		}
+	}
+}
+
+GLZ = { #Galiza obviously
+	dynamic_country_name = { #United Kingdom
+		name = dyn_c_united_kingdom_por
+		#adjective = dyn_c_united_kingdom_por_adj #Should remain Galizan
+		
+		is_main_tag_only = yes
+		priority = 10
+		
+		trigger = {
+			exists = scope:actor
+#			scope:actor = {
+#				capital = { state_region = s:STATE_URUGUAY } #This should work, and yet it does not. WHY?!
+#			}
+			NOT = { exists = c:TPR } #Terra Prateada doesn't exist
+		}
+	}
+}
+
 IRE = { #Ireland/Eire
 	dynamic_country_name = { #High Kingdom
 		name = dyn_c_high_kingdom
@@ -17,24 +90,6 @@ IRE = { #Ireland/Eire
 				}
 			}
 			NOT = { exists = c:SCO }
-		}
-	}
-}
-
-POR = { #Portugal obviously
-	dynamic_country_name = { #United Kingdom
-		name = dyn_c_united_kingdom_por
-		#adjective = dyn_c_united_kingdom_por_adj #Should remain Portuguese
-		
-		is_main_tag_only = yes
-		priority = 10
-		
-		trigger = {
-			exists = scope:actor
-#			scope:actor = {
-#				capital = { state_region = s:STATE_BUENOS_AIRES } #This should work, and yet it does not. WHY?!
-#			}
-			NOT = { exists = c:TPR } #Terra Prateada doesn't exist
 		}
 	}
 }

@@ -9,11 +9,10 @@ russo_chinese.1 = {
 	flavor = russo_chinese.1.f
 
 	event_image = {
-		video = "gfx/event_pictures/asia_poor_people_moving.bk2"				#Honestly, this whole file should probably just be scrapped altogether, since it wouldn't play out like this in this universe.
+		video = "asia_poor_people_moving"				#Honestly, this whole file should probably just be scrapped altogether, since it wouldn't play out like this in this universe.
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	on_opened_soundeffect = "event:/SFX/Events/asia/poor_people_moving"
 
 	icon = "gfx/interface/icons/event_icons/event_scales.dds"
 
@@ -104,11 +103,10 @@ russo_chinese.2 = {
 	flavor = russo_chinese.2.f
 
 	event_image = {
-		video = "gfx/event_pictures/europenorthamerica_russian_serfs.bk2"
+		video = "europenorthamerica_russian_serfs"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	on_opened_soundeffect = "event:/SFX/Events/europenorthamerica/russian_serfs"
 
 	icon = "gfx/interface/icons/event_icons/event_scales.dds"
 
@@ -288,11 +286,10 @@ russo_chinese.3 = {
 	flavor = russo_chinese.3.f
 
 	event_image = {
-		video = "gfx/event_pictures/europenorthamerica_london_center.bk2"
+		video = "europenorthamerica_london_center"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
-	on_opened_soundeffect = "event:/SFX/Events/europenorthamerica/london_center"
 
 	icon = "gfx/interface/icons/event_icons/event_default.dds"
 

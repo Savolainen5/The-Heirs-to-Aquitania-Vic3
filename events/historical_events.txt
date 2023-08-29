@@ -6,7 +6,7 @@ historical_events.1 = { #First flight
 
 	event_image = {
 
-		video = "gfx/event_pictures/unspecific_airplane.bk2"
+		video = "unspecific_airplane"
 	}
 
 	on_created_soundeffect = "event:/SFX/UI/Alerts/event_appear"
@@ -29,10 +29,6 @@ historical_events.1 = { #First flight
 
 	immediate = {
 		set_global_variable = flight_discovered
-		set_variable = {
-			name = first_flight_achievement_check
-			value = yes
-		}
 		post_notification = first_flight
 
 		ROOT = {

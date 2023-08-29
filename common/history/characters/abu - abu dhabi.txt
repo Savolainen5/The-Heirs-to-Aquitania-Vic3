@@ -8,7 +8,7 @@
 			ruler = yes
 			birth_date = 1807.6.2 # reigned from 1833–1845, birth date unknown
 			interest_group = ig_landowners
-			ideology = ideology_traditionalist
+			ideology = ideology:ideology_traditionalist
 			traits = {
 				imperious
 			}
@@ -22,7 +22,7 @@
 			heir = yes
 			birth_date = 1821.3.1 # reigned from 1845–1855, birth date unknown
 			interest_group = ig_landowners
-			ideology = ideology_traditionalist
+			ideology = ideology:ideology_traditionalist
 			traits = {
 				reserved
 			}
@@ -34,7 +34,7 @@
 #			ruler = yes
 #			age = 39 # I do not know his age, but his father ruled from 1795 to 1816. I'm wildly guessing that Khalifa was born during his father's reign, but it's just a guess.
 #			interest_group = ig_landowners
-#			ideology = ideology_traditionalist
+#			ideology = ideology:ideology_traditionalist
 #			traits = {
 #				imperious
 #				expensive_tastes
@@ -49,7 +49,7 @@
 #			heir = yes
 #			age = 20
 #			interest_group = ig_landowners
-#			ideology = ideology_traditionalist
+#			ideology = ideology:ideology_traditionalist
 #			traits = {
 #				imperious
 #			}

@@ -58,6 +58,17 @@ s:STATE_BIHAR = {
 				size = 220000
 			}
 		}
+		region_state:ZOG = {
+			create_pop = {
+				culture = zo
+				size = 82434	
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = manipuri
+				size = 1000
+			}
+		}
 		region_state:TAI = {
 			create_pop = {
 				culture = assamese
@@ -391,7 +402,7 @@ s:STATE_BIHAR = {
 				size = 1264771
 			}
 		}
-		region_state:AEN = {
+		region_state:FRA = {
 			create_pop = {
 				culture = telegu
 				size = 335070
@@ -560,7 +571,7 @@ s:STATE_BIHAR = {
 				size = 6400
 			}
 		}
-		region_state:POR={
+		region_state:GLZ={
 			create_pop = {
 				culture = tamil
 				size = 52000
@@ -596,7 +607,7 @@ s:STATE_BIHAR = {
 				size = 6000
 			}
 		}
-		region_state:AEN = {
+		region_state:FRA = {
 			create_pop = {
 				culture = aenglish
 				size = 2888
@@ -612,7 +623,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_ORISSA = {
-		region_state:AEN = {
+		region_state:FRA = {
 			create_pop = {
 				culture = oriya
 				size = 456412
@@ -641,7 +652,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_CIRCARS = {
-		region_state:AEN = {
+		region_state:FRA = {
 			create_pop = {
 				culture = telegu
 				size = 9762168
@@ -667,7 +678,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_MYSORE = {
-		region_state:POR = {
+		region_state:GLZ = {
 			create_pop = {
 				culture = kannada
 				religion = hindu
@@ -700,7 +711,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_TRAVANCORE = {
-		region_state:POR = {
+		region_state:GLZ = {
 			create_pop = {
 				culture = malayalam
 				size = 704000
@@ -757,13 +768,13 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_MADRAS = {
-		region_state:FRA = {
+		region_state:IRE = {
 			create_pop = { # TODO add slave pops to French India when possible
 				culture = tamil
 				size = 182284
 			}
 			create_pop = {
-				culture = french
+				culture = francien
 				size = 450
 			}
 			create_pop = {
@@ -772,7 +783,7 @@ s:STATE_BIHAR = {
 				size = 17773
 			}
 		}
-		region_state:AEN = {
+		region_state:FRA = {
 			create_pop = {
 				culture = tamil
 				size = 12479910
@@ -861,7 +872,7 @@ s:STATE_BIHAR = {
 		}
 	}
 	s:STATE_BOMBAY = {
-		region_state:POR = {
+		region_state:GLZ = {
 			create_pop = {				# TODO Add slave pops
 				culture = marathi
 				religion = catholic

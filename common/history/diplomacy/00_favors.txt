@@ -1,7 +1,7 @@
 ﻿DIPLOMACY = {
-#	c:POR = {
+#	c:GLZ = {
 #		set_owes_obligation_to = {
-#			country = c:HIS
+#			country = c:MAU
 #			setting = yes
 #		}
 #	}

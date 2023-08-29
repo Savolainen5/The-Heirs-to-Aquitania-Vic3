@@ -1,28 +1,28 @@
-﻿CHARACTERS = {
-	c:BBG = {
-		create_character = {
-			first_name = "Ernst_II"
-			last_name = "von_Kallinchen"
-			ruler = yes
-			age = 56
-			interest_group = ig_landowners
-			traits = {
-				reserved
-			}
-			on_created = {
-				set_variable = is_married
-			}
-		}
-
-		create_character = {
-			first_name = "Maximilian"
-			last_name = "von_Kallinchen"
-			heir = yes
-			age = 37
+﻿#CHARACTERS = {
+#	c:BBG = {
+#		create_character = {
+#			first_name = "Ernst_II"
+#			last_name = "von_Kallinchen"
+#			ruler = yes
+#			age = 56
+#			interest_group = ig_landowners
+#			traits = {
+#				reserved
+#			}
+#			on_created = {
+#				set_variable = is_married
+#			}
+#		}
+#
+#		create_character = {
+#			first_name = "Maximilian"
+#			last_name = "von_Kallinchen"
+#			heir = yes
+#			age = 37
 #			interest_group = ig_petty_bourgeoisie
 #			traits = {
 #				direct
 #			}
-		}
-	}
-}
+#		}
+#	}
+#}

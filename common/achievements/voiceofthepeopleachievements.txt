@@ -1,0 +1,10 @@
+﻿achievement_amish_paradise = {
+	possible = {
+        has_variable = HtA_dummy_achievement_var
+	}
+	happened = {
+		has_law = law_type:law_industry_banned
+		country_has_primary_culture = cu:aquitanian
+		average_sol > 20
+	}
+}

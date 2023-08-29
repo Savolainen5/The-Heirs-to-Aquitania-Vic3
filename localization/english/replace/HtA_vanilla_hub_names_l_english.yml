@@ -1,31 +1,50 @@
 ﻿l_english:
  
- #Aquitània
- HUB_NAME_STATE_LANGUEDOC_city: "Mauguio"
- HUB_NAME_STATE_LANGUEDOC_farm: "Narbona"
- HUB_NAME_STATE_LANGUEDOC_mine: "Alés"
- HUB_NAME_STATE_LANGUEDOC_port: "Seta"
- HUB_NAME_STATE_LANGUEDOC_wood: "Carcassona"
+ #Frankonia
+ HUB_NAME_STATE_NORMANDY_city: "Caen"
+ HUB_NAME_STATE_NORMANDY_farm: "Lisieux"
+ HUB_NAME_STATE_NORMANDY_port: "Honfleur"
 
- HUB_NAME_STATE_ARMAGNAC_city: "Tolosa"
- HUB_NAME_STATE_ARMAGNAC_farm: "Montalban"
- HUB_NAME_STATE_ARMAGNAC_mine: "Fois"
- HUB_NAME_STATE_ARMAGNAC_wood: "Albi"
+ HUB_NAME_STATE_MAINE_city: "Le Mans"
+ HUB_NAME_STATE_MAINE_farm: "Vendôme"
+ HUB_NAME_STATE_MAINE_mine: "Alençon"
+ HUB_NAME_STATE_MAINE_wood: "Laval"
 
- HUB_NAME_STATE_AQUITAINE_city: "Bordèu"
- HUB_NAME_STATE_AQUITAINE_farm: "Marçan"
- HUB_NAME_STATE_AQUITAINE_mine: "Lorda"
- HUB_NAME_STATE_AQUITAINE_port: "Miarritze"
+ HUB_NAME_STATE_ILE_DE_FRANCE_farm: "Montereau"
+ HUB_NAME_STATE_ILE_DE_FRANCE_wood: "Auxerre"
 
- HUB_NAME_STATE_AUVERGNE_city: "Clarmont"
- HUB_NAME_STATE_AUVERGNE_farm: "Caors"
- HUB_NAME_STATE_AUVERGNE_mine: "Lo Puèi"
- HUB_NAME_STATE_AUVERGNE_wood: "Orlhac"
+ HUB_NAME_STATE_ORLEANS_mine: "Moulins"
 
- HUB_NAME_STATE_LIMOUSIN_city: "Lemòtges"
- HUB_NAME_STATE_LIMOUSIN_farm: "Peireguers"
- HUB_NAME_STATE_LIMOUSIN_mine: "Briva"
- HUB_NAME_STATE_LIMOUSIN_wood: "Engoleime"
+ HUB_NAME_STATE_BURGUNDY_city: "Dijon"
+ HUB_NAME_STATE_BURGUNDY_farm: "Dole"
+ HUB_NAME_STATE_BURGUNDY_mine: "Lons-le-Saunier"
+ HUB_NAME_STATE_BURGUNDY_wood: "Mâcon"
+
+ HUB_NAME_STATE_CHAMPAGNE_farm: "Châlons"
+ HUB_NAME_STATE_CHAMPAGNE_mine: "Meaux"
+ HUB_NAME_STATE_CHAMPAGNE_wood: "Sézanne"
+
+ HUB_NAME_STATE_PICARDY_farm: "Rouen"
+ HUB_NAME_STATE_PICARDY_mine: "Dieppe"
+ HUB_NAME_STATE_PICARDY_port: "Calais"
+ HUB_NAME_STATE_PICARDY_wood: "Beauvais"
+
+ HUB_NAME_STATE_FRANCHE_COMTE_city: "Nancy"
+ HUB_NAME_STATE_FRANCHE_COMTE_mine: "Besançon"
+ HUB_NAME_STATE_FRANCHE_COMTE_wood: "Chaumont"
+
+ HUB_NAME_STATE_FLANDERS_city: "Arlon"
+ HUB_NAME_STATE_FLANDERS_farm: "Saint-Quentin"
+ HUB_NAME_STATE_FLANDERS_mine: "Marche-en-Famenne"
+ HUB_NAME_STATE_FLANDERS_wood: "Sedan"
+
+ HUB_NAME_STATE_WALLONIA_city: "Brussels"
+ HUB_NAME_STATE_WALLONIA_mine: "Ghent"
+ HUB_NAME_STATE_WALLONIA_port: "Bruges"
+ HUB_NAME_STATE_WALLONIA_wood: "Lille"
+
+ HUB_NAME_STATE_FRIESLAND_port: "Harlingen"
+
 
  #Daufinat
 
@@ -33,12 +52,6 @@
  HUB_NAME_STATE_RHONE_farm: "Valença"
  HUB_NAME_STATE_RHONE_mine: "Grenoblo"
  HUB_NAME_STATE_RHONE_wood: "Sant-Etiève"
-
- HUB_NAME_STATE_PROVENCE_city: "Marselha"
- HUB_NAME_STATE_PROVENCE_farm: "Avinhon"
- HUB_NAME_STATE_PROVENCE_mine: "Digno"
- HUB_NAME_STATE_PROVENCE_port: "Touloun"
- HUB_NAME_STATE_PROVENCE_wood: "Niça"
 
  HUB_NAME_STATE_SAVOY_city: "Genèva"
  HUB_NAME_STATE_SAVOY_farm: "Chambèri"
@@ -49,6 +62,22 @@
  HUB_NAME_STATE_PIEDMONT_mine: "Noara"
  HUB_NAME_STATE_PIEDMONT_port: "Zena"
  HUB_NAME_STATE_PIEDMONT_wood: "Coni"
+
+ #Iberia
+
+ HUB_NAME_STATE_ARAGON_mine: "Teruel"
+ 
+ HUB_NAME_STATE_ASTURIAS_city: "Torrelavega"
+ HUB_NAME_STATE_ASTURIAS_farm: "Cangas de Onis"
+ HUB_NAME_STATE_ASTURIAS_mine: "Reinosa"
+ HUB_NAME_STATE_ASTURIAS_port: "Gijón" 
+ #HUB_NAME_STATE_ASTURIAS_wood: "Cangas del Narcea"
+
+ HUB_NAME_STATE_BEIRA_city: "Lisboa"
+ HUB_NAME_STATE_BEIRA_farm: "Aveiro"
+ HUB_NAME_STATE_BEIRA_mine: "Coimbra"
+ HUB_NAME_STATE_BEIRA_port: "Figueira"
+ HUB_NAME_STATE_BEIRA_wood: "Castel Branco"
 
  #Germany
  HUB_NAME_STATE_RHINELAND_farm: "Oggersheim"

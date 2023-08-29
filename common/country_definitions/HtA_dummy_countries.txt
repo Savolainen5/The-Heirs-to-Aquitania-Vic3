@@ -9,7 +9,7 @@ USA = {
 	
 	tier = empire
 	
-	cultures = { dixie yankee }
+	cultures = { aquitanian }
 	capital = STATE_HILLENSLAND
 }
 
@@ -20,6 +20,6 @@ CSA = {
 	
 	tier = kingdom
 	
-	cultures = { dixie }
+	cultures = { francien }
 	capital = STATE_HILLENSLAND
 }

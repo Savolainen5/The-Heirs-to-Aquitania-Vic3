@@ -150,7 +150,7 @@
 		}
 	}
 	s:STATE_GAMBIA = {
-		region_state:POR = {
+		region_state:GLZ = {
 			create_pop = {
 				culture = fulbe
 				size = 552304
@@ -160,7 +160,7 @@
 				size = 127996
 			}
 		}
-		#region_state:AEN = { #The territory of The Gambia, would make sense to be its own thing kind of
+		#region_state:FRA = { #The territory of The Gambia, would make sense to be its own thing kind of
 		#	create_pop = {
 		#		culture = mande
 		#		size = 91540
@@ -611,7 +611,7 @@
 		}
 	}
 	s:STATE_GHANA = {
-		region_state:AEN = {
+		region_state:FRA = {
 			create_pop = {
 				culture = akan
 				size = 40204
@@ -1616,7 +1616,7 @@
 		}
 	}
 	s:STATE_MOCAMBIQUE = {
-		region_state:POR = {
+		region_state:GLZ = {
 			create_pop = {
 				culture = makua
 				size = 420000
@@ -1727,7 +1727,7 @@
 		}
 	}
 	s:STATE_SOUTH_CAMEROON = {
-		region_state:HIS = {
+		region_state:MAU = {
 			create_pop = {
 				culture = hispanian
 				size = 800
@@ -2029,7 +2029,7 @@
 		}
 	}
 	s:STATE_NORTH_ANGOLA = {
-		region_state:POR = {
+		region_state:GLZ = {
 			create_pop = {
 				culture = bakongo
 				size = 176404
@@ -2055,7 +2055,7 @@
 		}
 	}
 	s:STATE_SOUTH_ANGOLA = {
-		region_state:POR = {
+		region_state:GLZ = {
 			create_pop = {
 				culture = ovimbundu
 				size = 116000
@@ -2291,7 +2291,7 @@
 		}
 	}
 	s:STATE_ZAMBEZIA = {
-		region_state:POR = {
+		region_state:GLZ = {
 			create_pop = {
 				culture = sena
 				size = 183996
@@ -2358,7 +2358,7 @@
 		}
 	}
 	s:STATE_ZAMBEZI = {
-		region_state:GZA = {
+		region_state:GZB = {
 			create_pop = {
 				culture = shona
 				size = 120000
@@ -2677,7 +2677,7 @@
 		}
 	}
 	s:STATE_LOURENCO_MARQUES = {
-		region_state:POR = {
+		region_state:GLZ = {
 			create_pop = {
 				culture = nguni
 				size = 153804
@@ -2691,7 +2691,7 @@
 				size = 342000
 			}
 		}
-		region_state:GZA = {
+		region_state:GZB = {
 			create_pop = {
 				culture = nguni
 				size = 179804

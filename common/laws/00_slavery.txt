@@ -47,7 +47,7 @@ law_slavery_banned = {
 				}
 				value = 1
 			}
-		}	
+		}
 		add = {
 			desc = "POP_ACADEMICS"
 			if = {
@@ -97,6 +97,19 @@ law_slavery_banned = {
 		   }	
 		}	
 	}
+
+	ai_enact_weight_modifier = { #Petitions
+		value = 0
+		
+		if = {
+			limit = { 
+				has_journal_entry = je_government_petition
+				has_variable = desired_law_var
+                scope:law = var:desired_law_var
+			}
+			add = 750
+		}
+	}
 }
 
 law_debt_slavery = {
@@ -114,7 +127,7 @@ law_debt_slavery = {
 		ig:ig_landowners ?= { 
 			if = {
 				limit = {
-					NOT = { has_ideology = ideology_pro_slavery }
+					NOT = { has_ideology = ideology:ideology_pro_slavery }
 				}			
 				add_ideology = ideology_pro_slavery 
 			}
@@ -196,6 +209,19 @@ law_debt_slavery = {
 #		   }
 		}
 	}
+
+	ai_enact_weight_modifier = { #Petitions
+		value = 0
+		
+		if = {
+			limit = { 
+				has_journal_entry = je_government_petition
+				has_variable = desired_law_var
+                scope:law = var:desired_law_var
+			}
+			add = 750
+		}
+	}
 }
 
 law_slave_trade = {
@@ -229,7 +255,7 @@ law_slave_trade = {
 		ig:ig_landowners ?= { 
 			if = {
 				limit = {
-					NOT = { has_ideology = ideology_pro_slavery }
+					NOT = { has_ideology = ideology:ideology_pro_slavery }
 				}			
 				add_ideology = ideology_pro_slavery 
 			}
@@ -262,7 +288,7 @@ law_slave_trade = {
 	ai_will_do = {
 		exists = ruler
 		ruler = {
-			has_ideology = ideology_slaver
+			has_ideology = ideology:ideology_slaver
 		}
 	}
 	
@@ -294,6 +320,19 @@ law_slave_trade = {
 #		   else = {
 			  multiply = 0.25
 #		   }
+		}
+	}
+
+	ai_enact_weight_modifier = { #Petitions
+		value = 0
+		
+		if = {
+			limit = { 
+				has_journal_entry = je_government_petition
+				has_variable = desired_law_var
+                scope:law = var:desired_law_var
+			}
+			add = 750
 		}
 	}
 }
@@ -330,7 +369,7 @@ law_legacy_slavery = {
 		ig:ig_landowners ?= { 
 			if = {
 				limit = {
-					NOT = { has_ideology = ideology_pro_slavery }
+					NOT = { has_ideology = ideology:ideology_pro_slavery }
 				}			
 				add_ideology = ideology_pro_slavery 
 			}
@@ -343,6 +382,28 @@ law_legacy_slavery = {
 	
 	possible_political_movements = {
 		law_slavery_banned
+	}
+
+	pop_support = {
+		value = 0
+		add = {
+			desc = "POP_ACADEMICS"
+			if = {
+				limit = {
+					is_pop_type = academics
+				}
+				value = 0.1
+			}
+		}
+		add = {
+			desc = "POP_CLERGYMEN"
+			if = {
+				limit = {
+					is_pop_type = clergymen
+				}
+				value = 0.05
+			}
+		}
 	}
 	
 	pop_support = {
@@ -395,6 +456,19 @@ law_legacy_slavery = {
 #		   else = {
 			  multiply = 0.25
 #		   }
+		}
+	}
+
+	ai_enact_weight_modifier = { #Petitions
+		value = 0
+		
+		if = {
+			limit = { 
+				has_journal_entry = je_government_petition
+				has_variable = desired_law_var
+                scope:law = var:desired_law_var
+			}
+			add = 750
 		}
 	}
 }

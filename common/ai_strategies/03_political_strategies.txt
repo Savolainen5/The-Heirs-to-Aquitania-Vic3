@@ -6,7 +6,6 @@
 	revolution_aversion = {
 		value = 5
 	}
-																				   
 	
 	min_law_chance_to_pass = {
 		value = 25
@@ -73,14 +72,14 @@
 				exists = ruler
 				ruler = {
 					OR = {
-						has_ideology = ideology_royalist
-						has_ideology = ideology_traditionalist
+						has_ideology = ideology:ideology_traditionalist
+						has_monarchist_ideology = yes
 					}
 				}
 			}
 			
 			add = 10
-		}				
+		}
 	}
 }
 
@@ -90,7 +89,6 @@ ai_strategy_reactionary_agenda = {
 	revolution_aversion = {
 		value = 2.5
 	}
-																					
 	
 	min_law_chance_to_pass = {
 		value = 20
@@ -161,9 +159,9 @@ ai_strategy_reactionary_agenda = {
 				}
 			}
 			OR = {
-				has_ideology = ideology_traditionalist
-				has_ideology = ideology_slaver
-				has_ideology = ideology_theocrat
+				has_ideology = ideology:ideology_traditionalist
+				has_ideology = ideology:ideology_slaver
+				has_ideology = ideology:ideology_theocrat
 			}
 		}
 		OR = {
@@ -209,7 +207,6 @@ ai_strategy_progressive_agenda = {
 	revolution_aversion = {
 		value = 2.5
 	}
-																				   
 	
 	min_law_chance_to_pass = {
 		value = 20
@@ -282,11 +279,11 @@ ai_strategy_progressive_agenda = {
 				exists = ruler
 				ruler = {
 					OR = {
-						has_ideology = ideology_radical
-						has_ideology = ideology_atheist
-						has_ideology = ideology_feminist
-						has_ideology = ideology_abolitionist
-						has_ideology = ideology_market_liberal
+						has_ideology = ideology:ideology_radical
+						has_ideology = ideology:ideology_atheist
+						has_ideology = ideology:ideology_feminist
+						has_ideology = ideology:ideology_abolitionist
+						has_ideology = ideology:ideology_market_liberal
 					}
 				}
 			}
@@ -298,7 +295,7 @@ ai_strategy_progressive_agenda = {
 			limit = {
 				exists = ruler
 				ruler = {
-					has_ideology = ideology_republican_leader
+					has_ideology = ideology:ideology_republican_leader
 				}
 			}
 			
@@ -330,12 +327,17 @@ ai_strategy_progressive_agenda = {
 			add = 100
 		}
 		
-#		if = {
-#			limit = {
-#				has_journal_entry = je_sick_man_main
-#			}
-#			add = 100
-#		}
+		if = {
+			limit = {
+				has_modifier = forced_regime_change
+				OR = {
+					ig:ig_industrialists ?= { is_in_government = yes }
+					ig:ig_intelligentsia ?= { is_in_government = yes }
+				}				
+			}
+			
+			add = 1000
+		}
 	}
 }
 
@@ -360,7 +362,6 @@ ai_strategy_egalitarian_agenda = {
 		value = 0
 	}
 
-																			 
 	change_law_chance = { 
 		value = 15	
 		
@@ -418,11 +419,11 @@ ai_strategy_egalitarian_agenda = {
 				exists = ruler
 				ruler = {
 					OR = {
-						has_ideology = ideology_radical
-						has_ideology = ideology_reformer
-						has_ideology = ideology_feminist
-						has_ideology = ideology_abolitionist
-						has_ideology = ideology_social_democrat
+						has_ideology = ideology:ideology_radical
+						has_ideology = ideology:ideology_reformer
+						has_ideology = ideology:ideology_feminist
+						has_ideology = ideology:ideology_abolitionist
+						has_ideology = ideology:ideology_social_democrat
 						
 					}
 				}
@@ -436,8 +437,8 @@ ai_strategy_egalitarian_agenda = {
 				exists = ruler
 				ruler = {
 					OR = {
-						has_ideology = ideology_vanguardist
-						has_ideology = ideology_anarchist
+						has_ideology = ideology:ideology_vanguardist
+						has_ideology = ideology:ideology_anarchist
 					}					
 				}
 			}
@@ -452,7 +453,16 @@ ai_strategy_egalitarian_agenda = {
 			}
 			
 			add = 10
-		}			
+		}
+
+		if = {
+			limit = {
+				has_modifier = forced_regime_change
+				ig:ig_trade_unions ?= { is_in_government = yes }			
+			}
+			
+			add = 1000
+		}				
 	}
 }
 
@@ -464,7 +474,6 @@ ai_strategy_nationalist_agenda = {
 	revolution_aversion = {
 		value = 2.5
 	}
-																				   
 	
 	min_law_chance_to_pass = {
 		value = 20
@@ -543,9 +552,9 @@ ai_strategy_nationalist_agenda = {
 				exists = ruler
 				ruler = {
 					OR = {
-						has_ideology = ideology_jingoist_leader
-						has_ideology = ideology_fascist
-						has_ideology = ideology_ethno_nationalist
+						has_ideology = ideology:ideology_jingoist_leader
+						has_ideology = ideology:ideology_fascist
+						has_ideology = ideology:ideology_ethno_nationalist
 					}
 				}
 			}
@@ -569,7 +578,19 @@ ai_strategy_nationalist_agenda = {
 			}
 			
 			add = 10
-		}		
+		}
+
+		if = {
+			limit = {
+				has_modifier = forced_regime_change
+				OR = {
+					ig:ig_petty_bourgeoisie ?= { is_in_government = yes }
+					ig:ig_armed_forces ?= { is_in_government = yes }
+				}				
+			}
+			
+			add = 1000
+		}
 	}
 }
 
@@ -581,7 +602,6 @@ ai_strategy_maintain_mandate_of_heaven = {
 	revolution_aversion = {
 		value = 5
 	}
-																				   
 	
 	min_law_chance_to_pass = {
 		value = 50

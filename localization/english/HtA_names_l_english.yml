@@ -1,11 +1,11 @@
 ﻿l_english:
- #AQTRuler names
+#AQTRuler names
  Raimond_VIII: "Raimond VIII"
  de_Mauguio: "de Mauguio"
  Raimond_IX: "Raimond IX"
  Raimond: "Raimond"
- #Aquitanian culture names
- #Aquitanian men's names
+#Aquitanian culture names
+#Aquitanian men's names
  Achillo: "Achillo"
  Alban: "Alban"
  Amance: "Amance"
@@ -37,7 +37,6 @@
  Domician: "Domician"
  Ecto_r: "Ectòr"
  Emanue_l: "Emanuèl"
- Ernest: "Ernest"
  Estaqui: "Estaqui"
  Fide_l: "Fidèl"
  Filemon: "Filemon"
@@ -104,7 +103,7 @@
  Virge_li: "Virgèli"
  Zavie_r: "Zavièr"
  Zeno: "Zeno"
- #Aquitanian women's names
+#Aquitanian women's names
  Abe_la: "Abèla"
  Ade_la: "Adèla"
  Agata: "Agata"
@@ -218,7 +217,7 @@
  Viva: "Viva"
  Zita: "Zita"
  Zoe_: "Zoè"
- #Aquitanian common last names
+#Aquitanian common last names
  Abat: "Abat"
  Amiel: "Amiel"
  Anfo_s: "Anfós"
@@ -297,7 +296,6 @@
  Sarrieu: "Sarrieu"
  Sauvan: "Sauvan"
  Se_rras: "Sèrras"
- Silvan: "Silvan"
  Singlar: "Singlar"
  Suc: "Suc"
  Teissie_r: "Teissièr"
@@ -305,7 +303,7 @@
  Valadier: "Valadier"
  Valat: "Valat"
  Valle_s: "Vallès"
- #Aquitanian Noble names
+#Aquitanian Noble names
  Alesenc: "Alesenc"
  Astruc: "Astruc"
  Auvernhan: "Auvernhan"
@@ -365,21 +363,22 @@
  Rudel: "Rudel"
  Valabregue: "Valabregue"
  Villaret: "Villaret"
- #Aquitanian male regal names
+#Aquitanian male regal names
  Aymar: "Aymar"
+ Aymon: "Aymon"
  Huc: "Huc"
  Loi_s: "Loís"
  Pe_ire: "Pèire"
  Pe_ire_Raimond: "Pèire Raimond"
  Raimond_Rogier: "Raimond Rogier"
- #Daufinat ruler names
+#Daufinat ruler names
  Guigo_XI: "Guigo XI"
  de_Buonavi: "de Buonavi"
- #FRA ruler names
+#FRA ruler names
  Louis_XV: "Louis XV"
  de_Tournus: "de Tournus"
- #Irish/Eireann names
- #Male first names
+#Irish/Eireann names
+#Male first names
  Abba_n: "Abbán"
  A__dhamh: "Ádhamh"
  Alastar: "Alastar"
@@ -469,7 +468,7 @@
  Torin: "Torin"
  Ulta_n: "Ultán"
  Uilliam: "Uilliam"
- #Irish common female first names
+#Irish common female first names
  A_ine: "Áine"
  Ailbhe: "Ailbhe"
  Aisling: "Aisling"
@@ -580,10 +579,10 @@
  O__Su_illeabha_in: "Ó Súilleabháin"
  O__Tarpaigh: "Ó Tarpaigh"
  O__Tuama: "Ó Tuama"
- #Irish regal names
+#Irish regal names
  Dalcais: "Dalcais"
  Constainti_n_II: "Constaintín II"
- #Scottish male common first names
+#Scottish male common first names
  A_dhamh: "Àdhamh"
  Aindrea: "Aindrea"
  Baltair: "Baltair"
@@ -680,11 +679,13 @@
  Iain_IV: "Iain IV"
 #Aenglish common male first names
  Aelfgar: "Aelfgar"
+ Aelfread: "Aelfread"
  Aelric: "Aelric"
  Aelwold: "Aelwold"
  Aethelber: "Aethelber"
  Aethelwine: "Aethelwine"
  Arnolf: "Arnolf"
+ Athelstan: "Athelstan"
  Azur: "Azur"
  Bordelm: "Bordelm"
  Borthric: "Borthric"
@@ -701,6 +702,7 @@
  Copsige: "Copsige"
  Cypping: "Cypping"
  Doda: "Doda"
+ Eadward: "Eadward"
  Edmer: "Edmer"
  Edric: "Edric"
  Edulf: "Edulf"
@@ -829,7 +831,7 @@
  Wulfwaru: "Wulfwaru"
  Wulfwynn: "Wulfwynn"
  Wynnflaed: "Wynnflaed"
-#Aenglish common last names
+#Aenglish last names
  Aelfstan: "Aelfstan"
  Aethelwerd: "Aethelwerd"
  Alby: "Alby"
@@ -845,6 +847,7 @@
  Bruning: "Bruning"
  Carlel: "Carlel"
  Cetham: "Cetham"
+ Christening: "Christening"
  Colling: "Colling"
  Conded: "Conded"
  Corelmann: "Corelmann"
@@ -852,6 +855,8 @@
  Danmann: "Danmann"
  Denholm: "Denholm"
  Dirling: "Dirling"
+ Eadricing: "Eadricing"
+ Eadwulfing: "Eadwulfing"
  Edwys: "Edwys"
  Erle: "Erle"
  Estone: "Estone"
@@ -925,7 +930,7 @@
  Miravelli: "Miravelli"
  Giuseppe_I: "Giuseppe I"
  Salenino: "Salenino"
- #German/Austrian ruler names
+#German/Austrian ruler names
  Georg_Friedrich: "Georg Friedrich"
  Johann_Teodor: "Johann Teodor"
  von_Satzenhofen: "von Satzenhofen"
@@ -937,46 +942,46 @@
  Friedrich_III: "Friedrich III"
  von_Rasso: "von Rasso"
  Karl_Leopold: "Karl Leopold"
- #Hispanian ruler (family) names
+#Hispanian ruler (family) names
  de_Andrade: "de Andrade"
  de_Trasta_mara: "de Trastámara"
  Capeto: "Capeto"
- #Nordic ruler names
+#Nordic ruler names
  Christian_VII: "Christian VII"
  Brockenhuus_Ahlefeldt: "Brockenhuus-Ahlefeldt"
  Karl_XIII: "Karl XIII"
  Stenkiling_Sparre: "Stenkiling-Sparre"
- #Bohemian ruler names
+#Bohemian ruler names
  Ladislaus_IV: "Ladislaus IV"
  von_Escherloch: "von Escherloch"
- #Polish ruler names
+#Polish ruler names
  Kazimir_Francizek: "Kazimir izek"
  Jan_Tomaz: "Jan Tomaz"
  Widzowski: "Widzowski"
- #Roman ruler names
+#Roman ruler names
  Isaakius_IV: "Isaakius IV"
  Ioannes: "Ioannes"
  Melisurgos: "Melisurgos"
- #Armenian ruler names
+#Armenian ruler names
  Musegh_V: "Musegh V"
  Nourhan: "Nourhan"
  Sourmagian: "Sourmagian"
- #Tatar ruler names
+#Tatar ruler names
  Pavlo: "Pavlo"
  Vyhovsky: "Vyhovsky"
- #Siamese ruler names
+#Siamese ruler names
  Sathit: "Sathit"
  Sunton_Thep: "Sunton Thep"
  Ban_Phlu_Luang: "Ban Phlu Luang"
- #Other names
+#Other names
  Huysman: "Huysman"
  Gennaios: "Gennaios"
  Radegondle: "Radegondle"
  Qipcakli: "Qipcakli"
  Zanetov: "Zanetov"
- #Afro-Saxon names
+#Afro-Saxon names
  Brun: "Brun"
- #Korean fixed names
+#Korean fixed names
  Heogak: "Heogak"
  Heon-gyo: "Heon-gyo"
  Jeongil: "Jeongil"
@@ -989,10 +994,51 @@
  Sung-taek: "Sung-taek"
  Yong-su: "Yong-su"
  Yeon: "Yeon"
- #Japanese added names
+#Japanese added names
  Date_: "Date"
  Michihiro: "Michihiro"
  Motomune: "Motomune"
  Nagachika: "Nagachika"
  Shigemune: "Shigemune"
  Toshitsune: "Toshitsune"
+#Bornean names
+ Gimbang: "Gimbang"
+ Kunul: "Kunul"
+ Kerupang: "Kerupang"
+ Galumau: "Galumau"
+ Gantuong: "Gantuong"
+ Empurut: "Empurut"
+ Ampingan: "Ampingan"
+ Sangan: "Sangan"
+ Kalan: "Kalan"
+ Ontoros: "Ontoros"
+ Mongin: "Mongin"
+ Semitah: "Semitah"
+ Rengkumas: "Rengkumas"
+ Lombukin: "Lombukin"
+ Ansayu: "Ansayu"
+ Baimin: "Baimin"
+ Salud: "Salud"
+ Nani: "Nani"
+ Mainah: "Mainah"
+ Imulok: "Imulok"
+ anak_Mongin: "anak Mongin"
+ anak_Jawong: "anak Jawong"
+ Motinggot: "Motinggot"
+ Malajau: "Malajau"
+ Kinanjim: "Kinanjim"
+ Matangkap: "Matangkap"
+ Tombilon: "Tombilon"
+ Ganitan: "Ganitan"
+ Kinayu: "Kinayu"
+ Mahansad: "Mahansad"
+ Takajan: "Takajan"
+ Batanjal: "Batanjal"
+ Mojimbong: "Mojimbong"
+ Mogunting: "Mogunting"
+ Yap: "Yap"
+ Majalap: "Majalap"
+ Jokinol: "Jokinol"
+ Manjaji: "Manjaji"
+ Mojikon: "Mojikon"
+ Lopinjang: "Lopinjang"

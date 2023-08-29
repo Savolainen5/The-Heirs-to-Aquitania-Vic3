@@ -6,12 +6,14 @@
 			culture = cu:aquitanian
 			ruler = yes
 			age = 66 #Born 10.03.1773
+			dna = dna_AQT_Raimond_08
 			interest_group = ig_petty_bourgeoisie
 			traits = {
 				imperious
 			}
 			on_created = {
 				set_variable = is_married
+				set_variable = is_raimond_8
 			}
 		}
 

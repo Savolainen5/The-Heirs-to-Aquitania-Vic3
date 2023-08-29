@@ -1,6 +1,13 @@
 ﻿l_english:
  #State names (different ones)
+ #This file is organized so continents are kind of listed in alphabetical order, then regions/countries. Kind of
+
+ ###Africa###
+
+ STATE_TLEMCEN: "Tlemcen"
  
+###Amerigas###
+
 ##North Ameriga##
 
  #Guilderland
@@ -103,7 +110,8 @@
  STATE_MIERCE: "Mierce"
  STATE_WEALES: "Weales"
  STATE_COMBRE: "Combre"
- STATE_NORDUMBRE: "Nordumbre"
+ STATE_NORDUMBRE: "Eoferwic"
+ STATE_BEORNICE: "Beornice"
 
  #Alba
  STATE_GHALLDACHD: "Ghalldachd"
@@ -114,6 +122,32 @@
  STATE_LAIGHIN: "Laighin"
  STATE_CHONNACHT: "Chonnacht"
  STATE_MHUMHAIN: "Mhumhain"
+
+ #Frankonia
+ #STATE_MAINE: "Maine" #It's probably fine to rely on the vanilla Maine loc
+ STATE_LOIRE: "Loire"
+
+ #Aquitània
+ STATE_GARONA: "Garona"
+ STATE_MIEGJORN: "Miègjorn"
+ STATE_LEMOTGES: "Lemòtges"
+ STATE_AUVERNHA: "Auvernha"
+ STATE_LES: "Les"
+ STATE_PROUVENCA: "Prouvença"
+
+ #Iberia
+ STATE_PORTUGALIZA: "Portugaliza"
+ STATE_LEON: "Leão"
+ STATE_BASQUE_COUNTRY: "Navarra" #Could also be Basque Country / Euskal Herria, Nafarroa, etc.
+ STATE_ENTROS_RIOS: "Entros Rios"
+ STATE_LEVANTE: "Levante"
+ STATE_GUADALAJARA: "Guadalajara"
+ STATE_TOLEDO_LA_MANCHA: "Toledo-La Mancha"
+ #STATE_GRANADA: "Granada" #Apparently unnecssary
+ STATE_BETICA: "Bética"
+ STATE_CINETICO: "Cinético"
+
+ STATE_SARDINIA: "Maretan Islands" #Or maybe it should be something like Corsica & Sardinia
 
  #Roman Empire
  STATE_EPIRUS: "Epirus" #Or maybe Nicopolis would be better?
@@ -131,8 +165,3 @@
  STATE_CHALACHIA: "Chalachia" #My attempt at coming up for a region named after not-Erzurum, which could be Turkish Kalakı perhaps. It's pretty dang similar to the above state though
  STATE_BOUKELLARION: "Boukellarion"
  STATE_CILICIA: "Cilicia"
-
- ##Asia##
-
- #Dai Viet
- STATE_NAMTRUNG: "Trung Kỳ"

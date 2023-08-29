@@ -7,7 +7,7 @@
 			ruler = yes
 			# unknown age
 			interest_group = ig_landowners
-			ideology = ideology_traditionalist
+			ideology = ideology:ideology_traditionalist
 			traits = {
 				ambitious
 			}
@@ -20,7 +20,7 @@
 			heir = yes
 			age = 5 # born in 1830 or 1831
 			interest_group = ig_landowners
-			ideology = ideology_traditionalist
+			ideology = ideology:ideology_traditionalist
 			traits = {
 				cautious
 				kidney_stones
@@ -34,7 +34,7 @@
 			# unknown age
 			ig_leader = yes
 			interest_group = ig_landowners
-			ideology = ideology_traditionalist
+			ideology = ideology:ideology_traditionalist
 			traits = {
 				ambitious
 			}

@@ -8,7 +8,7 @@
 			religion = rel:catholic
 			birth_date = 1798.6.12 # Only year known
 			interest_group = ig_landowners
-			ideology = ideology_traditionalist
+			ideology = ideology:ideology_traditionalist
 			traits = {
 			}
 		}

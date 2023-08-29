@@ -7,7 +7,7 @@
 			ruler = yes
 			# unknown age
 			interest_group = ig_landowners
-			ideology = ideology_traditionalist
+			ideology = ideology:ideology_traditionalist
 			traits = {
 			}
 		}

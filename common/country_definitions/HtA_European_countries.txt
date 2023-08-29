@@ -11,9 +11,139 @@
 	tier = kingdom
 	
 	cultures = { aenglish }
-	capital = STATE_SUDSAXE
+	capital = STATE_MIERCE
 }
+
+ANC = { #Aenglish Confederation
+	color = { 80 0 0 } # very deep red
+	# brown { 100 60 20 }
+	# greyerish red{ 140 75 75 } # yes
+	# rich cyan { 0 180 190 }
+	# pale cyan{ 85 200 175 }
 	
+	country_type = recognized
+
+	tier = grand_principality
+	
+	cultures = { aenglish }
+	capital = STATE_MIERCE
+}
+
+BRT = { #Bretagnie
+	color = { 54 65 124 } 
+	# { 124 72 21 } #ochre-brown, yes
+	# brown { 100 60 20 }
+	# gold
+	# greyerish red{ 140 75 75 } # yes
+	# rich cyan { 0 180 190 }
+	# pale cyan{ 85 200 175 }
+	
+	country_type = recognized
+
+	tier = grand_principality
+	
+	cultures = { anglosaexoun francien }
+	capital = STATE_WESSAXE
+}
+
+BEO = { #Beornice
+	color = { 255 241 91 } 
+	# { 124 72 21 } #ochre-brown, yes
+	# brown { 100 60 20 }
+	#gold
+	# greyerish red{ 140 75 75 } # yes
+	# rich cyan { 0 180 190 }
+	# pale cyan{ 85 200 175 }
+	
+	country_type = recognized
+
+	tier = kingdom
+	
+	cultures = { aenglish }
+	capital = STATE_BEORNICE
+}
+
+EOF = { #Eoferwic
+	color = { 239 252 255 } 
+	# { 124 72 21 } #ochre-brown, yes
+	# brown { 100 60 20 }
+	# very deep red, nice{ 80 0 0 } #yes
+	# greyerish red{ 140 75 75 } # yes
+	# rich cyan { 0 180 190 }
+	# pale cyan{ 85 200 175 }
+	
+	country_type = recognized
+
+	tier = grand_principality
+	
+	cultures = { aenglish }
+	capital = STATE_NORDUMBRE
+}
+
+ELY = { #Elige
+	# { 0 180 190 }
+	#{ 124 72 21 } #ochre-brown, yes
+	# brown { 100 60 20 }
+	# very deep red, nice{ 80 0 0 } #yes
+	# greyerish red{ 140 75 75 } # yes
+	color = { 85 200 175 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { aenglish }
+	capital = STATE_ESSAXE
+}
+
+SNO = { #Snotengaham
+	color = { 114 76 86 }
+	#{ 124 72 21 } #ochre-brown, yes
+	# very deep red, nice{ 80 0 0 } #yes
+	# greyerish red{ 140 75 75 } # yes
+	# rich cyan { 0 180 190 }
+	# pale cyan{ 85 200 175 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { aenglish }
+	capital = STATE_MIERCE
+}
+
+SEV = { #Saefernside
+	color = { 188 83 83 }
+	# { 124 72 21 } #ochre-brown, yes
+	# brown { 100 60 20 }
+	# { 140 75 75 } # yes
+	# rich cyan { 0 180 190 }
+	# pale cyan{ 85 200 175 }
+	
+	country_type = recognized
+
+	tier = grand_principality
+	
+	cultures = { aenglish anglosaexoun }
+	capital = STATE_WESSAXE
+}
+
+OXF = { #Oxfort
+	color = { 100 72 21 } #ochre-brown, yes
+	# brown { 100 60 20 }
+	# very deep red, nice{ 80 0 0 } #yes
+	# greyerish red{ 140 75 75 } # yes
+	# rich cyan { 0 180 190 }
+	# pale cyan{ 85 200 175 }
+	
+	country_type = recognized
+
+	tier = principality
+	
+	cultures = { anglosaexoun }
+	capital = STATE_MIERCE
+}
+
 AQT = { #Aquitania
 	color = { 192 40 247 }
 	
@@ -22,7 +152,7 @@ AQT = { #Aquitania
 	tier = kingdom
 	
 	cultures = { aquitanian }
-	capital = STATE_LANGUEDOC
+	capital = STATE_LES
 }
 ARM = { #Armenia
 	color = { 133  244  244 }
@@ -63,7 +193,7 @@ CLN = { #Cologne
 	tier = kingdom
 	
 	cultures = { north_german }
-	capital = STATE_NORTH_RHINE
+	capital = STATE_SOUTH_BORNEO
 }
 CRO = {
 	color = { 174  227  95 }
@@ -104,6 +234,15 @@ GLG = { #Galgai, i.e. Ingushetia #As of mid-August, not currently existing
 	cultures = { north_caucasian }
 	capital = STATE_DAGESTAN
 }
+GLZ = { #Galiza
+	color = { 100 225 245 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	cultures = { hispanian galician }
+	capital = STATE_PORTUGALIZA
+}
 HAN = {
 	color = { 164  217  127 }
 	
@@ -133,7 +272,7 @@ HIS = {
 	tier = empire
 	
 	cultures = { hispanian }
-	capital = STATE_TOLEDO
+	capital = STATE_GUADALAJARA
 }
 IRE = {
 	#color = { 112  150  105 }
@@ -200,6 +339,15 @@ MNZ = { #Mainz
 	
 	cultures = { north_german }
 	capital = STATE_HESSE
+}
+MAU = { #Mauretania
+	color = { 230 190 50 }
+	
+	country_type = recognized
+	
+	tier = kingdom
+	cultures = { hispanian }
+	capital = STATE_MARRAKECH
 }
 NAP = { #Naples
 	color = { 14 83 105 }

@@ -139,7 +139,7 @@ SCN = {
 }
 
 NAV = {
-	states = { STATE_NAVARRA }
+	states = { STATE_BASQUE_COUNTRY }
 	
 	ai_will_do = { always = no }
 }
@@ -174,9 +174,9 @@ FRA = {
 		STATE_PICARDY
 		STATE_ALSACE_LORRAINE
 		STATE_BRITTANY
-		STATE_BURGUNDY
 		STATE_CHAMPAGNE
 		STATE_FRANCHE_COMTE
+		STATE_BURGUNDY
 		STATE_ORLEANS
 	}
 	
@@ -309,7 +309,7 @@ HES = {
 WES = {
 	states = { 
 		STATE_WESTPHALIA 
-		STATE_NORTH_RHINE 
+		#Could be nice to come up with a new state in the region
 		STATE_RHINELAND
 	}
 	
@@ -555,8 +555,8 @@ AIN = {
 
 ANL = {
 	states = { 
-		STATE_ANDALUSIA
-		STATE_BADAJOZ
+		STATE_BETICA
+		STATE_TOLEDO_LA_MANCHA
 		STATE_GRANADA
 	}
 	ai_will_do = { always = no }
@@ -565,8 +565,8 @@ ANL = {
 CAS = {
 	states = { 
 		STATE_ASTURIAS
-		STATE_CASTILE
-		STATE_TOLEDO
+		STATE_ENTROS_RIOS
+		STATE_GUADALAJARA
 	}
 	
 	ai_will_do = { always = no }
@@ -730,12 +730,12 @@ TUV = {
 	ai_will_do = { always = no }
 }
 
-COR = {
-	states = {
-		STATE_CORSICA
-	}
-	ai_will_do = { always = no }
-}
+#COR = {
+#	states = {
+#		STATE_BEORNICE
+#	}
+#	ai_will_do = { always = no }
+#}
 
 YAK = {
 	use_culture_states = yes
@@ -939,7 +939,7 @@ KUR = {
 
 GLI = {
 	states = {
-		STATE_GALICIA
+		STATE_PORTUGALIZA
 	}
 
 	ai_will_do = { always = no }
@@ -993,6 +993,17 @@ SIB = {
 	}
 }
 
+GLZ = {
+	use_culture_states = yes
+
+	ai_will_do = { always = no }
+}
+
+MAU = {
+	use_culture_states = yes
+
+	ai_will_do = { always = no }
+}
 
 NET = {
 	use_culture_states = yes
@@ -1417,11 +1428,11 @@ BRU = {
 	ai_will_do = { always = no }
 }
 
+
 BUR = {
 	use_culture_states = yes
 	ai_will_do = { always = no }
 }
-
 CAM = {
 	use_culture_states = yes
 	ai_will_do = { always = no }
@@ -1439,7 +1450,7 @@ CHP = {
 
 JOH = {
 	states = {
-		STATE_MALAYA
+		STATE_NORTHERN_MALAYA
 	}
 	ai_will_do = { always = no }
 }
@@ -1475,15 +1486,13 @@ TRC = {
 
 ASM = {
 	states = {
-		STATE_TURKMENIA
+		STATE_ASSAM
 	}
 	ai_will_do = { always = no }
 }
 
 MNP = {
-	states = {
-		STATE_TURKMENIA
-	}
+	provinces = { xB03121 xA17DC4 x8C53B3 xCB0893 x30B15A x8F90F5 xB238B2 }
 	ai_will_do = { always = no }
 }
 
@@ -1584,7 +1593,7 @@ HNA = {
 AHU = {
 	states = {
 		STATE_SOUTHERN_ANHUI
-		STATE_NORTHERN_ANHUI
+		STATE_KENGTUNG
 	}
 	ai_will_do = { always = no }
 }
@@ -1685,11 +1694,6 @@ HOH = {
 
 WLD = {
 	provinces = { x3E794B }
-	ai_will_do = { always = no }
-}
-
-SAK = {
-	provinces = { x01317D x3F7EA0 x677AA6 x87F7B6 x8171EA x48428B x6021D0 x5BE3D2 x8B7A14 x35213F }
 	ai_will_do = { always = no }
 }
 
@@ -1796,3 +1800,58 @@ WAL = {
 	}
 	ai_will_do = { always = no }
 }
+
+DFR = {
+	states = {
+		STATE_DARFUR
+	}
+	ai_will_do = { always = no }
+}
+
+ASH = {
+	states = {
+		STATE_GHANA
+	}
+	ai_will_do = { always = no }
+}
+
+DAH = {
+	states = {
+		STATE_DAHOMEY
+	}
+	ai_will_do = { always = no }
+}
+
+WAD = {
+	states = {
+		STATE_CHAD
+		STATE_WADDAI
+	}
+	ai_will_do = { always = no }
+}
+
+MAD = {
+	use_culture_states = yes
+	
+	ai_will_do = { always = no }
+}
+
+#KAU = {
+#	states = { 
+#		STATE_SOUTH_AUSTRALIA
+#	}
+#
+#	ai_will_do = { always = no }
+#}
+
+#YUZ = {
+#	states = { 
+#		STATE_FORMOSA
+#	}
+#	ai_will_do = { always = no }
+#}
+
+#AIT = {
+#	provinces = { x429B12 x9AF6A4 x8E7690 x2DF9DB x3A0E38 x0090A0 xB1BCFF x0C5C65 }
+#	ai_will_do = { always = no }
+#}

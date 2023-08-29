@@ -1,5 +1,65 @@
 ﻿DIPLOMACY = {
-#	c:ARG = {
-#		set_relations = { country = c:HIS value = -30 }
-#	}
+	c:IRE = { #Eire
+		set_relations = { country = c:BEO value = 170 }
+		set_relations = { country = c:EOF value = 30 }
+		set_relations = { country = c:WLS value = 50 }
+		set_relations = { country = c:SNO value = 30 }
+		set_relations = { country = c:ELY value = 30 }
+		set_relations = { country = c:FRA value = -30 }
+	}
+
+	c:BEO = { #Beornice
+		set_relations = { country = c:EOF value = 30 }
+		set_relations = { country = c:WLS value = 20 }
+		set_relations = { country = c:SNO value = 10 }
+		set_relations = { country = c:ELY value = 10 }
+		set_relations = { country = c:SEV value = -10 }
+	}
+
+	c:SNO = { #Snotengaham
+		set_relations = { country = c:SEV value = -10 }
+		set_relations = { country = c:WLS value = 20 }
+		set_relations = { country = c:FRA value = -30 }
+		set_relations = { country = c:ELY value = 10 }
+	}
+	
+	c:ELY = { #Elige
+		set_relations = { country = c:WLS value = 10 }
+		set_relations = { country = c:SEV value = -10 }
+		set_relations = { country = c:FRA value = -30 }
+	}
+
+	c:OXF = { #Oxenfurt
+		set_relations = { country = c:BEO value = 10 }
+		set_relations = { country = c:EOF value = 10 }
+		set_relations = { country = c:WLS value = 10 }
+		set_relations = { country = c:SNO value = -5 }
+		set_relations = { country = c:ELY value = -5 }
+		set_relations = { country = c:FRA value = -20 }
+		set_relations = { country = c:IRE value = -10 }
+	}
+	
+	c:FRA = { #Frankonia
+		set_relations = { country = c:SEV value = 40 }
+		set_relations = { country = c:AQT value = -20 }
+		set_relations = { country = c:DAU value = -10 }
+		set_relations = { country = c:TRR value = 40 }
+		set_relations = { country = c:NET value = 40 }
+		set_relations = { country = c:GER value = 20 }
+	}
+	
+	c:AQT = { #Aquitania
+		set_relations = { country = c:CAT value = 50 }
+		set_relations = { country = c:DAU value = 20 }
+		set_relations = { country = c:PDN value = 20 }
+		set_relations = { country = c:NAP value = -10 }
+		set_relations = { country = c:GLZ value = -20 }
+		set_relations = { country = c:MAU value = -10 }
+		set_relations = { country = c:GER value = -20 }
+	}
+	c:JAP = {
+		set_relations = { country = c:YAM value = 80 }
+		set_relations = { country = c:TOH value = 80 }
+		set_relations = { country = c:NST value = 170 }
+	}
 }

@@ -4,3 +4,12 @@
 #	}
 #	ai_will_do = { always = no }
 #}
+
+BRT = {									#Bretagne
+	states = {
+		STATE_WESSAXE
+		STATE_SUDSAXE
+		STATE_ESSAXE
+	}
+	ai_will_do = { always = no }
+}

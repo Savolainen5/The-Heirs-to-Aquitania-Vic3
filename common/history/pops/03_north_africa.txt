@@ -288,7 +288,7 @@
 		}
 	}
 	s:STATE_MARRAKECH = {
-		region_state:MOR = {
+		region_state:MAU = {
 			create_pop = {
 				culture = maghrebi
 				size = 686700
@@ -309,7 +309,7 @@
 		}
 	}
 	s:STATE_FEZ = {
-		region_state:MOR = {
+		region_state:MAU = {
 			create_pop = {
 				culture = maghrebi
 				size = 878696
@@ -330,7 +330,7 @@
 		}
 	}
 	s:STATE_AL_RIF = {
-		region_state:HIS = {
+		region_state:MAU = {
 			create_pop = {
 				culture = maghrebi
 				size = 420588
@@ -355,7 +355,7 @@
 		}
 	}
 	s:STATE_INNER_MOROCCO = {
-		region_state:MOR = {
+		region_state:MAU = {
 			create_pop = {
 				culture = berber
 				size = 322000
@@ -482,7 +482,7 @@
 		}
 	}
 	s:STATE_TLEMCEN = {
-		region_state:HIS = {
+		region_state:MAU = {
 			create_pop = {
 				culture = maghrebi
 				size = 309200
@@ -496,7 +496,7 @@
 				size = 42800
 			}
 		}
-		region_state:MOR = {
+		region_state:MAU = {
 			create_pop = {
 				culture = maghrebi
 				size = 200200

@@ -112,12 +112,6 @@
 				size = 40000
 			}
 		}
-		region_state:TAI={
-			create_pop = { 								#Needs work and research
-				culture = shan
-				size = 59342
-			}
-		}
 	}
 	s:STATE_GUIZHOU = {
 		region_state:YUN = {
@@ -148,19 +142,28 @@
 			}
 		}
 	}
-	s:STATE_SHAOZHOU = {
-		region_state:NNY = {
-			create_pop = {
-				culture = yue
-				size = 3781992
+	s:STATE_NAKHON_SRI_THAMMARAT = {	#Might need to be reworked - need proper figures for Pattani (I think I have these on hand) and the rest of Southern Thailand
+		region_state:SIA = {
+			create_pop = {	#replaced the Burmese here in base game to account for Malay minorities in Southern Thailand
+				culture = malay
+				size = 87600
 			}
 			create_pop = {
-				culture = hakka
-				size = 1564000
+				culture = mon
+				size = 3480
+			}
+			create_pop = {	#Slightly reduced the number of people here to keep proportion of Malay-Karen relatively similar to the modern day
+				culture = karen
+				size = 20000
 			}
 			create_pop = {
-				culture = han # nanfaren
-				size = 2568000
+				pop_type = slaves
+				culture = karen
+				size = 9200
+			}
+			create_pop = {
+				culture = thai
+				size = 44020
 			}
 		}
 	}
@@ -432,6 +435,18 @@
 		region_state:NNY = {
 			create_pop = {
 				culture = yue
+				size = 3781992
+			}
+			create_pop = {
+				culture = hakka
+				size = 1564000
+			}
+			create_pop = {
+				culture = han # nanfaren
+				size = 2568000
+			}
+			create_pop = {
+				culture = yue
 				size = 9748000
 			}
 			create_pop = {
@@ -464,7 +479,7 @@
 				size = 148000
 			}
 #		}
-#		region_state:POR = {
+#		region_state:GLZ = {
 			create_pop = {
 				culture = yue
 				size = 336000
@@ -555,20 +570,12 @@
 				size = 10985904
 			}
 			create_pop = {
-				culture = manchu
-				size = 6800
-			}
-		}
-	}
-	s:STATE_NANJING = {
-		region_state:QIN = {
-			create_pop = {
 				culture = han # nanfaren
 				size = 11080192
 			}
 			create_pop = {
-				culture = manchu
-				size = 52000
+				culture = han # nanfaren
+				size = 16836004
 			}
 		}
 	}
@@ -647,10 +654,6 @@
 				size = 21473408
 			}
 			create_pop = {
-				culture = manchu
-				size = 2592
-			}
-			create_pop = {
 				culture = han # nanfaren
 				size = 1051996
 			}
@@ -659,10 +662,6 @@
 				religion = sunni
 				size = 304004
 			}
-		}
-	}
-	s:STATE_NORTHERN_ANHUI = {
-		region_state:QIN = {
 			create_pop = {
 				culture = han # nanfaren
 				size = 10312000
@@ -689,17 +688,9 @@
 				culture = han # nanfaren
 				size = 884000
 			}
-		}
-	}
-	s:STATE_EASTERN_HUBEI = {
-		region_state:QIN = {
 			create_pop = {
 				culture = han # nanfaren
 				size = 13222096
-			}
-			create_pop = {
-				culture = manchu
-				size = 6308
 			}
 			create_pop = {
 				culture = han # nanfaren
@@ -733,18 +724,38 @@
 		}
 	}
 	s:STATE_FORMOSA = {
-		region_state:NET = {
+		region_state:CTS = {
 			create_pop = {
 				culture = min
-				size = 1880000
+				size = 1174000
 			}
 			create_pop = {
-				culture = dutch
-				size = 492
+				culture = hakka
+				size = 400000
 			}
 			create_pop = {
-				culture = han # nanfaren
-				size = 1015504
+				culture = formosan
+				religion = catholic
+				size = 150000
+			}
+			create_pop = {
+				culture = eurasian
+				size = 40492
+			}
+	
+		}
+		region_state:NST = {
+			create_pop = {
+				culture = formosan
+				size = 100004
+			}
+			create_pop = {
+				culture = japanese
+				size = 885500
+			}
+			create_pop = {
+				culture = min
+				size = 120000
 			}
 		}
 	}
@@ -756,14 +767,7 @@
 			}
 		}
 	}
-	s:STATE_SUZHOU = {
-		region_state:QIN = {
-			create_pop = {
-				culture = han # nanfaren
-				size = 16836004
-			}
-		}
-	}
+	
 	s:STATE_ULIASTAI = {
 		region_state:KHA = {
 			create_pop = {
@@ -850,24 +854,24 @@
 				size = 30000
 			}
 		}
-		region_state:JAP = {
-			create_pop = {
-				culture = japanese
-				size = 28000
-			}
-			create_pop = {
-				culture = thai
-				size = 16000
-			}
-			create_pop = {
-				culture = min
-				size = 1600
-			}
-			create_pop = {
-				culture = yue
-				size = 1500
-			}
-		}
+#		region_state:JAP = {
+#			create_pop = {
+#				culture = japanese
+#				size = 28000
+#			}
+#			create_pop = {
+#				culture = thai
+#				size = 16000
+#			}
+#			create_pop = {
+#				culture = min
+#				size = 1600
+#			}
+#			create_pop = {
+#				culture = yue
+#				size = 1500
+#			}
+#		}
 	}
 	s:STATE_TONKIN = {
 		region_state:DAI = {
@@ -916,13 +920,13 @@
 		}
 	}
 	s:STATE_MEKONG = {
-		region_state:DAI = {
+		region_state:CHA = {
 			create_pop = {
-				culture = vietnamese
+				culture = cham
 				size = 909297
 			}
 			create_pop = {
-				culture = vietnamese
+				culture = cham
 				religion = animist
 				size = 64000
 			}
@@ -931,17 +935,36 @@
 				size = 18000
 			}
 			create_pop = {
-				culture = vietnamese
-				religion = catholic
-				size = 58200
-			}
-			create_pop = {
 				culture = yue
 				size = 15000
 			}
 			create_pop = {
 				culture = min
 				size = 10996
+			}
+		}
+		region_state:CTS = {
+			create_pop = {
+				culture = khmer
+				religion = catholic
+				size = 28200
+			}
+			create_pop = {
+				culture = yue
+				size = 7500
+			}
+			create_pop = {
+				culture = min
+				size = 7500
+			}
+			create_pop = {
+				culture = japanese
+				religion = catholic
+				size = 10996
+			}
+			create_pop = {
+				culture = eurasian
+				size = 6796
 			}
 		}
 		region_state:SIA = {
@@ -974,14 +997,14 @@
 		}
 	}
 	
-	s:STATE_NAMTRUNG = {
-		region_state:DAI = {
+	s:STATE_NAMTRUNG = {		#Detailed analysis for later - for now just spam cham in lieu of Viet
+		region_state:CHA = {
 			create_pop = {
-				culture = vietnamese
+				culture = cham
 				size = 909297
 			}
 			create_pop = {
-				culture = vietnamese
+				culture = cham
 				religion = animist
 				size = 64000
 			}
@@ -1002,23 +1025,16 @@
 				culture = min
 				size = 10996
 			}
-		}
-		
-		region_state:JAP = {
 			create_pop = {
 				culture = yue
 				size = 28000
-			}
-			create_pop = {
-				culture = min
-				size = 16000
 			}
 			create_pop = {
 				culture = japanese
 				size = 1600
 			}
 			create_pop = {
-				culture = portuguese
+				culture = lazarin
 				size = 150
 			}
 		}
@@ -1117,29 +1133,16 @@
 	s:STATE_TENASSERIM = {
 		region_state:SIA = {
 			create_pop = {
-				culture = burmese
-				size = 36000
-			}
-			create_pop = {
 				culture = karen
-				size = 50000
+				size = 180800
 			}
 			create_pop = {
-				pop_type = slave
-				culture = karen
-				size = 20000
-			}
-			create_pop = {
-				culture = thai
-				size = 44020
-			}
-			create_pop = {
-				culture = karen
-				size = 200800
+				culture = british
+				size = 96
 			}
 			create_pop = {
 				culture = burmese
-				size = 100000
+				size = 112000
 			}
 			create_pop = {
 				culture = mon
@@ -1147,28 +1150,25 @@
 			}
 			create_pop = {
 				culture = thai
-				size = 30000
+				size = 36004
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = karen
+				size = 20000
 			}
 		}
-		region_state:IRE = {
+		
+	}
+	s:STATE_KENGTUNG = {
+		region_state:SIA = {
 			create_pop = {
-				culture = mon
-				size = 3480
+				culture = shan
+				size = 203002
 			}
 			create_pop = {
-				culture = eirean
-				size = 96
-			}
-			create_pop = {
-				culture = karen
-				size = 10800
-			}
-			create_pop = {
-				culture = thai
-				size = 6004
-			}
-			create_pop = {
-				culture = burmese
+				pop_type = slaves
+				culture = shan
 				size = 12000
 			}
 		}
@@ -1198,6 +1198,17 @@
 				size = 40000
 			}
 		}
+		region_state:ZOG = {
+			create_pop = {
+				culture = zo
+				size = 89620
+			}
+			create_pop = {
+				pop_type = slaves
+				culture = burmese
+				size = 8000
+			}
+		}
 		region_state:AVA = {
 			create_pop = {
 				culture = burmese
@@ -1214,7 +1225,7 @@
 		region_state:TAI = {
 			create_pop = {
 				culture = shan
-				size = 505442
+				size = 305442
 			}
 			create_pop = {
 				culture = kachin
@@ -1237,7 +1248,7 @@
 			}
 		}
 	}
-
+	
 	s:STATE_BURMA = {
 		region_state:AVA = {
 			create_pop = {
@@ -1254,7 +1265,7 @@
 				size = 45000
 			}
 		}
-		region_state:PRI = {
+		region_state:HTH = {
 			create_pop = {
 				culture = burmese
 				size = 231823
@@ -1278,26 +1289,26 @@
 		}
 	}
 	s:STATE_PEGU = {
-		region_state:BGL = {
-			create_pop = {
-				pop_type = slaves
-				culture = burmese
-				size = 10000
-			}
-			create_pop = {
-				culture = burmese
-				size = 99888
-			}
-			create_pop = {
-				culture = burmese
-				religion = sunni
-				size = 60000
-			}
-			create_pop = {
-				culture = bengali
-				size = 7996
-			}
-		}
+#		region_state:BGL = { #Holdover from a previous version
+#			create_pop = {
+#				pop_type = slaves
+#				culture = burmese
+#				size = 10000
+#			}
+#			create_pop = {
+#				culture = burmese
+#				size = 99888
+#			}
+#			create_pop = {
+#				culture = burmese
+#				religion = sunni
+#				size = 60000
+#			}
+#			create_pop = {
+#				culture = bengali
+#				size = 7996
+#			}
+#		}
 		region_state:TAU = {
 			create_pop = {
 				culture = burmese
@@ -1312,7 +1323,7 @@
 				size = 5120
 			}
 		}
-		region_state:PRI = {
+		region_state:HTH = {
 			create_pop = {
 				culture = burmese
 				size = 102956
@@ -1322,9 +1333,6 @@
 				culture = burmese
 				size = 5600
 			}
-		}
-			
-		region_state:SIA = {
 			create_pop = {
 				culture = burmese
 				size = 717900
@@ -1343,9 +1351,9 @@
 				size = 30000
 			}
 		}
-		region_state:IRE = {
+		region_state:GER = {
 			create_pop = {
-				culture = eirean
+				culture = north_german
 				size = 48
 			}
 			create_pop = {

@@ -148,7 +148,7 @@
 		}
 	}
 	s:STATE_BAHAMAS = {
-		region_state:AEN = {
+		region_state:FRA = {
 			create_pop = {
 				culture = aenglish
 				size = 19200
@@ -162,7 +162,7 @@
 	s:STATE_WEST_INDIES = {
 		region_state:FRA = {
 			create_pop = {
-				culture = french
+				culture = francien
 				size = 22200
 			}
 			create_pop = {
@@ -180,23 +180,23 @@
 				size = 39996
 			}
 		}
-		region_state:AEN = {
+		region_state:IRE = {
 			create_pop = {
-				culture = aenglish
+				culture = irish
 				size = 34704
 			}
 			create_pop = {
 				culture = afro_caribbean
-				size = 234768
+				size = 464768 #Practically doubled from 234768 because that's a lot of islands
 			}
 			create_pop = {
-				culture = dutch
+				culture = aenglish
 				size = 396
 			}
 		}
 	}
 	s:STATE_JAMAICA = {
-		region_state:AEN = {
+		region_state:FRA = {
 			create_pop = {
 				culture = afro_caribbean
 				size = 358596

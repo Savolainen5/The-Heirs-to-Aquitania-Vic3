@@ -23,9 +23,9 @@ DEFAULT = {
 					is_powerful = yes
 					leader = {
 						OR = {
-							has_ideology = ideology_communist
-							has_ideology = ideology_anarchist
-							has_ideology = ideology_vanguardist
+							has_ideology = ideology:ideology_communist
+							has_ideology = ideology:ideology_anarchist
+							has_ideology = ideology:ideology_vanguardist
 						}
 					}
 				}
@@ -47,8 +47,8 @@ DEFAULT = {
 					is_in_government = yes
 					leader = {
 						OR = {
-							has_ideology = ideology_fascist
-							has_ideology = ideology_ethno_nationalist
+							has_ideology = ideology:ideology_fascist
+							has_ideology = ideology:ideology_ethno_nationalist
 						}
 					}
 				}
@@ -69,7 +69,7 @@ DEFAULT = {
 				any_interest_group = {
 					is_in_government = yes
 					leader = {
-						has_ideology = ideology_radical
+						has_ideology = ideology:ideology_radical
 					}
 				}
 			}
@@ -636,19 +636,19 @@ COM = { # Comanche
 #	}
 #}
 
-GER = { # Germany
-	dynamic_country_name = {
-		name = dyn_c_german_empire
-		
-		is_main_tag_only = yes
-		priority = 0
-		
-		trigger = {
-			coa_def_monarchy_flag_trigger = yes
-			country_rank >= rank_value:major_power
-		}
-	}
-}
+#GER = { # Germany
+#	dynamic_country_name = {
+#		name = dyn_c_german_empire
+#		
+#		is_main_tag_only = yes
+#		priority = 0
+#		
+#		trigger = {
+#			coa_def_monarchy_flag_trigger = yes
+#			country_rank >= rank_value:major_power
+#		}
+#	}
+#}
 
 HRO = { # Herero
 	dynamic_country_name = {
@@ -999,24 +999,24 @@ PON = { # Pontianak
 #	}
 #}
 
-SAK = { # Siak
-	dynamic_country_name = {
-		name = dyn_c_sumatra
-		adjective = dyn_c_sumatra_adj
-		
-		is_main_tag_only = yes
-		priority = 0
-		
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				owns_entire_state_region = STATE_ACEH
-				owns_entire_state_region = STATE_NORTH_SUMATRA
-				owns_entire_state_region = STATE_SOUTH_SUMATRA
-			}
-		}
-	}
-}
+#SAK = { # Siak
+#	dynamic_country_name = {
+#		name = dyn_c_sumatra
+#		adjective = dyn_c_sumatra_adj
+#		
+#		is_main_tag_only = yes
+#		priority = 0
+#		
+#		trigger = {
+#			exists = scope:actor
+#			scope:actor = {
+#				owns_entire_state_region = STATE_ACEH
+#				owns_entire_state_region = STATE_NORTH_SUMATRA
+#				owns_entire_state_region = STATE_SOUTH_SUMATRA
+#			}
+#		}
+#	}
+#}
 
 SMB = { # Sambas
 	dynamic_country_name = { # Kalimantan
@@ -1290,23 +1290,6 @@ ZAI = { # Azal (Zaidi State)
 					has_law = law_type:law_monarchy
 					has_law = law_type:law_theocracy
 				}
-			}
-		}
-	}
-}
-
-WLS = {
-	dynamic_country_name = {
-		name = dyn_c_welsh_patagonia
-		adjective = dyn_c_welsh_patagonia_adj
-
-		is_main_tag_only = yes
-		priority = 0
-		
-		trigger = {
-			exists = scope:actor
-			scope:actor = {
-				capital = { state_region = s:STATE_PATAGONIA }
 			}
 		}
 	}

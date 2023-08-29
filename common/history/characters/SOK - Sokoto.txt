@@ -7,7 +7,7 @@
 			ruler = yes
 			age = 55
 			interest_group = ig_devout
-			ideology = ideology_moderate
+			ideology = ideology:ideology_moderate
 			traits = {
 				tactful
 			}
@@ -21,7 +21,7 @@
 			heir = yes
 			age = 54
 			interest_group = ig_devout
-			ideology = ideology_traditionalist
+			ideology = ideology:ideology_traditionalist
 			traits = {
 				arrogant
 			}

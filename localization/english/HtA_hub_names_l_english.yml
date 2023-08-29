@@ -135,7 +135,7 @@
  HUB_NAME_STATE_COCHAPO_farm: "Champs-Antoine" #Antoine fields. Just a random name
 
  HUB_NAME_STATE_NOUVEAU_BLOIS_port: "Le Nouveau-Chambord" #Blois is already taken from the country name, so let's take another important city in the former county
- HUB_NAME_STATE_NOUVEAU_BLOIS_city: "Vendôme" #Another name from the area
+ HUB_NAME_STATE_NOUVEAU_BLOIS_city: "Veuzain" #Another name from the area
  HUB_NAME_STATE_NOUVEAU_BLOIS_wood: "Bienville" #OTL governor who founded New Orleans
  HUB_NAME_STATE_NOUVEAU_BLOIS_farm: "Bendier" #Scholar and bibliophile Quentin-Claude Bendier
  HUB_NAME_STATE_NOUVEAU_BLOIS_mine: "Fort Rapide" #Actual fort on the Red River, kind of near this location, seen on a 1757 map
@@ -373,30 +373,36 @@
  HUB_NAME_STATE_WEALES_farm: "Carmarthen"
  HUB_NAME_STATE_WEALES_wood: "Bangor"
 
- HUB_NAME_STATE_MIERCE_city: "Berminham"
+ HUB_NAME_STATE_MIERCE_city: "Tamworthie"
  HUB_NAME_STATE_MIERCE_port: "Romwledon"
  HUB_NAME_STATE_MIERCE_mine: "Snotihham"
  HUB_NAME_STATE_MIERCE_farm: "Ligocestre"
  HUB_NAME_STATE_MIERCE_wood: "Gildenburh"
 
  HUB_NAME_STATE_NORDUMBRE_city: "Eforwyc"
- HUB_NAME_STATE_NORDUMBRE_port: "Monkcestre"
- HUB_NAME_STATE_NORDUMBRE_mine: "Dor"
- HUB_NAME_STATE_NORDUMBRE_farm: "Seltle"
- HUB_NAME_STATE_NORDUMBRE_wood: "Wyc"
+ HUB_NAME_STATE_NORDUMBRE_port: "Mydilsburh"
+ HUB_NAME_STATE_NORDUMBRE_mine: "Wyc"
+ HUB_NAME_STATE_NORDUMBRE_farm: "Loidis"
+ HUB_NAME_STATE_NORDUMBRE_wood: "Donnecestre"
+ 
+ HUB_NAME_STATE_BEORNICE_city: "Bebbanburh"
+ HUB_NAME_STATE_BEORNICE_port: "Monkcestre"
+ HUB_NAME_STATE_BEORNICE_mine: "Edenburh"
+ HUB_NAME_STATE_BEORNICE_farm: "Selecirce"
+ HUB_NAME_STATE_BEORNICE_wood: "Carves"
 
  HUB_NAME_STATE_COMBRE_city: "Selhford"
  HUB_NAME_STATE_COMBRE_port: "Liferpol"
  HUB_NAME_STATE_COMBRE_mine: "Blacburna"
- HUB_NAME_STATE_COMBRE_farm: "Carves"
+ HUB_NAME_STATE_COMBRE_farm: "Ceastre"
  HUB_NAME_STATE_COMBRE_wood: "Barrey"
 
  #Alba
 
- HUB_NAME_STATE_GHALLDACHD_city: "Dùn Èideann"
+ HUB_NAME_STATE_GHALLDACHD_city: "Glaschu"
  HUB_NAME_STATE_GHALLDACHD_port: "Obar Dheathain"
  HUB_NAME_STATE_GHALLDACHD_mine: "Dùn Phris"
- HUB_NAME_STATE_GHALLDACHD_farm: "Glaschu"
+ HUB_NAME_STATE_GHALLDACHD_farm: "Inbhir Àir"
  HUB_NAME_STATE_GHALLDACHD_wood: "Dùn Dé"
 
  HUB_NAME_STATE_GHAIDHEALTACHD_city: "Inbhir Nis"
@@ -429,3 +435,100 @@
  HUB_NAME_STATE_MHUMHAIN_mine: "Cill Airne"
  HUB_NAME_STATE_MHUMHAIN_farm: "Mala"
  HUB_NAME_STATE_MHUMHAIN_wood: "Aonach Urmhumhan"
+
+ #Frankonia
+
+ HUB_NAME_STATE_LOIRE_city: "Poitiers"
+ HUB_NAME_STATE_LOIRE_farm: "Tours"
+ HUB_NAME_STATE_LOIRE_mine: "Cholet"
+ HUB_NAME_STATE_LOIRE_port: "Olonne"
+ HUB_NAME_STATE_LOIRE_wood: "Niort"
+
+ #Aquitània
+
+ HUB_NAME_STATE_GARONA_city: "Bordèu"
+ HUB_NAME_STATE_GARONA_farm: "Marçan"
+ HUB_NAME_STATE_GARONA_mine: "Lorda"
+ HUB_NAME_STATE_GARONA_port: "Arcaishon"
+ HUB_NAME_STATE_GARONA_wood: "Pau"
+ 
+ HUB_NAME_STATE_LES_city: "Mauguio"
+ HUB_NAME_STATE_LES_farm: "Narbona"
+ HUB_NAME_STATE_LES_mine: "Alés"
+ HUB_NAME_STATE_LES_port: "Seta"
+ HUB_NAME_STATE_LES_wood: "Carcassona"
+
+ HUB_NAME_STATE_MIEGJORN_city: "Tolosa"
+ HUB_NAME_STATE_MIEGJORN_farm: "Montalban"
+ HUB_NAME_STATE_MIEGJORN_mine: "Fois"
+ HUB_NAME_STATE_MIEGJORN_wood: "Albi"
+
+ HUB_NAME_STATE_AUVERNHA_city: "Clarmont"
+ HUB_NAME_STATE_AUVERNHA_farm: "Caors"
+ HUB_NAME_STATE_AUVERNHA_mine: "Lo Puèi"
+ HUB_NAME_STATE_AUVERNHA_wood: "Orlhac"
+
+ HUB_NAME_STATE_LEMOTGES_city: "Lemòtges"
+ HUB_NAME_STATE_LEMOTGES_farm: "Peireguers"
+ HUB_NAME_STATE_LEMOTGES_mine: "Briva"
+ HUB_NAME_STATE_LEMOTGES_port: "La Rochèla"
+ HUB_NAME_STATE_LEMOTGES_wood: "Engoleime"
+
+ HUB_NAME_STATE_PROUVENCA_city: "Marselha"
+ HUB_NAME_STATE_PROUVENCA_farm: "Avinhon"
+ HUB_NAME_STATE_PROUVENCA_mine: "Digno"
+ HUB_NAME_STATE_PROUVENCA_port: "Touloun"
+ HUB_NAME_STATE_PROUVENCA_wood: "Niça"
+ 
+ #Galiza / United Kingdom
+ HUB_NAME_STATE_PORTUGALIZA_city: "Porto"
+ HUB_NAME_STATE_PORTUGALIZA_farm: "Santiago de Compostela"
+ HUB_NAME_STATE_PORTUGALIZA_mine: "Ponferrada"
+ HUB_NAME_STATE_PORTUGALIZA_port: "Coruña"
+ HUB_NAME_STATE_PORTUGALIZA_wood: "Bragança"
+
+ HUB_NAME_STATE_BASQUE_COUNTRY_city: "Pamplona"
+ HUB_NAME_STATE_BASQUE_COUNTRY_farm: "Gazteiz"
+ HUB_NAME_STATE_BASQUE_COUNTRY_mine: "Logroño"
+ HUB_NAME_STATE_BASQUE_COUNTRY_port: "Bilbao"
+ HUB_NAME_STATE_BASQUE_COUNTRY_wood: "Biarritz"
+
+ HUB_NAME_STATE_LEON_city: "Leão"
+ HUB_NAME_STATE_LEON_farm: "Madrid"
+ HUB_NAME_STATE_LEON_mine: "Salamanca"
+ HUB_NAME_STATE_LEON_wood: "Plasencia"
+
+ HUB_NAME_STATE_ENTROS_RIOS_city: "Soria"
+ HUB_NAME_STATE_ENTROS_RIOS_farm: "Torrejón"
+ HUB_NAME_STATE_ENTROS_RIOS_mine: "Arnedo"
+ HUB_NAME_STATE_ENTROS_RIOS_wood: "Ezcaray"
+
+ HUB_NAME_STATE_GUADALAJARA_city: "Guadalajara"
+ HUB_NAME_STATE_GUADALAJARA_farm: "Aranjuez"
+ HUB_NAME_STATE_GUADALAJARA_mine: "Ciudad Real"
+ HUB_NAME_STATE_GUADALAJARA_wood: "Cuenca"
+
+ #Mauretania
+
+ HUB_NAME_STATE_LEVANTE_city: "Valencia"
+ HUB_NAME_STATE_LEVANTE_farm: "Murcia"
+ HUB_NAME_STATE_LEVANTE_mine: "Albacete"
+ HUB_NAME_STATE_LEVANTE_port: "Cartagena"
+ HUB_NAME_STATE_LEVANTE_wood: "Castellón"
+
+ HUB_NAME_STATE_TOLEDO_LA_MANCHA_city: "Toledo"
+ HUB_NAME_STATE_TOLEDO_LA_MANCHA_farm: "Mérida"
+ HUB_NAME_STATE_TOLEDO_LA_MANCHA_mine: "Guadalupe"
+ HUB_NAME_STATE_TOLEDO_LA_MANCHA_wood: "Cáceres"
+
+ HUB_NAME_STATE_CINETICO_city: "Evora"
+ HUB_NAME_STATE_CINETICO_farm: "Setùbal"
+ HUB_NAME_STATE_CINETICO_mine: "Beja"
+ HUB_NAME_STATE_CINETICO_port: "Lagos"
+ HUB_NAME_STATE_CINETICO_wood: "Badajoz"
+
+ HUB_NAME_STATE_BETICA_city: "Seville"
+ HUB_NAME_STATE_BETICA_farm: "Córdoba"
+ HUB_NAME_STATE_BETICA_mine: "Huelva"
+ HUB_NAME_STATE_BETICA_port: "Cádiz"
+ HUB_NAME_STATE_BETICA_wood: "Écija"

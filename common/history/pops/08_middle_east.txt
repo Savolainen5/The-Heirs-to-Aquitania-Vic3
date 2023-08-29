@@ -55,7 +55,7 @@
 				size = 2000
 			}
 		}
-		region_state:POR = {
+		region_state:GLZ = {
 			create_pop = {
 				culture = bedouin
 				size = 3000

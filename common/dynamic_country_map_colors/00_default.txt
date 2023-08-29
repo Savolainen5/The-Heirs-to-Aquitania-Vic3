@@ -157,7 +157,7 @@ feminist_britain = {
 		exists = c:AEN
 		THIS = c:AEN
 		ruler = {
-			has_ideology = ideology_feminist
+			has_ideology = ideology:ideology_feminist
 			is_female = yes
 		}
 		has_law = law_type:law_womens_suffrage

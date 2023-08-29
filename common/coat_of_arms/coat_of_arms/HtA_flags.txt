@@ -1,5 +1,6 @@
 @canton_scale_cross_x = @[ ( 333 / 768 ) + 0.001 ]
 @canton_scale_cross_y = @[ ( 205 / 512 ) + 0.001 ]
+@semy = 0.25
 
 AEN = {
 	pattern = "pattern_solid.tga"
@@ -416,6 +417,94 @@ BBG_communist = {
 	}
 }
 ##############################
+BEO = {
+	pattern = "pattern_vertical_split_01.tga"
+	color1 = "yellow"
+	color2 = "purple"
+	colored_emblem = {
+		texture = "ce_lion_statant_guardant.dds"
+		color1 = "yellow_dark"
+		color2 = color1
+		color3 = color1
+	}
+}
+#BEO = {
+#	pattern = "pattern_solid.tga"
+#	color1 = "black"
+#	color2 = "white"
+#	colored_emblem = {
+#		texture = "ce_ermine_spot.dds"
+#		color1 = color2
+#		instance = { position = { 0.10 0.00 } scale = { @semy @semy }  }
+#		instance = { position = { 0.30 0.00 } scale = { @semy @semy }  }
+#		instance = { position = { 0.50 0.00 } scale = { @semy @semy }  }
+#		instance = { position = { 0.70 0.00 } scale = { @semy @semy }  }
+#		instance = { position = { 0.90 0.00 } scale = { @semy @semy }  }
+#		
+#		instance = { position = { 0.00 0.20 } scale = { @semy @semy }  }
+#		instance = { position = { 0.20 0.20 } scale = { @semy @semy }  }
+##		instance = { position = { 0.40 0.20 } scale = { @semy @semy }  }
+##		instance = { position = { 0.60 0.20 } scale = { @semy @semy }  }
+#		instance = { position = { 0.80 0.20 } scale = { @semy @semy }  }
+#		instance = { position = { 1.00 0.20 } scale = { @semy @semy }  }
+#		
+#		instance = { position = { 0.10 0.40 } scale = { @semy @semy }  }
+##		instance = { position = { 0.30 0.40 } scale = { @semy @semy }  }
+##		instance = { position = { 0.50 0.40 } scale = { @semy @semy }  }
+##		instance = { position = { 0.70 0.40 } scale = { @semy @semy }  }
+#		instance = { position = { 0.90 0.40 } scale = { @semy @semy }  }
+#		
+#		instance = { position = { 0.00 0.60 } scale = { @semy @semy }  }
+#		instance = { position = { 0.20 0.60 } scale = { @semy @semy }  }
+##		instance = { position = { 0.40 0.60 } scale = { @semy @semy }  }
+##		instance = { position = { 0.60 0.60 } scale = { @semy @semy }  }
+#		instance = { position = { 0.80 0.60 } scale = { @semy @semy }  }
+#		instance = { position = { 1.00 0.60 } scale = { @semy @semy }  }
+#		
+#		instance = { position = { 0.10 0.80 } scale = { @semy @semy }  }
+##		instance = { position = { 0.30 0.80 } scale = { @semy @semy }  }
+##		instance = { position = { 0.50 0.80 } scale = { @semy @semy }  }
+##		instance = { position = { 0.70 0.80 } scale = { @semy @semy }  }
+#		instance = { position = { 0.90 0.80 } scale = { @semy @semy }  }
+#		
+#		instance = { position = { 0.00 1.00 } scale = { @semy @semy }  }
+#		instance = { position = { 0.20 1.00 } scale = { @semy @semy }  }
+#		instance = { position = { 0.40 1.00 } scale = { @semy @semy }  }
+#		instance = { position = { 0.60 1.00 } scale = { @semy @semy }  }
+#		instance = { position = { 0.80 1.00 } scale = { @semy @semy }  }
+#		instance = { position = { 1.00 1.00 } scale = { @semy @semy }  }
+#	}
+#	colored_emblem = {
+#		texture = "ce_lion_statant_guardant.dds"
+#		color1 = "yellow_dark"
+#		color2 = color1
+#		color3 = color1
+#	}
+#}
+BEO_subject = {
+#	pattern = "pattern_vertical_split_01.tga"
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	color2 = "purple"
+#	colored_emblem = {
+#		texture = "ce_stripes_09.dds"
+#		color1 = color2
+#		instance = { rotation = 90 }
+#	}
+	colored_emblem = {
+		texture = "ce_rhombus.dds"
+		color1 = "black"
+		instance = { position = { 0.75 0.5 } scale = { 0.45 0.95 } }
+	}
+	colored_emblem = {
+		texture = "ce_lion_rampant.dds"
+		color1 = "yellow_dark"
+		color2 = "red"
+		color3 = "white"
+		instance = { scale = { 0.6 0.6 } position = { 0.75 0.5 } }
+	}
+}
+##############################
 CLN = {
 	pattern = "pattern_cross.dds"
 	color1 = "white"
@@ -445,7 +534,24 @@ CYR = {
 	}
 }
 ##############################
-DAU = { textured_emblem = { texture = "V2/DAU.tga" } }
+DAU = {
+	pattern = "pattern_checkers_01.tga"
+	color1 = "azure"
+	color2 = "yellow_light"
+	textured_emblem = {
+		texture = "te_daufinat_fish.dds"
+		instance = { scale = { 0.25 0.4 } position = { 0.75 0.25 } }
+		instance = { scale = { 0.25 0.4 } position = { 0.25 0.75 } }
+	}
+	colored_emblem = {
+		texture = "ce_bull_head.dds"
+		color1 = color2
+		color2 = "white"
+		color3 = "white"
+		instance = { scale = { 0.5 0.5 } position = { 0.25 0.25 } }
+		instance = { scale = { 0.5 0.5 } position = { 0.75 0.75 } }
+	}
+}
 DAU_republic = {
 	pattern = "pattern_solid.tga"
 	color1 = "azure"
@@ -527,6 +633,61 @@ DEL = {
 	}
 }
 ##############################
+ELY = { #Elige
+	pattern = "pattern_solid.tga"
+	color1 = "blue"
+	color2 = "red"
+	color3 = "white"
+	colored_emblem = {
+		texture = "ce_waves.dds"
+		color1 = color1
+		color2 = color3
+		instance = { position = { 0.5 1 } scale = { 3 3 } rotation = 180 }
+	}
+	colored_emblem = {
+		texture = "ce_shield_heater_border.dds"
+		color1 = color2
+		color2 = color3
+	}
+	colored_emblem = {
+		texture = "ce_crown_ducal.dds"
+		color1 = "yellow"
+		color2 = color2
+		color3 = color1
+		instance = {
+			position = { 0.5 0.6 } scale = { 0.6 0.6 }
+		}
+		instance = {
+			position = { 0.4 0.35 } scale = { 0.33 0.33 }
+		}
+		instance = {
+			position = { 0.6 0.35 } scale = { 0.33 0.33 }
+		}
+	}
+}
+##############################
+EOF = { #Eoferwic / York
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	color2 = "red_light"
+	color3 = "yellow_dark"
+	colored_emblem = {
+		texture = "ce_cross_england.dds"
+		color1 = color2
+		instance = { scale = { 1.25 1.25 } }
+	}
+	colored_emblem = {
+		texture = "ce_lion_rampant_forked_crowned.dds"
+		color1 = "yellow_light"
+		color2 = color3
+		instance = { scale = { 0.3 0.3 } }
+		instance = { scale = { 0.275 0.275 } position = { 0.5 0.2 } }
+		instance = { scale = { 0.275 0.275 } position = { 0.5 0.8 } }
+		instance = { scale = { 0.275 0.275 } position = { 0.2 0.5 } }
+		instance = { scale = { 0.275 0.275 } position = { 0.8 0.5 } }
+	}
+}
+##############################
 FRA = {
 	pattern = "pattern_solid.tga"
 	color1 = "white"
@@ -592,7 +753,7 @@ GDL = {
 		color1 = "yellow"
 	}
 	colored_emblem = {
-		texture = "ce_waves.dds"
+		texture = "ce_waves_1.dds"
 		color1 = "white"
 		instance = {
 			rotation = 90
@@ -625,7 +786,7 @@ GDL_subject = {
 		color1 = "yellow"
 	}
 	colored_emblem = {
-		texture = "ce_waves.dds"
+		texture = "ce_waves_1.dds"
 		color1 = "white"
 		instance = {
 			rotation = 90
@@ -830,65 +991,102 @@ HHB_fascist = {
 	}
 }
 ##############################
-HIS = {
+#HIS = {
+#	pattern = "pattern_solid.tga"
+#	color1 = "red"
+#	color2 = "white"
+#	colored_emblem = {
+#		texture = "ce_armillary_sphere.dds"
+#		color1 = color2
+#		instance = {
+#			scale = { 0.75 0.75 }
+#		}
+#	}
+#	colored_emblem = {
+#		texture = "ce_wreath_thin.dds"
+#		color1 = color2
+#	}
+#	textured_emblem = {
+#		texture = "te_hispania_por_claim.dds"
+#		instance = {
+#			scale = { 0.75 0.75 }
+#		}
+#	}
+#}
+#
+#HIS_PORclaim = {
+#	pattern = "pattern_solid.tga"
+#	color1 = "purple"
+#	color2 = "white"
+#	colored_emblem = {
+#		texture = "ce_armillary_sphere.dds"
+#		color1 = color2
+#		instance = {
+#			scale = { 0.75 0.75 }
+#		}
+#	}
+#	colored_emblem = {
+#		texture = "ce_wreath_thin.dds"
+#		color1 = color2
+#	}
+#	colored_emblem = {
+#		texture = "ce_crown_imperial_austria.dds"
+#		color1 = "yellow"
+#		color2 = "pearl"
+#		color3 = "red"
+#		instance = {
+#			scale = { 0.5 0.5 }
+#			position = { 0.5 0.275 }
+#		}
+#	}
+#	textured_emblem = {
+#		texture = "te_hispania.dds"
+#		instance = {
+#			scale = { 0.75 0.75 }
+#		}
+#	}
+#	textured_emblem = {
+#		texture = "te_portugal_inescutcheon.dds"
+#		instance = {
+#			position = { 0.5 0.565 }
+#		}
+#	}
+#}
+##############################
+IRE = {
 	pattern = "pattern_solid.tga"
-	color1 = "red"
-	color2 = "white"
+	color1 = "green"
+	color2 = "yellow"
+	color3 = "yellow"
 	colored_emblem = {
-		texture = "ce_armillary_sphere.dds"
-		color1 = color2
-		instance = {
-			scale = { 0.75 0.75 }
-		}
-	}
-	colored_emblem = {
-		texture = "ce_wreath_thin.dds"
+		texture = "ce_star_16_bright.dds"
 		color1 = color2
 	}
-	textured_emblem = {
-		texture = "te_hispania_por_claim.dds"
-		instance = {
-			scale = { 0.75 0.75 }
-		}
+	colored_emblem = {
+		texture = "ce_emblem_sword_1_3c.dds"
+		color1 = "grey"
+		color2 = "dark_grey"
+		color3 = "red"
+		instance = { position = { 0.506 0.5 } scale = { 1.25 0.75 } }
 	}
 }
-
-HIS_PORclaim = {
+	
+IRE_canton = {
 	pattern = "pattern_solid.tga"
-	color1 = "purple"
-	color2 = "white"
+	color1 = "green"
+	color2 = "yellow"
+	color3 = "yellow"
+	
 	colored_emblem = {
-		texture = "ce_armillary_sphere.dds"
-		color1 = color2
-		instance = {
-			scale = { 0.75 0.75 }
-		}
-	}
-	colored_emblem = {
-		texture = "ce_wreath_thin.dds"
+		texture = "ce_star_16_bright.dds"
 		color1 = color2
 	}
 	colored_emblem = {
-		texture = "ce_crown_imperial_austria.dds"
-		color1 = "yellow"
-		color2 = "pearl"
+		texture = "ce_emblem_sword_1_3c.dds"
+		color1 = "grey"
+		color2 = "dark_grey"
 		color3 = "red"
-		instance = {
-			scale = { 0.5 0.5 }
-			position = { 0.5 0.275 }
-		}
-	}
-	textured_emblem = {
-		texture = "te_hispania.dds"
-		instance = {
-			scale = { 0.75 0.75 }
-		}
-	}
-	textured_emblem = {
-		texture = "te_portugal_inescutcheon.dds"
-		instance = {
-			position = { 0.5 0.565 }
-		}
+		instance = { position = { 0.506 0.5 } scale = { 1.25 0.75 } }
 	}
 }
 ##############################
@@ -1248,6 +1446,27 @@ NUT_HIS = { #Specifically when subject of Hispania
 	pattern = "pattern_solid.tga"
 	color1 = "yellow"
 }
+###################################
+OXF = {
+	pattern = "pattern_solid.tga"
+	color1 = "white"
+	color2 = "blue"
+	
+	colored_emblem = {
+		texture = "ce_waves.dds"
+		color1 = color2
+		color2 = color1
+		instance = {
+			position = { 0.5 0.75 }
+		}
+	}
+	textured_emblem = {
+		texture = "te_oxfort.dds"
+#		instance = {
+#			scale = { 0.8 0.8 }
+#		}
+	}
+}
 ##############################
 PDN = {
 	#textured_emblem = { texture = "V2/PDN.tga" }
@@ -1351,6 +1570,16 @@ ROM = {
 	}
 }
 ###################################
+SEV = {
+	pattern = "pattern_per_bend_senester.dds"
+	color1 = "yellow_dark"
+	color2 = "blue"
+	
+	textured_emblem = {
+		texture = "te_nymph.dds"
+	}
+}
+###################################
 SHC = {
 	pattern = "pattern_solid.tga"
 	color1 = "red"
@@ -1368,7 +1597,55 @@ SLS = {
 	textured_emblem = { texture = "V2/SLS_monarchy.tga" } #Temporary
 }
 ####################################
-#SRM
+SNO = {
+	pattern = "pattern_solid.tga"
+	color1 = "red"
+	color2 = "green"
+	
+	colored_emblem = {
+		texture = "ce_cross_burgundy.dds"
+		color1 = color2
+		instance = {
+			rotation = 45
+			scale = { 0.8 1 }
+			#position = { 0.5 0.4 }
+		}
+	}
+	textured_emblem = {
+		texture = "te_crown.dds"
+		instance = {
+			position = { 0.25 0.2 }
+			scale = { 0.55 0.55 }
+		}
+		instance = {
+			position = { 0.75 0.2 }
+			scale = { 0.55 0.55 }
+		}
+	}
+	textured_emblem = {
+		texture = "te_crown_cut.dds"
+		instance = {
+			position = { 0.5 0.75 }
+			scale = { 0.55 0.55 }
+		}
+	}
+}
+####################################
+SRM = { #Syrmia
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	textured_emblem = {
+		texture = "te_syrmia_2.dds"
+	}
+}
+SRM_subject = {
+	pattern = "pattern_solid.tga"
+	color1 = "yellow"
+	textured_emblem = {
+		texture = "te_syrmia_2.dds"
+		instance = { position = { 0.75 0.5 } }
+	}
+}
 ####################################
 STM = {
 	pattern = "pattern_solid.tga"
@@ -1393,4 +1670,74 @@ TRR = {
 		instance = { position = { 0.5 0.5 } }
 	}
 	textured_emblem = { texture = "te_trier.dds" }
+}
+#####################################
+WLS = {
+	pattern = "pattern_solid.tga"
+	color1 = "green"
+	colored_emblem = {
+		texture = "ce_stripe_center.dds"
+		color1 = "white"
+	}
+	colored_emblem = {
+		texture = "ce_shield_per_cross.dds"
+		color1 = "yellow"
+		color2 = "red"
+		instance = { scale = {0.75 0.75 } }
+	}
+	colored_emblem = {
+		texture = "ce_lion_passant_guardant.dds"
+		color1 = "red"
+		color2 = "azure"
+		color3 = "azure"
+		instance = { scale = { 0.25 0.4 } position = { 0.4125 0.375 } }
+		instance = { scale = { 0.25 0.4 } position = { 0.5875 0.625 } }
+	}
+	colored_emblem = {
+		texture = "ce_lion_passant_guardant.dds"
+		color1 = "yellow"
+		color2 = "azure"
+		color3 = "azure"
+		instance = { scale = { 0.25 0.4 } position = { 0.4125 0.625 } }
+		instance = { scale = { 0.25 0.4 } position = { 0.5875 0.375 } }
+	}
+	colored_emblem = {
+		texture = "ce_dragon_supporter_right.dds"
+		color1 = "red"
+		color2 = "white"
+		instance = { position = { 0.775 0.5 } scale = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_dragon_supporter_left.dds"
+		color1 = "red"
+		color2 = "white"
+		instance = { position = { 0.225 0.5 } scale = { 0.5 0.5 } }
+	}
+}
+WLS_subject = {
+	pattern = "pattern_checkers_01.tga"
+	color1 = "white"
+	color2 = "yellow"
+	colored_emblem = {
+		texture = "ce_solid.dds"
+		color1 = "red"
+		instance = { scale = { 0.5 0.5 } position = { 0.25 0.75 } }
+	}
+	colored_emblem = {
+		texture = "ce_lion_passant_guardant.dds"
+		color1 = "yellow"
+		color2 = "azure"
+		color3 = color1
+		instance = { position = { 0.25 0.75 } scale = { 0.666 0.666 } }
+		#instance = { position = { 0.75 0.25 } scale = { 0.5 0.5 } }
+	}
+	colored_emblem = {
+		texture = "ce_dragon_wales.dds"
+		color1 = "red"
+		instance = { position = { 0.75 0.25 } scale = { 0.5 0.5 } }
+	}
+	textured_emblem = {
+		texture = "te_wales_golden_dragon.dds"
+		instance = { position = { 0.75 0.75 } scale = { 0.5 0.5 } }
+	}
 }

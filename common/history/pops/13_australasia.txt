@@ -65,14 +65,18 @@
 		}
 	}
 	s:STATE_WESTERN_AUSTRALIA = {
-		region_state:FRD = {
+		region_state:IEC = {
 			create_pop = {
 				culture = aborigine
 				size = 34770
 			}
 			create_pop = {
-				culture = danish
-				size = 3004
+				culture = eirean
+				size = 3284
+			}
+			create_pop = {
+				culture = aborigine
+				size = 21100
 			}
 		}
 		region_state:MRG = {
@@ -83,12 +87,6 @@
 			create_pop = {
 				culture = dutch
 				size = 280
-			}
-		}
-		region_state:NNG = {
-			create_pop = {
-				culture = aborigine
-				size = 21100
 			}
 		}
 	}

@@ -1,32 +1,32 @@
-﻿CHARACTERS = {
-	c:AUS = {
-		create_character = {
-			first_name = "Friedrich_III"
-			last_name = "von_Rasso"
-			culture = cu:south_german
-			ruler = yes
-			noble = yes
-			age = 63 #Born 1772
-			interest_group = ig_armed_forces
-			traits = {
-				cruel
-			}
-			on_created = {
-				set_variable = is_married
-			}
-		}
-
-		create_character = {
-			first_name = "Karl_Leopold" #II
-			last_name = "von_Rasso"
-			culture = cu:south_german
-			heir = yes
-			noble = yes
-			age = 43
-			interest_group = ig_petty_bourgeoisie
-			traits = {
-				romantic
-			}
-		}
-	}
-}
+﻿#CHARACTERS = {
+#	c:AUS = {
+#		create_character = {
+#			first_name = "Friedrich_III"
+#			last_name = "von_Rasso"
+#			culture = cu:south_german
+#			ruler = yes
+#			noble = yes
+#			age = 63 #Born 1772
+#			interest_group = ig_armed_forces
+#			traits = {
+#				cruel
+#			}
+#			on_created = {
+#				set_variable = is_married
+#			}
+#		}
+#
+#		create_character = {
+#			first_name = "Karl_Leopold" #II
+#			last_name = "von_Rasso"
+#			culture = cu:south_german
+#			heir = yes
+#			noble = yes
+#			age = 43
+#			interest_group = ig_petty_bourgeoisie
+#			traits = {
+#				romantic
+#			}
+#		}
+#	}
+#}

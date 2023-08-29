@@ -6,7 +6,7 @@
 	tier = empire
 	
 	cultures = { north_german south_german }
-	capital = STATE_BRANDENBURG
+	capital = STATE_HESSE
 }
 
 SCA = {
@@ -27,7 +27,7 @@ FRA = {
 
 	tier = empire
 	
-	cultures = { french }
+	cultures = { francien remenish manchais }
 	capital = STATE_ILE_DE_FRANCE
 }
 
@@ -162,7 +162,7 @@ CAT = {
 
 	tier = principality
 	
-	cultures = { catalan }
+	cultures = { catalan basque }
 	capital = STATE_CATALONIA
 	is_named_from_capital = yes
 }
@@ -175,7 +175,7 @@ FLA = {
 	tier = principality
 	
 	capital = STATE_FLANDERS
-	cultures = { flemish }
+	cultures = { remenish }
 	is_named_from_capital = yes
 }
 
@@ -232,7 +232,7 @@ NAV = {
 	tier = kingdom
 	
 	cultures = { basque }
-	capital = STATE_NAVARRA
+	capital = STATE_BASQUE_COUNTRY
 	is_named_from_capital = yes
 }
 
@@ -1408,7 +1408,7 @@ ACE = {
 	tier = principality
 	
 	capital = STATE_ACEH
-	cultures = { sumatran }
+	cultures = { malay batak sumatran }
 	is_named_from_capital = yes
 }
 
@@ -1463,7 +1463,7 @@ BUR = {
 	
 	tier = kingdom
 	
-	cultures = { burmese }
+	cultures = { burmese mon kachin shan zo karen }
 	capital = STATE_BURMA
 }
 
@@ -1497,7 +1497,7 @@ DAI = {
 	tier = kingdom
 	
 	cultures = { vietnamese }
-	capital = STATE_NAMTRUNG
+	capital = STATE_ANNAM
 }
 
 JAV = {
@@ -1576,7 +1576,7 @@ JOH = {
 	
 	tier = principality
 	
-	capital = STATE_MALAYA
+	capital = STATE_NORTHERN_MALAYA
 	cultures = { malay }
 }
 
@@ -1923,7 +1923,7 @@ IBE = {
 	tier = empire
 	
 	cultures = { hispanian catalan portuguese basque galician }
-	capital = STATE_TOLEDO
+	capital = STATE_GUADALAJARA
 }
 
 COM = {
@@ -2091,7 +2091,7 @@ ANL = {
 	tier = principality
 	
 	cultures = { hispanian }
-	capital = STATE_ANDALUSIA
+	capital = STATE_BETICA
 	is_named_from_capital = yes
 }
 
@@ -2103,7 +2103,7 @@ CAS = {
 	tier = kingdom
 	
 	cultures = { hispanian }
-	capital = STATE_TOLEDO
+	capital = STATE_GUADALAJARA
 	is_named_from_capital = yes
 }
 
@@ -2228,7 +2228,7 @@ KLT = { # Kalimantan
 HTH = { # Hanthawaddy
 	color = { 140 210 160 }
 	
-	country_type = decentralized
+	country_type = recognized
 	
 	tier = principality
 	
@@ -2664,7 +2664,7 @@ COR = {
 	country_type = recognized
 	tier = principality
 	cultures = { corsican }
-	capital = STATE_CORSICA
+	capital = STATE_BEORNICE
 }
 
 TNS = {
@@ -2810,7 +2810,7 @@ TPG = {
 	tier = kingdom
 	cultures = { han }
 	religion = protestant
-	capital = STATE_NANJING
+	capital = STATE_RIAU
 }
 
 GNI = {
@@ -2843,7 +2843,7 @@ GLI = {
 	tier = principality
 	
 	cultures = { galician }
-	capital = STATE_GALICIA
+	capital = STATE_PORTUGALIZA
 }
 
 PAL = {
@@ -3061,3 +3061,4 @@ SCH = {
 	capital = STATE_SCHLESWIG_HOLSTEIN
 	is_named_from_capital = yes
 }
+

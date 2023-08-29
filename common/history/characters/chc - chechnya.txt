@@ -11,7 +11,7 @@
 			is_general = yes
 			commander_rank = commander_rank_2
 			interest_group = ig_devout
-			ideology = ideology_traditionalist
+			ideology = ideology:ideology_traditionalist
 			traits = {
 				pious
 				ambitious

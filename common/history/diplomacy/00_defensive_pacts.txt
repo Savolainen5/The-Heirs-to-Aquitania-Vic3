@@ -1,7 +1,34 @@
 ﻿DIPLOMACY = {
+	
+	c:FRA = {
+		create_diplomatic_pact = {
+			country = c:SEV
+			type = defensive_pact
+		}	
+	}	
+	
+	c:IRE = {
+		create_diplomatic_pact = {
+			country = c:BEO
+			type = defensive_pact
+		}	
+		create_diplomatic_pact = {
+			country = c:EOF
+			type = defensive_pact
+		}	
+		create_diplomatic_pact = {
+			country = c:SNO
+			type = defensive_pact
+		}	
+		create_diplomatic_pact = {
+			country = c:ELY
+			type = defensive_pact
+		}
+	}	
+	
 #	c:AEN = {
 #		create_diplomatic_pact = {
-#			country = c:POR
+#			country = c:GLZ
 #			type = defensive_pact
 #		}	
 #	}	

@@ -8,7 +8,7 @@
 			ruler = yes
 			birth_date = 1788.1.25 # Only year known
 			interest_group = ig_landowners
-			ideology = ideology_traditionalist
+			ideology = ideology:ideology_traditionalist
 			traits = {
 				ambitious
 			}
@@ -22,7 +22,7 @@
 			heir = yes
 			birth_date = 1823.6.14 # Only year known
 			interest_group = ig_devout
-			ideology = ideology_traditionalist
+			ideology = ideology:ideology_traditionalist
 			traits = {
 				ambitious
 			}

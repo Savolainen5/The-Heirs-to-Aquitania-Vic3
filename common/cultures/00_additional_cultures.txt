@@ -455,53 +455,91 @@ malay={
 
 bornean={
 	color={ 224 224 224 }
-	religion = sunni
+	religion = catholic
 	traits = { southeast_asian_heritage malay_culture }
-	male_common_first_names = {
-		Abdullah
-		Al-Mukammal
-		Ali
-		Aziz
-		Idris
-		Isandar
-		Ismail
-		Jaafar
-		Jalil
-		Muabidin
-		Muhammad
-		Riayat
-		Safiuddin
-		Shahabuddin
-		Tuanku
-		Yusuf
+	#Using Aquitanian name pool for first names + some Chinese (sino-Kadaszan), Kadaszan and Western influenced surnames, I'm relying on random internet sources so if we can get an actual Kadaszan or Sabahan bumiputera (or just someone who has a closer tie to the state i.e. lives there) it would be nice
+	male_common_first_names={
+		Achillo Alban Alber Alfons Amance Amede_ Amiel Andieu Ane_ir Anicet Anto_ni Alo_i Arnaud Arroman Aymar
+		Baptisto_u Basil Bastian Beno_ni Benvingut Bero_t Bernat Berenguer Brasc
+		Camil Carle Cesar Ciriac Colau Constantin Cristau Cristo_l Cristo_fol
+		Danis Domician Donat
+		Fabian Faustin Felip Fermin Fide_l Filemon Florentin Frederic Franc
+		Gabrie_u Gaston Gassan German
+		Jacin Jacomin Jan Jaufre Javie_r Jere_mi Jordan Jo_rdi Joset Just Justin
+		Landri Laurenc_ Leandri Leon Leopo_ld Lissandre Lop Luc Luis
+		Miche_u Morgan
+		Nari Nice_fo_r Nicolau Olimp Onorat Orens
+		Pantali Pascau Pau Pe_ire Peyro_t Pier Po_li Pons Privat
+		Rome_u Rosan Rufin
+		Salvaire Savaric Sebastian Sergi Severin Sicard Silvan
+		Teobald Teodor Terenci Ton Totsants Tristan
+		Uc Ulisses Umbert 		
+		Gimbang Kunul Kerupang Galumau Gantuong Empurut Ampingan Sangan Kalan #Kadaszan names
+		Ontoros #Murut
+		Mongin #Bidayuh
 	}
 	female_common_first_names = {
-		Adibah
-		Aishah
-		Faridah
-		Fatimah
-		Maimunah 
-		Nur_Maznah
-		Rafidah
-		Zaharah
-		Zaleha
-	}	
+		Abe_la Ade_la Adriana Agata Agusta Amada Alda Alessia Ambra Anaissa Angelina Antonieta Audeta Auro_ra
+		Batistina Barbara_ Beatriz Bruna
+		Camila Carlo_ta Carolina Carmen Cassania Catalina Cendroleta Chantal Clara Clarissa Claudeta Coleta Colombina Cristiana
+		Dafne_ Dalfina Danie_la Desirada Diana Dorote_a
+		Edita Eliana Elisa Elisabe_t Emmanuela Erminia Esmerauda Eufra_sia Euge_nia Euse_bia E_va Evelina
+		Fabiana Faneta Faustina Felicia Felipina Ferranda Fina Fla_via Florentina Franc_a Frederica
+		Gabriela Gaetana Gaudencia Gema Gilbe_rta Girauda Gise_la Gracia Guislana Gustina
+		Ida Ine_s Ire_na Isabe_l Isaura Ise_u Iveta
+		Jacinta Jacomina Joana Joe_la Judit Julia Julieta Justina
+		Laura Lea Leti_cia Linon Liseta Loba Lu_cia Lucre_cia Lutz
+		Mae_lis Magali Madalena Maili_s Manon Manuela Margarida Maria Martina Matilda Melina Merce_ Miramond Monica Morgana
+		Nadalia Nadina Naneta Ne_us Nico_la Norina
+		Octa_via Ofe_lia Orsula
+		Pascala Patricia Patz Paula Pe_ira Plasenc_a Prima
+		Rafe_la Raimonda Rejana Rita Robina Ro_sa Rosana Roxana Rut
+		Sabina Sareta Serena Sibilha Silvia Simona Solanja Susanna
+		Tatiana Tere_sa Ugueta Valenta Verana Victorina Viva Zita Zoe_
+		Semitah Rengkumas Ansayu Baimin Salud Amin Nani Mainah Imulok Lombukin #Kadaszan names
+	}
 	noble_last_names = {
-		Bendahara
-		bin_Nik
-		Jamalullail
+		Andrieu
+		Mogunting
+		Wong Yap #Sino-native clans
+		Ganitan
+		Majalap 
+		Jokinol 
+		Manjaji 
+		Mojikon 
+		Lopinjang
 	}
-	common_last_names = {
-		Aadzam
-		Bendahara
-		Muadzam
-		Murshidul
-		Raja_Ahmad
-		Raja_Inu
-		Riayat_Shah
-		al-Khairat
-		al-Marhum
+	common_last_names={
+		Achillo Alban Alber Alfons Amance Amede_ Amiel Andieu Ane_ir Anicet Anto_ni Alo_i Arnaud Arroman Aymar	#Using father's name as name convention for Kadaszan
+		Baptisto_u Basil Bastian Beno_ni Benvingut Bero_t Bernat Berenguer Brasc
+		Camil Carle Cesar Ciriac Colau Constantin Cristau Cristo_l Cristo_fol
+		Danis Domician Donat
+		Fabian Faustin Felip Fermin Fide_l Filemon Florentin Frederic Franc
+		Gabrie_u Gaston Gassan German
+		Jacin Jacomin Jan Jaufre Javie_r Jere_mi Jordan Jo_rdi Joset Just Justin
+		Landri Laurenc_ Leandri Leon Leopo_ld Lissandre Lop Luc Luis
+		Miche_u Morgan
+		Nari Nice_fo_r Nicolau Olimp Onorat Orens
+		Pantali Pascau Pau Pe_ire Peyro_t Pier Po_li Pons Privat
+		Rome_u Rosan Rufin
+		Salvaire Savaric Sebastian Sergi Severin Sicard Silvan
+		Teobald Teodor Terenci Ton Totsants Tristan
+		Uc Ulisses Umbert 		
+		Gimbang Kunul Kerupang Galumau Gantuong Empurut Ampingan Sangan Kalan
+		anak_Mongin anak_Jawong # Using father's name as name convention for Bidayuh
+		Motinggot				# Kadsazan surnames
+		Malajau 
+		Kinanjim 
+		Matangkap 
+		Tombilon 
+		Ganitan
+		Kinayu 
+		Mahansad 
+		Takajan 
+		Batanjal
+		Mojimbong
 	}
+	
 	ethnicities = {
 		1 = asian
 	}
@@ -807,3 +845,185 @@ assyrian={
 	}
 	graphics = mideast_indian
 }
+
+circassian = {
+	color= rgb{ 62 86 55 }
+	religion = sunni
+	traits = { caucasus_group european_heritage }
+
+	male_common_first_names = {
+		Aidamir
+		Aliy
+		Amirkhan
+		Azik
+		Qerandiqo
+		Hatajuq
+		Ismail
+		Shuwpagwe
+		Sefer
+		Qarabatir
+		Ibrahim
+		Hasan
+		Muhammad
+		Inarmas
+		Aksak
+		Kudenet
+		Dokshuka
+		Khizir
+		Kuba
+		Mukhadin
+		Nalbi
+		Nedighe
+		Petrezok
+		Shumaf
+		Anfoko
+		Tlepsh
+		Zalimkhan
+		Aleguko
+		Zawirbiy
+		Ziramikw
+	}
+	female_common_first_names = {
+		Adiyiku
+		Ayshet
+		Bzcho
+		Elmeskhan
+		Fatme
+		Fayzet
+		Fyzh
+		Gupse
+		Gwaschemasche
+		Lashyn
+		Madiyne	
+		Mariyne
+		Marzet
+		Naghwe
+		Nakihat
+		Pizchine
+		Sakinat
+		Sataney
+		Temare
+		Zahret
+		Xwzchpagwe
+		Zhanwise
+		Zulima
+	}
+	noble_last_names = {
+		Berzeg
+		Zaneqo
+		Qalawebateqo
+		Aublaa
+		Diman
+		Shogenukov
+		Atazhuko
+		Boletoqo
+		Shirikhuqo
+		Akhedjaqo
+		Khirtsizhiqo
+	}
+	common_last_names = {
+		Achazh
+		Baga
+		Bzish
+		Berqa
+		Jarem
+		Yamezagh
+		Yarghuzh
+		Qakhw
+		Malish
+		Mafawud
+		Natkho
+		Namilhaqu
+		Watah
+		Sakhut
+		Thaqwakho
+		Tiqo
+		Tiw
+		Hapiy
+		Hatkh
+		Hatuw
+		Shiwmizh
+		Chemso
+		Abir
+		Bzac
+		Candar
+		Khapaye
+		Yiwnih
+		Qalebate
+		Khabatir
+		Tughuzhuqo
+	}
+
+	ethnicities = {
+		1 = north_caucasian
+	}
+	graphics = european
+}
+
+francoprovencal = {
+	color= rgb{ 158 41 12 }
+	religion = catholic
+	traits = { francophone swiss european_heritage }
+
+	male_common_first_names = {
+		AmE_dE_ AntouE_no Anjo Adrien Armand Andre
+		BarthE_lemy BernA_rd 
+		ChA_rlo CE_sA_r 
+		E_douard E_manuE_l Ercole Ernest E_tiE_no
+		Franc_E_s Felipo Fabien FE_rnand
+		GaspA_r GllO_do GuelyO_mo Gabriel Gaston
+		Henri Hildebrand Hugo Hiacinte
+		Jian Justo JosE_t JosE_t-Marie Jules JA_que JO_rjo Jian-E_tiE_no
+		Louis Laurence LE_O_
+		Martin Michel MO_ris Marc Marius
+		NicolA_s
+		O_gusto
+		PO_l Pierro
+		Roberto RenE_ Rogi_E_r
+		Simon Sandro
+		Tom_A_s
+		Victor VA_rtiE_r
+	}
+	female_common_first_names = {
+		Adelayida Ana
+		BE_atriz Bianca BE_rta
+		Cristina
+		Denise
+		FE_dE_rica FelibE_rta
+		GabriE_la GllO_dina Guila
+		JiA_na
+		Louise LE_onora LO_ra
+		Maria MargarE_ta
+		O_rE_lie
+		Sara
+		Yolanda
+	}
+	common_last_names = {
+		Ansermet Anthonioz Addor Aynard Ambuel Asperlin Agodino Auberjonois
+		Blavignac Berlioz Burdet Baud Balavoine Boissonnas Bret Beller Bornens Brand Bal Baizelon Berthoz Bornichet Buffat BiO_rd Blatter BurcA_rd
+		Chappuis Chappaz Combaz Choisy Christen Charvaz Catagnolaz Cattin Calliaz Chatagnat Cognac Colletaz Corchier Curtenaz Curial CO_rtecuisse Clerc Chaudet Comtesse
+		Dunant Deletraz Deruaz Ducroz Dupraz Darier Destraz Denkinger Duckert Dorz Decurninge Desgrande DiE_moz Demotz Dufour
+		Elzingre Epelly Esquillan Eigler
+		Fritz Fabri Fournier Ferrier Franchet Fumaz Fornerod Fogliardi
+		Girardin Gotteland Gaillard Goth Genequand Guillot Gonnet Gaydioz Godet Gustaz Grainez Gachet Gendre Goddet Gonod Guonoz GO_chat Guisan
+		Hugonnin Hirschgartner
+		Jaquet Jacottet Jacquier Josseron Journal Justiniani Jardinier Jost Jordan Jans Jeanjaquet Jolissaint
+		Keller
+		Lenoir Lucas Lacombe Laplace Laperiere Laravoire Lucendre LE_pine LiotA_rd
+		Morand Mugnier Martin Matossi Maystre Muller Mermillod Machard Maillet Messiez Metraz Michard Molaz Morel Mortmard Moyriaz ME_rmelyO_d
+		Nicoud Neyret
+		Ostervald
+		Pernoud Personnaz Poulin PagE_t Parenthoux Pellet Pernod Pochon
+		Quillot
+		Ronjat Riond Rivollet Roehrich Rochat Roten Ruffinen Rosand Roloz Ramuz Ruchet Ruchonnet
+		Saillet Samoens SursE_x SolA_r Sache Saunier Sermet Squilian Sonzhon
+		Thomas Tronchin Tissot Taninge Tasso Tappolet Truffier
+		Vittoz Vaucher Vulliet Vallette VeiniE_ Vincent Vionnet Viviant Voisin
+	}
+
+	ethnicities = {
+		1 = caucasian
+	}
+	graphics = european
+}
+

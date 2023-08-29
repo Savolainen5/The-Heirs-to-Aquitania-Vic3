@@ -1,5 +1,6 @@
-﻿COUNTRIES = {
-	c:AEN = {
+﻿#Please keep entries here in alhpabetical order by tag for easier sorting
+COUNTRIES = {
+	c:BEO = {
 		
 		effect_starting_technology_tier_1_tech = yes
 
@@ -15,12 +16,173 @@
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_colonial_resettlement
+		activate_law = law_type:law_dedicated_police
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_censorship
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+		
+		ig:ig_devout = {
+			set_interest_group_name = ig_evangelical_church
+		}
+	}
+	c:EOF = {
+		
+		effect_starting_technology_tier_1_tech = yes
+
+		set_tax_level = medium
+		
+		# Laws
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_wealth_voting
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_colonial_resettlement
+		activate_law = law_type:law_dedicated_police
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_censorship 
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+		
+		ig:ig_devout = {
+			set_interest_group_name = ig_evangelical_church
+		}
+	}
+	c:SEV = {
+		
+		effect_starting_technology_tier_1_tech = yes
+
+		set_tax_level = medium
+		
+		# Laws
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_wealth_voting
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_colonial_resettlement
+		activate_law = law_type:law_dedicated_police
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_censorship 
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+		
+		ig:ig_devout = { 
+			set_interest_group_name = ig_catholic_church 
+		}
+	}
+	c:ELY = {
+		
+		effect_starting_technology_tier_1_tech = yes
+
+		set_tax_level = medium
+		
+		# Laws
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_wealth_voting
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_colonial_resettlement
 		activate_law = law_type:law_dedicated_police
 		activate_law = law_type:law_professional_army
 		activate_law = law_type:law_censorship # The July Monarchy was already backtracking on promises made in 1830
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+		
+		ig:ig_devout = {
+			set_interest_group_name = ig_evangelical_church
+		}
+	}
+	c:SNO = {
+		
+		effect_starting_technology_tier_1_tech = yes
+
+		set_tax_level = medium
+		
+		# Laws
+		activate_law = law_type:law_presidential_republic
+		activate_law = law_type:law_wealth_voting
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_colonial_resettlement
+		activate_law = law_type:law_dedicated_police
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_censorship 
+
+		ig:ig_landowners = {
+			add_ruling_interest_group = yes
+		}
+		
+		ig:ig_devout = {
+			set_interest_group_name = ig_evangelical_church
+		}
+	}
+	c:OXF = {
+		
+		effect_starting_technology_tier_1_tech = yes
+
+		set_tax_level = medium
+		
+		# Laws
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_wealth_voting
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_per_capita_based_taxation
+		activate_law = law_type:law_colonial_resettlement
+		activate_law = law_type:law_dedicated_police
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_censorship 
 
 		ig:ig_landowners = {
 			add_ruling_interest_group = yes
@@ -48,12 +210,13 @@
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_colonial_resettlement
 		activate_law = law_type:law_dedicated_police
 		activate_law = law_type:law_professional_army
-		activate_law = law_type:law_censorship # The July Monarchy was already backtracking on promises made in 1830
+		activate_law = law_type:law_censorship 
 
 			
 		set_institution_investment_level = {
@@ -83,16 +246,16 @@
 			set_ig_suppression = yes
 		}
 	}
-	c:AUS = {
-		effect_starting_technology_tier_2_tech = yes
-		
-		effect_starting_politics_conservative = yes
-	}
-	c:BBG = {
-		effect_starting_technology_tier_2_tech = yes
-		
-		effect_starting_politics_conservative = yes
-	}
+#	c:AUS = {
+#		effect_starting_technology_tier_2_tech = yes
+#		
+#		effect_starting_politics_conservative = yes
+#	}
+#	c:BBG = {
+#		effect_starting_technology_tier_2_tech = yes
+#		
+#		effect_starting_politics_conservative = yes
+#	}
 	c:BOH = {
 		effect_starting_technology_tier_1_tech = yes
 		
@@ -111,11 +274,16 @@
 #		activate_law = law_type:law_censorship
 #		activate_law = law_type:law_land_based_taxation	
 #	}
-	c:CLN = {
-		effect_starting_technology_tier_1_tech = yes
+	c:CAT = {
+		effect_starting_technology_tier_2_tech = yes
 		
 		effect_starting_politics_conservative = yes
 	}
+#	c:CLN = {
+#		effect_starting_technology_tier_1_tech = yes
+#		
+#		effect_starting_politics_conservative = yes
+#	}
 	c:CRO = {
 		effect_starting_technology_tier_2_tech = yes
 		
@@ -150,7 +318,8 @@
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_colonial_resettlement
 		activate_law = law_type:law_dedicated_police
@@ -185,6 +354,62 @@
 #			set_ig_suppression = yes
 #		}
 	}
+	c:FRA = { #Frankonia
+		#set_next_election_date = 1837.11.4
+		
+		effect_starting_technology_tier_1_tech = yes
+
+		set_tax_level = medium
+		
+		add_taxed_goods = g:liquor
+		
+		# Laws
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_wealth_voting
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_appointed_bureaucrats
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_professional_army
+		activate_law = law_type:law_national_guard
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_protectionism
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_colonial_exploitation
+		activate_law = law_type:law_local_police
+		activate_law = law_type:law_religious_schools
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_women_own_property
+		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_tenant_farmers
+
+			
+		set_institution_investment_level = {
+			institution = institution_schools
+			level = 2
+		}
+
+		set_institution_investment_level = {
+			institution = institution_colonial_affairs
+			level = 1
+		}
+
+		ig:ig_landowners = { # Victor de Broglie was Prime Minister until February 22, 1836
+			add_ruling_interest_group = yes
+		}
+		
+		ig:ig_industrialists = {
+			add_ruling_interest_group = yes
+		}		
+		
+		ig:ig_devout = { 
+			set_interest_group_name = ig_catholic_church 
+		}
+
+		ig:ig_intelligentsia = {
+			set_ig_suppression = yes
+		}
+	}
+
 	c:GEO = {
 		effect_starting_technology_tier_4_tech = yes
 		
@@ -215,14 +440,87 @@
 #		
 #		effect_starting_politics_conservative = yes
 #	}
-	c:HHB = {
-		effect_starting_technology_tier_2_tech = yes
+	c:GLZ = { #Galiza, stuff copied straight from POR
+		effect_starting_technology_tier_3_tech = yes
+		effect_starting_politics_conservative = yes
+		
+		add_taxed_goods = g:liquor
+		add_taxed_goods = g:coffee
+		
+		set_tariffs_import_priority = g:artillery
+		set_tariffs_import_priority = g:small_arms	
+	
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_freedom_of_conscience
+		activate_law = law_type:law_oligarchy
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_cultural_exclusion
+		activate_law = law_type:law_mercantilism
+		activate_law = law_type:law_interventionism
+		activate_law = law_type:law_censorship
+		activate_law = law_type:law_colonial_exploitation
+		activate_law = law_type:law_charitable_health_system
+
+		set_tax_level = medium
+
+		ig:ig_devout = {
+			set_ig_suppression = yes
+			set_interest_group_name = ig_catholic_church
+		}
+	}
+#	c:HHB = { #Hochburg (I think), removed in 2023 rework
+#		effect_starting_technology_tier_2_tech = yes
+#		
+#		effect_starting_politics_conservative = yes
+#		activate_law = law_type:law_censorship
+#		activate_law = law_type:law_national_supremacy
+#	}
+	c:IRE = {
+		effect_starting_technology_tier_1_tech = yes
 		
 		effect_starting_politics_conservative = yes
-		activate_law = law_type:law_censorship
-		activate_law = law_type:law_national_supremacy
 	}
-	c:HIS = {
+#	c:JEB = { #Jebenhausen, removed in 2023 rework
+#		effect_starting_technology_tier_2_tech = yes
+#		
+#		effect_starting_politics_conservative = yes
+#		activate_law = law_type:law_censorship
+#		activate_law = law_type:law_national_supremacy
+#	}
+	c:KAB = {
+		effect_starting_technology_tier_6_tech = yes
+		
+		effect_starting_politics_conservative = yes
+		
+		activate_law = law_type:law_monarchy
+		activate_law = law_type:law_state_religion
+		activate_law = law_type:law_national_supremacy
+		activate_law = law_type:law_traditionalism
+		activate_law = law_type:law_right_of_assembly
+		activate_law = law_type:law_land_based_taxation
+		activate_law = law_type:law_peasant_levies
+		activate_law = law_type:law_no_police
+		activate_law = law_type:law_no_schools
+		activate_law = law_type:law_isolationism
+	}
+	c:KRI = {
+		effect_starting_technology_tier_1_tech = yes
+		
+		effect_starting_politics_conservative = yes
+	}
+#	c:LDN = { #Ladenburg, removed in 2023 rework
+#		effect_starting_technology_tier_2_tech = yes
+#		
+#		effect_starting_politics_conservative = yes
+#		activate_law = law_type:law_censorship
+#		activate_law = law_type:law_national_supremacy
+#	}
+#	c:LIT = {
+#		effect_starting_technology_tier_2_tech = yes
+#		
+#		effect_starting_politics_conservative = yes
+#	}
+	c:MAU = {
 		set_next_election_date = 1836.7.13
 		
 		effect_starting_technology_tier_3_tech = yes
@@ -270,51 +568,6 @@
 			add_ideology = ideology_pious
 		}
 	}
-	c:IRE = {
-		effect_starting_technology_tier_1_tech = yes
-		
-		effect_starting_politics_conservative = yes
-	}
-	c:JEB = {
-		effect_starting_technology_tier_2_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		activate_law = law_type:law_censorship
-		activate_law = law_type:law_national_supremacy
-	}
-	c:KAB = {
-		effect_starting_technology_tier_6_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		
-		activate_law = law_type:law_monarchy
-		activate_law = law_type:law_state_religion
-		activate_law = law_type:law_national_supremacy
-		activate_law = law_type:law_traditionalism
-		activate_law = law_type:law_right_of_assembly
-		activate_law = law_type:law_land_based_taxation
-		activate_law = law_type:law_peasant_levies
-		activate_law = law_type:law_no_police
-		activate_law = law_type:law_no_schools
-		activate_law = law_type:law_isolationism
-	}
-	c:KRI = {
-		effect_starting_technology_tier_1_tech = yes
-		
-		effect_starting_politics_conservative = yes
-	}
-	c:LDN = {
-		effect_starting_technology_tier_2_tech = yes
-		
-		effect_starting_politics_conservative = yes
-		activate_law = law_type:law_censorship
-		activate_law = law_type:law_national_supremacy
-	}
-#	c:LIT = {
-#		effect_starting_technology_tier_2_tech = yes
-#		
-#		effect_starting_politics_conservative = yes
-#	}
 	c:MLT = {
 		effect_starting_technology_tier_3_tech = yes
 		
@@ -328,18 +581,18 @@
 		activate_law = law_type:law_censorship
 		activate_law = law_type:law_land_based_taxation	
 	}
-	c:MNZ = {
-		effect_starting_technology_tier_2_tech = yes
-		
-		activate_law = law_type:law_presidential_republic
-		activate_law = law_type:law_wealth_voting
-		activate_law = law_type:law_free_trade
-		activate_law = law_type:law_right_of_assembly
-		activate_law = law_type:law_religious_schools
-		activate_law = law_type:law_consumption_based_taxation
-		activate_law = law_type:law_censorship
-		activate_law = law_type:law_national_supremacy
-	}
+#	c:MNZ = {
+#		effect_starting_technology_tier_2_tech = yes
+#		
+#		activate_law = law_type:law_presidential_republic
+#		activate_law = law_type:law_wealth_voting
+#		activate_law = law_type:law_free_trade
+#		activate_law = law_type:law_right_of_assembly
+#		activate_law = law_type:law_religious_schools
+#		activate_law = law_type:law_consumption_based_taxation
+#		activate_law = law_type:law_censorship
+#		activate_law = law_type:law_national_supremacy
+#	}
 #	c:MCD = {
 #		effect_starting_technology_tier_2_tech = yes
 #		
@@ -368,7 +621,7 @@
 		activate_law = law_type:law_interventionism
 		activate_law = law_type:law_colonial_exploitation
 		activate_law = law_type:law_dedicated_police
-		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_right_of_assembly
 
 		set_institution_investment_level = {
@@ -403,7 +656,8 @@
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_colonial_resettlement
 		activate_law = law_type:law_dedicated_police
@@ -456,7 +710,8 @@
 		activate_law = law_type:law_national_supremacy
 		activate_law = law_type:law_mercantilism
 		activate_law = law_type:law_interventionism
-		activate_law = law_type:law_public_schools
+		activate_law = law_type:law_tenant_farmers
+		activate_law = law_type:law_religious_schools
 		activate_law = law_type:law_per_capita_based_taxation
 		activate_law = law_type:law_colonial_resettlement
 		activate_law = law_type:law_dedicated_police
@@ -501,6 +756,11 @@
 		
 		effect_starting_politics_conservative = yes
 	}
+	c:SLO = {
+		effect_starting_technology_tier_2_tech = yes
+		
+		effect_starting_politics_conservative = yes
+	}
 	c:SRM = {
 		effect_starting_technology_tier_2_tech = yes
 		
@@ -535,8 +795,13 @@
 		
 		effect_starting_politics_conservative = yes
 	}
-	c:WES = {
-		effect_starting_technology_tier_1_tech = yes
+#	c:WES = {
+#		effect_starting_technology_tier_1_tech = yes
+#		
+#		effect_starting_politics_conservative = yes
+#	}
+	c:WLS = {
+		effect_starting_technology_tier_2_tech = yes
 		
 		effect_starting_politics_conservative = yes
 	}

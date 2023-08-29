@@ -286,24 +286,24 @@
 #			goods = luxury_furniture
 #			level = 2
 #			direction = import
-#			target = c:HIS.market
+#			target = c:MAU.market
 #		}		
 	}
 
 	# Sweden 	
-#	c:SWE = {	
+	c:SWE = {	
 #		create_trade_route = {
 #			goods = tools
 #			level = 7
 #			direction = import
 #			target = c:PRU.market
 #		}	
-#		create_trade_route = {
-#			goods = hardwood
-#			level = 7
-#			direction = export
-#			target = c:AEN.market
-#		}			
+		create_trade_route = {
+			goods = hardwood
+			level = 2
+			direction = export
+			target = c:IRE.market
+		}			
 #		create_trade_route = {
 #			goods = luxury_furniture
 #			level = 2
@@ -334,30 +334,30 @@
 #			direction = import
 #			target = c:PRU.market
 #		}			
-#	}
+	}
 	
 	
 	# Bremen
-	c:BRE = {		
-		create_trade_route = {
-			goods = paper
-			level = 2
-			direction = export
-			target = c:DEN.market
-		}
-		create_trade_route = {
-			goods = wood
-			level = 1
-			direction = import
-			target = c:SWE.market
-		}
-		create_trade_route = {
-			goods = clippers
-			level = 1
-			direction = import
-			target = c:DEN.market
-		}			
-	}
+#	c:BRE = {		
+#		create_trade_route = {
+#			goods = paper
+#			level = 2
+#			direction = export
+#			target = c:DEN.market
+#		}
+#		create_trade_route = {
+#			goods = wood
+#			level = 1
+#			direction = import
+#			target = c:SWE.market
+#		}
+#		create_trade_route = {
+#			goods = clippers
+#			level = 1
+#			direction = import
+#			target = c:DEN.market
+#		}			
+#	}
 
 	# Krivia
 	c:KRI = {	
@@ -436,11 +436,11 @@
 	}
 
 	# Portugal
-#	c:POR = {
+#	c:GLZ = {
 #	}
 
 	# Hispania
-	c:HIS = {	
+#	c:MAU = {	
 #		create_trade_route = {
 #			goods = tools
 #			level = 3
@@ -453,37 +453,37 @@
 #			direction = import
 #			target = c:KRI.market
 #		}			
-		create_trade_route = {
-			goods = small_arms
-			level = 4
-			direction = import
-			target = c:AEN.market
-		}		
+#		create_trade_route = {
+#			goods = small_arms
+#			level = 4
+#			direction = import
+#			target = c:AEN.market
+#		}		
 #		create_trade_route = {
 #			goods = porcelain
 #			level = 3
 #			direction = import
 #			target = c:QIN.market
 #		}		
-		create_trade_route = {
-			goods = luxury_furniture
-			level = 3
-			direction = import
-			target = c:AQT.market
-		}
-		create_trade_route = {
-			goods = tobacco
-			level = 1 #3
-			direction = export
-			target = c:AQT.market
-		}			
-		create_trade_route = {
-			goods = furniture
-			level = 1 #5
-			direction = import
-			target = c:AQT.market
-		}
-	}
+#		create_trade_route = {
+#			goods = luxury_furniture
+#			level = 3
+#			direction = import
+#			target = c:AQT.market
+#		}
+#		create_trade_route = {
+#			goods = tobacco
+#			level = 1 #3
+#			direction = export
+#			target = c:AQT.market
+#		}			
+#		create_trade_route = {
+#			goods = furniture
+#			level = 1 #5
+#			direction = import
+#			target = c:AQT.market
+#		}
+#	}
 
 	# Austria
 #	c:AUS = {

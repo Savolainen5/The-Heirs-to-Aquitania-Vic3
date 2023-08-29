@@ -7,7 +7,7 @@
 			age = 43 #Born 1792
 			#dna = dna_king_rama_03
 			interest_group = ig_landowners
-			ideology = ideology_moderate # "modernizer"?
+			ideology = ideology:ideology_moderate # "modernizer"?
 			traits = {
 				charismatic
 			}
@@ -20,7 +20,7 @@
 			heir = yes
 			age = 21 #Born 1814
 			interest_group = ig_landowners
-			ideology = ideology_moderate # "modernizer"?
+			ideology = ideology:ideology_moderate # "modernizer"?
 			traits = {
 				charismatic
 			}

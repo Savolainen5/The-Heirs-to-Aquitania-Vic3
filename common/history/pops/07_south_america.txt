@@ -50,7 +50,7 @@ POPS = {
 				size = 3588
 			}
 			create_pop = {
-				culture = french
+				culture = francien
 				size = 1592
 			}
 			create_pop = {
@@ -442,7 +442,7 @@ POPS = {
 		}
 	}
 	s:STATE_URUGUAY = {
-		region_state:POR = {
+		region_state:GLZ = {
 			create_pop = {
 				culture = prateado
 				size = 95192
@@ -477,7 +477,7 @@ POPS = {
 				size = 4000
 			}
 		}
-		region_state:POR = {
+		region_state:GLZ = {
 			create_pop = {
 				culture = prateado
 				size = 29304
@@ -531,7 +531,7 @@ POPS = {
 		}
 	}
 	s:STATE_BUENOS_AIRES = {
-		region_state:POR = {
+		region_state:GLZ = {
 			create_pop = {
 				culture = prateado
 				size = 206600
@@ -570,7 +570,7 @@ POPS = {
 		}
 	}
 	s:STATE_RIO_NEGRO = {
-		region_state:POR = {
+		region_state:GLZ = {
 			create_pop = {
 				culture = patagonian
 				size = 23880
@@ -591,7 +591,7 @@ POPS = {
 		}
 	}
 	s:STATE_LA_PAMPA = {
-		region_state:POR = {
+		region_state:GLZ = {
 			create_pop = {
 				culture = prateado
 				size = 159740
@@ -612,7 +612,7 @@ POPS = {
 		}
 	}
 	s:STATE_SANTA_FE = {
-		region_state:POR = {
+		region_state:GLZ = {
 			create_pop = {
 				culture = prateado
 				size = 94658
@@ -635,7 +635,7 @@ POPS = {
 		}
 	}
 	s:STATE_CORRIENTES = {
-		region_state:POR = {
+		region_state:GLZ = {
 			create_pop = {
 				culture = prateado
 				size = 101462
@@ -660,7 +660,7 @@ POPS = {
 		}
 	}
 	s:STATE_TUCUMAN = {
-		region_state:POR = {
+		region_state:GLZ = {
 			create_pop = {
 				culture = prateado
 				size = 76078
@@ -691,7 +691,7 @@ POPS = {
 				size = 8500
 			}
 		}
-		region_state:POR = {
+		region_state:GLZ = {
 			create_pop = {
 				culture = prateado
 				size = 36004
@@ -757,7 +757,7 @@ POPS = {
 		}
 	}
 	s:STATE_SOUTH_ATLANTIC_ISLANDS = {
-		region_state:AEN = {
+		region_state:FRA = {
 			create_pop = {
 				culture = aenglish
 				size = 14540
@@ -831,7 +831,7 @@ POPS = {
 		}
 	}
 	s:STATE_RIO_GRANDE_DO_SUL = {
-		region_state:POR = {
+		region_state:GLZ = {
 			create_pop = {
 				culture = prateado
 				size = 116681
@@ -852,7 +852,7 @@ POPS = {
 		}
 	}
 	s:STATE_PARANA = { # Parana, 1830. 36566 total.
-		region_state:POR = {
+		region_state:GLZ = {
 			create_pop = {
 				culture = cruzan
 				size = 20444
@@ -869,7 +869,7 @@ POPS = {
 		}
 	}
 	s:STATE_SANTA_CATARINA = { # 1836 estimate. 61753 total.
-		region_state:POR = {
+		region_state:GLZ = {
 			create_pop = {
 				culture = prateado
 				size = 35582

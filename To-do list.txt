@@ -15,3 +15,5 @@ Political map:
 Countries:
 - Japanese religious stuff
 - Korean POPs
+
+- Some provinces may have incorrect terrains?

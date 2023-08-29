@@ -1,7 +1,7 @@
 ﻿DIPLOMACY = {
 	#European masters first
 	
-	c:AEN = {
+	c:IRE = {
 
 		### AUSTRALIA ###
 		# Colony of Gewisse
@@ -9,21 +9,28 @@
 			country = c:GWS
 			type = puppet
 		}
-		
+		create_diplomatic_pact = {
+			country = c:IEC #Irish East India Company
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:PAJ #Sunda
+			type = puppet
+		}
 		# United Tribes of New Zealand
 		#create_diplomatic_pact = {
 		#	country = c:UNT
 		#	type = dominion
 		#}
 		
-		# Gledy
+		# Beornicia
 		create_diplomatic_pact = {
-			country = c:GLE
+			country = c:BEO
 			type = puppet
 		}
-		# Colony of Logria
+		# Weales
 		create_diplomatic_pact = {
-			country = c:LOG
+			country = c:WLS
 			type = puppet
 		}
 	}
@@ -43,13 +50,18 @@
 			country = c:LAZ
 			type = puppet
 		}
-	}
-	c:AUS = {
+		#Catalonia-Navarre
 		create_diplomatic_pact = {
-			country = c:CRO
+			country = c:CAT
 			type = puppet
 		}
 	}
+#	c:AUS = {
+#		create_diplomatic_pact = {
+#			country = c:CRO
+#			type = puppet
+#		}
+#	}
 	c:BOH = {
 		create_diplomatic_pact = {
 			country = c:SRM
@@ -59,12 +71,16 @@
 			country = c:WAL
 			type = puppet
 		}
+#		create_diplomatic_pact = {
+#			country = c:HOL
+#			type = puppet
+#		}
 	}
 	c:DEN = {
-		create_diplomatic_pact = {
-			country = c:HOL
-			type = personal_union
-		}
+#		create_diplomatic_pact = {
+#			country = c:HOL
+#			type = personal_union
+#		}
 		create_diplomatic_pact = {
 			country = c:NOR
 			type = personal_union
@@ -76,11 +92,11 @@
 			country = c:ASL
 			type = puppet
 		}
-		# Colony of Frederiksland
-		create_diplomatic_pact = {
-			country = c:FRD
-			type = puppet
-		}
+#		# Colony of Frederiksland
+#		create_diplomatic_pact = {
+#			country = c:FRD
+#			type = puppet
+#		}
 	}
 	c:FRA = {
 		# Colony of Mariana
@@ -88,8 +104,16 @@
 			country = c:MAR
 			type = puppet
 		}
+		create_diplomatic_pact = {
+			country = c:NET
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:TRR
+			type = puppet
+		}
 	}
-	c:HIS = {
+	c:GLZ = {
 		create_diplomatic_pact = {
 			country = c:NGR
 			type = puppet
@@ -107,22 +131,23 @@
 			type = puppet
 		}
 		create_diplomatic_pact = {
-			country = c:NUT
+			country = c:NUT #Nutca
 			type = puppet
 		}
-		create_diplomatic_pact = {
-			country = c:ZBG
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:LRT
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:HEG
-			type = puppet
-		}
+#		create_diplomatic_pact = {
+#			country = c:ZBG #Zamboanga
+#			type = puppet
+#		}
+#		create_diplomatic_pact = {
+#			country = c:LRT #Larantuka
+#			type = puppet
+#		}
+#		create_diplomatic_pact = {
+#			country = c:HEG #Hegoaldea, in New Zealand
+#			type = puppet
+#		}
 	}
+
 #	c:KAB = {							#Countries of the lowest rank aren't allowed to have vassals, which seems strange to me. This should be changed in the mod
 #		create_diplomatic_pact = {
 #			country = c:CHC
@@ -135,29 +160,19 @@
 			type = puppet
 		}
 	}
-	c:NAP = {
+	c:MAU = {
 		create_diplomatic_pact = {
-			country = c:MLT
+			country = c:CTS #Viceroyalty of Celates (Spanish Malaya, Taiwan and Indochina)
+			type = puppet
+		}
+		create_diplomatic_pact = {
+			country = c:LPG #Kingdom of Lampung
 			type = puppet
 		}
 	}
-	c:NET = {
+	c:NAP = {
 		create_diplomatic_pact = {
-			country = c:GDL
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:NHL
-			type = puppet
-		}
-		create_diplomatic_pact = {
-			country = c:SAF
-			type = puppet
-		}
-		
-		# "Colony" of Maregen
-		create_diplomatic_pact = {
-			country = c:MRG
+			country = c:MLT
 			type = puppet
 		}
 	}
@@ -194,6 +209,10 @@
 		create_diplomatic_pact = {
 			country = c:TOH
 			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:NST
+			type = puppet
 		}
 	}
 	c:MRT = {
@@ -245,6 +264,10 @@
 		}
 		create_diplomatic_pact = {
 			country = c:SIH
+			type = vassal
+		}
+		create_diplomatic_pact = {
+			country = c:DAI
 			type = vassal
 		}
 	}

@@ -1,14 +1,4 @@
-﻿AJP = { #Ajatperrang Confederation
-	color = { 200 15 15 }
-	
-	country_type = unrecognized
-	
-	tier = kingdom
-	
-	cultures = { moluccan }
-	capital = STATE_CELEBES 
-}
-ASM = { # Assam
+﻿ASM = { # Assam
 	color = { 163 5 77 }
 	
 	country_type = unrecognized
@@ -59,6 +49,26 @@ BTK = { #Batak
 	cultures = { batak }
 	capital = STATE_ACEH
 }
+CTS = { #Viceroyalty of Celates/Spanish East Indies
+	color = { 12 131 153 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+	
+	cultures = { eurasian hispanian }
+	capital = STATE_SOUTHERN_MALAYA
+}
+CHA = { #Champa
+	color = { 235 25 45 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { sumatran }
+	capital = STATE_NAMTRUNG
+}
 DEL = { #Kingdom of Deli
 	color = { 245 245 40 }
 	
@@ -99,6 +109,16 @@ HDR = { #Hadramaut
 	cultures = { bedouin }
 	capital = STATE_YEMEN
 }
+IEC = { #Irish East India Company
+	color = { 12 131 153 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+	
+	cultures = { eirean }
+	capital = STATE_WEST_JAVA
+}
 IDG = { #Kingdom of Indragiri
 	color = { 130 180 140 }
 	
@@ -107,7 +127,27 @@ IDG = { #Kingdom of Indragiri
 	tier = kingdom
 	
 	cultures = { sumatran }
-	capital = STATE_NORTH_SUMATRA 
+	capital = STATE_RIAU
+}
+IDP = { #Kingdom of Inderapura
+	color = { 20 30 100 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { malay sumatran }
+	capital = STATE_WEST_SUMATRA
+}
+IGO = { #Igorot
+	color = { 134 208 235 }
+	
+	country_type = decentralized
+	religion = animist
+	tier = principality
+	
+	cultures = { filipino }
+	capital = STATE_LUZON
 }
 JND = { #Janid Empire
 	color = { 16 90 53 }
@@ -139,6 +179,16 @@ KHA = { #Khalkha Mongols
 	cultures = { mongol }
 	capital = STATE_URGA
 }
+KED = { #Kedah Sultanate
+	color = { 130 180 140 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { malay }
+	capital = STATE_NORTHERN_MALAYA
+}
 LAZ = { #Lazarine Islands / Lazarines
 	color = { 220 180 85 }
 	
@@ -146,8 +196,28 @@ LAZ = { #Lazarine Islands / Lazarines
 	
 	tier = kingdom
 	
-	cultures = { filipino aquitanian }
-	capital = STATE_LUZON
+	cultures = { aquitanian lazarin  }
+	capital = STATE_MINDANAO
+}
+LNO = { #Lanao
+	color = { 4 174 134 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { moro }
+	capital = STATE_MINDANAO
+}
+LPG = { #Lampung Kingdom
+	color = { 45 10 120 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { sundan sumatran } #change to sundan at some point
+	capital = STATE_WEST_JAVA
 }
 LRT = { #Larantuka
 	color = { 104 174 134 }
@@ -156,7 +226,7 @@ LRT = { #Larantuka
 	
 	tier = kingdom
 	
-	cultures = { moluccan }
+	cultures = { eurasian }
 	capital = STATE_SUNDA_ISLANDS 
 }
 MDR = { #Madurai
@@ -188,6 +258,16 @@ MKB = { #Minangkabau
 	
 	cultures = { sumatran }
 	capital = STATE_NORTH_SUMATRA
+}
+MKS = { #Makassar
+	color = { 200 15 15 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { bugismakassar sulewesian }
+	capital = STATE_CELEBES 
 }
 MRK = { #Mrauk U
 	color = { 95 35 160 }
@@ -239,15 +319,35 @@ NNY = { #Nanyue / Southern Yue
 	cultures = { han yue min } 
 	capital = STATE_GUANGDONG
 }
-PRI = { #Prani
-	color = { 130 150 130 }
+NST = { #Nanseito-do
+	color = { 83 160 183 }
+	
+	country_type = colonial
+	
+	tier = kingdom
+	
+	cultures = { japanese }
+	capital = STATE_FORMOSA
+}
+PAJ = { #Pajaran Sunda Kingdom
+	color = { 20 100 12 }
 	
 	country_type = unrecognized
 	
-	tier = principality
+	tier = kingdom
 	
-	cultures = { burmese }
-	capital = STATE_BURMA
+	cultures = { sundan } #change to sundan at some point
+	capital = STATE_WEST_JAVA
+}
+PBG = { #Palembang Sultanate
+	color = { 200 100 30 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { malay sumatran } #change to sundan at some point
+	capital = STATE_RIAU
 }
 QIN = {	#Qin China
 	color = { 120 149 163 }
@@ -279,7 +379,7 @@ SBJ = { #Sama-Bujau
 	cultures = { moro }
 	capital = STATE_MINDANAO
 }
-SIA = {
+SIA = { #Korat Kingdom
 	color = { 88  137  172 }
 	
 	country_type = unrecognized
@@ -289,25 +389,25 @@ SIA = {
 	cultures = { thai }
 	capital = STATE_NAKHON_RATCHASIMA
 }
-SLT = { #Selat Sultanate
-	color = { 240 220 80 }
-	
-	country_type = unrecognized
-
-	tier = kingdom
-	
-	cultures = { malay }
-	capital = STATE_MALAYA
-}
-SRW = { #Sarawak
+SRW = { #Santubong/Sarawak
 	color = { 240 130 230 }
 	
 	country_type = unrecognized
 	
 	tier = kingdom
 	
-	cultures = { bornean }
+	cultures = { malay dayak }
 	capital = STATE_WEST_BORNEO 
+}
+SUK = { #Sukadana
+	color = { 240 220 80 }
+	
+	country_type = unrecognized
+	
+	tier = kingdom
+	
+	cultures = { malay dayak }
+	capital = STATE_WEST_BORNEO
 }
 SUR = { #Surabaya
 	color = { 130 140 165 }
@@ -400,13 +500,14 @@ YAR = { #Yarkent Khanate
 	cultures = { uighur }
 	capital = STATE_TIANSHAN
 }
-ZBG = { #Zamboanga
-	color = { 134 208 235 }
+ZOG = { #Zogam
+	color = { 235  225  95 }
 	
 	country_type = unrecognized
-	
+
 	tier = principality
 	
-	cultures = { moro hispanian } #Add some kind of Zamboangueño mestizo culture?
-	capital = STATE_MINDANAO
+	cultures = { zo }
+	capital = STATE_KACHIN
+	is_named_from_capital = yes
 }
