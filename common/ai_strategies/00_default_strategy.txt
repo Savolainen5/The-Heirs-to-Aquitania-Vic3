@@ -2956,7 +2956,7 @@ ai_strategy_default = {
 #						has_variable = opium_wars_target
 #					}
 #					scope:target_state = {
-#						state_region = s:STATE_NAKHON_SRI_THAMMARAT #Replace with some Chinese state if this is used
+#						state_region = s:STATE_NAKHON_SI_THAMMARAT #Replace with some Chinese state if this is used
 #					}					
 #				}
 #				add = 1000

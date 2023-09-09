@@ -142,7 +142,7 @@
 			}
 		}
 	}
-	s:STATE_NAKHON_SRI_THAMMARAT = {	#Might need to be reworked - need proper figures for Pattani (I think I have these on hand) and the rest of Southern Thailand
+	s:STATE_NAKHON_SI_THAMMARAT = {	#Might need to be reworked - need proper figures for Pattani (I think I have these on hand) and the rest of Southern Thailand
 		region_state:SIA = {
 			create_pop = {	#replaced the Burmese here in base game to account for Malay minorities in Southern Thailand
 				culture = malay

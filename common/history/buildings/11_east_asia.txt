@@ -159,7 +159,7 @@
 			}
 		}
 	}
-	s:STATE_NAKHON_SRI_THAMMARAT={
+	s:STATE_NAKHON_SI_THAMMARAT={
 		region_state:SIA={
 			create_building={
 				building="building_government_administration"

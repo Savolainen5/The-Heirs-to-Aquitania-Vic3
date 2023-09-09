@@ -2,9 +2,11 @@
 	c:JAP = {
 		effect_starting_technology_tier_4_tech = yes
 
+#		add_technology_researched = academia
 		add_technology_researched = urban_planning
 		add_technology_researched = centralization
 		add_technology_researched = law_enforcement
+		add_technology_researched = colonization
 
 		set_tax_level = medium
 		
@@ -24,6 +26,10 @@
 		set_institution_investment_level = {
 			institution = institution_police
 			level = 1
+		}
+
+		add_modifier = {
+			name = modifier_japanese_colonial_adventures
 		}
 
 		ig:ig_armed_forces = {

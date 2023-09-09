@@ -101,6 +101,7 @@
 
  STATE_GYREFENA: "Gyrefena"
 
+
  ##Europe##
 
  #Aengland
@@ -147,8 +148,6 @@
  STATE_BETICA: "Bética"
  STATE_CINETICO: "Cinético"
 
- STATE_SARDINIA: "Maretan Islands" #Or maybe it should be something like Corsica & Sardinia
-
  #Roman Empire
  STATE_EPIRUS: "Epirus" #Or maybe Nicopolis would be better?
  STATE_HELLAS: "Hellas"
@@ -165,3 +164,14 @@
  STATE_CHALACHIA: "Chalachia" #My attempt at coming up for a region named after not-Erzurum, which could be Turkish Kalakı perhaps. It's pretty dang similar to the above state though
  STATE_BOUKELLARION: "Boukellarion"
  STATE_CILICIA: "Cilicia"
+
+ ##ASIA##
+
+ STATE_NORTHERN_MALAYA: "Northern Malaya"
+ STATE_SOUTHERN_MALAYA: "Southern Malaya"
+ STATE_SOUTH_BORNEO: "South Borneo"
+ STATE_RIAU: "Riau"
+ STATE_WEST_SUMATRA: "West Sumatra"
+ STATE_NAMTRUNG: "Namtrung"
+ STATE_KENGTUNG: "Kengtung"
+ STATE_NAKHON_SI_THAMMARAT: "Nakhon Si Thammarat"
