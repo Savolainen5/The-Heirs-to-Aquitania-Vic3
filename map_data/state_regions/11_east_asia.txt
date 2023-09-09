@@ -801,7 +801,7 @@ STATE_NAKHON_RATCHASIMA = {
     naval_exit_id = 3053
 }
 
-STATE_NAKHON_SRI_THAMMARAT = {
+STATE_NAKHON_SI_THAMMARAT = {
     id = 483
     subsistence_building = "building_subsistence_farms"
     provinces = { "x173AAB" "x1BB979" "x2231CD" "x289F37" "x31852E" "x47B039" "x5070E0" "x6D56E2" "x7F8C95" "x9E6CEE" "xA060D0" "xBE9208" "xC0362D" "xC6D6FB" "xD070DF" "xFB4ADA" }

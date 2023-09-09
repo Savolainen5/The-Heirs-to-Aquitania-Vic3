@@ -1,0 +1,4 @@
+﻿modifier_japanese_colonial_adventures = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+	country_max_declared_interests_add = 1
+}
